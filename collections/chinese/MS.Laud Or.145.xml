@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Chin.d.78</title>
+                <title>MS.Laud Or.145</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -43,7 +43,10 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Chin.d.78</idno>
+                        <idno type="shelfmark">MS.Laud Or.145</idno>
+                        <altIdentifier type="former">
+                            <idno>Arch.O.d.41</idno>
+                        </altIdentifier>
                         
                     </msIdentifier>
                     
@@ -56,7 +59,7 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title key="">順風相送 不分卷</title>
-                            <title>Shun feng xiang song</title>
+                            <title>Shun feng xiang song，Laud Rutter</title>
                             <author key="">佚名撰</author>
                             <author key="">Unidentified</author>
                             <incipit>昔者周公設造指南之法，通自古今流行久遠，中有山形水勢，抄描啚寫終誤，或更數增減無有之或籌頭差別，無有之其古本年深破壞有無，難以比對。後人若抄寫從真本惟恐悞事予因暇日將更籌比對稽考通行較日於</incipit>
@@ -131,14 +134,15 @@
                             <rubric>泉州往彭家施闌<locus type="folio">folio.60v</locus></rubric>
                             <rubric>泉州往杉木<locus type="folio">folio.61r</locus></rubric>
                             <rubric>杉木回浯嶼<locus type="folio">folio.61v</locus></rubric>
-                            <rubric>福建往琉球<locus type="folio">folio.62r</locus></rubric>
+                            <rubric>福建往琉球("釣魚嶼"is in this part)<locus type="folio">folio.62r</locus></rubric>
                             <rubric>琉往日本針路球<locus type="folio">folio.63r</locus></rubric>
                             <rubric>兵庫港回琉球針路<locus type="folio">folio.63v</locus></rubric>
                             <rubric>琉球回福建<locus type="folio">folio.64r</locus></rubric>
                             <rubric>日本港山水形勢<locus type="folio">folio.64v</locus></rubric>
+        
                             <filiation>中外孤本 only surviving copy</filiation>
                              </msItem>
-                        <!-- insert further msItem elements as appropriate -->
+                       
                     </msContents>
                     <physDesc>
                         
@@ -149,7 +153,7 @@
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
+                        -->                           <height>26</height>
                                         <width>？</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
@@ -181,7 +185,7 @@
                         
                         <bindingDesc>
                             <binding when="1600"><!-- use dating attributes to record the date -->
-                                <p>彩色硬面，包背裝</p>
+                                <p>彩色硬面，洋裝，原缐裝</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
