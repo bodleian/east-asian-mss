@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sinica 3242</title>
+                <title>Sinica 3243</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,20 +44,20 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Sinica 3242</idno>
+                        <idno type="shelfmark">Sinica 3243</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>標題不明，該手抄本内容為道教及佛教相關内容</summary>
+                        <summary>標題不明，該手抄本内容為道教相關内容</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="" type="desc">Sinica 3242</title>
+                            <title key="" type="desc">Sinica 3243</title>
                             
                             
                             <incipit>如來佛爺洪照如來佛也大赦釋迦佛爺洪照顧釋迦佛爺大赦覌音娘嬢洪照覌音娘嬢大赦三元主品三官大帝洪照三元主品三官大帝大赦注澊判官洪照注澊判官大赦今日今時報來上聖皇皇洪照赦之<locus type="page"> p.1</locus></incipit>
@@ -78,8 +78,8 @@
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>16.7</height>
-                                        <width>12.1</width>
+                        -->                           <height>15.8</height>
+                                        <width>10.3</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -87,7 +87,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>手抄本，無邊框。無標題，每半頁分八行，每行約含十五字，正文黑色墨水小字單行抄寫。</layout>
+                                <layout>手抄本，無邊框。無標題，每半頁分七行，每行約含十七字，正文黑色墨水小字單行抄寫。</layout>
                                 
                             </layoutDesc>
                         </objectDesc>
@@ -107,7 +107,7 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                無封皮無封底，内頁有多處塗改。</decoNote>
+                                無封皮無封底，内頁有缺損。</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
