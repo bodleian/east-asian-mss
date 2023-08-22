@@ -57,7 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>calligraphy</title>
+                            <title type="desc">calligraphy</title>
                             <incipit>是屏十二方裝成六幅上有歷朝諸名家跋殊為世寶罕見之物也珎藏家當采知若何貴重因呂識之<persName>王時敏</persName>所題</incipit>
                             <incipit>吾嘗觀歷代書家之名重罕少則逸少為最也此屏真跡可愛之至借觀竟日題此識之<persName type="號">甌香閣主</persName><persName>壽平</persName></incipit>
                             <incipit>逸少書黃庭綞時天上神仙亦有感動其精妙可想而知也<persName>柳公權</persName>題</incipit>
@@ -119,7 +119,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
-                                <decoNote>立軸，二色裱，天頭地脚為深棕色帶黃色提花絲織物，上下隔水為藍色絲織物，每段書法分別爲不同兩位書法家書寫。</decoNote>
+                                <decoNote>立軸，二色裱，天頭地脚為深棕色帶黃色提花絲織物，上下隔水為藍色絲織物，每段書法分別爲不同作者書寫，也可能是一人以不同字體書寫</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
