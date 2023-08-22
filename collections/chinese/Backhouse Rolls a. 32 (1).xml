@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 32 (2)</title>
+                <title>Backhouse Rolls a. 32 (1)</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,7 +44,7 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 32 (2)</idno>
+                        <idno type="shelfmark">Backhouse Rolls a. 32 (1)</idno>
                         
                         
                     </msIdentifier>
@@ -60,11 +60,8 @@
                             
                             <title type="desc">calligraphy</title>
                             <author key="Chinese">愛新覺羅永瑆</author>
-                            <incipit>月暎珠光貝闕寒</incipit>
-                            <incipit>皇十一子書</incipit>
-                            <incipit type="seal">皇考書印</incipit>
-                            <incipit type="seal">敬慎</incipit>
-            
+                            <incipit>雲生紫殿幡花濕</incipit>
+                            
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -115,7 +112,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，裝裱方式為一色裱，天頭地脚及邊框為藍色黃色綠色有花紋絲織物。書法寫與黃色有花紋絲織物上。背面天杆処有”皇十一子付”字樣</decoNote>
+                                <decoNote>立軸，裝裱方式為一色裱，天頭地脚及邊框為藍色黃色綠色有花紋絲織物。書法寫與黃色有花紋絲織物上。背面天杆処有”皇十一子付”字樣。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -137,7 +134,7 @@
                             <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清中期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the top of the back of the scroll, some text are probably written by Backhouse. On the right is “Autograph of Prince Cheng, Chienlung’s son …”. 
+                        <provenance>On the top of the back of the scroll [Backhouse Rolls a. 38 (2)], some text are probably written by Backhouse. On the right is “Autograph of Prince Cheng, Chienlung’s son …”. 
                             “Pair of scrolls by Cheng Ching  Pung ?eng who was the 11 son of Emperor Chienlung, who is considered as one of the four great calligrapher of present dynasty”.
                             “jing Weng Fang Rong ching chao”.
                             
