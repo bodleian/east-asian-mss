@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS. Chin. b. 13</title>
+                <title>MS. Chin. a. 10</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,30 +44,30 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS. Chin. b. 13</idno>
+                        <idno type="shelfmark">MS. Chin. a. 10</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A horizontal scroll of calligraphy in the Xing Shu style, written by Chen Yuan (陳垣1880-1971). The text is from the 夷夏篇第十六 section of the book titled 通鑒胡注表微, authored by Chen Yuan.</summary>
+                        <summary>A horizontal scroll of calligraphy in the Kai Shu style, written by Qianlong Emperor (1711-1799) of Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>通鑒胡注表微</title>
-                            <title type="subtitle">夷夏篇第十六</title>
-                            <author key="Chinese">陳垣（1880-1971）</author>
-                            <incipit>夷夏者謂夷與夏之觀念在今語為民族意識。</incipit>
-                            <explicit>身之生民族意識顯著之故能瞭解而發揮之非其世讀其書不知其意味之深長也。</explicit> 
-                            <explicit>有通鑒胡注表微夷夏篇敘</explicit>
-                            <explicit><date>丁亥秋分</date>流方錄呈</explicit>
-                            <explicit><persName>榮武先生</persName>正之</explicit>
-                            <explicit><placeName>新倉</placeName><persName>陳垣</persName></explicit>
-
-                            <filiation>書法橫批，中外孤本。</filiation>  
+    
+                            <title type="desc">calligraphy</title>
+                            <author key="Chinese">乾隆皇帝（1711-1799)</author>
+                            <incipit>敬慎勤字</incipit>
+                            <incipit type="seal">德日新</incipit>
+                            <incipit type="seal">乾隆寳翰</incipit>
+                            <incipit type="seal">陶冶性靈</incipit>
+                            <explicit><date>壬午暮春</date>御筆</explicit>
+                            <explicit type="題簽">乾隆御筆字一捲</explicit>
+                            
+                            <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
@@ -90,7 +90,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法橫披，紙本。裝裱方式為一色裱，紙本裝裱在白色絲織物上。</layout>
+                                <layout>書法卷軸，絹本。裝裱方式為一色裱，絹本裝裱在白色絲織物上。</layout>
                                 
                             </layoutDesc>
                             
@@ -98,7 +98,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, regular) calligraphic style by Chen Yuan (陳垣（1880-1971).
+                                Text written in 楷書 (kai shu, regular) calligraphic style by Qianlong Emperor.
                             </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
@@ -114,9 +114,9 @@
                         </decoDesc>
                         
                         <bindingDesc>
-                            <binding when="1900"><!-- use dating attributes to record the date -->
-                                <p>橫披</p>
-                                <decoNote>橫披，一色裱，紙本裝裱在白色絲織物上。</decoNote>
+                            <binding when="1800"><!-- use dating attributes to record the date -->
+                                <p>卷軸</p>
+                                <decoNote>卷軸，裝裱方式為一色裱，天頭與地脚為白色有花紋絲織物。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -135,7 +135,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">1940及以後</origDate>
+                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">1735年及以後</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
