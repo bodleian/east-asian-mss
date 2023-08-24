@@ -73,15 +73,15 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
-                                        <width>？</width>
+                        -->                            <height>65.8 cm</height>
+                                        <width>13.2 cm</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -89,7 +89,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴.墨色书写</layout>
+                                <layout>书法卷轴,絹本,墨色书写。</layout>
                                 
                             </layoutDesc>
                             
@@ -113,8 +113,8 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>卷軸</p>
-                                <decoNote>立軸，分爲上下兩部分，分別爲不同兩位書法家書寫。每部分分爲三行，每行八字。</decoNote>
+                                <p>立軸</p>
+                                <decoNote>立軸，二色裱,天頭地脚為藍色絲織物，天頭高12.3cm，地脚高7.4cm。上下隔水為淺藍色絲織物，上隔水高18.8cm，下隔水高12.5cm。邊框寬4.5cm。畫心為米色絹本，分爲上下兩部分，分別爲不同兩位書法家書寫。每部分分爲三行，每行八字。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>

@@ -70,15 +70,15 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
-                                        <width>？</width>
+                        -->                           <height>90</height>
+                                        <width>185</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -86,7 +86,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>立轴,墨色书写。肅親王落款下印有朱紅色“肅親王”私印。</layout>
+                                <layout>立轴,墨色书写。肅親王落款下印有朱紅色“肅親王”私印。部分可見破損。 fragile，some damage.</layout>
                                 
                             </layoutDesc>
                             
@@ -94,7 +94,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                Text written in 楷體 (kai shu, regular) calligraphic style.</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
