@@ -53,13 +53,13 @@
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
                         <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Wang Renkan (王仁堪),and the other by Wang Wenjin (王文錦). 
                             王仁堪（1849-1893），字可莊，又字忍菴，號公定，閩縣人，光緒三年（1877）狀元，後授翰林院修撰.歷任提督山西學政，貴州、江南、廣東鄉試副考官，後任武英殿纂修等職。
-                            王文錦，字云舫，直隸天津人同治十年（1871）進士，二甲五十三名。</summary>
+                            王文錦（生卒年不詳），字云舫，直隸天津人同治十年（1871）進士，二甲五十三名。</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>unknown</title>
+                            <title type="desc">calligraphy</title>
                             <author key="Chinese">臣<persName>王仁堪</persName>敬書</author>
                             <incipit>期仙磴者，蓋危磴穹窿，迥接雲路，靈仙仿彿，若可期及。</incipit>
                             <note>該詩句摘自《草堂十志》，作者為明代<persName>文徵明</persName></note>

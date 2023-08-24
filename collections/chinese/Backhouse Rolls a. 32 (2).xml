@@ -73,7 +73,7 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="橫批"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>絹本</support>
                                 <extent>1 scroll
@@ -139,9 +139,7 @@
                         </origin>
                         <provenance>On the top of the back of the scroll, some text are probably written by Backhouse. On the right is “Autograph of Prince Cheng, Chienlung’s son …”. 
                             “Pair of scrolls by Cheng Ching  Pung ?eng who was the 11 son of Emperor Chienlung, who is considered as one of the four great calligrapher of present dynasty”.
-                            “jing Weng Fang Rong ching chao”.
-                            
-                        </provenance>
+                            “jing Weng Fang Rong ching chao”. </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->

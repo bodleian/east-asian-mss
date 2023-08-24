@@ -81,8 +81,8 @@
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
-                                        <width>？</width>
+                        -->                           <height>175</height>
+                                        <width>35.5</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -90,7 +90,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>中國畫卷軸，彩色</layout>
+                                <layout>中國畫卷軸，紙本，設色。Fragile, restricted access.</layout>
                                 
                             </layoutDesc>
                             
@@ -114,8 +114,8 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>立軸</p>
-                                <decoNote>立軸，單色裱，邊框為藍色絲織物。</decoNote>
+                                <p>卷軸</p>
+                                <decoNote>小鑲手卷，單色裱，天地為藍色絲織物，隔水為白色。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -134,7 +134,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1600" notBefore="1300" calendar="Gregorian">從八仙特徵推斷不早于明代，從山石樹木的色彩判斷可能是晚明作品。</origDate>
+                            <origDate notAfter="1600" notBefore="1300" calendar="Gregorian">從八仙特徵推斷不早于明代，從山石樹木的色彩判斷可能是清代中期或以前作品。</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance> </provenance>

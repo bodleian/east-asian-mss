@@ -58,7 +58,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>unknown</title>
+                            <title type="desc">calligraphy</title>
                             <author key="Chinese">臣<persName>曹洪勛</persName>敬書</author>
                             <incipit>月彩浮鸞殿，鍾聲隔鳳樓。笙歌臨水檻，紅燭乍迎秋。</incipit>
                             <note>該詩句摘自《雜曲歌辭.宮中樂》，作者為唐代<persName>張仲素</persName></note>

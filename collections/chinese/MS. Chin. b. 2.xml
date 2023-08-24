@@ -68,23 +68,23 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>1 scroll
+                                <extent>畫心
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
-                                        <width>？</width>
+                        -->                           <height>36.2</height>
+                                        <width>354.5</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
-                                
+                               
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>卷軸，紙本，設色</layout>
+                                <layout>卷軸，紙本，設色。此軸觀看順序為從左至右。Fragile, restricted access</layout>
                                 
                             </layoutDesc>
                         </objectDesc>
@@ -92,7 +92,7 @@
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
                                 Text written in 楷體 (kai shu, regular) calligraphic style.The text is found on the lanterns depicted in the scroll.
-                                此圖描繪清代婚禮的送親環節，從畫卷的人物裝束上可以推斷出該畫年代為清代初期。從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“奉直大夫正府”字樣。</handNote>
+                                此圖描繪清代婚禮的送親環節，從畫卷的人物裝束上可以推斷出該畫年代為清代乾隆之前。從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“奉直大夫正府”字樣。注：奉直大夫為從五品散階。</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -104,7 +104,7 @@
                      -->
                         </musicNotation>
                         <decoDesc>
-                            <decoNote>卷軸，三色裱，隔水為淺藍色，副隔水為白色，畫心四周邊框為淡黃色。錦包首為粉色絲織物伴有紅，綠，黃三色花紋，題簽為白色，無字空白。
+                            <decoNote>小鑲卷軸，三色裱，天為淺藍色絲織物，寬31.6cm。隔水為白色絲織物，寬9.4cm。引首為淡黃色絲織物，寬57.6cm。撞邊為白色絲織物，寬9.6cm。錦包首為粉色絲織物伴有紅，綠，黃三色花紋，題簽為白色汎黃絲織物，無字空白。
                                </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
