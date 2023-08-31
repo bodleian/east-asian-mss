@@ -61,8 +61,12 @@
                             <title type="desc">calligraphy</title>
                             <author key="Chinese">臣<persName>王文錦</persName>敬書</author>
                             <incipit>閶闔春風起，蓬萊雪水消。相將折楊柳，爭取最長條。</incipit>
+                            <incipit type="seal">臣王文錦</incipit>
+                            <incipit type="seal">敬書</incipit>
                             <note>該詩句摘自《琴曲歌辭蔡氏五弄游春辭三首》，作者為唐代<persName>令狐楚</persName></note>
                             <author key="Chinese">臣<persName>曹洪勛</persName>敬書</author>
+                            <incipit type="seal">臣曹洪勛</incipit>
+                            <incipit type="seal">敬書</incipit>
                             <incipit>玉砌紅花樹，像風不散吹。春光觧天意，偏發殿南枝。</incipit>
                             <note>該詩句為唐代<persName>盧綸</persName>所作《儋天長久詞》。</note>
                             

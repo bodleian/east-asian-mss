@@ -62,9 +62,12 @@
                             <title type="desc">calligraphy</title>
                             <author key="Chinese">臣<persName>王仁堪</persName>敬書</author>
                             <incipit>期仙磴者，蓋危磴穹窿，迥接雲路，靈仙仿彿，若可期及。</incipit>
+                            <incipit type="seal">敬書</incipit>
                             <note>該詩句摘自《草堂十志》，作者為明代<persName>文徵明</persName></note>
                             <author key="Chinese">臣<persName>王文錦</persName>敬書</author>
                             <incipit>瑞露垂花綬寒冰澈寳輪對兹臺上月共以慶良辰。</incipit>
+                            <incipit type="seal">臣王文錦</incipit>
+                            <incipit type="seal">敬書</incipit>
                             <note>該詩句為唐代<persName>李隆基</persName>所作《千秋節賜群臣鏡》。</note>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
