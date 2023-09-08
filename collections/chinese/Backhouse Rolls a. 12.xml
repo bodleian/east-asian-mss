@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 2</title>
+                <title>Backhouse Rolls a. 12</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,24 +44,27 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 2</idno>
+                        <idno type="shelfmark">Backhouse Rolls a. 12</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese calligraphy written in Xingshu style by Zhang Zhao (張照，1691-1745).</summary>
+                        <summary>A hanging scroll of Chinese calligraphy written in Kaishu style. Based on the seal and the note written by Backhouse, it is likely to be written by Jiajing Emperor (1760-1820) of Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title>立軸</title>
-                            <author key="Chinese">張照 （1691-1745）</author>
-                            <incipit>洞遲湖裏君山巔笑籋游人履屐穿欲見神仙無問處秦松五樹碧黍天</incipit>
-                            <incipit><persName>張照</persName></incipit>
-                            <explicit type="題簽">autograph of Chang Chao，grand secretary of scholar in chanlung's reign，for：1750. a very valuable scroll.</explicit>
+                            <author key="Chinese">乾隆皇帝 (1711-1799)</author>
+                            <incipit>演字曾無六經見由來訓習久沿訛可因已罷數年閱未得仍停此日過實以劭農爰再舉亦堪擒藻事重哦自強不息傳羲象斯郎一端切己多</incipit>
+                            <incipit>演耕毕臨憩有作</incipit>
+                            <incipit><date>甲午暮春</date>御筆</incipit>
+                            <incipit type="seal">乾隆御筆</incipit>
+                            <incipit type="seal">正誼明道</incipit>
+                            <explicit type="題簽">乾隆御筆</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -110,7 +113,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>宣和裝，天頭地脚為淺藍色有花紋絲織物，上下隔水和驚燕是米白色有花紋絲織物。畫心為汎黃紙本，有水印，有破損修復痕跡。</decoNote>
+                                <decoNote>立軸,二色裱。天頭地脚和邊是藍色絲織物，有祥雲騰龍花紋，隔水是米白色有花紋絲織物。書法寫與黃色紙本上。立軸背面有米黃色絲織物錦包首，天杆処有題簽，上有中文字跡“乾隆御筆”。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -129,7 +132,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清代</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1774</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance> </provenance>
