@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls. a.16</title>
+                <title>Backhouse Rolls a. 24</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,52 +44,46 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls. a.16</idno>
+                        <idno type="shelfmark">Backhouse Rolls a. 24</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll depecting tree peony flowers by <persName>Yun Shou Ping</persName>(1633-1690). 牡丹書畫挂軸，作者為清代<persName>惲壽平</persName>（1633-1690）。</summary>
+                        <summary>A hanging scroll of Chinese painting created by Yi Kuang, Prince Qing of Qing dynasty. 書畫挂軸，扇面二幅，一幅為團扇扇面，一幅為摺扇扇面，作者為慶親王奕劻 （1838-1917）。</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="desc">牡丹書畫軸</title>
-                            <title key="desc">牡丹</title>
-                            <author key="Chinese">惲壽平 （1633-1690）</author>
-                            <incipit >曾依瑤圃三珠樹長護蓬萊五色云</incipit>
-                            <incipit><persName type="號">甌香馆</persName>橅宋人法南田<persName>惲壽平</persName></incipit>
-                            <incipit>白頭一倍惜年華，到處敲門只看花。
-                                     榮艷紅芳三百朵，雕闌色暎日鈎斜。</incipit>
-                            <incipit type="seal">壽平之印</incipit>
-                            <incipit type="seal">南田小隱</incipit>
-                            <incipit type="seal">叔平</incipit>
-                            <incipit><persName>曾賔谷</persName>為楊州都轉詠牡丹押娃字
-                                     韻一時和者多涉牽强余有句云酴
-                                     餘扶倩唐宮婢貴後稀驚越國娃
-                                     觀者咸稱歡以爲妙得天然</incipit>
-                            <incipit type="seal">王氏禹州</incipit>
-                            <incipit type="seal">夢樓</incipit>
-                            <explicit><date>庚戌夏四月既望</date><persName>文治</persName></explicit>
-                            <filiation>書畫立軸，中外孤本。</filiation>  
+                            <title>立軸</title>
+                            <author key="Chinese">奕劻 （1838-1917）</author>
+                            <title key="subtitle">團扇扇面</title>
+                            <incipit>戊辰夏日畫於<placeName>溪為齋</placeName><persName>奕劻</persName></incipit>
+                            <incipit type="seal">輔廷</incipit>
+                            <incipit type="seal">詩書之頂</incipit>
+                            <title key="subtitle">摺扇扇面</title>
+                            <incipit>同治丙寅夏日寫與<placeName>怡齋</placeName><persName>輔廷劻</persName></incipit>
+                            <incipit type="seal">奕劻</incipit>
+                            <explicit type="錦包首">慶邸小拙</explicit>
+                            <explicit type="錦包首">341 to catalogue. painting by prince Ch'ing/prince minister face the Revolution.</explicit>
+                            <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>135.7</height>
-                                        <width>49</width>
+                        -->                           <height>？</height>
+                                        <width>？</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -97,7 +91,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書畫卷軸，紙本，設色。裝裱方式為宣和裝。</layout>
+                                <layout>书畫卷轴.墨色书写</layout>
                                 
                             </layoutDesc>
                             
@@ -105,9 +99,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, regular) calligraphic style.Text on upper part of the scroll written in is written by Wang Wenzhi (王文治，1730-1802), while the text on left side of the tree peony is by Yun Shouping (惲壽平, 1633-1690).
-                                挂軸上部的文字作者為王文治，落款為“文治”并配兩枚印章“王氏禹州”和“夢樓”。挂軸左半部的文字為畫家惲壽平書寫。
-                            </handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -124,7 +116,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，裝裱方式為宣和裝，天頭與地脚為藍色有花紋絲織物，上、下隔水為白色絲織物。畫心上半部由灑金宣紙構成，書法由王文治書寫，下半部載體為絲織物，書畫作者為王文治。在挂軸天杆位置的背面有貼有題簽上書“惲壽平畫”字樣。</decoNote>
+                                <decoNote>二色裱，天頭地脚淺藍色絲織物，上下隔水是白色紙本，有摺痕。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -143,11 +135,11 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1700" notBefore="1600" calendar="Gregorian">1670</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1860</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1866</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>The painting was created by Yun Shouping (惲壽平). It was once collected by Wang Wenzhi (王文治，1730-1802), who provided commentary on the painting in 1790, as indicated by the inscription "庚戌夏四月既望 文治" on the painting.
-                   </provenance>
+                        <provenance> </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
