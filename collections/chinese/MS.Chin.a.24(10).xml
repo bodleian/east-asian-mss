@@ -88,7 +88,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semicursive) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -119,8 +119,8 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>China</country>,
-                                <region>湖北省 Hubei Province</region>,
-                                <settlement>漢口 Hankou（Hankow）</settlement>,
+                                <region>湖北省 Hu bei Province</region>,
+                                <settlement>漢口 Han kou（Hankow）</settlement>,
                                 
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒二十年[1894]</origDate>

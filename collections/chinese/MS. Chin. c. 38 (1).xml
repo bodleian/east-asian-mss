@@ -57,7 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>對聯-下聯</title>
+                            <title type="對聯">對聯 下聯</title>
                             <author key="Chinese">孝胥</author>
                             <incipit>魯君博覽</incipit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
