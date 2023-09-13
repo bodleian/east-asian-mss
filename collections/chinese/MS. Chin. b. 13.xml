@@ -61,11 +61,11 @@
                             <title type="subtitle">夷夏篇第十六</title>
                             <author key="Chinese">陳垣（1880-1971）</author>
                             <incipit>夷夏者謂夷與夏之觀念在今語為民族意識。</incipit>
-                            <explicit>身之生民族意識顯著之故能瞭解而發揮之非其世讀其書不知其意味之深長也。</explicit> 
-                            <explicit>有通鑒胡注表微夷夏篇敘</explicit>
-                            <explicit><date>丁亥秋分</date>流方錄呈</explicit>
-                            <explicit><persName>榮武先生</persName>正之</explicit>
-                            <explicit><placeName>新倉</placeName><persName>陳垣</persName></explicit>
+                            <incipit>身之生民族意識顯著之故能瞭解而發揮之非其世讀其書不知其意味之深長也。</incipit> 
+                            <incipit>有通鑒胡注表微夷夏篇敘</incipit>
+                            <incipit><date>丁亥秋分</date>流方錄呈</incipit>
+                            <incipit><persName>榮武先生</persName>正之</incipit>
+                            <incipit type="款識">新倉陳垣</incipit>
 
                             <filiation>書法橫批，中外孤本。</filiation>  
                         </msItem>
@@ -135,7 +135,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">1940及以後</origDate>
+                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">1947</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
