@@ -59,10 +59,11 @@
                             <locus><!-- insert --></locus>
                             <title type="對聯">對聯 上聯</title>
                             <author key="Chinese">鄭孝胥</author>
+                            <note>郑孝胥，字苏戡、太夷，号苏勘、苏庵、海藏楼主人、夜起庵叟等，福建闽县人,光绪八年举人。</note>
                             <incipit>郭揣徹言</incipit>
                             <incipit type="seal">蘇戡</incipit>
                             <incipit type="seal">鄭氏孝胥</incipit>
-                            <explicit>念兹仁兄大人雅正庚戌三月<persName>孝胥</persName></explicit>
+                            <incipit type="款識">念兹仁兄大人雅正庚戌三月<persName>孝胥</persName></incipit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
