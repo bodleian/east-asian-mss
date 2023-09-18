@@ -51,26 +51,28 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Xu Fu (徐郙),and the other by Gao Zhaozhong (高釗中). 
-                            徐郙（1838-1907），字壽蘅，號頌閣，江蘇嘉定人，同治元年（1862）狀元，先後授翰林院修撰，南書房行走，安徽學政，左都御史，兵部尚書，禮部尚書等職，拜協辦大學士，世稱徐相國。
-                            高釗中，字勉之，河南項城縣人，光緒二年（1876）丙子恩科進士。改庶吉士。光緒三年任翰林院編修，光緒八年任提督湖北學政，光緒十三年任上書房行走。光緒十五年，任授溥侗讀，次年，任提督雲南學政，
-                        光緒二十年，任翰林院侍讀。</summary>
+                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Xu Fu (徐郙, 1838-1907),and the other by Gao Zhaozhong (高釗中).</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title type="desc">calligraphy</title>
-                            <author key="Chinese">臣<persName>徐郙</persName>敬書</author>
+                            <author key="Chinese">徐郙</author>
                             <incipit>《易》稱“辨物正言，斷辭則備”，《書》云“辭尚體要，弗惟好異”。</incipit>
+                            <incipit type="款識">臣<persName>徐郙</persName>敬書</incipit>
+                            <incipit type="seal">臣郙</incipit>
                             <incipit type="seal">敬書</incipit>
                             <note>該詩句摘自《文心雕龍》第二篇徵聖第二，作者為南齊<persName>劉勰</persName></note>
-                            <author key="Chinese">臣<persName>高釗中</persName>敬書</author>
+                            <author key="Chinese">高釗中</author>
                             <incipit>綠淨不可唾，此語足千古。天水澹相涵，中有數聲艣。</incipit>
+                            <incipit type="款識">臣<persName>高釗中</persName>敬書</incipit>
                             <incipit type="seal">臣高釗中</incipit>
                             <incipit type="seal">敬書</incipit>
                             <note>該詩句為明代<persName>高珩</persName>所作《祭告南岳雜詩其四》。</note>
-                            
+                            <note> 徐郙（1838-1907），字壽蘅，號頌閣，江蘇嘉定人，同治元年（1862）狀元，先後授翰林院修撰，南書房行走，安徽學政，左都御史，兵部尚書，禮部尚書等職，拜協辦大學士，世稱徐相國。
+                                高釗中（生卒年不詳），字勉之，河南項城縣人，光緒二年（1876）丙子恩科進士。改庶吉士。光緒三年任翰林院編修，光緒八年任提督湖北學政，光緒十三年任上書房行走。光緒十五年，任授溥侗讀，次年，任提督雲南學政，
+                                光緒二十年，任翰林院侍讀。</note>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -79,8 +81,8 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>silk</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         

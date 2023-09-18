@@ -51,25 +51,26 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Wang Wenjin(王文錦),and the other by Cao Hongxun (曹洪勋). 
-                            王文錦，字云舫，直隸天津人同治十年（1871）進士，二甲五十三名。曹洪勛，字仲銘，又字竹銘，號蘭生，濰縣人，光緒二年（1876）狀元。</summary>
+                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Wang Wenjin(王文錦),and the other by Cao Hongxun (曹洪勋).</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title type="desc">calligraphy</title>
-                            <author key="Chinese">臣<persName>王文錦</persName>敬書</author>
+                            <author key="Chinese">王文錦</author>
                             <incipit>閶闔春風起，蓬萊雪水消。相將折楊柳，爭取最長條。</incipit>
+                            <incipit type="款識">臣<persName>王文錦</persName>敬書</incipit>
                             <incipit type="seal">臣王文錦</incipit>
                             <incipit type="seal">敬書</incipit>
                             <note>該詩句摘自《琴曲歌辭蔡氏五弄游春辭三首》，作者為唐代<persName>令狐楚</persName></note>
-                            <author key="Chinese">臣<persName>曹洪勛</persName>敬書</author>
+                            <author key="Chinese">曹洪勛</author>
+                            <incipit>玉砌紅花樹，像風不散吹。春光觧天意，偏發殿南枝。</incipit>
+                            <incipit type="款識">臣<persName>曹洪勛</persName>敬書</incipit>
                             <incipit type="seal">臣曹洪勛</incipit>
                             <incipit type="seal">敬書</incipit>
-                            <incipit>玉砌紅花樹，像風不散吹。春光觧天意，偏發殿南枝。</incipit>
                             <note>該詩句為唐代<persName>盧綸</persName>所作《儋天長久詞》。</note>
-                            
+                            <note> 王文錦 (生卒年不詳)，字云舫，直隸天津人同治十年（1871）進士，二甲五十三名。曹洪勛(生卒年不詳)，字仲銘，又字竹銘，號蘭生，濰縣人，光緒二年（1876）狀元。</note>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -78,8 +79,8 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>silk</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
