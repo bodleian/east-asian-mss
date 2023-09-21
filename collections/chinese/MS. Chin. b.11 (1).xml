@@ -57,6 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title>PAN TSU-YING: [Two scrolls].</title>
                             <title>對聯-上聯</title>
                             <author key="Chinese">潘祖蔭 （1830-1890）</author>
                             <incipit>珠林墨妙三唐字</incipit>

@@ -59,7 +59,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>unknown</title>
+                            <title key="suplied title">Ink drawing of BUddhist figures (thirty monks and Arhats).</title>
                           <title type="desc">十八羅漢圖</title>
                             <title type="desc">龍</title> 
                             <title type="desc">虎</title>  

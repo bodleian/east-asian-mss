@@ -59,6 +59,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title>Yung lo ta tien. 1 vol. chűan 14607-09<date>1562</date><note>[for 18 other volumes and 1 volume photo-litho-graphic reproduction see MS.Chin.a.17-23; Ms.Backhouse 1(a-1).]</note></title>
                             <title key="">永樂大典:卷一萬四千六百七之一萬四千六百九</title>
                             <title>Yongle da dian: juan 14067-14609 </title>
                             <editor>解縉</editor>
@@ -152,10 +153,7 @@
                             "Peking 1900. One volume from a Chinese Encyclopaedia found in the ruins of the Hanlin Library during the Boxer rising, 1900... which the Chinese burnt in the expectation that it sflames would set fire to the adjacent British Legation buildings. T. Biggin." A letter tipped into the volume from Thomas Biggin dated 20 Feburary 1907 reads:"You will no doubt have received before this a volume from the Manchester Exhibition. It is part of a Chinese Encyclopaedia...I have two vols of it, one has been forwarded to you as above mentioned...in the belief that it is a book not altogether without interest for such an institution as the Bodleian." According to the letter, having asked if the Bodleian wanted it, Biggin had first sent it to "two exhibitions". There is no indication of what the second of these was, not of what happened to the second of his two volumes. The Bodleian volume is no.33981 in Madan's Summary catalogue of western manuscripts in the Bodleian Library, which confrims it sreceipt by the Library in 1907, but supplies no additional information. Also tipped into the volume is a letter from Lt. Col. J.G Birch in Cologne dated 5 November 1922, together with three photographs. The letter reads:" A few volumes were salved at the fire of the Han Lin College, Pekin in 1900; most of these were handed back to the Chinese Govt., but a very few were taken away by Europeans. One of these was presented by Giles to the Cambridge Univeirsity Library. These three volumes of which I send photos were salved by a German officer and are now for sale. I am naturally desirous that they should come into English hands. The Brit. Mus. say they would like them but have no money. if you are interested I should be pleased to act as an intermediary". The photographs are of the first pages of juan 920, 5343 and 13450. In the event, there three volumes were acquired by Leipzig University, and were returned to China by the government of the D.D.R.in December 1955. All three volumes are noe in Peking Library. Western binding, original covers missing. As shown in the Yuan Tongli's list, Zhang Chenshi's list and reproduction in the 1960/84 Zhonghua Shuju reprint. 
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in 1907</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
