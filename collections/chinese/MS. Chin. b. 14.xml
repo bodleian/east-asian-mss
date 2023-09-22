@@ -57,7 +57,8 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title key="supplied title">Calligraphic scroll: birthday greetings to the "guardian of the Heir Apparent" (order conferred postumously on Sir Robert Hart).</title>
+                            <title key="supplied title">立軸</title>
                             <author key="Chinese">unknown</author>
                             <incipit>杖進蒼鳩壽延遐算</incipit>
                             <explicit>宮保千秋榮慶</explicit>
@@ -131,7 +132,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>Order conferred posthumously on Sir Robert Hart, From the papers of Sir Robert Hart, purchased 9-ii-72 Mr George Greer.</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->

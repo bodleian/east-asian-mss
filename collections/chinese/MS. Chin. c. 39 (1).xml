@@ -57,8 +57,9 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">LIU YUNG:[Calligraphy: two scrolls].</title>
                             <title>對聯-下聯</title>
-                            <author key="Chinese">劉墉 （1719-1805）</author>
+                            <author key="Chinese">劉墉（1719-1805）</author>
                             <incipit>靜想高吟六義清</incipit>
                             <incipit type="款識">石菴</incipit>
                             <incipit type="seal">劉墉印信</incipit>

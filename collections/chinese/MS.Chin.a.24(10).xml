@@ -55,6 +55,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
                             <title key="">官契</title>
                             <title>Guan qi</title>
                             <incipit>漢陽府漢川縣船戶鄧慶如今有自己鴉稍船乙隻。在於漢口河下慿行承攬裝到福音堂潘、楊牧師名下行裡正載前往天門回往十五天交卸當日三面言定。</incipit>
@@ -126,14 +127,9 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒二十年[1894]</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            G. John and A. Bonsey
-                        </provenance>
+                        <provenance>Anthony Bradley</provenance>
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in April 2015.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>

@@ -49,12 +49,13 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Travel permits for A. Bonsey, 1887.</summary>
+                        <summary> travel permits for A. Bonsey, 1887, 1889, 1897.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
                             <title key="">護照</title>
                             <title>Hu zhao</title>
                             <rubric>大英欽命駐劄漢口管理本國通商事務領事官阿為</rubric>
@@ -132,14 +133,9 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒十五年[1889]</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            travel permits for A. Bonsey, issued on 11th April of 1889. Seals of Qing government is found on this travel permit, proving the travel record of its owner.    
-                        </provenance>
+                        <provenance>Anthony Bradley</provenance>
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in April 2015.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>

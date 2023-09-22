@@ -138,10 +138,7 @@
                         
                         
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in 1894</acquisition>
                     </history>
                     <additional>
                         <adminInfo>

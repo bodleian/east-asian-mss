@@ -57,6 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">WANG WEN-CHIN and others: Four calligraphic scrolls.</title>
                             <title type="desc">calligraphy</title>
                             <author key="Chinese">徐郙</author>
                             <incipit>《易》稱“辨物正言，斷辭則備”，《書》云“辭尚體要，弗惟好異”。</incipit>

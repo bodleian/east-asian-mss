@@ -49,12 +49,13 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>An anti-Christian tract.</summary>
+                        <summary>Copies of leaves (some with illustrations) from the anti-Christian work The cause of the riots in the Yangtse valley a complete picture gallery (Hankow, 1891)</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
                             <title key="">掃邪歌</title>
                             <title>Sao xie ge</title>
                             <rubric>三教齊心掃除邪說，徧刻徧傳喊醒明白 
@@ -131,14 +132,9 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒年間 [1875-1908]</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            A copied leaf from the anti-Christian work. The cause of the riots in the Yangtse valley a complete picture gallery (Hankow, 1891).       
-                        </provenance>
+                        <provenance>Anthony Bradley</provenance>
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in April 2015.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>

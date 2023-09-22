@@ -45,6 +45,9 @@
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
                         <idno type="shelfmark">MS.Chin.c.24</idno>
+                        <altIdentifier type="former">
+                            <idno>Chin.530p</idno>
+                        </altIdentifier>
                         
                         
                     </msIdentifier>
@@ -57,15 +60,13 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="supplied title">Taoist charms</title>
                             <title key="">符籙秘訣 不分卷有缺</title>
                             <title>fu lu mi jue， A secret manual of exorcism techniques</title>
                             <author key="">佚名撰</author>
                             <author key="">Unidentified</author>
                             <incipit>人張巡太保康應馘滅闗羽地祇溫？主之其瘟</incipit> 
-                            
-                            
-                            
-                        </msItem>
+                       </msItem>
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
@@ -138,17 +139,14 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1600" notBefore="1500" calendar="Gregorian">明嘉靖年間[1522-1566]</origDate>
+                            <origDate notAfter="1600" notBefore="1500" calendar="Gregorian">明嘉靖年間[1522-1566]<note>there is also record claiming this book dates after 1643.</note></origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
-                          <!-- insert --> 
+                          List number: S.C. 35843
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
-                        </acquisition>
+                        <acquisition>Acquired in 1882</acquisition>
                     </history> 
                     <additional>
                         <adminInfo>

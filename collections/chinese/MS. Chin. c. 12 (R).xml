@@ -59,7 +59,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>Water-colour of the Battle of the Gods</title>
+                            <title key="supplied title">Water-colour of the Battle of the Gods</title>
                             <title key="desc">八仙過海 卷軸</title>
                             <author key="Chinese">unknown</author>
                             <title key="desc">龍 Chinese dragon</title>
