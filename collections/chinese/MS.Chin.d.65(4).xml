@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS. Chin. d. 65 (2)</title>
+                <title>MS.Chin.d.65(4)</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,14 +44,14 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS. Chin. d. 65 (2)</idno>
+                        <idno type="shelfmark">MS.Chin.d.65(4)</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Xu Fu (徐郙, 1838-1907),and the other by Gao Zhaozhong (高釗中).</summary>
+                        <summary>A hanging scroll of Chinese calligraphy featuring two poems, one handwritten by Cao Hongxun (曹洪勋),and the other by Jiang Gen (蔣艮). </summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
@@ -59,21 +59,19 @@
                             <locus><!-- insert --></locus>
                             <title key="supplied title">WANG WEN-CHIN and others: Four calligraphic scrolls.</title>
                             <title type="desc">calligraphy</title>
-                            <author key="Chinese">徐郙</author>
-                            <incipit>《易》稱“辨物正言，斷辭則備”，《書》云“辭尚體要，弗惟好異”。</incipit>
-                            <incipit type="款識">臣<persName>徐郙</persName>敬書</incipit>
-                            <incipit type="seal">臣郙</incipit>
+                            <author key="Chinese">曹洪勛</author>
+                            <incipit>月彩浮鸞殿，鍾聲隔鳳樓。笙歌臨水檻，紅燭乍迎秋。</incipit>
+                            <incipit type="款識">臣<persName>曹洪勛</persName>敬書</incipit>
+                            <incipit type="seal">臣曹洪勛</incipit>
                             <incipit type="seal">敬書</incipit>
-                            <note>該詩句摘自《文心雕龍》第二篇徵聖第二，作者為南齊<persName>劉勰</persName></note>
-                            <author key="Chinese">高釗中</author>
-                            <incipit>綠淨不可唾，此語足千古。天水澹相涵，中有數聲艣。</incipit>
-                            <incipit type="款識">臣<persName>高釗中</persName>敬書</incipit>
-                            <incipit type="seal">臣高釗中</incipit>
+                            <note>該詩句摘自《雜曲歌辭.宮中樂》，作者為唐代<persName>張仲素</persName></note>
+                            <author key="Chinese">蔣艮</author>
+                            <incipit>突兀隘空虛，他山總不如。君看道傍石，總是補天餘。</incipit>
+                            <incipit type="款識">臣<persName>蔣艮</persName>敬書</incipit>
+                            <incipit type="seal">臣蔣艮</incipit>
                             <incipit type="seal">敬書</incipit>
-                            <note>該詩句為明代<persName>高珩</persName>所作《祭告南岳雜詩其四》。</note>
-                            <note> 徐郙（1838-1907），字壽蘅，號頌閣，江蘇嘉定人，同治元年（1862）狀元，先後授翰林院修撰，南書房行走，安徽學政，左都御史，兵部尚書，禮部尚書等職，拜協辦大學士，世稱徐相國。
-                                高釗中（生卒年不詳），字勉之，河南項城縣人，光緒二年（1876）丙子恩科進士。改庶吉士。光緒三年任翰林院編修，光緒八年任提督湖北學政，光緒十三年任上書房行走。光緒十五年，任授溥侗讀，次年，任提督雲南學政，
-                                光緒二十年，任翰林院侍讀。</note>
+                            <note>該詩句為宋代<persName>蘇軾</persName>所作《儋耳山》。</note>
+                            <note> 曹洪勛，字仲銘，又字竹銘，號蘭生，濰縣人，光緒二年（1876）狀元。蔣艮，字仲仁號後山，商城伏山鄉人，光緒六年（1880）進士。</note>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -88,7 +86,7 @@
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                            <height>65.8 cm</height>
+                        -->                           <height>65.8 cm</height>
                                         <width>13.2 cm</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
@@ -100,7 +98,7 @@
                                 <layout>书法卷轴,絹本,墨色书写。</layout>
                                 
                             </layoutDesc>
-                            
+                           
                         </objectDesc>
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
@@ -110,10 +108,10 @@
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        
+                      
                         <decoDesc>
                             <decoNote>
-                            </decoNote>
+                                </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->

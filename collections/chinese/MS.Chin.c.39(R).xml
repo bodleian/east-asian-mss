@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS. Chin. d. 65 (1)</title>
+                <title>MS.Chin.c.39(R)</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,34 +44,29 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS. Chin. d. 65 (1)</idno>
+                        <idno type="shelfmark">MS.Chin.c.39(R)</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy featuring two poems, one handwritten by Wang Renkan (王仁堪,1849-1893),and the other by Wang Wenjin (王文錦).</summary>
+                        <summary>A hanging scroll of Chinese calligraphy written in Kaishu style, claimed to be created by Liu Yong (劉墉，1719-1805). One piece of a couplet, pairing with MS. Chin. c. 39 (2). </summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">WANG WEN-CHIN and others: Four calligraphic scrolls.</title>
-                            <title type="desc">calligraphy</title>
-                            <author key="Chinese">王仁堪</author>
-                            <incipit>期仙磴者，蓋危磴穹窿，迥接雲路，靈仙仿彿，若可期及。</incipit>
-                            <incipit type="款識">臣<persName>王仁堪</persName>敬書</incipit>
-                            <incipit type="seal">敬書</incipit>
-                            <note>該詩句摘自《草堂十志》，作者為明代<persName>文徵明</persName></note>
-                            <author key="Chinese">王文錦</author>
-                            <incipit>瑞露垂花綬寒冰澈寳輪對兹臺上月共以慶良辰。</incipit>
-                            <incipit type="款識">臣<persName>王文錦</persName>敬書</incipit>
-                            <incipit type="seal">臣王文錦</incipit>
-                            <incipit type="seal">敬書</incipit>
-                            <note>該詩句為唐代<persName>李隆基</persName>所作《千秋節賜群臣鏡》。</note>
-                            <note>王仁堪（1849-1893），字可莊，又字忍菴，號公定，閩縣人，光緒三年（1877）狀元，後授翰林院修撰.歷任提督山西學政，貴州、江南、廣東鄉試副考官，後任武英殿纂修等職。
-                                王文錦（生卒年不詳），字云舫，直隸天津人同治十年（1871）進士，二甲五十三名。</note>
+                            <title key="supplied title">LIU YUNG:[Calligraphy: two scrolls].</title>
+                            <title>清劉墉楷書七言聯</title>
+                            <author key="Chinese">劉墉（1719-1805）</author>
+                            <title type="subtitle">上聯</title>
+                            <incipit>閑尋綺思千花麗</incipit>
+                            <title type="subtitle">下聯</title>
+                            <incipit>靜想高吟六義清</incipit>
+                            <incipit type="款識">石菴</incipit>
+                            <incipit type="seal">劉墉印信</incipit>
+                            <incipit type="seal">石菴</incipit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -79,15 +74,15 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>silk</support>
+                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>65.8 cm</height>
-                                        <width>13.2 cm</width>
+                        -->                           <height>？</height>
+                                        <width>？</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -95,7 +90,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴,絹本,墨色书写。</layout>
+                                <layout>书法卷轴.墨色书写</layout>
                                 
                             </layoutDesc>
                             
@@ -120,7 +115,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，二色裱,天頭地脚為藍色絲織物，天頭高12.3cm，地脚高7.4cm。上下隔水為淺藍色絲織物，上隔水高18.8cm，下隔水高12.5cm。邊框寬4.5cm。畫心為米色絹本，分爲上下兩部分，分別爲不同兩位書法家書寫。每部分分爲三行，每行八字。</decoNote>
+                                <decoNote>立軸，單色裱，邊框為白色絲織物有花紋。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -139,7 +134,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒年間</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清中期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance> </provenance>
