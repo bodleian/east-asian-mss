@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 33 (2)</title>
+                <title>Backhouse Rolls a.34 (1-12)</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,24 +44,61 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 33 (2)</idno>
+                        <idno type="shelfmark">Backhouse Rolls a.34 (1-12)</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese calligraphy written in Kaishu style written by Empress Dowager Cixi (1835-1908) of Qing dynasty.竪軸一幅，書寫内容為對聯的下聯。該竪軸與Backhouse Rolls a. 33 (1)成爲一對。</summary>
+                        <summary>A set of 12 scrolls of calligraphy claimed to be created by Su Shi (1037-1101) of Song dynasty; however, it is more likely to be fake.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
-                            <author key="Chinese">慈禧太后 (1835-1908)</author>
-                            <incipit>得路驊騮天骨開</incipit>
-                            <explicit type="背面">顯皇后字</explicit>
-                            
+                            <title>洞庭春色賦</title>
+                            <author key="Chinese">蘇軾<note>疑爲贋品，并非蘇軾手跡。</note></author>
+                            <note>The shelfmarks attributed to this set of scrolls do not correspond the text of Dong Ting Chun Se Fu,
+                                and the content of each scroll is displayed following the order of shelfmarks.
+                                Furthermore, the text written on the scroll does not fully match that of Dong Ting Chun Se Fu.</note>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (1)</title>
+                            <incipit>覺天拄杖遨峰之賦遠離</incipit>
+                            <incipit>騷也見親家晨光是飄門</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (2)</title>
+                            <incipit>寄時歸息馬</incipit>
+                            <incipit>眉山蘇軾書</incipit>
+                            <incipit type="seal">眉山某蘇軾印</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (3)</title>
+                            <incipit>賢王之達觀逸想於人寰</incipit>
+                            <incipit>焰兮春風天庭之白浪漲北</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (4)</title> 
+                            <incipit>泡幻藏千里於一斑舉勺</incipit>
+                            <incipit>罌青綸隨屬車鴟夷木門</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (5)</title>
+                            <incipit>洞庭春色賦</incipit>
+                            <incipit>吾聞橘中之樂不減商山</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (6)</title>
+                            <incipit>記求淺散星宿皋香歲之</incipit>
+                            <incipit>妙質毛區爛曾和束蒿驚</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (7)</title>
+                            <incipit>渚蒼灣佳往游勤鬢鬟命</incipit>
+                            <incipit>黃千奴震還米之禾三而旌</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (8)</title>
+                            <incipit>珠涕沸聲味甘餘之苦姿</incipit>
+                            <incipit>之高知壞笑非紋樽蟄目</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (9)</title>
+                            <incipit>镮兮帝之觴書散江吸神</incipit>
+                            <incipit>夢始如髦蠻玻色山林屋</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (10)</title>
+                            <incipit>醉以授鳥山為我刪松始</incipit>
+                            <incipit>予濟于衡漳泩而夜燧明</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (11)</title>
+                            <incipit>豈霜餘之不食而四老人</incipit>
+                            <incipit>者游戲於其間悟此世之</incipit>
+                            <title type="shelfmark">Backhouse Rolls a. 34 (12)</title>
+                            <incipit>其已遠石之軎收用榆製之</incipit>
+                            <incipit>山松磔通盤出救何艱葉</incipit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -70,9 +107,9 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>silk</support>
-                                <extent>1 scroll
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper</support>
+                                <extent>12 scrolls 十二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -93,7 +130,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷書 (kai shu, regular) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style.</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -110,7 +147,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸,一色裱。天頭地脚和邊是綠色有花紋絲織物。畫心為藍色絲織物伴有祥雲騰龍花紋，龍有五爪，書法左側印有印章兩枚。</decoNote>
+                                <decoNote>立軸,一色裱。天頭地脚和邊是是米白色帶花紋絲織物。畫心為黃色紙張。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -132,7 +169,9 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>本套立軸由12卷組成，由第二卷落款可知整套為蘇軾 (1037-1101)《洞庭春色賦》的贋品。《洞庭春色賦》與《中山松醪賦》二賦合卷的真跡現藏于中國吉林省博物館，是存世蘇軾書跡中篇幅最長的。
+                            Part of the set of twelve scrolls, the text claimed them to be ‘Dong Ting Chun Se Fu’ written by Su Shi (1037-1101). However, these scrolls are not authentic. The authentic calligraphy of ‘Dong Ting Chun Se Fu’ written by Su Shi is held by the Jilin Museum of China.
+                        </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->

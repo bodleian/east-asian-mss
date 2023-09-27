@@ -64,8 +64,6 @@
                             <incipit>左宗棠</incipit>
                             <incipit type="seal">大學士章</incipit>
                             <incipit type="seal">清宮太保恪靖侯</incipit>
-                            
-                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -89,7 +87,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法立軸，紙本，對聯。</layout>
+                                <layout>書法立軸，紙本，對聯。天杆処有破損。</layout>
                                 
                             </layoutDesc>
                             
