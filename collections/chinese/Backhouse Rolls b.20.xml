@@ -9,7 +9,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a.25</title>
+                <title>
+                    Backhouse Rolls b.20</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,39 +45,44 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a.25</idno>
+                        <idno type="shelfmark">Backhouse Rolls b.20</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A horizontal scroll of calligraphy in the Xing Shu style written by Zhang Zhi Dong (張之洞, 1837-1909).</summary>
+                        <summary>A pair of hanging scrolls of calligraphy in the Xing Shu style written by Li Hong Zhang (李鴻章, 1823-1901).</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             
-                            <title type="desc">calligraphy</title>
-                            <author key="Chinese">張之洞</author>
-                            <incipit>雲林堂周围悉樹高梧青蔭極密如在碧羅天上砌石錦麗左右排列奇峰千能萬狀堂下右梅千樹如蚪卧鳳翳每凌冬花發玉雜珠綴標奪名艷</incipit>
-                            <incipit><placeName>香濤</placeName><persName>張之洞</persName></incipit>
-                            <incipit type="seal">張之洞印 </incipit>
-                            <incipit type="seal">孝達</incipit>
+                            <title type="desc">清李鴻章行書八言聯</title>
+                            <author key="Chinese">李鴻章</author>
+                            <title type="上聯">上聯</title>
+                            <incipit>承齋尊兄大人屬</incipit>
+                            <incipit>海東日南魷瞻五會</incipit>
+                            <explicit type="背面">autograph of Li Hongzhan 李鴻章 對 B/325</explicit>
                             
-                            
-                            <filiation>書法橫披，中外孤本。</filiation>  
+                            <title type="下聯">下聯</title>
+                            <incipit>佛書道藏依援聖言</incipit>
+                            <incipit type="款識">儀叟李鴻章</incipit>
+                            <incipit type="seal">李鴻章印</incipit>
+                            <incipit type="seal">大學士肅毅伯</incipit>
+                            <explicit type="背面">李鴻章 對 Backhouse Rolls b. 20(2)</explicit>
+                            <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="橫披"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>紙本</support>
-                                <extent>1 scroll
+                                <extent>2 scrolls 二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -89,7 +95,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法橫披，紙本。</layout>
+                                <layout>書法立軸，紙本，對聯。</layout>
                                 
                             </layoutDesc>
                             
@@ -114,8 +120,8 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>橫披</p>
-                                <decoNote>立軸，裝裱方式為一色裱，雙耳及邊為米白色有花紋絲織物。書法寫與黃色紙上。</decoNote>
+                                <p>立軸</p>
+                                <decoNote>立軸，裝裱方式為一色裱，天頭地脚及邊框為淡藍色有花紋絲織物。書法寫與大紅色有花草紋樣的紙本上。上聯卷軸的天杆処有破損后修復痕跡，下聯卷軸的天杆処有破損。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -134,7 +140,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清1864-1901</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
