@@ -9,7 +9,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 33 (1-2)</title>
+                <title>
+                    Backhouse Rolls b.9</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,7 +45,8 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 33 (1-2)</idno>
+                        <idno type="shelfmark">
+                            Backhouse Rolls b.9</idno>
                         
                         
                     </msIdentifier>
@@ -60,11 +62,11 @@
                             <title>清慈禧太后行書七言聯</title>
                             <author key="Chinese">慈禧太后 (1835-1908)</author>
                             <title type="上聯">上聯</title>
-                            <incipit>凌霄鸞鶴仙姿舉</incipit>
+                            <incipit>玉昭三采寳所貴</incipit>
                             <incipit type="seal">慈禧皇太后御筆之寳</incipit>
-                            <explicit type="背面">顯皇后字</explicit>
+                            <explicit type="背面">顯皇后御筆 Backhouse Rolls b.9(1) Empress dowager's autograph</explicit>
                             <title type="下聯">下聯</title>
-                            <incipit>得路驊騮天骨開</incipit>
+                            <incipit>鳳翔千仞極其游</incipit>
                             <incipit type="seal">海涵春育</incipit>
                             <incipit type="seal">萬古長青？</incipit>
                             <explicit type="背面">顯皇后字</explicit>
@@ -117,7 +119,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸,一色裱。天頭地脚和邊是綠色有花紋絲織物。畫心為藍色絲織物伴有祥雲騰龍花紋，龍有五爪。</decoNote>
+                                <decoNote>立軸,一色裱。天頭地脚和邊是綠色有花紋絲織物。畫心為黃色絲織物伴有祥雲騰龍花紋，龍有五爪。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
