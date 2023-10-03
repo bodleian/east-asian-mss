@@ -51,13 +51,14 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese painting depicting a lively urban life in dynastic China. </summary>
+                        <summary>A scroll of Chinese painting depicts a lively scene of urban life along the river during the Qingming Festival in Ming dynasty of China. </summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title > CH'OU YING:[silk roll: scenes on the baks of the Tsing Ming].</title>
+                            <title > CH'OU YING:[silk roll: scenes on the banks of the Tsing Ming]</title>
+                            <author key="Chinese">仇英</author>
                             <title>清明上河圖</title>
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
@@ -82,7 +83,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>卷軸，紙本，設色。此軸觀看順序為從左至右。Fragile, restricted access.</layout>
+                                <layout>卷軸，紙本，設色。</layout>
                                 
                             </layoutDesc>
                         </objectDesc>
@@ -90,7 +91,7 @@
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
                                 Text written in 楷體 (kai shu, regular) calligraphic style.
-                                清明上河圖，作者疑爲仇英。</handNote>
+                                清明上河圖，据傳為仇英作品。</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
