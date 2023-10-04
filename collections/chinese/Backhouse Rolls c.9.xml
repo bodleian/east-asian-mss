@@ -53,7 +53,7 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy, written in the Xing shu style by Kong Ling Yi (1872-1919), the Duke Yansheng of late Qing dynsaty.</summary>
+                        <summary>A pair of scrolls of Chinese calligraphy, written in the Xing shu style by Kong Ling Yi (1872-1919), the Duke Yansheng of late Qing dynsaty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->

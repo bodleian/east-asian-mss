@@ -53,7 +53,7 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese calligraphy, written in the Xing shu style by Weng Fang Gang (1733-1818), a statesman and
+                        <summary>A pair of scrolls of Chinese calligraphy, written in the Xing shu style by Weng Fang Gang (1733-1818), a statesman and
                                  scholar of the Qing Dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
