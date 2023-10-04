@@ -9,7 +9,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls c.52</title>
+                <title>
+                    Backhouse Rolls c.5</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,23 +45,26 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls c.52</idno>
+                        <idno type="shelfmark">
+                            Backhouse Rolls c.5</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of calligraphy in the Xing Shu style attributed to Liu Yong (1719-1805). 
-                            It comprises one piece of a couplet, pairing with Backhouse Rolls c.51.</summary>
+                        <summary>A pair of scrolls of calligraphy in the Xing Shu style attributed to Liu Yong (1719-1805). 
+                            It comprises one piece of a couplet, pairing with Backhouse Rolls c.52.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            
-                            <title type="desc">清劉墉行書七言聯 下聯</title>
+                            <title type="desc">清劉墉行書七言聯</title>
                             <author key="Chinese">劉墉(1719-1805)</author>
+                            <incipit>入我澹懷秋月白</incipit>
+                            
+                            <title type="下聯">下聯</title>
                             <incipit>迎人爽氣遠山青</incipit>    
                             <incipit type="seal">劉墉之印</incipit>
                             <incipit type="seal">石菴</incipit>
@@ -74,7 +78,7 @@
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>1 scroll 一軸
+                                <extent>2 scrolls 二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -87,7 +91,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法卷軸，紙本。</layout>
+                                <layout>书法卷轴.墨色书写，紙本。</layout>
                                 
                             </layoutDesc>
                             
@@ -95,8 +99,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semi-cursive) calligraphic style.
-                            </handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -112,8 +115,8 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>卷軸</p>
-                                <decoNote>卷軸，裝裱方式為一色裱，天頭與地脚為黑色有金色花紋絲織物。</decoNote>
+                                <p>立軸</p>
+                                <decoNote>立軸,裝裱方式為一色裱，天頭與地脚為黑色有金色花紋絲織物。上聯的天杆和天頭以及畫心的右上角缺損。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -128,15 +131,14 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>China</country>,
-                                <region><!-- insert --></region>,
+                                <region>Beijing</region>,
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清代</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                        </provenance>
+                        <provenance> </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
