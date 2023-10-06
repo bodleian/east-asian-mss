@@ -9,8 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    Backhouse Rolls c.4</title>
+                <title>Backhouse Rolls b.23</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -45,43 +44,92 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">
-                            Backhouse Rolls c.4</idno>
+                        <idno type="shelfmark">Backhouse Rolls b.23</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A pair of scrolls of calligraphy in the Xing Shu style attributed to Pan Zu Yin (1830-1890).</summary>
+                        <summary>A horizontal scroll of calligraphy in the Xing Shu style written attributed to Dong Qi Chang (董其昌,1555-1636).</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title type="desc">清潘祖蔭行書七言聯</title>
-                            <author key="Chinese">潘祖蔭(1830-1890)</author>
-                            <incipit>只有梅花一林月</incipit>
-                            <explicit type="背面">Autograph of Pan Tsuyin, the great scholar</explicit>
-                            <explicit type="背面">B/309</explicit>
                             
-                            <title type="下聯">下聯</title>
-                            <incipit>鶴有雙清鳳五倫</incipit>
-                            <incipit type="款識">潘祖蔭</incipit>
-                            <incipit type="seal">潘祖蔭印</incipit>
-                            <explicit type="背面">潘祖蔭</explicit>
-                            <explicit type="背面">Backhouse Rolls c. 4</explicit>
-                            <filiation>書法卷軸，中外孤本。</filiation>  
+                            <title type="desc">明董其昌書朱熹廬山臥龍庵記 軸</title>
+                            <author key="Chinese">董其昌</author>
+                            <incipit>臥龍庵在廬山之陽五乳峰下
+                                予自少讀三山先生楊公詩
+                                見其記臥龍劉君隱居辟
+                                榖木食澗飲蓋巳度百嵗而
+                                神清眼碧客至輒先知之則
+                                固已知有是庵矣去嵗蒙
+                                恩來此又得陳舜俞令舉廬
+                                山記者讀之其言曰凡廬山之
+                                所以著於天下蓋有開先之瀑布
+                                見於徐凝李白之詩康王之水
+                                簾見於陸羽之茶經至於幽深
+                                險絶皆有水石之美也此庵之
+                                西蒼崖四立怒瀑中瀉大壑
+                                淵深凜然可畏有黃石數丈
+                                隱映連屬在激浪中視者 
+                                轉若欲宛蜒飛舞故名臥龍
+                                此山水之特勝處也於是又知
+                                其泉石之勝乃如此間以行
+                                田始得至焉則庵既無有而
+                                劉君亦不可復見獨其泉石
+                                之勝不可得改然其壯偉竒
+                                特之勢則有非陳記所能仿
+                                弗者余既惜其出於荒堙廢
+                                壊之餘而又幸其深阻夐絶
+                                非車塵馬跡之所能到倘可
+                                得擅而有也時已上章乞解
+                                郡紱乃捐俸錢十萬屬西原
+                                隠者崔君嘉彥因其舊址縳
+                                屋數椽以俟命下而徙居焉既
+                                又緣名潭之義畫漢丞相
+                                諸葛公之象寘之堂中而故友
+                                張敬夫嘗爲賦詩以紀其事
+                                然庵距潭猶數百步步亂石
+                                間三涉澗水乃至至又無所託
+                                足以寓瞻眺或乃顛沛而反因
+                                相其東崖鑿石爲磴而扱緣以
+                                度稍下乃得巨石橫出澗中
+                                仰翳喬木俯瞰清流前對飛
+                                瀑最爲谷中勝處遂復作亭
+                                於其上既以爲吏民禱賽之
+                                地而凡來遊者亦得以仿彿
+                                徙倚而縱目快心焉於是嵗
+                                適大祲因牓之曰起亭以爲
+                                龍之淵臥者可以起而天行矣
+                                然予前日之請迄今蓋巳屢上
+                                而竟未有得也嵗月飄忽念
+                                之慨然乃敘其作興本末而
+                                書之屋壁來者讀之尚有
+                                以識予之意也</incipit>
+                            <incipit>臥龍菴在匡庭絕騰處此則
+                                朱子守郡時化也篇中敘其
+                                構數椽將從居之意且畫
+                                諸葛丞相像置堂中其托意
+                                深矣秋日閒窓偶讀而喜之
+                                錄於戯鴻雲中</incipit>
+                            <incipit type="款識">華亭董其昌</incipit>
+                            <incipit type="seal">董其昌印</incipit>
+                            <explicit type="題簽">董其昌</explicit>
+                            <explicit type="題簽">Fine specimen of the writing of Tung Chi Chang The Famous calligrapher of the Ming dynasty</explicit>
+                            <filiation>書法橫披，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>silk</support>
-                                <extent>2 scrolls 二軸
+                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper</support>
+                                <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -94,7 +142,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法卷軸，絹本。</layout>
+                                <layout>書法卷軸，紙本。</layout>
                                 
                             </layoutDesc>
                             
@@ -102,7 +150,8 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style.
+                            </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -118,8 +167,9 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>立軸</p>
-                                <decoNote>立軸,裝裱方式為一色裱，天頭與地脚為淺藍色絲織物，畫心為粉紅色灑金絹本。下聯天杆処有破損.</decoNote>
+                                <p>卷軸</p>
+                                <decoNote>大鑲手卷。錦包首為藍色帶淺棕色花紋絲織物，題簽為白色紙本，有汎黃痕跡。天為淺藍色絲織物，
+                                    隔水與副隔水為白色和淺黃色絲織物，邊為白色絲織物，引首和拖尾為米白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -134,14 +184,15 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>China</country>,
-                                <region>Beijing</region>,
+                                <region><!-- insert --></region>,
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
+                            <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">could be late Ming dynasty</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>
+                        </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
