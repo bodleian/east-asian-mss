@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 1</title>
+                <title>Backhouse Rolls c.6</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,29 +44,31 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 1</idno>
+                        <idno type="shelfmark">Backhouse Rolls c.6</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese calligraphy written in Xingshu style by Dong Qichang (董其昌，1555-1636)</summary>
+                        <summary>A horizontal scroll of calligraphy in the Xing Shu style written attributed to Emperor Kang Xi (1654-1722) of Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>明董其昌書杜甫承聞河北諸節度使入朝歡喜口號絕句十二首之一 軸</title>
-                            <author key="Chinese">董其昌（1555-1636）</author>
-                            <incipit>东逾辽水北滹沱，星象风云喜共和。紫气关临天地阔，黄金台贮俊贤多。</incipit>
-                            <incipit type="seal">董其昌印</incipit>
-                            <incipit type="seal">宗伯之章</incipit>
-                            <incipit type="seal">百賞齋</incipit>
-                            <explicit type="題簽">董其昌</explicit>
-                            <explicit type="題簽">Autography of Tung Chi’chang a.d. 1570. The senior scholar and painter. This scroll retail by Chinese at ￡150.
-                                Purchased from Prince Kung’s collection. 
-                            </explicit>
+                            
+                            <title type="desc">清康熙御書詩二首 軸</title>
+                            <author key="Chinese">愛新覺羅玄燁 (1654-1722)</author>
+                            <incipit>一樹寒梅碧玉條向臨邨野傍溪橋
+                                     應知近水花先發疑是經春雪未消
+                                     翠樓春洒蝦蟆陵長安少年皆共景
+                                     紛紛半醉綠槐道躞蹀花驄驕不勝利</incipit>
+                            <incipit type="seal">康熙宸翰</incipit>
+                            <incipit type="seal">剑泉鑑藏 <note>景其濬之鈐印。景其濬，字劍泉，進士出身，晚清政治人物</note></incipit>
+                            <explicit type="題簽">Emperor Kanghis’s autograph poem</explicit>
+                            <explicit type="題簽">圖書款</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -74,7 +76,7 @@
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
@@ -90,7 +92,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴，墨色书写。</layout>
+                                <layout>書法卷軸，紙本。</layout>
                                 
                             </layoutDesc>
                             
@@ -98,7 +100,8 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style.
+                            </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -114,8 +117,9 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>立軸</p>
-                                <decoNote>立軸,宣和裝,天頭地脚爲淺藍色絲織物,上下隔水和驚燕是米白色絲織物，行書字跡書寫于白色紙上,背面有淺藍色絲織物錦包首。</decoNote>
+                                <p>卷軸</p>
+                                <decoNote>大鑲手卷，錦包首為淺棕色絲織物伴有藍色和紅色花紋，題簽為白色紙本，有破損。八寶帶為棗紅色絲織物，別子為灰色玉製。天為淺藍色有花紋絲織物，隔水為米白色有花紋絲織物，
+                                    引首為黃色紙本，撞邊為黃色，拖尾為白色紙本。書法寫與黃色紙上。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -134,10 +138,11 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">晚明</origDate>
+                            <origDate notAfter="1800" notBefore="1600" calendar="Gregorian">清早期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>
+                        </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
