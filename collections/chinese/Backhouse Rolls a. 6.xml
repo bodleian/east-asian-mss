@@ -57,14 +57,15 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title>清嘉慶皇帝御筆 軸</title>
                             <author key="Chinese">嘉慶皇帝 (1760-1820)</author>
                             <incipit>遠人祝嘏集梯航閲是樓前綺宴張</incipit>
                             <incipit>考定禮儀垂典則</incipit>
                             <incipit>天申綏屢沐豐穰蕭韶律呂盈</incipit>
                             <incipit>三閣中外衣冠列兩廊御宇年增殷保泰紹脩</incipit>
                             <incipit>心法守經常</incipit>
-                            <explicit>己卯小春上濣錫宴即事成什御筆</explicit>
+                            <incipit>己卯小春上濣錫宴即事成什御筆</incipit>
+                            <incipit type="seal">周甲延禧之寳</incipit>
                             <explicit type="題簽">Calligraph of emperor Chia Ching (1819) 御筆</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -97,7 +98,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷書 (kai shu, regular) calligraphic style</handNote>
+                                Text written in both Xing shu and Kai shu style (行楷書, xing kai shu) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -114,7 +115,8 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸,一色裱。天頭地脚和邊是黃色絲織物，有祥雲和五爪龍花紋。書法寫與淺棕色絹本上，共有六列，每列18個字。立軸背面天杆処有題簽，上有Backhouse手寫英文“caligraph of emperor Chia Ching (1819)”,以及中文字跡“御筆”。</decoNote>
+                                <decoNote>立軸,一色裱。天頭地脚和邊是黃色絲織物，有祥雲和五爪龍花紋。書法寫與淺棕色絹本上，共有六列，每列18個字。
+                                          立軸背面天杆処有題簽，上有Backhouse手寫英文“caligraph of emperor Chia Ching (1819)”,以及中文字跡“御筆”。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
