@@ -51,17 +51,21 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese painting and calligraphy by Gao Qipei (高其佩 1660-1734)</summary>
+                        <summary>A hanging scroll of Chinese painting and calligraphy attributed to Gao Qipei (高其佩 1660-1734)</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>餘樂圖</title>
+                            <title>清高其佩餘樂圖 軸</title>
                             <author key="Chinese">高其佩 （1660-1734）</author>
                             <incipit>戍子蒼朝前一日</incipit>
-                            <incipit>鐵嶺高其佩指腹畫法</incipit>
-                            
+                            <incipit type="款識">鐵嶺高其佩指腹畫法</incipit>
+                            <incipit type="seal">高其佩</incipit>
+                            <incipit type="seal">指頭畫</incipit>
+                            <explicit type="題簽">高其佩 山水</explicit>
+                            <explicit type="背面">F.2</explicit>
+                            <explicit type="背面">M. 358</explicit>
                             <filiation>書畫卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -85,7 +89,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书畫卷轴.墨色。</layout>
+                                <layout>书畫卷轴，紙本設色。</layout>
                                 
                             </layoutDesc>
                             
@@ -110,7 +114,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸,一色裱。天頭地脚和邊是黃色絲織物，有祥雲和五爪龍花紋。畫心上加裱了一小幅徐郙的書法。書法和繪畫在白色紙本上。立軸背面有淺藍色絲織物製成的錦包首，上有Backhouse手寫英文“Picturing of Empress dowager, presents by 1 statesman”,以及中文字跡“顯皇后御筆畫 徐郙吳樹梅二公題”。</decoNote>
+                                <decoNote>立軸,一色裱。天頭地脚和邊是白色有花紋絲織物。畫心為白色紙本。背面題簽為紅色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -129,7 +133,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">據稱為清早期，待鑒別。</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance> </provenance>
