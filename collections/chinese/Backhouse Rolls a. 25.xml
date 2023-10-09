@@ -64,7 +64,8 @@
                             <incipit><placeName>香濤</placeName><persName>張之洞</persName></incipit>
                             <incipit type="seal">張之洞印 </incipit>
                             <incipit type="seal">孝達</incipit>
-                            
+                            <explicit type="背面">Chang Chih-tung The juan viewing</explicit>
+                            <explicit type="背面">張香濤</explicit>
                             
                             <filiation>書法橫披，中外孤本。</filiation>  
                         </msItem>
@@ -75,7 +76,7 @@
                         
                         <objectDesc form="橫披"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>紙本</support>
+                                <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         

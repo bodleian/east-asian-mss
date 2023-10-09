@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 24</title>
+                <title>Backhouse Rolls a.24</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,25 +44,26 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 24</idno>
+                        <idno type="shelfmark">Backhouse Rolls a.24</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese painting depicts peach blossoms and goose created by Zou Yi Gui. 書畫卷軸，作者為鄒一桂 （1686-1772）。</summary>
+                        <summary>A hanging scroll of Chinese painting depicts peach blossoms and goose created by Zou Yi Gui （鄒一桂, 1686-1772）. 
+                                 書畫卷軸，作者為鄒一桂 （1686-1772）。</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title>清鄒一桂畫花鳥 軸</title>
                             <author key="Chinese">鄒一桂 （1686-1772）</author>
                             <title type="desc">peach blossom 桃花</title>
                             <title type="desc">daffodil 水仙</title>
                             <title type="desc">goose 鵝</title>
-                            <incipit>晴雲紅粉覆春煙仿佛江南二月天記得踏春回首処一樓畔倚山崖前<placeName>錫山</placeName><persName>鄒一桂</persName></incipit>
+                            <incipit>晴雲紅粉覆春煙，仿佛江南二月天。記得踏春回首処，一樓畔倚山崖前。<placeName>錫山</placeName><persName>鄒一桂</persName></incipit>
                             <incipit type="seal">鄒一桂</incipit>
                             <incipit type="seal">水山</incipit>
                            <explicit type="題簽">錫山 畫</explicit>
@@ -89,7 +90,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书畫卷轴.墨色书写</layout>
+                                <layout>书畫卷轴，絹本設色。</layout>
                                 
                             </layoutDesc>
                             

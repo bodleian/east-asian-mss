@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 20</title>
+                <title>Backhouse Rolls a.20</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,22 +44,22 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 20</idno>
+                        <idno type="shelfmark">Backhouse Rolls a.20</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese calligraphy written in Xing Shu style. Based on the seal and the note written by Backhouse, it is likely to be written by Kangxi Emperor (1654-1722) of Qing dynasty.</summary>
+                        <summary>A hanging scroll of Chinese calligraphy written in Xing Shu style by Kangxi Emperor (1654-1722) of the Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title>清康熙皇帝書朱熹詩 軸</title>
                             <author key="Chinese">康熙皇帝 (1654-1722)</author>
-                            <incipit>山寒夕飈急木蕩洞庭波幾叠雲屏好一生秋夢処</incipit>
+                            <incipit>山寒夕飈急，木蕩洞庭波。幾叠雲屏好，一生秋夢処。</incipit>
                             <incipit>朱子詩</incipit>
                             <incipit type="seal">康熙宸翰</incipit>
                             <incipit type="seal">敕幾清晏</incipit>

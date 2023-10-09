@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 22</title>
+                <title>Backhouse Rolls a.22</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,7 +44,7 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 22</idno>
+                        <idno type="shelfmark">Backhouse Rolls a.22</idno>
                         
                         
                     </msIdentifier>
@@ -58,7 +58,7 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             
-                            <title type="desc">calligraphy</title>
+                            <title type="desc">清咸豐皇帝御筆 軸</title>
                             <author key="Chinese">咸豐皇帝</author>
                             <incipit>正中莊齋</incipit>
                             <explicit>顯皇帝碟福 Rubbings of emperor Hsien Feng’s caligraph B/304</explicit>
