@@ -57,10 +57,10 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title>清董誥書李白南軒松 軸</title>
                             <author key="Chinese">董誥（1740-1818）</author>
-                            <incipit>南軒有孤松柯葉自綿幕清風無間時瀟洒終日夕陰生古苔綠色染秋煙碧何當凌雲霄直上數千尺</incipit>
-                            <incipit>柘林<persName>董誥</persName></incipit>
+                            <incipit>南軒有孤松，柯葉自綿幕。清風無間時，瀟洒終日夕。陰生古苔綠，色染秋煙碧。何當凌雲霄，直上數千尺。</incipit>
+                            <incipit type="款識">柘林<persName>董誥</persName></incipit>
                             <explicit type="題簽">B/291 m catalogue scroll of stateman Tung Kao</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -71,7 +71,7 @@
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>silk</support>
+                                <support>mulberry and bamboo mixed paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -85,7 +85,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴.墨色书写</layout>
+                                <layout>书法卷轴，墨色书写。</layout>
                                 
                             </layoutDesc>
                             
@@ -110,7 +110,7 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>二色裱，天頭地脚為淺黃色有花紋絲織物，上下隔水是米白汎黃紙本，有水印，天杆処有破損。</decoNote>
+                                <decoNote>二色裱，天頭地脚為淺黃色有花紋絲織物，上下隔水是米白汎黃紙本，有水印，天杆処有破損。畫心為棕色絹本。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -129,7 +129,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清代</origDate>
+                            <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清中期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance> </provenance>

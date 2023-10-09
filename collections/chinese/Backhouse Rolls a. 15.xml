@@ -57,7 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>立軸</title>
+                            <title>清盧學溥畫花鳥 軸</title>
                             <author key="Chinese">盧學溥（1877—1956）</author>
                             <title type="desc">仙鶴</title>
                             <incipit>甲辰花月土濣法新羅山人大意寫為念兹大兄法家大人雅正<persName type="字">星穛鑑泉</persName>作</incipit>
@@ -72,7 +72,7 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>paper</support>
                                 <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  

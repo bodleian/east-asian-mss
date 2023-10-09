@@ -51,14 +51,14 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of the calligraphy written by an emperor of the Qing dynasty, very likely to be Emperor Dao Guang (1782-1850) .</summary>
+                        <summary>A hanging scroll of the calligraphy written by  Emperor Dao Guang (1782-1850) of the Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             
-                            <title type="desc">calligraphy</title>
+                            <title type="desc">清道光皇帝御筆壽字 軸</title>
                             <author key="Chinese">道光皇帝</author>
                             <incipit>壽</incipit>
                             <explicit type="題簽">壽</explicit> 
@@ -112,7 +112,9 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，裝裱方式為三色裱，天頭地脚及邊框是淺藍色絲織物,上下副隔水是白色紙,上下隔水是米色祥雲龍紋絲織物，書法字跡寫在紅色祥雲騰龍花紋紙上，龍紋均爲五爪。整個立軸上有摺痕多條，並有污損多處。</decoNote>
+                                <decoNote>立軸，裝裱方式為三色裱，天頭地脚及邊框是淺藍色絲織物,上下副隔水是白色紙,
+                                          上下隔水是米色祥雲龍紋絲織物，書法字跡寫在紅色祥雲騰龍花紋紙上，龍紋均爲五爪。
+                                          整個立軸上有摺痕多條，並有污損多處。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
