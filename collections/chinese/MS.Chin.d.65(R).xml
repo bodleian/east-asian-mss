@@ -51,13 +51,16 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A set of four hanging scrolls of calligraphy, created in the late 19th century and dedicated to the imperial family of the Qing Dynasty. Each scroll is created by two calligraphers, written in Kaishu style.</summary>
+                        <summary>A set of four hanging scrolls of calligraphy, created in the late 19th century and dedicated
+                                 to the imperial family of the Qing Dynasty. Each scroll is created by two calligraphers, 
+                                 written in Kaishu style.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">WANG WEN-CHIN and others: Four calligraphic scrolls.</title>
+                            <title key="supplied title">WANG WEN-CHIN and others: Four calligraphic scrolls.
+                                                        清王文錦等四人楷書四條屏 軸</title>
                             <title type="subtitle">卷軸一</title>
                             <author key="Chinese">王仁堪</author>
                             <incipit>期仙磴者，蓋危磴穹窿，迥接雲路，靈仙仿彿，若可期及。</incipit>
