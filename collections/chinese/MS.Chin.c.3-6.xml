@@ -121,7 +121,9 @@
                             <supportDesc material="通草紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>pith paper</support>
                                 <extent>Four albums, each comprising fourteen folios. Each album contains twelve paintings and two flyleaves. 
-                                    每冊均爲十四頁，包含十二幅。
+                                       All four albums are stored in a wooden box adorned with yellow textile, measuring 27.3cm in width,
+                                       38.3cm in length, and 7cm in height.
+                                    每冊均爲十四頁，包含十二幅。畫冊放置於木盒内,木盒表面糊有一層黃色織物,尺寸爲長27.3cm,寬38.3cm,高7cm。
                                     <locus>MS.Chin.c.3</locus>
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  https://git.io/msdescdoc#leafDimensions -->
                                     <height>37</height>
