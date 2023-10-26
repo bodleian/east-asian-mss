@@ -88,7 +88,7 @@
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
-                        <msItem n="2"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
+                        <msItem n="3"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title>An album of Chinese export paintings</title>
                             <title type="shelfmark">MS.Chin.c.5</title>
@@ -101,7 +101,7 @@
                                 therefore, there may be other existing copies.
                                 外銷畫，多為批量生產，可能多有存世。</filiation>  
                             
-                            <msItem n="2"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
+                            <msItem n="4"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                                 <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                                 <title>An album of Chinese export paintings</title>
                                 <title type="shelfmark">MS.Chin.c.6</title>
