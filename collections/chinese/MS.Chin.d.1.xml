@@ -57,7 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title>佚名仿陸師道神仙人物畫十二幅 冊</title>
-                            <title key="supplied title">LU SHIH_TAO: [Album of twelve paintings]<note>name supplied from the previous catalogue</note></title>
+                            <title key="supplied title">LU SHIH_TAO: [Album of twelve paintings]<note>title supplied from the previous catalogue</note></title>
                             <note>could be fake 或爲贋品</note>
                             <author key="Chinese">佚名</author>
                             <incipit type="seal">陸氏子傳 </incipit>
