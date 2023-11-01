@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ms.Chin.c.14/a-c</title>
+                <title>Ms.Chin.d.15</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,100 +44,63 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Ms.Chin.c.14/a-c</idno>
+                        <idno type="shelfmark">Ms.Chin.d.15</idno>
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Catalogue of Dutyable Articles </summary>
-                        <textLang mainLang="zh">Chinese, Wade–Giles and Portuguese </textLang><!-- change text and attribute if necessary -->
+                        <summary>"San Zi Jing" and "You Xue Shi" have been reworked or 
+                                  reinterpreted during the historical period of the Taiping Rebellion. </summary>
+                        <textLang mainLang="zh">Chinese </textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>Catalogue of Dutiable Articles</title>
+                          <msItem>
+                            <title>三字經</title>
                             <author>unknown</author>
-                            <msItem>
-                                <title type="shelfmark">Ms.Chin.c.14/a </title>
-                                <title type="sub"><locus>ff.1-ff.42</locus>粤海關則例</title>
-                                <note>The conetent of this part includes: 
-                                      粵海關稅則例目錄 ff.2-ff.3
-                                      綢緞絲絨類 ff.5-ff.6
-                                      布匹花幔 ff.6-ff.7
-                                      氈絨毯席類 ff.8-ff.9
-                                      帽襪靴類 f.9
-                                      藥材類 ff.9-ff.12
-                                      雜貨類 ff.12-ff.14
-                                      顔料膠漆紙劄類 ff.14-ff.15
-                                      糖果食物類 ff.15-ff.17
-                                      臘肉海味類 f.17
-                                      香料椒茶類 ff.18-ff.19
-                                      珊珀珠玩類 ff.19-ff.20
-                                      各色器皿類 ff.20-ff.21
-                                      油蠟礬磺類 ff.21-ff.22
-                                      銅鉄鉛錫類 ff.22-ff.23
-                                      竹木籐椰類 ff.23-ff.25
-                                      纓皮牙角羽類 ff.25-ff.26
-                                      第一等本省洋船發各外國船例 ff.26-ff.27
-                                      第二等出海貿易香料艚舶船例 f.27
-                                      第三等出海鹽船例 f.27
-                                      第四等沿海貿易醬船例 f.28
-                                      今將部覆不符三款 f.28 </note>
-                                <title type="sub"><locus>ff.43-ff.61</locus>粵海關比例</title>
-                                <title type="sub"><locus>ff.42-ff.83</locus>粵海關估價例</title>
-                                <title type="sub"><locus>ff.84-ff.92</locus>粵海關歸公例</title>
-                            </msItem>      
+                              <incipit type="date">太平天國癸好三年鎸刻</incipit>
+                              <incipit>皇上帝，造天地，造三海，萬物備。</incipit>
+                              <explicit>皇上帝，眼恢恢。欲享福，鍊正來。</explicit>
+                          </msItem>
                             
                             <msItem>
-                                <title type="shelfmark">Ms.Chin.c.14/b </title>
-                                <title type="sub"><locus>ff.1-ff.40</locus>粵海關稅貨餉則例</title>
-                                <title type="sub"><locus>ff.41-ff.58</locus>粵海關比貨稅則例</title> 
-                                <title type="sub"><locus>ff.59-ff.81</locus>粵海關估價貨物例</title>
-                                <title type="sub"><locus>ff.82-ff.91</locus>粵海關各項歸公例</title>
-                            </msItem>  
-                            
-                            <msItem>    
-                                <title type="shelfmark">Ms.Chin.c.14/c </title>
-                                <title type="sub">粵海關應徵則例開右</title>
-                               
-                            </msItem>    
-                            
-                            
-                            <filiation>手抄本,中外孤本。 only surviving copy.</filiation>
+                                <title>幼學詩</title>
+                                <author>unknown</author>
+                                <incipit type="date">太平天國辛開元年新刻</incipit>
+                                <incipit>真神皇上帝，朝朝夕拜同。俯仰隨觀察，萬樣造齊全。</incipit>
+                                <explicit>目正自無牽，人字端凝立。我自靜中聽，莫把邪聖入。
+                                          多言自召兇，謊邪休玷穢。節烈真堪誦，兩手道惟恭。</explicit>
+                            </msItem>
+                            <filiation>These are handwritten copies, and printed copies have also survived.</filiation>
                             
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="綫裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>三冊 three books
-                                    <dimensions unit="cm" type="leaf" n="1"><!-- use standard attribute values, e.g. leaf, written  
-                        https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>30.2 cm</height>
-                                        <width>19.3 cm </width>
-                                    </dimensions>
-                                    <dimensions unit="cm" type="leaf" n="2"><!-- use standard attribute values, e.g. leaf, written  
-                        https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>29.6 cm</height>
-                                        <width>20.4 cm</width>
-                                    </dimensions>
-                                    <dimensions unit="cm" type="leaf" n="3"><!-- use standard attribute values, e.g. leaf, written  
-                        https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>29.6 cm</height>
-                                        <width>20.4 cm</width>
-                                    </dimensions>
+                                <extent>二冊 two books
+                                    These are handwritten copies, and printed copies have also survived.
                                     <!-- use additional dimensions elements if necessary -->
+                               
+                                <dimensions unit="cm" type="leaf" n="1"><!-- use standard attribute values, e.g. leaf, written  
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                           <height>24.9 cm</height>
+                                    <width>14.3 cm </width>
+                                </dimensions>
+                                <dimensions unit="cm" type="leaf" n="2"><!-- use standard attribute values, e.g. leaf, written  
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                           <height>24.9 cm</height>
+                                    <width>14.6 cm</width>
+                                </dimensions>
                                 </extent>
-                                
-                                <condition> Ms.Chin.c.14/a：表面絲織物有輕微磨損，書脊輕微損壞。
-                                            Ms.Chin.c.14/b：内頁有蟲蛀痕跡，表面絲織物有輕微磨損，書脊輕微損壞。
-                                            Ms.Chin.c.14/c：蟲蛀痕跡多處。 </condition>
+                                <condition> 封面略有破損，翻捲。 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>内頁為朱絲欄，分爲左右兩半，每半邊各分爲三列，每列分別為漢字，拼音，葡萄牙語。</layout>
+                                <layout>内頁為朱絲欄紅方格内墨色抄寫，每頁含九列，每列18字。</layout>
                                 <!-- use additional layout elements if necessary 
                         https://git.io/msdescdoc#layoutdesc-->
                             </layoutDesc>
@@ -145,7 +108,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                Text written in 楷書 (kai shu, regular) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -158,7 +121,9 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                The book cover is made of traditional Chinese textile in pink colour with patterns of blue,yellow,green and red.</decoNote>
+                                This pair of books is made in a simple style, with the book covers 
+                                made of the same paper as each folio. The books are thread-bound 
+                                using paper thread.</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -166,9 +131,7 @@
                         
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p> A set of three thread-bound books with silk covers, presented
-                                    in a European-style case covered in dark red fabric and adorned
-                                    with a gilded title on the spine.</p>
+                                <p> a thread-bound book with covers of traditional Chinese paper.</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -185,19 +148,20 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>China</country>,
-                                <region>Guangdong Province</region>,
                                 
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
+                            <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">1851-1853</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            shelfmarks in the previous catalogue are s.c.30871i (Ms.Chin.c.14/a), s.c.30871j (Ms.Chin.c.14/b).   
+                        <provenance>language:	Chinese
+                                    shelfmark:	MS.Chin.d.15
+                                    content:	Religious books of the Taiping rebels. 2 pen
+                                    phys. descr:	13 ff.
+                                    acquired:	1855. <note>record retrieved from previous catalogue</note>
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
-                            <!-- insert -->
-                            <!-- use dating attributes where possible -->
+                            1885
                         </acquisition>
                     </history>
                     <additional>
