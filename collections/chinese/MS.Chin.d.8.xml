@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- use this template in cases where the manuscript is NOT composed of multiple codicological units. To avoid errors in the display of the record, be sure to delete elements that are not used. -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00000"><!-- insert the correct xmlid in the form manuscript_12345 -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Chin.d.8</title>
+                
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Boya Zhang</persName>
+                </respStmt>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+                <funder>HD Chung Fund</funder>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID"><!-- insert normalized form of shelfmark --></idno>
+                <idno type="collection"><!-- insert normalized form of collection --></idno>
+                <idno type="catalogue"><!-- insert catalogue ID --></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en"><!-- optionally provide xmlid should as a normalized form of the shelfmark, e.g. Merton_College_MS_10 -->
+                    <msIdentifier>
+                        <settlement><!-- insert --></settlement>
+                        <repository>Bodleian Library</repository><!-- change if necessary -->
+                        <idno type="shelfmark">MS.Chin.d.8</idno>
+                        
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
+                        <summary>Twenty-two drawings of Buddhist saints on leaves of sacred fig, with text in gilt on blue ground.</summary>
+                        <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
+                        
+                        <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
+                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
+                            <title>清人菩提葉佛教聖者圖二十二幅 冊</title>
+                            <title key="supplied title">Twenty-two drawings of Buddhist saints on leaves of sacred fig</title>
+                            <author key="Chinese">佚名</author>
+                            <incipit>觀音大士法號圓通
+                                     發十二大願誓宏淵
+                                     幽冥普渡救盡衆生
+                                     必爲赤子功德無量</incipit>
+                            <incipit>園笠息肩函蓋戈切
+                                    放下布袋使等自在
+                                    有相無相流水行啻
+                                    痌瘝在抱人我同群</incipit>
+                            <incipit>韋陀天將菩薩化身 
+                                     護佛法誓閎深寳杆
+                                     鎮魔金甲常披千功
+                                     德難論杆禱別群心</incipit>
+                            <incipit>菴羅樹下袒背行板
+                                     不倩展爪痌瘝自知
+                                     猴姓霛明戲托展跪
+                                     相視而笑有鼓無類</incipit>
+                            <incipit>園鉢在地叺餌引雀
+                                     佛無機心欣有所托
+                                     天定云遠與物使爭
+                                     不貪為寳為飛宴冥</incipit>
+                            <incipit>三脫水田衣著明光
+                                     鑑聃耳澤鼻古猊異
+                                     鄒厚旋威霛不可測
+                                     思俊猊神獸如大玄</incipit>
+                            <incipit>皎若龝月藹如春云
+                                     昊壽聖相修然逸群
+                                     寬衣坐裳指上添籌
+                                     觸處的機不需百拜</incipit>
+                            <filiation>An album of Chinese paintings, only surviving copy.
+                                中國畫畫冊，中外孤本</filiation>  
+                        </msItem>
+                        <!-- insert further msItem elements as appropriate --> 
+                        
+                    </msContents>
+                    <physDesc>
+                        
+                        <objectDesc form="冊"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper</support>
+                                <extent>twenty two folios, including twenty two paintings. 
+                                    一冊共二十六開，本幅二十二幅，前副頁和后副頁各二開二幅。
+                                    <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
+                        
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                            <height>29.2 cm</height>
+                                        <width>19 cm</width>
+                                    </dimensions>
+                                    <!-- use additional dimensions elements if necessary -->
+                                </extent>
+                                
+                                <condition>The album of paintings is in poor condition. Each leaf has become detached from the binding, 
+                                           and the binding itself is severely deteriorated or nearly non-existent. Additionally, the 
+                                           inner pages exhibit signs of insect damage.<!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>人物衣紋描法(勻稱線條)</layout>
+                                
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc><handNote>
+                            Text written in 隸書 (li shu, clerical script) calligraphic style</handNote><!-- use the @hands attribute to record the number of scribes -->
+                            <!-- <handNote> </handNote> --> 
+                            <!-- use additional handNote elements if necessary 
+                     https://git.io/msdescdoc#handdesc
+                     -->
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote>
+                            </decoNote>
+                            <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                        </decoDesc>
+                        
+                        <bindingDesc>
+                            <binding when="1800"><!-- use dating attributes to record the date -->
+                                <p>冊</p>
+                                <decoNote>畫冊為二十六開二十二幅。經摺裝。封皮為木製。本幅為菩提葉白描畫裝裱在藍色之上，
+                                          對幅為藍色紙本上寫有金色隸書。畫心裝裱在黃色絲織物上，邊為黃色，有破損。
+                                         The album consists of twenty-six leaves with twenty-two paintings. 
+                                         It is bound in a concertina format. The cover is made of wood. Each 
+                                         leaf features white drawings on bodhi leaf paper, mounted on a blue 
+                                         background, with gold clerical script written on blue paper for each painting. 
+                                         The mounted pages are attached to yellow silk fabric, with yellow edges that 
+                                         exhibit some damage.
+                                </decoNote>
+                            </binding>
+                        </bindingDesc>
+                        <accMat>
+                            <!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#accMat          
+                     -->
+                        </accMat>
+                    </physDesc>
+                    <history>
+                        <!-- see https://git.io/msdescdoc#history -->
+                        <origin>
+                            <!-- see https://git.io/msdescdoc#origin -->
+                            <origPlace>
+                                <country>China</country>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清代</origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance>On the inside of upper cover, a seal in red colour is found, showing Chowkwa Painter and Copier of Charts, indicating the painter.
+                            Previous shelfmark: S.C.33023 (as indicated on the inside upper cover)</provenance>
+                        
+                        
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition>Acquired in 1885 </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
+                                    <bibl><!-- insert if necesary, otherwise delete --></bibl>
+                                    <!-- links to digitized catalogues may also be provide here, e.g.: -->
+                                    <!--<listBibl>
+                              <bibl type="SC" facs="aas0046.gif">Summary Catalogue, Vol. 3, p.  31</bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <head><!-- use to provide a heading if required, otherwise delete --></head>
+                            <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                            
+                        </listBibl>
+                    </additional>
+                    
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <!-- insert relevant text, e.g. 'First online publication' -->
+                <!-- provide the date of the change using the @when attribute -->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
