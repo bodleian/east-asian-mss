@@ -110,7 +110,7 @@
                                 
                                 <condition>The album of paintings is in poor condition. Each leaf has become detached from the binding, 
                                            and the binding itself is severely deteriorated or nearly non-existent. Additionally, the 
-                                           inner pages exhibit signs of insect damage.<!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
+                                           inner pages exhibit signs of insect damage. The gilt shows signs of tarnish.<!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>人物衣紋描法(勻稱線條)</layout>
@@ -168,7 +168,9 @@
                             <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance></provenance>
+                        <provenance>One of the Chiense MSS. is very singular (Ms.Chin.d.8).consisting of portraits of Buddhist saints 
+                                    drawn on sacred figleaves specially prepared.These are mounted in gilt letters on blue. 
+                                   (retireved from Oxford University Gazette, May 13, 1902.).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
