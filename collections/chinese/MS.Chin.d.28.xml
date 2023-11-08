@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Chin.d.20</title>
+                <title>MS.Chin.d.28</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,27 +44,26 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Chin.d.20</idno>
+                        <idno type="shelfmark">MS.Chin.d.28</idno>
                         <altIdentifier type="former">
-                            <idno>Chin.431f</idno>
+                            <idno>Chin.520c</idno>
                         </altIdentifier>
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>The Miao tribes and their territories</summary>
+                        <summary>A manuscript of astronomical knowledge extracted from the book titled Lu Shi.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title type="desc" xml:lang="en">The Miao tribes and their territories: two volumes</title> 
-                            <title>苗疆圖説 (二卷)</title>
+                            <title>路史天文類</title>
                             <author key="Chinese">unknown</author>
-                            <note><persName>籜石老人</persName>舊藏本<persName>王鈞</persName>編輯<placeName>南武</placeName><persName>王翰</persName>手錄</note>
-                            <incipit><locus>fol.1</locus>苗疆圖説 卷上 籜石老人藏本 王鈞編輯</incipit>
-                            <incipit><locus>fol.10</locus>苗疆圖説 卷下 籜石老人藏本 王鈞編輯</incipit>
+                            <note><persName>羅泌</persName>撰,佚名摘錄。Hand written by an author unknown, 
+                                  the content is extracted from Lu Shi, which was authored by Luo Bi</note>
                             <filiation>手抄本，中外孤本。handwritten copy, only surviving copy of its kind.</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -79,8 +78,8 @@
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>22.9 cm</height>
-                                        <width>14.1 cm</width>
+                        -->                           <height>23.7 cm</height>
+                                        <width>19.2 cm</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -88,7 +87,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>内頁無邊框，每頁分九列，每列約二十五字。</layout>
+                                <layout>内頁無邊框，每頁分十六列，每列約三十二字。</layout>
                                 
                             </layoutDesc>
                             
@@ -134,13 +133,19 @@
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>record in previous catalogue
+                            
                             language:	Chinese
-                            shelfmark:	MS.Chin.d.20
-                            content:	WANG CHÜN: Miao chiang t'u shuo [The Miao tribes and their territories]
-                            phys. descr:	ff.ii,19.
+                            shelfmark:	MS.Chin.d.28
+                            content:	LO PI: astronomical extract from the Lu shih.
+                            phys. descr:	ff.i,7.
                             acquired:	1882.
-                            Past shelfmarks:	Chin.431f
-                            List number:	S.C.29245f</provenance>
+                           This manuscript has been recorded in Serica:
+                           子部 天文算法類 推步 推步
+                           路史天文類 : 不分卷 / (宋)羅泌撰 ; 佚名摘錄 
+                           抄本
+                           線裝1冊 ; 24公分
+                           MS.Chin.d.28
+                        </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
