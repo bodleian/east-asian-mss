@@ -132,8 +132,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue
-                            
+                        <provenance>record in previous catalogue：
                             language:	Chinese
                             shelfmark:	MS.Chin.d.28
                             content:	LO PI: astronomical extract from the Lu shih.
