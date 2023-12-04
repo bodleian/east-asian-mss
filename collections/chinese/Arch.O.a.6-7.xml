@@ -53,18 +53,29 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary><!--  --></summary>
+                        <summary>Yongle Encyclopedia: vol. 16217-16218</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>Yung lo ta tien<note>7 vols. chÜan 807-808; 1036-1037; 5244-45; 13872-73; 15073-75; 16217-18. For chÜan 14607-07 see Ms.Chin.b.9</note></title>
-                            <title key="">永樂大典:卷一萬六千二百十七之一萬六千二百十八</title>
-                            <title>Yongle da dian: juan 16217-16218</title>
+                            <title>永樂大典:卷一萬六千二百十七之一萬六千二百十八</title>
+                            <title xml:lang="en">Yongle da dian: juan 16217-16218
+                                    Yongle Encyclopedia: vol. 16217-16218</title>
                             <editor>解縉</editor>
-                            <rubric>永樂大典</rubric>
-                            <rubric>冠:諸侯大夫冠禮</rubric>
+                            
+                            <msItem><locus>fol. 1r</locus>
+                                <title>永樂大典卷之一萬六千二百十七 十翰</title>
+                                <rubric>冠:諸侯大夫冠禮</rubric>
+                                <explicit><locus>fol. 26v</locus>>永樂大典卷之一萬六千二百十七</explicit>
+                            </msItem>
+                            
+                            <msItem><locus>fol. 27r</locus>
+                                <title>永樂大典卷之一萬六千二百十八 十翰</title>
+                                <rubric>冠:庶人冠禮</rubric>
+                                <explicit><locus>fol. 38r</locus>>永樂大典卷之一萬六千二百十八</explicit>
+                            </msItem>
+                            
                             <colophon>重錄總校官侍郎臣<persName>秦鳴雷</persName><lb/>學士臣<persName>王大任</persName></colophon>
                             
                             <colophon>分校官編修臣<persName>孫鋌</persName></colophon>
@@ -117,7 +128,8 @@
                                 In traditional Chinese style yellow silk cover</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
-                     -->
+                     --> <decoNote><locus from="14v" to="16r"></locus>On folios of 14v, 15r, 15v and 16r, illustrations are presented.</decoNote>
+                          <decoNote><locus from="21r" to="21v"></locus>On folios of 21r and 21v, illustrations are presented.</decoNote>
                         </decoDesc>
                         <additions>
                             <p> There are areas of old water damage and mould in the upper part of the volume. The text includes a large plan of ritual formation. Has a printed /ms. Siku quanshu form. As shown in Zhang Chenshi's list. Reproduced in the 1960/1984 Zhonghua Shuju reprint.</p>
