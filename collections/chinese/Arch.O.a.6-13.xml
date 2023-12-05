@@ -59,8 +59,8 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="">永樂大典:卷二萬四百二十八<note>The volume number on the lable does not match the content inside.</note></title>
-                            <title>Yung-lo ta-tien: chüan 10460
+                            <title>永樂大典:卷二萬四百二十八<note>The volume number on the lable does not match the content inside.</note></title>
+                            <title xml:lang="en">Yung-lo ta-tien: chüan 10460
                                 Yongle Encyclopedia: vol. 18203-18204</title>
                             <editor>解縉</editor>
                             <rubric>永樂大典：卷之一萬四百六十 四濟</rubric>
