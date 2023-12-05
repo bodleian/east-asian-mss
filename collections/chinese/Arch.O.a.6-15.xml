@@ -53,17 +53,18 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary><!--  --></summary>
+                        <summary>Yongle Encyclopedia: vol. 14622</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="">永樂大典:卷一萬四千六百二十二</title>
-                            <title>Yongle da dian: juan 14622</title>
+                            <title>永樂大典:卷一萬四千六百二十二</title>
+                            <title xml:lang="en">Yung-lo ta-tien: chüan 14622
+                                       Yongle Encyclopedia: vol. 14622</title>
                             <editor>解縉</editor>
-                            <rubric>永樂大典</rubric>
-                            <rubric>部:吏部九 吏部條法</rubric>
+                            <rubric>永樂大典卷之一萬四千六百二十二 六暮</rubric>
+                            <rubric>部，吏部九：吏部條法</rubric>
                             
                             <colophon>重錄總校官侍郎臣<persName>秦鳴雷</persName><lb/>學士臣<persName>王大任</persName></colophon>
                             
@@ -121,7 +122,10 @@
                         </decoDesc>
                         
                         <additions>
-                            <p>  The cover labels are not present. As shown in the Yuan Tongli's list, Zhang Chenshi's list and reproduction in the 1960/84 Zhonghua Shuju reprint.</p>
+                            <p>  The cover labels are not present. 
+                                As shown in the Yuan Tongli's list, Zhang Chenshi's list 
+                                and reproduction in the 1960/84 Zhonghua Shuju reprint.
+                                notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社.</p>
                         </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->

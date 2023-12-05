@@ -63,7 +63,7 @@
                             <title xml:lang="en">Yung-lo ta-tien: chüan 14385
                                      Yongle Encyclopedia: vol. 14385</title>
                             <editor>解縉</editor>
-                            <rubric>永樂大典</rubric>
+                            <rubric>永樂大典卷之一萬四千三百八十五 四霽</rubric>
                             <rubric>冀:冀州二 宋薛季宣地理叢考</rubric>
                             
                             <colophon>重錄總校官侍郎臣<persName>秦鳴雷</persName><lb/>學士臣<persName>王大任</persName></colophon>
@@ -129,7 +129,7 @@
                         </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p> 黃絹硬面,包背裝</p>
+                                <p>明嘉靖隆慶間內府重寫本。黃絹硬面,包背裝。</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
