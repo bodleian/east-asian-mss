@@ -122,7 +122,7 @@
                         </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p> 黃絹硬面,包背裝</p>
+                                <p>明嘉靖隆慶間內府重寫本。黃絹硬面,包背裝。</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -150,6 +150,8 @@
                             was received in the stages between 1913 and 1922. Although Backhouse held himself 
                             aloof from other foreigners in Peking, he was present in the Legation during the Siege. 
                             As with almost all the other indications of ownership on any of the Backhouse volumes.
+                            
+                            notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社. 
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>

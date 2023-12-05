@@ -76,9 +76,6 @@
                                 <explicit><locus>fol. 37r</locus>永樂大典卷之一萬一百三十六</explicit>
                             </msItem>
                             
-                            <rubric>永樂大典</rubric>
-                            <rubric>史:歷代諸史七南史北史後周書隨書</rubric>
-                            
                             <colophon>重錄總校官侍郎臣<persName>高拱</persName><lb/>學士臣<persName>胡正蒙</persName></colophon>
                             
                             <colophon>分校官編修臣<persName>陶大臨</persName></colophon>
@@ -135,7 +132,7 @@
                         </additions>     
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p> 黃絹硬面,包背裝</p>
+                                <p>明嘉靖隆慶間內府重寫本。黃絹硬面,包背裝。</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -163,6 +160,8 @@
                             was received in the stages between 1913 and 1922. Although Backhouse held himself 
                             aloof from other foreigners in Peking, he was present in the Legation during the Siege. 
                             As with almost all the other indications of ownership on any of the Backhouse volumes.
+                            
+                            notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社. 
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
