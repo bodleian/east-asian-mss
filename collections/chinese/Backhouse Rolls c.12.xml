@@ -75,7 +75,7 @@
                         <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>畫心
+                                <extent>1 scroll
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -88,7 +88,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>卷軸，紙本，設色。</layout>
+                                <layout>书畫卷軸，紙本，設色。</layout>
                                 
                             </layoutDesc>
                         </objectDesc>
@@ -96,21 +96,13 @@
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
                                 Text written in 行書 (xing shu, semi-cursive) calligraphic style.
-                                設色花鳥畫。沒骨法。</handNote>
+                                設色花鳥畫,沒骨法。</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        <musicNotation>
-                            <p><!-- insert if relevant, otherwise delete --></p>
-                            <!-- use additional p elements if necessary 
-                     https://git.io/msdescdoc#musicnotation
-                     -->
-                        </musicNotation>
                         <decoDesc>
-                            <decoNote>大鑲手卷，天為淡藍色有花紋絲織物，有污損和褪色痕跡。副隔水為淺黃色有花紋絲織物，隔水為白色絲織物。引首為黃色配白色紙本，
-                                拖尾為白色紙本，略有污跡。邊為白色絲織物。錦包首為綠色絲織物伴有紅色藍色花紋，題簽為白色紙本，以篆書寫"張雪鴻花鳥"。
-                            </decoNote>
+                           <decoNote></decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -119,7 +111,9 @@
                         <bindingDesc>
                             <binding when="1700"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
-                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                                <decoNote>大鑲手卷，天為淡藍色有花紋絲織物，有污損和褪色痕跡。副隔水為淺黃色有花紋絲織物，隔水為白色絲織物。引首為黃色配白色紙本，
+                                    拖尾為白色紙本，略有污跡。邊為白色絲織物。錦包首為綠色絲織物伴有紅色藍色花紋，題簽為白色紙本，以篆書寫"張雪鴻花鳥"。
+                                </decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -138,10 +132,10 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1600" calendar="Gregorian">清中期</origDate>
+                            <origDate notAfter="1900" notBefore="1600" calendar="Gregorian">嘉慶四年(1799)</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
