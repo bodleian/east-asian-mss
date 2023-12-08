@@ -61,37 +61,42 @@
                             
                             <title type="desc">清潘祖蔭行書四屏</title>
                             <author key="Chinese">潘祖蔭</author>
-                            <title type="屏條">其一</title>
+                            
+                            <msItem><title type="屏條">其一</title>
                             <incipit>虞書皋陶謨
-                                     曰若稽古皋陶曰允迪厥德謨明弼諧禹曰俞如何。
-                                     皋陶曰都慎厥身修思永惇敘九族庶明勵翼邇可
-                                     遠在茲禹拜昌言曰俞皋陶曰都在知人在安民禹
-                                     曰吁咸若時惟帝其難之知人則哲能官人安民則</incipit>
+                                     曰若稽古皋陶曰：”允迪厥德，謨明弼諧。“禹曰：”俞，如何？“
+                                     皋陶曰：”都！慎厥身，修思永。惇敘九族，庶明勵翼，邇可
+                                     遠在茲。“ 禹拜昌言曰：”俞！“ 皋陶曰：”都！在知人，在安民。“ 禹
+                                     曰：”吁！咸若時，惟帝其難之。知人則哲，能官人，安民則</incipit></msItem>
                             
+                            <msItem>
                             <title type="屏條">其二</title>
-                            <incipit>惠黎民懷之能哲而惠何憂乎驩兜何遷乎有苗何
-                                     畏乎巧言令色孔壬皋陶曰都亦行有九德亦言其
-                                     人有德乃言曰載采采禹曰何皋陶曰寬而栗柔而
-                                     立愿而恭亂而敬擾而毅直而溫簡而廉剛而塞彊
-                                     而義彰厥有常吉哉日宣三德夙夜浚明有家日嚴</incipit>
-                            <explicit type="背面">B/336 Backhouse Rolls b. 14(2)</explicit>
-                            
+                            <incipit>惠，黎民懷之。能哲而惠，何憂乎驩兜？何遷乎有苗？何
+                                     畏乎巧言令色孔壬？“ 皋陶曰：”都！亦行有九德。亦言，其
+                                     人有德，乃言曰，載采采。“ 禹曰：”何？“ 皋陶曰：”寬而栗，柔而
+                                     立，愿而恭，亂而敬，擾而毅，直而溫，簡而廉，剛而塞，彊
+                                     而義。彰厥有常，吉哉！日宣三德，夙夜浚明有家；日嚴</incipit>
+                            <explicit type="背面">B/336 Backhouse Rolls b. 14(2)</explicit></msItem>
+                           
+                           <msItem>
                             <title type="屏條">其三</title>
-                            <incipit>祗敬六德亮采有邦翕受敷施九德咸事俊乂在官
-                                     百僚師師百工惟時撫于五辰庶績其凝無教逸欲
-                                     有邦兢兢業業一日二日萬幾無曠庶官天工人其
-                                     代之天敘有典勑我五典五惇哉天秩有禮自我五
-                                     禮有庸哉同寅協恭和衷哉天命有德五服五章哉</incipit>
-                            <explicit type="背面">Backhouse Rolls b. 14(3)</explicit>
+                            <incipit>祗敬六德，亮采有邦。翕受敷施，九德咸事，俊乂在官。
+                                     百僚師師，百工惟時，撫于五辰，庶績其凝。無教逸欲，
+                                     有邦兢兢業業，一日二日萬幾。無曠庶官，天工，人其
+                                     代之。天敘有典，勑我五典五惇哉！天秩有禮，自我五
+                                     禮有庸哉！同寅協恭和衷哉！天命有德，五服五章哉！</incipit>
+                            <explicit type="背面">Backhouse Rolls b. 14(3)</explicit></msItem>
                             
+                            <msItem>
                             <title type="屏條">其四</title>
-                            <incipit>天討有罪五刑五用哉政事懋哉懋哉天聰明自我
-                                     民聰明天明畏自我民明威達于上下敬哉有土皋
-                                     陶曰朕言惠可厎行禹曰俞乃言厎可績皋陶曰予
-                                     未有知思曰贊贊襄哉</incipit>
+                            <incipit>天討有罪，五刑五用哉！政事懋哉懋哉！“ ”天聰明，自我
+                                     民聰明。天明畏，自我民明威。達于上下，敬哉有土！“ 皋
+                                     陶曰：”朕言惠可厎行？“ 禹曰：”俞！乃言厎可績。皋陶曰：“予
+                                     未有知，思曰贊贊襄哉！”</incipit>
                             <incipit type="款識"><date>咸豐八年正月中濣</date> 臣潘祖蔭敬書</incipit>
                             <explicit type="背面">Backhouse Rolls b. 14(4)</explicit>
-                            <explicit type="背面">B/338 潘祖蔭 屏</explicit>
+                            <explicit type="背面">B/338 潘祖蔭 屏</explicit></msItem>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -100,8 +105,8 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>紙本</support>
+                            <supportDesc material="纸本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper 纸本</support>
                                 <extent>4 scrolls 四軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -163,8 +168,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1858</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                        </provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
