@@ -59,7 +59,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>清慈禧太后行書七言聯</title>
+                            <title>清慈禧太后行書七言聯 轴</title>
                             <author key="Chinese">慈禧太后 (1835-1908)</author>
                             <title type="上聯">上聯</title>
                             <incipit>漢璧秦璆千古品</incipit>
@@ -68,7 +68,7 @@
                             <title type="下聯">下聯</title>
                             <incipit>和風嘉月四時春</incipit>
                             <incipit type="seal">海涵春育</incipit>
-                            <incipit type="seal">萬古長青？</incipit>
+                            <incipit type="seal">萬古長青</incipit>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -78,8 +78,8 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                            <supportDesc material="纸本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper 纸本</support>
                                 <extent>2 scrolls 二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -93,7 +93,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴.墨色书写</layout>
+                                <layout>书法卷轴，墨色书写。</layout>
                                 
                             </layoutDesc>
                             
@@ -140,7 +140,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
