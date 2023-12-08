@@ -51,7 +51,7 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A scroll of Chinese painting depicts landscapes by Prince Shen (慎郡王, 1711-1758) of Qing dynasty. </summary>
+                        <summary>A scroll of Chinese painting depicts landscapes attributed to Prince Shen (慎郡王, 1711-1758) of Qing dynasty. </summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
@@ -60,10 +60,10 @@
                             <title type="desc">清慎郡王山水畫 卷</title>
                             <author key="Chinese">愛新覺羅允禧（1711-1758）</author>
                             <note>愛新覺羅允禧,康熙第二十一子,字謙齋,號紫噊,別號紫瓊道人,春浮居士，清代書畫家詩人，書畫造詣頗高，据傳與鄭板橋私交甚篤。</note>
-                            <incipit>余生平所見 慈文貴大約 似北苑更以 林壑深窈煙
-                                     靄漸茫取勝 繼於王子東 莊出觀巨幅 峰巒雄偉
-                                     屋宇精妍 廽逾常格 心竊慕之此 卷適擺其 法然稚筆
-                                     學步終未新 夢見也</incipit>
+                            <incipit>余生平所見慈文貴,大約似北苑。更以林壑深窈，煙
+                                     靄漸茫取勝。繼於王子東莊出，觀巨幅峰巒雄偉，
+                                     屋宇精妍，廽逾常格，心竊慕之。此卷適擺其法，然稚筆
+                                     學步終未我夢見也。</incipit>
                             <incipit type="款識">乙丑嘉平上浣<persName type="號">紫瓊道人</persName></incipit>
                             <incipit type="seal">寄情</incipit>
                             <incipit type="seal">允禧</incipit>
@@ -77,9 +77,9 @@
                     <physDesc>
                         
                         <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
-                                <extent>畫心
+                            <supportDesc material="纸本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper 纸本</support>
+                                <extent>1 scroll 一轴
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -112,8 +112,7 @@
                      -->
                         </musicNotation>
                         <decoDesc>
-                            <decoNote>小鑲手卷，天為藍色絲織物。隔水為白色絲織物。引首為淡黃色紙本，拖尾為白色紙本。邊為米色絲織物。
-                                錦包首為土黃色絲織物伴有棕色花紋，題簽為黃色紙本，上書"紫瓊道人"。
+                            <decoNote>
                             </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
@@ -123,7 +122,8 @@
                         <bindingDesc>
                             <binding when="1700"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
-                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                                <decoNote>小鑲手卷，天為藍色絲織物。隔水為白色絲織物。引首為淡黃色紙本，拖尾為白色紙本。邊為米色絲織物。
+                                    錦包首為土黃色絲織物伴有棕色花紋，題簽為黃色紙本，上書"紫瓊道人"。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -145,7 +145,7 @@
                             <origDate notAfter="1900" notBefore="1600" calendar="Gregorian">1745</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
