@@ -59,21 +59,23 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>清英和行書八言聯</title>
+                            <title>清英和行書八言聯 轴</title>
                             <author key="Chinese">英和 (1771-1840)</author>
                             <note>英和(1771-1840),索綽絡氏,初名石桐,字樹琴,號煦齋,又號粵溪生,内務府滿洲正白旗人,清朝政治人物。</note>
+                            <msItem>
                             <title type="上聯">上聯</title>
                             <incipit>東雲館文</incipit>
                             <incipit>信敏謙恭樂有利福</incipit>
                             <explicit type="背面">Backhouse Rolls b.11(1)</explicit>
-                            <explicit type="背面">英和</explicit>
+                                <explicit type="背面">英和</explicit> </msItem>
                             
+                            <msItem>
                             <title type="下聯">下聯</title>
                             <incipit>仁壽篤厚天所祚昌</incipit>
                             <incipit type="款識">樹琴英和</incipit>
                             <incipit type="seal">英和之印</incipit>
                             <explicit type="背面">Scrolls by Ying Ho the qual scholar</explicit>
-                            <explicit type="背面">Backhouse Rolls b. 11(2)</explicit>
+                                <explicit type="背面">Backhouse Rolls b. 11(2)</explicit> </msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -83,8 +85,8 @@
                     <physDesc>
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                            <supportDesc material="纸本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper 纸本</support>
                                 <extent>2 scrolls 二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -145,7 +147,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">中晚清至晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> </provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
