@@ -178,7 +178,7 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                The book cover is made of traditional Chinese paper with the sign of yellowing.</decoNote>
+                          </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -186,7 +186,7 @@
                         
                         <bindingDesc>
                             <binding when="1600"><!-- use dating attributes to record the date -->
-                                <p>Thread-binding books with paperback cover.</p>
+                                <p>Thread-bound books with paperback covers made of traditional Chinese paper. The covers exhibit signs of yellowing.</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
