@@ -137,15 +137,15 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                The book cover is made of traditional Chinese paper.</decoNote>
+                                </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
                         
                         <bindingDesc>
-                            <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p>Thread-binding books with paper cover.</p>
+                            <binding when="1800"><!-- use dating attributes to record the date -->
+                                <p>Thread-bound books with paperback covers made of traditional Chinese paper.</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
