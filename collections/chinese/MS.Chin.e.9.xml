@@ -65,7 +65,7 @@
                             <title type="desc">清嘉慶年間部分聖旨奏摺抄錄集</title>
                             <author key="Chinese">unknown</author>
                             <incipit><locus>fol.1</locus>嘉慶四年正月二十七日准</incipit>
-                            <filiation>手抄本，中外孤本。handwritten copy, only surviving copy of its kind.</filiation>  
+                            <filiation>手抄本，中外孤本。Manuscript, only surviving copy of its kind.</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
@@ -134,14 +134,14 @@
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.e.9
-                            content:	Memorial about the case of Ho Shen
-                            date:	1799.
-                            phys. descr:	ff.i,33.
-                            acquired:	1882.
-                            Past shelfmarks:	Chin.530d
-                            List number:	S.C.29245c
+                                    language:	Chinese
+                                    shelfmark:	MS.Chin.e.9
+                                    content:	Memorial about the case of Ho Shen
+                                    date:	1799.
+                                    phys. descr:	ff.i,33.
+                                    acquired:	1882.
+                                    Past shelfmarks:	Chin.530d
+                                    List number:	S.C.29245c
                         </provenance>
                         
                         
