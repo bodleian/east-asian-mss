@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Arch.O.a.6/18</title>
+                <title>MS.Backhouse 1j</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,33 +44,33 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Arch.O.a.6/18</idno>
+                        <idno type="shelfmark">MS.Backhouse 1j</idno>
                         <altIdentifier type="former">
-                            <idno>MS.Backhouse 1k</idno>
+                            <idno>Arch.O.a.6/17</idno>
                         </altIdentifier>
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Yongle Encyclopedia: vol. 20139</summary>
+                        <summary>Yongle Encyclopedia: vol. 19735</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>永樂大典:卷二萬一百三十九</title>
-                            <title xml:lang="en">Yung-lo ta-tien: chüan  20139
-                                  Yongle Encyclopedia: vol. 20139</title>
+                            <title>永樂大典:卷一萬九千七百三十五</title>
+                            <title xml:lang="en">Yung-lo ta-tien: chüan  19735
+                                   Yongle Encyclopedia: vol. 19735</title>
                             <editor>解縉</editor>
-                            <rubric>永樂大典卷之二萬一百三十九 二質</rubric>
-                            <rubric>日:諸家選日二十五</rubric>
+                            <rubric>永樂大典卷之一萬九千七百三十五 一屋</rubric>
+                            <rubric>錄:曾公遺錄八</rubric>
                             
                             <colophon>重錄總校官侍郎臣<persName>陳以勤</persName><lb/>學士臣<persName>王大任</persName></colophon>
                             
-                            <colophon>分校官侍讀臣<persName>王希烈</persName></colophon>
-                            <colophon>書寫儒士臣<persName>程大憲</persName></colophon>
-                            <colophon>圈點監生臣<persName>敖河</persName><lb/>臣<persName>孫世良 </persName></colophon>
+                            <colophon>分校官中允臣<persName>胡杰</persName></colophon>
+                            <colophon>書寫官序班臣<persName>劉大武</persName></colophon>
+                            <colophon>圈點監生臣<persName>馬承志</persName><lb/>臣<persName>吳璥</persName></colophon>
                             <filiation>中外孤本 only surviving copy</filiation>
                             
                         </msItem>
@@ -81,7 +81,7 @@
                         <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>32 leaves
+                                <extent>31 leaves
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -122,12 +122,9 @@
                         </decoDesc>
                         
                         <additions>
-                            <p> Both covers appear to have been replaced, but closely match the original: 
-                                the cover labels are not only not present, but there is no sign that they 
-                                were ever there. As shown in the Yuan Tongli's list, Zhang Chenshi's list 
-                                and reproduction in the 1960/84 Zhonghua Shuju reprint.
-                            
-                                notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社.</p>
+                            <p>As shown in the Yuan Tongli's list, Zhang Chenshi's list and reproduction in the 1960/84 Zhonghua Shuju reprint.
+                               
+                               notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社.</p>
                         </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
@@ -206,3 +203,6 @@
         </body>
     </text>
 </TEI>
+
+
+

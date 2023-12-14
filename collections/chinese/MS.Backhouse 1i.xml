@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Backhouse 1h</title>
+                <title>MS.Backhouse 1i</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,33 +44,29 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Backhouse 1h</idno>
+                        <idno type="shelfmark">MS.Backhouse 1i</idno>
                         <altIdentifier type="former">
-                            <idno>Arch.O.a.6/15</idno>
+                            <idno>Arch.O.a.6/16</idno>
                         </altIdentifier>
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Yongle Encyclopedia: vol. 14622</summary>
+                        <summary>Yongle Encyclopedia: vol. 14627</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>永樂大典:卷一萬四千六百二十二</title>
-                            <title xml:lang="en">Yung-lo ta-tien: chüan 14622
-                                       Yongle Encyclopedia: vol. 14622</title>
+                            <title>永樂大典:卷一萬四千六百二十七</title>
+                            <title xml:lang="en">Yung-lo ta-tien: chüan  14627
+                                   Yongle Encyclopedia: vol. 14627</title>
                             <editor>解縉</editor>
-                            <rubric>永樂大典卷之一萬四千六百二十二 六暮</rubric>
-                            <rubric>部，吏部九：吏部條法</rubric>
+                            <rubric>永樂大典卷之一萬四千六百二十七 六暮</rubric>
+                            <rubric>部，吏部十四：吏部條法</rubric>
                             
-                            <colophon>重錄總校官侍郎臣<persName>秦鳴雷</persName><lb/>學士臣<persName>王大任</persName></colophon>
-                            
-                            <colophon>分校官編修臣<persName>張四維</persName></colophon>
-                            <colophon>書寫儒士臣<persName>張棟</persName></colophon>
-                            <colophon>圈點監生臣<persName>傅道立</persName><lb/>臣<persName>許汝孝</persName></colophon>
+                           
                             <filiation>中外孤本 only surviving copy</filiation>
                             
                         </msItem>
@@ -81,7 +77,7 @@
                         <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>34 leaves
+                                <extent>37 leaves
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -107,12 +103,7 @@
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        <musicNotation>
-                            <p><!-- insert if relevant, otherwise delete --></p>
-                            <!-- use additional p elements if necessary 
-                     https://git.io/msdescdoc#musicnotation
-                     -->
-                        </musicNotation>
+
                         <decoDesc>
                             <decoNote>
                                 In traditional Chinese style yellow silk cover</decoNote>
@@ -122,9 +113,9 @@
                         </decoDesc>
                         
                         <additions>
-                            <p> The cover labels are not present. 
-                                As shown in the Yuan Tongli's list, Zhang Chenshi's list 
-                                and reproduction in the 1960/84 Zhonghua Shuju reprint.
+                            <p> The cover labels are not present, nor is the half-leaf with the editors' names.
+                                As shown in the Yuan Tongli's list, Zhang Chenshi's list and reproduction in 
+                                the 1960/84 Zhonghua Shuju reprint.
                                 
                                 notes:牛津大學博德利圖書館藏《永樂大典》(全十九冊). 北京: 國家圖書館出版社.</p>
                         </additions>
