@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls a. 32 (1)</title>
+                <title>Sinica 3538</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,41 +44,57 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls a. 32 (1)</idno>
-                        
+                        <idno type="shelfmark">Sinica 3538</idno>
+                       
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of calligraphy in the Kai Shu style written by Aisin Gioro Yongxing (愛新覺羅永瑆)， the eleventh son of Qianlong Emperor of Qing dyasnty.</summary>
+                        <summary><!--  --></summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
+                            <title key="">簽書</title>
+                            <title>簽書</title>
                             
-                            <title type="desc">calligraphy</title>
-                            <author key="Chinese">愛新覺羅永瑆</author>
-                            <incipit>雲生紫殿幡花濕</incipit>
-                            <explicit type="背面">皇十一子字</explicit>
+                            <rubric>灵卦有凖發文思号灵簽書卦<locus type="page"> pp.2-3</locus></rubric>
+                            <rubric>请鬼用發文思号<locus type="page"> pp.2-3</locus></rubric>
+                            <incipit>说说今年今月今日今時拜請覌音娘娘及玉皇大帝聖主無浪壽佛？了覌音菩薩陀？五海龍王太陰陽太太白先師張天師李天師大羅眾聖鬼各先師把盃童子護盃童郎南南無南海靠佛灵神。<locus type="page"> pp.2-3</locus></incipit>
+                            <incipit>灵簽師父傳師法、老師法。到覌音經呪念用。<locus type="page"> pp.4-5</locus></incipit>
+                            <rubric>子宮：子宮神后卦属土<locus type="page"> pp.6-7</locus></rubric>
+                            <rubric>丑宮：丑宮卦簽<locus type="page"> pp.14-15</locus></rubric>
+                            <rubric>寅宮：寅宮功曹卦<locus type="page"> pp.20-21</locus></rubric>
+                            <rubric>卯宮：卯宮太衝卦<locus type="page"> pp.28-29</locus></rubric>
+                            <rubric>辰宮：辰宮天罡卦<locus type="page"> pp.34-35</locus></rubric>
+                            <rubric>巳宮：巳宮太乙卦<locus type="page"> pp.42-43</locus></rubric>
+                            <rubric>午宮：午宮勝光卦<locus type="page"> pp.48-49</locus></rubric>
+                            <rubric>未宮：未宮小吉卦<locus type="page"> pp.54-55</locus></rubric>
+                            <rubric>申宮：申宮傳并卦<locus type="page"> pp.60-61</locus></rubric>
+                            <rubric>酉宮：酉宮徒魁卦<locus type="page"> pp.68-69</locus></rubric>
+                            <rubric>戍宫：戍宫河魁卦<locus type="page"> pp.74-75</locus></rubric>
+                            <rubric>亥宫：亥宫燈明卦<locus type="page"> pp.80-81</locus></rubric>
+                            <explicit>天喜臨門大吉昌，風吹花草自然香，若問此卦如何断，也有奖藥也憂疋<locus type="page"> pp.94-95</locus></explicit>
+                            <explicit>辛丑年一九六一<locus type="page"> pp.94-95</locus></explicit>
+
+                            <filiation>手抄本，据書得知，抄于1961年。</filiation>
                             
-                            <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
-                        <!-- insert further msItem elements as appropriate --> 
-                        
+                        <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>絹本</support>
-                                <extent>1 scroll
+                        <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper</support>
+                                <extent>95 pages
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>？</height>
-                                        <width>？</width>
+                        -->                           <height>14.3</height>
+                                        <width>14.5</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -86,33 +102,36 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>書法立軸，絹本，對聯。</layout>
-                                
+                                <layout>手抄本，無邊框。每半頁分八行，標題紅色墨水大字抄寫並以黑色墨水勾邊，正文黑色墨水小字單行抄寫，每行約14字。每頁第一行“點”字的作用是提示内容的重點。</layout>
+                      
                             </layoutDesc>
-                            
                         </objectDesc>
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷書 (kai shu, regular) calligraphic style.
-                            </handNote>
+                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        
+                        <musicNotation>
+                            <p><!-- insert if relevant, otherwise delete --></p>
+                            <!-- use additional p elements if necessary 
+                     https://git.io/msdescdoc#musicnotation
+                     -->
+                        </musicNotation>
                         <decoDesc>
                             <decoNote>
-                            </decoNote>
+                                此手稿尾頁処紅色墨水寫成並黑色墨水勾邊的“辛丑年一九六一”外，其餘文字以藍色墨水用鋼筆以楷書書寫，同樣藍色字跡亦見於封底。</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+
                         <bindingDesc>
-                            <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>立軸</p>
-                                <decoNote>立軸，裝裱方式為一色裱，天頭地脚及邊框為藍色黃色綠色有花紋絲織物。書法寫與黃色有花紋絲織物上。背面天杆処有”皇十一子付”字樣。</decoNote>
+                            <binding when="1900"><!-- use dating attributes to record the date -->
+                                <p>綫裝書</p>
+                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -131,16 +150,12 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清中期</origDate>
+                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">[1961]</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the top of the back of the scroll [Backhouse Rolls a. 38 (2)], some text are probably written by Backhouse. On the right is “Autograph of Prince Cheng, Chienlung’s son …”. 
-                            “Pair of scrolls by Cheng Ching  Pung ?eng who was the 11 son of Emperor Chienlung, who is considered as one of the four great calligrapher of present dynasty”.
-                            “jing Weng Fang Rong ching chao”.
-                            
-                        </provenance>
-                        
-                        
+                        <provenance> </provenance>
+          
+                           
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
                             <!-- insert -->
@@ -185,3 +200,6 @@
         </body>
     </text>
 </TEI>
+
+
+

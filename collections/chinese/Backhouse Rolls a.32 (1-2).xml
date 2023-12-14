@@ -59,22 +59,25 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title type="對聯">清成親王行書七言聯</title>
+                            <title type="對聯">清成親王行書七言聯 軸</title>
                             <author key="Chinese">或為<persName>愛新覺羅永瑆（1752-1823）</persName>手跡</author>
+                            <msItem>
                             <title type="上聯">上聯</title>
                             <incipit>雲生紫殿幡花濕</incipit>
                             <explicit type="背面">皇十一子字</explicit>
-                            <explicit type="背面">Backhouse Rolls a.32</explicit>
-                            
+                            <explicit type="背面">Backhouse Rolls a.32</explicit></msItem>
+                           
+                           <msItem>
                             <title type="下聯">下聯</title>
                             <incipit>月暎珠光貝闕寒</incipit>
                             <incipit>皇十一子書</incipit>
                             <incipit type="seal">皇考書印</incipit>
                             <incipit type="seal">敬慎</incipit>
-                            <explicit type="背面">pair of scrolls by cheng ching ?. Prince  Cheng who was the 11 son of Emperor Ch'ian Lung and is considered as one of the four great calligrapher of the  Qing dynasty.</explicit>
-                            <explicit type="背面">? of ying. Weng Fang Rong, Pu Chang Chao.</explicit>
+                            <explicit type="背面">pair of scrolls by cheng ching [?wang] Prince [Cheng] who was the 11 son of Emperor Ch'ian Lung and is considered as one of the four great calligrapher of the present dynasty.</explicit>
+                            <explicit type="背面">[? of] Jing, Weng Fang Rong, Pu Chang Chao.</explicit>
+                               <explicit type="背面">Autograph of Prince Ch'eng, Ch'ian Lung's son, statesman and scholar.</explicit>   
                             <explicit type="背面">Backhouse Rolls a. 32(2)</explicit>
-                            <explicit type="背面">皇十一子字</explicit>
+                            <explicit type="背面">皇十一子字</explicit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -85,7 +88,7 @@
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>絹本</support>
+                                <support>silk 絹本</support>
                                 <extent>2 scrolls 二軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -107,7 +110,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in Xing Shu calligraphic style.
+                                Text written in 行書 （xing Shu, semi-cursive) calligraphic style.
                             </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
@@ -140,16 +143,15 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>China</country>,
-                                <region><!-- insert --></region>,
+                                <region>Beijing</region>,
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
                             <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清中期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the top of the back of the second scroll [Backhouse Rolls a.38(2)], some text are probably written by Backhouse. On the right is “Autograph of Prince Cheng, Chienlung’s son …”. 
-                            “Pair of scrolls by Cheng Ching  Pung ?eng who was the 11 son of Emperor Chienlung, who is considered as one of the four great calligrapher of present dynasty”.
-                            “jing Weng Fang Rong ching chao”.</provenance>
+                        <provenance>Donated by Sir Edmund Trelawny Backhouse, 2nd Baronet (20 October 1873 – 8 January 1944).
+                            At the top of the back of scroll Backhouse Rolls a.38(2), there appears to be text describing the scrolls, likely written by Backhouse. </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
