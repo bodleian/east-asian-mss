@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Chin.b.11(R)</title>
+                <title>MS.Chin.b.1(R)1</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,32 +44,30 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Chin.b.11(R)</idno>
-                        <altIdentifier type="former">
-                            <idno>Chin.241</idno>
-                        </altIdentifier>
+                        <idno type="shelfmark">MS. Chin. b.11(R)</idno>
+                        
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll of Chinese calligraphy written in Kaishu style created by Pan Zu Yin.清代潘祖蔭行書對聯。</summary>
+                        <summary>A pair of hanging scrolls attributed to 潘祖蔭 （1830-1890）of late Qing period.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">PAN TSU-YING: [Two scrolls].</title>
-                            <title type="對聯">清潘祖蔭行書七言對聯</title>
+                            <title key="supplie title" xml:lang="en">PAN TSU-YING: [Two scrolls].</title>
+                            <title>清潘祖蔭行書七言聯 軸</title>
                             <author key="Chinese">潘祖蔭 （1830-1890）</author>
-                            <title type="上聯">上聯</title>
+                            <msItem>
                             <incipit>珠林墨妙三唐字</incipit>
-                            <title type="下聯">下聯</title>
+                            <incipit type="seal">賜</incipit></msItem>
+                            
+                            <msItem>
                             <incipit>金簡文高二漢風</incipit>
                             <incipit type="seal">潘祖蔭印</incipit>
-                            <incipit type="seal">日東</incipit>
-                            
-                            
+                            <incipit type="seal">日東</incipit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -79,9 +77,9 @@
                     <physDesc>
                         
                         <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
-                                <extent>2 scrolls 二軸
+                            <supportDesc material="紙本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>mulberry and bamboo mixed paper 紙本</support>
+                                <extent>2 scrolls
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -94,7 +92,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴.墨色书写</layout>
+                                <layout>书法卷轴，墨色书写。</layout>
                                 
                             </layoutDesc>
                             
@@ -102,7 +100,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -119,7 +117,10 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，單色裱，邊框為藍色絲織物。背面靠近天杆部位有“潘祖蔭”字樣， 兩個卷軸的天杆処均有破損。</decoNote>
+                                <decoNote>立軸，單色裱，邊框為藍色絲織物。背面靠近地棍部位有“潘祖蔭”字樣。地棍処有破損。
+                                    Couplet of two hanging scrolls made in the style of a one-color mount. 
+                                    The borders are made of pale blue silk. Both scrolls show signs of damage 
+                                    near the Tiantou part.</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -141,7 +142,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>List number: S.C.30868a-d</provenance>
+                        <provenance> </provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
