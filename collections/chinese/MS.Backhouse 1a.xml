@@ -62,7 +62,12 @@
                             <title>永樂大典:卷六千六百四十一</title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan 6641
                                               Yongle Encyclopedia: vol. 6641</title>
-                            <editor>解縉</editor>
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             <rubric>永樂大典:卷六千六百四十一 十八陽</rubric>
                             <rubric>鄉:鄉儀</rubric>
     

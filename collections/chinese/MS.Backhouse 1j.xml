@@ -62,7 +62,12 @@
                             <title>永樂大典:卷一萬九千七百三十五</title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan  19735
                                    Yongle Encyclopedia: vol. 19735</title>
-                            <editor>解縉</editor>
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             <rubric>永樂大典卷之一萬九千七百三十五 一屋</rubric>
                             <rubric>錄:曾公遺錄八</rubric>
                             

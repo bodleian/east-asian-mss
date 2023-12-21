@@ -62,8 +62,12 @@
                             <title>永樂大典:卷一萬一百三十五之一萬一百三十六</title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan 10135-10136
                                         Yongle Encyclopedia: vol. 10135-10136</title>
-                            <editor>解縉</editor>
-                            
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             <msItem><locus>fol. 1r</locus>
                                 <title>永樂大典卷之一萬一百三十五 二紙</title>
                                 <rubric>史，歷代諸史七：南史、北史、後周書、隨書</rubric>

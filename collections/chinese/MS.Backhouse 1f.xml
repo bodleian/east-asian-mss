@@ -62,7 +62,12 @@
                             <title>永樂大典:卷二萬四百二十八<note>The volume number on the lable does not match the content inside.</note></title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan 10460
                                 Yongle Encyclopedia: vol. 18203-18204</title>
-                            <editor>解縉</editor>
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             <rubric>永樂大典：卷之一萬四百六十 四濟</rubric>
                             <rubric>禮:周禮</rubric>
                             

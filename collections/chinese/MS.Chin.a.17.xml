@@ -61,7 +61,12 @@
                      <title>永樂大典：卷八百七之八百八</title> 
                      <title xml:lang="en">Yung-lo ta-tien: chüan 807-808
                              Yongle Encyclopedia: vol. 807-808</title>
-                     <editor>解縉</editor>
+                     <editor>   
+                        <persName key="Q3492967">解縉</persName>
+                        <persName type="字">大紳</persName>
+                        <persName type="號">春雨</persName>
+                        <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                     </editor>
                      <msItem><locus>fol. 1r</locus>
                              <title>永樂大典卷之八百七 二支</title>
                              <rubric>詩：詩話四十九</rubric>

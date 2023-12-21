@@ -62,7 +62,12 @@
                             <title>永樂大典:卷八千二十一</title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan 8021
                                      Yongle Encyclopedia: vol. 8021</title>
-                            <editor>解縉</editor>
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             <rubric>永樂大典:卷八千二十一 十九庚</rubric>
                             <rubric>蒸:骨蒸證治三</rubric>
                             

@@ -62,7 +62,12 @@
                             <title>永樂大典:卷一萬六千二百十七之一萬六千二百十八</title>
                             <title xml:lang="en">Yung-lo ta-tien: chüan 16217-16218
                                     Yongle Encyclopedia: vol. 16217-16218</title>
-                            <editor>解縉</editor>
+                            <editor>   
+                                <persName key="Q3492967">解縉</persName>
+                                <persName type="字">大紳</persName>
+                                <persName type="號">春雨</persName>
+                                <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                            </editor>
                             
                             <msItem><locus>fol. 1r</locus>
                                 <title>永樂大典卷之一萬六千二百十七 十翰</title>

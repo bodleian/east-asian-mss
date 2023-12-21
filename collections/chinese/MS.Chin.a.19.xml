@@ -62,7 +62,12 @@
                      <title >永樂大典:卷五千二百四十四之五千二百四十五</title>
                      <title xml:lang="en">Yung-lo ta-tien: chüan 5244-5245
                         Yongle Encyclopedia: vol.  5244-5245</title>
-                     <editor>解縉</editor>
+                     <editor>   
+                        <persName key="Q3492967">解縉</persName>
+                        <persName type="字">大紳</persName>
+                        <persName type="號">春雨</persName>
+                        <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
+                     </editor>
                      <msItem><locus>fol. 1r</locus>
                         <title>永樂大典卷之五千二百四十四 十三蕭</title>
                         <rubric>遼:洪武正韻</rubric>

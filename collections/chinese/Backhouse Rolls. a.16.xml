@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Backhouse Rolls. a.16</title>
+                <title>Backhouse Rolls.a.16</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,14 +44,14 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">Backhouse Rolls. a.16</idno>
+                        <idno type="shelfmark">Backhouse Rolls.a.16</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A hanging scroll depecting tree peony flowers by <persName>Yun Shou Ping</persName>(1633-1690). 牡丹書畫挂軸，作者為清代<persName>惲壽平</persName>（1633-1690）。</summary>
+                        <summary>A hanging scroll depecting peony flowers attributed to <persName>Yun Shou Ping</persName>(1633-1690) of Qing dynasty.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
@@ -59,16 +59,16 @@
                             <locus><!-- insert --></locus>
                             <title key="desc">牡丹書畫軸</title>
                             <title key="desc">牡丹</title>
-                            <author key="Chinese">惲壽平 （1633-1690）</author>
-                            <incipit >曾依瑤圃三珠樹長護蓬萊五色云</incipit>
+                            <author key="Chinese">惲壽平（1633-1690）</author>
+                            <incipit >曾依瑤圃三珠樹，長護蓬萊五色云。</incipit>
                             <incipit><persName type="號">甌香馆</persName>模宋人法南田<persName>惲壽平</persName></incipit>
                             <incipit type="seal">壽平之印</incipit>
                             <incipit type="seal">南田小印</incipit>
                             <incipit type="seal">叔平</incipit>
                             <title key="desc">題跋</title>
                             <author key="Chinese">王文治 （1730-1802）</author>
-                            <incipit>白頭一倍惜年華到處敲門只看花榮艷紅芳三百朵雕闌色暎日鈎斜</incipit>
-                            <incipit><persName>曾賔谷</persName>為楊州都轉詠牡丹押娃字韻一時和者多涉牽强余有句云酴餘扶倩唐宮婢貴後稀驚越國娃觀者咸稱歡以爲妙得天然</incipit>
+                            <incipit>白頭一倍惜年華，到處敲門只看花。榮艷紅芳三百朵，雕闌色暎日鈎斜。</incipit>
+                            <incipit><persName>曾賔谷</persName>為楊州都轉詠牡丹押娃字韻，一時和者多涉牽强。余有句云：“酴餘扶倩唐宮婢，貴後稀驚越國娃。”觀者咸稱歡，以爲妙得天然。</incipit>
                             <incipit type="seal">王氏禹卿</incipit>
                             <incipit type="seal">夢樓</incipit>
                             <incipit type="款識"><date>庚戌夏四月既望</date><persName>文治</persName></incipit>
@@ -83,7 +83,7 @@
                         <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>1 scroll
+                                <extent>1 scroll 一軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
