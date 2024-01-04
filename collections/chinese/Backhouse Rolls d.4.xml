@@ -69,13 +69,11 @@
                                 <date notAfter="1700" notBefore="1500" calendar="Gregorian">1699-1769</date>
                             </author>
                             <note>董邦達，字孚聞,號東山,浙江富陽人,官至禮部尚書，善畫山水，與董源、董其昌合稱古今三董。</note>
-                            <incipit>仿<persName>黃公望</persName>筆意
-                                以明<persName type="號">白石翁</persName>詩咏之</incipit>
-                            <note>黃公望 （129-1354），字子久，號大痴，大痴道人，一峰道人，元朝畫家。
+                            <incipit type="釋文">仿黃公望筆意，以明白石翁詩咏之。</incipit>
+                            <note type="注">黃公望 （129-1354），字子久，號大痴，大痴道人，一峰道人，元朝畫家。
                                   沈周 （1427-1509），字啓南，號石田，白石翁，玉田生，有竹居主人等，明朝畫家，吳門畫派的創始人之一，明四家之一。</note>
-                            <incipit>清曙茂林風日好，兩翁談屑落高寒。
-                                     白雲故故沒行人，要隔俗緣來此山。</incipit>
-                            <incipit type="款識"><date>乾隆已未</date>秋七月中旬，退朝後，消閑破，悶閒仿。<persName>董邦達</persName></incipit>
+                            <incipit type="釋文">清曙茂林風日好，兩翁談屑落高寒。白雲故故沒行人，要隔俗緣來此山。</incipit>
+                            <incipit type="款識">乾隆已未秋七月中旬，退朝後，消閑破，悶閒仿。董邦達</incipit>
                             <incipit type="seal">董邦達印</incipit>
                             <incipit type="seal">東山</incipit>
                             <incipit type="seal">東山畫記</incipit>
