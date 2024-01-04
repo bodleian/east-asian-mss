@@ -9,8 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    Backhouse Rolls b.10</title>
+                <title>Backhouse Rolls d.2</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -45,50 +44,51 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">
-                            Backhouse Rolls b.10</idno>
+                        <idno type="shelfmark">Backhouse Rolls d.2</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A pair of scrolls of Chinese calligraphy written in Kaishu style written by Prince Dun (1831-1889) of Qing dynasty.</summary>
+                        <summary>A scroll of Chinese calligraphy attributed to Wang Wen Zhi (王文志) of Qing dynasty. </summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title>清惇親王楷書八言聯 轴</title>
-                            <title key="supplie title" xml:lang="en">A pair of calligraphy scrolls attributed to Prince Dun</title>
-                            <author key="Q7821688">   
-                                <persName >愛新覺羅奕誴</persName>
-                                <persName type="title">惇親王</persName>
-                                <date notAfter="1800" notBefore="1700" calendar="Gregorian">1831-1889</date>
-                            </author> 
-                           
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>茀亭老夫子大人正筆</incipit>
-                                <incipit type="seal">品貴尊彜人為冠冕</incipit></msItem>
-                           
-                           <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>光爭日月義重天雲</incipit>
-                            <incipit type="款識">惇親王</incipit>
-                               <incipit type="seal">惇親王寳</incipit></msItem>
+                            <title type="desc">清王文志行書 卷</title>
+                            <title key="supplie title" xml:lang="en">A scroll of Chinese calligraphy attributed to Wang Wen Zhi</title>
+                            <author key="Q45472534">   
+                                <persName>王文志</persName>
+                                <persName type="字">禹卿</persName>
+                                <persName type="號">夢樓</persName>
+                                <date notAfter="1900" notBefore="1700" calendar="Gregorian">1730-1902</date>
+                            </author>
+                            <note>王文治 （1730-1802），字禹卿，號夢樓，江蘇丹徒人。清代翰林，詩人，書法家。與劉墉、翁方綱、梁同書齊名，合稱四大家。</note>
                             
-                            <filiation>書法卷軸，中外孤本。</filiation>  
+                            <incipit type="釋文">一山偃臥一山立一山右拍而左挹，不隨海上三壺浮飲，障江流並生急東風，日射西巌明南嶺，
+                                  樓當如風岌石根，潮汐交春播，洞壑雲烟至吞翕晴時，盡【海？】面之展爾袞蓮花朶朶濕。鐘聲出寺曉【去？】
+                                  應帆影蕩江【暮？兮？】。集空中唯有龍【往？來？】，其下都為蛟蠖，蟄遂與雙姑鬥眉黛近【得？】五【州？】
+                                  於拱揖狎霸真【集？】鼎足之爭雄，各為張軍一海門重鎖落最牢天塹偏安，古堪【迷？】溯從銕甕築京鎮【如？】
+                                  目生？方建考邑羱石曾固臥龍語揣？兒豈是豚大遂不虞巴蜀樓船下</incipit>
+                            <incipit type="款識">嘉慶三年嵗在戊午孟春穀日丹後
+                                           王文志題</incipit>
+                            <incipit type="seal">王文治印</incipit>
+                            <incipit type="seal">曾經滄海</incipit>
+                            <explicit type="題簽">王文治</explicit>
+                            <explicit type="背面">B/334</explicit>
+                            <filiation>書法卷軸，中外孤本。</filiation>
+                            
                         </msItem>
-                        <!-- insert further msItem elements as appropriate --> 
-                        
+                        <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="卷軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="紙本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper 紙本</support>
-                                <extent>2 scrolls 二軸
+                                <extent>1 scroll  一軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -101,20 +101,24 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴,墨色书写。</layout>
+                                <layout>卷軸，紙本，墨色書寫。</layout>
                                 
                             </layoutDesc>
-                            
                         </objectDesc>
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷書 (kai shu, regular) calligraphic style</handNote>
+                                Text written in 行書 (xing shu, semi-cursive) calligraphic style.</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        
+                        <musicNotation>
+                            <p><!-- insert if relevant, otherwise delete --></p>
+                            <!-- use additional p elements if necessary 
+                     https://git.io/msdescdoc#musicnotation
+                     -->
+                        </musicNotation>
                         <decoDesc>
                             <decoNote>
                             </decoNote>
@@ -125,14 +129,16 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>立軸</p>
+                                <p>卷軸</p>
                                 <decoNote>
-                                    A set of two hanging scrolls adorned in the one-color mount style with 
-                                    green silk featuring blue patterns for the 'Heaven' section (天頭), the 
-                                    'Earth' section (地脚), and the borders. The 'painted heart' (畫心) is 
-                                    crafted from red paper adorned with semi-dragons and clouds patterns, 
-                                    showing signs of bending and fading.
-                                    立軸,一色裱。天頭地脚和邊是綠色和藍色有花紋絲織物。畫心為紅色紙本伴有祥雲瑞獸花紋。</decoNote>
+                                    The handscroll with narrow borders (小鑲手卷) features a protective and decorative backing (錦包首) 
+                                    crafted from brown silk adorned with elegant biege patterns. The title label is meticulously made 
+                                    of white Chinese paper, showing sign of yellowing. The 'Heaven' section (天) is elegantly fashioned 
+                                    from biege silk, exhibiting signs of damage. Vertical stripes (隔水) are composed of jacquard biege 
+                                    silk. The frontispiece (引首) is expertly crafted from traditional white Chinese paper, while the 
+                                    colophon section (拖尾) is made from traditional Chinese white paper.
+                                    小鑲手卷，天為米色絲織物，有磨損痕跡。隔水為米白色有花紋絲織物。引首和拖尾為白色紙本，
+                                    略有污跡。邊為白色絲織物。錦包首為棕色絲織物伴有米色花紋，八寶帶和別子已遺失，題簽為白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -151,7 +157,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
+                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">1798</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>Donated by Sir Edmund Trelawny Backhouse, Baronet (20 October 1873 – 8 January 1944).</provenance>
@@ -201,3 +207,6 @@
         </body>
     </text>
 </TEI>
+
+
+
