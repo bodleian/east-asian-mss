@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!-- use this template in cases where the manuscript is NOT composed of multiple codicological units. To avoid errors in the display of the record, be sure to delete elements that are not used. -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00001"><!-- insert the correct xmlid in the form manuscript_12345 -->
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00000"><!-- insert the correct xmlid in the form manuscript_12345 -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Chin.c.25</title>
+                <title>MS.Chin.a.12</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -43,40 +44,62 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Chin.c.25</idno>
-                        <altIdentifier type="former">
-                            <idno>Chin.564d</idno>
-                        </altIdentifier>                     
+                        <idno type="shelfmark">MS.Chin.a.12</idno>
+                        
+                        
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Manuscript in Chinese with 36 illustrations of traditional Chinese astronomy, including star chart and Chinese constellations depicting the Chinese constellations.</summary>
+                        <summary>A hanging scroll of Chinese calligraphy written in kaishu style by Huo Yun Ji.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key=""> 司天考驗圖</title>
-                            <title>Si tian kao yan tu</title>
-                            <author>吳維鍔</author>   
-                            <rubric>紫薇垣圖</rubric>
+                            <title>清霍蘊璣書佟囯翼漢張桓侯古井碑記 軸</title>
                             
-                            <colophon><persName>吳維鍔</persName>撰</colophon>
-                          </msItem>
-                        <!-- insert further msItem elements as appropriate -->
+                            <author key="_tongguoyi">        
+                                <persName>佟囯翼</persName>
+                            </author>
+                            
+                            <author key="_dongbingheng">        
+                                <persName>董秉衡</persName>
+                            </author>
+                            
+                            <author key="_huoyunji">        
+                                <persName>霍蘊璣</persName>
+                            </author>
+                            <incipit type="釋文">張桓侯, 勇敵萬人, 義昭千古.其行事見諸史傳者尙矣, 然軼事亦有足多者, 可弗表而彰之乎。 
+                                侯之故里, 舊有井, 俗傳侯未遇時, 屠販爲業.。夏日售肉未盡, 卽置諸井, 覆以千斤巨础, 號於衆曰,：“有能獨力
+                                啓之者, 聽取肉弗斳”。 其時, 壯繆關公義殺七貴, 亡走范陽, 過是井, 聞而揭石取肉。 侯詫異, 輒與角力。 
+                                適昭烈帝見而壯之, 遂有兄弟之盟, 旋定君臣之分。嗟乎，一井不足異，其為三公雲龍風虎之會，恩連義結之階豈偶然哉？
+                                雖其事傳於閭【巷】而誌乘無【徵】然劉關張三公並為萬事人物之表，無論薦紳先生夫庸夫隸卒莫不樂道。其生平【引】
+                                其遺蹟與傳聞，俱不越于其鄉親，切著明久而不冺，安可聼而弗信而弗爲之表彰乎？余幸守【危？】之鄉憑吊往古，
+                                見是井於車塵馬跡間碑銘弗著，彼悠悠行路孰知，千百年上有此一段因緣。為之咨嗟嘆賞【畱】連不【公】耶，因亟勒
+                                所聞於貞石以告四方之來逰者，庻幾聞與史傳所載述，並為抵掌樂道於勿哀也。是為記時，大清康熙三十九年嵗次庚辰仲秋穀旦。
+                                涿州知州佟囯翼撰文。
+                                儒學廩膳生員董秉衡敬書。</incipit>
+                            <incipit type="款識">觀津居士霍蘊璣復書</incipit>
+                            <incipit type="seal">霍錦璿印</incipit>
+                            <incipit type="seal">蘊璣</incipit>
+                            <explicit type="背面">張桓侯碑文一捲</explicit>
+                            <filiation>書法卷軸，中外孤本。</filiation>  
+                        </msItem>
+                        <!-- insert further msItem elements as appropriate --> 
+                        
                     </msContents>
                     <physDesc>
                         
-                        <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulbery and bamboo mix paper</support>
-                                <extent>11 leaves
+                                <support>mulberry and bamboo mixed paper 紙本</support>
+                                <extent>1 scroll 一軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>28</height>
-                                        <width>34</width>
+                        -->                           <height>？</height>
+                                        <width>？</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
@@ -84,45 +107,41 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>内頁無邊框，標題為大字，單行。正文為小字，單行抄寫，字體為行書，每行約25字，佐以插圖。</layout>
-                                <!-- use additional layout elements if necessary 
-                        https://git.io/msdescdoc#layoutdesc-->
+                                <layout>书法卷轴，墨色书写。</layout>
+                                
                             </layoutDesc>
+                            
                         </objectDesc>
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
+                                Text written in 楷書 (kai shu, regular) calligraphic style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
-                        <musicNotation>
-                            <p><!-- insert if relevant, otherwise delete --></p>
-                            <!-- use additional p elements if necessary 
-                     https://git.io/msdescdoc#musicnotation
-                     -->
-                        </musicNotation>
+                        
                         <decoDesc>
                             <decoNote>
-                                <!-- use the @type attribute to record nature of decoration -->
-                                <!-- insert if relevant, otherwise delete --></decoNote>
+                            </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        <additions>
-                            <p>Hand written in Xingshu calligraphic style. Text accompanied with illustrations of ancient Chinese constellations</p>
-                        </additions>
+                        
                         <bindingDesc>
-                            <binding when="1600"><!-- use dating attributes to record the date -->
-                                <p>綫裝書</p>
-                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                            <binding when="1800"><!-- use dating attributes to record the date -->
+                                <p>立軸</p>
+                                <decoNote>
+                                    A hanging scrolls adorned in the one-colour mount style with beige silk as the ‘Heaven’ section (天頭), 
+                                    the ‘Earth’ section (地脚) and the borders. The 'painted heart' (畫心) is meticulously crafted from 
+                                    white Chinese paper. 
+                                    立軸,一色裱,天頭地脚和邊框都爲米色絲織物,行書字跡書寫于白色紙上。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
-                     https://git.io/msdescdoc#accMat
+                     https://git.io/msdescdoc#accMat          
                      -->
                         </accMat>
                     </physDesc>
@@ -136,15 +155,17 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="1900" notBefore="1600" calendar="Gregorian">清代 (1636-1911)</origDate>
+                            <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代，1700年之後作品。</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            On the cover of book, the Chinese characters "吳維鍔廉夫氏製" are shown, indicating that the book could be written by Wu Wei E (吳維鍔). Two seals are also present on the first folio, one displaying the Chinese character of Wu Wei E (吳維諤) , the other showing the Chinese charater of Lian Fu (廉夫). Both seals are carved in Chinese Zhuanshu calligraphic style.In the following pages, a seal carved "別有天地" in 篆書 (zhuanshu) calligraphic style is shown.
-                            List number: 	S.C.30870t
-                        </provenance>
+                        <provenance> </provenance>
+                        
+                        
                         <!-- use additional provenance elements if necessary -->
-                        <acquisition>Acquired in 1882.</acquisition>
+                        <acquisition>
+                            <!-- insert -->
+                            <!-- use dating attributes where possible -->
+                        </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
