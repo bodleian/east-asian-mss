@@ -61,13 +61,13 @@
                             <locus><!-- insert --></locus>
                             <title key="supplied title" xml:lang="en">Two water-colour scrolls depicting a fuenral procession</title>
                             <title>清佚名繪送葬圖二幅 軸</title>
+                            <author key="_unknown">unknown</author>
+                            <msItem><title type="subtitle">送葬圖卷軸一</title>
+                                <note type="注">從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“王”、“文武世家”字樣。</note></msItem>
                             
                             <msItem><title type="subtitle">送葬圖卷軸二</title>
-                            <note>從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“王”、“文武世家”字樣。</note></msItem>
-                            
-                            <msItem><title type="subtitle">送葬圖卷軸二</title>
-                            <note>從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“梁”、“文武世家”字樣。</note></msItem>
-                            <note>此二卷軸分別描繪清代官員家庭的葬禮中送葬的環節。</note>
+                                <note type="注">從卷軸右端所描繪的府邸門前懸挂的燈籠上的字跡可以看到“梁”、“文武世家”字樣。</note></msItem>
+                            <note type="注">此二卷軸均爲描繪清代官員家庭的葬禮中送葬的環節。</note>
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>

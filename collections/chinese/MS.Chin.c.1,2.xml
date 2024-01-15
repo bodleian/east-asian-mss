@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Chin.c.2</title>
+                <title>MS.Chin.c.1,2</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,33 +44,37 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS.Chin.c.2</idno>
+                        <idno type="shelfmark">MS.Chin.c.1,2</idno>
                         
                         
                     </msIdentifier>
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>The album consists of 12 Chinese paintings featuring figures dressed in costumes from before the Qing dynasty.</summary>
+                        <summary>Two albums: one showcasing printed pictures of daily life scenes and places of interest in China, 
+                            and the other containing 12 Chinese export paintings featuring figures dressed in Qing dynasty costumes.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title key="supplied title">Picture-books</title>
-                            <title key="desc">The album consists of 12 Chinese paintings featuring figures dressed in costumes from before the Qing dynasty.
-                                清代佚名人物畫十二幅 冊</title>
+                            <title key="desc">清代風景名勝印刷圖冊、清代佚名人物畫冊</title>
                             <author key="Chinese">Unknown</author>
-                            <incipit><locus>Inside upper cover</locus>S.C.296159</incipit>
-                            <incipit><locus>Inside upper cover</locus>Bought in March 1885 for 50F from Tross of Paris 
-                                            (436 in his cat. no.III for 1885; said to Date "over 1750 succession")</incipit>
-                            <incipit><locus>Inside lower cover</locus>Julia Louther from Marcus</incipit>
-                            <incipit><locus>Inside lower cover</locus><date>Sep 10th 1847</date></incipit>
-                            <incipit><locus>on the back of Inside lower cover</locus>Original Chinese Drawings
+                            <msItem>
+                                <title key="Shelfmark">MS.Chin.c.1</title>
+                            </msItem>
+                            <msItem>
+                                <title key="Shelfmark">MS.Chin.c.2</title>
+                            <note type="quote"><locus>Inside upper cover</locus>S.C.296159</note>
+                                <note type="quote"><locus>Inside upper cover</locus>Bought in March 1885 for 50F from Tross of Paris 
+                                            (436 in his cat. no.III for 1885; said to Date "over 1750 succession")</note>
+                                <note type="quote"><locus>Inside lower cover</locus>Julia Louther from Marcus</note>
+                                <note type="quote"><locus>Inside lower cover</locus><date>Sep 10th 1847</date></note>
+                                <note type="quote"><locus>on the back of Inside lower cover</locus>Original Chinese Drawings
                                             Purchased to Julia Louther by Marcus Louther, M.N.
-                                            Sepr 10th 1847</incipit>
-                            <incipit type="theme">figures</incipit>
-                            
-                            <filiation>中國畫冊頁，中外孤本</filiation>  
+                                            Sepr 10th 1847</note>
+                            </msItem>
+                            <filiation>中國畫冊，中外孤本</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
@@ -79,7 +83,7 @@
                         
                         <objectDesc form="冊"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo paper</support>
+                                <support>mulberry and bamboo paper 紙本</support>
                                 <extent> Fourteen folios, including twelve paintings. 
                                     一冊共十四開，本幅十二開二十四幅，前副頁和后副頁各一開一幅。
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
@@ -143,8 +147,9 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1847 and later</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the inside of the upper cover, it is indicated that this album was purchased from Tross of Paris 
-                                   in March 1885 for 50 francs by Marcus Louther and later given to Julia Louther</provenance>
+                        <provenance>On the inside of the upper cover, it is indicated that this album was purchased 
+                            from Tross of Paris in March 1885 for 50 francs by Marcus Louther and later given to Julia 
+                            Louther. It is recorded that the two albums reached the Bodleian Libraries in 1885.</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
