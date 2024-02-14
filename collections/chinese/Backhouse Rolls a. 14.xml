@@ -60,8 +60,9 @@
                             <title key="supplied title">清董誥書李白南軒松 軸</title>
                             <title key="supplie title" xml:lang="en">A scroll of calligraphy attributed to Dong Gao</title>
                             <author key="Chinese">董誥（1740-1818）</author>
-                            <incipit>南軒有孤松，柯葉自綿幕。清風無間時，瀟洒終日夕。陰生古苔綠，色染秋煙碧。何當凌雲霄，直上數千尺。</incipit>
+                            <incipit type="釋文">南軒有孤松，柯葉自綿幕。清風無間時，瀟洒終日夕。陰生古苔綠，色染秋煙碧。何當凌雲霄，直上數千尺。</incipit>
                             <incipit type="款識">柘林<persName>董誥</persName></incipit>
+                            <note type="注">兩枚印章模糊</note>
                             <explicit type="題簽">B/291 m catalogue scroll of stateman Tung Kao</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -72,8 +73,8 @@
                         
                         <objectDesc form="立軸"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="絹本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
-                                <extent>1 scroll
+                                <support>silk 絹本</support>
+                                <extent>1 scroll 一軸
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -86,7 +87,7 @@
                                 <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>书法卷轴，墨色书写。</layout>
+                                <layout>书法卷轴，墨色书写</layout>
                                 
                             </layoutDesc>
                             
@@ -111,7 +112,8 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>二色裱，天頭地脚為淺黃色有花紋絲織物，上下隔水是米白汎黃紙本，有水印，天杆処有破損。畫心為棕色絹本。</decoNote>
+                                <decoNote>Vertical scroll, two-color mounting. The 'Heaven' section, 'Earth' section, and borders are made of light yellow jacquard silk fabric, while the separating strips are white paper. The scroll displays signs of watermark and has damage in the 'Heaven' section. The calligraphy is written on brown paper.
+                                    二色裱，天頭地脚為淺黃色有花紋絲織物，上下隔水是米白汎黃紙本，有水印，天杆處有破損。畫心為棕色絹本。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
