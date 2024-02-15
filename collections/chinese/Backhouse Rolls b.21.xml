@@ -58,12 +58,17 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            
-                            <title type="desc">清張之萬行書八言聯</title>
-                            <author key="Chinese">張之萬</author>
+                            <title key="supplied title">清張之萬行書八言聯 軸</title>
+                            <title key="supplie title" xml:lang="en">A pair of calligraphy scrolls attributed to Zhang Zhi Wan</title>
+                            <author key="Q11068035">   
+                                <persName>張之萬</persName>
+                                <persName type="字">子青</persName>
+                                <persName type="號">鑾坡</persName>
+                                <date notAfter="1900" notBefore="1800" calendar="Gregorian">1811-1897</date>
+                            </author> 
                             <msItem>
                             <title type="上聯">上聯</title>
-                            <incipit>湛遠二兄大人雅屬</incipit>
+                                <incipit type="款識">湛遠二兄大人雅屬</incipit>
                             <incipit>觀化樂天與山同靜</incipit>
                             <explicit type="背面">張之萬</explicit></msItem>
                             
@@ -123,7 +128,8 @@
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
-                                <decoNote>立軸，裝裱方式為一色裱，天頭地脚及邊框為淡藍色有花紋絲織物。書法寫與黃色灑金紙本上。</decoNote>
+                                <decoNote>Vertical scroll with a single-color mount. The top, bottom, and borders are adorned with a light blue jacquard silk featuring dragon pattern. The calligraphy is inscribed on white paper with gilt decoration. 
+                                    立軸，裝裱方式為一色裱，天頭地脚及邊框為淡藍色有花紋絲織物。書法寫與黃色灑金紙本上。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
