@@ -9,7 +9,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS. Chin. c. 16</title>
+                <title>MS.Chin.c.16</title>
                 
                 <respStmt>
                     <resp>Cataloguer</resp>
@@ -44,7 +44,7 @@
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
-                        <idno type="shelfmark">MS. Chin. c. 16</idno>
+                        <idno type="shelfmark">MS.Chin.c.16</idno>
                         
                         
                     </msIdentifier>
@@ -60,9 +60,9 @@
                             <title>Ch'IEN KU: Album of paintings</title>
                             <title key="desc">明錢穀仿宋人風格山水人物畫十二幅</title>
                             <author key="Chinese">錢穀 （1509-1578）</author>
-                            <note>錢穀 （1509-1578），字叔寶，明朝南直隸蘇州府常州縣人。少時孤貧，壯年方才讀書，後學于文徵明門下，善繪山水、花鳥，亦為文徵明晚年代筆，萬曆六年仍在世。其作品在北京故宮博物院，台灣臺北國立故宮博物院和紐約大都會博物館亦見收藏。</note>
-                           <incipit><date>隆慶二年清和月之朔</date>倣宋人小幀十二頁於<placeName>彭城老屋</placeName><persName>錢穀</persName>寫</incipit>
-                            <incipit type="seal">商琉</incipit>
+                            <note type="注">錢穀 （1509-1578），字叔寶，明朝南直隸蘇州府常州縣人。少時孤貧，壯年方才讀書，後學于文徵明門下，善繪山水、花鳥，亦為文徵明晚年代筆，萬曆六年仍在世。其作品在北京故宮博物院，台灣臺北國立故宮博物院和紐約大都會博物館亦見收藏。</note>
+                            <incipit type="釋文">隆慶二年清和月之朔倣宋人小幀十二頁於彭城老屋 錢穀寫</incipit>
+                            <incipit type="seal">商琦</incipit>
                             <colophon>By Tsing Koh in the Reign of the Emperor Loong Hing AD. 1500.</colophon>
                             <filiation>中國畫冊頁十二幅，中外孤本。</filiation>  
                         </msItem>
