@@ -149,7 +149,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="2000" notBefore="1800" calendar="Gregorian">晚清</origDate>
+                            <origDate notAfter="1911" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows: 
