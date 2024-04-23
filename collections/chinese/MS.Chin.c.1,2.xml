@@ -86,8 +86,8 @@
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>MS.Chin.c.1: mulberry and bamboo paper 紙本
                                     MS.Chin.c.2: Silk 絹本</support>
-                                <extent> Fourteen folios, including twelve paintings. 
-                                    一冊共十四開，本幅十二開二十四幅，前副頁和后副頁各一開一幅。
+                                <extent>Fifteen folios, including twelve paintings. 
+                                    一冊共十五開，本幅十二開，前副頁二開，后副頁一開。
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
