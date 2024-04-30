@@ -88,12 +88,18 @@
                                     MS.Chin.c.2: Silk 絹本</support>
                                 <extent>Fifteen folios, including twelve paintings. 
                                     一冊共十五開，本幅十二開，前副頁二開，后副頁一開。
-                                    <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
-                        
+                                    <dimensions unit="cm" type="item"><!-- use standard attribute values, e.g. leaf, written  
                         https://git.io/msdescdoc#leafDimensions
                         -->                           <height>32.3 cm</height>
                                         <width>29.3 cm</width>
                                     <!-- use additional dimensions elements if necessary -->
+                                    </dimensions>
+                                    <dimensions unit="cm" type="item"><!-- use standard attribute values, e.g. leaf, written  
+                        
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                           <height>34.6 cm</height>
+                                        <width>23.7 cm</width>
+                                        <!-- use additional dimensions elements if necessary -->
                                     </dimensions>
                                 </extent>
                                 
