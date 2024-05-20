@@ -58,7 +58,7 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title key="supplied title">Chinese vocabulary with illustrations</title>
                             <author key="_unknown">unknown</author>
-                            <incipit>For this very curious and colourful Chinese vocabulary I am in debted to my worthy Friend M.W. Olecandel who bought from China.  E.P. </incipit>
+                            <incipit>For this very curious and valuable Chinese vocabulary I am indebted to my worthy friend Mr.W. Alexander who brought it from China. E.D. </incipit>
                             <note>Based on the illustrations of coins [乾隆通寶], it is likely that this book was created during or after the reign of the Qianlong Emperor of the Qing Dynasty (1735-1796).</note>
                             <filiation>手抄本,中外孤本。 only surviving copy.</filiation>
                             
@@ -82,7 +82,7 @@
                                 <condition> 書脊処略有破損，封皮和封底的邊緣略有磨損褪色。内頁邊緣略有汎黃，頁内插圖略有褪色。 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>内頁分爲左右兩半，沒半邊分爲兩列，一列略寬内含插圖，一列略窄，内含中文詞匯。每列分爲三行，故每頁有六組中文詞匯對照。</layout>
+                                <layout>内頁分爲左右兩半，沒半邊分爲兩列，一列略寬内含插圖，一列略窄，内含中文詞匯。每列分爲三行，故每頁有六組中文詞匯及羅馬字注音對照。</layout>
                                 <!-- use additional layout elements if necessary 
                         https://git.io/msdescdoc#layoutdesc-->
                             </layoutDesc>
@@ -132,7 +132,7 @@
                                 <country>China</country>,
                                 
                             </origPlace>
-                            <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">1573-1620</origDate>
+                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">1735-1796</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
