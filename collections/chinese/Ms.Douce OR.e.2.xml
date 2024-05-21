@@ -58,10 +58,159 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title key="supplied title">Chinese vocabulary with illustrations</title>
                             <author key="_unknown">unknown</author>
-                            <incipit>For this very curious and valuable Chinese vocabulary I am indebted to my worthy friend Mr.W. Alexander who brought it from China. E.D. </incipit>
-                            <note>Based on the illustrations of coins [乾隆通寶], it is likely that this book was created during or after the reign of the Qianlong Emperor of the Qing Dynasty (1735-1796).</note>
-                            <filiation>手抄本,中外孤本。 only surviving copy.</filiation>
+                            <note><locus>fol. ii recto</locus><q>For this very curious and valuable Chinese vocabulary I am indebted to my worthy friend Mr.W. Alexander who brought it from China. E.D.</q> </note>
                             
+                            <filiation>手抄本,中外孤本。 only surviving copy.</filiation>
+                            </msItem>
+                        <msItem>
+                            <note><locus>fol. 1r</locus><q>圖書、鷄毛撣、印色、钑剪、文具、筆筒</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 1v</locus><q>【算】盤、剪刀、天平、熨斗、法馬、水盅</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 2r</locus><q>蓋碗、銅包、茶壺、茶盤、茶瓶、茶盅</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 2v</locus><q>扁挑、馬槽、吊桶、钑刀、火爐、水桶</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 3r</locus><q>銀窩、雨傘、風箱、雨帽罩、銀【槽】、雨褂</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 3v</locus><q>雙六、象棋、蟋蟀、鵪鶉袋、天【窗】、竹簾</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 4r</locus><q>戟磬、漁鼓、帽盒、簡板、帽架、頭繩</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 4v</locus><q>髻、雲板、鳳冠、雲肩、圓脖領、披風</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 5r</locus><q>塔香、手鏡、紙錢、琉璃、元寶、蠟燭</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 5v</locus><q>胭脂、梳、粉盒、篦、香油罐、膠抿碗</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 6r</locus><q>虎頭牌、了嘴棍、籐牌、皮鞭、牌刀、枷</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 6v</locus><q>鎖鏈、竹板、杻【銬】、挾棍、皮掌、【揝】子</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 7r</locus><q>令箭、朝珠、紅黑冠、朝簡、【釵】、如意</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 7v</locus><q>緯帽、印、暖帽、敕、披肩、硯</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 8r</locus><q>【鑔】、嗩呐、大鑼、喇叭、銅鼓、【號】銅</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 8v</locus><q>錫杖、鍾、道冠、蒲團、烽火扇、較杯</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 9r</locus><q>擊、寶蓋、磬、和尚、僧帽、木魚</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 9v</locus><q>宮燈、紗帽、紗燈、圓領、幡、角帶</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 10r</locus><q>條棹、飯盂、圈椅、蠟臺、板凳、燈盞</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 10v</locus><q>盤、快、【暖】鍋、調羹、酒壺、碗</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 11r</locus><q>痰盒、竹夫人、鞋刷、靠枕、尿壺、撣箒</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 11v</locus><q>被窩、蚊帳、褥子、席、枕頭、【氈】條</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 12r</locus><q>眼鏡、面盆、鎮紙、澡盆、紙牌、骨牌</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 12v</locus><q>香几、馬杌、對聯、石鼓、畫、床</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 13r</locus><q>平口、藥箱、草紙袋、烟荷包、鑰匙筒、烟袋</q></note>
+                        </msItem>
+                        <msItem>
+                       <note><locus>fol. 13v</locus><q>簸箕、鉄杓、手磨、漏杓、研船、米篩</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 14r</locus><q>罩哩、砧板、菜框、飯層、鍋刷、鍋【蓋】</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 14v</locus><q>鍋鏟、鐵鍋、鍋刷、鍋【蓋】、火鉗、灶</q></note>
+                        </msItem> 
+                        <msItem>
+                            <note><locus>fol. 15r</locus><q>斗、碓、鐮刀、磨、刀、梯</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 15v</locus><q>雨帽、犁、牛欄、耙、鷄籠、蓑衣</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 16r</locus><q>鯉魚、劍、鱔、箭、蝦、船</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 16v</locus><q>旗、弓袋、弓、斧、弩、戟</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 17r</locus><q>鶴、麒麟、錦鷄、鵪鶉、孔雀、鳳</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 17v</locus><q>天官、竹、松、打鞦韆、麻姑、梧桐</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 18r</locus><q>板、琴、笙、雲鑼、三弦、笛</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 18v</locus><q>硯、畫、書、筆、碁、墨</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 19r</locus><q>爐、筆架、瓶、涼傘、箭筒、屏</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 19v</locus><q>燈籠、二弦、葵扇、琵琶、骰子、蕭</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 20r</locus><q>鏡、銀鏨、掙、銅錢、懷鼓、冠</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 20v</locus><q>鋤頭、秤、鋸、尺、【漏】斗、厘戥</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 21r</locus><q>圓眼、蓮房、紅梨、【桃】、山茶、芙蓉</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 21v</locus><q>石榴、柳、牡丹、梅、荔枝、錦菊</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 22r</locus><q>蜂、【鵝】、蛾、雞、蝶、鴨</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 22v</locus><q>猴、鹿、鷹、鼠、鵲、狗</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 23r</locus><q>猿、獅、兔、牛、羊、豬</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 23v</locus><q>虎、龍、象、龜、馬、蛇</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 24r</locus><q>轎子、裙、車、木屐、棹園、油靴</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 24v</locus><q>鞋、廟、褲、道、襪、袍</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 25r</locus><q>商、城、樓、工、儒、橋</q></note>
+                        </msItem>
+                        <msItem>
+                            <note><locus>fol. 25v</locus><q>仕、日、山、月、農、星</q></note>
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
@@ -79,10 +228,12 @@
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
                                 
-                                <condition> 書脊処略有破損，封皮和封底的邊緣略有磨損褪色。内頁邊緣略有汎黃，頁内插圖略有褪色。 </condition>
+                                <condition>The spine is slightly damaged, and the edges of the covers and back cover are slightly worn and faded. The edges of the inner pages are slightly yellowed, and the illustrations inside the pages are slightly faded.
+                                    書脊処略有破損，封皮和封底的邊緣略有磨損褪色。内頁邊緣略有汎黃，頁内插圖略有褪色。</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>内頁分爲左右兩半，沒半邊分爲兩列，一列略寬内含插圖，一列略窄，内含中文詞匯。每列分爲三行，故每頁有六組中文詞匯及羅馬字注音對照。</layout>
+                                <layout>The inner pages are divided into left and right halves, each half is further divided into two columns; one column is slightly wider and contains illustrations, while the other column is narrower and contains Chinese vocabulary. Each column is divided into three lines, thus each page contains six sets of Chinese vocabulary along with their Romanized pronunciation annotations.
+                                    内頁分爲左右兩半，沒半邊分爲兩列，一列略寬内含插圖，一列略窄，内含中文詞匯。每列分爲三行，故每頁有六組中文詞匯及羅馬字注音對照。</layout>
                                 <!-- use additional layout elements if necessary 
                         https://git.io/msdescdoc#layoutdesc-->
                             </layoutDesc>
@@ -104,8 +255,7 @@
                         <decoDesc>
                             <decoNote>
                                 西式硬皮裝訂，棕色封皮和封底，配合有燙金的花紋在邊緣一圈。
-                                The book is written on Chinese paper and then bound in hardcover with gilded 
-                                decorations. Inside the upper cover.</decoNote>
+                                Hardcover binding, with brown covers and back, complemented by a circle of gold-stamped patterns along the edges.</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -113,7 +263,7 @@
                         
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p> a thread-bound book with covers of traditional Chinese paper.</p>
+                                <p> Hardcover binding</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -132,7 +282,7 @@
                                 <country>China</country>,
                                 
                             </origPlace>
-                            <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">1735-1796</origDate>
+                            <origDate notAfter="1796" notBefore="1735" calendar="Gregorian">1735-1796</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
@@ -142,6 +292,8 @@
                             date:	n.d..
                             phys. descr:
                         </provenance>
+                        <provenance>previous catalogue reference number: S.C.22045</provenance>
+                        <provenance><locus>fol. 20r</locus>Based on the illustrations of coins [乾隆通寶], it is likely that this book was created during or after the reign of the Qianlong Emperor of the Qing Dynasty (1735-1796).</provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
                             1882
