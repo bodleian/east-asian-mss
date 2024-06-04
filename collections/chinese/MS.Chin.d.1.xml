@@ -56,16 +56,18 @@
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>佚名仿陸師道神仙人物畫十二幅 冊</title>
-                            <title key="supplied title">LU SHIH_TAO: [Album of twelve paintings]<note>title supplied from the previous catalogue</note></title>
-                            <note>could be fake 或爲贋品</note>
-                            <author key="Chinese">佚名</author>
+                            <title key="supplied title">佚名仿陸師道神仙人物畫十二幅 冊</title>
+                            <title key="supplie title" xml:lang="en">LU SHIH_TAO: [Album of twelve paintings]<note>title supplied from the previous catalogue</note></title>
+                            <author key="_unknown">unknown</author>
                             <incipit type="seal">陸氏子傳 </incipit>
                             <incipit type="seal">五湖漫郎</incipit>
-                            <incipit>辛卯屯日三月二日寫 五湖漫郎陸師道 <note>鈐印:陸氏子傳</note></incipit>
-                            <incipit type="theme">Figures of Daoism 佛道人物</incipit>
-                            <incipit><locus>Inside lower cover</locus>s.c.29615L</incipit>
-                            <incipit><locus>Inside lower cover</locus>Bought in March 1885 for 80F from Tross of Paris (434 in his cat. no.III for 1885: binding descripbed as of 17th cent.)</incipit>
+                            <note><locus>[28]</locus><q>辛卯屯日三月二日寫 五湖漫郎陸師道 </q></note>
+                            <note type="seal"><q>鈐印:陸氏子傳</q></note>
+                                <note>could be fake 或爲贋品</note>
+                           
+                            <note><locus>[33]</locus><q>s.c.29615L</q></note>
+                            <note><locus>[33]</locus><q>Bought in March 1885 for 80F from Tross of Paris (434 in his cat. no.III for 1885: binding descripbed as of 17th cent.)</q></note>
+                            
                             <filiation>An album of Chinese paintings, only surviving copy.
                                        中國畫畫冊，中外孤本</filiation>  
                         </msItem>
@@ -93,7 +95,7 @@
                                     faded colors, and defacement.<!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>傳統中國畫工筆技法</layout>
+                                <layout>傳統中國畫技法</layout>
                                 
                             </layoutDesc>
                             
