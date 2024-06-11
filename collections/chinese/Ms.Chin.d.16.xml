@@ -56,11 +56,11 @@
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title key="supplied title">運銅定例</title>
+                            <title key="supplied title">銅運升官訣</title>
                             <author>unknown</author>
                             <note><locus>upper cover: </locus><q>Regulations for the conveyance of copper from Yünnan to the capital, with itinerary from Hangchow to Yünnan.</q></note>
                             <msItem><locus>p.i</locus><title type="sub">砝碼</title><note><q>S.C.30869n</q></note></msItem>
-                            <msItem><locus>p.1</locus><title type="sub">運銅升官訣</title></msItem>
+                            <msItem><locus>p.1</locus><title type="sub">銅運升官訣</title></msItem>
                             <msItem><locus>p.11</locus><title type="sub">瀘州</title></msItem>
                             <msItem><locus>f.12</locus><title type="sub">要二十把橈二把撤</title><title type="sub">漢口</title></msItem>
                             <msItem><locus>p.13</locus><title type="sub">領解銅觔定額</title></msItem>
