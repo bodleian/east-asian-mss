@@ -49,15 +49,13 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>An anti-Christian tract.</summary>
+                        <summary>《滅鬼歌》，反傳教傳手稿。</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
-                            <title key=""> 滅鬼歌</title>
-                            <title>Mie gui ge</title>
+                            <title key="">滅鬼歌</title>
                             <incipit>父兄教唱修福積德，兒童學唱消災解厄，那怕鬼多定要把他滅絕。 
                                 
                                 天誅教迷堂客醜殺人説不得家家男人要明白免得帽子變了色。 
@@ -76,7 +74,7 @@
                         <objectDesc form="sheet"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulbery and bamboo mix paper</support>
-                                <extent>1 leaf
+                                <extent>一頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -97,7 +95,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                楷體</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -108,9 +106,7 @@
                      https://git.io/msdescdoc#musicnotation
                      -->
                         </musicNotation>
-                        <additions>
-                            <p> An anti-Christian tract. </p>
-                        </additions>
+                      
         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
@@ -129,9 +125,9 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>湖北省 Hubei Province</region>,
-                                <settlement>漢口 Hankou（Hankow） </settlement>,
+                                <country>中國</country>,
+                                <region>湖北省</region>,
+                                <settlement>漢口</settlement>,
                                
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒年間 [1875-1908)]</origDate>

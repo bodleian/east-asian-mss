@@ -49,14 +49,13 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Couplets based on the names of various Hankow missionaries, including G. John and A. Bonsey</summary>
+                        <summary>清末傳教士手稿。</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
-                            <title>Couplets based on the names of various Hankow missionaries, including G. John and A. Bonsey</title>
+                            <title key="supplied title">【牧師名單】</title>
                             <incipit>羅牧師： 必將真道傳千古，誠用福音救萬民。 
                                 
                                 潘牧師：雅度超羣法救主，德音鼓眾敬真神。 
@@ -81,7 +80,7 @@
                         <objectDesc form="sheet"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulbery and bamboo mix paper</support>
-                                <extent>1 leaf
+                                <extent>一頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -102,7 +101,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                楷體</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -132,15 +131,15 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>湖北省 Hubei Province</region>,
-                                <settlement>漢口 Hankou（Hankow）</settlement>,
+                                <country>中國</country>,
+                                <region>湖北省</region>,
+                                <settlement>漢口</settlement>,
                               
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒年間 [1875-1908]</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>Anthony Bradley</provenance>
+                        <provenance> Anthony Bradley</provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>Acquired in April 2015.</acquisition>
                     </history>

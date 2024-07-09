@@ -158,8 +158,8 @@
                   <origin>
                      <!-- see https://git.io/msdescdoc#origin -->
                      <origPlace>
-                        <country>China</country>,
-                        <region>Beijing</region>,
+                        <country>中國</country>,
+                        <region>北京</region>,
                         <settlement><!-- insert --></settlement>,
                         <orgName><!-- insert --></orgName>
                      </origPlace>

@@ -49,15 +49,13 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>Boat hire contract for G. John and A. Bonsey, 1894.</summary>
+                        <summary>《官契》</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
                             <title key="">官契</title>
-                            <title>Guan qi</title>
                             <incipit>漢陽府漢川縣船戶鄧慶如今有自己鴉稍船乙隻。在於漢口河下慿行承攬裝到福音堂潘、楊牧師名下行裡正載前往天門回往十五天交卸當日三面言定。</incipit>
                             <explicit>順風相送</explicit>
                         </msItem>
@@ -68,7 +66,7 @@
                         <objectDesc form="sheet"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulbery and bamboo mix paper</support>
-                                <extent>1 leaf
+                                <extent>一頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -89,7 +87,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 行書 (xing shu, semi-cursive) calligraphic style</handNote>
+                                手寫部分字跡為行書</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -119,9 +117,9 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>湖北省 Hu bei Province</region>,
-                                <settlement>漢口 Han kou（Hankow）</settlement>,
+                                <country>中國</country>,
+                                <region>湖北省</region>,
+                                <settlement>漢口</settlement>,
                                 
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒二十年[1894]</origDate>

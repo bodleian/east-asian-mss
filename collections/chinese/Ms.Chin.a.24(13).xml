@@ -49,15 +49,15 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary> travel permits for A. Bonsey, 1887, 1889, 1897.</summary>
+                        <summary> 《護照》1887, 1889, 1897</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">Thirteen single-leaf manuscripts</title>
+                           
                             <title key="">護照</title>
-                            <title>Hu zhao</title>
+                          
                             <rubric>大英欽命駐劄漢口管理本國通商事務領事官霍為</rubric>
                             
                             <incipit>給發護照事照得天津條約第九欵内載英國民人准聼持照前往内地各處游歷通商。執照由領事官發給，由地方官蓋印，經過地方如飭交出執照，應可隨時呈驗無訛放行。僱船僱人裝運行李貨物不得攔阻，如其無照，其中或有訛誤，以及有不法情事就近送交領事官
@@ -75,7 +75,7 @@
                         <objectDesc form="sheet"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulbery and bamboo mix paper</support>
-                                <extent>1 leaf
+                                <extent>一頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
@@ -96,7 +96,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Printed text in 楷體 (kai shu, regular) calligraphic style, written text in 行書 （xing shu,semi-cursive) calligraphic style.）</handNote>
+                                楷體 </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -126,9 +126,9 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>湖北省 Hubei Province</region>,
-                                <settlement>漢口 Hankou（Hankow）</settlement>,
+                                <country>中國</country>,
+                                <region>湖北省</region>,
+                                <settlement>漢口</settlement>,
                                 
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清光緒二十三年[1897]</origDate>
