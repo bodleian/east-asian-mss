@@ -51,48 +51,62 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary>A set of four albums featuring portraits of famous emperors and ministers from 
-                                 Chinese history, spanning from the mythological era to the Ming dynasty.</summary>
-                        <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
+                        <summary>《君臣圖繪》一套共四冊，韓國手稿</summary>
+                        <textLang mainLang="ko">Korean</textLang><!-- change text and attribute if necessary -->
+                        
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>Catalogue of Dutiable Articles</title>
-                            <author>unknown</author>
-  
-                            <filiation>手抄本,中外孤本。 only surviving copy.</filiation></msItem></msContents>
+                            <locus><!-- insert --></locus>
+                            <title>君臣圖繪</title>
+                            <title xml:lang="ko">Kunsin tohoe</title>
+                            <author key="Korean">Unknown</author>
+                            <note>本套圖冊出現所有的人物中，共有七人的肖像重複出現了兩次，用以展示他們多重的政治與文化身份。這七人分別爲：
+                                一）孔子，分別以正式裝束和日常裝束出現
+                                二）關羽，圖冊中分別以關公羽和關雲長標注
+                                三）宋太宗
+                                四）張九齡
+                                五）蘇子瞻
+                                六）張橫渠
+                                七）王陽明</note>
+                            
+                        </msItem>
+                        <!-- insert further msItem elements as appropriate --> 
+                        
+                    </msContents>
                     <physDesc>
                         
                         <objectDesc form="冊"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>Mulberry and bamboo mixed paper</support>
-                                <extent>Volume 1 consists of 72 color portraits, each labeled with names written on the upper-right side. 
-                                    Korean name translations are featured on either the left or right side as tags.
-                                    Volume 2 consists of 76 color portraits, each labeled with names written on the upper-right side. 
-                                    Korean name translations are featured on either the left or right side as tags.
-                                    Volume 3 consists of 75 color portraits, each labeled with names written on the upper-right side. 
-                                    Korean name translations are featured on either the left or right side as tags.
-                                    Volume 4 consists of 66 color portraits, each labeled with names written on the upper-right side. 
-                                    Korean name translations are featured on either the left or right side as tags. </extent>
-                                 
+                            <supportDesc material="紙本"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                                <support>紙本</support>
+                                <extent>四冊
+                                    <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
+                        
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                           <height>33 cm</height>
+                                        <width>21 cm</width>
+                                    </dimensions>
+                                    <!-- use additional dimensions elements if necessary -->
+                                </extent>
+                                
+                                <condition>封面有磨損痕跡，標題字跡模糊，有水印，封底内頁有蟲蛀痕跡，封底有脫落痕跡。</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>蝴蝶裝 (butterfly binding)</layout>
+                                <layout>每幅肖像右上角有朱筆書寫漢字人名及尊號，若肖像在左頁則韓文標注在左，反之在右。</layout>
                                 
                             </layoutDesc>
                             
                         </objectDesc>
                         
-                        <handDesc><handNote>
-                            中國畫傳統技法。
-                            Text written in 楷體 （kai shu，regular）calligraphic style.</handNote><!-- use the @hands attribute to record the number of scribes -->
-                            <!-- <handNote> </handNote> --> 
+                        <handDesc><!-- use the @hands attribute to record the number of scribes -->
+                            <handNote>
+                                纸本设色人物肖像，文字为楷體</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
                         </handDesc>
                         
                         <decoDesc>
-                            <decoNote>Paper bound hard cover in yellow colour, in butterfly binding.
+                            <decoNote>
                             </decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
@@ -101,8 +115,9 @@
                         
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
-                                <p>冊</p>
-                                <decoNote>Concertina style binding with hardback paper cover.</decoNote>
+                                <p>册</p>
+                                <decoNote>
+                                    一套由四冊組成。每冊的封皮和封底為黃色加厚紙製成。</decoNote>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -117,9 +132,7 @@
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
                                 <country>Korea</country>,
-                                <region></region>,
-                                <settlement><!-- insert --></settlement>,
-                                <orgName><!-- insert --></orgName>
+                                
                             </origPlace>
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1847 and later</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
@@ -150,92 +163,6 @@
                             
                         </listBibl>
                     </additional>
-                     <msPart> 
-                         <msIdentifier>
-                             <altIdentifier type="part"><idno>Ms.Chin.c.21-1</idno></altIdentifier>
-                         </msIdentifier>
-                       <msContents> <msItem n="1"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
-                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>君臣圖繪 一</title>
-                            <title key="supplied title">Portraits of great men [Chinese titles with Korean translation] 4 vols
-                                <note>title supplied from the previous catalogue</note></title>
-                            <title type="other">Jun chen tu hui yi
-                                A compilation of portraits featuring famous emperors and ministers from various eras in Chinese history </title>
-                            <author key="Chinese">Unknown</author>
-                            <note>This album is a compilation of Chinese emperors, encompassing a timeline from the mythological era to the Ming dynasty.
-                                  The emperors' portraits range from Pan Gu Shi (盤古氏) to the Ming dynasty's Shi Zong Emperor （明世宗）, also known as Emperor Jia Jing (嘉靖皇帝，1507-1567).</note>
-
-                       </msItem></msContents>
-                         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" type="leaf" n="1"> <height>33 cm</height>
-                             <width>21 cm</width>
-                         </dimensions></support><condition>封面有磨損痕跡，標題字跡模糊，有水印，封底内頁有蟲蛀痕跡，封底有脫落痕跡。</condition></supportDesc></objectDesc></physDesc>
-                         <!-- insert further msItem elements as appropriate --> </msPart>
-                        
-                    <msPart> 
-                        <msIdentifier>
-                            <altIdentifier type="part"><idno>Ms.Chin.c.21-2</idno></altIdentifier>
-                        </msIdentifier>
-                        <msContents> 
-                        <msItem n="2"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
-                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>君臣圖繪 二</title>
-                            <title key="supplied title">Portraits of great men [Chinese titles with Korean translation] 4 vols
-                                <note>title supplied from the previous catalogue</note></title>
-                            <title type="other">Jun chen tu hui er
-                                A compilation of portraits featuring famous emperors and ministers from various eras in Chinese history </title>
-                            <author key="Chinese">Unknown</author>
-                            <note>This album is a compilation of Chinese ministers, encompassing a timeline from the mythological era to the early 
-                                  Tang dynasty. The ministers’ portraits range from Cang Jie （倉頡） to Xu Jing Zong (許敬宗，592-672).</note>
-
-                         </msItem></msContents>
-                        <!-- insert further msItem elements as appropriate --> 
-                        <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" type="leaf" n="1"> <height>33 cm</height>
-                            <width>21 cm</width>
-                        </dimensions></support><condition>封面有磨損痕跡，標題字跡模糊，有水印，封底内頁有蟲蛀痕跡，封底有脫落痕跡。</condition></supportDesc></objectDesc></physDesc>
-                        <!-- insert further msItem elements as appropriate --> </msPart>
-                    
-                    <msPart>
-                        <msIdentifier>
-                            <altIdentifier type="part"><idno>Ms.Chin.c.21-3</idno></altIdentifier>
-                        </msIdentifier>
-                        <msContents> 
-                        <msItem n="3"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
-                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>君臣圖繪 三</title>
-                            <title key="supplied title">Portraits of great men [Chinese titles with Korean translation] 4 vols
-                                <note>title supplied from the previous catalogue</note></title>
-                            <title type="other">Jun chen tu hui san
-                                A compilation of portraits featuring famous emperors and ministers from various eras in Chinese history </title>
-                            <author key="Chinese">Unknown</author>
-                            <note>This album is a compilation of Chinese ministers, spanning a timeline from the early Tang dynasty to the Yuan dynasty. 
-                                  The portraits of these ministers in this album start from Wei Zheng Gong Zheng (魏鄭公徵), also known as 
-                                  Wei Zheng (魏徵, 580-643), to Zhao Meng Fu (趙孟頫, 1254-1322).</note>
-                        </msItem></msContents>
-                            <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" type="leaf" n="1"> <height>33 cm</height>
-                                      <width>21 cm</width>
-                                  </dimensions></support><condition>封面有磨損痕跡，標題字跡模糊，有水印，封底内頁有蟲蛀痕跡，封底有脫落痕跡。</condition></supportDesc></objectDesc></physDesc>
-                        </msPart>
-                       <msPart> 
-                           <msIdentifier>
-                               <altIdentifier type="part"><idno>Ms.Chin.c.21-4</idno></altIdentifier>
-                           </msIdentifier>
-                           <msContents>
-                           <msItem n="4"><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
-                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title>君臣圖繪 四</title>
-                            <title key="supplied title">Portraits of great men [Chinese titles with Korean translation] 4 vols
-                                <note>title supplied from the previous catalogue</note></title>
-                            <title type="other">Jun chen tu hui si
-                                A compilation of portraits featuring famous emperors and ministers from various eras in Chinese history </title>
-                            <author key="Chinese">Unknown</author>
-                            <note>This album is a compilation of famous Chinese ministers from the Ming dynasty, spanning from Xu Wei Gong Da 
-                                 (徐魏公達), also known as Xu Da (徐達, 1332-1385), to Hai Rui (海瑞, 1514-1587).</note>
-                        </msItem>  
-                           </msContents> 
-                           <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" type="leaf" n="1"> <height>33 cm</height>
-                               <width>21 cm</width>
-                           </dimensions></support><condition>封面有磨損痕跡，標題字跡模糊，有水印，封底内頁有蟲蛀痕跡，封底有脫落痕跡。</condition></supportDesc></objectDesc></physDesc>
-</msPart>
                     
                     
                 </msDesc>
