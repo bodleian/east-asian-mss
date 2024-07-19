@@ -67,14 +67,15 @@
                                 <persName type="號">春雨</persName>
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
-                            <rubric>永樂大典卷之一萬四千三百八十五 四霽</rubric>
-                            <rubric>冀:冀州二 宋薛季宣地理叢考</rubric>
                             
-                            <colophon>重錄總校官侍郎臣<persName>秦鳴雷</persName><lb/>學士臣<persName>王大任</persName></colophon>
+                            <rubric><locus>fol.1r</locus><q>永樂大典卷之一萬四千三百八十五 四霽</q><q>冀:冀州二 宋薛季宣地理叢考</q></rubric>
+
+                            <colophon><locus>fol.(34)r</locus>
+                                <q>重錄總校官侍郎臣陳以勤<lb/>學士臣王大任</q>
+                                <q>分校官編修臣張四維</q>
+                                <q>書寫儒士臣張棟</q>
+                                <q>>圈點監生臣傅道立<lb/>臣許汝孝</q></colophon>
                             
-                            <colophon>分校官編修臣<persName>張四維</persName></colophon>
-                            <colophon>書寫儒士臣<persName>張棟</persName></colophon>
-                            <colophon>圈點監生臣<persName>傅道立</persName><lb/>臣<persName>許汝孝</persName></colophon>
                             <filiation>中外孤本 only surviving copy</filiation>
                             
                         </msItem>
@@ -84,7 +85,7 @@
                         
                         <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                                <support>桑紙</support>
                                 <extent>28 頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -119,7 +120,7 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                In traditional Chinese style yellow silk cover. The labels are not present.</decoNote>
+                                明嘉靖隆慶間內府重寫本。封面標簽遺失。</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -134,7 +135,7 @@
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
                                 <p> 
-                                    明嘉靖隆慶間內府重寫本。黃絹硬面,包背裝。</p></binding>
+                                    黃絹硬面,包背裝。</p></binding>
                         </bindingDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 

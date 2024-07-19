@@ -67,14 +67,15 @@
                                 <persName type="號">春雨</persName>
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
-                            <rubric>永樂大典卷之一萬九千七百三十五 一屋</rubric>
-                            <rubric>錄:曾公遺錄八</rubric>
+                           
+                            <rubric><locus>fol.1r</locus><q>永樂大典卷之一萬九千七百三十五 一屋</q><q>錄:曾公遺錄八</q></rubric>
                             
-                            <colophon>重錄總校官侍郎臣<persName>陳以勤</persName><lb/>學士臣<persName>王大任</persName></colophon>
-                            
-                            <colophon>分校官中允臣<persName>胡杰</persName></colophon>
-                            <colophon>書寫官序班臣<persName>劉大武</persName></colophon>
-                            <colophon>圈點監生臣<persName>馬承志</persName><lb/>臣<persName>吳璥</persName></colophon>
+       
+                            <colophon><locus>fol.(32)r</locus>
+                                <q>重錄總校官侍郎臣陳以勤<lb/>學士臣王大任</q>
+                                <q>分校官中允臣胡杰</q>
+                                <q>書寫官序班臣劉大武</q>
+                                <q>>圈點監生臣馬承志<lb/>臣吳璥</q></colophon>
                             <filiation>中外孤本 only surviving copy</filiation>
                             
                         </msItem>
@@ -84,7 +85,7 @@
                         
                         <objectDesc form="包背裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
-                                <support>mulberry and bamboo mixed paper</support>
+                                <support>桑紙</support>
                                 <extent>31 頁
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         
@@ -108,7 +109,7 @@
                         
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
-                                Text written in 楷體 (kai shu, regular) calligraphic style</handNote>
+                                 楷體 </handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -121,7 +122,7 @@
                         </musicNotation>
                         <decoDesc>
                             <decoNote>
-                                In traditional Chinese style yellow silk cover</decoNote>
+                                明嘉靖隆慶間內府重寫本。</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
@@ -134,7 +135,7 @@
                         </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p>明嘉靖隆慶間內府重寫本。黃絹硬面,包背裝。</p>
+                                <p>黃絹硬面,包背裝。</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -149,8 +150,8 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>Beijing</region>,
+                                <country>中国</country>,
+                                <region>北京</region>,
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
