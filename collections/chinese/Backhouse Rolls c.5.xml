@@ -73,15 +73,7 @@
                                 <persName type="號">日觀峰道人</persName>
                                 <date notAfter="1900" notBefore="1700" calendar="Gregorian">1719-1805</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>入我澹懷秋月白</incipit></msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>迎人爽氣遠山青</incipit>    
-                            <incipit type="seal">劉墉之印</incipit>
-                            <incipit type="seal">石菴</incipit></msItem>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -193,7 +185,19 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.5/1</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>入我澹懷秋月白</incipit></msItem></msContents></msPart>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.5/2</idno></altIdentifier></msIdentifier>
+                        <msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>迎人爽氣遠山青</incipit>    
+                        </msItem></msContents><physDesc><sealDesc>
+                            <seal> <p>劉墉之印</p> </seal>
+                            <seal> <p>石菴</p> </seal>
+                        </sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -67,20 +67,7 @@
                                 <persName type="號">廕軒</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1819-1900</date>
                             </author>
-                            
-                            <msItem><incipit>書為</incipit>
-                            <incipit>通經致用真儒者</incipit>
-                            <incipit type="款識">茀亭仁兄大人清政</incipit>
-                            <explicit type="背面">Backhouse Rolls c.7(1)</explicit>
-                            <explicit type="背面">徐桐</explicit>
-                            <explicit type="背面">B/333</explicit></msItem>
-                            
-                           <msItem><title type="下聯">下聯</title>
-                            <incipit>治囯如家古大臣</incipit>
-                            <incipit type="款識">蔭軒弟徐桐</incipit>
-                            <incipit type="seal">蔭軒</incipit>
-                            <incipit type="seal">徐桐印</incipit>
-                            <explicit type="背面">徐桐</explicit></msItem> 
+                          
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -189,6 +176,28 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.7/1</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem><incipit>書為</incipit>
+                        <incipit>通經致用真儒者</incipit>
+                        <incipit type="款識">茀亭仁兄大人清政</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Backhouse Rolls c.7(1) </p>
+                        <p> <locus>背面: </locus> 徐桐 </p>
+                        <p> <locus>背面: </locus> B/333 </p>
+                    </additions></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.7/2</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem><title type="下聯">下聯</title>
+                        <incipit>治囯如家古大臣</incipit>
+                        <incipit type="款識">蔭軒弟徐桐</incipit>
+                        <incipit type="seal">蔭軒</incipit>
+                        <incipit type="seal">徐桐印</incipit>
+                        <explicit type="背面">徐桐</explicit></msItem> </msContents><physDesc><additions>
+                            <p> <locus>背面: </locus> 徐桐 </p>
+                        </additions><sealDesc>
+                            <seal> <p>蔭軒</p> </seal>
+                            <seal> <p>徐桐印</p> </seal>
+                        </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

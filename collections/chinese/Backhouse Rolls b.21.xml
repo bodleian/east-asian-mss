@@ -66,19 +66,7 @@
                                 <persName type="號">鑾坡</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1811-1897</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                                <incipit type="款識">湛遠二兄大人雅屬</incipit>
-                            <incipit>觀化樂天與山同靜</incipit>
-                            <explicit type="背面">張之萬</explicit></msItem>
                             
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>逰和傳朗隨地為春</incipit>
-                            <incipit type="款識">子胥張之萬</incipit>
-                            <incipit type="seal">張之萬印</incipit>
-                            <incipit type="seal">子青</incipit>
-                            <explicit type="背面">張之萬 cataqlogue B/305</explicit></msItem>
                             <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -187,7 +175,27 @@
                             
                         </listBibl>
                     </additional>
+                   
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.21/1</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit type="款識">湛遠二兄大人雅屬</incipit>
+                        <incipit>觀化樂天與山同靜</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> 張之萬 </p>
+                   </additions></physDesc></msPart>
                     
+                        <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.21/2</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>逰和傳朗隨地為春</incipit>
+                        <incipit type="款識">子胥張之萬</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 張之萬 catalogue B/305 </p>
+                    </additions><sealDesc>
+                        <seal> <p>張之萬印</p> </seal>
+                        <seal> <p>子青</p> </seal>
+                    </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

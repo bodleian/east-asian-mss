@@ -68,18 +68,7 @@
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1812-1885</date>
                             </author>
                             
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>禮樂其文金石其質</incipit>
-                            <explicit type="背面">左宗棠对 B/331</explicit></msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>道德為父清净為師</incipit>
-                            <incipit type="款識">左宗棠</incipit>
-                            <incipit type="seal">清宮太保</incipit>
-                            <incipit type="seal">恪靖侯章</incipit>
-                            <explicit type="背面">左宗棠 对</explicit></msItem>
+                          
                             <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -191,8 +180,26 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.22/1</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>禮樂其文金石其質</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> 左宗棠对 B/331 </p>
+                   </additions></physDesc></msPart>
                     
-                    
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.22/2</idno></altIdentifier></msIdentifier><msContents>
+                    <msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>道德為父清净為師</incipit>
+                        <incipit type="款識">左宗棠</incipit>
+                        </msItem>
+                    </msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 左宗棠 对 </p>
+                    </additions><sealDesc>
+                        <seal> <p>清宮太保</p> </seal>
+                        <seal> <p>恪靖侯章</p> </seal>
+                    </sealDesc></physDesc> </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

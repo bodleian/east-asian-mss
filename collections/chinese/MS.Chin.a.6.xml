@@ -57,45 +57,10 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="supplied title">【達摩像、孔子像等拓片 共六幅】</title>
+                            <title type="desc">【達摩像、孔子像等拓片 共六幅】</title>
                             <author key="_unknown">unknown</author>
                             
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.6(1)</title>
-                                <incipit type="釋文">風顛寫</incipit>
-                            </msItem>
-                            
-                            <msItem>   
-                                <title key="shelfmark">MS.Chin.a.6(2)</title>
-                                <incipit type="釋文">達摩西來一字無，全憑心地用功夫。若要紙上談人我，筆影蘸乾洞庭湖。</incipit> 
-                                <incipit type="款識">己巳仲冬風顛寫</incipit> 
-                                <incipit type="seal">風顛</incipit></msItem> 
-                            
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.6(3)</title>
-                                <incipit type="釋文">達摩出祖元像，信手拈來紙上。非紙非墨非我，逢人對面儅之。</incipit> 
-                                <incipit type="款識">己巳仲冬风颠写</incipit> 
-                                <incipit type="seal">風顛</incipit>
-                            </msItem>
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.6(4)</title>
-                                <incipit type="釋文">【関】夫子像</incipit> 
-                                <incipit type="釋文">手扶赤日，心格皇天，乾坤並壽，日月同懸，大義凜然，正襟危坐，為萬世師，【尼】山之佐。</incipit> 
-                                <incipit type="款識">康熙四十三年五月十三日白山弟子【達】</incipit> 
-                                <incipit type="款識">禮善敬撰並書</incipit> 
-                                <incipit type="seal">達禮善印</incipit>
-                            </msItem>
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.6(5)</title>
-                                <incipit type="釋文">至聖先師像</incipit> 
-                                <incipit type="款識">雍正甲寅九月望日和碩果親王</incipit> 
-                                <incipit type="seal">和碩果親王寳</incipit>
-                            </msItem>
-                            
-                            <msItem>   
-                                <title key="shelfmark">MS.Chin.a.6(6)</title>
-                                <incipit type="釋文">召伯甘棠圖</incipit> </msItem> 
-                             </msItem>
+                        </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
                     </msContents>
@@ -198,8 +163,47 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart><msIdentifier><altIdentifier>
+                       <idno>MS.Chin.a.6(1)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">風顛寫</incipit>
+                    </msItem></msContents></msPart>
                     
+                    <msPart><msIdentifier><altIdentifier>   
+                       <idno>MS.Chin.a.6(2)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">達摩西來一字無，全憑心地用功夫。若要紙上談人我，筆影蘸乾洞庭湖。</incipit> 
+                        <incipit type="款識">己巳仲冬風顛寫</incipit> 
+                        </msItem></msContents>
+                        <physDesc><sealDesc><seal><p>風顛</p></seal></sealDesc></physDesc>
+                    </msPart> 
                     
+                    <msPart><msIdentifier><altIdentifier>
+                       <idno>MS.Chin.a.6(3)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">達摩出祖元像，信手拈來紙上。非紙非墨非我，逢人對面儅之。</incipit> 
+                        <incipit type="款識">己巳仲冬风颠写</incipit> 
+                        
+                    </msItem></msContents>
+                        <physDesc><sealDesc><seal><p>風顛</p></seal></sealDesc></physDesc>
+                    </msPart>
+                    <msPart><msIdentifier><altIdentifier>
+                       <idno>MS.Chin.a.6(4)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">【関】夫子像</incipit> 
+                        <incipit type="釋文">手扶赤日，心格皇天，乾坤並壽，日月同懸，大義凜然，正襟危坐，為萬世師，【尼】山之佐。</incipit> 
+                        <incipit type="款識">康熙四十三年五月十三日白山弟子【達】</incipit> 
+                        <incipit type="款識">禮善敬撰並書</incipit> 
+                       
+                    </msItem></msContents>
+                        <physDesc><sealDesc><seal><p>達禮善印</p></seal></sealDesc></physDesc></msPart>
+                    <msPart><msIdentifier><altIdentifier>
+                       <idno>MS.Chin.a.6(5)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">至聖先師像</incipit> 
+                        <incipit type="款識">雍正甲寅九月望日和碩果親王</incipit> 
+                        
+                    </msItem></msContents>
+                        <physDesc><sealDesc><seal><p>和碩果親王寳</p></seal></sealDesc></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier>   
+                       <idno>MS.Chin.a.6(6)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">召伯甘棠圖</incipit> </msItem></msContents></msPart> 
                 </msDesc>
             </sourceDesc>
         </fileDesc>

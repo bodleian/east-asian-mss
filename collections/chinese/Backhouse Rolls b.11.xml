@@ -71,20 +71,7 @@
                                 <date notAfter="1900" notBefore="1700" calendar="Gregorian">1771-1840</date>
                             </author>
                             <note type="注">英和(1771-1840),索綽絡氏,初名石桐,字樹琴,號煦齋,又號粵溪生,内務府滿洲正白旗人,清朝政治人物。</note>
-                            <msItem>
-                            <title type="上聯">上聯</title>    
-                            <incipit>信敏謙恭樂有利福</incipit>
-                           <incipit type="款識">東雲館文</incipit>
-                            <explicit type="背面">Backhouse Rolls b.11(1)</explicit>
-                                <explicit type="背面">英和</explicit> </msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>仁壽篤厚天所祚昌</incipit>
-                            <incipit type="款識">樹琴英和</incipit>
-                            <incipit type="seal">英和之印</incipit>
-                            <explicit type="背面">Scrolls by Ying Ho the qual scholar</explicit>
-                                <explicit type="背面">Backhouse Rolls b. 11(2)</explicit> </msItem>
+                           
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -196,6 +183,29 @@
                         </listBibl>
                     </additional>
                     
+                   <msPart>
+                       <msIdentifier><altIdentifier><idno>Backhouse Rolls b.11/1</idno></altIdentifier></msIdentifier>
+                       <msContents> <msItem>
+                        <title type="上聯">上聯</title>    
+                        <incipit>信敏謙恭樂有利福</incipit>
+                        <incipit type="款識">東雲館文</incipit>
+                       </msItem></msContents><physDesc><additions>
+                           <p> <locus>背面: </locus> Backhouse Rolls b.11(1) </p>
+                           <p> <locus>背面: </locus> 英和 </p>
+                       </additions></physDesc></msPart>
+                  <msPart>
+                      <msIdentifier><altIdentifier><idno>Backhouse Rolls b.11/2</idno></altIdentifier></msIdentifier>
+                      <msContents>  
+                    <msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>仁壽篤厚天所祚昌</incipit>
+                        <incipit type="款識">樹琴英和</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Scrolls by Ying Ho the qual scholar </p>
+                        <p> <locus>背面: </locus> Backhouse Rolls b. 11(2) </p>
+                    </additions><sealDesc>
+                        <seal> <p>英和之印</p> </seal>
+                    </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

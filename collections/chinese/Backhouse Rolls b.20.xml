@@ -71,19 +71,7 @@
                                 <persName type="號">省心</persName>
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1823-1901</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>海東日南魷瞻五會</incipit> 
-                            <incipit type="款識">承齋尊兄大人屬</incipit>
-                            <explicit type="背面">autograph of Li Hongzhan 李鴻章 對 B/325</explicit></msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>佛書道藏依援聖言</incipit>
-                            <incipit type="款識">儀叟李鴻章</incipit>
-                            <incipit type="seal">李鴻章印</incipit>
-                            <incipit type="seal">大學士肅毅伯</incipit>
-                            <explicit type="背面">李鴻章 對 Backhouse Rolls b. 20(2)</explicit></msItem>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -195,6 +183,28 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.20/1</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>海東日南魷瞻五會</incipit> 
+                        <incipit type="款識">承齋尊兄大人屬</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> autograph of Li Hongzhan 李鴻章 對 B/325 </p>
+                    </additions></physDesc></msPart>
+                    
+                    <msPart> <msIdentifier><altIdentifier><idno>Backhouse Rolls b.20/2</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>佛書道藏依援聖言</incipit>
+                        <incipit type="款識">儀叟李鴻章</incipit>
+                      </msItem></msContents><physDesc>
+                          <additions>
+                              <p> <locus>背面: </locus> 李鴻章 對 Backhouse Rolls b. 20(2) </p>
+                          </additions>
+                          <sealDesc>
+                              <seal> <p>李鴻章印</p> </seal>
+                              <seal> <p>大學士肅毅伯</p> </seal>
+                          </sealDesc>
+                      </physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

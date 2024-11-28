@@ -69,19 +69,7 @@
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1872-1919</date>
                             </author>
                             <note type="注">孔令貽(1872-1919),字穀孫，號燕庭，孔子七十六代嫡孫，山東曲阜人，能詩善畫，工書。</note>
-                            <msItem><title type="上聯">上聯</title>
-                            <incipit>銘帶每思恭則壽</incipit>
-                            <explicit type="背面">Backhouse Rolls c.9(1)</explicit>
-                            <explicit type="背面">孔令貽</explicit></msItem>
-                            
-                           <msItem><title type="下聯">下聯</title>
-                            <incipit>研經常守益由謙</incipit>
-                            <incipit type="款識">闕里孔令貽</incipit>
-                            <incipit type="seal">孔令貽印</incipit>
-                            <incipit type="seal">衍聖公章</incipit>
-                            <explicit type="背面">B/328</explicit>
-                            <explicit type="背面">孔令貽</explicit>
-                            <explicit type="背面">Autograph of the 【?】 Confucian duke, Kong Ling-i descendant of Confucious</explicit></msItem>
+                           
                             
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
@@ -191,7 +179,26 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.9/1</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem><title type="上聯">上聯</title>
+                        <incipit>銘帶每思恭則壽</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> Backhouse Rolls c.9(1) </p>
+                       <p> <locus>背面: </locus> 孔令貽 </p>
+                   </additions></physDesc></msPart>
                     
+                   <msPart> <msIdentifier><altIdentifier><idno>Backhouse Rolls c.9/2</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem><title type="下聯">下聯</title>
+                        <incipit>研經常守益由謙</incipit>
+                        <incipit type="款識">闕里孔令貽</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> B/328 </p>
+                       <p> <locus>背面: </locus> 孔令貽 </p>
+                       <p> <locus>背面: </locus> Autograph of the 【?】 Confucian duke, Kong Ling-i descendant of Confucious </p>
+                   </additions><sealDesc>
+                       <seal> <p>孔令貽印</p> </seal>
+                       <seal> <p>衍聖公章</p> </seal>
+                   </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

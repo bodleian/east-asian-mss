@@ -71,17 +71,7 @@
                                 <persName type="號">龍威洞天主</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1830-1890</date></author>
                                 
-                            <msItem> <title type="上聯">下聯</title>
-                                <incipit>只有梅花一林月</incipit>
-                            <explicit type="背面">Autograph of Pan Tsuyin, the great scholar</explicit>
-                            <explicit type="背面">B/309</explicit></msItem>
-                            
-                            <title type="下聯">下聯</title>
-                            <incipit>鶴有雙清鳳五倫</incipit>
-                            <incipit type="款識">潘祖蔭</incipit>
-                            <incipit type="seal">潘祖蔭印</incipit>
-                            <explicit type="背面">潘祖蔭</explicit>
-                            <explicit type="背面">Backhouse Rolls c. 4</explicit>
+                         
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -193,7 +183,24 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.4/1</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem> <title type="上聯">下聯</title>
+                        <incipit>只有梅花一林月</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> Autograph of Pan Tsuyin, the great scholar </p>
+                       <p> <locus>背面: </locus> B/309 </p>
+                   </additions></physDesc></msPart>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.4/2</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem> <title type="下聯">下聯</title>
+                        <incipit>鶴有雙清鳳五倫</incipit>
+                        <incipit type="款識">潘祖蔭</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 潘祖蔭 </p>
+                        <p> <locus>背面: </locus> Backhouse Rolls c. 4 </p>
+                    </additions><sealDesc>
+                        <seal> <p>潘祖蔭印</p> </seal>
+                    </sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -65,21 +65,6 @@
                             <author key="_hezhancai">        
                                 <persName>何展采</persName>
                             </author>
-                            
-                            <msItem><title type="上聯">上聯</title>
-                            <incipit type="款識">念兹仁兄大人雅正</incipit>
-                            <incipit>清譚久領陳驚座</incipit>
-                            <explicit type="背面">Backhouse Rolls c.18(1)</explicit>
-                                <explicit type="背面">何展采 對</explicit></msItem>
-                            
-                            <msItem><title type="下聯">下聯</title>
-                            <incipit>後句新傳趙依樓</incipit>
-                            <incipit type="款識">蔭甫何展采</incipit>
-                            <incipit type="seal">何展采印</incipit>
-                            <incipit type="seal">蔭甫</incipit>
-                            <explicit type="背面">何展采 對</explicit>
-                            <explicit type="背面">B/329</explicit>
-                                <explicit type="背面">Backhouse Rolls c.18(2)</explicit></msItem>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -188,7 +173,34 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier>
+                        <idno>Backhouse Rolls c.18/1</idno>
+                    </altIdentifier></msIdentifier>
+                        <msContents>
+                    <msItem><title type="上聯">上聯</title>
+                        <incipit type="款識">念兹仁兄大人雅正</incipit>
+                        <incipit>清譚久領陳驚座</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Backhouse Rolls c.18(1) </p>
+                        <p> <locus>背面: </locus> 何展采 對 </p>
+                    </additions></physDesc>
+                    </msPart>
                     
+                        <msPart><msIdentifier><altIdentifier>
+                            <idno>Backhouse Rolls c.18/2</idno>
+                        </altIdentifier></msIdentifier>
+                    <msContents><msItem><title type="下聯">下聯</title>
+                        <incipit>後句新傳趙依樓</incipit>
+                        <incipit type="款識">蔭甫何展采</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 何展采 對 </p>
+                        <p> <locus>背面: </locus> B/329 </p>
+                        <p> <locus>背面: </locus> Backhouse Rolls c.18(2) </p>
+                    </additions><sealDesc>
+                        <seal> <p>何展采印</p> </seal>
+                        <seal> <p>蔭甫</p> </seal>
+                    </sealDesc></physDesc>
+                        </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

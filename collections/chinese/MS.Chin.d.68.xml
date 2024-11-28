@@ -62,23 +62,7 @@
                                 A Compilation of Ghost Stories</title>
                             <editor>牛僧孺</editor>
                             <note>This manuscript is handwritten by Wang Jie (王介) in 1513.</note>
-                            <msItem>
-                                <title key="分卷">幽怪錄 卷一</title>
-                                <incipit>幽怪錄一帙唐宰相牛僧孺之所纂集，而李復言之所續成者也。僧孺在唐雖與李德裕不合，
-                                         所載雖涉隱異然，其序事則深得左氏家法，故自宋以來文人詞客往往愛而用之。
-                                         云<date>正德癸酉</date>江東<persName>王介</persName>識</incipit>
-                                <incipit type="seal">韓氏藏書</incipit>
-                                <incipit type="seal">謙牧堂藏書記</incipit>
-                                <incipit>幽恠錄 唐隴西牛僧孺編</incipit>
-                            </msItem>      
                             
-                            <msItem>
-                                <title key="分卷">幽怪錄 卷二</title>
-                                <incipit>侯遹</incipit>
-                                <incipit type="seal">韓氏藏書</incipit>
-                                <incipit type="seal">兼牧堂書畫記</incipit>
-                            </msItem>      
-                            <note>謙牧堂藏書記(朱方)、兼牧堂書畫記(白方)為納蘭揆敘（1674-1717）的藏書印。</note>
                             <filiation>手抄本，或爲中外孤本 
                                Handwritten manuscript, only surviving copy of its kind.</filiation>
                             
@@ -196,8 +180,35 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart>
+                        <msIdentifier><altIdentifier type="part"><idno>MS.Chin.d.68/1</idno></altIdentifier></msIdentifier>
+                   
+                    <msContents><msItem>
+                        <title>幽怪錄 卷一</title>
+                        <incipit>幽怪錄一帙唐宰相牛僧孺之所纂集，而李復言之所續成者也。僧孺在唐雖與李德裕不合，
+                            所載雖涉隱異然，其序事則深得左氏家法，故自宋以來文人詞客往往愛而用之。
+                            云<date>正德癸酉</date>江東<persName>王介</persName>識</incipit>
+                        
+                        <incipit>幽恠錄 唐隴西牛僧孺編</incipit>
+                    </msItem>   </msContents>   
+                        <physDesc><sealDesc><seal><p>韓氏藏書</p></seal><seal><p>謙牧堂藏書記</p></seal></sealDesc></physDesc>
+                    </msPart>
                     
-                    
+                    <msPart>
+                        <msIdentifier><altIdentifier type="part"><idno>MS.Chin.d.68/2</idno></altIdentifier></msIdentifier>
+                        
+                        <msContents><msItem>
+                        <title key="分卷">幽怪錄 卷二</title>
+                        <incipit>侯遹</incipit>
+                        
+                        
+                    </msItem>      
+                   
+                        </msContents>
+                        <physDesc><sealDesc><seal><p>韓氏藏書</p></seal>
+                            <seal><p>兼牧堂書畫記</p></seal>
+                            <decoNote>謙牧堂藏書記(朱方)、兼牧堂書畫記(白方)為納蘭揆敘（1674-1717）的藏書印。</decoNote>
+                            </sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

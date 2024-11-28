@@ -50,12 +50,12 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary xml:lang="zh">>滿漢話條，一套四卷</summary>
+                        <summary xml:lang="zh">滿漢話條，一套四卷</summary>
                         <textLang mainLang="zh">Chinese </textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <title type="desc">【滿漢話條】</title>
+                            <title key="desc">【滿漢話條】</title>
                             <author>unknown</author>
                            
                         </msItem>
@@ -68,8 +68,7 @@
                         <objectDesc form="綫裝"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
                             <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>桑紙</support>
-                                <extent>共四卷。第一卷36頁（36 ff.），第二卷46頁（46 ff.），第三卷61頁（61 ff.），第四卷62頁（62 ff.）。
-                                    one volume 81 ff.
+                                <extent>4 vols.
                                     
                                     <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
                         https://git.io/msdescdoc#leafDimensions
@@ -163,7 +162,22 @@
                             
                         </listBibl>
                     </additional>
-                    
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS. Backhouse 6/1</idno></altIdentifier></msIdentifier>
+                        <physDesc><objectDesc><supportDesc><extent>共四卷。第一卷36頁（36 ff.）</extent></supportDesc></objectDesc></physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS. Backhouse 6/2</idno></altIdentifier></msIdentifier>
+                        <physDesc><objectDesc><supportDesc><extent>第二卷46頁（46 ff.）</extent></supportDesc></objectDesc></physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS. Backhouse 6/3</idno></altIdentifier></msIdentifier>
+                        <physDesc><objectDesc><supportDesc><extent>第三卷61頁（61 ff.）</extent></supportDesc></objectDesc></physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS. Backhouse 6/4</idno></altIdentifier></msIdentifier>
+                        <physDesc><objectDesc><supportDesc><extent>第四卷62頁（62 ff.）</extent></supportDesc></objectDesc></physDesc>
+                    </msPart>
                     
                 </msDesc>
             </sourceDesc>

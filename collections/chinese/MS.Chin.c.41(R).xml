@@ -65,21 +65,8 @@
                                 <persName type="號">茗昌</persName>
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1860-1911</date>
                             </author>
-
-                            <msItem>
-                            <title>上聯</title>
-                            <incipit>得志當爲天下雨</incipit>
-                                <incipit type="款識">念兹賢弟大人雅屬</incipit>
-                            <explicit type="題簽">鳳禹門 對</explicit></msItem>
-                            
-                            <msItem><title>下聯</title>
-                                <incipit>論交真有古人風</incipit>
-                                <incipit type="seal">禹門</incipit>
-                                <incipit type="款識">禹門鳳山</incipit>
-                                <explicit type="題簽"><locus>下聯天杆処背面</locus>鳳禹門 對</explicit></msItem>
                             <note type="注">鳳山 （1860-1911），字禹門，號茗昌，劉氏，漢軍旗鑲白旗人，清朝軍事將領。</note>
                             <note type="注">該對聯原作者據傳為吳佩孚</note>
-
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -190,8 +177,27 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS.Chin.c.41(R)/1</idno></altIdentifier></msIdentifier>
+                        <msContents><msItem>
+                            <title>上聯</title>
+                            <incipit>得志當爲天下雨</incipit>
+                            <incipit type="款識">念兹賢弟大人雅屬</incipit>
+                            <explicit type="題簽">鳳禹門 對</explicit></msItem></msContents>
+                    </msPart>
+                  
                     
+                   
                     
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS.Chin.c.41(R)/2</idno></altIdentifier></msIdentifier>
+                        <msContents><msItem><title>下聯</title>
+                            <incipit>論交真有古人風</incipit>
+                            
+                            <incipit type="款識">禹門鳳山</incipit>
+                            <explicit type="題簽"><locus>下聯天杆処背面</locus>鳳禹門 對</explicit>
+                        </msItem></msContents><physDesc><sealDesc><seal><p>禹門</p></seal></sealDesc></physDesc>
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -71,27 +71,7 @@
                                 <persName type="號">苏庵</persName>
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1860-1960</date></author>
                             <note type="注">郑孝胥，字苏戡、太夷，号苏庵、海藏楼主人、夜起庵叟等，福建闽县人,光绪八年举人。</note>
-                           
-                            <msItem><title type="對聯">上聯 <note>MS.Chin.c.38-1</note></title>
-                            <incipit>魯君博覽</incipit>
-                            <incipit type="seal">海藏樓</incipit></msItem>
-                           
-                            <msItem><title type="對聯">下聯<note>MS.Chin.c.38-2</note></title>
-                            <incipit>郭揣徹言</incipit>
-                            <incipit type="seal">蘇戡</incipit>
-                            <incipit type="seal">鄭氏孝胥</incipit>
-                               <incipit type="款識">念兹仁兄大人雅正庚戌三月<persName>孝胥</persName></incipit></msItem>
-                           
-                            <msItem><title type="對聯">上聯<note>MS.Chin.c.38-3</note></title>
-                                <incipit>提壺勸酒意雖重</incipit>
-                                <incipit type="款識">念兹仁兄大人雅鑒</incipit></msItem>
-                            
-                            <msItem><title type="對聯">下聯<note>MS.Chin.c.38-4</note></title>
-                                <incipit>救月裁詩語最真</incipit>
-                                <incipit type="seal">蘇戡</incipit>
-                                <incipit type="seal">鄭氏孝胥</incipit>
-                                <incipit type="款識">孝胥</incipit>
-                                <explicit type="錦包首">孝胥 於十三</explicit></msItem>
+                          
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -204,6 +184,26 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>MS.Chin.c.38-1</idno></altIdentifier></msIdentifier><msContents><msItem><title type="-">上聯</title>
+                        <incipit>魯君博覽</incipit>
+                    </msItem></msContents><physDesc><sealDesc><seal><p>海藏樓</p></seal></sealDesc></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>MS.Chin.c.38-2</idno></altIdentifier></msIdentifier><msContents><msItem><title type="對聯">下聯</title>
+                        <incipit>郭揣徹言</incipit>
+                        
+                        <incipit type="款識">念兹仁兄大人雅正庚戌三月<persName>孝胥</persName></incipit></msItem></msContents><physDesc><sealDesc><seal><p>蘇戡</p></seal>
+                        <seal><p>鄭氏孝胥</p></seal></sealDesc></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>MS.Chin.c.38-3</idno></altIdentifier></msIdentifier><msContents>  <msItem><title type="對聯">上聯</title>
+                        <incipit>提壺勸酒意雖重</incipit>
+                        <incipit type="款識">念兹仁兄大人雅鑒</incipit></msItem></msContents></msPart>
+                    
+                        <msPart><msIdentifier><altIdentifier><idno>MS.Chin.c.38-4</idno></altIdentifier></msIdentifier><msContents> <msItem><title type="對聯">下聯</title>
+                        <incipit>救月裁詩語最真</incipit>
+                        
+                        <incipit type="款識">孝胥</incipit>
+                            <explicit type="錦包首">孝胥 於十三</explicit></msItem></msContents><physDesc><sealDesc><seal><p>蘇戡</p>
+                            </seal><seal><p>鄭氏孝胥</p></seal></sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

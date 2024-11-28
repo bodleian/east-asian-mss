@@ -4,18 +4,19 @@
 
 <!-- use this template in cases where the manuscript is NOT composed of multiple codicological units. To avoid errors in the display of the record, be sure to delete elements that are not used. -->
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="manuscript_00000"><!-- insert the correct xmlid in the form manuscript_12345 -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <!-- insert the correct xmlid in the form manuscript_12345 -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Backhouse 12</title>
-                
+
                 <respStmt>
                     <resp>Cataloguer</resp>
                     <persName>Boya Zhang</persName>
                 </respStmt>
-                
+
             </titleStmt>
             <editionStmt>
                 <edition>TEI P5</edition>
@@ -40,182 +41,58 @@
                 <idno type="catalogue"><!-- insert catalogue ID --></idno>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en"><!-- optionally provide xmlid should as a normalized form of the shelfmark, e.g. Merton_College_MS_10 -->
+                <msDesc xml:lang="en">
+                    <!-- optionally provide xmlid should as a normalized form of the shelfmark, e.g. Merton_College_MS_10 -->
                     <msIdentifier>
                         <settlement><!-- insert --></settlement>
-                        <repository>Bodleian Library</repository><!-- change if necessary -->
+                        <repository>Bodleian Library</repository>
+                        <!-- change if necessary -->
                         <idno type="shelfmark">Backhouse 12</idno>
-                        
+
                     </msIdentifier>
-                    
+
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary><foreign xml:lang="zh">精刊惲子居文鈔 四卷</foreign>
-                            A compilation of articles authored by Yun Jing (1757-1817), published by Guo Xue Fu Lun She in 1910.</summary>
-                        <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
-                        
-                        <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
+                        <summary><foreign xml:lang="zh">精刊惲子居文鈔 四卷</foreign> A compilation of
+                            articles authored by Yun Jing (1757-1817), published by Guo Xue Fu Lun
+                            She in 1910.</summary>
+                        <textLang mainLang="zh">Chinese</textLang>
+                        <!-- change text and attribute if necessary -->
+
+                        <msItem>
+                            <!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title>精刊惲子居文鈔</title>
-                            <title xml:lang="en">Jing Kan Jun Zi Ju Wen Chao 
-                                A compilation of articles authored by Yun Jing </title>
+                            <title xml:lang="en">Jing Kan Jun Zi Ju Wen Chao A compilation of
+                                articles authored by Yun Jing </title>
                             <author key="Chinese">惲敬 （1757-1817）</author>
                             <author key="publisher">國學扶輪社</author>
                             <note>恽敬（1757年—1817年），字子居，号简堂，清代散文家。</note>
-                            <msItem>
-                                <title key="分卷">精刊惲子居文鈔 卷一</title>
-                                <incipit><locus>f.1</locus>宣統紀元
-                                    精刊惲子居文鈔
-                                    國學扶輪社印序</incipit>
-                                <incipit><locus>f.2</locus>惲子居文鈔目次 </incipit>
-                                <note>This volume contains the following articles:
-                                    原命
-                                    三代因革論一
-                                    三代因革論二
-                                    三代因革論三
-                                    三代因革論四
-                                    三代因革論五
-                                    三代因革論六
-                                    三代因革論七
-                                    三代因革論八
-                                    西楚都彭城論
-                                    辯微論
-                                    續辨微論
-                                    黍離說
-                                    鴟鴞說
-                                    散季敦說
-                                    春秋說上
-                                    春秋說下
-                                    唐誥考上
-                                    唐誥考中
-                                    唐誥考下
-                                    顧命辯上
-                                    顧明辯下
-                                    釋拜
-                                    得姓述
-                                    得姓述附說</note>
-                            </msItem>      
-                            
-                            <msItem>
-                                <title key="分卷">精刊惲子居文鈔 卷二</title>
-                                <note>This volume contains the following articles:
-                                    讀大學一
-                                    讀大學二
-                                    讀魯仲連鄒陽傳
-                                    讀張耳陳餘列傳
-                                    讀貨殖列傳
-                                    讀霍光傳
-                                    明儒學案條辯序
-                                    堅白石齋詩集序
-                                    聼雲樓詩鈔序
-                                    五宗語錄刪存序
-                                    古今人表書後
-                                    書三國志後
-                                    靖節集書後一
-                                    靖節集書後二
-                                    靖節集書後三
-                                    楞伽經續書後
-                                    李氏三忠事蹟考證書後
-                                    朱贊府殉節錄書後
-                                    卓忠義公遺橐書後
-                                    張子實臨徐俟齋尺牘書後
-                                    文衡山先生詩冊跋
-                                    上熏蔗林中堂書
-                                    上擧主陳立帆先生書
-                                    上擧主陳立帆先生書二
-                                    上秦小峴按察書
-                                    上曹儷笙侍郎書
-                                    上汪瑟庵侍郎書
-                                    答儷笙尚書書
-                                    與仞之論文書
-                                    與湯編修書
-                                    答伊揚州書
-                                    答伊揚州書二
-                                    答趙青州書
-                                    答張翰豐書
-                                    答蔣松如書</note>
-                            </msItem> 
-                            
-                            <msItem>
-                                <title key="分卷">精刊惲子居文鈔 卷三</title>
-                                <note>This volume contains the following articles:
-                                    重建東湖書院記
-                                    重修萬公祠記
-                                    瑞安董氏祠堂記
-                                    陳白沙先生祠堂記重修松寳庵記
-                                    望仙亭記
-                                    新喻東門漕倉記
-                                    游廬山記
-                                    游廬山後記
-                                    游羅浮山記
-                                    分霞嶺記
-                                    茶山記
-                                    游通天巖記
-                                    游翠微峯記一
-                                    游翠微峯記二
-                                    酥醪觀記
-                                    書山東知縣事
-                                    書獲劉之協事
-                                    書王麗可事
-                                    子惠府君逸事
-                                    羅臺山外傳
-                                    東麓先生家傳
-                                    后蹊先生家傳
-                                    二僕傳
-                                    後二僕傳
-                                    衷白先生家傳
-                                </note>
-                            </msItem> 
-                            
-                            <msItem>
-                                <title key="分卷">精刊惲子居文鈔 卷四</title>
-                                <note>This volume contains the following articles:
-                                    先賢仲子廟立石文
-                                    劉先生祠堂壁銘并叙
-                                    都昌元將軍廟碑銘
-                                    潮州韓文公廟碑文
-                                    前太子少保雲貴總督劉公祠版文
-                                    前四川提督董工神道碑銘
-                                    漢中府知府護漢與道鄧公墓志銘
-                                    林太孺人墓志銘
-                                    舅如清如先生墓志銘
-                                    張皋文墓志銘
-                                    國子監生錢君墓志銘
-                                    孫九成墓志銘
-                                    饒府君墓志銘
-                                    饒陶南墓志銘
-                                    彭澤縣教諭宋君墓志銘
-                                    外舅高府君墓志銘
-                                    國子監生周君墓表
-                                    浙江提督李公墓闕銘
-                                    朝議大夫董君華表銘
-                                    卜孺人墓志銘
-                                    李夫人墓志銘
-                                    亡妻陳孺人權厝志
-                                    祭張皋文文
-                                </note>
-                            </msItem> 
-                            <filiation>手抄本，或爲中外孤本 
-                                Handwritten manuscript, only surviving copy of its kind.</filiation>
-                            
+
+                            <filiation>手抄本，或爲中外孤本 Handwritten manuscript, only surviving copy of its
+                                kind.</filiation>
+
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
-                        
-                        <objectDesc form="冊"><!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
-                            <supportDesc material="桑紙"><!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+
+                        <objectDesc form="冊">
+                            <!-- change if necessary: use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                            <supportDesc material="桑紙">
+                                <!-- change if necessary: use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
                                 <support>mulberry and bamboo mixed paper</support>
-                                <extent>四冊 four volumes
-                                    <dimensions unit="cm" type="leaf"><!-- use standard attribute values, e.g. leaf, written  
+                                <extent>四冊 four volumes <dimensions unit="cm" type="leaf">
+                                        <!-- use standard attribute values, e.g. leaf, written  
                         
                         https://git.io/msdescdoc#leafDimensions
-                        -->                           <height>25.9 cm</height>
+                        -->
+                                        <height>25.9 cm</height>
                                         <width>19.1 cm</width>
                                     </dimensions>
                                     <!-- use additional dimensions elements if necessary -->
                                 </extent>
-                                
+
                             </supportDesc>
                             <layoutDesc>
                                 <layout>内頁墨色邊框，半頁十二行，正文墨色單行印刷，每行二十五字。</layout>
@@ -223,10 +100,11 @@
                         https://git.io/msdescdoc#layoutdesc-->
                             </layoutDesc>
                         </objectDesc>
-                        
-                        <handDesc><!-- use the @hands attribute to record the number of scribes -->
-                            <handNote>
-                                Text printed in 楷體 (kai shu, regular) calligraphic style</handNote>
+
+                        <handDesc>
+                            <!-- use the @hands attribute to record the number of scribes -->
+                            <handNote> Text printed in 楷體 (kai shu, regular) calligraphic
+                                style</handNote>
                             <!-- use additional handNote elements if necessary 
                      https://git.io/msdescdoc#handdesc
                      -->
@@ -238,16 +116,18 @@
                      -->
                         </musicNotation>
                         <decoDesc>
-                            <decoNote>
-                                The book cover is made of traditional Chinese paper with the sign of yellowing.</decoNote>
+                            <decoNote> The book cover is made of traditional Chinese paper with the
+                                sign of yellowing.</decoNote>
                             <!-- use additional decoNote elements if necessary 
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+
                         <bindingDesc>
-                            <binding when="1500"><!-- use dating attributes to record the date -->
-                                <p>Thread-binding books with paperback cover, in a case with Chinese style blue fabric cover.</p>
+                            <binding when="1500">
+                                <!-- use dating attributes to record the date -->
+                                <p>Thread-binding books with paperback cover, in a case with Chinese
+                                    style blue fabric cover.</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
@@ -262,17 +142,16 @@
                         <origin>
                             <!-- see https://git.io/msdescdoc#origin -->
                             <origPlace>
-                                <country>China</country>,
-                                <region>Shanghai</region>,
-                                <settlement><!-- insert --></settlement>,
-                                <orgName><!-- insert --></orgName>
+                                <country>China</country>, <region>Shanghai</region>,
+                                    <settlement><!-- insert --></settlement>,
+                                    <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">1910</origDate>
+                            <origDate notAfter="2000" notBefore="1900" calendar="Gregorian"
+                                >1910</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>
-                            Donated by Sir Edmund Trelawny Backhouse, 2nd Baronet (20 October 1873 – 8 January 1944).
-                        </provenance>
+                        <provenance> Donated by Sir Edmund Trelawny Backhouse, 2nd Baronet (20
+                            October 1873 – 8 January 1944). </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
                             <!-- insert -->
@@ -296,11 +175,182 @@
                             <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
                             <head><!-- use to provide a heading if required, otherwise delete --></head>
                             <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
-                            
+
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part">
+                                <idno>Backhouse 12/1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title key="分卷">精刊惲子居文鈔 卷一</title>
+                                <incipit><locus>f.1</locus>宣統紀元 精刊惲子居文鈔 國學扶輪社印序</incipit>
+                                <incipit><locus>f.2</locus>惲子居文鈔目次 </incipit>
+                                <note><list>
+                                        <head>This volume contains the following articles:</head>
+                                        <item> 原命</item>
+                                        <item>三代因革論一</item>
+                                        <item>三代因革論二</item>
+                                        <item>三代因革論三</item>
+                                        <item>三代因革論四</item>
+                                        <item>三代因革論五</item>
+                                        <item>三代因革論六</item>
+                                        <item>三代因革論七</item>
+                                        <item>三代因革論八</item>
+                                        <item>西楚都彭城論</item>
+                                        <item>辯微論</item>
+                                        <item>續辨微論</item>
+                                        <item>黍離說</item>
+                                        <item>鴟鴞說</item>
+                                        <item>散季敦說</item>
+                                        <item>春秋說上</item>
+                                        <item>春秋說下</item>
+                                        <item>唐誥考上</item>
+                                        <item>唐誥考中</item>
+                                        <item>唐誥考下</item>
+                                        <item>顧命辯上</item>
+                                        <item>顧明辯下</item>
+                                        <item>釋拜</item>
+                                        <item>得姓述</item>
+                                        <item>得姓述附說</item>
+                                    </list></note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part">
+                                <idno>Backhouse 12/2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>精刊惲子居文鈔 卷二</title>
+                                <note><list>
+                                        <head>This volume contains the following articles:</head>
+                                        <item>讀大學一</item>
+                                        <item>讀大學二</item>
+                                        <item>讀魯仲連鄒陽傳</item>
+                                        <item>讀張耳陳餘列傳</item>
+                                        <item>讀貨殖列傳</item>
+                                        <item>讀霍光傳</item>
+                                        <item>明儒學案條辯序</item>
+                                        <item>堅白石齋詩集序</item>
+                                        <item>聼雲樓詩鈔序</item>
+                                        <item>五宗語錄刪存序</item>
+                                        <item>古今人表書後</item>
+                                        <item>書三國志後</item>
+                                        <item>靖節集書後一</item>
+                                        <item>靖節集書後二</item>
+                                        <item>靖節集書後三</item>
+                                        <item>楞伽經續書後</item>
+                                        <item>李氏三忠事蹟考證書後</item>
+                                        <item>朱贊府殉節錄書後</item>
+                                        <item>卓忠義公遺橐書後</item>
+                                        <item>張子實臨徐俟齋尺牘書後</item>
+                                        <item>文衡山先生詩冊跋</item>
+                                        <item>上熏蔗林中堂書</item>
+                                        <item>上擧主陳立帆先生書</item>
+                                        <item>上擧主陳立帆先生書二</item>
+                                        <item>上秦小峴按察書</item>
+                                        <item>上曹儷笙侍郎書</item>
+                                        <item>上汪瑟庵侍郎書</item>
+                                        <item>答儷笙尚書書</item>
+                                        <item>與仞之論文書</item>
+                                        <item>與湯編修書</item>
+                                        <item>答伊揚州書</item>
+                                        <item>答伊揚州書二</item>
+                                        <item>答趙青州書</item>
+                                        <item>答張翰豐書</item>
+                                        <item>答蔣松如書</item>
+                                    </list></note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part">
+                                <idno>Backhouse 12/3</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title key="分卷">精刊惲子居文鈔 卷三</title>
+                                <note><list>
+                                        <head>This volume contains the following articles:</head>
+                                        <item>重建東湖書院記</item>
+                                        <item>重修萬公祠記</item>
+                                        <item>瑞安董氏祠堂記</item>
+                                        <item>陳白沙先生祠堂記重修松寳庵記</item>
+                                        <item>望仙亭記</item>
+                                        <item>新喻東門漕倉記</item>
+                                        <item>游廬山記</item>
+                                        <item>游廬山後記</item>
+                                        <item>游羅浮山記</item>
+                                        <item>分霞嶺記</item>
+                                        <item>茶山記</item>
+                                        <item>游通天巖記</item>
+                                        <item>游翠微峯記一</item>
+                                        <item>游翠微峯記二</item>
+                                        <item>酥醪觀記</item>
+                                        <item>書山東知縣事</item>
+                                        <item>書獲劉之協事</item>
+                                        <item>書王麗可事</item>
+                                        <item>子惠府君逸事</item>
+                                        <item>羅臺山外傳</item>
+                                        <item>東麓先生家傳</item>
+                                        <item>后蹊先生家傳</item>
+                                        <item>二僕傳</item>
+                                        <item>後二僕傳</item>
+                                        <item>衷白先生家傳</item>
+                                    </list></note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part">
+                                <idno>Backhouse 12/4</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+
+                            <msItem>
+                                <title key="分卷">精刊惲子居文鈔 卷四</title>
+                                <note><list>
+                                        <head>This volume contains the following articles:</head>
+                                        <item>先賢仲子廟立石文</item>
+                                        <item>劉先生祠堂壁銘并叙</item>
+                                        <item>都昌元將軍廟碑銘</item>
+                                        <item>潮州韓文公廟碑文</item>
+                                        <item>前太子少保雲貴總督劉公祠版文</item>
+                                        <item>前四川提督董工神道碑銘</item>
+                                        <item>漢中府知府護漢與道鄧公墓志銘</item>
+                                        <item>林太孺人墓志銘</item>
+                                        <item>舅如清如先生墓志銘</item>
+                                        <item>張皋文墓志銘</item>
+                                        <item>國子監生錢君墓志銘</item>
+                                        <item>孫九成墓志銘</item>
+                                        <item>饒府君墓志銘</item>
+                                        <item>饒陶南墓志銘</item>
+                                        <item>彭澤縣教諭宋君墓志銘</item>
+                                        <item>外舅高府君墓志銘</item>
+                                        <item>國子監生周君墓表</item>
+                                        <item>浙江提督李公墓闕銘</item>
+                                        <item>朝議大夫董君華表銘</item>
+                                        <item>卜孺人墓志銘</item>
+                                        <item>李夫人墓志銘</item>
+                                        <item>亡妻陳孺人權厝志</item>
+                                        <item>祭張皋文文</item>
+                                    </list></note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -317,6 +367,3 @@
         </body>
     </text>
 </TEI>
-
-
-

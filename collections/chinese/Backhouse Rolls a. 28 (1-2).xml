@@ -67,19 +67,7 @@
                                 <persName type="號">自署名：今亮</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1812-1885</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>溪雲雑雨來茅屋</incipit>
-                            <incipit type="seal">旂常[矛心]績</incipit>
-                            <explicit type="背面">左宗棠 对 scroll by Tso Tsung-Tang The [juns?] scholar and statesman.</explicit></msItem>
-                           
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>庭竹移陰就小齋</incipit>
-                            <incipit type="款識">左宗棠</incipit>
-                            <incipit type="seal">大學士章</incipit>
-                            <incipit type="seal">清宮太保恪靖侯</incipit>
-                            <explicit type="背面">B/319 左宗棠 对</explicit></msItem>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -191,8 +179,32 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart>
+                        <msIdentifier><altIdentifier>
+                            <idno>Backhouse Rolls a.28(1)</idno>
+                        </altIdentifier></msIdentifier>
+                      <msContents>  <msItem>
+                            <title type="上聯">上聯</title>
+                            <incipit>溪雲雑雨來茅屋</incipit>
+                            
+                            </msItem></msContents>
+                        <physDesc><additions><p><locus>背面: </locus>左宗棠 对 scroll by Tso Tsung-Tang The [juns?] scholar and statesman.</p></additions><sealDesc><seal><p>旂常[矛心]績</p></seal></sealDesc></physDesc>
+                    </msPart>
                     
-                    
+                   
+                    <msPart>
+                        <msIdentifier><altIdentifier>
+                            <idno>Backhouse Rolls a.28(2)</idno>
+                        </altIdentifier></msIdentifier>
+                    <msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>庭竹移陰就小齋</incipit>
+                        <incipit type="款識">左宗棠</incipit>
+                        
+                    </msItem></msContents><physDesc><additions><p><locus>背面: </locus>B/319 左宗棠 对</p></additions><sealDesc><seal><p>大學士章</p></seal>
+                            <seal><p>清宮太保恪靖侯</p></seal>
+                        </sealDesc></physDesc>
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

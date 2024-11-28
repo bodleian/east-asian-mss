@@ -67,16 +67,7 @@
                                 <date notAfter="1800" notBefore="1700" calendar="Gregorian">1831-1889</date>
                             </author> 
                            
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                                <incipit>品貴尊彜人為冠冕</incipit>
-                                <incipit type="款識">茀亭老夫子大人正筆</incipit></msItem>
-                           
-                           <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>光爭日月義重天雲</incipit>
-                            <incipit type="款識">惇親王</incipit>
-                               <incipit type="seal">惇親王寳</incipit></msItem>
+                          
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -190,7 +181,18 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.10/1</idno></altIdentifier></msIdentifier><msContents> <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>品貴尊彜人為冠冕</incipit>
+                        <incipit type="款識">茀亭老夫子大人正筆</incipit></msItem></msContents></msPart>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.10/2</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>光爭日月義重天雲</incipit>
+                        <incipit type="款識">惇親王</incipit>
+                    </msItem></msContents><physDesc><sealDesc>
+                        <seal> <p>惇親王寳</p> </seal>
+                    </sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
