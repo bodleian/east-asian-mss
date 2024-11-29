@@ -167,22 +167,20 @@
                         </msIdentifier>
                         <msContents>
                             <msItem>
-                                
-                                <msItem>
                                 <title>皇朝武功紀盛 上</title>
-                                    <note><locus>p.1</locus><q>皇朝武功紀盛序（欽惟我...）</q></note>
+                                    <note><list><item><locus>p.1: </locus><q>皇朝武功紀盛序（欽惟我...）</q></item>
                                 
-                                    <note><locus>p.4</locus><q>皇朝武功紀盛序</q></note></msItem>
+                                <item><locus>p.4: </locus><q>皇朝武功紀盛序</q></item></list></note>
                               
                                    
                                 <msItem>
-                                    <title type="sub">皇朝武功紀盛卷一</title>
-                                    <note><locus>p.7</locus><q>《皇朝武功紀盛卷一》 陽湖趙翼雲崧《平定三逆述略》</q></note>
-                                    <note><locus>p.23</locus><q>《平定朔漠述略》</q></note></msItem>
+                                    <title>皇朝武功紀盛卷一</title>
+                                    <note><list><item><locus>p.7: </locus><q>《皇朝武功紀盛卷一》 陽湖趙翼雲崧《平定三逆述略》</q></item>
+                                    <item><locus>p.23: </locus><q>《平定朔漠述略》</q></item></list></note></msItem>
                                 <msItem>
                                     <title type="sub">皇朝武功紀盛卷二</title>
-                                    <note><locus>p.28</locus><q>《皇朝武功紀盛卷二》 陽湖趙翼雲崧《平定準噶爾前編述略》</q></note>
-                                    <note><locus>p.32</locus><q>平定準噶爾正編述略</q></note></msItem>
+                                    <note><list><item><locus>p.28: </locus><q>《皇朝武功紀盛卷二》 陽湖趙翼雲崧《平定準噶爾前編述略》</q></item>
+                                    <item><locus>p.32: </locus><q>平定準噶爾正編述略</q></item></list></note></msItem>
 
                             </msItem> 
                             
@@ -208,12 +206,12 @@
 
                                 <msItem>
                                     <title type="sub">皇朝武功紀盛卷三</title>
-                                    <note><locus>p.1</locus><q>《皇朝武功紀盛卷三》 陽湖趙翼雲崧《平定緬甸述略》</q></note></msItem>
+                                   <note><list> <item><locus>p.1: </locus><q>《皇朝武功紀盛卷三》 陽湖趙翼雲崧《平定緬甸述略》</q></item></list></note></msItem>
                                 <msItem>
                                     <title type="sub">皇朝武功紀盛卷四</title>
-                                    <note><locus>p.13</locus><q>《皇朝武功紀盛卷四》 陽湖趙翼雲崧《平定兩金川述略》</q></note>
-                                    <note><locus>p.27</locus><q>平定臺灣述略</q></note>
-                                    <note><locus>p.34</locus><q>平定廓爾喀述略</q></note></msItem>
+                                    <note><list><item><locus>p.13: </locus><q>《皇朝武功紀盛卷四》 陽湖趙翼雲崧《平定兩金川述略》</q></item>
+                                    <item><locus>p.27: </locus><q>平定臺灣述略</q></item>
+                                    <item><locus>p.34: </locus><q>平定廓爾喀述略</q></item></list></note></msItem>
                                 
                             </msItem>   </msContents>
                         <physDesc><objectDesc><supportDesc><support><dimensions unit="cm" type="leaf" n="1"><!-- use standard attribute values, e.g. leaf, written  
