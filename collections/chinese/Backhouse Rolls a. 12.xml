@@ -69,9 +69,7 @@
                             <incipit type="釋文">演字曾無六經見，由來訓習久沿訛。可因已罷數年閱，未得仍停此日過。
                                 實以劭農爰再舉，亦堪擒藻事重哦。自疆不息傳羲象，斯即一端切己多。</incipit>
                             <incipit  type="款識">演耕毕臨憩有作 甲午暮春御筆</incipit>
-                            <incipit type="seal">乾隆御筆</incipit>
-                            <incipit type="seal">正誼明道</incipit>
-                            <explicit type="題簽">乾隆御筆</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -116,7 +114,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p> <locus>題簽: </locus>乾隆御筆</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -125,6 +123,12 @@
                                 </decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>乾隆御筆</p></seal>
+                            <seal><p>正誼明道</p></seal>
+                            
+                        </sealDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

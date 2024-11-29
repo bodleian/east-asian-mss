@@ -128,9 +128,7 @@
                                 深矣秋日閒窓偶讀而喜之
                                 錄於戯鴻雲中</incipit>
                             <incipit type="款識">華亭董其昌</incipit>
-                            <incipit type="seal">董其昌印</incipit>
-                            <explicit type="題簽">董其昌</explicit>
-                            <explicit type="題簽">Fine specimen of the writing of Tung Chi Chang The Famous calligrapher of the Ming dynasty</explicit>
+                          
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -176,7 +174,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 董其昌 </p>
+                            <p> <locus>題簽: </locus> Fine specimen of the writing of Tung Chi Chang The Famous calligrapher of the Ming dynasty </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -192,6 +193,9 @@
                                     隔水與副隔水為白色和淺黃色絲織物，邊為白色絲織物，引首和拖尾為米白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>董其昌印</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

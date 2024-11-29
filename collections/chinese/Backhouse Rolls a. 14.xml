@@ -68,7 +68,7 @@
                             <incipit type="釋文">南軒有孤松，柯葉自綿幕。清風無間時，瀟洒終日夕。陰生古苔綠，色染秋煙碧。何當凌雲霄，直上數千尺。</incipit>
                             <incipit type="款識">柘林董誥</incipit>
                             <note type="注">兩枚印章模糊</note>
-                            <explicit type="題簽">B/291 m catalogue scroll of stateman Tung Kao</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -113,7 +113,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>題簽: </locus>B/291 m catalogue scroll of stateman Tung Kao</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>

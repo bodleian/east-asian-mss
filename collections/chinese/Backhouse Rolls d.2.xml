@@ -73,10 +73,7 @@
                                   於拱揖狎霸真【集？】鼎足之爭雄，各為張軍一海門重鎖落最牢天塹偏安，古堪【迷？】溯從銕甕築京鎮【如？】
                                   目生？方建考邑羱石曾固臥龍語揣？兒豈是豚大遂不虞巴蜀樓船下</incipit>
                             <incipit type="款識">嘉慶三年嵗在戊午孟春穀日丹後王文治題</incipit>
-                            <incipit type="seal">王文治印</incipit>
-                            <incipit type="seal">曾經滄海</incipit>
-                            <explicit type="題簽">王文治</explicit>
-                            <explicit type="背面">B/334</explicit>
+                          
                             <filiation>書法卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -125,7 +122,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 王文治 </p>
+                            <p> <locus>背面: </locus> B/334 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -140,6 +140,10 @@
                                     略有污跡。邊為白色絲織物。錦包首為棕色絲織物伴有米色花紋，八寶帶和別子已遺失，題簽為白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>王文治印</p> </seal>
+                            <seal> <p>曾經滄海</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

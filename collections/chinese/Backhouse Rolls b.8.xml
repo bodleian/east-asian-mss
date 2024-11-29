@@ -66,10 +66,7 @@
                                 <date notAfter="1800" notBefore="1700" calendar="Gregorian">1833-1898</date>
                             </author> 
                             <incipit type="釋文">朗潤</incipit>
-                            <incipit type="seal">和碩恭親王寳</incipit>
-                            <explicit type="背面">B/333 in catalogue</explicit>
-                            <explicit type="背面">橫皮 朗潤 二字</explicit>
-                            <explicit type="背面">Written by the late Prince Gong who died in 1898 (sometime prime minister)</explicit>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -115,7 +112,11 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>背面: </locus> B/333 in catalogue </p>
+                            <p> <locus>背面: </locus> 橫皮 朗潤 二字 </p>
+                            <p> <locus>背面: </locus> Written by the late Prince Gong who died in 1898 (sometime prime minister) </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>橫批</p>
@@ -123,6 +124,9 @@
                                     橫批，裝裱方式為一色裱，天頭地脚及邊框淡藍色絲織物,書法字跡寫在黃色絹本。整個立軸上微有橫向摺痕。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p> 和碩恭親王寳</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

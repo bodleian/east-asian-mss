@@ -72,13 +72,7 @@
                             <incipit type="釋文">以齊桓之盛業,片言勤王，則九合諸侯，一匡天下；葵丘之會，微有振矜，而叛者九國。故曰：行百里者半九十里，言末跡之難持也。【？】不儆懼乎，語曰：高而不危，乃以長守；貴滿而不溢，所以長守富也。 倣曾公帖。<note type="注">“以齊桓之盛業……半九十里”出自顔真卿《爭座位稿》；“高而不危……長守富也”出自《孝經》。</note> </incipit>
                             <incipit type="釋文">懷素家長沙，幼而事佛，經禪之暇，頗好筆翰，然恨未能遠覩前人之跡，言豁然心胸【？】【？】【？】【？】故禮部侍郎韋公涉，賞其不羈，引以游處。故吏部張公覩其筆力，勖以有成。倣懷素書。 </incipit>
                             <incipit type="款識">董其昌</incipit>
-                            <incipit type="seal">玄賞齋</incipit>
-                            <incipit type="seal">太史氏</incipit>
-                            <incipit type="seal">董其昌印</incipit>
-                            <incipit type="seal">養拙道力</incipit>
-                            <incipit type="seal">【？】美梅令文氏珍玩之章</incipit>
-                            <incipit type="seal">【？】皋【？】賞</incipit>
-                            <explicit type="背面">B/344</explicit>
+                          
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -126,7 +120,9 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>背面: </locus> B/344 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -139,6 +135,14 @@
                                     引首和拖尾為白色紙本。書法寫與黃色紙上。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>玄賞齋</p> </seal>
+                            <seal> <p>太史氏</p> </seal>
+                            <seal> <p>董其昌印</p> </seal>
+                            <seal> <p>養拙道力</p> </seal>
+                            <seal> <p>【？】美梅令文氏珍玩之章</p> </seal>
+                            <seal> <p>【？】皋【？】賞</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

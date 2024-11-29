@@ -78,6 +78,7 @@
                             <incipit type="seal">鉴空衡平</incipit>
                             <incipit type="seal">徐郙之印</incipit>
                             <incipit type="款識">徐郙敬題</incipit>
+                            <!-- Should these be seperate msParts? -->
                             <incipit type="釋文">微霜天氣雁來時老圃秋寒挺勁姿綽約風前生意暢汀蘭岸芷共紛披</incipit>
                             <incipit type="seal">長春宮精鑒璽</incipit>
                             <incipit type="seal">御賞</incipit>

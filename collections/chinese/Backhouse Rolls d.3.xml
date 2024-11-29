@@ -70,11 +70,7 @@
                              <incipit type="釋文">山桃枝上鳥鳴聲，相是天台寄語情。蕭客劉郎今白首，詩懷綺麗答花明。</incipit>
                             <incipit type="款識">橫塘秋雨迺耆</incipit>
                             <incipit type="款識">壬午長夏奉雪植年兄大人哂政 張迺耆</incipit>
-                            <incipit type="seal">張迺耆印</incipit>
-                            <incipit type="seal">張迺耆印</incipit>
-                            <incipit type="seal">壽民</incipit>
-                            <explicit type="題簽">張迺耆</explicit>
-                            <explicit type="背面">B/341</explicit>
+                            
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -125,7 +121,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 張迺耆 </p>
+                            <p> <locus>背面: </locus> B/341 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -139,6 +138,11 @@
                                     拖尾為白色紙本，略有污跡。邊為白色絲織物。錦包首為藍色絲織物伴有淺粉色和淺藍色花紋，八寶帶為黃色，題簽為白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>張迺耆印</p> </seal>
+                            <seal> <p>張迺耆印</p> </seal>
+                            <seal> <p>壽民</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

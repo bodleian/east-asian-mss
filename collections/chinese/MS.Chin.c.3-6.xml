@@ -210,7 +210,7 @@
                                         Ware Queens Road HongKong </p>
                                 </seal>
                             </sealDesc>
-                           
+                          
                         </physDesc>
                     </msPart>
                     <msPart>
@@ -238,7 +238,13 @@
                             <width>26</width>
                         </dimensions></extent><condition>The cover textile shows minor signs of damage. The red
                             textile used for framing the painting to the paper has a few
-                            areas where it has come loose.</condition></supportDesc></objectDesc></physDesc>
+                            areas where it has come loose.</condition></supportDesc></objectDesc><additions>
+                                <p><locus>Inside upper cover: </locus>Bought by the Bodleian
+                                    with 3 similar vols. for £3.10 from U Maggs’s catalogue - 16
+                                    apr. 1885 </p>
+                                <p><locus>Inside upper cover: </locus>s.c.29615 i</p>
+                                <p><locus>Inside upper cover: </locus>MS.Chin.c.4</p>
+                            </additions></physDesc>
                     </msPart>
                     <!-- insert further msItem elements as appropriate -->
                     <msPart>
@@ -271,7 +277,11 @@
                        <condition>
                            The spine displays signs of damage. A few
                            paintings exhibit slight signs of damage.
-                       </condition></supportDesc></objectDesc></physDesc>
+                       </condition></supportDesc></objectDesc><additions><p><locus>Inside upper cover: </locus>Bought by the Bodleian
+                           with 3 similar vols. for £3.10 from U Maggs’s catalogue - 16
+                           apr. 1885 </p>
+                           <p><locus>Inside upper cover: </locus>s.c.29615 j</p>
+                           <p><locus>Inside upper cover: </locus>MS.Chin.c.5</p></additions></physDesc>
                     </msPart>
                     <msPart>
                         <msIdentifier>

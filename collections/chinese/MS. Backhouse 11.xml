@@ -355,8 +355,7 @@
                                 
                                 臣劉綸敬書並恭跋 </incipit>
                                
-                            <incipit type="seal">臣</incipit>
-                               <incipit type="seal">綸</incipit></msItem>
+                            </msItem>
                             
                             <filiation>中外孤本</filiation>  </msItem></msContents>
 
@@ -416,6 +415,9 @@
                                     紙張製成，做工精美，保存良好。 </decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p>臣</p></seal>
+                            <seal><p>綸</p></seal></sealDesc>
+                
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

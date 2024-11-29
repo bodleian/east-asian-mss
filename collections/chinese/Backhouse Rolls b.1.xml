@@ -65,14 +65,7 @@
                             </author>
                             <incipit type="釋文">竜虎</incipit>
                             <incipit type="釋文">光緒十八年三月望日頒自上清宮</incipit>
-                            <incipit type="seal">陽平治都功印</incipit>
-                            <incipit type="seal">陽平治都功印</incipit>
-                            <incipit type="seal">天師</incipit>
-                            <incipit type="seal">貴溪縣印<note>此印左半文字或爲滿文</note></incipit>
-                            <explicit type="背面">天師印符</explicit>
-                            <explicit type="背面">Character written by the Taoist Pope, Zhang Tien Shih. 
-                                being the two characters Tiger and Dragon (hu and Lung), greatly venerated 
-                                by devout Taoists. From the Winter Palace.</explicit>
+                            
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -120,7 +113,13 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                           
+                            <p><locus>背面: </locus>天師印符</p>
+                            <p><locus>背面: </locus>Character written by the Taoist Pope, Zhang Tien Shih. 
+                                being the two characters Tiger and Dragon (hu and Lung), greatly venerated 
+                                by devout Taoists. From the Winter Palace.</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -130,6 +129,13 @@
                                     立軸,一色裱。天頭地脚和邊是黃色絲織物。書法和道家輔路在白色絹本上。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>陽平治都功印</p></seal>
+                            <seal><p>陽平治都功印</p></seal>
+                            <seal><p>天師</p></seal>
+                            <seal><p>貴溪縣印<note>此印左半文字或爲滿文</note></p></seal>
+                            
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

@@ -59,40 +59,28 @@
                             <title type="desc">砝碼</title>
                             <author>unknown</author>
                             <note><locus>upper cover: </locus><q>Regulations for the conveyance of copper from Yünnan to the capital, with itinerary from Hangchow to Yünnan.</q></note>
-                            <msItem><locus>p.i</locus><title type="sub">砝碼</title><note><q>S.C.30869n</q></note></msItem>
+                            <msItem><locus>p.i</locus><title type="sub">砝碼</title></msItem>
                             <msItem><locus>p.1</locus><title type="sub">銅運升官訣</title></msItem>
                             <msItem><locus>p.11</locus><title type="sub">瀘州</title></msItem>
-                            <msItem><locus>f.12</locus><title type="sub">要二十把橈二把撤</title><title type="sub">漢口</title></msItem>
+                            <msItem><locus>f.12</locus><title type="sub">要二十把橈二把撤</title></msItem>
+                            <msItem><title type="sub">漢口</title></msItem>
                             <msItem><locus>p.13</locus><title type="sub">領解銅觔定額</title></msItem>
                             <msItem><locus>p.14</locus><title type="sub">運銅限期</title></msItem>
-                            <msItem><locus>p.15</locus><title type="sub">奏銷定例</title><title type="sub">運銅章程</title></msItem>
+                            <msItem><locus>p.15</locus><title type="sub">奏銷定例</title></msItem>
+                            <msItem><title type="sub">運銅章程</title></msItem>
                             <msItem><locus>p.16</locus><title type="sub">應買土儀</title></msItem>
                             <msItem><locus>p.17</locus><title type="sub">承攔式</title></msItem>
                             <msItem><locus>p.44</locus><title type="sub">神聖也大吉，逐月風暴日期</title></msItem>
-                            <msItem><locus>p.45</locus><title type="sub">每日空亡時</title><title type="sub">雲南至永寧路程計二十三站</title></msItem>
-                            <msItem><locus>p.46</locus><title type="sub">貴州回至雲南路程計十八站</title><title type="sub">川河險灘</title></msItem>
+                            <msItem><locus>p.45</locus><title type="sub">每日空亡時</title></msItem>
+                            <msItem><title type="sub">雲南至永寧路程計二十三站</title></msItem>
+                            <msItem><locus>p.46</locus><title type="sub">貴州回至雲南路程計十八站</title></msItem>
+                                <msItem><title type="sub">川河險灘</title></msItem>
                             <msItem><locus>p.51</locus><title type="sub">各關查騐准限</title></msItem>
                             <msItem><locus>p.65</locus><title type="sub">運銅定例</title></msItem>
                             <msItem><locus>p.68</locus><title type="sub">正運加運在長船紅船之分後奏銷冊係加運冊式</title></msItem>
         
                             <filiation>手抄本,中外孤本。 only surviving copy.</filiation>
-                            <note type="批注"><locus>p.9: </locus><q>不借为妙</q>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.15: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.17: </locus>Two annotations in different hands.</note>
-                            <note type="批注"><locus>p.19: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.20: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.24: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.28: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.32: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.33: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.34: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.35: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.36: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
                             
-                            <note type="批注"><locus>p.42: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.43: </locus>Annotations in the same handwriting as the main content of this manuscript.</note>
-                            <note type="批注"><locus>p.74: </locus>Additions in a later hand.</note>
-                            <note type="批注"><locus>p.76: </locus>Additions in a later hand.</note>
                         </msItem>
                             
                       
@@ -145,7 +133,25 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p><locus>p. i: </locus>S.C.30869n</p>
+                            <p><locus>p.9: </locus><q>不借为妙</q>Additions in a later hand.</p>
+                            <p><locus>p.15: </locus>Additions in a later hand.</p>
+                            <p><locus>p.17: </locus>Two annotations in different hands.</p>
+                            <p><locus>p.19: </locus>Additions in a later hand.</p>
+                            <p><locus>p.20: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.24: </locus>Additions in a later hand.</p>
+                            <p><locus>p.28: </locus>Additions in a later hand.</p>
+                            <p><locus>p.32: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.33: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.34: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.35: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.36: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.42: </locus>Additions in a later hand.</p>
+                            <p><locus>p.43: </locus>Annotations in the same handwriting as the main content of this manuscript.</p>
+                            <p><locus>p.74: </locus>Additions in a later hand.</p>
+                            <p><locus>p.76: </locus>Additions in a later hand.</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1500"><!-- use dating attributes to record the date -->
                                 <p> a thread-bound book with covers of traditional Chinese paper.</p>

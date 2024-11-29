@@ -81,8 +81,6 @@
                                 涿州知州佟囯翼撰文。
                                 儒學廩膳生員董秉衡敬書。</incipit>
                             <incipit type="款識">觀津居士霍蘊璣復書</incipit>
-                            <incipit type="seal">霍錦璿印</incipit>
-                            <incipit type="seal">蘊璣</incipit>
                             <explicit type="背面">張桓侯碑文一捲</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -139,6 +137,9 @@
                                     立軸,一色裱,天頭地脚和邊框都爲米色絲織物,行書字跡書寫于白色紙上。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p>霍錦璿印</p>
+                            </seal>
+                            <seal><p>蘊璣</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

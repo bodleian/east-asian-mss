@@ -69,9 +69,7 @@
                                      今樓古木環碧同，是亦可謂忘年友。
                                     金元不少能句人，問他此趣能吟否。</incipit>
                             <incipit type="款識">庚戌新正御題</incipit>
-                            <incipit type="seal">八徵耄念之寳</incipit>
-                            <incipit type="seal">自疆不息</incipit>
-
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -125,6 +123,10 @@
                                     立軸,宣和裝。天頭和地脚是淺藍色絲織物，隔水和驚燕是米白色絲織物天，邊為白色絲織物。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal>
+                            <p>八徵耄念之寳</p>
+                        </seal>
+                            <seal><p>自疆不息</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

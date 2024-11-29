@@ -58,11 +58,11 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title>Ch'IEN KU: Album of paintings</title>
-                            <title key="desc">明錢穀仿宋人風格山水人物畫十二幅</title>
+                            <title type="desc">明錢穀仿宋人風格山水人物畫十二幅</title>
                             <author key="Chinese">錢穀 （1509-1578）</author>
                             <note type="注">錢穀 （1509-1578），字叔寶，明朝南直隸蘇州府常州縣人。少時孤貧，壯年方才讀書，後學于文徵明門下，善繪山水、花鳥，亦為文徵明晚年代筆，萬曆六年仍在世。其作品在北京故宮博物院，台灣臺北國立故宮博物院和紐約大都會博物館亦見收藏。</note>
                             <incipit type="釋文">隆慶二年清和月之朔倣宋人小幀十二頁於彭城老屋 錢穀寫</incipit>
-                            <incipit type="seal">商琦</incipit>
+                            
                             <colophon>By Tsing Koh in the Reign of the Emperor Loong Hing AD. 1500.</colophon>
                             <filiation>中國畫冊頁十二幅，中外孤本。</filiation>  
                         </msItem>
@@ -115,6 +115,7 @@
                                 <decoNote>中國人物山水畫冊頁，畫心為絹本設色。冊頁前後為木質裝幀，木製封面上有白色題簽，已破損，上書數字1115，31726，有塗改。共十三頁，前十二頁為畫，最後一頁為留白。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p>商琦</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

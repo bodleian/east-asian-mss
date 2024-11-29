@@ -74,12 +74,7 @@
                                   沈周 （1427-1509），字啓南，號石田，白石翁，玉田生，有竹居主人等，明朝畫家，吳門畫派的創始人之一，明四家之一。</note>
                             <incipit type="釋文">清曙茂林風日好，兩翁談屑落高寒。白雲故故沒行人，要隔俗緣來此山。</incipit>
                             <incipit type="款識">乾隆已未秋七月中旬，退朝後，消閑破，悶閒仿。董邦達</incipit>
-                            <incipit type="seal">董邦達印</incipit>
-                            <incipit type="seal">東山</incipit>
-                            <incipit type="seal">東山畫記</incipit>
-                            <incipit type="seal">是非聞達</incipit>
-                            <explicit type="題簽">董邦達</explicit>
-                            <explicit type="背面">B/337</explicit>
+                          
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -130,7 +125,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 董邦達 </p>
+                            <p> <locus>背面: </locus> B/337 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -145,6 +143,12 @@
                                     拖尾為白色紙本，略有污跡。邊為白色絲織物。錦包首為藍綠色絲織物伴有紅色花紋，八寶帶和別子已遺失，題簽為黃色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>董邦達印</p> </seal>
+                            <seal> <p>東山</p> </seal>
+                            <seal> <p>東山畫記</p> </seal>
+                            <seal> <p>是非聞達</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

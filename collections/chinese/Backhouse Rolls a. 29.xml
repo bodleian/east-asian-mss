@@ -58,7 +58,7 @@
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
                             <title type="desc" xml:lang="en">A scroll of calligraphy attributed to Aisin Gioro Yongxing</title>
-                            <title  key="supplied title">清永瑆書董其昌秣陵旅舍送會稽章生 卷</title> 
+                            <title type="desc">清永瑆書董其昌秣陵旅舍送會稽章生 卷</title> 
 
                             <author key="Q7824142">   
                                 <persName>愛新覺羅永瑆</persName>
@@ -77,9 +77,6 @@
                                      多君真賞足青眼，不似旁人只好竽；君今久客吟思越，戎裝飲馬秦淮月；天涯聚首幾彌旬，
                                      那堪更作天涯別；山陰風物性所親，地主如君不厭頻；試聽寒夜江頭雪，定有扁舟訪戴人。</incipit>
                             <incipit type="款識">皇十一子書</incipit>
-                            <incipit type="seal">成親王</incipit>
-                            <incipit type="seal">歸鄉雲</incipit>
-                            
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -137,6 +134,12 @@
                                     橫披，裝裱方式為一色裱，耳和邊為黃色有花紋絲織物,有破損。書法寫與汎黃紙上,紙張有破損后修復痕跡。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal>
+                                <p>成親王</p>
+                            </seal>
+                            <seal><p>歸鄉雲</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

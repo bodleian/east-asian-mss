@@ -71,10 +71,6 @@
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1823-1901</date>
                             </author> 
                             <incipit type="釋文">黃涪翁云，大字無過瘞鶴銘，小字無過遺教經。今世所傳遺教，直唐經生乎耳。</incipit>
-                            <incipit type="seal">臣鴻章印</incipit>
-                            <incipit type="seal">少荃</incipit>
-                            <incipit type="seal">中堂肅毅伯章</incipit>
-                            <explicit type="題簽">李中堂字</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -120,6 +116,7 @@
                      -->
                         </decoDesc>
                         
+                        <additions><locus>題簽: </locus>李中堂字</additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -131,6 +128,12 @@
                                     立軸,一色裱,天頭地脚和邊框都爲米色絲織物,行書字跡書寫于白色紙上,背面有淺藍色錦包首。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>臣鴻章印</p></seal>
+                            <seal><p>少荃</p></seal>
+                            <seal><p>中堂肅毅伯章</p></seal>
+                            
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

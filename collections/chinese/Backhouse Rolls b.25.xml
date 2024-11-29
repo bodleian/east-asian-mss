@@ -74,10 +74,7 @@
                                      屋宇精妍，廽逾常格，心竊慕之。此卷適擺其法，然稚筆
                                      學步終未我夢見也。</incipit>
                             <incipit type="款識">乙丑嘉平上浣<persName type="號">紫瓊道人</persName></incipit>
-                            <incipit type="seal">寄情</incipit>
-                            <incipit type="seal">允禧</incipit>
-                            <explicit type="題簽">紫瓊道人</explicit>
-                            <explicit type="背面">B/346</explicit>
+                         
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -128,7 +125,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 紫瓊道人 </p>
+                            <p> <locus>背面: </locus> B/346 </p>
+                        </additions>  
                         <bindingDesc>
                             <binding when="1700"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -144,6 +144,11 @@
                                     錦包首為土黃色絲織物伴有棕色花紋，題簽為黃色紙本，上書"紫瓊道人"。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>寄情</p> </seal>
+                            <seal> <p>允禧</p> </seal>
+                        </sealDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

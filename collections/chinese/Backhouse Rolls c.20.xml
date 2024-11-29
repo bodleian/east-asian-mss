@@ -70,10 +70,7 @@
                             </author>
                             <incipit type="釋文">辛亥二月</incipit>
                             <incipit type="款識">玄宰畫</incipit>
-                            <incipit type="seal">玄賞堂</incipit>
-                            <incipit type="seal">昌</incipit>
-                            <explicit type="題簽">玄宰 畫</explicit>
-                            <explicit type="背面">B/340</explicit>
+                          
                             <note type="注">此畫作者存疑。</note>
                             <filiation>書畫卷軸，中外孤本。</filiation> 
                             <note></note>
@@ -122,7 +119,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 玄宰 畫 </p>
+                            <p> <locus>背面: </locus> B/340 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -137,6 +137,10 @@
                                     隔水與副隔水為白色和淺黃色絲織物，邊為白色絲織物，引首和拖尾為米白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>玄賞堂</p> </seal>
+                            <seal> <p>昌</p> </seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

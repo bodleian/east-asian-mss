@@ -66,8 +66,7 @@
                                 <date notAfter="1900" notBefore="1700" calendar="Gregorian">1782-1850</date>
                             </author>
                             <incipit type="釋文">龍</incipit>
-                            <explicit type="背面">emperor Tao Kuang's autograph dragon</explicit> 
-                            <explicit type="背面">龍</explicit>
+                            
                             
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
@@ -115,7 +114,8 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>背面: </locus>emperor Tao Kuang's autograph dragon</p> 
+                            <p><locus>背面: </locus>龍</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>

@@ -65,7 +65,6 @@
                             </author>
                             <note><locus>Inside of Upper Board</locus><q>S.C.33023</q></note>
                             <note><locus>Inside of Upper Board</locus>Unrecognized scripts could be Bengali.</note>
-                            <incipit type="seal" ><locus>Inside of Lower Board</locus><q>Chowkwa, Painter and Copier of Charts</q></incipit>
                             
                             <filiation>Chinese export paintings are usually produced in large quantity,
                                 therefore, there may be other existing copies.
@@ -124,6 +123,7 @@
                                     畫心由綠色條狀絲織物為框裝裱在白色紙本上。封面和封底上包有用黑色防水織物製作的書皮。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p><locus>Inside of Lower Board: </locus>Chowkwa, Painter and Copier of Charts</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
