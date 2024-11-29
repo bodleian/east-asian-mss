@@ -67,10 +67,10 @@
                                 <persName type="號">春雨</persName>
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
-                            <rubric><locus>fol.1r</locus><q>永樂大典:卷七千六百七十七</q><q>庚:盤庚篇五</q></rubric>
-                          
+                            <rubric><locus>fol.1r: </locus>永樂大典:卷七千六百七十七</rubric>
+                            <rubric><locus>fol. 1r: </locus>庚:盤庚篇五</rubric>                          
                             
-                            <colophon><locus>fol.(31)r</locus>
+                            <colophon><locus>fol.(31)r: </locus>
                                 <q>重錄總校官侍郎臣高拱<lb/>學士臣胡正蒙</q>
                                       <q>分校官檢討臣馬自强</q>
                                       <q>書寫儒士臣呂鳴瑒</q>

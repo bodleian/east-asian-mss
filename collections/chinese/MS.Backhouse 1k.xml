@@ -67,13 +67,14 @@
                                 <persName type="號">春雨</persName>
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
-                            <rubric><locus>fol.1r</locus><q>永樂大典卷之二萬一百三十九 二質</q><q>日:諸家選日二十五</q></rubric>
+                            <rubric><locus>fol.1r: </locus>永樂大典卷之二萬一百三十九 二質</rubric>
+                            <rubric><locus>fol.1r: </locus> 日:諸家選日二十五</rubric>
                             
-                            <colophon><locus>fol.(32)r</locus>
-                                <q>重錄總校官侍郎臣陳以勤<lb/>學士臣王大任</q>
-                                <q>分校官侍讀臣王希烈</q>
-                                <q>書寫儒士臣程大憲</q>
-                                <q>圈點監生臣敖河<lb/>臣孫世良</q></colophon>
+                            <colophon><locus>fol.(32)r: </locus>
+                                重錄總校官侍郎臣陳以勤<lb/>學士臣王大任<lb/>
+                                分校官侍讀臣王希烈<lb/>
+                                書寫儒士臣程大憲<lb/>
+                                圈點監生臣敖河<lb/>臣孫世良</colophon>
                             
                            
                             <filiation>中外孤本 only surviving copy</filiation>

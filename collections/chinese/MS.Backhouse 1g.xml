@@ -68,13 +68,14 @@
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
                             
-                            <rubric><locus>fol.1r</locus><q>永樂大典卷之一萬四千三百八十五 四霽</q><q>冀:冀州二 宋薛季宣地理叢考</q></rubric>
+                            <rubric><locus>fol.1r: </locus>永樂大典卷之一萬四千三百八十五 四霽</rubric>
+                            <rubric><locus>fol.1r: </locus>冀:冀州二 宋薛季宣地理叢考</rubric>
 
-                            <colophon><locus>fol.(34)r</locus>
-                                <q>重錄總校官侍郎臣陳以勤<lb/>學士臣王大任</q>
-                                <q>分校官編修臣張四維</q>
-                                <q>書寫儒士臣張棟</q>
-                                <q>>圈點監生臣傅道立<lb/>臣許汝孝</q></colophon>
+                            <colophon><locus>fol.(34)r: </locus>
+                                重錄總校官侍郎臣陳以勤<lb/>學士臣王大任<lb/>
+                                分校官編修臣張四維<lb/>
+                                書寫儒士臣張棟<lb/>
+                                >圈點監生臣傅道立<lb/>臣許汝孝</colophon>
                             
                             <filiation>中外孤本 only surviving copy</filiation>
                             

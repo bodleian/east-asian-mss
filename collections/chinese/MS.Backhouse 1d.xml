@@ -67,14 +67,15 @@
                                 <persName type="號">春雨</persName>
                                 <date notAfter="1500" notBefore="1300" calendar="Gregorian">1369-1415</date>
                             </editor>
-                            <rubric><locus>fol.1r</locus><q>永樂大典:卷八千二十一 十九庚</q><q>蒸:骨蒸證治三</q></rubric>
+                            <rubric><locus>fol.1r: </locus>永樂大典:卷八千二十一 十九庚</rubric>
+                                <rubric><locus>fol.1r: </locus>蒸:骨蒸證治三</rubric>
                            
                             
-                            <colophon><q>重錄總校官侍郎臣高拱<lb/>學士臣胡正蒙</q>
+                            <colophon>重錄總校官侍郎臣高拱<lb/>學士臣胡正蒙<lb/>
                             
-                                <q>分校官編修臣陶大臨</q>
-                                <q>書寫儒士臣張夢楨</q>
-                                <q>圈點監生臣徐浩<lb/>臣曲成學</q></colophon>
+                            分校官編修臣陶大臨<lb/>
+                                書寫儒士臣張夢楨<lb/>
+                                圈點監生臣徐浩<lb/>臣曲成學</colophon>
                             <filiation>中外孤本 only surviving copy</filiation>
                             
                         </msItem>

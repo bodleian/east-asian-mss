@@ -71,20 +71,23 @@
                             
                             <msItem>
                                 <title>永樂大典卷之一萬三千八百七十四</title>
-                                <rubric><locus>fol. 1r</locus><q>永樂大典卷之一萬三千八百七十四 三未</q>
-                                    <q>賁:賁卦三</q><q>六二賁其須</q></rubric>
+                                <rubric><locus>fol. 1r: </locus>永樂大典卷之一萬三千八百七十四 三未</rubric>
+                                <rubric><locus>fol. 1r: </locus>賁:賁卦三</rubric>
+                                <rubric><locus>fol. 1r: </locus>六二賁其須</rubric>
                             </msItem>
                            
                             <msItem>
                                 <title>永樂大典卷之一萬三千八百七十五</title>
-                                <rubric><locus>fol.30r</locus><q>永樂大典卷之一萬三千八百七十五 三未</q><q>賁:賁卦四</q><q>賁六五賁于丘園，束帛戔戔吝終吉</q></rubric>
+                                <rubric><locus>fol.30r: </locus>永樂大典卷之一萬三千八百七十五 三未</rubric>
+                                <rubric><locus>fol.30r: </locus>賁:賁卦四</rubric>
+                                <rubric><locus>fol.30r: </locus>賁六五賁于丘園，束帛戔戔吝終吉</rubric>
                             </msItem>
                             
-                            <colophon><q>重錄總校官侍郎臣秦鳴雷<lb/>學士臣王大任</q>
+                            <colophon>重錄總校官侍郎臣秦鳴雷<lb/>學士臣王大任<lb/>
                             
-                            <q>分校官編修臣孫鋌</q>
-                            <q>書寫儒士臣韓繼榮</q>
-                            <q>圈點監生臣林民表<lb/>臣董于翰</q></colophon>
+                                分校官編修臣孫鋌<lb/>
+                                    書寫儒士臣韓繼榮<lb/>
+                            圈點監生臣林民表<lb/>臣董于翰</colophon>
                             <filiation>中外孤本 only surviving copy</filiation>
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
