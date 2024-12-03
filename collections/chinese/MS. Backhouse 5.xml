@@ -50,7 +50,7 @@
                     
                     <msContents>
                         <!-- intellectual content of the ms. See https://git.io/msdescdoc#mscontents -->
-                        <summary xml:lang="zh">>滿漢對照蘇軾文選二冊，漢字部分為楷書</summary>
+                        <summary xml:lang="zh">滿漢對照蘇軾文選二冊，漢字部分為楷書</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
@@ -161,8 +161,7 @@
                             <altIdentifier type="part"><idno>MS. Backhouse 5/1 </idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
-                            <msItem>
-                                
+                                     
                                 <msItem>
                                   <locus>p.1</locus><title>策略一</title></msItem>
                                 
@@ -177,7 +176,7 @@
                                 <msItem>
                                     <locus>p.55</locus><title>讀賈誼傳</title></msItem>
                                 
-                            </msItem> 
+                             
                             
                             
                         </msContents>
