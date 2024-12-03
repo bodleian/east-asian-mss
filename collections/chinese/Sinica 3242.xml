@@ -57,14 +57,14 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title key="" type="desc">Sinica 3242</title>
+                            <title type="desc">Sinica 3242</title>
                             
                             
-                            <incipit>如來佛爺洪照如來佛也大赦釋迦佛爺洪照顧釋迦佛爺大赦覌音娘嬢洪照覌音娘嬢大赦三元主品三官大帝洪照三元主品三官大帝大赦注澊判官洪照注澊判官大赦今日今時報來上聖皇皇洪照赦之<locus type="page"> p.1</locus></incipit>
+                            <incipit><locus type="page">p.1: </locus>如來佛爺洪照如來佛也大赦釋迦佛爺洪照顧釋迦佛爺大赦覌音娘嬢洪照覌音娘嬢大赦三元主品三官大帝洪照三元主品三官大帝大赦注澊判官洪照注澊判官大赦今日今時報來上聖皇皇洪照赦之</incipit>
                             
                             
-                            <explicit>同心脇力前去太山黃河橋頭九州界内十州界外右基佛塔師人座上十度花覓天牽地獄水府裡头等處行尋法師追轉的恨陰魂陽魂姓命對取年月日時
-                                相同定限急時神冋本墰衆位祖先欲同家住合家人口真身擁護者色無錯煥果得平安<locus type="page"> p.42</locus></explicit>
+                            <explicit><locus type="page">p.42: </locus>同心脇力前去太山黃河橋頭九州界内十州界外右基佛塔師人座上十度花覓天牽地獄水府裡头等處行尋法師追轉的恨陰魂陽魂姓命對取年月日時
+                                相同定限急時神冋本墰衆位祖先欲同家住合家人口真身擁護者色無錯煥果得平安</explicit>
                             
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
