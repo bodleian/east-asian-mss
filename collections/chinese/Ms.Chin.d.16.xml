@@ -176,12 +176,7 @@
                             <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">1573-1620</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>In the previous catalogue, it is recorded that:
-                                    language:	Chinese
-                                    shelfmark:	MS.Chin.d.16
-                                    content:	Regulations for the conveyance of copper from Yünnan to the capital, with itinerary from Hangchow to Yünnan.
-                                    phys. descr:	81 ff.
-                                    acquired:	earlier than 1855.'
+                        <provenance>
                                     On the inside of upper cover, a tag is showing the list number: S.C.30869n</provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
@@ -192,6 +187,12 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--In the previous catalogue, it is recorded that:
+                                    language:	Chinese
+                                    shelfmark:	MS.Chin.d.16
+                                    content:	Regulations for the conveyance of copper from Yünnan to the capital, with itinerary from Hangchow to Yünnan.
+                                    phys. descr:	81 ff.
+                                    acquired:	earlier than 1855.'-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

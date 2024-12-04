@@ -132,18 +132,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.d.28
-                            content:	LO PI: astronomical extract from the Lu shih.
-                            phys. descr:	ff.i,7.
-                            acquired:	1882.
-                           This manuscript has been recorded in Serica:
-                           子部 天文算法類 推步 推步
-                           路史天文類 : 不分卷 / (宋)羅泌撰 ; 佚名摘錄 
-                           抄本
-                           線裝1冊 ; 24公分
-                           MS.Chin.d.28
+                        <provenance>
                         </provenance>
                         
                         
@@ -156,6 +145,18 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!-- record in previous catalogue：
+                            language:	Chinese
+                            shelfmark:	MS.Chin.d.28
+                            content:	LO PI: astronomical extract from the Lu shih.
+                            phys. descr:	ff.i,7.
+                            acquired:	1882.
+                           This manuscript has been recorded in Serica:
+                           子部 天文算法類 推步 推步
+                           路史天文類 : 不分卷 / (宋)羅泌撰 ; 佚名摘錄 
+                           抄本
+                           線裝1冊 ; 24公分
+                           MS.Chin.d.28-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

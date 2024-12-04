@@ -146,10 +146,7 @@
                             <origDate notAfter="1900" notBefore="1600" calendar="Gregorian">年代不詳，因真僞待辨</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>Record retrieved from the Bodleian Oriental Manuscript Catalogue: 
-                            language:	Chinese
-                            shelfmark:	MS.Chin.b.1(R)
-                            content:	CH'OU YING: [silk roll: scenes from the Ch'ing Ming festival]</provenance>
+                        <provenance></provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
@@ -162,6 +159,11 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!-- Record retrieved from the Bodleian Oriental Manuscript Catalogue: 
+                            language:	Chinese
+                            shelfmark:	MS.Chin.b.1(R)
+                            content:	CH'OU YING: [silk roll: scenes from the Ch'ing Ming festival]
+                                    -->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

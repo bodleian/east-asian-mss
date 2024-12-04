@@ -139,16 +139,7 @@
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
-                            record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.e.7
-                            content:	CH'I-SHIH-I [="71"]: [Disconnected accounts of the western regions]. 6 pen.
-                            date:	1777.
-                            phys. descr:	ff.39; 30; 30; 24; 25; 37.
-                            acquired:	1882.
-                            Current shelfmark:	MS.Chin.e.7
-                            Past shelfmarks:	Chin.453
-                            List number:	S.C.30870b-g
+                           
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
@@ -159,6 +150,16 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!-- record in previous catalogue：
+                            language:	Chinese
+                            shelfmark:	MS.Chin.e.7
+                            content:	CH'I-SHIH-I [="71"]: [Disconnected accounts of the western regions]. 6 pen.
+                            date:	1777.
+                            phys. descr:	ff.39; 30; 30; 24; 25; 37.
+                            acquired:	1882.
+                            Current shelfmark:	MS.Chin.e.7
+                            Past shelfmarks:	Chin.453
+                            List number:	S.C.30870b-g -->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

@@ -144,10 +144,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清中期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows: 
-                                    language:	Chinese
-                                    shelfmark:	MS.Chin.c.39(R)
-                                    content:	LIU YUNG: [Calligraphy; two scrolls]</provenance>
+                        <provenance></provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
@@ -160,6 +157,10 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows: 
+                                    language:	Chinese
+                                    shelfmark:	MS.Chin.c.39(R)
+                                    content:	LIU YUNG: [Calligraphy; two scrolls]-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

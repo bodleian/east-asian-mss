@@ -135,14 +135,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue
-                            language:	Chinese
-                            shelfmark:	MS.Chin.d.25
-                            content:	T'iao chi lien wai tan t'u shuo [ on management of the breath, etc.]
-                            phys. descr:	17 ff.
-                            acquired:	1882.
-                            Past shelfmarks:	Chin.513l
-                            List number:	S.C.30870o</provenance>
+                        <provenance></provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
@@ -154,6 +147,14 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--record in previous catalogue
+                            language:	Chinese
+                            shelfmark:	MS.Chin.d.25
+                            content:	T'iao chi lien wai tan t'u shuo [ on management of the breath, etc.]
+                            phys. descr:	17 ff.
+                            acquired:	1882.
+                            Past shelfmarks:	Chin.513l
+                            List number:	S.C.30870o -->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

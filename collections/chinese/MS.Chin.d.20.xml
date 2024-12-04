@@ -133,14 +133,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue
-                            language:	Chinese
-                            shelfmark:	MS.Chin.d.20
-                            content:	WANG CHÜN: Miao chiang t'u shuo [The Miao tribes and their territories]
-                            phys. descr:	ff.ii,19.
-                            acquired:	1882.
-                            Past shelfmarks:	Chin.431f
-                            List number:	S.C.29245f</provenance>
+                        <provenance></provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
@@ -152,6 +145,14 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--record in previous catalogue
+                            language:	Chinese
+                            shelfmark:	MS.Chin.d.20
+                            content:	WANG CHÜN: Miao chiang t'u shuo [The Miao tribes and their territories]
+                            phys. descr:	ff.ii,19.
+                            acquired:	1882.
+                            Past shelfmarks:	Chin.431f
+                            List number:	S.C.29245f-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

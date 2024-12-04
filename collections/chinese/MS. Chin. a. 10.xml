@@ -148,10 +148,7 @@
                             <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">1762</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows: 
-                                    language:	Chinese
-                                    shelfmark:	MS.Chin.a.10(R)
-                                    content:	EMPEROR CH'IEN LUNG: [forged calligraphy]
+                        <provenance>
                         </provenance>
                         
                         
@@ -165,6 +162,11 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows: 
+                                    language:	Chinese
+                                    shelfmark:	MS.Chin.a.10(R)
+                                    content:	EMPEROR CH'IEN LUNG: [forged calligraphy]-->
+                                    
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

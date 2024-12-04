@@ -141,12 +141,7 @@
                         </origin>
                         <provenance>
                             This two volumes are handwritten by Wang Jie in 1513, and was once collected by Nalan Kuixu (纳兰揆敘)。
-                            record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.d.68
-                            content:	NIU SENG-JU: Yu kuei lu, with supplement by Li Fu-yen. 2 pen.
-                            date:	c.17th c..
-                            phys. descr:	ff. 31; 26.
+                           
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
@@ -158,6 +153,12 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--record in previous catalogue：
+                            language:	Chinese
+                            shelfmark:	MS.Chin.d.68
+                            content:	NIU SENG-JU: Yu kuei lu, with supplement by Li Fu-yen. 2 pen.
+                            date:	c.17th c..
+                            phys. descr:	ff. 31; 26.-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

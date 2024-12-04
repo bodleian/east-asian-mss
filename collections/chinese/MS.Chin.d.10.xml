@@ -152,11 +152,7 @@
                                 >1607-1857</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> Past shelfmarks: Chin.241 List number: S.C.30868a-d language:
-                            Chinese shelfmark: MS.Chin.d.10 content: EUCLID; Principles of Geometry,
-                            books 1-6, translated into Chinese by Matteo Ricci and Hsü Kuang-chi,
-                            with title Chi ho yüan pen. 4 pên. phys. descr: ff.1-74; 75-128;
-                            129-184; 185-249. </provenance>
+                        <provenance> </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
                             <!-- insert -->
@@ -167,6 +163,11 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--  Past shelfmarks: Chin.241 List number: S.C.30868a-d language:
+                            Chinese shelfmark: MS.Chin.d.10 content: EUCLID; Principles of Geometry,
+                            books 1-6, translated into Chinese by Matteo Ricci and Hsü Kuang-chi,
+                            with title Chi ho yüan pen. 4 pên. phys. descr: ff.1-74; 75-128;
+                            129-184; 185-249.-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

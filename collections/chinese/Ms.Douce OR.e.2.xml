@@ -288,11 +288,7 @@
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance>
-                            language:	Chinese
-                            shelfmark:	MS.Douce Or.e.2
-                            content:	Chinese vocabulary, illustrated
-                            date:	n.d..
-                            phys. descr:
+                           
                         </provenance>
                         <provenance>previous catalogue reference number: S.C.22045</provenance>
                         <provenance><locus>fol. 20r</locus>Based on the illustrations of coins [乾隆通寶], it is likely that this book was created during or after the reign of the Qianlong Emperor of the Qing Dynasty (1735-1796).</provenance>
@@ -304,7 +300,12 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
+                                <source><!--
+                                    language:	Chinese
+                                    shelfmark:	MS.Douce Or.e.2
+                                    content:	Chinese vocabulary, illustrated
+                                    date:	n.d..
+                                    phys. descr:-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->
