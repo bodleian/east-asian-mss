@@ -46,7 +46,6 @@
                         <repository>Bodleian Library</repository><!-- change if necessary -->
                         <idno type="shelfmark">MS.Chin.d.1</idno>
                         
-                        
                     </msIdentifier>
                     
                     <msContents>
@@ -154,8 +153,6 @@
                             <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the inside of upper cover, a seal in red colour is found, showing Chowkwa Painter and Copier of Charts, indicating the painter.
-                            Previous shelfmark: S.C.33023 (as indicated on the inside upper cover)</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->
