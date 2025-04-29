@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6322">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3215</idno>
+               </msIdentifier>
+               <head>書名:咫園叢書 / 宗惟恭輯<lb/>民國三十七年[1948]上海合眾圖書館刊一九八三年北京市中國書店重印本<lb/>線裝2冊 ;
+                  29公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">咫園叢書</title>
+                     <title source="#200|9">zhi yuan cong shu</title>
+                     <note source="#290">宗惟恭輯</note>
+                     <author source="#300"><persName>宗惟恭</persName><persName type="9">zong wei
+                           gong</persName></author>
+                     <note source="#409">民國三十七年[1948]上海合眾圖書館刊一九八三年北京市中國書店重印本</note>
+                     <editor source="#440" role="pbl"><persName>合眾圖書館</persName><persName type="9" role="pbl">he zhong tu shu guan</persName></editor>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <msItem n="1">
+                        <title>金陵古金石攷目 ^一卷^</title>
+                        <title source="9">jin ling gu jin shi kao mu</title>
+                        <note source="290">(明)顧起元輯</note>
+                        <author><persName>(明)顧起元</persName><persName type="9">gu qi
+                           yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:29:37|odh -->
+                        <!-- #0rx: dh826+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>刻碑姓名錄 ^三卷^</title>
+                        <title source="9">ke bei xing ming lu</title>
+                        <note source="290">(清)黃錫蕃輯</note>
+                        <author><persName>(清)黃錫蕃</persName><persName type="9">huang xi
+                              fan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:31:28|odh -->
+                        <!-- #0rx: dh826+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>官閣消寒集 ^一卷^</title>
+                        <title source="9">guan ge xiao han ji</title>
+                        <note source="290">(清)嚴長明撰</note>
+                        <author><persName>(清)嚴長明</persName><persName type="9">yan chang
+                              ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:33:35|odh -->
+                        <!-- #0rx: dh826+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>江淮旅稿 ^一卷^</title>
+                        <title source="9">jiang huai lu gao</title>
+                        <note source="290">(清)嚴長明撰</note>
+                        <author><persName>(清)嚴長明</persName><persName type="9">yan chang
+                              ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:34:46|odh -->
+                        <!-- #0rx: dh826+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>嘉蔭簃集 ^二卷^</title>
+                        <title source="9">jia yin yi ji</title>
+                        <note source="290">(清)劉喜海撰</note>
+                        <note source="290">陳乃乾、宗惟恭輯</note>
+                        <author><persName>(清)劉喜海</persName><persName type="9">liu xi
+                           hai</persName></author>
+                        <author><persName>陳乃乾</persName><persName type="9">chen nai
+                           qian</persName></author>
+                        <author><persName>宗惟恭</persName><persName type="9">zong wei
+                           gong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:39:56|odh -->
+                        <!-- #0rx: dh826+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>2 volumes.<!--線裝2冊 ; 29公分--><measure unit="cm"><height>29</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1948" type="d">1948</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200123/13:27:51|odh -->
+                        <!-- #0rr: 20200204/22:08:48-457967/45|omaster -->
+                        <!-- #0rx: dh826 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221383660107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="800.90">叢書 雜叢類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

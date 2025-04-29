@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6394">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6197</idno>
+               </msIdentifier>
+               <head>書名:大八百鍾<lb/>廣州五桂堂影印本<lb/>洋裝1冊(原毛裝4冊) ; 19公分<lb/>封面題名《正字大八百鍾全本》<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">大八百鍾</title>
+                     <title source="#200|9">da ba bai zhong</title>
+                     <title type="variant" source="#230">正字大八百鍾全本</title>
+                     <title source="#230|9" type="variant">zheng zi da ba bai zhong quan ben</title>
+                     <note source="#409">廣州五桂堂影印本</note>
+                     <editor source="#440" role="pbl"><persName>五桂堂</persName><persName type="9" role="pbl">wu gui tang</persName></editor>
+                     <note source="#600">封面題名《正字大八百鍾全本》</note>
+                     <msItem n="1">
+                        <title>善惡分明</title>
+                        <title source="9">shan e fen ming</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:11:46|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365646/421|omaster -->
+                        <!-- #0rx: dh566+01 -->
+                        <!-- #0rz: 第一冊 -->
+                        <!-- #700: 778.shan|善惡分明 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>存孝道 ^二卷^</title>
+                        <title source="9">cun xiao dao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:12:39|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365647/422|omaster -->
+                        <!-- #0rx: dh566+02 -->
+                        <!-- #0rz: 第一冊 -->
+                        <!-- #700: 778.cun|存孝道 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>逆子回心</title>
+                        <title source="9">ni zi hui xin</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:40:01|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365658/429|omaster -->
+                        <!-- #0rx: dh566+03 -->
+                        <!-- #0rz: 第一冊 -->
+                        <!-- #700: 778.ni|逆子回心 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>守本分</title>
+                        <title source="9">shou ben fen</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:24:21|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365657/428|omaster -->
+                        <!-- #0rx: dh566+04 -->
+                        <!-- #0rz: 第一冊 -->
+                        <!-- #700: 778.shou|守本分 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>顧荷包</title>
+                        <title source="9">gu he bao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:17:00|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365645/420|omaster -->
+                        <!-- #0rx: dh566+05 -->
+                        <!-- #0rz: 第一冊 -->
+                        <!-- #700: 778.gu|顧荷包 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>兒母相安</title>
+                        <title source="9">er mu xiang an</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:27:55|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365656/427|omaster -->
+                        <!-- #0rx: dh566+06 -->
+                        <!-- #0rz: 第二冊 -->
+                        <!-- #700: 778.er|兒母相安 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>僱工穩慎</title>
+                        <title source="9">gu gong wen shen</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:30:05|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365655/426|omaster -->
+                        <!-- #0rx: dh566+07 -->
+                        <!-- #0rz: 第二冊 -->
+                        <!-- #700: 778.gu|僱工穩慎 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>夜諫金蘭</title>
+                        <title source="9">ye jian jin lan</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:31:23|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365654/425|omaster -->
+                        <!-- #0rx: dh566+08 -->
+                        <!-- #0rz: 第二冊 -->
+                        <!-- #700: 778.ye|夜諫金蘭 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>孔懷兄弟</title>
+                        <title source="9">kong huai xiong di</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:32:15|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365653/424|omaster -->
+                        <!-- #0rx: dh566+09 -->
+                        <!-- #0rz: 第三冊 -->
+                        <!-- #700: 778.kong|孔懷兄弟 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>夫婦順</title>
+                        <title source="9">fu fu shun</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/13:32:54|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365652/423|omaster -->
+                        <!-- #0rx: dh566+10 -->
+                        <!-- #0rz: 第三冊 -->
+                        <!-- #700: 778.fu|夫婦順 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>和鄉黨</title>
+                        <title source="9">he xiang dang</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:21:26|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365659/430|omaster -->
+                        <!-- #0rx: dh566+11 -->
+                        <!-- #0rz: 第三冊 -->
+                        <!-- #700: 778.he|和鄉黨 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>念親恩</title>
+                        <title source="9">nian qin en</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:22:28|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365660/431|omaster -->
+                        <!-- #0rx: dh566+12 -->
+                        <!-- #0rz: 第三冊 -->
+                        <!-- #700: 778.nian|念親恩 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>家庭樂</title>
+                        <title source="9">jia ting le</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:23:41|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365661/432|omaster -->
+                        <!-- #0rx: dh566+13 -->
+                        <!-- #0rz: 第三冊 -->
+                        <!-- #700: 778.jia|家庭樂 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>跳出生天</title>
+                        <title source="9">tiao chu sheng tian</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:26:19|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365662/433|omaster -->
+                        <!-- #0rx: dh566+14 -->
+                        <!-- #0rz: 第四冊 -->
+                        <!-- #700: 778.tiao|跳出生天 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>妻妾相和</title>
+                        <title source="9">qi qie xiang he</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:27:40|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365663/434|omaster -->
+                        <!-- #0rx: dh566+15 -->
+                        <!-- #700: 778.qi|妻妾相和 -->
+                     </msItem>
+                     <msItem n="16">
+                        <title>驚醒夢</title>
+                        <title source="9">jing xing meng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:28:39|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365664/435|omaster -->
+                        <!-- #0rx: dh566+16 -->
+                        <!-- #700: 778.jing|驚醒夢 -->
+                     </msItem>
+                     <msItem n="17">
+                        <title>諫女貪痴</title>
+                        <title source="9">jian nu tan chi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/16:30:38|odh -->
+                        <!-- #0rr: 20191027/10:20:13-365665/436|omaster -->
+                        <!-- #0rx: dh566+17 -->
+                        <!-- #700: 778.jian|諫女貪痴 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--洋裝1冊(原毛裝4冊) ; 19公分--><measure unit="cm"><height>19</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional "rough" binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1900" notAfter="1999" type="d">1900
+                        - 1999</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150123/12:54:39|odh -->
+                        <!-- #0rr: 20191027/21:45:42-365559/421|omaster -->
+                        <!-- #0rx: dh566 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221459290107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="778.da|大八百鍾">集部 詞曲類 廣州木魚書</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

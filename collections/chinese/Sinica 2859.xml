@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6299">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2859</idno>
+               </msIdentifier>
+               <head>書名:李氏五種合刊 / (清)李兆洛撰<lb/>清同治十年[1871]合肥李鴻章金陵刊本<lb/>線裝10冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">李氏五種合刊</title>
+                     <title source="#200|9">li shi wu zhong he kan</title>
+                     <note source="#290">(清)李兆洛撰</note>
+                     <author source="#300"><persName>(清)李兆洛</persName><persName type="9">li zhao
+                           luo</persName></author>
+                     <note source="#409">清同治十年[1871]合肥李鴻章金陵刊本</note>
+                     <msItem n="1">
+                        <title>歷代地理志韻編今釋 ^二十卷^</title>
+                        <title source="9">li dai di li zhi yun bian jin shi</title>
+                        <author><persName>(清)李兆洛</persName><persName type="9">li zhao
+                           luo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:24:57|odh -->
+                        <!-- #0rx: dh555+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>皇朝輿地韻編 ^二卷^</title>
+                        <title source="9">huang chao yu di yun bian</title>
+                        <author><persName>(清)李兆洛</persName><persName type="9">li zhao
+                           luo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:26:05|odh -->
+                        <!-- #0rx: dh555+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>歷代地理沿革圖 ^不分卷^</title>
+                        <title source="9">li dai di li yan ge tu</title>
+                        <note source="290">(清)六嚴撰</note>
+                        <note source="290">(清)馬徵麟增輯</note>
+                        <author><persName>(清)六嚴</persName><persName type="9">lu
+                           yan</persName></author>
+                        <author><persName>(清)馬徵麟</persName><persName type="9">ma zheng
+                              lin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:30:17|odh -->
+                        <!-- #0rr: 20150108/11:49:52-374174/1|odh -->
+                        <!-- #0rx: dh555+3 -->
+                        <!-- #600: 朱墨套印 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>皇朝一通輿圖 ^一卷^</title>
+                        <title source="9">huang chao yi tong yu tu</title>
+                        <author><persName>(清)李兆洛</persName><persName type="9">li zhao
+                           luo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:34:12|odh -->
+                        <!-- #0rx: dh555+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>紀元編 ^三卷末一卷^</title>
+                        <title source="9">ji yuan bian</title>
+                        <note source="290">(清)李兆洛撰</note>
+                        <note source="290">(清)六承如編</note>
+                        <author><persName>(清)李兆洛</persName><persName type="9">li zhao
+                           luo</persName></author>
+                        <author><persName>(清)六承如</persName><persName type="9">lu cheng
+                           ru</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:29:07|odh -->
+                        <!-- #0rx: dh555+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>10 volumes.<!--線裝10冊 ; 26公分--><measure unit="cm"><height>26</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「學有緝熙號光明」、「荀巖之印」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1871" type="d">1871</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150107/15:21:03|odh -->
+                        <!-- #0rr: 20191002/12:55:31-365287/78|omaster -->
+                        <!-- #0rx: dh555 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="400.88">史部 地理類 總志</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

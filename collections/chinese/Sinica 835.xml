@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6444">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 835</idno>
+               </msIdentifier>
+               <head>書名:則古昔齋算學 / (清)李善蘭撰<lb/>清同治丁卯[1867]金陵刊本<lb/>線裝6冊 : 圖 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">則古昔齋算學</title>
+                     <title source="#200|9">ze gu xi zhai suan xue</title>
+                     <note source="#290">(清)李善蘭撰</note>
+                     <author source="#300"><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                     <note source="#409">清同治丁卯[1867]金陵刊本</note>
+                     <msItem n="1">
+                        <title>方圓闡幽 ^一卷^</title>
+                        <title source="9">fang yuan chan you</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:26:28|odh -->
+                        <!-- #0rx: dh510+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>弧矢啟祕 ^二卷^</title>
+                        <title source="9">hu shi qi mi</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:27:09|odh -->
+                        <!-- #0rx: dh510+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>對數探源 ^二卷^</title>
+                        <title source="9">dui shu tan yuan</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:27:45|odh -->
+                        <!-- #0rx: dh510+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>垛積比類 ^四卷^</title>
+                        <title source="9">duo ji bi lei</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:28:25|odh -->
+                        <!-- #0rx: dh510+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>四元解 ^二卷^</title>
+                        <title source="9">si yuan jie</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:28:57|odh -->
+                        <!-- #0rx: dh510+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>麟德術解 ^三卷^</title>
+                        <title source="9">lin de shu jie</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:29:31|odh -->
+                        <!-- #0rx: dh510+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>橢圜正術解 ^二卷^</title>
+                        <title source="9">tuo yuan zheng shu jie</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:30:03|odh -->
+                        <!-- #0rx: dh510+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>橢圜新術 ^一卷^</title>
+                        <title source="9">tuo yuan xin shu</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:30:32|odh -->
+                        <!-- #0rx: dh510+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>橢圜拾遺 ^三卷^</title>
+                        <title source="9">tuo yuan shi yi</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:31:07|odh -->
+                        <!-- #0rx: dh510+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>火器真訣 ^一卷^</title>
+                        <title source="9">huo qi zhen jue</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:31:37|odh -->
+                        <!-- #0rx: dh510+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>對數尖錐變法釋 ^一卷^</title>
+                        <title source="9">dui shu jian zhui bian fa shi</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:32:08|odh -->
+                        <!-- #0rx: dh510+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>級數回求 ^一卷^</title>
+                        <title source="9">ji shu hui qiu</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:32:33|odh -->
+                        <!-- #0rx: dh510+12 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>天算或問 ^一卷^</title>
+                        <title source="9">tian suan huo wen</title>
+                        <author><persName>(清)李善蘭</persName><persName type="9">li shan
+                           lan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:32:55|odh -->
+                        <!-- #0rx: dh510+13 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--線裝6冊 : 圖 ; 27公分--><measure unit="cm"><height>27</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1867" type="d">1867</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/15:25:15|odh -->
+                        <!-- #0rr: 20140204/16:05:44|odh -->
+                        <!-- #0rx: dh510 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486250107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="567.88">子部 天文算法類 算書 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

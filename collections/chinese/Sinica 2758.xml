@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6290">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2758</idno>
+               </msIdentifier>
+               <head>書名:淳化閣帖 殘七卷<lb/>明萬曆四十三年[1615]肅藩刊清順治甲午歲[1654]補刊清中葉前期拓本<lb/>折裝7冊 ; 32公分<lb/>全書十卷,
+                  殘卷四～十<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">淳化閣帖 ^殘七卷^</title>
+                     <title source="#200|9">chun hua ge tie</title>
+                     <note source="#409">明萬曆四十三年[1615]肅藩刊清順治甲午歲[1654]補刊清中葉前期拓本</note>
+                     <editor source="#440" role="pbl"><persName>(明)肅藩</persName><persName type="9" role="pbl">su fan</persName></editor>
+                     <note source="#600">全書十卷, 殘卷四～十</note>
+                     <msItem n="1">
+                        <title>歷代名臣法帖第四</title>
+                        <title source="9">li dai ming chen fa tie di si</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:01:59|odh -->
+                        <!-- #0rr: 20190712/12:06:26-453200/1|odh -->
+                        <!-- #0rx: dh809+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>諸家古法帖五</title>
+                        <title source="9">zhu jia gu fa tie wu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:02:13|odh -->
+                        <!-- #0rr: 20190712/12:13:02-453201/1|odh -->
+                        <!-- #0rx: dh809+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>法帖第六. 王羲之書一</title>
+                        <title source="9">fa tie di liu. jwang xi zhi shu yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:08:36|odh -->
+                        <!-- #0rr: 20190712/12:13:52-453209/1|odh -->
+                        <!-- #0rx: dh809+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>法帖第七. 王羲之書二</title>
+                        <title source="9">fa tie di qi. wang xi zhi shu er</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:05:56|odh -->
+                        <!-- #0rr: 20190712/12:14:40-453208/1|odh -->
+                        <!-- #0rx: dh809+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>法帖第八. 王羲之書三</title>
+                        <title source="9">fa tie di ba. wang xi zhi shu san</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:05:11|odh -->
+                        <!-- #0rr: 20190712/12:15:36-453207/1|odh -->
+                        <!-- #0rx: dh809+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>法帖第九. 晉王獻之一</title>
+                        <title source="9">fa tie di jiu. jin wang xian zhi yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:04:43|odh -->
+                        <!-- #0rr: 20190712/12:16:12-453206/1|odh -->
+                        <!-- #0rx: dh809+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>法帖第十. 晉王獻之二</title>
+                        <title source="9">fa tie di shi. jin wang xian zhi er</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:04:13|odh -->
+                        <!-- #0rr: 20190712/12:16:44-453204/1|odh -->
+                        <!-- #0rx: dh809+7 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>7 volumes.<!--折裝7冊 ; 32公分--><measure unit="cm"><height>32</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional "accordion" (or "sutra") binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1615" type="d">1615</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190712/12:00:10|odh -->
+                        <!-- #0rr: 20191027/21:45:42-453199/514|omaster -->
+                        <!-- #0rx: dh809 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="584.77">子部 藝術類 書畫 法帖</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list>
+                  <item><term key="editions -- Ming feudatories">editions -- Ming
+                     feudatories</term></item>
+                  <item><term key="fatie">fatie</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

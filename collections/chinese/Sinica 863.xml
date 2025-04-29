@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6450">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 863</idno>
+               </msIdentifier>
+               <head>書名:六九軒算書 ; 附 南豐劉簾舫先生遺書 / (清)劉衡撰<lb/>清道光庚戌年[1850]兩淮轉運署刊本<lb/>線裝8冊 ;
+                  28公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">六九軒算書</title>
+                     <title source="#200|9">liu jiu xuan suan shu</title>
+                     <title source="#200">^附^ 南豐劉簾舫先生遺書</title>
+                     <title source="#200|9">nan feng liu lian fang xian sheng yi shu</title>
+                     <note source="#290">(清)劉衡撰</note>
+                     <author source="#300"><persName>(清)劉衡</persName><persName type="9">liu
+                           heng</persName></author>
+                     <note source="#409">清道光庚戌年[1850]兩淮轉運署刊本</note>
+                     <editor source="#440" role="pbl"><persName>兩淮轉運署</persName><persName type="9" role="pbl">liang huai zhuan yun shu</persName></editor>
+                     <msItem n="1">
+                        <title>六九軒算書</title>
+                        <title source="9">liu jiu xuan suan shu</title>
+                        <author><persName>(清)劉衡</persName><persName type="9">liu
+                           heng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:09:54|odh -->
+                        <!-- #0rx: dh507+1 -->
+                        <msItem n="1">
+                           <title>尺筭日晷新義 ^二卷^</title>
+                           <title source="9">chi suan ri gui xin yi</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:12:59|odh -->
+                           <!-- #000: dh507+1+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>句股尺測量新法 ^一卷^</title>
+                           <title source="9">gou gu chi ce liang xin fa</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:13:49|odh -->
+                           <!-- #000: dh507+1+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>籌表開諸乘方捷法 ^二卷^</title>
+                           <title source="9">chou biao kai zhu cheng fang jie fa</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:16:53|odh -->
+                           <!-- #000: dh507+1+3 -->
+                        </msItem>
+
+                        <msItem n="4">
+                           <title>借根方法淺說 ^一卷^</title>
+                           <title source="9">jie gen fang fa qian shuo</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:17:27|odh -->
+                           <!-- #000: dh507+1+4 -->
+                        </msItem>
+
+                        <msItem n="5">
+                           <title>四率淺說 ^一卷^</title>
+                           <title source="9">si lu qian shuo</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:17:57|odh -->
+                           <!-- #000: dh507+1+5 -->
+                        </msItem>
+
+                        <msItem n="6">
+                           <title>輯古筭經補注 ^一卷^</title>
+                           <title source="9">ji gu suan jing bu zhu</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:20:03|odh -->
+                           <!-- #000: dh507+1+6 -->
+                        </msItem>
+
+                     </msItem>
+                     <msItem n="2">
+                        <title>南豐劉簾舫先生遺書</title>
+                        <title source="9">nan feng liu lian fang xian sheng yi shu</title>
+                        <author><persName>(清)劉衡</persName><persName type="9">liu
+                           heng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:11:22|odh -->
+                        <!-- #0rr: 20140130/14:11:53|odh -->
+                        <!-- #0rx: dh507+2 -->
+                        <!-- #600: 咸豐元年[1851]刊 -->
+                        <msItem n="1">
+                           <title>庸吏庸言 ^一卷^</title>
+                           <title source="9">yong li yong yan</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:23:53|odh -->
+                           <!-- #000: dh507+2+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>庸吏餘談 ^一卷^</title>
+                           <title source="9">yong li yu tan</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:25:01|odh -->
+                           <!-- #000: dh507+2+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>蜀僚問答 ^二卷^</title>
+                           <title source="9">shu liao wen da</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:27:21|odh -->
+                           <!-- #000: dh507+2+3 -->
+                        </msItem>
+
+                        <msItem n="4">
+                           <title>讀律心得 ^三卷^</title>
+                           <title source="9">du lu xin de</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:27:49|odh -->
+                           <!-- #000: dh507+2+4 -->
+                        </msItem>
+
+                        <msItem n="5">
+                           <title>行述 ^一卷^</title>
+                           <title source="9">xing shu</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:29:49|odh -->
+                           <!-- #000: dh507+2+5 -->
+                        </msItem>
+
+                        <msItem n="6">
+                           <title>名宦錄 ^一卷^</title>
+                           <title source="9">ming huan lu</title>
+                           <author><persName>(清)劉衡</persName><persName type="9">liu
+                              heng</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140130/14:30:57|odh -->
+                           <!-- #000: dh507+2+6 -->
+                        </msItem>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>8 volumes.<!--線裝8冊 ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1850" type="d">1850</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:08:52|odh -->
+                        <!-- #0rr: 20140204/16:05:42|odh -->
+                        <!-- #0rx: dh507 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="567.88">子部 天文算法類 算書 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

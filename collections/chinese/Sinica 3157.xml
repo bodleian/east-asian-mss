@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6317">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3157</idno>
+               </msIdentifier>
+               <head>書名:賭棋山莊所著書 存五種 / (清)謝章鋌撰<lb/>清光緒中福州刊本<lb/>洋裝6冊(原線裝25冊) ;
+                  28公分<lb/>版心題名「賭棋山莊集」<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">賭棋山莊所著書 ^存五種^</title>
+                     <title source="#200|9">du qi shan zhuang suo zhu shu</title>
+                     <title type="variant" source="#230">賭棋山莊集</title>
+                     <title source="#230|9" type="variant">du qi shan zhuang ji</title>
+                     <note source="#290">(清)謝章鋌撰</note>
+                     <author source="#300"><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                           ting</persName></author>
+                     <note source="#409">清光緒中福州刊本</note>
+                     <note source="#600">版心題名「賭棋山莊集」</note>
+                     <msItem n="1">
+                        <title>賭棋山莊集 ^存文續二卷文又續二卷詩十四卷酒邊詞八卷^</title>
+                        <title source="9">du qi shan zhuang ji</title>
+                        <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:41:29|odh -->
+                        <!-- #0rr: 20150401/16:41:58-378087/1|odh -->
+                        <!-- #0rx: dh576+1 -->
+                        <!-- #600: 文續壬辰[1892]文又續戊戌[1898]詩戊子[1888]酒邊詞己丑[1889]刊 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>賭棋山莊集 ^詞話十二卷續編五卷^</title>
+                        <title source="9">du qi shan zhuang ji</title>
+                        <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:44:44|odh -->
+                        <!-- #0rx: dh576+2 -->
+                        <!-- #600: 甲申[1884]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>賭棋山莊筆記</title>
+                        <title source="9">du qi shan zhuang bi ji</title>
+                        <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:46:36|odh -->
+                        <!-- #0rx: dh576+3 -->
+                        <!-- #600: 辛丑[1901]刊 -->
+                        <msItem n="1">
+                           <title>圍爐瑣憶 ^一卷^</title>
+                           <title source="9">wei lu suo yi</title>
+                           <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                                 ting</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20150401/16:47:16|odh -->
+                           <!-- #000: dh576+3+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>藤陰客贅</title>
+                           <title source="9">teng yin ke zhui</title>
+                           <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                                 ting</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20150401/16:48:22|odh -->
+                           <!-- #000: dh576+3+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>稗販雜錄 ^四卷^</title>
+                           <title source="9">bai fan za lu</title>
+                           <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                                 ting</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20150401/16:49:09|odh -->
+                           <!-- #000: dh576+3+3 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="4">
+                        <title>課餘偶錄 ^四卷續錄五卷^</title>
+                        <title source="9">ke yu ou lu</title>
+                        <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:54:24|odh -->
+                        <!-- #0rx: dh576+4 -->
+                        <!-- #600: 戊戌[1898]續錄庚子[1900]刊 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>賭棋山莊八十壽言 ^一卷^</title>
+                        <title source="9">du qi shan zhuang ba shi shou yi</title>
+                        <note source="290">(清)謝章鋌編</note>
+                        <author><persName>(清)謝章鋌</persName><persName type="9">xie zhang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:56:37|odh -->
+                        <!-- #0rx: dh576+5 -->
+                        <!-- #600: 壬寅[1902]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--洋裝6冊(原線裝25冊) ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1884" notAfter="1902" type="g">1884
+                        - 1902</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150401/16:27:46|odh -->
+                        <!-- #0rr: 20150402/17:21:56-378082/15|omaster -->
+                        <!-- #0rx: dh576 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221520370107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="880.89">叢書 獨撰類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6243">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 566</idno>
+               </msIdentifier>
+               <head>書名:中晚唐詩紀 存十二種 / (清)龔賢編<lb/>清刊本半畝園藏板<lb/>線裝14冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">中晚唐詩紀 ^存十二種^</title>
+                     <title source="#200|9">zhong wan tang shi ji</title>
+                     <note source="#290">(清)龔賢編</note>
+                     <author source="#300"><persName>(清)龔賢</persName><persName type="9">gong
+                           xian</persName></author>
+                     <note source="#409">清刊本半畝園藏板</note>
+                     <editor source="#440" role="pbl"><persName>半畝園</persName><persName type="9" role="pbl">ban mu yuan</persName></editor>
+                     <msItem n="1">
+                        <title>張籍詩 ^一卷^</title>
+                        <title source="9">zhang ji shi</title>
+                        <note source="290">(唐)張籍撰</note>
+                        <author><persName>(唐)張籍</persName><persName type="9">zhang
+                           ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:48:34|odh -->
+                        <!-- #0rx: dh479+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>李嘉祐集 ^二卷^</title>
+                        <title source="9">li jia you ji</title>
+                        <note source="290">(唐)李嘉祐撰</note>
+                        <author><persName>(唐)李嘉祐</persName><persName type="9">li jia
+                           you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:49:15|odh -->
+                        <!-- #0rx: dh479+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>秦系詩 ^一卷^</title>
+                        <title source="9">qin xi shi</title>
+                        <note source="290">(唐)秦系撰</note>
+                        <author><persName>(唐)秦系</persName><persName type="9">qin
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:50:33|odh -->
+                        <!-- #0rx: dh479+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>韓翃詩 ^一卷^</title>
+                        <title source="9">han hong shi</title>
+                        <note source="290">(唐)韓翃撰</note>
+                        <author><persName>(唐)韓翃</persName><persName type="9">han
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:51:46|odh -->
+                        <!-- #0rx: dh479+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>孟郊詩 ^一卷^</title>
+                        <title source="9">meng jiao shi</title>
+                        <note source="290">(唐)孟郊撰</note>
+                        <author><persName>(唐)孟郊</persName><persName type="9">meng
+                           jiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:52:53|odh -->
+                        <!-- #0rx: dh479+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>賈島詩 ^一卷^</title>
+                        <title source="9">jia dao shi</title>
+                        <note source="290">(唐)賈島撰</note>
+                        <author><persName>(唐)賈島</persName><persName type="9">jia
+                           dao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:54:07|odh -->
+                        <!-- #0rx: dh479+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>朱慶餘詩 ^一卷^</title>
+                        <title source="9">zhu qing yu shi</title>
+                        <note source="290">(唐)朱慶餘撰</note>
+                        <author><persName>(唐)朱慶餘</persName><persName type="9">zhu qing
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:54:54|odh -->
+                        <!-- #0rx: dh479+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>溫庭筠詩 ^一卷^</title>
+                        <title source="9">wen ting yun shi</title>
+                        <note source="290">(唐)溫庭筠撰</note>
+                        <author><persName>(唐)溫庭筠</persName><persName type="9">wen ting
+                              yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:55:44|odh -->
+                        <!-- #0rx: dh479+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>楊巨源詩 ^一卷^</title>
+                        <title source="9">yang ju yuan shi</title>
+                        <note source="290">(唐)楊巨源撰</note>
+                        <author><persName>(唐)楊巨源</persName><persName type="9">yang ju
+                              yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:57:18|odh -->
+                        <!-- #0rx: dh479+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>楊衡詩 ^一卷^</title>
+                        <title source="9">yang heng shi</title>
+                        <note source="290">(唐)楊衡撰</note>
+                        <author><persName>(唐)楊衡</persName><persName type="9">yang
+                           heng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:58:11|odh -->
+                        <!-- #0rx: dh479+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>趙嘏詩 ^一卷^</title>
+                        <title source="9">zhao gu shi</title>
+                        <note source="290">(唐)趙嘏撰</note>
+                        <author><persName>(唐)趙嘏</persName><persName type="9">zhao
+                           gu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/12:00:01|odh -->
+                        <!-- #0rx: dh479+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>曹唐詩 ^一卷^</title>
+                        <title source="9">cao tang shi</title>
+                        <note source="290">(唐)曹唐撰</note>
+                        <author><persName>(唐)曹唐</persName><persName type="9">cao
+                           tang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/12:00:49|odh -->
+                        <!-- #0rx: dh479+12 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>14 volumes.<!--線裝14冊 ; 26公分--><measure unit="cm"><height>26</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1662" type="d">1662</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:45:27|odh -->
+                        <!-- #0rr: 20130819/12:30:54|odh -->
+                        <!-- #0rx: dh479 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541020107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="730.57.87">集部 總集類 斷代</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

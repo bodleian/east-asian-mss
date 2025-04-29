@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6362">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 4757</idno>
+               </msIdentifier>
+               <head>書名:故宮善本書目 / (民國)張允亮撰<lb/>民國二十三年[1934]北平故宮博物院排印本<lb/>線裝1冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">故宮善本書目</title>
+                     <title source="#200|9">gu gong shan ben shu mu</title>
+                     <note source="#290">(民國)張允亮撰</note>
+                     <author source="#300"><persName>(民國)張允亮</persName><persName type="9">zhang yun
+                           liang</persName></author>
+                     <note source="#409">民國二十三年[1934]北平故宮博物院排印本</note>
+                     <editor source="#440" role="pbl"><persName>故宮博物院</persName><persName type="9" role="pbl">gu gong bo wu yuan</persName></editor>
+                     <msItem n="1">
+                        <title>天祿琳琅現存書目 ^一卷^</title>
+                        <title source="9">tian lu lin lang xian cun shu mu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19980302/14:25:53|omw -->
+                        <!-- #0rr: 20060327/13:46:19|odh -->
+                        <!-- #0rx: dh328+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>天祿琳琅錄外書目 ^一卷^</title>
+                        <title source="9">tian lu lin lang lu wai shu mu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060327/13:47:50|odh -->
+                        <!-- #0rx: dh328+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>宛委別藏書目 ^一卷^</title>
+                        <title source="9">wan wei bie cang shu mu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060327/13:48:26|odh -->
+                        <!-- #0rx: dh328+3 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--線裝1冊 ; 27公分--><measure unit="cm"><height>27</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1934" type="d">1934</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060327/13:37:37|odh -->
+                        <!-- #0rr: 20190630/11:30:40-367026/86|omaster -->
+                        <!-- #0rx: dh328 -->
+                        <!-- #806: Chin.d.27700 = C 9566 CYL Ref|c精裝1冊 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="452.90">史部 目錄類 分刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9566">9566</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

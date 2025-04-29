@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6360">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 4674</idno>
+               </msIdentifier>
+               <head>書名:江刻書目三種 / (清)江標編<lb/>清光緒中元和江氏靈鶼閣刊蘇州振新書社印本<lb/>線裝4冊 ; 30公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">江刻書目三種</title>
+                     <title source="#200|9">jiang ke shu mu san zhong</title>
+                     <note source="#290">(清)江標編</note>
+                     <author source="#300"><persName>(清)江標</persName><persName type="9">jiang
+                           biao</persName></author>
+                     <note source="#409">清光緒中元和江氏靈鶼閣刊蘇州振新書社印本</note>
+                     <msItem n="1">
+                        <title>鐵琴銅劍樓藏宋元本書目 ^四卷^</title>
+                        <title source="9">tie qin tong jian lou cang song yuan ben shu mu</title>
+                        <note source="290">(清)瞿鏞撰</note>
+                        <author><persName>(清)瞿鏞</persName><persName type="9">qu
+                           yong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060105/12:44:11|odh -->
+                        <!-- #0rx: dh324+1 -->
+                        <!-- #600: 光緒丁酉[1897]刊 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>海源閣藏書目 ^一卷^</title>
+                        <title source="9">hai yuan ge cang shu mu</title>
+                        <note source="290">(清)楊紹和撰</note>
+                        <author><persName>(清)楊紹和</persName><persName type="9">yang shao
+                              he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060105/12:46:58|odh -->
+                        <!-- #0rx: dh324+2 -->
+                        <!-- #600: 光緒戊子[1888]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>豐順丁氏持靜齋書目 ^五卷^</title>
+                        <title source="9">feng shun ding shi chi jing zhai shu mu</title>
+                        <note source="290">(清)丁日昌撰</note>
+                        <author><persName>(清)丁日昌</persName><persName type="9">ding ri
+                              chang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060105/12:49:40|odh -->
+                        <!-- #0rx: dh324+3 -->
+                        <!-- #600: 光緒乙未[1895]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>4 volumes.<!--線裝4冊 ; 30公分--><measure unit="cm"><height>30</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1888" notAfter="1897" type="g">1888
+                        - 1897</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060105/12:41:58|odh -->
+                        <!-- #0rr: 20130523/16:02:01|odh -->
+                        <!-- #0rx: dh324 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="450.89">史部 目錄類 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

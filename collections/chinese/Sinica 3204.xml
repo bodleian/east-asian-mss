@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6320">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3204</idno>
+               </msIdentifier>
+               <head>書名:當歸草堂醫學叢書初編 / (清)丁丙輯<lb/>清光緒戊寅[1878]錢塘丁氏當歸草堂刊1982年江蘇廣陵古籍刻印社重印本<lb/>線裝10冊 ;
+                  26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">當歸草堂醫學叢書初編</title>
+                     <title source="#200|9">dang gui cao tang yi xue cong shu chu bian</title>
+                     <note source="#290">(清)丁丙輯</note>
+                     <author source="#300"><persName>(清)丁丙</persName><persName type="9">ding
+                           bing</persName></author>
+                     <note source="#409">清光緒戊寅[1878]錢塘丁氏當歸草堂刊1982年江蘇廣陵古籍刻印社重印本</note>
+                     <editor source="#440" role="pbl"><persName>江蘇廣陵古籍刻印社</persName><persName type="9" role="pbl">jiang su guang ling gu ji ke yin
+                        she</persName></editor>
+                     <msItem n="1">
+                        <title>顱顖經 ^一卷^</title>
+                        <title source="9">lu xin jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:04:18|odh -->
+                        <!-- #0rx: dh823+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>傳信適用方 ^四卷^</title>
+                        <title source="9">chuan xin shi yong fang</title>
+                        <note source="290">(宋)吳彥夔撰</note>
+                        <author><persName>(宋)吳彥夔</persName><persName type="9">wu yan
+                           kui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:05:16|odh -->
+                        <!-- #0rr: 20200117/13:07:11-457811/1|odh -->
+                        <!-- #0rx: dh823+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>衞濟寶書 ^二卷^</title>
+                        <title source="9">wei ji bao shu</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:09:06|odh -->
+                        <!-- #0rx: dh823+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>太醫局諸科程文 ^九卷^</title>
+                        <title source="9">tai yi ju zhu ke cheng wen</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:11:02|odh -->
+                        <!-- #0rx: dh823+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>產育寶慶集方 ^二卷^</title>
+                        <title source="9">chan yu bao qing ji fang</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:12:34|odh -->
+                        <!-- #0rx: dh823+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>濟生方 ^八卷^</title>
+                        <title source="9">ji sheng fang</title>
+                        <note source="290">(宋)嚴用和撰</note>
+                        <author><persName>(宋)嚴用和</persName><persName type="9">yan yong
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:13:10|odh -->
+                        <!-- #0rx: dh823+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>產寶諸方 ^一卷^</title>
+                        <title source="9">chan bao zhu fang</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:14:20|odh -->
+                        <!-- #0rx: dh823+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>急救仙方 ^六卷^</title>
+                        <title source="9">ji jiu xian fang</title>
+                        <note source="290">(□)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:15:16|odh -->
+                        <!-- #0rx: dh823+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>瑞竹堂經驗方 ^五卷補遺一卷^</title>
+                        <title source="9">rui zhu tang jing yan fang</title>
+                        <note source="290">(元)沙圖穆蘇撰</note>
+                        <author><persName>(元)沙圖穆蘇</persName><persName type="9">sha tu mu
+                              su</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:17:49|odh -->
+                        <!-- #0rx: dh823+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>痎瘧論疏 ^一卷^</title>
+                        <title source="9">jie nue lun shu</title>
+                        <note source="290">(明)盧之頤撰</note>
+                        <author><persName>(明)盧之頤</persName><persName type="9">lu zhi
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:19:15|odh -->
+                        <!-- #0rx: dh823+10 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>10 volumes.<!--線裝10冊 ; 26公分--><measure unit="cm"><height>26</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1878" type="d">1878</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200117/13:00:21|odh -->
+                        <!-- #0rr: 20200204/22:08:48-457809/37|omaster -->
+                        <!-- #0rx: dh823 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221433620107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="550.89">子部 醫家類 醫家</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

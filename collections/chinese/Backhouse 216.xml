@@ -1,0 +1,1488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 216</idno>
+               </msIdentifier>
+               <head>書名:滂喜齋叢書 / (清)潘祖蔭編<lb/>清同治光緒間吳縣潘氏京師刊本<lb/>線裝32冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">滂喜齋叢書</title>
+                     <title source="#200|9">pang xi zhai cong shu</title>
+                     <note source="#290">(清)潘祖蔭編</note>
+                     <author source="#300"><persName>(清)潘祖蔭</persName><persName type="9">pan zu
+                           yin</persName></author>
+                     <note source="#409">清同治光緒間吳縣潘氏京師刊本</note>
+                     <msItem n="40">
+                        <title>寶鐵齋金石文跋尾 ^三卷^</title>
+                        <title source="9">bao tie zhai jin shi wen ba wei</title>
+                        <note source="290">(清)韓崇撰</note>
+                        <author><persName>(清)韓崇</persName><persName type="9">han
+                           chong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161231/00000064|odh -->
+                        <!-- #0rx: dh626+40 -->
+                        <!-- #0rz: 第四函 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>32 volumes.<!--線裝32冊 ; 26公分--><measure unit="cm"><height>26</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1862" type="d">1862</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130819/11:23:53|odh -->
+                        <!-- #0rr: 20170112/16:03:53-120088/9|omaster -->
+                        <!-- #0rx: dh626 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221496300107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/1(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>虞氏易消息圖說初稾 ^一卷^</title>
+                        <title source="9">yu shi yi xiao xi tu shuo chu gao</title>
+                        <note source="290">(清)胡祥麟撰</note>
+                        <author><persName>(清)胡祥麟</persName><persName type="9">hu xiang
+                              lin</persName></author>
+                        <note source="600">同治十一[1872]年刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000019|odh -->
+                           <!-- #0rx: dh626+01 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/1(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>大誓答問 ^一卷^</title>
+                        <title source="9">da shi da wen</title>
+                        <note source="290">(清)龔自珍纂</note>
+                        <author><persName>(清)龔自珍</persName><persName type="9">gong zi
+                              zhen</persName></author>
+                        <note source="600">同治丁卯[1867]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000020|odh -->
+                           <!-- #0rx: dh626+02 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/1(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>求古錄禮說補遺 ^一卷^</title>
+                        <title source="9">qiu gu lu li shuo bu yi</title>
+                        <note source="290">(清)金鶚著</note>
+                        <author><persName>(清)金鶚</persName><persName type="9">jin
+                           e</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000021|odh -->
+                           <!-- #0rx: dh626+03 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/2(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>公羊逸禮攷徵 ^一卷^</title>
+                        <title source="9">gong yang yi li kao zheng</title>
+                        <note source="290">(清)陳奐撰</note>
+                        <author><persName>(清)陳奐</persName><persName type="9">chen
+                           huan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000022|odh -->
+                           <!-- #0rx: dh626+04 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>喪禮經傳約 ^一卷^</title>
+                        <title source="9">sang li jing zhuan yue</title>
+                        <note source="290">(清)吳卓信撰</note>
+                        <author><persName>(清)吳卓信</persName><persName type="9">wu zhuo
+                           xin</persName></author>
+                        <note source="600">同治十一年[1872]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000023|odh -->
+                           <!-- #0rx: dh626+05 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>京畿金石考 ^二卷^</title>
+                        <title source="9">jing ji jin shi kao</title>
+                        <note source="290">(清)孫星衍撰</note>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000024|odh -->
+                           <!-- #0rx: dh626+06 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>止觀輔行傳宏決 ^一卷^</title>
+                        <title source="9">zhi guan fu xing zhuan hong jue</title>
+                        <note source="290">(唐釋)湛然述</note>
+                        <note source="290">(清)胡澍錄</note>
+                        <author><persName>(唐釋)湛然</persName><persName type="9">zhan
+                           ran</persName></author>
+                        <author><persName>(清)胡澍</persName><persName type="9">hu
+                           shu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000025|odh -->
+                           <!-- #0rx: dh626+07 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/5-6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>炳燭編 ^四卷^</title>
+                        <title source="9">bing zhu bian</title>
+                        <note source="290">(清)李賡芸撰</note>
+                        <author><persName>(清)李賡芸</persName><persName type="9">li geng
+                           yun</persName></author>
+                        <note source="600">同治壬申[1872]年刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000026|odh -->
+                           <!-- #0rx: dh626+08 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/7(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>橋西雜記 ^一卷^</title>
+                        <title source="9">qiao xi za ji</title>
+                        <note source="290">(清)葉名灃撰</note>
+                        <author><persName>(清)葉名灃</persName><persName type="9">ye ming
+                              feng</persName></author>
+                        <note source="600">同治十年[1871]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000027|odh -->
+                           <!-- #0rx: dh626+09 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/7(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>蕙西先生遺稿 ^一卷^</title>
+                        <title source="9">hui xi xiang sheng yi gao</title>
+                        <note source="290">(清)邵懿辰撰</note>
+                        <author><persName>(清)邵懿辰</persName><persName type="9">shao yi
+                              chen</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000028|odh -->
+                           <!-- #0rx: dh626+10 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/8(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>張文節公遺集 ^二卷^</title>
+                        <title source="9">zhang wen jie gong yi ji</title>
+                        <note source="290">(清)張洵著</note>
+                        <author><persName>(清)張洵</persName><persName type="9">zhang
+                           xun</persName></author>
+                        <note source="600">同治十一[1872]年刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000029|odh -->
+                           <!-- #0rx: dh626+11 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/8(2)-10</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>越三子集</title>
+                        <title source="9">yue san zi ji</title>
+                        <note source="290">(淸)潘祖蔭輯</note>
+                        <author><persName>(清)潘祖蔭</persName><persName type="9">pan zu
+                           yin</persName></author>
+                        <note source="600">同治十一[1872]年刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000030|odh -->
+                           <!-- #0rx: dh626+12 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/10(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>啗敢覽館稿 ^一卷^</title>
+                        <title source="9">dan gan lan guan gao</title>
+                        <note source="290">(清)曹應鐘撰</note>
+                        <author><persName>(清)曹應鐘</persName><persName type="9">cao ying
+                              zhong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000037|odh -->
+                           <!-- #0rx: dh626+13 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/10(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>壬申消夏詩 ^一卷^</title>
+                        <title source="9">ren shen xiao xia shi</title>
+                        <note source="290">(清)潘祖蔭等輯</note>
+                        <author><persName>(清)潘祖蔭</persName><persName type="9">pan zu
+                           yin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000038|odh -->
+                           <!-- #0rx: dh626+14 -->
+                           <!-- #0rz: 第一函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/11(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>卦本圖攷 ^一卷^</title>
+                        <title source="9">gua ben tu kao</title>
+                        <note source="290">(清)胡秉虔撰</note>
+                        <author><persName>(清)胡秉虔</persName><persName type="9">hu bing
+                              qian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000039|odh -->
+                           <!-- #0rx: dh626+15 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/11(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>尚書序錄 ^一卷^</title>
+                        <title source="9">shang shu xu lu</title>
+                        <note source="290">(清)胡秉虔撰</note>
+                        <author><persName>(清)胡秉虔</persName><persName type="9">hu bing
+                              qian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000040|odh -->
+                           <!-- #0rx: dh626+16 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/12-13</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋左氏古義 ^六卷^</title>
+                        <title source="9">chun qiu zuo shi gu yi</title>
+                        <note source="290">(清)臧壽恭撰</note>
+                        <author><persName>(清)臧壽恭</persName><persName type="9">zang shou
+                              gong</persName></author>
+                        <note source="600">同治十三年[1874]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000041|odh -->
+                           <!-- #0rx: dh626+17 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/14(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>說文管見 ^三卷^</title>
+                        <title source="9">shuo wen guan jian</title>
+                        <note source="290">(清)胡秉虔撰</note>
+                        <author><persName>(清)胡秉虔</persName><persName type="9">hu bing
+                              qian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000042|odh -->
+                           <!-- #0rx: dh626+18 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/14(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>古韵論 ^三卷^</title>
+                        <title source="9">gu yun lun</title>
+                        <note source="290">(清)胡秉虔撰</note>
+                        <author><persName>(清)胡秉虔</persName><persName type="9">hu bing
+                              qian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000043|odh -->
+                           <!-- #0rx: dh626+19 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/15</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>長蘆鹽法議略 ^一卷^</title>
+                        <title source="9">chang lu yan fa yi lue</title>
+                        <title type="variant">鹽法議略</title>
+                        <title source="9" type="variant">yan fa yi lue</title>
+                        <note source="290">(清)王守基撰</note>
+                        <author><persName>(清)王守基</persName><persName type="9">wang shou
+                              ji</persName></author>
+                        <note source="600">同治癸酉[1873]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000044|odh -->
+                           <!-- #0rx: dh626+20 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/16(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>黃帝內經素問校義 ^一卷^</title>
+                        <title source="9">huang di nei jing su wen jiao yi</title>
+                        <note source="290">(清)胡澍學</note>
+                        <author><persName>(清)胡澍</persName><persName type="9">hu
+                           shu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000045|odh -->
+                           <!-- #0rx: dh626+21 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/16(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>藝芸書舍宋元本書目 ^一卷</title>
+                        <title source="9">yi yun shu she song yuan ben shu mu</title>
+                        <note source="290">(清)汪士鐘撰</note>
+                        <author><persName>(清)汪士鐘</persName><persName type="9">wang shi
+                              zhong</persName></author>
+                        <note source="600">同治十二年[1873]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000046|odh -->
+                           <!-- #0rx: dh626+22 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/17(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>玉井山館筆記 ^一卷^</title>
+                        <title source="9">yu jing shan guan bi ji</title>
+                        <title>舊游日記 ^一卷^</title>
+                        <title source="9">jiu you ri ji</title>
+                        <note source="290">(清)許宗衡撰</note>
+                        <author><persName>(清)許宗衡</persName><persName type="9">xu zong
+                              heng</persName></author>
+                        <note source="600">同治甲戌[1874]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000047|odh -->
+                           <!-- #0rx: dh626+23 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/17(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>宋四家詞選 ^一卷^</title>
+                        <title source="9">song si jia ci xuan</title>
+                        <note source="290">(清)周濟輯</note>
+                        <author><persName>(清)周濟</persName><persName type="9">zhou
+                           ji</persName></author>
+                        <note source="600">同治十二年刊[1873]</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000048|odh -->
+                           <!-- #0rx: dh626+24 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/18(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>癸酉消夏詩 ^一卷^</title>
+                        <title source="9">gui you xiao xia shi</title>
+                        <note source="290">(清)潘祖蔭輯</note>
+                        <author><persName>(清)潘祖蔭</persName><persName type="9">pan zu
+                           yin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000049|odh -->
+                           <!-- #0rx: dh626+25 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/18(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>南苑唱和詩 ^一卷^</title>
+                        <title source="9">nan yuan chang he shi</title>
+                        <note source="290">(清)潘祖蔭輯</note>
+                        <author><persName>(清)潘祖蔭</persName><persName type="9">pan zu
+                           yin</persName></author>
+                        <note source="600">同治十三年[1874]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000050|odh -->
+                           <!-- #0rx: dh626+26 -->
+                           <!-- #0rz: 第二函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/19(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>別雅訂 ^五卷^</title>
+                        <title source="9">bie ya ding</title>
+                        <note source="290">(清)許瀚撰</note>
+                        <author><persName>(清)許瀚</persName><persName type="9">xu
+                           han</persName></author>
+                        <note source="600">光緒丁丑[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000051|odh -->
+                           <!-- #0rx: dh626+27 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/19(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>許印林遺著 ^一卷^</title>
+                        <title source="9">xu yin lin yi zhu</title>
+                        <note source="290">(清)許瀚撰</note>
+                        <author><persName>(清)許瀚</persName><persName type="9">xu
+                           han</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000052|odh -->
+                           <!-- #0rx: dh626+28 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/19(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>非石日記鈔 ^一卷^</title>
+                        <title source="9">fei shi ri ji chao</title>
+                        <note source="290">(清)鈕樹玉撰</note>
+                        <note source="290">(清)王頌蔚輯</note>
+                        <author><persName>(清)鈕樹玉</persName><persName type="9">niu shu
+                           yu</persName></author>
+                        <author><persName>(清)王頌蔚</persName><persName type="9">wang song
+                              wei</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000053|odh -->
+                           <!-- #0rx: dh626+29 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/19(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>鈕非石遺文 ^一卷^</title>
+                        <title source="9">niu fei shi yi wen</title>
+                        <note source="290">(清)鈕樹玉撰</note>
+                        <author><persName>(清)鈕樹玉</persName><persName type="9">niu shu
+                           yu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000054|odh -->
+                           <!-- #0rx: dh626+30 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/20(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>炳燭室雜文 ^一卷^</title>
+                        <title source="9">bing zhu shi za wen</title>
+                        <note source="290">(淸)江藩撰</note>
+                        <note source="290">(淸)江藩</note>
+                        <note source="600">光緒三年[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000055|odh -->
+                           <!-- #0rx: dh626+31 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/20(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>天馬山房詩別錄 ^一卷</title>
+                        <title source="9">tian ma shan fang shi bie lu</title>
+                        <title type="variant">雲閒百詠</title>
+                        <title source="9" type="variant">yun jian bai yong</title>
+                        <note source="290">(清)汪巽東撰</note>
+                        <author><persName>(清)汪巽東</persName><persName type="9">wang xun
+                              dong</persName></author>
+                        <note source="600">一名「雲閒百詠」</note>
+                        <note source="600">光緒三年[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000056|odh -->
+                           <!-- #0rx: dh626+32 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/21</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>沈四山人詩錄 ^六卷附錄一卷^</title>
+                        <title source="9">shen si shan ren shi lu</title>
+                        <note source="290">(清)沈謹學撰</note>
+                        <author><persName>(清)沈謹學</persName><persName type="9">shen jin
+                              xue</persName></author>
+                        <note source="600">光緒三年[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000057|odh -->
+                           <!-- #0rx: dh626+33 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/22</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>吳郡金石目 ^一卷^</title>
+                        <title source="9">wu jun jin shi mu</title>
+                        <note source="290">(清)程祖慶編</note>
+                        <author><persName>(清)程祖慶</persName><persName type="9">cheng zu
+                              qing</persName></author>
+                        <note source="600">光緒三年[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000058|odh -->
+                           <!-- #0rx: dh626+34 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/23</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>稽瑞樓書目 ^四卷^</title>
+                        <title source="9">ji rui lou shu mu</title>
+                        <note source="290">(清)陳揆編</note>
+                        <author><persName>(清)陳揆</persName><persName type="9">chen
+                           kui</persName></author>
+                        <note source="600">光緒三年[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000059|odh -->
+                           <!-- #0rx: dh626+35 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>懷舊集 ^二卷^</title>
+                        <title source="9">huai jiu ji</title>
+                        <note source="290">(清)馮舒輯</note>
+                        <author><persName>(清)馮舒</persName><persName type="9">feng
+                           shu</persName></author>
+                        <note source="600">光緒丁丑[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000060|odh -->
+                           <!-- #0rx: dh626+36 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>愛吾廬文鈔 ^一卷^</title>
+                        <title source="9">ai wu lu wen chao</title>
+                        <note source="290">(清)呂世宜撰</note>
+                        <author><persName>(清)呂世宜</persName><persName type="9">lu shi
+                           yi</persName></author>
+                        <note source="600">光緒丁丑[1877]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000061|odh -->
+                           <!-- #0rx: dh626+37 -->
+                           <!-- #0rz: 第三函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/26(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>劉貴陽說經殘稿 ^一卷^</title>
+                        <title source="9">liu gui yang shuo jing can gao</title>
+                        <note source="290">(清)劉書年撰</note>
+                        <author><persName>(清)劉書年</persName><persName type="9">liu shu
+                              nian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000062|odh -->
+                           <!-- #0rx: dh626+38 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/26(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>劉氏遺箸 ^三卷^</title>
+                        <title source="9">liu shi yi zhu</title>
+                        <note source="290">(清)劉禧延撰</note>
+                        <author><persName>(清)劉禧延</persName><persName type="9">liu xi
+                           yan</persName></author>
+                        <note source="600">光緒癸未[1883]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000063|odh -->
+                           <!-- #0rx: dh626+39 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/28(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>百塼考 ^一卷^</title>
+                        <title source="9">bai zhuan kao</title>
+                        <note source="290">(清)呂佺孫撰</note>
+                        <author><persName>(清)呂佺孫</persName><persName type="9">lu quan
+                           sun</persName></author>
+                        <note source="600">光緒戊寅[1878]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000065|odh -->
+                           <!-- #0rx: dh626+41 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/28(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>簠齋傳古別錄 ^一卷^</title>
+                        <title source="9">fu zhai chuan gu bie lu</title>
+                        <note source="290">(清)陳介祺撰</note>
+                        <author><persName>(清)陳介祺</persName><persName type="9">chen jie
+                           qi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000066|odh -->
+                           <!-- #0rx: dh626+42 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/28(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>陳簠齋丈筆記 ^一卷手札一卷^</title>
+                        <title source="9">chen fu zhai zhang bi ji</title>
+                        <note source="290">(清)陳介祺撰</note>
+                        <author><persName>(清)陳介祺</persName><persName type="9">chen jie
+                           qi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000067|odh -->
+                           <!-- #0rx: dh626+43 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/28(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>鮑臆園丈手札 ^一卷^</title>
+                        <title source="9">bao yi yuan zhang shou zha</title>
+                        <note source="290">(清)鮑康撰</note>
+                        <author><persName>(清)鮑康</persName><persName type="9">bao
+                           kang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000068|odh -->
+                           <!-- #0rx: dh626+44 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/28(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>幽夢續影 ^一卷^</title>
+                        <title source="9">you meng xu ying</title>
+                        <note source="290">(清)朱錫綬撰</note>
+                        <author><persName>(清)朱錫綬</persName><persName type="9">zhu xi
+                           shou</persName></author>
+                        <note source="600">光緒戊寅[1878]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000069|odh -->
+                           <!-- #0rx: dh626+45 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/29(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>徐元歎先生殘稾 ^一卷^</title>
+                        <title source="9">xu yuan tan xian sheng can gao</title>
+                        <title type="variant">浪齋新舊詩</title>
+                        <title source="9" type="variant">lang zhai xin jiu shi</title>
+                        <note source="290">(明)徐波撰</note>
+                        <author><persName>(明)徐波</persName><persName type="9">xu
+                           bo</persName></author>
+                        <note source="600">一名「浪齋新舊詩」</note>
+                        <note source="600">光緒九年[1883]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000070|odh -->
+                           <!-- #0rx: dh626+46 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/29(2)-30(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>二苕詩集</title>
+                        <title source="9">er tiao shi ji</title>
+                        <note source="290">(淸)潘鍾瑞輯</note>
+                        <author><persName>(淸)潘鍾瑞</persName><persName type="9">pan zhong
+                              rui</persName></author>
+                        <note source="600">光緒九年[1883]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000071|odh -->
+                           <!-- #0rx: dh626+47 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/30(2)-31</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>石氏喬梓詩集</title>
+                        <title source="9">shi shi qiao zi shi ji</title>
+                        <note source="290">(淸)潘鍾瑞輯</note>
+                        <author><persName>(淸)潘鍾瑞</persName><persName type="9">pan zhong
+                              rui</persName></author>
+                        <note source="600">光緒九年[1883]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000074|odh -->
+                           <!-- #0rx: dh626+48 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Backhouse 216/32(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>小草庵詩鈔 ^一卷^</title>
+                        <title source="9">xiao cao an shi chao</title>
+                        <note source="290">(清)屠蘇撰</note>
+                        <author><persName>(清)屠蘇</persName><persName type="9">tu
+                           su</persName></author>
+                        <note source="600">光緒甲申[1884]刊</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20161231/00000077|odh -->
+                           <!-- #0rx: dh626+49 -->
+                           <!-- #0rz: 第四函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="800.88">叢書 雜叢類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

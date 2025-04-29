@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6302">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2870</idno>
+               </msIdentifier>
+               <head>書名:顧氏遺書 / (清)顧觀光撰<lb/>清光緒九年[1883]獨山莫祥芝上海刊民國印本<lb/>線裝8冊 ;
+                  28公分<lb/>封面題名《武陵山人遺書》<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">顧氏遺書</title>
+                     <title source="#200|9">gu shi yi shu</title>
+                     <title type="variant" source="#230">武陵山人遺書</title>
+                     <title source="#230|9" type="variant">wu ling shan ren yi shu</title>
+                     <note source="#290">(清)顧觀光撰</note>
+                     <author source="#300"><persName>(清)顧觀光</persName><persName type="9">gu guan
+                           guang</persName></author>
+                     <note source="#409">清光緒九年[1883]獨山莫祥芝上海刊民國印本</note>
+                     <note source="#600">封面題名《武陵山人遺書》</note>
+                     <msItem n="1">
+                        <title>六秝通考 ^一卷^</title>
+                        <title source="9">liu li tong kao</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:43:29|odh -->
+                        <!-- #0rx: dh559+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>九執秝解 ^一卷^</title>
+                        <title source="9">jiu zhi li jie</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:47:17|odh -->
+                        <!-- #0rx: dh559+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>囘囘秝解 ^一卷^</title>
+                        <title source="9">hui hui li jie</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:47:54|odh -->
+                        <!-- #0rx: dh559+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>算賸初編 ^一續編一卷餘編一卷^</title>
+                        <title source="9">suan sheng li jie</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:49:52|odh -->
+                        <!-- #0rx: dh559+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>九數外錄 ^一卷^</title>
+                        <title source="9">jiu shu wai lu</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:50:27|odh -->
+                        <!-- #0rx: dh559+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>神農本草經 ^四卷^</title>
+                        <title source="9">shen nong ben cao jing</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:50:57|odh -->
+                        <!-- #0rx: dh559+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>周髀算經校勘記 ^一卷^</title>
+                        <title source="9">zhou bi suan jing jiao kan ji</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:52:20|odh -->
+                        <!-- #0rx: dh559+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>傷寒雜病論補注 ^一卷^</title>
+                        <title source="9">shang han za bing lun bu zhu</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:53:52|odh -->
+                        <!-- #0rx: dh559+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>吳越春秋校勘記 ^一卷^</title>
+                        <title source="9">wu yue chun qiu jiao kan ji</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:56:04|odh -->
+                        <!-- #0rx: dh559+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>華陽國志校勘記 ^一卷^</title>
+                        <title source="9">hua yang guo zhi jiao kan ji</title>
+                        <author><persName>(清)顧觀光</persName><persName type="9">gu guan
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/12:56:39|odh -->
+                        <!-- #0rx: dh559+10 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>8 volumes.<!--線裝8冊 ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1883" type="d">1883</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150113/11:37:44|odh -->
+                        <!-- #0rr: 20190818/13:49:30-364785/119|omaster -->
+                        <!-- #0rx: dh559 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221345630107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="880.88">叢書 獨撰類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

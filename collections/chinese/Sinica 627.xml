@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6395">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 627</idno>
+               </msIdentifier>
+               <head>書名:海錄 一卷附錄九種 / (清)楊炳南撰<lb/>清道光二十二年[1842]序刊本<lb/>線裝1冊 : 地圖 ; 25公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">海錄 ^一卷附錄九種^</title>
+                     <title source="#200|9">hai lu</title>
+                     <note source="#290">(清)楊炳南撰</note>
+                     <author source="#300"><persName>(清)楊炳南</persName><persName type="9">yang bing
+                           nan</persName></author>
+                     <note source="#409">清道光二十二年[1842]序刊本</note>
+                     <msItem n="1=附錄1">
+                        <title>海島逸志摘略 ^一卷^</title>
+                        <title source="9">hai dao yi zhi zhai lue</title>
+                        <note source="290">(清)王大海撰</note>
+                        <author><persName>(清)王大海</persName><persName type="9">wang da
+                           hai</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:32:58|odh -->
+                        <!-- #0rx: dh488+1=附錄1 -->
+                     </msItem>
+                     <msItem n="2=附錄2">
+                        <title>高厚蒙求摘略 ^一卷^</title>
+                        <title source="9">gao hou meng qiu zhai lue</title>
+                        <note source="290">(清)徐朝俊撰</note>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:34:11|odh -->
+                        <!-- #0rx: dh488+2=附錄2 -->
+                     </msItem>
+                     <msItem n="3=附錄3">
+                        <title>番社采風圖考摘略 ^一卷^</title>
+                        <title source="9">fan she cai feng tu kao zhai lue</title>
+                        <note source="290">(清)六十七撰</note>
+                        <author><persName>(清)六十七</persName><persName type="9">lu shi
+                           qi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:36:14|odh -->
+                        <!-- #0rx: dh488+3=附錄3 -->
+                     </msItem>
+                     <msItem n="4=附錄4">
+                        <title>紅毛番嘆咭唎考略 ^一卷^</title>
+                        <title source="9">hong mao fan tan ji li kao lue</title>
+                        <note source="290">(清)汪文泰撰</note>
+                        <author><persName>(清)汪文泰</persName><persName type="9">wang wen
+                              tai</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:39:57|odh -->
+                        <!-- #0rx: dh488+4=附錄4 -->
+                     </msItem>
+                     <msItem n="5=附錄5">
+                        <title>崑崙 ^一卷^</title>
+                        <title source="9">kun lun</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:41:24|odh -->
+                        <!-- #0rx: dh488+5=附錄5 -->
+                     </msItem>
+                     <msItem n="6=附錄6">
+                        <title>三報壟 ^一卷^</title>
+                        <title source="9">san bao long</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:44:16|odh -->
+                        <!-- #0rx: dh488+6=附錄6 -->
+                     </msItem>
+                     <msItem n="7=附錄7">
+                        <title>瓜亞風土拾遺 ^一卷^</title>
+                        <title source="9">gua ya feng tu shi yi</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:46:26|odh -->
+                        <!-- #0rx: dh488+7=附錄7 -->
+                     </msItem>
+                     <msItem n="8=附錄8">
+                        <title>呂宋紀略 ^一卷^</title>
+                        <title source="9">lu song ji lue</title>
+                        <note source="290">(清)黃可垂撰</note>
+                        <author><persName>(清)黃可垂</persName><persName type="9">huang ke
+                              chui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:47:04|odh -->
+                        <!-- #0rx: dh488+8=附錄8 -->
+                     </msItem>
+                     <msItem n="9=附錄9">
+                        <title>臺灣紀略 ^一卷^</title>
+                        <title source="9">tai wan ji lue</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:47:41|odh -->
+                        <!-- #0rr: 20131203/13:49:19|odh -->
+                        <!-- #0rx: dh488+9=附錄9 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--線裝1冊 : 地圖 ; 25公分--><measure unit="cm"><height>25</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1842" type="d">1842</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131203/13:31:42|odh -->
+                        <!-- #0rr: 20131206/16:26:51|odh -->
+                        <!-- #0rx: dh488 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221374580107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="412.88">史部 地理類 外記</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

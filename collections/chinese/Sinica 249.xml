@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6268">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 249</idno>
+               </msIdentifier>
+               <head>書名:高厚蒙求 五集九種 / (清)徐朝俊撰<lb/>清嘉慶丁卯[1807]至道光己丑[1829]雲間徐氏刊本<lb/>線裝5冊 : 圖 ;
+                  25公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">高厚蒙求 ^五集九種^</title>
+                     <title source="#200|9">gao hou meng qiu</title>
+                     <note source="#290">(清)徐朝俊撰</note>
+                     <author source="#300"><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                     <note source="#409">清嘉慶丁卯[1807]至道光己丑[1829]雲間徐氏刊本</note>
+                     <msItem n="1">
+                        <title>天學入門 ^一卷^</title>
+                        <title source="9">tian xue ru men</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:23:45|odh -->
+                        <!-- #0rr: 20111031/12:26:26|odh -->
+                        <!-- #0rx: dh445+1 -->
+                        <!-- #0rz: 初集 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>海域大觀 ^一卷^</title>
+                        <title source="9">hai yu da guan</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:28:24|odh -->
+                        <!-- #0rx: dh445+2 -->
+                        <!-- #0rz: 二集 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>日晷圖法 ^一卷^</title>
+                        <title source="9">ri gui tu fa</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:30:33|odh -->
+                        <!-- #0rx: dh445+3 -->
+                        <!-- #0rz: 三集 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>中星表 ^一卷^</title>
+                        <title source="9">zhong xing biao</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:31:04|odh -->
+                        <!-- #0rx: dh445+4 -->
+                        <!-- #0rz: 三集 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>測夜時晷 ^一卷^</title>
+                        <title source="9">ce ye shi gui</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:31:45|odh -->
+                        <!-- #0rx: dh445+5 -->
+                        <!-- #0rz: 三集 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>自鳴鐘表圖說 ^一卷^</title>
+                        <title source="9">zi ming zhong biao tu shuo</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:32:42|odh -->
+                        <!-- #0rx: dh445+6 -->
+                        <!-- #0rz: 三集 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>天地圖儀 ^一卷^</title>
+                        <title source="9">tian di tu yi</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:33:24|odh -->
+                        <!-- #0rx: dh445+7 -->
+                        <!-- #0rz: 四集 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>揆日正方圖表 ^二卷^</title>
+                        <title source="9">kui ri zheng fang tu biao</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:34:13|odh -->
+                        <!-- #0rx: dh445+8 -->
+                        <!-- #0rz: 四集 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>高弧句股合表 ^一卷^</title>
+                        <title source="9">gao hu ju gu he biao</title>
+                        <author><persName>(清)徐朝俊</persName><persName type="9">xu chao
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:35:13|odh -->
+                        <!-- #0rx: dh445+9 -->
+                        <!-- #0rz: 五集 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>5 volumes.<!--線裝5冊 : 圖 ; 25公分--><measure unit="cm"><height>25</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1807" notAfter="1829" type="g">1807
+                        - 1829</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20111031/12:19:56|odh -->
+                        <!-- #0rr: 20130703/10:53:38|odh -->
+                        <!-- #0rx: dh445 -->
+                        <!-- #0cm: i -->
+                        <!-- #900: o -->
+                        <!-- #905: Contents in 中國叢書綜錄, 1, 731. This seems to be the first edition. S.875 and S.248 (incomplete) are both from the same blocks, which are different from those of S.249. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221369520107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="560.88">子部 天文算法類 推步 推步</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

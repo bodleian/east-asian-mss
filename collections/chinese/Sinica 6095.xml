@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6382">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6095</idno>
+               </msIdentifier>
+               <head>書名:萬充宗先生經學五書 / (清)萬斯大撰<lb/>清覆刊乾隆中萬福刊本<lb/>洋裝1冊(原線裝6冊) ;
+                  24公分<lb/>有「書業德記發兌」印記<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">萬充宗先生經學五書</title>
+                     <title source="#200|9">wan chong zong xian sheng jing xue wu shu</title>
+                     <note source="#290">(清)萬斯大撰</note>
+                     <author source="#300"><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                     <note source="#409">清覆刊乾隆中萬福刊本</note>
+                     <note source="#600">有「書業德記發兌」印記</note>
+                     <msItem n="1">
+                        <title>學禮質疑 ^二卷^</title>
+                        <title source="9">xue li zhi yi</title>
+                        <author><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:33:57|odh -->
+                        <!-- #0rx: dh502+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>禮記偶箋 ^三卷^</title>
+                        <title source="9">li ji ou jian</title>
+                        <author><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:34:46|odh -->
+                        <!-- #0rx: dh502+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>儀禮商 ^二卷附錄一卷^</title>
+                        <title source="9">yi li shang</title>
+                        <author><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:35:39|odh -->
+                        <!-- #0rx: dh502+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>周官辨非 ^一卷^</title>
+                        <title source="9">zhou guan bian fei</title>
+                        <author><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:36:05|odh -->
+                        <!-- #0rx: dh502+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>學春秋隨筆 ^十卷^</title>
+                        <title source="9">xue chun qiu sui bi</title>
+                        <author><persName>(清)萬斯大</persName><persName type="9">wan si
+                           da</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:36:45|odh -->
+                        <!-- #0rx: dh502+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--洋裝1冊(原線裝6冊) ; 24公分--><measure unit="cm"><height>24</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1796" type="e">1796</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140127/11:26:00|odh -->
+                        <!-- #0rr: 20140205/12:48:55|odh -->
+                        <!-- #0rx: dh502 -->
+                        <!-- #900: o -->
+                        <!-- #905: This edition is definitely not the original Qianlong edition, although it is a close copy. This is confirmed by comparison with several specimen pages in CALIS. It is identical with an edition in Peking University Library which is simply catalogued as "Qing". -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="100.87">經部 彙編類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="0154">0154</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6352">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 4515</idno>
+               </msIdentifier>
+               <head>書名:建安七子集 / (清)楊逢辰編<lb/>清光緒庚寅[1890]長沙楊氏坦園刊本<lb/>線裝1冊 ; 28公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">建安七子集</title>
+                     <title source="#200|9">jian an qi zi ji</title>
+                     <note source="#290">(清)楊逢辰編</note>
+                     <author source="#300"><persName>(清)楊逢辰</persName><persName type="9">yang feng
+                           chen</persName></author>
+                     <note source="#409">清光緒庚寅[1890]長沙楊氏坦園刊本</note>
+                     <editor source="#440" role="pbl"><persName>坦園</persName><persName type="9" role="pbl">tan yuan</persName></editor>
+                     <msItem n="1">
+                        <title>孔文舉集 ^一卷^</title>
+                        <title source="9">kong wen ju ji</title>
+                        <note source="290">(漢)孔融撰</note>
+                        <author><persName>(漢)孔融</persName><persName type="9">kong
+                           rong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:25:10|odh -->
+                        <!-- #0rr: 20050407/13:34:19|odh -->
+                        <!-- #0rx: dh304+1 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>陳孔璋集 ^一卷^</title>
+                        <title source="9">chen kong zhang ji</title>
+                        <note source="290">(漢)陳琳撰</note>
+                        <author><persName>(漢)陳琳</persName><persName type="9">chen
+                           lin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:26:11|odh -->
+                        <!-- #0rr: 20050407/13:34:21|odh -->
+                        <!-- #0rx: dh304+2 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>王仲宣集 ^一卷^</title>
+                        <title source="9">wang zhong xuan ji</title>
+                        <note source="290">(漢)王粲撰</note>
+                        <author><persName>(漢)王粲</persName><persName type="9">wang
+                           can</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:27:33|odh -->
+                        <!-- #0rr: 20061106/13:20:51|osn -->
+                        <!-- #0rx: dh304+3 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>徐偉長集 ^一卷^</title>
+                        <title source="9">xu wei chang ji</title>
+                        <note source="290">(漢)徐幹撰</note>
+                        <author><persName>(漢)徐幹</persName><persName type="9">xu
+                           gan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:29:04|odh -->
+                        <!-- #0rr: 20050407/13:34:27|odh -->
+                        <!-- #0rx: dh304+4 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>阮元瑜集 ^一卷^</title>
+                        <title source="9">ruan yuan yu ji</title>
+                        <note source="290">(漢)阮瑀撰</note>
+                        <author><persName>(漢)阮瑀</persName><persName type="9">ruan
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:30:47|odh -->
+                        <!-- #0rr: 20050407/13:34:31|odh -->
+                        <!-- #0rx: dh304+5 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>應德璉集 ^一卷^</title>
+                        <title source="9">ying de lian ji</title>
+                        <note source="290">(漢)應瑒撰</note>
+                        <author><persName>(漢)應瑒</persName><persName type="9">ying
+                           yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:32:26|odh -->
+                        <!-- #0rr: 20050407/13:34:33|odh -->
+                        <!-- #0rx: dh304+6 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>劉公幹集 ^一卷^</title>
+                        <title source="9">liu gong gan ji</title>
+                        <note source="290">(漢)劉楨撰</note>
+                        <author><persName>(漢)劉楨</persName><persName type="9">liu
+                           zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:33:42|odh -->
+                        <!-- #0rr: 20050407/13:34:36|odh -->
+                        <!-- #0rx: dh304+7 -->
+                        <!-- #900: o -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--線裝1冊 ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1890" type="d">1890</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20050407/13:22:36|odh -->
+                        <!-- #0rr: 20130322/16:21:29|odh -->
+                        <!-- #0rx: dh304 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="730.18">集部 總集類 斷代</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

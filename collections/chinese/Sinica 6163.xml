@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6388">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6163</idno>
+               </msIdentifier>
+               <head>書名:孫淵如先生全集 / (清)孫星衍撰<lb/>清光緒甲午[1894]湖南思賢書局刊本<lb/>線裝10冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">孫淵如先生全集</title>
+                     <title source="#200|9">sun yuan ru xian sheng quan ji</title>
+                     <note source="#290">(清)孫星衍撰</note>
+                     <author source="#300"><persName>(清)孫星衍</persName><persName type="9">sun xing
+                           yan</persName></author>
+                     <note source="#409">清光緒甲午[1894]湖南思賢書局刊本</note>
+                     <editor source="#440" role="pbl"><persName>思賢書局</persName><persName type="9" role="pbl">si xian shu ju</persName></editor>
+                     <msItem n="1">
+                        <title>芳茂山人文集</title>
+                        <title source="9">fang mao shan ren wen ji</title>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140820/13:16:37|odh -->
+                        <!-- #0rx: dh538+1 -->
+                        <msItem n="1">
+                           <title>問字堂集 ^六卷^</title>
+                           <title source="9">wen zi tang ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:18:28|odh -->
+                           <!-- #000: dh538+1+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>岱南閣集 ^二卷^</title>
+                           <title source="9">dai nan ge ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:19:06|odh -->
+                           <!-- #000: dh538+1+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>平津館文稿 ^二卷^</title>
+                           <title source="9">ping jin guan wen gao</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:19:43|odh -->
+                           <!-- #000: dh538+1+3 -->
+                        </msItem>
+
+                        <msItem n="4">
+                           <title>五松園文稿 ^一卷^</title>
+                           <title source="9">wu song yuan wen gao</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:20:08|odh -->
+                           <!-- #000: dh538+1+4 -->
+                        </msItem>
+
+                        <msItem n="5">
+                           <title>嘉穀堂集 ^一卷^</title>
+                           <title source="9">jia gu tang ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:20:34|odh -->
+                           <!-- #000: dh538+1+5 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="2">
+                        <title>芳茂山人詩錄</title>
+                        <title source="9">fang mao shan ren shi lu</title>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140820/13:17:06|odh -->
+                        <!-- #0rr: 20140820/13:21:42-367999/1|odh -->
+                        <!-- #0rx: dh538+2 -->
+                        <msItem n="1">
+                           <title>澄清堂詩稿 ^二卷^</title>
+                           <title source="9">cheng qing tang shi gao</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:23:54|odh -->
+                           <!-- #000: dh538+2+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>澄清堂續稿 ^一卷^</title>
+                           <title source="9">cheng qing tang xu gao</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/13:24:18|odh -->
+                           <!-- #000: dh538+2+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>濟上停雲集 ^一卷^</title>
+                           <title source="9">ji shang ting yun ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/14:05:05|odh -->
+                           <!-- #000: dh538+2+3 -->
+                        </msItem>
+
+                        <msItem n="4">
+                           <title>租船詠史集 ^一卷^</title>
+                           <title source="9">zu chuan yong shi ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/14:06:18|odh -->
+                           <!-- #000: dh538+2+4 -->
+                        </msItem>
+
+                        <msItem n="5">
+                           <title>冶城絜養集 ^二卷^</title>
+                           <title source="9">ye cheng jie yang ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/14:11:20|odh -->
+                           <!-- #000: dh538+2+5 -->
+                        </msItem>
+
+                        <msItem n="6">
+                           <title>冶城遺集 ^一卷^</title>
+                           <title source="9">ye cheng yi ji</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/14:13:52|odh -->
+                           <!-- #000: dh538+2+6 -->
+                        </msItem>
+
+                        <msItem n="7">
+                           <title>冶城集補遺 ^一卷^</title>
+                           <title source="9">ye cheng ji bu yi</title>
+                           <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140820/14:14:27|odh -->
+                           <!-- #000: dh538+2+7 -->
+                        </msItem>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>10 volumes.<!--線裝10冊 ; 27公分--><measure unit="cm"><height>27</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1894" type="d">1894</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140820/13:12:34|odh -->
+                        <!-- #0rr: 20140820/17:24:37-367997/19|omaster -->
+                        <!-- #0rx: dh538 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221432220107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="710.88">集部 別集類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5494">5494</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

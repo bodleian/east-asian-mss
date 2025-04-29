@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6359">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 4669</idno>
+               </msIdentifier>
+               <head>書名:蔣侑石遺書 / (清)蔣曰豫撰<lb/>清光緒三年[1877]蓮池書局刊本<lb/>線裝5冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">蔣侑石遺書</title>
+                     <title source="#200|9">jiang you shi yi shu</title>
+                     <note source="#290">(清)蔣曰豫撰</note>
+                     <author source="#300"><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                           yu</persName></author>
+                     <note source="#409">清光緒三年[1877]蓮池書局刊本</note>
+                     <editor source="#440" role="pbl"><persName>蓮池書局</persName><persName type="9" role="pbl">lian chi shu ju</persName></editor>
+                     <msItem n="1">
+                        <title>滂喜齋學錄 ^十一卷^</title>
+                        <title source="9">pang xi zhai xue lu</title>
+                        <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051222/13:26:28|odh -->
+                        <!-- #0rx: dh322+1 -->
+                        <msItem n="1">
+                           <title>詩經異文 ^四卷^</title>
+                           <title source="9">shi jing yi wen</title>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:27:10|odh -->
+                           <!-- #000: dh322+1+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>韓詩輯 ^一卷^</title>
+                           <title source="9">han shi ji</title>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:28:25|odh -->
+                           <!-- #000: dh322+1+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>論語集解校補 ^一卷^</title>
+                           <title source="9">lun yu ji jie jiao bu</title>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:29:02|odh -->
+                           <!-- #000: dh322+1+3 -->
+                        </msItem>
+
+                        <msItem n="4">
+                           <title>國語賈景伯注 ^一卷^</title>
+                           <title source="9">guo yu jia jing bo zhu</title>
+                           <note type="#290">(漢)賈逵撰</note>
+                           <note type="#290">(清)蔣曰豫輯</note>
+                           <author><persName>(漢)賈逵</persName><persName type="9">jia
+                              kui</persName></author>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:31:25|odh -->
+                           <!-- #000: dh322+1+4 -->
+                        </msItem>
+
+                        <msItem n="5">
+                           <title>離騷釋韻 ^一卷^</title>
+                           <title source="9">li sao shi yun</title>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:35:28|odh -->
+                           <!-- #000: dh322+1+5 -->
+                        </msItem>
+
+                        <msItem n="6">
+                           <title>許叔重淮南子注 ^一卷^</title>
+                           <title source="9">xu shu zhong huai nan zi zhu</title>
+                           <note type="#290">(漢)許慎撰</note>
+                           <note type="#290">(清)蔣曰豫輯</note>
+                           <author><persName>(漢)許慎</persName><persName type="9">xu
+                              shen</persName></author>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:32:57|odh -->
+                           <!-- #000: dh322+1+6 -->
+                        </msItem>
+
+                        <msItem n="7">
+                           <title>兩漢傳經表 ^二卷^</title>
+                           <title source="9">liang han chuan jing biao</title>
+                           <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051222/13:36:06|odh -->
+                           <!-- #000: dh322+1+7 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="2">
+                        <title>問奇室詩集 ^二卷續集一卷^</title>
+                        <title source="9">wen qi shi shi ji</title>
+                        <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051222/13:38:33|odh -->
+                        <!-- #0rx: dh322+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>問奇室文集 ^一卷^</title>
+                        <title source="9">wen qi shi wen ji</title>
+                        <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051222/13:38:56|odh -->
+                        <!-- #0rx: dh322+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>秋雅 ^一卷^</title>
+                        <title source="9">qiu ya</title>
+                        <author><persName>(清)蔣曰豫</persName><persName type="9">jiang yue
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051222/13:39:28|odh -->
+                        <!-- #0rx: dh322+4 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>5 volumes.<!--線裝5冊 ; 27公分--><measure unit="cm"><height>27</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1877" type="d">1877</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051222/13:24:05|odh -->
+                        <!-- #0rr: 20130523/16:01:56|odh -->
+                        <!-- #0rx: dh322 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="880.89">叢書 獨撰類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

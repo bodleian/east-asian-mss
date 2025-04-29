@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6311">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3033</idno>
+               </msIdentifier>
+               <head>書名:奇經脉訣 九卷 / (明)李時珍撰<lb/>清萬卷樓刊本<lb/>洋裝1冊(原線裝2冊) : 圖 ;
+                  26公分<lb/>書名據總目題<lb/>封面題名《撮粹擷華》<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">奇經脉訣 ^九卷^</title>
+                     <title source="#200|9">qi jing mai jue</title>
+                     <title type="variant" source="#230">撮粹擷華</title>
+                     <title source="#230|9" type="variant">cuo cui xie hua</title>
+                     <note source="#290">(明)李時珍撰</note>
+                     <author source="#300"><persName>(明)李時珍</persName><persName type="9">li shi
+                           zhen</persName></author>
+                     <note source="#409">清萬卷樓刊本</note>
+                     <editor source="#440" role="pbl"><persName>萬卷樓</persName></editor>
+                     <note source="#600">書名據總目題</note>
+                     <note source="#600">封面題名《撮粹擷華》</note>
+                     <msItem n="1">
+                        <title>奇經八脉攷 ^二卷^</title>
+                        <title source="9">qi jing ba mai kao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:33:07|odh -->
+                        <!-- #0rr: 20150323/13:33:39-377267/1|odh -->
+                        <!-- #0rx: dh571+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>脉訣攷證 ^一卷^</title>
+                        <title source="9">mai jue kao zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:36:04|odh -->
+                        <!-- #0rx: dh571+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>脉學 ^一卷^</title>
+                        <title source="9">mai xue</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:36:59|odh -->
+                        <!-- #0rx: dh571+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>四言舉要 ^一卷^</title>
+                        <title source="9">si yan ju yao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:37:44|odh -->
+                        <!-- #0rx: dh571+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>病機賦 ^一卷^</title>
+                        <title source="9">bing ji fu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:38:40|odh -->
+                        <!-- #0rx: dh571+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>辨症 ^一卷^</title>
+                        <title source="9">bian zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:39:47|odh -->
+                        <!-- #0rx: dh571+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>藥性總義 ^一卷^</title>
+                        <title source="9">yao xing zong yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:41:11|odh -->
+                        <!-- #0rx: dh571+7 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>用藥秘旨 ^一卷^</title>
+                        <title source="9">yong yao mi zhi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:41:58|odh -->
+                        <!-- #0rx: dh571+8 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>1 volume.<!--洋裝1冊(原線裝2冊) : 圖 ; 26公分--><measure unit="cm"><height>26</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1644" type="d">1644</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150323/13:29:51|odh -->
+                        <!-- #0rr: 20190703/21:20:40-367307/103|omaster -->
+                        <!-- #0rx: dh571 -->
+                        <!-- #0cm: i -->
+                        <!-- #900: o -->
+                        <!-- #905: Not a fine edition, but seems to be a very rare if not unique survival. Not recorded in 薛清錄, nor anywhere else it seems. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="550.84">子部 醫家類 醫家</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

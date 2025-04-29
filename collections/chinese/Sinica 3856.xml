@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6340">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3856</idno>
+               </msIdentifier>
+               <head>書名:暖紅室彙刻傳奇梅村樂府三種 /
+                  (民國)劉世珩輯<lb/>民國八年[1919]貴池劉氏暖紅室刊1984年揚州江蘇廣陵古籍刻印社重印《彙刻傳劇》本<lb/>線裝4冊 : 圖 ;
+                  29公分<lb/>統一書號 10100.(古)081<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">暖紅室彙刻傳奇梅村樂府三種</title>
+                     <title source="#200|9">nuan hong shi hui ke chuan qi mei cun yue fu</title>
+                     <note source="#290">(民國)劉世珩輯</note>
+                     <author source="#300"><persName>(民國)劉世珩</persName><persName type="9">liu shi
+                           heng</persName></author>
+                     <note source="#409">民國八年[1919]貴池劉氏暖紅室刊1984年揚州江蘇廣陵古籍刻印社重印《彙刻傳劇》本</note>
+                     <editor source="#440" role="pbl"><persName>暖紅室</persName><persName type="9" role="pbl">nuan hong shi</persName></editor>
+                     <editor source="#440" role="pbl"><persName>江蘇廣陵古籍刻印社</persName><persName type="9" role="pbl">jiang su guang ling gu ji ke yin
+                        she</persName></editor>
+                     <editor source="#446" role="pbl"><persName>彙刻傳劇</persName><persName type="9" role="pbl">hui ke chuan ju</persName></editor>
+                     <msItem n="1">
+                        <msItem n="1">
+                           <title>通天臺 ^一本^</title>
+                           <title source="9">tong tian tai</title>
+                           <note source="290">(清)吳偉業撰</note>
+                           <author><persName>(清)吳偉業</persName><persName type="9">wu wei
+                                 ye</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>^附^ 通天臺曲譜 ^一卷^</title>
+                           <title type="9">tong tian tai qu pu</title>
+                           <note source="#291">(民國)劉世珩定</note>
+                           <author><persName>(民國)劉世珩</persName><persName type="9">liu shi
+                                 heng</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002720|ons -->
+                        <!-- #0rr: 20130516/12:57:03|odh -->
+                        <!-- #0rx: ns0745+01 -->
+
+                     </msItem>
+                     <msItem n="2">
+                        <msItem n="1">
+                           <title>臨春閣 ^一本^</title>
+                           <title source="9">lin chun ge</title>
+                           <note source="290">(清)吳偉業撰</note>
+                           <author><persName>(清)吳偉業</persName><persName type="9">wu wei
+                                 ye</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>^附^ 臨春閣曲譜 ^一卷^</title>
+                           <title type="9">lin chun ge qu pu</title>
+                           <note source="#291">(民國)劉世珩定</note>
+                           <author><persName>(民國)劉世珩</persName><persName type="9">liu shi
+                                 heng</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002721|ons -->
+                        <!-- #0rr: 20130516/12:56:09|odh -->
+                        <!-- #0rx: ns0745+02 -->
+
+                     </msItem>
+                     <msItem n="3">
+                        <title>秣陵春 ^二卷^</title>
+                        <title source="9">mo ling chun</title>
+                        <title type="variant">雙影記</title>
+                        <title source="9" type="variant">shuang ying ji</title>
+                        <note source="290">(清)吳偉業撰</note>
+                        <author><persName>(清)吳偉業</persName><persName type="9">wu wei
+                           ye</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002722|ons -->
+                        <!-- #0rr: 20190705/22:35:02-68804/1|odh -->
+                        <!-- #0rx: ns0745+03 -->
+                        <!-- #600: 一名《雙影記》 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>4 volumes.<!--線裝4冊 : 圖 ; 29公分--><measure unit="cm"><height>29</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1919" type="d">1919</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19970617/18:05:14|odh -->
+                        <!-- #0rr: 20190818/13:49:29-113719/38|omaster -->
+                        <!-- #0rx: ns0745 -->
+                        <!-- #0cm: i -->
+                        <!-- #130: 10100.(古)081 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390470107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="765.87">集部 詞曲類 南北曲 分刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6461">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 943</idno>
+               </msIdentifier>
+               <head>書名:北徼彙編 / (清)何秋濤編<lb/>清同治四年[1865]京都龍威閣刊本<lb/>線裝6冊 ; 17公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">北徼彙編</title>
+                     <title source="#200|9">bei jiao hui bian</title>
+                     <note source="#290">(清)何秋濤編</note>
+                     <author source="#300"><persName>(清)何秋濤</persName><persName type="9">he qiu
+                           tao</persName></author>
+                     <note source="#409">清同治四年[1865]京都龍威閣刊本</note>
+                     <editor source="#440" role="pbl"><persName>龍威閣</persName><persName type="9" role="pbl">long wei ge</persName></editor>
+                     <msItem n="1">
+                        <title>皇朝文獻通考四裔考</title>
+                        <title source="9">huang chao wen xian tong kao si yi kao</title>
+                        <note source="290">(清)乾隆十二年[1747]敕撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:14:44|odh -->
+                        <!-- #0rx: dh489+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>與俄羅斯國定界之碑</title>
+                        <title source="9">yu e luo si guo ding jie zhi bei</title>
+                        <note source="290">(清)徐元文撰</note>
+                        <author><persName>(清)徐元文</persName><persName type="9">xu yuan
+                           wen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:17:17|odh -->
+                        <!-- #0rx: dh489+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>鄂羅斯傳</title>
+                        <title source="9">e luo si zhuan</title>
+                        <note source="290">(清)七十一撰</note>
+                        <author><persName>(清)七十一</persName><persName type="9">qi shi
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:19:30|odh -->
+                        <!-- #0rx: dh489+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>簷曝雜記</title>
+                        <title source="9">yan pu za ji</title>
+                        <note source="290">(清)趙翼撰</note>
+                        <author><persName>(清)趙翼</persName><persName type="9">zhao
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:20:13|odh -->
+                        <!-- #0rx: dh489+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>綏服紀略</title>
+                        <title source="9">sui fu ji lue</title>
+                        <note source="290">(清)松筠撰</note>
+                        <author><persName>(清)松筠</persName><persName type="9">song
+                           yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:21:48|odh -->
+                        <!-- #0rx: dh489+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>俄羅斯佐領考</title>
+                        <title source="9">e luo si zuo ling kao</title>
+                        <note source="290">(清)俞正燮撰</note>
+                        <author><persName>(清)俞正燮</persName><persName type="9">yu zheng
+                              xie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:23:57|odh -->
+                        <!-- #0rr: 20131210/13:25:39|odh -->
+                        <!-- #0rx: dh489+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>俄羅斯事輯</title>
+                        <title source="9">e luo si shi ji</title>
+                        <note source="290">(清)俞正燮撰</note>
+                        <author><persName>(清)俞正燮</persName><persName type="9">yu zheng
+                              xie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:26:22|odh -->
+                        <!-- #0rx: dh489+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>俄羅斯長編稿跋</title>
+                        <title source="9">e luo si chang bian gao ba</title>
+                        <note source="290">(清)俞正燮撰</note>
+                        <author><persName>(清)俞正燮</persName><persName type="9">yu zheng
+                              xie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:27:43|odh -->
+                        <!-- #0rx: dh489+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>俄羅斯事補輯</title>
+                        <title source="9">e luo si shi bu ji</title>
+                        <note source="290">(清)張穆撰</note>
+                        <author><persName>(清)張穆</persName><persName type="9">zhang
+                           mu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:28:58|odh -->
+                        <!-- #0rx: dh489+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>㐆齋籤記</title>
+                        <title source="9">yi zhai qian ji</title>
+                        <note source="290">(清)張穆撰</note>
+                        <author><persName>(清)張穆</persName><persName type="9">zhang
+                           mu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:31:35|odh -->
+                        <!-- #0rr: 20140520/11:52:00-122015/1|odh -->
+                        <!-- #0rx: dh489+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>俄羅斯國總記</title>
+                        <title source="9">e luo si guo zong ji</title>
+                        <note source="290">(清)林則徐撰</note>
+                        <author><persName>(清)林則徐</persName><persName type="9">lin ze
+                           xu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:37:36|odh -->
+                        <!-- #0rx: dh489+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>康熙乾隆俄羅斯盟聘記</title>
+                        <title source="9">kang xi qian liong e luo si meng pin ji</title>
+                        <note source="290">(清)魏源撰</note>
+                        <author><persName>(清)魏源</persName><persName type="9">wei
+                           yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:41:29|odh -->
+                        <!-- #0rx: dh489+12 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>俄羅斯方域 ^</title>
+                        <title source="9">e luo si fang yu</title>
+                        <note source="290">(清)姚瑩撰</note>
+                        <author><persName>(清)姚瑩</persName><persName type="9">yao
+                           ying</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:42:41|odh -->
+                        <!-- #0rx: dh489+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>記英俄二夷搆兵</title>
+                        <title source="9">ji ying e er yi gou bing</title>
+                        <note source="290">(清)姚瑩撰</note>
+                        <author><persName>(清)姚瑩</persName><persName type="9">yao
+                           ying</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:43:58|odh -->
+                        <!-- #0rx: dh489+14 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>俄羅斯國志略</title>
+                        <title source="9">e luo si guo zhi lue</title>
+                        <note source="290">(清)徐繼畬撰</note>
+                        <author><persName>(清)徐繼畬</persName><persName type="9">xu ji
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:47:06|odh -->
+                        <!-- #0rx: dh489+15 -->
+                     </msItem>
+                     <msItem n="16">
+                        <title>奉使俄羅斯行程錄</title>
+                        <title source="9">feng shi e luo si xing cheng lu</title>
+                        <note source="290">(清)張鵬翮撰</note>
+                        <author><persName>(清)張鵬翮</persName><persName type="9">zhang peng
+                              he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:48:37|odh -->
+                        <!-- #0rx: dh489+16 -->
+                     </msItem>
+                     <msItem n="17">
+                        <title>職方外紀</title>
+                        <title source="9">zhi fang wai ji</title>
+                        <note source="290">(明西洋)艾儒略撰</note>
+                        <author><persName>Aleni, Giulio</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:50:37|odh -->
+                        <!-- #0rx: dh489+17 -->
+                     </msItem>
+                     <msItem n="18">
+                        <title>俄羅斯進呈書籍記附目錄</title>
+                        <title source="9">e luo si jin cheng shu ji ji fu mu lu</title>
+                        <note source="290">(清)何秋濤撰</note>
+                        <author><persName>(清)何秋濤</persName><persName type="9">he qiu
+                           tao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:57:20|odh -->
+                        <!-- #0rx: dh489+18 -->
+                     </msItem>
+                     <msItem n="19">
+                        <title>異域錄 ^二卷^</title>
+                        <title source="9">yi yu lu</title>
+                        <note source="290">(清)圖理琛撰</note>
+                        <author><persName>(清)圖理琛</persName><persName type="9">tu li
+                           chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131210/13:59:17|odh -->
+                        <!-- #0rx: dh489+19 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--線裝6冊 ; 17公分--><measure unit="cm"><height>17</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1865" type="d">1865</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20120918/12:30:20|odh -->
+                        <!-- #0rr: 20131210/15:57:37|odh -->
+                        <!-- #0rx: dh489 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221430830107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="406.88">史部 地理類 雜記</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

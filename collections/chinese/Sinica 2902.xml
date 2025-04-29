@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6309">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2902</idno>
+               </msIdentifier>
+               <head>書名:道藏 存四種<lb/>明正統中刊本<lb/>折裝6冊 ; 36公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">道藏 ^存四種^</title>
+                     <title source="#200|9">dao zang</title>
+                     <note source="#409">明正統中刊本</note>
+                     <msItem n="1">
+                        <title>靈寶無量度人上經大法 ^殘二卷^</title>
+                        <title source="9">ling bao wu liang du ren shang jing da fa</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20010731/12:22:10|odh -->
+                        <!-- #0rr: 20130319/13:17:10|odh -->
+                        <!-- #0rx: dh224+1 -->
+                        <!-- #600: 全書七十二卷, 殘卷三十三﹑三十四 -->
+                        <!-- #900: or -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>靈寶領教濟度金書 ^殘二卷^</title>
+                        <title source="9">ling bao ling jiao ji du jin shu</title>
+                        <note source="290">(宋)甯本立授</note>
+                        <note source="290">(元)林偉夫編</note>
+                        <author><persName>(宋)甯本立</persName><persName type="9">ning ben
+                           li</persName></author>
+                        <author><persName>(元)林偉夫</persName><persName type="9">lin wei
+                           fu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20010731/12:27:10|odh -->
+                        <!-- #0rr: 20130319/13:18:53|odh -->
+                        <!-- #0rx: dh224+2 -->
+                        <!-- #600: 全書三百二十卷, 殘卷一百二十八﹑一百九十二 -->
+                        <!-- #900: or -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>太上黃籙齋儀 ^殘一卷^</title>
+                        <title source="9">tai shang huang lu zhai yi</title>
+                        <note source="290">(前蜀)杜光庭集</note>
+                        <author><persName>(前蜀)杜光庭</persName><persName type="9">du guang
+                              ting</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20010731/12:32:43|odh -->
+                        <!-- #0rr: 20130319/13:20:24|odh -->
+                        <!-- #0rx: dh224+3 -->
+                        <!-- #600: 全書五十八卷, 殘卷五十七 -->
+                        <!-- #900: or -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>無上黃籙大齋立成儀 ^殘一卷^</title>
+                        <title source="9">wu shang huang lu da zhai li cheng yi</title>
+                        <note source="290">(宋)留用光傳授</note>
+                        <note source="290">(宋)蔣叔輿編次</note>
+                        <author><persName>(宋)留用光</persName><persName type="9">liu yong
+                              guang</persName></author>
+                        <author><persName>(宋)蔣叔輿</persName><persName type="9">jiang shu
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20010731/12:40:30|odh -->
+                        <!-- #0rr: 20130319/13:21:07|odh -->
+                        <!-- #0rx: dh224+4 -->
+                        <!-- #600: 全書五十六卷, 殘卷五十二 -->
+                        <!-- #900: or -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--折裝6冊 ; 36公分--><measure unit="cm"><height>36</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional "accordion" (or "sutra") binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1436" type="d">1436</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20010731/12:18:45|odh -->
+                        <!-- #0rr: 20130319/14:02:31|odh -->
+                        <!-- #0rx: dh224 -->
+                        <!-- #900: or -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221306440107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="670.84">子部 道家類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

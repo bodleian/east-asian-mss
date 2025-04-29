@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6446">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 840</idno>
+               </msIdentifier>
+               <head>書名:曆算全書 存十種 / (清)梅文鼎撰<lb/>清刊本<lb/>線裝12冊 ; 24公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">曆算全書 ^存十種^</title>
+                     <title source="#200|9">li suan quan shu</title>
+                     <note source="#290">(清)梅文鼎撰</note>
+                     <author source="#300"><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                           ding</persName></author>
+                     <note source="#409">清刊本</note>
+                     <msItem n="1">
+                        <title>三角法舉要 ^五卷^</title>
+                        <title source="9">san jiao fa ju yao</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:38:59|odh -->
+                        <!-- #0rr: 20140122/11:26:08|odh -->
+                        <!-- #0rx: dh500+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>勾股闡微 ^四卷^</title>
+                        <title source="9">gou gu chan wei</title>
+                        <note source="290">(清)梅文鼎撰</note>
+                        <note source="290">(清)楊作枚補</note>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <author><persName>(清)楊作枚</persName><persName type="9">yang zuo
+                              mei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:43:15|odh -->
+                        <!-- #0rr: 20140122/11:26:58|odh -->
+                        <!-- #0rx: dh500+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>弧三角舉要 ^五卷^</title>
+                        <title source="9">hu san jiao ju yao</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:43:56|odh -->
+                        <!-- #0rr: 20140122/11:27:18|odh -->
+                        <!-- #0rx: dh500+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>塹堵測量 ^二卷^</title>
+                        <title source="9">qian du ce liang</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:44:58|odh -->
+                        <!-- #0rr: 20140122/11:27:43|odh -->
+                        <!-- #0rx: dh500+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>方圓冪積 ^一卷^</title>
+                        <title source="9">fang yuan mi ji</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:45:19|odh -->
+                        <!-- #0rr: 20140122/11:28:49|odh -->
+                        <!-- #0rx: dh500+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>幾何補編 ^殘三卷^</title>
+                        <title source="9">ji he bu bian</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:48:09|odh -->
+                        <!-- #0rr: 20190703/18:27:23-120801/1|odh -->
+                        <!-- #0rx: dh500+06 -->
+                        <!-- #600: ['本書全四卷補遺一卷, 殘卷一至三', '以上六種清雍正元年[1723]柏鄉魏荔彤編刊《兼濟堂纂刻梅勿菴先生曆算全書》本'] -->
+                        <!-- #905: Information derived from the title-page (which is identical with the specimen pages in the CALIS entries), preface, and table of contents, which has been doctored to reflect the fact that only 6 items from this edition are present. -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>環中黍尺 ^五卷^</title>
+                        <title source="9">huan zhong shu chi</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:48:44|odh -->
+                        <!-- #0rr: 20140122/11:49:28|odh -->
+                        <!-- #0rx: dh500+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>曆學駢枝 ^四卷^</title>
+                        <title source="9">li xue pian zhi</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:50:02|odh -->
+                        <!-- #0rr: 20140122/11:32:21|odh -->
+                        <!-- #0rx: dh500+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>交食蒙求訂補 ^二卷附一卷^</title>
+                        <title source="9">jiao shi meng qiu ding bu</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:55:28|odh -->
+                        <!-- #0rr: 20140122/15:17:05|odh -->
+                        <!-- #0rx: dh500+09 -->
+                        <!-- #600: 以上三種清康熙中刊本 -->
+                        <!-- #905: I think these three items can be identified with the Kangxi edition whose contents are listed in the Naikaku catalogue (1956 edn, 241上), as their juan numbers (and also the title of the work in this record) correspond; they do not correspond with the listing of the Yongzheng edition in 中國叢書綜錄 732, and are certainly not from the later 梅氏叢書輯要 (中國叢書綜錄 733). Also, the works from the Yongzheng edition all have the congshu title 「兼濟堂纂刻梅勿菴先生曆算全書」 printed before the first juan caption of each individual work (as in the attached image); those from what I think is the Kangxi edition don't. -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>方程論 ^六卷^</title>
+                        <title source="9">fang cheng lun</title>
+                        <author><persName>(清)梅文鼎</persName><persName type="9">mei wen
+                              ding</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:56:08|odh -->
+                        <!-- #0rr: 20190703/18:26:36-120800/1|odh -->
+                        <!-- #0rx: dh500+10 -->
+                        <!-- #446: 梅氏曆算叢書|9mei shi li suan cong shu -->
+                        <!-- #600: 清康熙中刊《梅氏曆算叢書》本 -->
+                        <!-- #905: 梅氏曆算叢書 is given the date 乾隆元年[1736] in the Naikaku catalogue (1956 edn, 241上), but it must be earlier (or at least, individual works such as this one must be earlier), as this item bears a manuscript note dated Kangxi 43 (1702). -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>12 volumes.<!--線裝12冊 ; 24公分--><measure unit="cm"><height>24</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「敬亭」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1723" type="d">1723</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140121/15:36:15|odh -->
+                        <!-- #0rr: 20190930/22:17:23-120802/90|omaster -->
+                        <!-- #0rx: dh500 -->
+                        <!-- #900: o -->
+                        <!-- #905: Ten works from copies of three different editions, details of which are noted in the analytic records. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="558.87">子部 天文算法類 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

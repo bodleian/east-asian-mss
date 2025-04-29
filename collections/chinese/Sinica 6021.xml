@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6374">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6021</idno>
+               </msIdentifier>
+               <head>書名:王氏說文三種 / (清)王筠撰<lb/>清同治四年[1865]安邱王氏刊本<lb/>洋裝6冊(原線裝29冊) ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">王氏說文三種</title>
+                     <title source="#200|9">wang shi shuo wen si zhong</title>
+                     <note source="#290">(清)王筠撰</note>
+                     <author source="#300"><persName>(清)王筠</persName><persName type="9">wang
+                           yun</persName></author>
+                     <note source="#409">清同治四年[1865]安邱王氏刊本</note>
+                     <msItem n="1">
+                        <title>說文解字句讀 ^三十卷補正三十卷^</title>
+                        <title source="9">shuo wen jie zi ju dou</title>
+                        <author><persName>(清)王筠</persName><persName type="9">wang
+                           yun撰</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130515/11:22:13|odh -->
+                        <!-- #0rx: dh466+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>說文繫傳校錄 ^三十卷^</title>
+                        <title source="9">shuo wen xi zhuan jiao lu</title>
+                        <author><persName>(清)王筠</persName><persName type="9">wang
+                           yun撰</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130515/11:22:57|odh -->
+                        <!-- #0rx: dh466+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>說文釋例 ^二十卷^</title>
+                        <title source="9">shuo wen shi li</title>
+                        <author><persName>(清)王筠</persName><persName type="9">wang
+                           yun撰</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130515/11:23:25|odh -->
+                        <!-- #0rx: dh466+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>^附^ 文字蒙求 ^四卷^</title>
+                        <title source="9">wen zi meng qiu</title>
+                        <author><persName>(清)王筠</persName><persName type="9">wang
+                           yun撰</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130515/11:25:13|odh -->
+                        <!-- #0rr: 20130515/11:49:26|odh -->
+                        <!-- #0rx: dh466+4 -->
+                        <!-- #600: 道光中刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--洋裝6冊(原線裝29冊) ; 27公分--><measure unit="cm"><height>27</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1865" type="d">1865</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130515/11:35:41|odh -->
+                        <!-- #0rr: 20130520/12:04:11|odh -->
+                        <!-- #0rx: dh466 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="242.88">經部 小學類 字書 說文</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5098">5098</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

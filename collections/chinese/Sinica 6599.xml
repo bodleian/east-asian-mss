@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6411">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6599</idno>
+               </msIdentifier>
+               <head>書名:庸盦全集 / (清)薛福成撰<lb/>清光緒辛丑[1901]上海書局石印本<lb/>線裝11冊 ;
+                  17公分<lb/>有《庸庵文編卷二》二部<lb/>缺《籌洋芻議》一種<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">庸盦全集</title>
+                     <title source="#200|9">yong an quan ji</title>
+                     <title type="variant" source="#230">庸庵全集</title>
+                     <title source="#230|9" type="variant">yong an quan ji</title>
+                     <note source="#290">(清)薛福成撰</note>
+                     <author source="#300"><persName>(清)薛福成</persName><persName type="9">xue fu
+                           cheng</persName></author>
+                     <note source="#409">清光緒辛丑[1901]上海書局石印本</note>
+                     <editor source="#440" role="pbl"><persName>上海書局</persName><persName type="9" role="pbl">shang hai shu ju</persName></editor>
+                     <note source="#600">有《庸庵文編卷二》二部</note>
+                     <note source="#600">缺《籌洋芻議》一種</note>
+                     <msItem n="1">
+                        <title>庸庵文編 ^四卷續編二卷外編四卷^</title>
+                        <title source="9">yong an wen bian</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000406/17:27:09|omw -->
+                        <!-- #0rr: 20170612/17:06:01-84334/1|odh -->
+                        <!-- #0rx: mw024+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>庸盦海外文編 ^四卷^</title>
+                        <title source="9">yong an hai wai wen bian</title>
+                        <title type="variant">海外文編</title>
+                        <title source="9" type="variant">hai wai wen bian</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000406/17:31:43|omw -->
+                        <!-- #0rr: 20170612/17:34:20-84354/1|odh -->
+                        <!-- #0rx: mw024+2 -->
+                        <!-- #440: 醉六堂|p上海|d1897|9zui liu tang -->
+                        <!-- #600: 光緒丁酉[1897]上海醉六堂石印 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>出使英法義比日記 ^六卷^</title>
+                        <title source="9">chu shi ying fa yi bi ri ji</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000406/17:33:05|omw -->
+                        <!-- #0rr: 20170612/17:35:58-84257/1|odh -->
+                        <!-- #0rx: mw024+3 -->
+                        <!-- #440: 醉六堂|p上海|d1892|9zui liu tang -->
+                        <!-- #600: 光緒壬辰[1892]上海醉六堂石印 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>11 volume.<!--線裝11冊 ; 17公分--><measure unit="cm"><height>17</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「賀氏□子」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1901" type="d">1901</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000406/17:07:39|omw -->
+                        <!-- #0rr: 20191009/21:04:53-418062/14|omaster -->
+                        <!-- #0rx: mw024 -->
+                        <!-- #900: o -->
+                        <!-- #905: 12 fascicles are present, but one is a duplicate of 庸庵文編卷二, presumably selected in error when the copy was being assembled instead of the missing item. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="860.89">叢書 氏族類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

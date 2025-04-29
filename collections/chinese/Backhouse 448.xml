@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 448</idno>
+               </msIdentifier>
+               <head>書名:吾學編 / (明)鄭曉撰<lb/>明萬曆己亥[1599]鄭心材重刊本<lb/>線裝36冊 ; 28公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">吾學編</title>
+                     <title source="#200|9">wu xue bian</title>
+                     <note source="#290">(明)鄭曉撰</note>
+                     <author source="#300"><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                     <note source="#409">明萬曆己亥[1599]鄭心材重刊本</note>
+                     <msItem n="1">
+                        <title>皇明大政記 ^十卷^</title>
+                        <title source="9">huang ming da zheng ji</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/11:52:37|odh -->
+                        <!-- #0rr: 20030410/12:14:10|odh -->
+                        <!-- #0rx: dh254+01 -->
+                        <!-- #600: 卷一至四以隆慶元年[1567]海鹽鄭氏原刊本配補 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>建文遜國記 ^一卷^</title>
+                        <title source="9">jian wen xun guo ji</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/11:53:26|odh -->
+                        <!-- #0rr: 20030408/11:57:24|odh -->
+                        <!-- #0rx: dh254+02 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>皇明同姓諸王傳 ^三卷^</title>
+                        <title source="9">huang ming tong xing zhu wang zhuan</title>
+                        <title>^附^ 異姓三王傳 ^一卷^</title>
+                        <title source="9">yi xing san wang zhuan</title>
+                        <title>^孔氏世家^ ^一卷^</title>
+                        <title source="9">kong shi shi jia</title>
+                        <title>同姓王表 ^二卷圖二卷^</title>
+                        <title source="9">tong xin wang biao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/11:56:55|odh -->
+                        <!-- #0rr: 20030408/11:57:34|odh -->
+                        <!-- #0rx: dh254+03 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>皇明異姓諸王傳 ^二卷表一卷^</title>
+                        <title source="9">huang ming yi xing zhu wang zhuan</title>
+                        <title>^附^ 皇明恩澤侯表 ^一卷^</title>
+                        <title source="9">huang ming en zu hou biao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/11:59:34|odh -->
+                        <!-- #0rx: dh254+04 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>皇明直文淵閣諸臣表 ^一卷^</title>
+                        <title source="9">huang ming zhi wen yuan ge zhu chen biao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:00:44|odh -->
+                        <!-- #0rx: dh254+05 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>兩京典銓尚書表 ^一卷^</title>
+                        <title source="9">liang jing dian quan shang shu biao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:01:53|odh -->
+                        <!-- #0rx: dh254+06 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>皇明名臣記 ^三十卷^</title>
+                        <title source="9">huang ming ming chen ji</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:02:34|odh -->
+                        <!-- #0rx: dh254+07 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>建文遜國臣記 ^八卷^</title>
+                        <title source="9">jian wen xun guo chen ji</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:03:27|odh -->
+                        <!-- #0rx: dh254+08 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>皇明地理述 ^二卷^</title>
+                        <title source="9">huang ming di li shu</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:03:59|odh -->
+                        <!-- #0rr: 20030408/12:04:28|odh -->
+                        <!-- #0rx: dh254+10 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>皇明三禮述 ^二卷^</title>
+                        <title source="9">huang ming san li shu</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:04:49|odh -->
+                        <!-- #0rx: dh254+11 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>皇明百官述 ^二卷表一卷^</title>
+                        <title source="9">huang ming bai guan shu</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:05:23|odh -->
+                        <!-- #0rx: dh254+12 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>皇明四夷考 ^二卷^</title>
+                        <title source="9">huang ming si yi kao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:06:11|odh -->
+                        <!-- #0rx: dh254+13 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>皇明北虜考 ^一卷^</title>
+                        <title source="9">huang ming bei lu kao</title>
+                        <author><persName>(明)鄭曉</persName><persName type="9">zheng
+                           xiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/12:10:16|odh -->
+                        <!-- #0rx: dh254+14 -->
+                        <!-- #900: o -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>36 volumes.<!--線裝36冊 ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「居俟軒」等印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1599" type="d">1599</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030408/11:50:25|odh -->
+                        <!-- #0rr: 20190930/22:17:23-124966/96|omaster -->
+                        <!-- #0rx: dh254 -->
+                        <!-- #900: ors -->
+                        <!-- #905: This edition has been reproduced in the series 四庫禁毀書叢刊. The date is taken from Zheng Xincai's 「重刻後語」, which is not found in the reproduction. The Backhouse copy is initially confusing, as having lost its prefatory material and the first four juan of the first work, 「皇明大政記」, these have been supplied from a copy of the first edition (of 隆慶元年, 1567) and lack the owner's seal 「魏氏雲溫藏書畫印」. The two editions are alike in format (see Princeton ctalogue - Wang Zhongmin's description of the Longqing edition is wrong). -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="332.84.84">史部 別史類 斷代</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1325 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6429">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6745</idno>
+               </msIdentifier>
+               <head>書名:古經解彙函 ; 附 小學彙函 ; 續附十種 / (清)鍾謙鈞等輯<lb/>清光緒戊子[1888]上海蜚英館石印本<lb/>線裝20冊 ;
+                  20公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">古經解彙函</title>
+                     <title source="#200|9">gu jing jie hui han</title>
+                     <title source="#200">^附^ 小學彙函</title>
+                     <title source="#200|9">xiao xue hui han</title>
+                     <title source="#200">續附十種</title>
+                     <title source="#200|9">xu fu shi zhong</title>
+                     <note source="#290">(清)鍾謙鈞等輯</note>
+                     <author source="#300"><persName>(清)鍾謙鈞</persName><persName type="9">zhong qian
+                           jun</persName></author>
+                     <note source="#409">清光緒戊子[1888]上海蜚英館石印本</note>
+                     <editor source="#440" role="pbl"><persName>蜚英館</persName><persName type="9" role="pbl">fei ying guan</persName></editor>
+                     <msItem n="38">
+                        <title>字林考逸 ^八卷^</title>
+                        <title source="9">zi lin kao yi</title>
+                        <note source="290">(清)任大椿撰</note>
+                        <author><persName>(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181016/00000046|odh -->
+                        <!-- #0rx: dh803+38 -->
+                        <!-- #0rz: 續附十種 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>20 volumes.<!--線裝20冊 ; 20公分--><measure unit="cm"><height>20</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1888" type="d">1888</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/12:26:29|odh -->
+                        <!-- #0rr: 20190208/18:16:24-445734/104|omaster -->
+                        <!-- #0rx: dh803 -->
+                        <!-- #900: oa -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/1(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>鄭氏周易注 ^三卷^</title>
+                        <title source="9">zheng shi zhou yi zhu</title>
+                        <note source="290">(漢)鄭玄撰</note>
+                        <note source="290">(宋)王應麟撰集</note>
+                        <note source="290">(清)惠棟增補</note>
+                        <note source="290">(清)孫堂重校</note>
+                        <author><persName>(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author><persName>(宋)王應麟</persName><persName type="9">wang ying
+                              lin</persName></author>
+                        <author><persName>(清)惠棟</persName><persName type="9">hui
+                           dong</persName></author>
+                        <author><persName>(清)孫堂</persName><persName type="9">sun
+                           tang</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>鄭氏周易注補遺^一卷^</title>
+                        <title type="9">zheng shi zhou yi zhu bu yi</title>
+                        <note source="#291">(清)孫堂撰</note>
+                        <author><persName>(清)孫堂</persName><persName type="9">sun
+                           tang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000001|odh -->
+                           <!-- #0rx: dh803+01 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/1(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>陸氏周易述 ^一卷^</title>
+                        <title source="9">lu shi zhou yi shu</title>
+                        <note source="290">(吳)陸績撰</note>
+                        <note source="290">(明)姚士麟輯</note>
+                        <note source="290">(清)孫堂增補</note>
+                        <author><persName>(吳)陸績</persName><persName type="9">lu
+                           ji</persName></author>
+                        <author><persName>(明)姚士麟</persName><persName type="9">yao shi
+                           lin</persName></author>
+                        <author><persName>(清)孫堂</persName><persName type="9">sun
+                           tang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000002|odh -->
+                           <!-- #0rx: dh803+02 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/2(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>周易集解 ^十七卷^</title>
+                        <title source="9">zhou yi ji jie</title>
+                        <note source="290">(唐)李鼎祚撰</note>
+                        <author><persName>(唐)李鼎祚</persName><persName type="9">li ding
+                           zuo</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000003|odh -->
+                           <!-- #0rx: dh803+03 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>周易口訣義 ^六卷^</title>
+                        <title source="9">zhou yi kou jue yi</title>
+                        <note source="290">(唐)史徵撰</note>
+                        <author><persName>(唐)史徵</persName><persName type="9">shi
+                           zheng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000004|odh -->
+                           <!-- #0rx: dh803+04 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/3(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>易緯八種</title>
+                        <title source="9">yi wei ba zhong</title>
+                        <note source="290">(漢)鄭玄注</note>
+                        <author><persName>(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000005|odh -->
+                           <!-- #0rx: dh803+05 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/3(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>尚書大傳 ^三卷^</title>
+                        <title source="9">shang shu da zhuan</title>
+                        <note source="290">(漢)伏勝撰</note>
+                        <note source="290">(漢)鄭玄注</note>
+                        <note source="290">(清)陳壽祺輯校</note>
+                        <author><persName>(漢)伏勝</persName><persName type="9">fu
+                           sheng</persName></author>
+                        <author><persName>(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author><persName>(清)陳壽祺</persName><persName type="9">chen shou
+                              qi</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>['^附^ 尚書大傳序錄 ^一卷^</title>
+                        <title type="9">shang shu da zhuan xu lu', '尚書大傳辨譌 ^一卷^</title>
+                        <note source="#291">(清)陳壽祺撰</note>
+                        <author><persName>(清)陳壽祺</persName><persName type="9">chen shou
+                              qi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000014|odh -->
+                           <!-- #0rx: dh803+06 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/4(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>韓詩外傳 ^十卷^</title>
+                        <title source="9">han shi wai zhuan</title>
+                        <note source="290">(漢)韓嬰撰</note>
+                        <note source="290">(清)周廷寀校注</note>
+                        <author><persName>(漢)韓嬰</persName><persName type="9">han
+                           ying</persName></author>
+                        <author><persName>(清)周廷寀</persName><persName type="9">zhou ting
+                              cai</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>韓詩外傳校注拾遺 ^一卷^</title>
+                        <title type="9">han shi wai zhuan jiao zhu shi yi</title>
+                        <note source="#291">(清)周宗杬輯</note>
+                        <author><persName>(清)周宗杬</persName><persName type="9">zhou zong
+                              yuan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000015|odh -->
+                           <!-- #0rx: dh803+07 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/4(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>毛詩草木鳥獸蟲魚疏 ^二卷^</title>
+                        <title source="9">mao shi cao mu niao shou chong yu shu</title>
+                        <note source="290">(吳)陸璣撰</note>
+                        <note source="290">(清)丁晏校正</note>
+                        <author><persName>(吳)陸璣</persName><persName type="9">lu
+                           ji</persName></author>
+                        <author><persName>(清)丁晏</persName><persName type="9">ding
+                           yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000016|odh -->
+                           <!-- #0rx: dh803+08 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/4(3)-5(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋繁露 ^十七卷^</title>
+                        <title source="9">chun qiu fan lu</title>
+                        <note source="290">(漢)董仲舒撰</note>
+                        <note source="290">(清)盧文弨校</note>
+                        <author><persName>(漢)董仲舒</persName><persName type="9">dong zhong
+                              shu</persName></author>
+                        <author><persName>(清)盧文弨</persName><persName type="9">lu wen
+                           chao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000017|odh -->
+                           <!-- #0rx: dh803+09 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/5(2)-6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋釋例 ^十五卷^</title>
+                        <title source="9">chun qiu shi li</title>
+                        <note source="290">(晉)杜預撰</note>
+                        <note source="290">(清)莊述祖, (清)孫星衍同校</note>
+                        <author><persName>(晉)杜預</persName><persName type="9">du
+                           yu</persName></author>
+                        <author><persName>(清)莊述祖</persName><persName type="9">zhuang shu
+                              zu</persName></author>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000018|odh -->
+                           <!-- #0rx: dh803+10 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/7</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋啖趙集傳纂例 ^十卷^</title>
+                        <title source="9">chun qiu dan zhao ji zhuan zuan li</title>
+                        <note source="290">(唐)陸淳撰</note>
+                        <author><persName>(唐)陸淳</persName><persName type="9">lu
+                           chun</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000019|odh -->
+                           <!-- #0rx: dh803+11 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/8(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋微旨 ^三卷^</title>
+                        <title source="9">chun qiu wei zhi</title>
+                        <note source="290">(唐)陸淳撰</note>
+                        <author><persName>(唐)陸淳</persName><persName type="9">lu
+                           chun</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000020|odh -->
+                           <!-- #0rx: dh803+12 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/8(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋啖趙二先生集傳辯疑 ^十卷^</title>
+                        <title source="9">chun qiu dan zhao er xian sheng ji zhuan bian yi</title>
+                        <note source="290">(唐)陸淳撰</note>
+                        <author><persName>(唐)陸淳</persName><persName type="9">lu
+                           chun</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000021|odh -->
+                           <!-- #0rx: dh803+13 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/9(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>論語集解義疏 ^十卷^</title>
+                        <title source="9">lun yu ji jie yi shu</title>
+                        <note source="290">(魏)何晏集解</note>
+                        <note source="290">(梁)皇侃義疏</note>
+                        <author><persName>(魏)何晏</persName><persName type="9">he
+                           yan</persName></author>
+                        <author><persName>(梁)皇侃</persName><persName type="9">huang
+                           kan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000022|odh -->
+                           <!-- #0rx: dh803+14 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/9(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>論語筆解 ^二卷^</title>
+                        <title source="9">lun yu bi jie</title>
+                        <note source="290">(唐)韓愈, (唐)李翱撰</note>
+                        <author><persName>(唐)韓愈</persName><persName type="9">han
+                           yu</persName></author>
+                        <author><persName>(唐)李翱</persName><persName type="9">li
+                           ao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000023|odh -->
+                           <!-- #0rx: dh803+15 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/9(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>鄭志 ^三卷補遺一卷^</title>
+                        <title source="9">zheng zhi</title>
+                        <note source="290">(漢)鄭玄撰</note>
+                        <note source="290">(魏)鄭小同編</note>
+                        <note source="290">(清)王復輯</note>
+                        <note source="290">(清)武億校</note>
+                        <author><persName>(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author><persName>(魏)鄭小同</persName><persName type="9">zheng xiao
+                              tong</persName></author>
+                        <author><persName>(清)王復</persName><persName type="9">wang
+                           fu</persName></author>
+                        <author><persName>(清)武億</persName><persName type="9">wu
+                           yi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000024|odh -->
+                           <!-- #0rx: dh803+16 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/10(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>輶軒使者絕代語釋別國方言 ^十三卷^</title>
+                        <title source="9">you xuan shi zhe jue dai yu shi bie guo fang yan</title>
+                        <note source="290">(漢)揚雄記</note>
+                        <note source="290">(晉)郭璞注</note>
+                        <author><persName>(漢)揚雄</persName><persName type="9">yang
+                           xiong</persName></author>
+                        <author><persName>(晉)郭璞</persName><persName type="9">guo
+                           pu</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>方言校正補遺 ^一卷^</title>
+                        <title type="9">fang yan jiao zheng bu yi</title>
+                        <note source="#291">(清)盧文弨撰</note>
+                        <author><persName>(清)盧文弨</persName><persName type="9">lu wen
+                           chao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000025|odh -->
+                           <!-- #0rx: dh803+17 -->
+                           <!-- #0rz: 小學彙函 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/10(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>釋名 ^八卷^</title>
+                        <title source="9">shi ming</title>
+                        <note source="290">(漢)劉熙撰</note>
+                        <note source="290">(清)吳志忠校</note>
+                        <author><persName>(漢)劉熙</persName><persName type="9">liu
+                           xi</persName></author>
+                        <author><persName>(清)吳志忠</persName><persName type="9">wu zhi
+                              zhong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000026|odh -->
+                           <!-- #0rx: dh803+18 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/10(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>廣雅 ^十卷^</title>
+                        <title source="9">guang ya</title>
+                        <note source="290">(魏)張揖撰</note>
+                        <note source="290">(隋)曹憲音</note>
+                        <author><persName>(魏)張揖</persName><persName type="9">zhang
+                           yi</persName></author>
+                        <author><persName>(隋)曹憲</persName><persName type="9">cao
+                           xian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000027|odh -->
+                           <!-- #0rx: dh803+19 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/11(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>匡謬正俗 ^八卷^</title>
+                        <title source="9">kuang miu zheng su</title>
+                        <note source="290">(唐)顏師古撰</note>
+                        <author><persName>(唐)顏師古</persName><persName type="9">yan shi
+                           gu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000028|odh -->
+                           <!-- #0rx: dh803+20 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/11(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>急就篇 ^四卷^</title>
+                        <title source="9">ji jiu pian</title>
+                        <note source="290">(漢)史游撰</note>
+                        <note source="290">(唐)顏師古注</note>
+                        <note source="290">(宋)王應麟補注</note>
+                        <author><persName>(漢)史游</persName><persName type="9">shi
+                           you</persName></author>
+                        <author><persName>(唐)顏師古</persName><persName type="9">yan shi
+                           gu</persName></author>
+                        <author><persName>(宋)王應麟</persName><persName type="9">wang ying
+                              lin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000029|odh -->
+                           <!-- #0rx: dh803+21 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/11(3)-12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>說文解字 ^十五卷^</title>
+                        <title source="9">shuo wen jie zi</title>
+                        <note source="290">(漢)許慎撰</note>
+                        <note source="290">(宋)徐鉉等校定</note>
+                        <author><persName>(漢)許慎</persName><persName type="9">xu
+                           shen</persName></author>
+                        <author><persName>(宋)徐鉉</persName><persName type="9">xu
+                           xuan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000030|odh -->
+                           <!-- #0rx: dh803+22 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/13-14</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>說文解字繫傳 ^四十卷^</title>
+                        <title source="9">shuo wen jie zi xi zhuan</title>
+                        <note source="290">(南唐)徐鍇撰</note>
+                        <author><persName>(南唐)徐鍇</persName><persName type="9">xu
+                           kai</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>說文解字繫傳校勘記 ^三卷^</title>
+                        <title type="9">shuo wen jie zi xi zhuan jiao kan ji</title>
+                        <note source="#291">(清)祁寯藻撰</note>
+                        <author><persName>(清)祁寯藻</persName><persName type="9">qi jun
+                           zao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000031|odh -->
+                           <!-- #0rx: dh803+23 -->
+                           <!-- #0rz: 小學彙函 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/15(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>說文解字篆韻譜 ^五卷附錄一卷^</title>
+                        <title source="9">shuo wen jie zi zhuan yun pu</title>
+                        <note source="290">(南唐)徐鍇撰</note>
+                        <author><persName>(南唐)徐鍇</persName><persName type="9">xu
+                           kai</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000032|odh -->
+                           <!-- #0rx: dh803+24 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/15(2)-16(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>大廣益會玉篇 ^三十卷^</title>
+                        <title source="9">da guang yi hui yu pian</title>
+                        <note source="290">(梁)顧野王撰</note>
+                        <note source="290">(宋)陳彭年等奉敕重修</note>
+                        <author><persName>(梁)顧野王</persName><persName type="9">gu ye
+                           wang</persName></author>
+                        <author><persName>(宋)陳彭年</persName><persName type="9">chen peng
+                              nian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000033|odh -->
+                           <!-- #0rx: dh803+25 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/16(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>干祿字書 ^一卷^</title>
+                        <title source="9">gan lu zi shu</title>
+                        <note source="290">(唐)顏元孫撰</note>
+                        <author><persName>(唐)顏元孫</persName><persName type="9">yan yuan
+                              sun</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000034|odh -->
+                           <!-- #0rx: dh803+26 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/16(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>五經文字 ^三卷^</title>
+                        <title source="9">wu jing wen zi</title>
+                        <note source="290">(唐)張參撰</note>
+                        <author><persName>(唐)張參</persName><persName type="9">zhang
+                           can</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000035|odh -->
+                           <!-- #0rx: dh803+27 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/16(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>新加九經字樣 ^一卷^</title>
+                        <title source="9">xin jia jiu jing zi yang</title>
+                        <note source="290">(唐)唐玄度撰</note>
+                        <author><persName>(唐)唐玄度</persName><persName type="9">tang xuan
+                              du</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000036|odh -->
+                           <!-- #0rx: dh803+28 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/17</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>廣韻 ^五卷^</title>
+                        <title source="9">guang yun</title>
+                        <note source="290">(宋)陳彭年等奉敕重修</note>
+                        <author><persName>(宋)陳彭年</persName><persName type="9">chen peng
+                              nian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000037|odh -->
+                           <!-- #0rx: dh803+29 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/18</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>廣韻 ^五卷^</title>
+                        <title source="9">guang yun</title>
+                        <note source="290">(宋)陳彭年等奉敕重修</note>
+                        <author><persName>(宋)陳彭年</persName><persName type="9">chen peng
+                              nian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000038|odh -->
+                           <!-- #0rx: dh803+30 -->
+                           <!-- #0rz: 小學彙函 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>五經異義疏證 ^三卷^</title>
+                        <title source="9">wu jing yi yi shu zheng</title>
+                        <note source="290">(清)陳壽祺撰</note>
+                        <author><persName>(清)陳壽祺</persName><persName type="9">chen shou
+                              qi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000039|odh -->
+                           <!-- #0rx: dh803+31 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1">
+                        <title>古文尚書 ^十卷^</title>
+                        <title source="9">gu wen shang shu</title>
+                        <note source="290">(漢)馬融, (漢)鄭玄注</note>
+                        <note source="290">(宋)王應麟撰集</note>
+                        <note source="290">(清)孫星衍補集</note>
+                        <author><persName>(漢)馬融</persName><persName type="9">ma
+                           rong</persName></author>
+                        <author><persName>(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author><persName>(宋)王應麟</persName><persName type="9">wang ying
+                              lin</persName></author>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                     </msItem>
+                     <msItem n="2">
+                        <title>尚書逸文 ^二卷^</title>
+                        <title type="9">shang shu yi wen</title>
+                        <note source="#291">(清)江聲撰集</note>
+                        <note source="#291">(清)孫星衍補訂</note>
+                        <author><persName>(清)江聲</persName><persName type="9">jiang
+                           sheng</persName></author>
+                        <author><persName>(清)孫星衍</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000040|odh -->
+                           <!-- #0rx: dh803+32 -->
+                           <!-- #0rz: 續附十種 -->
+
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>魯詩故 ^三卷^</title>
+                        <title source="9">lu shi gu</title>
+                        <note source="290">(漢)申培撰</note>
+                        <author><persName>(漢)申培</persName><persName type="9">shen
+                           pei</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000041|odh -->
+                           <!-- #0rx: dh803+33 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>齊詩傳 ^二卷^</title>
+                        <title source="9">qi shi zhuan</title>
+                        <note source="290">(漢)后蒼撰</note>
+                        <author><persName>(漢)后蒼</persName><persName type="9">hou
+                           cang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000042|odh -->
+                           <!-- #0rx: dh803+34 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>韓詩故 ^二卷內傳一卷詩說一卷^</title>
+                        <title source="9">han shi gu</title>
+                        <note source="290">(漢)韓嬰撰</note>
+                        <author><persName>(漢)韓嬰</persName><persName type="9">han
+                           ying</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000043|odh -->
+                           <!-- #0rx: dh803+35 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/19(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>薛君韓詩章句 ^二卷^</title>
+                        <title source="9">xue jun han shi zhang ju</title>
+                        <note source="290">(漢)薛漢撰</note>
+                        <author><persName>(漢)薛漢</persName><persName type="9">xue
+                           han</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000044|odh -->
+                           <!-- #0rx: dh803+36 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/20(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>月令問答 ^一卷^</title>
+                        <title source="9">yue ling wen da</title>
+                        <title>月令章句 ^一卷^</title>
+                        <title source="9">yue ling zhang ju</title>
+                        <note source="290">(漢)蔡邕撰</note>
+                        <author><persName>(漢)蔡邕</persName><persName type="9">cai
+                           yong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000045|odh -->
+                           <!-- #0rx: dh803+37 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/20(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>倉頡篇 ^三卷^</title>
+                        <title source="9">cang jie pian</title>
+                        <note source="290">(清)孫星衍學</note>
+                        <author><persName>(清)孫星衍</persName><persName type="9">sun xing
+                              yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000047|odh -->
+                           <!-- #0rx: dh803+39 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6745/20(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>原本玉篇 ^一卷^</title>
+                        <title source="9">yuan ben yu pian</title>
+                        <note source="290">(梁)顧野王撰</note>
+                        <author><persName>(梁)顧野王</persName><persName type="9">gu ye
+                           wang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20181016/00000048|odh -->
+                           <!-- #0rx: dh803+40 -->
+                           <!-- #0rz: 續附十種 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="280.88">經部 總義類 群經</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6438">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 794</idno>
+               </msIdentifier>
+               <head>書名:雲棲法彙 存手著十二種 / (明釋)袾宏撰<lb/>明崇禎十二年[1639]刊清乾隆中修補《嘉興方冊藏經》本<lb/>線裝12冊 : 圖 ;
+                  28公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">雲棲法彙 ^存手著十二種^</title>
+                     <title source="#200|9">yun qi fa hui</title>
+                     <note source="#290">(明釋)袾宏撰</note>
+                     <author source="#300"><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                     <note source="#409">明崇禎十二年[1639]刊清乾隆中修補《嘉興方冊藏經》本</note>
+                     <editor source="#446" role="pbl"><persName>嘉興方冊藏經</persName><persName type="9" role="pbl">jia xing fang ce zang jing</persName></editor>
+                     <msItem n="1">
+                        <title>楞嚴摸象記 ^一卷^</title>
+                        <title source="9">leng yan mo xiang ji</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:38:48|odh -->
+                        <!-- #0rx: dh521+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>西方願文解 ^一卷^</title>
+                        <title source="9">xi fang yuan wen jie</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:39:43|odh -->
+                        <!-- #0rx: dh521+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>戒殺放生文 ^一卷^</title>
+                        <title source="9">jie sha fang sheng wen</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:40:27|odh -->
+                        <!-- #0rx: dh521+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>竹窗二筆 ^一卷^</title>
+                        <title source="9">zhu chuang er bi</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:43:53|odh -->
+                        <!-- #0rx: dh521+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>竹窗三筆 ^一卷^</title>
+                        <title source="9">zhu chuang san bi</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:44:09|odh -->
+                        <!-- #0rx: dh521+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>正訛集 ^一卷^</title>
+                        <title source="9">zheng e ji</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:45:04|odh -->
+                        <!-- #0rx: dh521+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>直道錄 ^一卷^</title>
+                        <title source="9">zhi dao lu</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:45:41|odh -->
+                        <!-- #0rx: dh521+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>雲棲大師山房雜錄 ^二卷^</title>
+                        <title source="9">yun qi da shi shan fang za lu</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:49:16|odh -->
+                        <!-- #0rx: dh521+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>雲棲大師遗稿 ^三卷附補遺一卷^</title>
+                        <title source="9">yun qi da shi yi gao</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:51:49|odh -->
+                        <!-- #0rx: dh521+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>雲棲共柱規約 ^上集一卷下集一卷別集一卷附集一卷^</title>
+                        <title source="9">yun qi gong zhu gui yue</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/15:20:46|odh -->
+                        <!-- #0rx: dh521+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>雲棲紀事 ^一卷^</title>
+                        <title source="9">yun qi ji shi</title>
+                        <title>^附^ 孝義無礙庵錄 ^一卷^</title>
+                        <title source="9">xiao yi wu ai an lu</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/15:26:13|odh -->
+                        <!-- #0rx: dh521+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>雲棲大師塔銘 ^一卷^</title>
+                        <title source="9">yun qi da shi ta ming</title>
+                        <author><persName>(明釋)袾宏</persName><persName type="9">zhu
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/15:32:44|odh -->
+                        <!-- #0rx: dh521+12 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>12 volumes.<!--線裝12冊 : 圖 ; 28公分--><measure unit="cm"><height>28</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1639" type="d">1639</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140613/10:35:36|odh -->
+                        <!-- #0rr: 20190316/21:31:50-357557/29|omaster -->
+                        <!-- #0rx: dh521 -->
+                        <!-- #0cm: i -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="660.84">子部 釋家類 雜著</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

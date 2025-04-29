@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6380">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6086</idno>
+               </msIdentifier>
+               <head>書名:八史經籍志 / (日)佚名編<lb/>清光緒八年[1882]校刊本<lb/>洋裝3冊(原線裝16冊) ;
+                  30公分<lb/>重刊日本文政八年[1825]刊本<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">八史經籍志</title>
+                     <title source="#200|9">ba shi jing ji zhi</title>
+                     <note source="#290">(日)佚名編</note>
+                     <note source="#409">清光緒八年[1882]校刊本</note>
+                     <note source="#600">重刊日本文政八年[1825]刊本</note>
+                     <msItem n="1">
+                        <title>前漢書藝文志 ^一卷^</title>
+                        <title source="9">qian han shu yi wen zhi</title>
+                        <note source="290">(漢)班固撰</note>
+                        <note source="290">(唐)顏師古注</note>
+                        <author><persName>(漢)班固</persName><persName type="9">ban
+                           gu</persName></author>
+                        <author><persName>(唐)顏師古</persName><persName type="9">yan shi
+                           gu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:41:39|odh -->
+                        <!-- #0rx: dh493+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>隋書經籍志 ^四卷^</title>
+                        <title source="9">sui shu jing ji zhi</title>
+                        <note source="290">(唐)長孫無忌等撰</note>
+                        <author><persName>(唐)長孫無忌</persName><persName type="9">zhang sun wu
+                              ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:43:06|odh -->
+                        <!-- #0rr: 20131213/16:48:24|odh -->
+                        <!-- #0rx: dh493+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>舊唐書經籍志 ^二卷^</title>
+                        <title source="9">jiu tang shu jing ji zhi</title>
+                        <note source="290">(後晉)劉昫等撰</note>
+                        <author><persName>(後晉)劉昫</persName><persName type="9">liu
+                           xu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:44:40|odh -->
+                        <!-- #0rr: 20131213/16:48:35|odh -->
+                        <!-- #0rx: dh493+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>唐書藝文志 ^四卷^</title>
+                        <title source="9">tang shu yi wen zhi</title>
+                        <note source="290">(宋)歐陽修撰</note>
+                        <author><persName>(宋)歐陽修</persName><persName type="9">ou yang
+                           xiu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:45:59|odh -->
+                        <!-- #0rr: 20131213/16:48:49|odh -->
+                        <!-- #0rx: dh493+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>宋史藝文志 ^八卷^</title>
+                        <title source="9">song shi yi wen zhi</title>
+                        <note source="290">(元)脫脫等撰</note>
+                        <author><persName>(元)脫脫</persName><persName type="9">tuo
+                           tuo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:48:04|odh -->
+                        <!-- #0rx: dh493+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>宋史藝文志補 ^一卷^</title>
+                        <title source="9">song shi yi wen zhi bu</title>
+                        <note source="290">(清)黃虞稷, (清)倪燦撰</note>
+                        <note source="290">(清)盧文弨錄</note>
+                        <author><persName>(清)黃虞稷</persName><persName type="9">huang yu
+                           ji</persName></author>
+                        <author><persName>(清)倪燦</persName><persName type="9">ni
+                           can</persName></author>
+                        <author><persName>(清)盧文弨</persName><persName type="9">lu wen
+                           chao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:50:02|odh -->
+                        <!-- #0rx: dh493+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>補遼金元藝文志 ^一卷^</title>
+                        <title source="9">bu liao jin yuan yi wen zhi</title>
+                        <note source="290">(清)倪燦撰</note>
+                        <note source="290">(清)盧文弨錄</note>
+                        <author><persName>(清)倪燦</persName><persName type="9">ni
+                           can</persName></author>
+                        <author><persName>(清)盧文弨</persName><persName type="9">lu wen
+                           chao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:51:02|odh -->
+                        <!-- #0rx: dh493+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>補三史藝文志 ^一卷^</title>
+                        <title source="9">bu san shi yi wen zhi</title>
+                        <note source="290">(清)金門詔撰</note>
+                        <author><persName>(清)金門詔</persName><persName type="9">jin men
+                              zhao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:51:48|odh -->
+                        <!-- #0rx: dh493+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>元史藝文志 ^四卷^</title>
+                        <title source="9">yuan shi yi wen zhi</title>
+                        <note source="290">(清)錢大昕撰</note>
+                        <author><persName>(清)錢大昕</persName><persName type="9">qian da
+                           xin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:52:53|odh -->
+                        <!-- #0rx: dh493+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>明史藝文志 ^四卷^</title>
+                        <title source="9">ming shi yi wen zhi</title>
+                        <note source="290">(清)張廷玉等修</note>
+                        <author><persName>(清)張廷玉</persName><persName type="9">zhang ting
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:53:49|odh -->
+                        <!-- #0rx: dh493+10 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>3 volumes.<!--洋裝3冊(原線裝16冊) ; 30公分--><measure unit="cm"><height>30</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1882" type="d">1882</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131213/16:32:40|odh -->
+                        <!-- #0rr: 20131213/17:00:46|odh -->
+                        <!-- #0rx: dh493 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="450.87">史部 目錄類 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9530">9530</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

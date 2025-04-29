@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6449">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 862</idno>
+               </msIdentifier>
+               <head>書名:算經十書 存八種 / (清)孔繼涵編<lb/>清乾隆中曲阜孔氏微波榭刊抄補本<lb/>線裝7冊 ;
+                  25公分<lb/>缺《數術記遺》﹑《句股割圜記》兩種<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">算經十書 ^存八種^</title>
+                     <title source="#200|9">suan jing shi shu</title>
+                     <note source="#290">(清)孔繼涵編</note>
+                     <author source="#300"><persName>(清)孔繼涵</persName><persName type="9">kong ji
+                           han</persName></author>
+                     <note source="#409">清乾隆中曲阜孔氏微波榭刊抄補本</note>
+                     <note source="#600">缺《數術記遺》﹑《句股割圜記》兩種</note>
+                     <msItem n="1">
+                        <msItem n="1">
+                           <title>周髀算經 ^二卷^</title>
+                           <title source="9">zhou bi suan jing</title>
+                           <note source="290">(漢)趙爽注</note>
+                           <note source="290">(北周)甄鸞重述</note>
+                           <note source="290">(唐)李淳風等奉敕注釋</note>
+                           <author><persName>(漢)趙爽</persName><persName type="9">zhao
+                                 shuang</persName></author>
+                           <author><persName>(北周)甄鸞</persName><persName type="9">zhen
+                                 luan</persName></author>
+                           <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                                 feng</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>^附^ 周髀算經音義 ^一卷^</title>
+                           <title type="9">zhou bi suan jing yin yi</title>
+                           <note source="#291">(宋)李籍撰</note>
+                           <author><persName>(宋)李籍</persName><persName type="9">li
+                              ji</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:42:34|odh -->
+                        <!-- #0rr: 20140130/10:43:02|odh -->
+                        <!-- #0rx: dh504+1 -->
+
+                     </msItem>
+                     <msItem n="2">
+                        <msItem n="1">
+                           <title>九章算術 ^九卷^</title>
+                           <title source="9">jiu zhang suan shu</title>
+                           <note source="290">(晉)劉徽注</note>
+                           <note source="290">(唐)李淳風等注釋</note>
+                           <note source="290">(清)戴震補圖</note>
+                           <author><persName>(晉)劉徽</persName><persName type="9">liu
+                              hui</persName></author>
+                           <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                                 feng</persName></author>
+                           <author><persName>(清)戴震</persName><persName type="9">dai
+                              zhen</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>^附^ 九章算術音義 ^一卷^</title>
+                           <title type="9">jiu zhang suan shu yin yi</title>
+                           <note source="#291">(宋)李籍撰</note>
+                           <author><persName>(宋)李籍</persName><persName type="9">li
+                              ji</persName></author>
+                        </msItem>
+                        <msItem n="3">
+                           <title>策算 ^一卷^</title>
+                           <title type="9">ce suan</title>
+                           <note source="#292">(清)戴震撰</note>
+                           <author><persName>(清)戴震</persName><persName type="9">dai
+                              zhen</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:46:31|odh -->
+                        <!-- #0rr: 20140131/16:50:10|odh -->
+                        <!-- #0rx: dh504+2 -->
+
+                     </msItem>
+                     <msItem n="3">
+                        <title>海島算經 ^一卷^</title>
+                        <title source="9">hai dao suan jing</title>
+                        <note source="290">(晉)劉徽撰</note>
+                        <note source="290">(唐)李淳風等奉敕注釋</note>
+                        <author><persName>(晉)劉徽</persName><persName type="9">liu
+                           hui</persName></author>
+                        <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                              feng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:48:48|odh -->
+                        <!-- #0rx: dh504+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>孫子算經 ^三卷^</title>
+                        <title source="9">sun zi suan jing</title>
+                        <note source="290">(唐)李淳風等奉敕注釋</note>
+                        <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                              feng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:49:49|odh -->
+                        <!-- #0rx: dh504+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>五曹筭經 ^五卷^</title>
+                        <title source="9">wu cao suan jing</title>
+                        <note source="290">(唐)李淳風等奉敕注釋</note>
+                        <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                              feng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:50:28|odh -->
+                        <!-- #0rx: dh504+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>夏侯陽算經 ^三卷^</title>
+                        <title source="9">xia hou yang suan jing</title>
+                        <note source="290">(□)夏侯陽撰</note>
+                        <author><persName>(□)夏侯陽</persName><persName type="9">xia hou
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:51:47|odh -->
+                        <!-- #0rx: dh504+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>張丘建算經 ^三卷^</title>
+                        <title source="9">zhang qiu jian suan jing</title>
+                        <note source="290">(□)張丘建撰</note>
+                        <note source="290">(北周)甄鸞注</note>
+                        <note source="290">(唐)李淳風等奉敕注釋</note>
+                        <note source="290">(唐)劉孝孫細草</note>
+                        <author><persName>(□)張丘建</persName><persName type="9">zhang qiu
+                              jian</persName></author>
+                        <author><persName>(北周)甄鸞</persName><persName type="9">zhen
+                           luan</persName></author>
+                        <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                              feng</persName></author>
+                        <author><persName>(唐)劉孝孫</persName><persName type="9">liu xiao
+                              sun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:53:32|odh -->
+                        <!-- #0rx: dh504+7 -->
+                     </msItem>
+                     <msItem n="8">
+                        <msItem n="1">
+                           <title>五經算術 ^二卷^</title>
+                           <title source="9">wu jing suan shu</title>
+                           <note source="290">(北周)甄鸞撰</note>
+                           <note source="290">(唐)李淳風等奉敕注釋</note>
+                           <author><persName>(北周)甄鸞</persName><persName type="9">zhen
+                                 luan</persName></author>
+                           <author><persName>(唐)李淳風</persName><persName type="9">li chun
+                                 feng</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>^附^ 五經算術考證 ^一卷^</title>
+                           <title type="9">wu jing suan shu kao zheng</title>
+                           <note source="#291">(清)戴震撰</note>
+                           <author><persName>(清)戴震</persName><persName type="9">dai
+                              zhen</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:54:48|odh -->
+                        <!-- #0rr: 20140131/16:51:36|odh -->
+                        <!-- #0rx: dh504+8 -->
+
+                     </msItem>
+                     <msItem n="9">
+                        <title>緝古算經 ^一卷^</title>
+                        <title source="9">qi gu suan jing</title>
+                        <note source="290">(唐)王孝通撰併注</note>
+                        <author><persName>(唐)王孝通</persName><persName type="9">wang xiao
+                              tong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/11:07:55|odh -->
+                        <!-- #0rx: dh504+9 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>7 volumes.<!--線裝7冊 ; 25公分--><measure unit="cm"><height>25</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1736" type="d">1736</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/10:38:50|odh -->
+                        <!-- #0rr: 20190703/21:20:40-120864/38|omaster -->
+                        <!-- #0rx: dh504 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354710107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="567.87">子部 天文算法類 算書 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

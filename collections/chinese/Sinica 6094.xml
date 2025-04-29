@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6381">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6094</idno>
+               </msIdentifier>
+               <head>書名:十一經音訓 / (清)楊國楨撰<lb/>清光緒三年[1877]湖北崇文書局刊本<lb/>洋裝6冊(原線裝26冊) ; 29公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">十一經音訓</title>
+                     <title source="#200|9">shi yi jing yin xun</title>
+                     <note source="#290">(清)楊國楨撰</note>
+                     <author source="#300"><persName>(清)楊國楨</persName><persName type="9">yang guo
+                           zhen</persName></author>
+                     <note source="#409">清光緒三年[1877]湖北崇文書局刊本</note>
+                     <editor source="#440" role="pbl"><persName>崇文書局</persName><persName type="9" role="pbl">chong wen shu ju</persName></editor>
+                     <msItem n="1">
+                        <title>易經音訓 ^不分卷^</title>
+                        <title source="9">yi jing yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:21:19|odh -->
+                        <!-- #0rx: dh501+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>書經音訓 ^不分卷^</title>
+                        <title source="9">shu jing yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:21:46|odh -->
+                        <!-- #0rx: dh501+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>詩經音訓 ^不分卷^</title>
+                        <title source="9">shi jing yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:22:24|odh -->
+                        <!-- #0rx: dh501+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>周禮音訓 ^不分卷^</title>
+                        <title source="9">zhou li yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:23:03|odh -->
+                        <!-- #0rx: dh501+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>儀禮音訓 ^不分卷^</title>
+                        <title source="9">yi li yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:23:36|odh -->
+                        <!-- #0rx: dh501+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>禮記音訓 ^不分卷^</title>
+                        <title source="9">li ji yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:24:12|odh -->
+                        <!-- #0rx: dh501+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>春秋左傳音訓 ^不分卷^</title>
+                        <title source="9">chun qiu zuo zhuan yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:25:23|odh -->
+                        <!-- #0rx: dh501+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>春秋公羊傳音訓 ^不分卷^</title>
+                        <title source="9">chun qiu gong yang zhuan yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:26:25|odh -->
+                        <!-- #0rx: dh501+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>春秋穀梁傳音訓 ^不分卷^</title>
+                        <title source="9">chun qiu gu liang zhuan yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:27:12|odh -->
+                        <!-- #0rx: dh501+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>孝經音訓 ^不分卷^</title>
+                        <title source="9">xiao jing yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:27:56|odh -->
+                        <!-- #0rx: dh501+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>爾雅音訓 ^不分卷^</title>
+                        <title source="9">er ya yin xun</title>
+                        <author><persName>(清)楊國楨</persName><persName type="9">yang guo
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:31:29|odh -->
+                        <!-- #0rx: dh501+11 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--洋裝6冊(原線裝26冊) ; 29公分--><measure unit="cm"><height>29</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1877" type="d">1877</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140124/16:02:26|odh -->
+                        <!-- #0rr: 20140205/12:48:34|odh -->
+                        <!-- #0rx: dh501 -->
+                        <!-- #900: o -->
+                        <!-- #905: The works are listed here in logical order, as given in 中國叢書綜錄 612, but in our copy the 儀禮 and 周禮 come in the last western bound volume, just before 孝經 and 爾雅. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221306980107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="280.88">經部 總義類 群經</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="0110">0110</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6321">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3209</idno>
+               </msIdentifier>
+               <head>書名:讀曲叢刊 / (民國)董康編<lb/>民國丁巳[1917]武進董氏誦芬室刊本一九八三年北京中國書店重印本<lb/>線裝4冊 ;
+                  29公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">讀曲叢刊</title>
+                     <title source="#200|9">du qu cong kan</title>
+                     <note source="#290">(民國)董康編</note>
+                     <author source="#300"><persName>(民國)董康</persName><persName type="9">dong
+                           kang</persName></author>
+                     <note source="#409">民國丁巳[1917]武進董氏誦芬室刊本一九八三年北京中國書店重印本</note>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <msItem n="1">
+                        <title>新編錄鬼簿 ^二卷^</title>
+                        <title source="9">xin bian lu gui bu</title>
+                        <note source="290">(元)鍾嗣成撰</note>
+                        <author><persName>(元)鍾嗣成</persName><persName type="9">zhong si
+                              cheng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:09:50|odh -->
+                        <!-- #0rx: dh471+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>南詞敘錄 ^一卷^</title>
+                        <title source="9">nan ci xu lu</title>
+                        <note source="290">(明)徐渭撰</note>
+                        <author><persName>(明)徐渭</persName><persName type="9">xu
+                           wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:10:08|odh -->
+                        <!-- #0rx: dh471+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>舊編南九宮目錄 ^一卷^ </title>
+                        <title source="9">jiu bian nan jiu gong mu lu</title>
+                        <note source="290">(明)徐渭撰</note>
+                        <author><persName>(明)徐渭</persName><persName type="9">xu
+                           wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:10:28|odh -->
+                        <!-- #0rx: dh471+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>十三調南呂音節譜 ^一卷^</title>
+                        <title source="9">shi san diao nan lu yin jie pu</title>
+                        <note source="290">(明)徐渭撰</note>
+                        <author><persName>(明)徐渭</persName><persName type="9">xu
+                           wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:10:49|odh -->
+                        <!-- #0rx: dh471+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>衡曲麈譚 ^一卷^</title>
+                        <title source="9">heng qu zhu tan</title>
+                        <note source="290">(明)張琦撰</note>
+                        <author><persName>(明)張琦</persName><persName type="9">zhang
+                           qi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:11:21|odh -->
+                        <!-- #0rx: dh471+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>魏良輔曲律 ^一卷^</title>
+                        <title source="9">wei liang fu qu lu</title>
+                        <note source="290">(明)魏良輔撰</note>
+                        <author><persName>(明)魏良輔</persName><persName type="9">wei liang
+                              fu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:11:35|odh -->
+                        <!-- #0rx: dh471+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>劇說 ^六卷^</title>
+                        <title source="9">ju shuo</title>
+                        <note source="290">(清)焦循撰</note>
+                        <author><persName>(清)焦循</persName><persName type="9">jiao
+                           xun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:11:53|odh -->
+                        <!-- #0rx: dh471+7 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>4 volumes.<!--線裝4冊 ; 29公分--><measure unit="cm"><height>29</height></measure></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1917" type="d">1917</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130606/13:09:15|odh -->
+                        <!-- #0rr: 20130610/14:59:31|odh -->
+                        <!-- #0rx: dh471 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443660107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="764.90">集部 詞曲類 南北曲 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
