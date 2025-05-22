@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="#siku">
+                <item xml:id="subject_100">
+                    <term type="display">經部 彙編類</term>
+                </item>
+                <item xml:id="subject_110">
+                    <term type="display">經部 易類</term>
+                </item>
+                <item xml:id="subject_120">
+                    <term type="display">經部 書類 經</term>
+                </item>
+                <item xml:id="subject_126">
+                    <term type="display">經部 書類 尚書大傳</term>
+                </item>
+                <item xml:id="subject_130">
+                    <term type="display">經部 詩類 經</term>
+                </item>
+                <item xml:id="subject_136">
+                    <term type="display">經部 詩類 韓詩外傳</term>
+                </item>
+                <item xml:id="subject_140">
+                    <term type="display">經部 禮類 合刻</term>
+                </item>
+                <item xml:id="subject_142">
+                    <term type="display">經部 禮類 周禮</term>
+                </item>
+                <item xml:id="subject_146">
+                    <term type="display">經部 禮類 儀禮</term>
+                </item>
+                <item xml:id="subject_150">
+                    <term type="display">經部 禮類 禮記 經</term>
+                </item>
+                <item xml:id="subject_154">
+                    <term type="display">經部 禮類 禮記 大戴禮記</term>
+                </item>
+                <item xml:id="subject_158">
+                    <term type="display">經部 禮類 三禮總義</term>
+                </item>
+                <item xml:id="subject_162">
+                    <term type="display">經部 禮類 通禮</term>
+                </item>
+                <item xml:id="subject_166">
+                    <term type="display">經部 禮類 雜禮</term>
+                </item>
+                <item xml:id="subject_170">
+                    <term type="display">經部 樂類</term>
+                </item>
+                <item xml:id="subject_180">
+                    <term type="display">經部 春秋類 合刻</term>
+                </item>
+                <item xml:id="subject_182">
+                    <term type="display">經部 春秋類 經</term>
+                </item>
+                <item xml:id="subject_184">
+                    <term type="display">經部 春秋類 左傳</term>
+                </item>
+                <item xml:id="subject_188">
+                    <term type="display">經部 春秋類 公羊傳 傳</term>
+                </item>
+                <item xml:id="subject_192">
+                    <term type="display">經部 春秋類 公羊傳 春秋繁露</term>
+                </item>
+                <item xml:id="subject_196">
+                    <term type="display">經部 春秋類 穀梁傳</term>
+                </item>
+                <item xml:id="subject_198">
+                    <term type="display">經部 春秋類 總義</term>
+                </item>
+                <item xml:id="subject_200">
+                    <term type="display">經部 四書類 合刻</term>
+                </item>
+                <item xml:id="subject_202">
+                    <term type="display">經部 四書類 大學</term>
+                </item>
+                <item xml:id="subject_204">
+                    <term type="display">經部 四書類 中庸</term>
+                </item>
+                <item xml:id="subject_206">
+                    <term type="display">經部 四書類 論語</term>
+                </item>
+                <item xml:id="subject_210">
+                    <term type="display">經部 四書類 孟子 孟子</term>
+                </item>
+                <item xml:id="subject_213">
+                    <term type="display">經部 四書類 孟子 孟子外書</term>
+                </item>
+                <item xml:id="subject_214">
+                    <term type="display">經部 四書類 總義</term>
+                </item>
+                <item xml:id="subject_220">
+                    <term type="display">經部 孝類</term>
+                </item>
+                <item xml:id="subject_228">
+                    <term type="display">經部 小學類 合刻</term>
+                </item>
+                <item xml:id="subject_230">
+                    <term type="display">經部 小學類 訓詁 合刻</term>
+                </item>
+                <item xml:id="subject_232">
+                    <term type="display">經部 小學類 訓詁 爾雅</term>
+                </item>
+                <item xml:id="subject_236">
+                    <term type="display">經部 小學類 訓詁 爾雅以外</term>
+                </item>
+                <item xml:id="subject_240">
+                    <term type="display">經部 小學類 字書 合刻</term>
+                </item>
+                <item xml:id="subject_242">
+                    <term type="display">經部 小學類 字書 說文</term>
+                </item>
+                <item xml:id="subject_250">
+                    <term type="display">經部 小學類 字書 說文以外</term>
+                </item>
+                <item xml:id="subject_256">
+                    <term type="display">經部 小學類 字書 千字文</term>
+                </item>
+                <item xml:id="subject_260">
+                    <term type="display">經部 小學類 韻書 合刻</term>
+                </item>
+                <item xml:id="subject_264">
+                    <term type="display">經部 小學類 韻書 分刻</term>
+                </item>
+                <item xml:id="subject_268">
+                    <term type="display">經部 小學類 韻書 方言</term>
+                </item>
+                <item xml:id="subject_270">
+                    <term type="display">經部 小學類 滿蒙藏文</term>
+                </item>
+                <item xml:id="subject_276">
+                    <term type="display">經部 小學類 英文</term>
+                </item>
+                <item xml:id="subject_280">
+                    <term type="display">經部 總義類 群經</term>
+                </item>
+                <item xml:id="subject_290">
+                    <term type="display">經部 總義類 讖緯 合刻</term>
+                </item>
+                <item xml:id="subject_292">
+                    <term type="display">經部 總義類 讖緯 分刻</term>
+                </item>
+                <item xml:id="subject_300">
+                    <term type="display">史部 正史類 合刻</term>
+                </item>
+                <item xml:id="subject_302">
+                    <term type="display">史部 正史類 分刻</term>
+                </item>
+                <item xml:id="subject_310">
+                    <term type="display">史部 編年類 合刻</term>
+                </item>
+                <item xml:id="subject_312">
+                    <term type="display">史部 編年類 通代</term>
+                </item>
+                <item xml:id="subject_316">
+                    <term type="display">史部 編年類 斷代</term>
+                </item>
+                <item xml:id="subject_319">
+                    <term type="display">史部 編年類 年表</term>
+                </item>
+                <item xml:id="subject_320">
+                    <term type="display">史部 紀事本末類 合刻</term>
+                </item>
+                <item xml:id="subject_322">
+                    <term type="display">史部 紀事本末類 通代</term>
+                </item>
+                <item xml:id="subject_324">
+                    <term type="display">史部 紀事本末類 斷代</term>
+                </item>
+                <item xml:id="subject_330">
+                    <term type="display">史部 別史類 通代</term>
+                </item>
+                <item xml:id="subject_332">
+                    <term type="display">史部 別史類 斷代</term>
+                </item>
+                <item xml:id="subject_340">
+                    <term type="display">史部 雜史類 合刻</term>
+                </item>
+                <item xml:id="subject_342">
+                    <term type="display">史部 雜史類 事實</term>
+                </item>
+                <item xml:id="subject_344">
+                    <term type="display">史部 雜史類 瑣記</term>
+                </item>
+                <item xml:id="subject_350">
+                    <term type="display">史部 詔令奏議類 詔令</term>
+                </item>
+                <item xml:id="subject_354">
+                    <term type="display">史部 詔令奏議類 奏議 通代</term>
+                </item>
+                <item xml:id="subject_356">
+                    <term type="display">史部 詔令奏議類 奏議 斷代</term>
+                </item>
+                <item xml:id="subject_360">
+                    <term type="display">史部 傳記類 總錄</term>
+                </item>
+                <item xml:id="subject_362">
+                    <term type="display">史部 傳記類 聖賢</term>
+                </item>
+                <item xml:id="subject_364">
+                    <term type="display">史部 傳記類 名人</term>
+                </item>
+                <item xml:id="subject_368">
+                    <term type="display">史部 傳記類 雜錄</term>
+                </item>
+                <item xml:id="subject_370">
+                    <term type="display">史部 史鈔類</term>
+                </item>
+                <item xml:id="subject_380">
+                    <term type="display">史部 載記類</term>
+                </item>
+                <item xml:id="subject_390">
+                    <term type="display">史部 時令類</term>
+                </item>
+                <item xml:id="subject_400">
+                    <term type="display">史部 地理類 總志</term>
+                </item>
+                <item xml:id="subject_402">
+                    <term type="display">史部 地理類 方志</term>
+                </item>
+                <item xml:id="subject_406">
+                    <term type="display">史部 地理類 雜記</term>
+                </item>
+                <item xml:id="subject_410">
+                    <term type="display">史部 地理類 專志</term>
+                </item>
+                <item xml:id="subject_412">
+                    <term type="display">史部 地理類 外記</term>
+                </item>
+                <item xml:id="subject_414">
+                    <term type="display">史部 地理類 地圖</term>
+                </item>
+                <item xml:id="subject_420">
+                    <term type="display">史部 職官類 官制 官制</term>
+                </item>
+                <item xml:id="subject_423">
+                    <term type="display">史部 職官類 官制 搢紳</term>
+                </item>
+                <item xml:id="subject_424">
+                    <term type="display">史部 職官類 官箴</term>
+                </item>
+                <item xml:id="subject_430">
+                    <term type="display">史部 政書類 通制</term>
+                </item>
+                <item xml:id="subject_434">
+                    <term type="display">史部 政書類 典禮</term>
+                </item>
+                <item xml:id="subject_438">
+                    <term type="display">史部 政書類 邦計</term>
+                </item>
+                <item xml:id="subject_442">
+                    <term type="display">史部 政書類 軍政</term>
+                </item>
+                <item xml:id="subject_444">
+                    <term type="display">史部 政書類 法令</term>
+                </item>
+                <item xml:id="subject_446">
+                    <term type="display">史部 政書類 考工</term>
+                </item>
+                <item xml:id="subject_448">
+                    <term type="display">史部 政書類 掌故瑣記</term>
+                </item>
+                <item xml:id="subject_449">
+                    <term type="display">史部 政書類 太平天國印書</term>
+                </item>
+                <item xml:id="subject_450">
+                    <term type="display">史部 目錄類 合刻</term>
+                </item>
+                <item xml:id="subject_452">
+                    <term type="display">史部 目錄類 分刻</term>
+                </item>
+                <item xml:id="subject_457">
+                    <term type="display">史部 目錄類 書影</term>
+                </item>
+                <item xml:id="subject_458">
+                    <term type="display">史部 目錄類 雜錄</term>
+                </item>
+                <item xml:id="subject_460">
+                    <term type="display">史部 金石類 合刻</term>
+                </item>
+                <item xml:id="subject_462">
+                    <term type="display">史部 金石類 分刻</term>
+                </item>
+                <item xml:id="subject_466">
+                    <term type="display">史部 金石類 甲骨</term>
+                </item>
+                <item xml:id="subject_468">
+                    <term type="display">史部 金石類 拓本</term>
+                </item>
+                <item xml:id="subject_469">
+                    <term type="display">史部 金石類 目錄</term>
+                </item>
+                <item xml:id="subject_470">
+                    <term type="display">史部 史評類</term>
+                </item>
+                <item xml:id="subject_500">
+                    <term type="display">子部 彙編類</term>
+                </item>
+                <item xml:id="subject_510">
+                    <term type="display">子部 儒家類 合刻</term>
+                </item>
+                <item xml:id="subject_512">
+                    <term type="display">子部 儒家類 分刻</term>
+                </item>
+                <item xml:id="subject_520">
+                    <term type="display">子部 兵家類 兵法 合刻</term>
+                </item>
+                <item xml:id="subject_522">
+                    <term type="display">子部 兵家類 兵法 分刻</term>
+                </item>
+                <item xml:id="subject_526">
+                    <term type="display">子部 兵家類 武術</term>
+                </item>
+                <item xml:id="subject_530">
+                    <term type="display">子部 法家類</term>
+                </item>
+                <item xml:id="subject_540">
+                    <term type="display">子部 農家類</term>
+                </item>
+                <item xml:id="subject_550">
+                    <term type="display">子部 醫家類 醫家</term>
+                </item>
+                <item xml:id="subject_556">
+                    <term type="display">子部 醫家類 明堂圖</term>
+                </item>
+                <item xml:id="subject_558">
+                    <term type="display">子部 天文算法類 合刻</term>
+                </item>
+                <item xml:id="subject_560">
+                    <term type="display">子部 天文算法類 推步 推步</term>
+                </item>
+                <item xml:id="subject_563">
+                    <term type="display">子部 天文算法類 推步 時憲書</term>
+                </item>
+                <item xml:id="subject_564">
+                    <term type="display">子部 天文算法類 推步 曆書</term>
+                </item>
+                <item xml:id="subject_567">
+                    <term type="display">子部 天文算法類 算書 合刻</term>
+                </item>
+                <item xml:id="subject_568">
+                    <term type="display">子部 天文算法類 算書 分刻</term>
+                </item>
+                <item xml:id="subject_570">
+                    <term type="display">子部 術數類</term>
+                </item>
+                <item xml:id="subject_580">
+                    <term type="display">子部 藝術類 書畫 總錄</term>
+                </item>
+                <item xml:id="subject_582">
+                    <term type="display">子部 藝術類 書畫 畫譜</term>
+                </item>
+                <item xml:id="subject_584">
+                    <term type="display">子部 藝術類 書畫 法帖</term>
+                </item>
+                <item xml:id="subject_588">
+                    <term type="display">子部 藝術類 琴譜</term>
+                </item>
+                <item xml:id="subject_590">
+                    <term type="display">子部 藝術類 篆刻</term>
+                </item>
+                <item xml:id="subject_602">
+                    <term type="display">子部 藝術類 雜技</term>
+                </item>
+                <item xml:id="subject_606">
+                    <term type="display">子部 藝術類 西學格致</term>
+                </item>
+                <item xml:id="subject_610">
+                    <term type="display">子部 譜錄類 器物 合刻</term>
+                </item>
+                <item xml:id="subject_611">
+                    <term type="display">子部 譜錄類 器物 分刻</term>
+                </item>
+                <item xml:id="subject_612">
+                    <term type="display">子部 譜錄類 飲饌</term>
+                </item>
+                <item xml:id="subject_614">
+                    <term type="display">子部 譜錄類 草木禽魚</term>
+                </item>
+                <item xml:id="subject_620">
+                    <term type="display">子部 雜家類 雜學</term>
+                </item>
+                <item xml:id="subject_622">
+                    <term type="display">子部 雜家類 雜考</term>
+                </item>
+                <item xml:id="subject_624">
+                    <term type="display">子部 雜家類 雜說</term>
+                </item>
+                <item xml:id="subject_626">
+                    <term type="display">子部 雜家類 雜纂</term>
+                </item>
+                <item xml:id="subject_628">
+                    <term type="display">子部 雜家類 雜品</term>
+                </item>
+                <item xml:id="subject_630">
+                    <term type="display">子部 類書類</term>
+                </item>
+                <item xml:id="subject_640">
+                    <term type="display">子部 小說家類 合刻</term>
+                </item>
+                <item xml:id="subject_642">
+                    <term type="display">子部 小說家類 雜事</term>
+                </item>
+                <item xml:id="subject_644">
+                    <term type="display">子部 小說家類 異聞</term>
+                </item>
+                <item xml:id="subject_646">
+                    <term type="display">子部 小說家類 瑣記</term>
+                </item>
+                <item xml:id="subject_650">
+                    <term type="display">子部 釋家類 合刻</term>
+                </item>
+                <item xml:id="subject_652">
+                    <term type="display">子部 釋家類 經律論疏</term>
+                </item>
+                <item xml:id="subject_660">
+                    <term type="display">子部 釋家類 雜著</term>
+                </item>
+                <item xml:id="subject_670">
+                    <term type="display">子部 道家類</term>
+                </item>
+                <item xml:id="subject_680">
+                    <term type="display">子部 回教類</term>
+                </item>
+                <item xml:id="subject_690">
+                    <term type="display">子部 天主教類</term>
+                </item>
+                <item xml:id="subject_700">
+                    <term type="display">集部 楚辭類</term>
+                </item>
+                <item xml:id="subject_710">
+                    <term type="display">集部 別集類</term>
+                </item>
+                <item xml:id="subject_720">
+                    <term type="display">集部 總集類 通代</term>
+                </item>
+                <item xml:id="subject_730">
+                    <term type="display">集部 總集類 斷代</term>
+                </item>
+                <item xml:id="subject_740">
+                    <term type="display">集部 總集類 尺牘 尺牘</term>
+                </item>
+                <item xml:id="subject_746">
+                    <term type="display">集部 總集類 尺牘 文例</term>
+                </item>
+                <item xml:id="subject_750">
+                    <term type="display">集部 詩文評類</term>
+                </item>
+                <item xml:id="subject_758">
+                    <term type="display">集部 詞曲類 詞選</term>
+                </item>
+                <item xml:id="subject_760">
+                    <term type="display">集部 詞曲類 詞集</term>
+                </item>
+                <item xml:id="subject_761">
+                    <term type="display">集部 詞曲類 詞話</term>
+                </item>
+                <item xml:id="subject_764">
+                    <term type="display">集部 詞曲類 南北曲 合刻</term>
+                </item>
+                <item xml:id="subject_765">
+                    <term type="display">集部 詞曲類 南北曲 分刻</term>
+                </item>
+                <item xml:id="subject_766">
+                    <term type="display">集部 詞曲類 曲譜</term>
+                </item>
+                <item xml:id="subject_767">
+                    <term type="display">集部 詞曲類 散曲</term>
+                </item>
+                <item xml:id="subject_768">
+                    <term type="display">集部 詞曲類 彈詞</term>
+                </item>
+                <item xml:id="subject_769">
+                    <term type="display">集部 詞曲類 鼓詞</term>
+                </item>
+                <item xml:id="subject_770">
+                    <term type="display">集部 詞曲類 民謠</term>
+                </item>
+                <item xml:id="subject_772">
+                    <term type="display">集部 詞曲類 潮州歌</term>
+                </item>
+                <item xml:id="subject_774">
+                    <term type="display">集部 詞曲類 閩南歌曲</term>
+                </item>
+                <item xml:id="subject_776">
+                    <term type="display">集部 詞曲類 漢口宣講</term>
+                </item>
+                <item xml:id="subject_777">
+                    <term type="display">集部 詞曲類 粵劇劇本</term>
+                </item>
+                <item xml:id="subject_778">
+                    <term type="display">集部 詞曲類 廣州木魚書</term>
+                </item>
+                <item xml:id="subject_780">
+                    <term type="display">集部 通俗小說類</term>
+                </item>
+                <item xml:id="subject_788">
+                    <term type="display">集部 寶卷</term>
+                </item>
+                <item xml:id="subject_800">
+                    <term type="display">叢書 雜叢類</term>
+                </item>
+                <item xml:id="subject_820">
+                    <term type="display">叢書 輯佚類</term>
+                </item>
+                <item xml:id="subject_840">
+                    <term type="display">叢書 郡邑類</term>
+                </item>
+                <item xml:id="subject_860">
+                    <term type="display">叢書 氏族類</term>
+                </item>
+                <item xml:id="subject_880">
+                    <term type="display">叢書 獨撰類</term>
+                </item>
+                <item xml:id="subject_900">
+                    <term type="display">西人著書 天主教</term>
+                </item>
+                <item xml:id="subject_917">
+                    <term type="display">西人著書 東正教 聖書</term>
+                </item>
+                <item xml:id="subject_918">
+                    <term type="display">西人著書 東正教 雜著</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>
