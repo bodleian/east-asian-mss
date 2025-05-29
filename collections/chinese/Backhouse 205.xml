@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17083">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 205</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">二十四史</title>
+                     <title source="#200|9">er shi si shi</title>
+                     <note source="#409">清光緒三十四年[1908]上海集成圖書公司排印內府本</note>
+                     <editor source="#440" role="pbl"><persName>集成圖書公司</persName><persName type="9" role="pbl">ji cheng tu shu gong si</persName></editor>
+                     <note source="#600">元史以上皆附考證</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_6531">Backhouse 205/1-16</ref><title>史記 ^一百三十卷^</title> / <persName>(漢)司馬遷</persName></item><item><ref target="volume_6538">Backhouse 205/17-36</ref><title>前漢書 ^一百二十卷^</title> / <persName>(漢)班固</persName></item><item><ref target="volume_6547">Backhouse 205/37-52</ref><title>後漢書 ^一百二十卷^</title> / <persName>(劉宋)范曄</persName></item><item><ref target="volume_6548">Backhouse 205/53-60</ref><title>三國志 ^六十五卷^</title> / <persName>(晉)陳壽</persName></item><item><ref target="volume_6549">Backhouse 205/61-76</ref></item><item><ref target="volume_6550">Backhouse 205/77-88</ref><title>宋書 ^一百卷^</title> / <persName>(梁)沈約</persName></item><item><ref target="volume_6551">Backhouse 205/89-94</ref><title>南齊書 ^五十九卷^</title> / <persName>(梁)蕭子顯</persName></item><item><ref target="volume_6552">Backhouse 205/95-98</ref><title>梁書 ^五十六卷^</title> / <persName>(唐)姚思廉</persName></item><item><ref target="volume_6553">Backhouse 205/99-102</ref><title>陳書 ^三十六卷^</title> / <persName>(唐)姚思廉</persName></item><item><ref target="volume_6532">Backhouse 205/103-118</ref><title>魏書 ^一百十四卷^</title> / <persName>(北齊)魏收</persName></item><item><ref target="volume_7128">Backhouse 315/119-124</ref><title>北齊書 ^五十卷^</title> / <persName>(唐)李百藥</persName></item><item><ref target="volume_6533">Backhouse 205/125-128</ref><title>周書 ^五十卷^</title> / <persName>(唐)令狐德棻</persName></item><item><ref target="volume_6534">Backhouse 205/129-140</ref><title>隋書 ^八十五卷^</title> / <persName>(唐)魏徵</persName></item><item><ref target="volume_6535">Backhouse 205/141-152</ref><title>南史 ^八十卷^</title> / <persName>(唐)李延壽</persName></item><item><ref target="volume_6536">Backhouse 205/153-168</ref><title>北史 ^一百卷^</title> / <persName>(唐)李延壽</persName></item><item><ref target="volume_6537">Backhouse 205/169-198</ref><title>舊唐書 ^二百卷^</title> / <persName>(後晉)劉昫</persName></item><item><ref target="volume_6539">Backhouse 205/199-230</ref></item><item><ref target="volume_6540">Backhouse 205/231-242</ref><title>舊五代史 ^一百五十卷^</title> / <persName>(宋)薛居正</persName></item><item><ref target="volume_6541">Backhouse 205/243-248</ref><title>五代史 ^七十四卷^</title> / <persName>(宋)歐陽修</persName></item><item><ref target="volume_6542">Backhouse 205/249-312</ref><title>宋史 ^四百九十六卷^</title> / <persName>(元)脫脫</persName></item><item><ref target="volume_6543">Backhouse 205/313-320</ref><title>遼史 ^一百十五卷^</title> / <persName>(元)脫脫</persName></item><item><ref target="volume_6544">Backhouse 205/321-336</ref><title>金史 ^一百三十五卷^</title> / <persName>(元)脫脫</persName></item><item><ref target="volume_6545">Backhouse 205/337-360</ref><title>元史 ^二百十卷^</title> / <persName>(明)宋濂</persName></item><item><ref target="volume_6546">Backhouse 205/361-400</ref><title>明史 ^三百三十二卷目錄四卷^</title> / <persName>(清)張廷玉</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>400 volumes.<!--線裝400冊 ; 20公分--><dimensions unit="cm"><height>20</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1908" type="d">1908</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20020812/15:38:03|odh -->
+                        <!-- #0rr: 20130306/15:32:15|odh -->
+                        <!-- #0rx: dh243 -->
+                        <!-- #900: or -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221430490107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="300.89">史部 正史類 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

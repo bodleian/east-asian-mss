@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_16136">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6721/13(2)</idno>
+               </msIdentifier>
+               <head>書名:十種唐詩選 / (清)王士禛删纂<lb/>蘿延齋重刊<lb/>收於:漁洋三十六種全集 /
+                  (清)王士禛撰<lb/>清康熙中刊本<lb/>洋裝18冊(原線裝86冊) ; 27公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">十種唐詩選</title>
+                     <title source="#200|9">shi zhong tang shi xuan</title>
+                     <note source="#290">(清)王士禛删纂</note>
+                     <author source="#300"><persName>(清)王士禛</persName><persName type="9">wang shi
+                           zhen</persName></author>
+                     <note source="#600">蘿延齋重刊</note>
+                     <msItem n="01">
+                        <title>河嶽英靈集選 ^一卷^</title>
+                        <title source="9">he yue ying ling ji xuan</title>
+                        <note source="290">(唐)殷璠元本</note>
+                        <author><persName>(唐)殷璠</persName><persName type="9">yin
+                           fan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000023|odh -->
+                        <!-- #0rx: dh750+22+01 -->
+                     </msItem>
+                     <msItem n="02">
+                        <title>中興間氣集選 ^一卷^</title>
+                        <title source="9">zhong xing xian qi ji xuan</title>
+                        <note source="290">(唐)高仲武元本</note>
+                        <author><persName>(唐)高仲武</persName><persName type="9">gao zhong
+                              wu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000024|odh -->
+                        <!-- #0rx: dh750+22+02 -->
+                        <!-- #905: 《間》is used for《 閒》. -->
+                     </msItem>
+                     <msItem n="03">
+                        <title>國秀集選 ^一卷^</title>
+                        <title source="9">guo xiu ji xuan</title>
+                        <note source="290">(唐)芮挺章元本</note>
+                        <author><persName>(唐)芮挺章</persName><persName type="9">rui ting
+                              zhang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000025|odh -->
+                        <!-- #0rx: dh750+22+03 -->
+                     </msItem>
+                     <msItem n="04">
+                        <title>篋中集選 ^一卷^</title>
+                        <title source="9">qie zhong ji xuan</title>
+                        <note source="290">(唐)元結元本</note>
+                        <author><persName>(唐)元結</persName><persName type="9">yuan
+                           jie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000026|odh -->
+                        <!-- #0rx: dh750+22+04 -->
+                     </msItem>
+                     <msItem n="05">
+                        <title>搜玉集選 ^一卷^</title>
+                        <title source="9">sou yu ji xuan</title>
+                        <note source="290">(唐)佚名元本</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000027|odh -->
+                        <!-- #0rx: dh750+22+05 -->
+                     </msItem>
+                     <msItem n="06">
+                        <title>御覽詩集選 ^一卷</title>
+                        <title source="9">yu lan shi ji xuan</title>
+                        <note source="290">(唐)令狐楚元本</note>
+                        <author><persName>(唐)令狐楚</persName><persName type="9">ling hu
+                           chu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000028|odh -->
+                        <!-- #0rx: dh750+22+06 -->
+                     </msItem>
+                     <msItem n="07">
+                        <title>極玄集選 ^一卷</title>
+                        <title source="9">ji xuan ji xuan</title>
+                        <note source="290">(唐)姚合元本</note>
+                        <author><persName>(唐)姚合</persName><persName type="9">yao
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000029|odh -->
+                        <!-- #0rx: dh750+22+07 -->
+                     </msItem>
+                     <msItem n="08">
+                        <title>又玄集選 ^一卷</title>
+                        <title source="9">you xuan ji xuan</title>
+                        <note source="290">(唐)韋莊元本</note>
+                        <author><persName>(唐)韋莊</persName><persName type="9">wei
+                           zhuang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000030|odh -->
+                        <!-- #0rx: dh750+22+08 -->
+                     </msItem>
+                     <msItem n="09">
+                        <title>才調集選 ^三卷</title>
+                        <title source="9">cai diao ji xuan</title>
+                        <note source="290">(前蜀)韋縠原本</note>
+                        <author><persName>(前蜀)韋縠</persName><persName type="9">wei
+                           hu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000031|odh -->
+                        <!-- #0rx: dh750+22+09 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180810/00000022|odh -->
+                        <!-- #0rx: dh750+22 -->
+                        <!-- #640: 蘿延齋|d康熙|9luo yan zhai -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221560570107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6721/12(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>唐文粹詩選 ^六卷^</title>
+                        <title source="9">tang wen cui shi xuan</title>
+                        <note source="290">(宋)姚鉉編</note>
+                        <author><persName>(宋)姚鉉</persName><persName type="9">yao
+                           xuan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180810/00000032|odh -->
+                           <!-- #0rx: dh750+22+10 -->
+                           <!-- #905: This item has been bound out of sequence as an independent work. -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

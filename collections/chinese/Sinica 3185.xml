@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17229">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3185</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">河南二程全書</title>
+                     <title source="#200|9">he nan er cheng quan shu</title>
+                     <title type="variant" source="#230">二程全書</title>
+                     <title source="#230|9" type="variant">er cheng quan shu</title>
+                     <note source="#290">(宋)程顥, (宋)程頤撰</note>
+                     <author source="#300"><persName>(宋)程顥</persName><persName type="9">cheng
+                           hao</persName></author>
+                     <author source="#300"><persName>(宋)程頤</persName><persName type="9">cheng
+                           yi</persName></author>
+                     <note source="#409">清光緒戊申[1908]澹雅局重刊本</note>
+                     <editor source="#440" role="pbl"><persName>澹雅局</persName><persName type="9" role="pbl">dan ya ju</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_9135">Sinica 3185/1-4</ref><title>河南程氏遺書 ^二十八卷附錄一卷^</title> / <persName>(宋)程顥</persName></item><item><ref target="volume_9138">Sinica 3185/5</ref><title>河南程氏外書 ^十二卷^</title> / <persName>(宋)程顥</persName></item><item><ref target="volume_9139">Sinica 3185/6</ref><title>明道文集 ^五卷^</title> / <persName>(宋)程顥</persName></item><item><ref target="volume_9140">Sinica 3185/7-8</ref><title>伊川文集 ^八卷附錄二卷^</title> / <persName>(宋)程頤</persName></item><item><ref target="volume_9141">Sinica 3185/9-12</ref><title>伊川易傳 ^四卷^</title> / <persName>(宋)程頤</persName></item><item><ref target="volume_9136">Sinica 3185/13-14</ref><title>伊川經說 ^八卷^</title> / <persName>(宋)程頤</persName></item><item><ref target="volume_9137">Sinica 3185/15-16</ref><title>二程粹言 ^二卷^</title> / <persName>(宋)楊時</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>3 volumes.<!--洋裝3冊(原線裝16冊) ; 25公分--><dimensions unit="cm"><height>25</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1908" type="d">1908</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20190910/10:39:15|odh -->
+                        <!-- #0rr: 20190930/22:17:23-454797/169|omaster -->
+                        <!-- #0rx: dh810 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221393150107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="860.77">叢書 氏族類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9112">9112</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

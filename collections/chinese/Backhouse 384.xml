@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17103">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 384</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">二十家子書</title>
+                     <title source="#200|9">er shi jia zi shu</title>
+                     <note source="#290">(明)謝汝韶編</note>
+                     <author source="#300"><persName>(明)謝汝韶</persName><persName type="9">xie ru
+                           shao</persName></author>
+                     <note source="#409">明萬曆陸年[1578]吉藩崇德書院刊本</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_7188">Backhouse 384/1</ref><title>老子道德經 ^二卷^</title> / <persName>(周)李耳</persName></item><item><ref target="volume_7197">Backhouse 384/2(1)</ref><title>關尹子文始真經 ^一卷^</title> / <persName>(周)尹喜</persName></item><item><ref target="volume_7198">Backhouse 384/2(2)</ref><title>亢倉子洞靈真經 ^一卷^</title> / <persName>(周)庚桑楚</persName></item><item><ref target="volume_7199">Backhouse 384/3(1)</ref><title>文子通玄真經 ^一卷^</title> / <persName>(周)辛銒</persName></item><item><ref target="volume_7200">Backhouse 384/3(2)</ref><title>尹文子 ^一卷^</title> / <persName>(周)尹文</persName></item><item><ref target="volume_7201">Backhouse 384/3(3)</ref><title>子華子 ^二卷^</title> / <persName>(周)程本</persName></item><item><ref target="volume_7202">Backhouse 384/4(1)</ref><title>鬻子 ^一卷補一卷^</title> / <persName>(周)鬻熊</persName></item><item><ref target="volume_7203">Backhouse 384/4(2)</ref><title>公孫龍子 ^一卷^</title> / <persName>(周)公孫龍</persName></item><item><ref target="volume_7204">Backhouse 384/4(3)</ref><title>鬼谷子 ^三卷^</title> / <persName>(周)鬼谷子</persName></item><item><ref target="volume_7205">Backhouse 384/5</ref><title>列子沖虛真經 ^二卷^</title> / <persName>(周)列禦寇</persName></item><item><ref target="volume_7206">Backhouse 384/6-8</ref><title>莊子南華真經 ^內篇一卷外篇二卷雜篇一卷^</title> / <persName>(周)莊周</persName></item><item><ref target="volume_7207">Backhouse 384/9-11</ref><title>荀子 ^三卷^</title> / <persName>(周)荀況</persName></item><item><ref target="volume_7189">Backhouse 384/12(1)</ref><title>揚子法言 ^一卷^</title> / <persName>(漢)揚雄</persName></item><item><ref target="volume_7190">Backhouse 384/12(2)</ref><title>文中子中說 ^一卷^</title> / <persName>(隋)王通</persName></item><item><ref target="volume_7191">Backhouse 384/13-14</ref><title>抱朴子外篇 ^二卷^</title> / <persName>(晉)葛洪</persName></item><item><ref target="volume_7192">Backhouse 384/15</ref><title>劉子 ^一卷^</title> / <persName>(北齊)劉晝</persName></item><item><ref target="volume_7193">Backhouse 384/16(1)</ref><title>黃石公 ^一卷^</title> / <persName>(漢)黃石公</persName></item><item><ref target="volume_7194">Backhouse 384/16(2)</ref><title>玄真子 ^一卷^</title> / <persName>(唐)張志和</persName></item><item><ref target="volume_7195">Backhouse 384/16(3)</ref><title>天隱子 ^一卷^</title> / <persName>(唐)司馬承禎</persName></item><item><ref target="volume_7196">Backhouse 384/16(4)</ref><title>無能子 ^一卷^</title> </item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>16 volumes.<!--線裝16冊 ; 31公分--><dimensions unit="cm"><height>31</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「吉府圖書」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1578" type="d">1578</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130508/15:48:43|odh -->
+                        <!-- #0rr: 20190930/22:17:23-26075/22|omaster -->
+                        <!-- #0rx: dh465 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221446080107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="500.84">子部 彙編類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

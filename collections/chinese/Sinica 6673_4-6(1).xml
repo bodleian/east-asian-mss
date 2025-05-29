@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_15291">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6673/4-6(1)</idno>
+               </msIdentifier>
+               <head>書名:貴池二妙集 四十七卷 / (民國)劉世珩輯<lb/>清光緒二十六年[1900]刊<lb/>收於:貴池先哲遺書 ; 附 貴池先哲遺書待訪目 一卷 /
+                  (民國)劉世珩輯<lb/>民國九年[1920]貴池劉氏唐石簃刊本<lb/>洋裝11冊(原線裝64冊) ; 25公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">貴池二妙集 ^四十七卷^</title>
+                     <title source="#200|9">gui chi er miao ji</title>
+                     <note source="#290">(民國)劉世珩輯</note>
+                     <author source="#300"><persName>(民國)劉世珩</persName><persName type="9">liu shi
+                           heng</persName></author>
+                     <note source="#600">清光緒二十六年[1900]刊</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200107/14:55:13|odh -->
+                        <!-- #0rx: dh821+09 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221368590107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6673/4-5(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>樓山堂集 ^二十七卷首一卷^</title>
+                        <title source="9">lou shan tang ji</title>
+                        <note source="290">(明)吳應箕撰</note>
+                        <author><persName>(明)吳應箕</persName><persName type="9">wu ying
+                           ji</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200107/14:56:11|odh -->
+                           <!-- #0rx: dh821+09+1 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6673/5(2)-6(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>嶧桐集 ^文十卷詩十卷^</title>
+                        <title source="9">yi tong ji</title>
+                        <note source="290">(明)劉城撰</note>
+                        <author><persName>(明)劉城</persName><persName type="9">liu
+                           cheng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200107/14:58:43|odh -->
+                           <!-- #0rx: dh821+09+2 -->
+                           <!-- #201: ^附^ 劉先生年譜 ^一卷^|9liu xian sheng nian pu -->
+                           <!-- #291: (民國)劉世珩撰 -->
+                           <!-- #301: (民國)劉世珩|9liu shi heng -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

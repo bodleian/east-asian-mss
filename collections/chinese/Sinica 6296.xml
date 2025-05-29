@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17392">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6296</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">笠翁傳奇十二種曲</title>
+                     <title source="#200|9">li weng chuan qi shi er zhong qu</title>
+                     <note source="#290">(清)李漁撰</note>
+                     <author source="#300"><persName>(清)李漁</persName><persName type="9">li
+                           yu</persName></author>
+                     <note source="#409">清大知堂刊本</note>
+                     <editor source="#440" role="pbl"><persName>大知堂</persName><persName type="9" role="pbl">da zhi tang</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_12558">Sinica 6296/1(1)</ref><title>憐香伴傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12559">Sinica 6296/1(2)</ref><title>慎鸞交傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12560">Sinica 6296/2(1)</ref><title>意中緣傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12561">Sinica 6296/2(2)</ref><title>巧團圓傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12562">Sinica 6296/3(1)</ref><title>比目魚傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12563">Sinica 6296/3(2)</ref><title>玉搔頭傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12564">Sinica 6296/4(1)</ref><title>奈何天傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12565">Sinica 6296/4(2)</ref><title>凰求鳳傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12566">Sinica 6296/5(1)</ref><title>蜃中樓傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item><item><ref target="volume_12567">Sinica 6296/5(2)</ref><title>南柯記傳奇 ^二卷^</title> / <persName>(明)湯顯祖</persName></item><item><ref target="volume_12568">Sinica 6296/6(1)</ref><title>邯鄲夢傳奇 ^二卷^</title> / <persName>(明)湯顯祖</persName></item><item><ref target="volume_12569">Sinica 6296/6(2)</ref><title>風箏誤傳奇 ^二卷^</title> / <persName>(清)李漁</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>6 volumes.<!--洋裝6冊(原線裝24冊) ; 15公分--><dimensions unit="cm"><height>15</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1644" type="d">1644</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150205/16:40:23|odh -->
+                        <!-- #0rr: 20150205/17:43:09-375331/93|omaster -->
+                        <!-- #0rx: dh567 -->
+                        <!-- #900: o -->
+                        <!-- #905: Seems to be rare. Three copies in CALIS, none in WorldCat or Japan. A 小引 and preface to the collectaneum is bound at the beginning of the 3rd vol. (9th 冊) of the present copy; the 小引 gives the printing background, but no date. 中國叢書綜錄 (1.951) has a 「笠翁傳奇十種曲」, and the additional two works in S.6296 (bound as the 10th and 11th) are by (明)湯顯祖. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221345560107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="764.87">集部 詞曲類 南北曲 合刻</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5694">5694</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

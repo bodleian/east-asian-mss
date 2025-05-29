@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_8257">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2710/63-68</idno>
+               </msIdentifier>
+               <head>書名:周澂之評注醫書 / (清)周學海評注<lb/>收於:下列叢書二集:<lb/>周氏醫學叢書 /
+                  (清)周學海編<lb/>清光緒宣統間池陽周氏刊1984年江蘇廣陵古籍刻印社重印本殘損版以影印配補<lb/>線裝76冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">周澂之評注醫書</title>
+                     <title source="#200|9">zhou cheng zhi ping zhu yi shu</title>
+                     <note source="#290">(清)周學海評注</note>
+                     <author source="#300"><persName>(清)周學海</persName><persName type="9">zhou xue
+                           hai</persName></author>
+                     <msItem n="1">
+                        <title>診家樞要 ^一卷^</title>
+                        <title source="9">zhen jia shu yao</title>
+                        <note source="290">(元)滑壽撰</note>
+                        <author><persName>(元)滑壽</persName><persName type="9">hua
+                           shou</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000081|odh -->
+                        <!-- #0rx: dh802+16+1 -->
+                        <!-- #201: ^附^ 諸脈條辨 ^一卷^|9zhu mai tiao bian -->
+                        <!-- #291: (清)程文囿撰 -->
+                        <!-- #301: (清)程文囿|9cheng wen you -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>藏府標本藥式 ^一卷^</title>
+                        <title source="9">zang fu biao ben yao shi</title>
+                        <note source="290">(金)張元素撰</note>
+                        <author><persName>(金)張元素</persName><persName type="9">zhang yuan
+                              su</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000082|odh -->
+                        <!-- #0rx: dh802+16+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>金匱鉤玄 ^三卷^</title>
+                        <title source="9">jin gui gou xuan</title>
+                        <note source="290">(元)朱震亨撰</note>
+                        <note source="290">(明)戴元禮錄補</note>
+                        <author><persName>(元)朱震亨</persName><persName type="9">zhu zhen
+                              heng</persName></author>
+                        <author><persName>(明)戴元禮</persName><persName type="9">dai yuan
+                           li</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000083|odh -->
+                        <!-- #0rx: dh802+16+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>三消論 ^一卷^</title>
+                        <title source="9">san xiao lun</title>
+                        <note source="290">(金)劉完素撰</note>
+                        <author><persName>(金)劉完素</persName><persName type="9">liu wan
+                           su</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000084|odh -->
+                        <!-- #0rx: dh802+16+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>温熱論 ^一卷^</title>
+                        <title source="9">wen re lun</title>
+                        <note source="290">(金)葉桂撰</note>
+                        <author><persName>(金)葉桂</persName><persName type="9">ye
+                           gui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000085|odh -->
+                        <!-- #0rx: dh802+16+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>幼科要畧 ^二卷^</title>
+                        <title source="9">you ke yao lue</title>
+                        <note source="290">(金)葉桂撰</note>
+                        <author><persName>(金)葉桂</persName><persName type="9">ye
+                           gui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000086|odh -->
+                        <!-- #0rx: dh802+16+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>評點葉案存眞類編 ^二卷^</title>
+                        <title source="9">ping dian ye an cun zhen lei bian</title>
+                        <note source="290">(金)葉桂撰</note>
+                        <note source="290">(元)孫萬青輯錄</note>
+                        <author><persName>(金)葉桂</persName><persName type="9">ye
+                           gui</persName></author>
+                        <author><persName>(元)孫萬青</persName><persName type="9">sun wan
+                              qing</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000087|odh -->
+                        <!-- #0rx: dh802+16+7 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>評點馬氏醫案印機草 ^一卷^</title>
+                        <title source="9">ping dian ma shi yi an yin ji cao</title>
+                        <note source="290">(清)馬元儀撰</note>
+                        <author><persName>(清)馬元儀</persName><persName type="9">ma yuan
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000088|odh -->
+                        <!-- #0rx: dh802+16+8 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20181013/00000080|odh -->
+                        <!-- #0rx: dh802+16 -->
+                        <!-- #0rz: 二集 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221494430107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

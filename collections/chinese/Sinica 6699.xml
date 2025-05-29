@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17486">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6699</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">郝氏遺書</title>
+                     <title source="#200|9">hao shi yi shu</title>
+                     <note source="#290">(清)郝懿行撰</note>
+                     <author source="#300"><persName>(清)郝懿行</persName><persName type="9">hao yi
+                           xing</persName></author>
+                     <note source="#409">清嘉慶光緒間刊本</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_15688">Sinica 6699/</ref><title>爾雅郭注義疏 ^十九卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15698">Sinica 6699/3(1)</ref><title>春秋說畧 ^十二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15699">Sinica 6699/3(2)</ref><title>春秋比 ^二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15700">Sinica 6699/4</ref><title>山海經 ^十八卷圖讚一卷訂訛一卷敘錄一卷^</title> / <persName>(晉)郭璞</persName></item><item><ref target="volume_15701">Sinica 6699/5(1)</ref></item><item><ref target="volume_15702">Sinica 6699/5(2)</ref></item><item><ref target="volume_15703">Sinica 6699/5(3)</ref><title>詩說 ^二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15704">Sinica 6699/5(4)</ref><title>詩經拾遺 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15705">Sinica 6699/5(5)</ref><title>書說 ^二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15706">Sinica 6699/5(6)</ref><title>汲冢周書輯要 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15707">Sinica 6699/6</ref><title>易說 ^十二卷便錄一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15708">Sinica 6699/7</ref><title>詩問 ^七卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15709">Sinica 6699/8</ref><title>禮記箋 ^四十九卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15710">Sinica 6699/9(1)</ref><title>竹書紀年校正 ^十四卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15712">Sinica 6699/9(2)</ref><title>晉宋書故 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15713">Sinica 6699/9(3)</ref><title>補宋書刑法志 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15714">Sinica 6699/9(4)</ref><title>補宋書食貨志 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15715">Sinica 6699/9(5)</ref><title>宋瑣語 ^不分卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15716">Sinica 6699/9(6)</ref><title>荀子補注 ^二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15717">Sinica 6699/9(7)</ref><title>寶訓 ^八卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15718">Sinica 6699/9(8)</ref><title>燕子春秋 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15719">Sinica 6699/9(9)</ref><title>蜂衙小記 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15711">Sinica 6699/9(10)</ref><title>記海錯 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15689">Sinica 6699/10</ref><title>證俗文 ^十九卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15690">Sinica 6699/11(1)</ref><title>曬書堂文集 ^十二卷外集二卷別集一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15691">Sinica 6699/11(2)</ref><title>曬書堂閨中文存 ^一卷^</title> / <persName>(清)王照圓</persName></item><item><ref target="volume_15692">Sinica 6699/11(3)</ref><title>曬書堂筆記 ^二卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15693">Sinica 6699/12(1)</ref><title>曬書堂時文 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15694">Sinica 6699/12(2)</ref><title>曬書堂筆錄 ^六卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15695">Sinica 6699/12(3)</ref><title>曬書堂詩鈔 ^二卷試帖一卷詩餘一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15696">Sinica 6699/12(4)</ref><title>和鳴集 ^一卷^</title> / <persName>(清)郝懿行</persName></item><item><ref target="volume_15697">Sinica 6699/12(5)</ref><title>梅叟閒評 ^四卷^</title> / <persName>(清)郝培元</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>12 volumes.<!--洋裝12冊(原線裝48冊) ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1809" notAfter="1884" type="g">1809
+                        - 1884</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180711/11:28:34|odh -->
+                        <!-- #0rr: 20180729/11:30:32-441490/24|omaster -->
+                        <!-- #0rx: dh736 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221534380107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="880.87">叢書 獨撰類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9117">9117</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

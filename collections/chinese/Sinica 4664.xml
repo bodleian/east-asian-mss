@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17296">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 4664</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">十種古逸書</title>
+                     <title source="#200|9">shi zhong gu yi shu</title>
+                     <note source="#290">(清)茆泮林輯</note>
+                     <author source="#300"><persName>(清)茆泮林</persName><persName type="9">mao pan
+                           lin</persName></author>
+                     <note source="#409">清道光十四年[1834]梅瑞軒刊本</note>
+                     <editor source="#440" role="pbl"><persName>梅瑞軒</persName><persName type="9" role="pbl">mei rui xuan</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_9898">Sinica 4664/1-2(1)|pV</ref><title>世本 ^一卷^</title> / <persName>(漢)宋衷</persName></item><item><ref target="volume_9900">Sinica 4664/2(2)|pV</ref><title>楚漢春秋 ^一卷疑義一卷^</title> / <persName>(漢)陸賈</persName></item><item><ref target="volume_9901">Sinica 4664/3|pV</ref><title>古孝子傳 ^一卷^</title> </item><item><ref target="volume_9902">Sinica 4664/4|pV</ref><title>伏侯古今注 ^三卷補遺一卷又補遺一卷^</title> / <persName>(漢)伏無忌</persName></item><item><ref target="volume_9903">Sinica 4664/5|pV</ref><title>淮南萬畢術 ^一卷補遺一卷再補遺一卷^</title> / <persName>(漢)劉安</persName></item><item><ref target="volume_9904">Sinica 4664/6|pV</ref><title>計然萬物錄 ^一卷補遺一卷^</title> / <persName>(周)辛文</persName></item><item><ref target="volume_9905">Sinica 4664/7|pV</ref><title>三輔決錄 ^一卷補遺一卷^</title> / <persName>(漢)趙岐</persName></item><item><ref target="volume_9906">Sinica 4664/8-9(1)|pV</ref><title>莊子注 ^一卷補遺一卷音一卷逸篇一卷逸語一卷疑義一卷逸篇注補遺一卷音補遺一卷注又補遺二卷^</title> / <persName>(晉)司馬彪</persName></item><item><ref target="volume_9907">Sinica 4664/9(2)|pV</ref><title>元中記 ^一卷補遺一卷^</title> / <persName>(晉)郭璞</persName></item><item><ref target="volume_9899">Sinica 4664/10|pV</ref><title>唐月令注 ^一卷補遺一卷附考一卷^</title> / <persName>(唐)李林甫</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>10 volumes.<!--線裝10冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1834" type="d">1834</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051221/13:29:11|odh -->
+                        <!-- #0rr: 20121112/12:07:06|odh -->
+                        <!-- #0rx: dh319 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221389650107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="800.88">叢書 雜叢類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

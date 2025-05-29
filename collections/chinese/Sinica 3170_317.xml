@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9073">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3170/317</idno>
+               </msIdentifier>
+               <head>書名:三十國春秋輯本 / (清)湯球輯<lb/>收於:廣雅書局叢書 / (清)廣雅書局編<lb/>彙編重印清光緒中廣雅書局刊本<lb/>線裝388冊 ;
+                  29公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">三十國春秋輯本</title>
+                     <title source="#200|9">san shi guo chun qiu ji ben</title>
+                     <note source="#290">(清)湯球輯</note>
+                     <author source="#300"><persName>(清)湯球</persName><persName type="9">tang
+                           qiu</persName></author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19960613/22:31:46|odh -->
+                        <!-- #0rr: 19961015/18:39:43|odh -->
+                        <!-- #0rx: dh183+121 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221395430107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>三十國春秋 ^一卷^</title>
+                        <title source="9">san shi guo chun qiu</title>
+                        <note source="290">(梁)蕭方等撰</note>
+                        <author><persName>(梁)蕭方</persName><persName type="9">xiao
+                           fang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:34:18|odh -->
+                           <!-- #0rx: dh183+121+01 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>三十國春秋 ^一卷^</title>
+                        <title source="9">san shi guo chun qiu</title>
+                        <note source="290">(劉宋)武敏之撰</note>
+                        <author><persName>(劉宋)武敏之</persName><persName type="9">wu min
+                           zhi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:35:05|odh -->
+                           <!-- #0rx: dh183+121+02 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317c</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>蜀李書 ^一卷^</title>
+                        <title source="9">shu li shu</title>
+                        <note source="290">(晉)常璩撰</note>
+                        <author><persName>(晉)常璩</persName><persName type="9">chang
+                           qu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:37:13|odh -->
+                           <!-- #0rx: dh183+121+03 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317d</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>漢趙記 ^一卷^</title>
+                        <title source="9">han zhao ji</title>
+                        <note source="290">(前趙)和苞撰</note>
+                        <author><persName>(前趙)和苞</persName><persName type="9">he
+                           bao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:38:28|odh -->
+                           <!-- #0rx: dh183+121+04 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317e</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>趙書 ^一卷^</title>
+                        <title source="9">zhao shu</title>
+                        <note source="290">(□燕)田融撰</note>
+                        <author><persName>(□燕)田融</persName><persName type="9">tian
+                           rong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:39:37|odh -->
+                           <!-- #0rx: dh183+121+05 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317f</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>趙書 ^一卷^</title>
+                        <title source="9">zhao shu</title>
+                        <note source="290">(□)吳篤撰</note>
+                        <author><persName>(□)吳篤</persName><persName type="9">wu
+                           du</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:40:22|odh -->
+                           <!-- #0rx: dh183+121+06 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317g</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>二石傳 ^一卷^</title>
+                        <title source="9">er shi zhuan</title>
+                        <note source="290">(晉)王度撰</note>
+                        <author><persName>(晉)王度</persName><persName type="9">wang
+                           du</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:41:17|odh -->
+                           <!-- #0rx: dh183+121+07 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317h</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>燕書 ^一卷^</title>
+                        <title source="9">yan shu</title>
+                        <note source="290">(□燕)范亨撰</note>
+                        <author><persName>(□燕)范亨</persName><persName type="9">fan
+                           heng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:42:11|odh -->
+                           <!-- #0rx: dh183+121+08 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317i</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>秦書 ^一卷^</title>
+                        <title source="9">qin shu</title>
+                        <note source="290">(前秦)車頻撰</note>
+                        <author><persName>(前秦)車頻</persName><persName type="9">ju
+                           pin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:44:39|odh -->
+                           <!-- #0rx: dh183+121+09 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317j</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>南燕書 ^一卷^</title>
+                        <title source="9">nan yan shu</title>
+                        <note source="290">(□燕)王景暉撰</note>
+                        <author><persName>(□燕)王景暉</persName><persName type="9">wang jing
+                              hui</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:48:29|odh -->
+                           <!-- #0rx: dh183+121+10 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317k</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>秦記 ^一卷^</title>
+                        <title source="9">qin ji</title>
+                        <note source="290">(劉宋)裴景仁撰</note>
+                        <author><persName>(劉宋)裴景仁</persName><persName type="9">pei jing
+                              ren</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:50:50|odh -->
+                           <!-- #0rx: dh183+121+11 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317l</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>後秦記 ^一卷^</title>
+                        <title source="9">hou qin ji</title>
+                        <note source="290">(後魏)姚和都撰</note>
+                        <author><persName>(後魏)姚和都</persName><persName type="9">yao he
+                           du</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:51:57|odh -->
+                           <!-- #0rx: dh183+121+12 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317m</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>涼記 ^一卷^</title>
+                        <title source="9">liang ji</title>
+                        <note source="290">(□燕)張諮撰</note>
+                        <author><persName>(□燕)張諮</persName><persName type="9">zhang
+                           zi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:53:46|odh -->
+                           <!-- #0rx: dh183+121+13 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317n</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>西河記 ^一卷^</title>
+                        <title source="9">xi he ji</title>
+                        <note source="290">(晉)喻歸撰</note>
+                        <author><persName>(晉)喻歸</persName><persName type="9">yu
+                           gui</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:55:09|odh -->
+                           <!-- #0rr: 20090603/13:56:14|osn -->
+                           <!-- #0rx: dh183+121+14 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317o</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>涼記 ^一卷^</title>
+                        <title source="9">liang ji</title>
+                        <note source="290">(北涼)段龜龍撰</note>
+                        <author><persName>(北涼)段龜龍</persName><persName type="9">duan gui
+                              long</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/22:56:27|odh -->
+                           <!-- #0rx: dh183+121+15 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317p</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>燉煌實錄 ^一卷^</title>
+                        <title source="9">dun huang shi lu</title>
+                        <note source="290">(北魏)劉昞撰</note>
+                        <author><persName>(北魏)劉昞</persName><persName type="9">liu
+                           bing</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/23:00:02|odh -->
+                           <!-- #0rr: 20140529/10:08:21-28204/2|omaster -->
+                           <!-- #0rx: dh183+121+16 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317q</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>南燕書 ^一卷^</title>
+                        <title source="9">nan yan shu</title>
+                        <note source="290">(□燕)張詮撰</note>
+                        <author><persName>(□燕)張詮</persName><persName type="9">zhang
+                           quan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/23:02:08|odh -->
+                           <!-- #0rx: dh183+121+17 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/317r</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>燕志 ^一卷^</title>
+                        <title source="9">yan zhi</title>
+                        <note source="290">(北魏)高閭撰</note>
+                        <author><persName>(北魏)高閭</persName><persName type="9">gao
+                           lu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960613/23:03:38|odh -->
+                           <!-- #0rr: 19960613/23:04:15|odh -->
+                           <!-- #0rx: dh183+121+18 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

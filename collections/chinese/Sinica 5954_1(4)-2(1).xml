@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_11254">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 5954/1(4)-2(1)</idno>
+               </msIdentifier>
+               <head>書名:滄海遺音集 十三卷 / (民國)朱祖謀輯<lb/>收於:彊邨遺書 /
+                  (民國)朱祖謀撰<lb/>民國壬申[1932]序刊本<lb/>洋裝2冊(原線裝12冊) ; 24公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">滄海遺音集 ^十三卷^</title>
+                     <title source="#200|9">cang hai yi yin ji</title>
+                     <note source="#290">(民國)朱祖謀輯</note>
+                     <author source="#300"><persName>(民國)朱祖謀</persName><persName type="9">zhu zu
+                           mou</persName></author>
+                     <msItem n="01">
+                        <title>曼陀羅寱詞 ^一卷^</title>
+                        <title source="9">man tuo luo yi ci</title>
+                        <note source="290">(清)沈曾植撰</note>
+                        <author><persName>(清)沈曾植</persName><persName type="9">shen zeng
+                              zhi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000005|odh -->
+                        <!-- #0rx: dh774+4+01 -->
+                     </msItem>
+                     <msItem n="02">
+                        <title>香草亭詞 ^一卷^</title>
+                        <title source="9">xiang cao ting ci</title>
+                        <note source="290">(民國)裴維侒撰</note>
+                        <author><persName>(民國)裴維侒</persName><persName type="9">pei wei
+                           an</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000006|odh -->
+                        <!-- #0rx: dh774+4+02 -->
+                     </msItem>
+                     <msItem n="03">
+                        <title>郢雲詞 ^一卷^</title>
+                        <title source="9">ying yun ci</title>
+                        <note source="290">(民國)李岳瑞撰</note>
+                        <author><persName>(民國)李岳瑞</persName><persName type="9">li yue
+                           rui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000007|odh -->
+                        <!-- #0rx: dh774+4+03 -->
+                     </msItem>
+                     <msItem n="04">
+                        <title>蟄庵詞 ^一卷^</title>
+                        <title source="9">zhi an ci</title>
+                        <note source="290">(民國)曾習經撰</note>
+                        <author><persName>(民國)曾習經</persName><persName type="9">zeng xi
+                              jing</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000008|odh -->
+                        <!-- #0rx: dh774+4+04 -->
+                     </msItem>
+                     <msItem n="05">
+                        <title>悔龕詞 ^一卷^</title>
+                        <title source="9">hui kan ci</title>
+                        <note source="290">(民國)夏孫桐撰</note>
+                        <author><persName>(民國)夏孫桐</persName><persName type="9">xia sun
+                              tong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000009|odh -->
+                        <!-- #0rx: dh774+4+05 -->
+                     </msItem>
+                     <msItem n="06">
+                        <title>淩波詞 ^一卷^</title>
+                        <title source="9">ling bo ci</title>
+                        <note source="290">(民國)曹元忠撰</note>
+                        <author><persName>(民國)曹元忠</persName><persName type="9">cao yuan
+                              zhong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000010|odh -->
+                        <!-- #0rx: dh774+4+06 -->
+                     </msItem>
+                     <msItem n="07">
+                        <title>遯盦樂府 ^一卷^</title>
+                        <title source="9">dun an yue fu</title>
+                        <note source="290">張爾田撰</note>
+                        <author><persName>張爾田</persName><persName type="9">zhang er
+                           tian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000011|odh -->
+                        <!-- #0rx: dh774+4+07 -->
+                     </msItem>
+                     <msItem n="08">
+                        <title>觀堂長短句 ^一卷^</title>
+                        <title source="9">guan tang chang duan ju</title>
+                        <note source="290">(清)王國維撰</note>
+                        <author><persName>(清)王國維</persName><persName type="9">wang guo
+                              wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000012|odh -->
+                        <!-- #0rx: dh774+4+08 -->
+                     </msItem>
+                     <msItem n="09">
+                        <title>海綃詞 ^二卷^</title>
+                        <title source="9">hai xiao ci</title>
+                        <note source="290">(民國)陳洵撰</note>
+                        <author><persName>(民國)陳洵</persName><persName type="9">chen
+                           xun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000013|odh -->
+                        <!-- #0rx: dh774+4+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>海綃說詞 ^一卷^</title>
+                        <title source="9">hai xiao shuo ci</title>
+                        <note source="290">(民國)陳洵撰</note>
+                        <author><persName>(民國)陳洵</persName><persName type="9">chen
+                           xun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000014|odh -->
+                        <!-- #0rx: dh774+4+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>回風堂詞 ^一卷^</title>
+                        <title source="9">hui feng tang ci</title>
+                        <note source="290">(民國)馮幵撰</note>
+                        <author><persName>(民國)馮幵</persName><persName type="9">feng
+                           qian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000015|odh -->
+                        <!-- #0rx: dh774+4+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>舊月簃詞 ^一卷^</title>
+                        <title source="9">jiu yue yi ci</title>
+                        <note source="290">(民國)陳曾壽撰</note>
+                        <author><persName>(民國)陳曾壽</persName><persName type="9">chen zeng
+                              shou</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000016|odh -->
+                        <!-- #0rx: dh774+4+12 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180909/00000004|odh -->
+                        <!-- #0rx: dh774+4 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221340860107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

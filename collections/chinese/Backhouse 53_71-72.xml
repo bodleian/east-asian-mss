@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6466">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_7807">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -62,7 +62,7 @@
                   <objectDesc>
 
                      <supportDesc>
-                        
+                        <support/>
                      </supportDesc>
 
                   </objectDesc>
@@ -73,7 +73,8 @@
                      <origDate calendar="#Gregorian"/>
                      <origPlace/>
                   </origin>
-                  
+                  <provenance/>
+                  <acquisition/>
                </history>
                <additional>
                   <adminInfo>
@@ -85,9 +86,7 @@
                         <!-- #0rx: dh370+04 -->
                      </recordHist>
                      <availability status="printcat">
-                        <p>Orderable through <ref
-                              target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221410730107026"
-                              >SOLO</ref></p>
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221410730107026">SOLO</ref></p>
                      </availability>
                   </adminInfo>
                </additional>

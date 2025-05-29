@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_15513">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6689/5(7)</idno>
+               </msIdentifier>
+               <head>書名:五周先生集 / (民國)冒廣生編<lb/>收於:如皋冒氏叢書 / (清)冒廣生輯<lb/>清光緒民國間如皋冒氏刊本<lb/>洋裝5冊(原線裝20冊) ;
+                  26公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">五周先生集</title>
+                     <title source="#200|9">wu zhou xian sheng ji</title>
+                     <note source="#290">(民國)冒廣生編</note>
+                     <author source="#300"><persName>(民國)冒廣生</persName><persName type="9">mao guang
+                           sheng</persName></author>
+                     <msItem n="1">
+                        <title>蟄室詩錄 ^一卷^</title>
+                        <title source="9">zhe shi shi lu</title>
+                        <note source="290">(清)周沐潤撰</note>
+                        <author><persName>(清)周沐潤</persName><persName type="9">zhou mu
+                           run</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000107|odh -->
+                        <!-- #0rx: dh727+27+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>訒庵遺稿 ^一卷^</title>
+                        <title source="9">ren an yi gao</title>
+                        <note source="290">(清)周悅修撰</note>
+                        <author><persName>(清)周悅修</persName><persName type="9">zhou yue
+                              xiu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000108|odh -->
+                        <!-- #0rx: dh727+27+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>傳忠堂學古文 ^一卷^</title>
+                        <title source="9">chuan zhong tang xue gu wen</title>
+                        <note source="290">(清)周星譽撰</note>
+                        <author><persName>(清)周星譽</persName><persName type="9">zhou xing
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000109|odh -->
+                        <!-- #0rx: dh727+27+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>鷗堂賸稿 ^一卷^</title>
+                        <title source="9">ou tang sheng gao</title>
+                        <note source="290">(清)周星譽撰</note>
+                        <author><persName>(清)周星譽</persName><persName type="9">zhou xing
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000110|odh -->
+                        <!-- #0rx: dh727+27+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>東鷗草堂詞 ^二卷^</title>
+                        <title source="9">dong ou cao tang ci</title>
+                        <note source="290">(清)周星譽撰</note>
+                        <author><persName>(清)周星譽</persName><persName type="9">zhou xing
+                              yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000111|odh -->
+                        <!-- #0rx: dh727+27+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>寙櫎詩質 ^一卷^</title>
+                        <title source="9">yu huang shi zhi</title>
+                        <note source="290">(清)周星詒撰</note>
+                        <author><persName>(清)周星詒</persName><persName type="9">zhou xing
+                              yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000112|odh -->
+                        <!-- #0rx: dh727+27+6 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180626/00000106|odh -->
+                        <!-- #0rx: dh727+27 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221494020107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

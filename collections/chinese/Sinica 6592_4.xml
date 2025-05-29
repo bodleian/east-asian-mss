@@ -1,0 +1,934 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_12680">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6592/4</idno>
+               </msIdentifier>
+               <head>書名:四印齋彙刻宋元三十一家詞 / (清)王鵬運輯<lb/>收於:下列叢書附:<lb/>四印齋所刻詞 /
+                  (清)王鵬運輯<lb/>清光緒戊子[1888]臨桂王氏家塾刻本<lb/>洋裝4冊(原線裝17冊) ; 25公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">四印齋彙刻宋元三十一家詞</title>
+                     <title source="#200|9">si yin zhai hui ke song yuan san shi yi jia ci</title>
+                     <note source="#290">(清)王鵬運輯</note>
+                     <author source="#300"><persName>(清)王鵬運</persName><persName type="9">wang peng
+                           yun</persName></author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170206/00000027|odh -->
+                        <!-- #0rx: dh643+21 -->
+                        <!-- #0rz: 附 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221527020107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>逍遙詞 ^一卷^</title>
+                        <title source="9">xiao yao ci</title>
+                        <note source="290">(宋)潘閬撰</note>
+                        <author><persName>(宋)潘閬</persName><persName type="9">pan
+                           lang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000028|odh -->
+                           <!-- #0rx: dh643+21+01 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>筠谿詞 ^一卷^</title>
+                        <title source="9">yun xi ci</title>
+                        <note source="290">(宋)李彌遜撰</note>
+                        <author><persName>(宋)李彌遜</persName><persName type="9">li mi
+                           xun</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000029|odh -->
+                           <!-- #0rx: dh643+21+02 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>栟櫚詞 ^一卷^</title>
+                        <title source="9">bing lu ci</title>
+                        <note source="290">(宋)鄧肅撰</note>
+                        <author><persName>(宋)鄧肅</persName><persName type="9">deng
+                           su</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000030|odh -->
+                           <!-- #0rx: dh643+21+03 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>樵歌拾遺 ^一卷^</title>
+                        <title source="9">qiao ge shi yi</title>
+                        <note source="290">(宋)朱敦儒撰</note>
+                        <author><persName>(宋)朱敦儒</persName><persName type="9">zhu dun
+                           ru</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000031|odh -->
+                           <!-- #0rx: dh643+21+04 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>梅詞 ^一卷^</title>
+                        <title source="9">mei ci</title>
+                        <note source="290">(宋)朱雍撰</note>
+                        <author><persName>(宋)朱雍</persName><persName type="9">zhu
+                           yong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000032|odh -->
+                           <!-- #0rx: dh643+21+05 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>綺川詞 ^一卷^</title>
+                        <title source="9">qi chuan ci</title>
+                        <note source="290">(宋)倪偁撰</note>
+                        <author><persName>(宋)倪偁</persName><persName type="9">ni
+                           cheng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000033|odh -->
+                           <!-- #0rx: dh643+21+06 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>東溪詞 ^一卷^</title>
+                        <title source="9">dong xi ci</title>
+                        <note source="290">(宋)高登撰</note>
+                        <author><persName>(宋)高登</persName><persName type="9">gao
+                           deng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000034|odh -->
+                           <!-- #0rx: dh643+21+07 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>文定公詞 ^一卷^</title>
+                        <title source="9">wen ding gong ci</title>
+                        <note source="290">(宋)丘崈撰</note>
+                        <author><persName>(宋)丘崈</persName><persName type="9">qiu
+                           chong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000035|odh -->
+                           <!-- #0rx: dh643+21+08 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>燕喜詞 ^一卷^</title>
+                        <title source="9">yan xi ci</title>
+                        <note source="290">(宋)曹冠撰</note>
+                        <author><persName>(宋)曹冠</persName><persName type="9">cao
+                           guan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000036|odh -->
+                           <!-- #0rx: dh643+21+09 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>梅山詞 ^一卷^</title>
+                        <title source="9">mai shan ci</title>
+                        <note source="290">(宋)姜特立撰</note>
+                        <author><persName>(宋)姜特立</persName><persName type="9">jiang te
+                           li</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000037|odh -->
+                           <!-- #0rx: dh643+21+10 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>拙庵詞 ^一卷^</title>
+                        <title source="9">zhuo an ci</title>
+                        <note source="290">(宋)趙磻老撰</note>
+                        <author><persName>(宋)趙磻老</persName><persName type="9">zhao pan
+                              lao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000038|odh -->
+                           <!-- #0rx: dh643+21+11 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>宣卿詞 ^一卷^</title>
+                        <title source="9">xuan qing ci</title>
+                        <note source="290">(宋)袁去華撰</note>
+                        <author><persName>(宋)袁去華</persName><persName type="9">yuan qu
+                           hua</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000039|odh -->
+                           <!-- #0rx: dh643+21+12 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>晦菴詞 ^一卷^</title>
+                        <title source="9">hui an ci</title>
+                        <note source="290">(宋)李處全撰</note>
+                        <author><persName>(宋)李處全</persName><persName type="9">li chu
+                           quan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000040|odh -->
+                           <!-- #0rx: dh643+21+13 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>養拙堂詞 ^一卷^</title>
+                        <title source="9">yang zhuo tang ci</title>
+                        <note source="290">(宋)管鑑撰</note>
+                        <author><persName>(宋)管鑑</persName><persName type="9">guan
+                           jian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000041|odh -->
+                           <!-- #0rx: dh643+21+14 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>雙溪詩餘 ^一卷^</title>
+                        <title source="9">shuang xi shi yu</title>
+                        <note source="290">(宋)王炎撰</note>
+                        <author><persName>(宋)王炎</persName><persName type="9">wang
+                           yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000042|odh -->
+                           <!-- #0rx: dh643+21+15 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>龍川詞補 ^一卷^</title>
+                        <title source="9">long chuan ci bu</title>
+                        <note source="290">(宋)陳亮撰</note>
+                        <author><persName>(宋)陳亮</persName><persName type="9">chen
+                           liang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000043|odh -->
+                           <!-- #0rx: dh643+21+16 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>龜峰詞 ^一卷^</title>
+                        <title source="9">gui feng ci</title>
+                        <note source="290">(宋)陳人傑撰</note>
+                        <author><persName>(宋)陳人傑</persName><persName type="9">chen ren
+                              jie</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000044|odh -->
+                           <!-- #0rx: dh643+21+17 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>梅屋詩餘 ^一卷^</title>
+                        <title source="9">mei wu shi yu</title>
+                        <note source="290">(宋)許棐撰</note>
+                        <author><persName>(宋)許棐</persName><persName type="9">xu
+                           fei</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000045|odh -->
+                           <!-- #0rx: dh643+21+18 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>秋崖詞 ^一卷^</title>
+                        <title source="9">qiu ya ci</title>
+                        <note source="290">(宋)方岳撰</note>
+                        <author><persName>(宋)方岳</persName><persName type="9">fang
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000046|odh -->
+                           <!-- #0rx: dh643+21+19 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>碎錦詞 ^一卷^</title>
+                        <title source="9">sui jin ci</title>
+                        <note source="290">(元)李好古撰</note>
+                        <author><persName>(元)李好古</persName><persName type="9">li hao
+                           gu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000047|odh -->
+                           <!-- #0rx: dh643+21+20 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>潛齋詞 ^一卷^</title>
+                        <title source="9">qian zhai ci</title>
+                        <note source="290">(宋)何夢桂撰</note>
+                        <author><persName>(宋)何夢桂</persName><persName type="9">he meng
+                           gui</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000048|odh -->
+                           <!-- #0rx: dh643+21+21 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>覆瓿詞 ^一卷^</title>
+                        <title source="9">fu pou ci</title>
+                        <note source="290">(宋)趙必𤩪撰</note>
+                        <author><persName>(宋)趙必𤩪</persName><persName type="9">zhao bi
+                              xiang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000049|odh -->
+                           <!-- #0rx: dh643+21+22 -->
+                           <!-- #905: 𤩪=王+象 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>撫掌詞 ^一卷^</title>
+                        <title source="9">fu zhang ci</title>
+                        <note source="290">(宋)佚名撰</note>
+                        <note source="290">(宋)歐良輯</note>
+                        <author><persName>(宋)歐良</persName><persName type="9">ou
+                           liang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000050|odh -->
+                           <!-- #0rx: dh643+21+23 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>章華詞 ^一卷^</title>
+                        <title source="9">zhang hua ci</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000051|odh -->
+                           <!-- #0rx: dh643+21+24 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>藏春樂府 ^一卷^</title>
+                        <title source="9">cang chun yue fu</title>
+                        <note source="290">(元)劉秉忠撰</note>
+                        <author><persName>(元)劉秉忠</persName><persName type="9">liu bing
+                              zhong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000052|odh -->
+                           <!-- #0rx: dh643+21+25 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>淮陽樂府 ^一卷^</title>
+                        <title source="9">huai yang yue fu</title>
+                        <note source="290">(元)張弘範撰</note>
+                        <author><persName>(元)張弘範</persName><persName type="9">zhang hong
+                              fan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000053|odh -->
+                           <!-- #0rx: dh643+21+26 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>樵菴詞 ^一卷^</title>
+                        <title source="9">qiao an ci</title>
+                        <note source="290">(元)劉因撰</note>
+                        <author><persName>(元)劉因</persName><persName type="9">liu
+                           yin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000054|odh -->
+                           <!-- #0rx: dh643+21+27 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>牆東詩餘 ^一卷^</title>
+                        <title source="9">qiang dong shi yu</title>
+                        <note source="290">(元)陸文圭撰</note>
+                        <author><persName>(元)陸文圭</persName><persName type="9">lu wen
+                           gui</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000055|odh -->
+                           <!-- #0rx: dh643+21+28 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>天游詞 ^一卷^</title>
+                        <title source="9">tian you ci</title>
+                        <note source="290">(元)詹玉撰</note>
+                        <author><persName>(元)詹玉</persName><persName type="9">zhan
+                           yu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000056|odh -->
+                           <!-- #0rx: dh643+21+29 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>草廬詞 ^一卷^</title>
+                        <title source="9">cao lu ci</title>
+                        <note source="290">(元)吳澄撰</note>
+                        <author><persName>(元)吳澄</persName><persName type="9">wu
+                           cheng</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000057|odh -->
+                           <!-- #0rx: dh643+21+30 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6592/4</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>五峰詞 ^一卷^</title>
+                        <title source="9">wu feng ci</title>
+                        <note source="290">(元)李孝光撰</note>
+                        <author><persName>(元)李孝光</persName><persName type="9">li xiao
+                              guang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20170206/00000058|odh -->
+                           <!-- #0rx: dh643+21+31 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

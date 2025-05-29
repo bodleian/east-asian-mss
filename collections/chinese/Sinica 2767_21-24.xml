@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_8299">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2767/21-24</idno>
+               </msIdentifier>
+               <head>書名:志學編八種<lb/>收於:觀象廬叢書 / (清)呂調陽撰<lb/>清光緒戊子[1888]葉長高刊本彭門吳氏藏板<lb/>線裝64冊 ;
+                  27公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">志學編八種</title>
+                     <title source="#200|9">zhi xue bian ba zhong</title>
+                     <author source="#300"><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                           yang</persName></author>
+                     <msItem n="1">
+                        <title>大學節訓 ^一卷^</title>
+                        <title source="9">da xue jie xun</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:02:00|odh -->
+                        <!-- #0rr: 20141117/15:37:15-371739/1|odh -->
+                        <!-- #0rx: dh546+04+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>中庸節訓 ^一卷^</title>
+                        <title source="9">zhong yong jie xun</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:02:26|odh -->
+                        <!-- #0rr: 20141117/15:37:05-371740/1|odh -->
+                        <!-- #0rx: dh546+04+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>洪範原數 ^一卷^</title>
+                        <title source="9">hong fan yuan shu</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:03:18|odh -->
+                        <!-- #0rr: 20141117/15:36:57-371741/1|odh -->
+                        <!-- #0rx: dh546+04+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>釋天 ^一卷^</title>
+                        <title source="9">shi tian</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:03:40|odh -->
+                        <!-- #0rr: 20141117/15:36:48-371742/1|odh -->
+                        <!-- #0rx: dh546+04+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>重訂談天正議 ^一卷^</title>
+                        <title source="9">chong ding tan tian zheng yi</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:04:46|odh -->
+                        <!-- #0rr: 20141117/15:36:41-371743/1|odh -->
+                        <!-- #0rx: dh546+04+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>三代紀念考 ^一卷^</title>
+                        <title source="9">san dai ji nian kao</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:05:26|odh -->
+                        <!-- #0rr: 20141117/15:36:34-371744/1|odh -->
+                        <!-- #0rx: dh546+04+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>周官司徒類攷 ^一卷^</title>
+                        <title source="9">zhou guan si tu lei kao</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:06:15|odh -->
+                        <!-- #0rr: 20141117/15:36:28-371745/1|odh -->
+                        <!-- #0rx: dh546+04+7 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>考工記考 ^一卷圖一卷^</title>
+                        <title source="9">kao gong ji kao</title>
+                        <author><persName>(清)呂調陽</persName><persName type="9">lu tiao
+                              yang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:06:44|odh -->
+                        <!-- #0rr: 20141117/15:36:23-371746/1|odh -->
+                        <!-- #0rx: dh546+04+8 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141029/11:01:12|odh -->
+                        <!-- #0rr: 20141117/15:37:22-371738/1|odh -->
+                        <!-- #0rx: dh546+04 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221397320107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

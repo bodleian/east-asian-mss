@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9192">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3211/31-32</idno>
+               </msIdentifier>
+               <head>書名:景汲古閣鈔宋金詞七種 / (民國)陶湘輯<lb/>民國陽湖陶氏影刊明毛氏鈔本<lb/>收於:景刊宋金元明本詞五十種 /
+                  中國書店輯<lb/>一九八一年北京中國書店合輯修補重印民國刊板<lb/>線裝32冊 ;
+                  29公分<lb/>本書爲中國書店彙印民國吳昌綬、陶湘輯《景刊宋金元明本詞四十種》、《景刊宋金元明本詞補編三種》、《景汲古閣鈔宋金詞七種》<lb/>有朱印封面及序、總目共五葉<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">景汲古閣鈔宋金詞七種</title>
+                     <title source="#200|9">ying ji gu ge chao song jin ci qi zhong</title>
+                     <note source="#290">(民國)陶湘輯</note>
+                     <author source="#300"><persName>(民國)陶湘</persName><persName type="9">tao
+                           xiang</persName></author>
+                     <note source="#409">民國陽湖陶氏影刊明毛氏鈔本</note>
+                     <msItem n="2">
+                        <title>菊軒樂府 ^一卷^</title>
+                        <title source="9">ju xuan yue fu</title>
+                        <note source="290">(金)段成己撰</note>
+                        <author><persName>(金)段成己</persName><persName type="9">duan cheng
+                              ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200121/00000050|odh -->
+                        <!-- #0rx: dh825+3+2 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200121/00000048|odh -->
+                        <!-- #0rx: dh825+3 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221442550107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/31(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>和石湖詞 ^一卷^</title>
+                        <title source="9">he shi hu ci</title>
+                        <note source="290">(宋)范成大, (宋)陳三聘撰</note>
+                        <author><persName>(宋)范成大</persName><persName type="9">fan cheng
+                              da</persName></author>
+                        <author><persName>(宋)陳三聘</persName><persName type="9">chen san
+                              pin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000049|odh -->
+                           <!-- #0rx: dh825+3+1 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/31(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>東浦詞 ^一卷^</title>
+                        <title source="9">dong pu ci</title>
+                        <note source="290">(宋)韓玉撰</note>
+                        <author><persName>(宋)韓玉</persName><persName type="9">han
+                           yu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000051|odh -->
+                           <!-- #0rx: dh825+3+3 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/32(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>渭川居士詞 ^一卷^</title>
+                        <title source="9">wei chuan ju shi ci</title>
+                        <note source="290">(宋)呂勝己撰</note>
+                        <author><persName>(宋)呂勝己</persName><persName type="9">lu sheng
+                           ji</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000052|odh -->
+                           <!-- #0rx: dh825+3+4 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/32(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>初寮詞 ^一卷^</title>
+                        <title source="9">chu liao ci</title>
+                        <note source="290">(宋)王安中撰</note>
+                        <author><persName>(宋)王安中</persName><persName type="9">wang an
+                              zhong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000053|odh -->
+                           <!-- #0rx: dh825+3+5 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/32(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>空同詞 ^一卷^</title>
+                        <title source="9">kong tong ci</title>
+                        <note source="290">(宋)洪瑹撰</note>
+                        <author><persName>(宋)洪瑹</persName><persName type="9">hong
+                           tu</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000054|odh -->
+                           <!-- #0rx: dh825+3+6 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3211/32(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>知稼翁詞 ^一卷^</title>
+                        <title source="9">zhi jia weng ci</title>
+                        <note source="290">(宋)黃公度撰</note>
+                        <author><persName>(宋)黃公度</persName><persName type="9">huang gong
+                              du</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200121/00000055|odh -->
+                           <!-- #0rx: dh825+3+7 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

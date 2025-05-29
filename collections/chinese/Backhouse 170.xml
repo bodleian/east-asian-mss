@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17081">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 170</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">唐宋八大家文鈔</title>
+                     <title source="#200|9">tang song ba da jia wen chao</title>
+                     <note source="#290">(明)茅坤編暨評</note>
+                     <author source="#300"><persName>(明)茅坤</persName><persName type="9">mao
+                           kun</persName></author>
+                     <note source="#409">清康熙中雲林大盛堂刊本</note>
+                     <editor source="#440" role="pbl"><persName>大盛堂</persName><persName type="9" role="pbl">da sheng tang</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_6505">Backhouse 170/1-5</ref><title>唐大家韓文公文鈔 ^十六卷^</title> / <persName>(唐)韓愈</persName></item><item><ref target="volume_6512">Backhouse 170/6-8</ref><title>唐大家柳柳州文鈔 ^十二卷^</title> / <persName>(唐)柳宗元</persName></item><item><ref target="volume_6513">Backhouse 170/9-16</ref><title>宋大家歐陽文忠公文鈔 ^三十二卷^</title> / <persName>(宋)歐陽修</persName></item><item><ref target="volume_6506">Backhouse 170/17-22</ref><title>宋大家蘇文忠公文鈔 ^二十八卷^</title> / <persName>(宋)蘇軾</persName></item><item><ref target="volume_6507">Backhouse 170/23-24</ref><title>宋大家蘇文公文鈔 ^十卷^</title> / <persName>(宋)蘇洵</persName></item><item><ref target="volume_6508">Backhouse 170/25-29</ref><title>宋大家蘇文定公文鈔 ^二十卷^</title> / <persName>(宋)蘇轍</persName></item><item><ref target="volume_6509">Backhouse 170/30-32</ref><title>宋大家曾文定公文鈔 ^十卷^</title> / <persName>(宋)曾鞏</persName></item><item><ref target="volume_6510">Backhouse 170/33-36</ref><title>宋大家王文公文鈔 ^六卷^</title> / <persName>(宋)王安石</persName></item><item><ref target="volume_6511">Backhouse 170/37-40</ref><title>歐陽文忠公五代史抄 ^三十卷^</title> / <persName>(宋)歐陽修</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>40 volumes.<!--線裝40冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「才子必讀書」、「太虛堂藏書」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1662" type="d">1662</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20070517/18:22:08|odh -->
+                        <!-- #0rr: 20190930/22:17:23-132040/110|omaster -->
+                        <!-- #0rx: dh371 -->
+                        <!-- #900: ors -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540880107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="720.84">集部 總集類 通代</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

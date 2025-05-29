@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9121">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 3170/82-83</idno>
+               </msIdentifier>
+               <head>書名:劉氏遺書 八卷 / (清)劉台拱撰<lb/>光緒十五年[1889]刊<lb/>收於:廣雅書局叢書 /
+                  (清)廣雅書局編<lb/>彙編重印清光緒中廣雅書局刊本<lb/>線裝388冊 ; 29公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">劉氏遺書 ^八卷^</title>
+                     <title source="#200|9">liu shi yi shu</title>
+                     <note source="#290">(清)劉台拱撰</note>
+                     <author source="#300"><persName>(清)劉台拱</persName><persName type="9">liu tai
+                           gong</persName></author>
+                     <note source="#600">光緒十五年[1889]刊</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19960526/21:30:19|odh -->
+                        <!-- #0rr: 19961015/18:37:14|odh -->
+                        <!-- #0rx: dh183+037 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221393980107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/82(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>論語駢枝 ^一卷^</title>
+                        <title source="9">lun yu pian zhi</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:32:35|odh -->
+                           <!-- #0rr: 19960528/10:55:04|odh -->
+                           <!-- #0rx: dh183+037+1 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/82(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>經傳小記 ^一卷^</title>
+                        <title source="9">jing zhuan xiao ji</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:33:08|odh -->
+                           <!-- #0rr: 19960528/10:55:12|odh -->
+                           <!-- #0rx: dh183+037+2 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/82(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>國語補校 ^一卷^</title>
+                        <title source="9">guo yu bu jiao</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:33:42|odh -->
+                           <!-- #0rr: 19960528/10:55:36|odh -->
+                           <!-- #0rx: dh183+037+3 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/83(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>荀子補注 ^一卷^</title>
+                        <title source="9">xun zi bu zhu</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:34:35|odh -->
+                           <!-- #0rr: 19960528/10:57:03|odh -->
+                           <!-- #0rx: dh183+037+4 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/83(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>淮南子補校 ^一卷^</title>
+                        <title source="9">huai nan zi bu jiao</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:35:25|odh -->
+                           <!-- #0rr: 19960528/10:57:20|odh -->
+                           <!-- #0rx: dh183+037+5 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/83(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>方言補校 ^一卷^</title>
+                        <title source="9">fang yan bu jiao</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:35:54|odh -->
+                           <!-- #0rr: 19960528/10:57:34|odh -->
+                           <!-- #0rx: dh183+037+6 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/83(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>漢學拾遺 ^一卷^</title>
+                        <title source="9">han xue shi yi</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:36:30|odh -->
+                           <!-- #0rr: 19960528/10:57:53|odh -->
+                           <!-- #0rx: dh183+037+7 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3170/83(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>文集 ^一卷^</title>
+                        <title source="9">wen ji</title>
+                        <note source="290">(清)劉台拱撰</note>
+                        <author><persName>(清)劉台拱</persName><persName type="9">liu tai
+                              gong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 19960526/21:37:04|odh -->
+                           <!-- #0rr: 19960528/10:58:24|odh -->
+                           <!-- #0rx: dh183+037+8 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_8022">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 2623/44-45</idno>
+               </msIdentifier>
+               <head>書名:荒政叢書 十卷附錄二卷 / (清)俞森輯<lb/>收於:下列叢書史部:<lb/>守山閣叢書 /
+                  (清)錢熙祚編<lb/>清光緒己亥[1899]上海鴻文書局縮印金山錢氏刊本<lb/>線裝100冊 ; 17公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">荒政叢書 ^十卷附錄二卷^</title>
+                     <title source="#200|9">huang zheng cong shu</title>
+                     <note source="#290">(清)俞森輯</note>
+                     <author source="#300"><persName>(清)俞森</persName><persName type="9">yu
+                           sen</persName></author>
+                     <msItem n="01">
+                        <title>救荒全書 ^一卷^</title>
+                        <title source="9">jiu huang quan shu</title>
+                        <note source="290">(宋)董煟撰</note>
+                        <author><persName>(宋)董煟</persName><persName type="9">dong
+                           wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000145|odh -->
+                        <!-- #0rx: dh605+044+01 -->
+                     </msItem>
+                     <msItem n="02">
+                        <title>荒政叢言 ^一卷^</title>
+                        <title source="9">huang zheng cong yan</title>
+                        <note source="290">(明)林希元撰</note>
+                        <author><persName>(明)林希元</persName><persName type="9">lin xi
+                           yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000146|odh -->
+                        <!-- #0rx: dh605+044+02 -->
+                     </msItem>
+                     <msItem n="03">
+                        <title>荒政考 ^一卷^</title>
+                        <title source="9">huang zheng kao</title>
+                        <note source="290">(明)屠隆撰</note>
+                        <author><persName>(明)屠隆</persName><persName type="9">tu
+                           long</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000147|odh -->
+                        <!-- #0rx: dh605+044+03 -->
+                     </msItem>
+                     <msItem n="04">
+                        <title>荒政議 ^一卷^</title>
+                        <title source="9">huang zheng yi</title>
+                        <note source="290">(明)周孔教撰</note>
+                        <author><persName>(明)周孔教</persName><persName type="9">zhou kong
+                              jiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000148|odh -->
+                        <!-- #0rx: dh605+044+04 -->
+                     </msItem>
+                     <msItem n="05">
+                        <title>賑豫紀略 ^一卷^</title>
+                        <title source="9">zhen yu ji lue</title>
+                        <note source="290">(明)鐘化民撰</note>
+                        <author><persName>(明)鐘化民</persName><persName type="9">zhong hua
+                              min</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000149|odh -->
+                        <!-- #0rx: dh605+044+05 -->
+                     </msItem>
+                     <msItem n="06">
+                        <title>荒箸略 ^一卷^</title>
+                        <title source="9">huang zhu lue</title>
+                        <note source="290">(明)劉世教撰</note>
+                        <author><persName>(明)劉世教</persName><persName type="9">liu shi
+                              jiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000150|odh -->
+                        <!-- #0rx: dh605+044+06 -->
+                     </msItem>
+                     <msItem n="07">
+                        <title>救荒策 ^一卷^</title>
+                        <title source="9">jiu huang ce</title>
+                        <note source="290">(清)魏禧撰</note>
+                        <author><persName>(清)魏禧</persName><persName type="9">wei
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000151|odh -->
+                        <!-- #0rx: dh605+044+07 -->
+                     </msItem>
+                     <msItem n="08">
+                        <title>常平倉考 ^一卷^</title>
+                        <title source="9">chang ping cang kao</title>
+                        <note source="290">(清)俞森撰</note>
+                        <author><persName>(清)俞森</persName><persName type="9">yu
+                           sen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000152|odh -->
+                        <!-- #0rx: dh605+044+08 -->
+                     </msItem>
+                     <msItem n="09">
+                        <title>義倉考 ^一卷^</title>
+                        <title source="9">yi cang kao</title>
+                        <note source="290">(清)俞森撰</note>
+                        <author><persName>(清)俞森</persName><persName type="9">yu
+                           sen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000153|odh -->
+                        <!-- #0rx: dh605+044+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>社倉考 ^一卷^</title>
+                        <title source="9">she cang kao</title>
+                        <note source="290">(清)俞森撰</note>
+                        <author><persName>(清)俞森</persName><persName type="9">yu
+                           sen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000154|odh -->
+                        <!-- #0rx: dh605+044+10 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20161117/00000144|odh -->
+                        <!-- #0rx: dh605+044 -->
+                        <!-- #0rz: 史部 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221399760107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_7185">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Backhouse 349/62-64</idno>
+               </msIdentifier>
+               <head>書名:楊輝算法 六卷 / (宋)楊輝集<lb/>楊輝算法札記 一卷 / (清)宋景昌撰<lb/>道光壬寅[1842]刊<lb/>收於:宜稼堂叢書 /
+                  (清)郁松年編<lb/>清道光中上海郁氏刊本<lb/>線裝96冊 ; 24公分<lb/></head>
+               <msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title source="#200">楊輝算法 ^六卷^</title>
+                     <title source="#200|9">yang hui suan fa</title>
+                     <note source="#290">(宋)楊輝集</note>
+                     <author source="#300"><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                     <note source="#600">道光壬寅[1842]刊</note>
+                  </msItem>
+                  <msItem n="2">
+                     <title source="#201">楊輝算法札記 ^一卷^</title>
+                     <title source="#201|9">yang hui suan fa zha ji</title>
+                     <note source="#291">(清)宋景昌撰</note>
+                     <author source="#301"><persName>(清)宋景昌</persName><persName type="9">song jing
+                           chang</persName></author>
+                     <msItem n="1">
+                        <title>田畝比類乘除捷法 ^二卷^</title>
+                        <title source="9">tian mu bi lei cheng chu jie fa</title>
+                        <author><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000006|odh -->
+                        <!-- #0rx: dh633+5+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>算法通變本末 ^卷上^</title>
+                        <title source="9">suan fa tong bian ben mo</title>
+                        <author><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000007|odh -->
+                        <!-- #0rx: dh633+5+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>乘除通變算寶 ^卷中^</title>
+                        <title source="9">cheng chu tong bian suan bao</title>
+                        <author><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000008|odh -->
+                        <!-- #0rx: dh633+5+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>算法取用本末 ^卷下^</title>
+                        <title source="9">suan fa qu yong ben mo</title>
+                        <author><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000009|odh -->
+                        <!-- #0rx: dh633+5+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>續古摘奇算法 ^一卷^</title>
+                        <title source="9">xu gu zhai qi suan fa</title>
+                        <author><persName>(宋)楊輝</persName><persName type="9">yang
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000010|odh -->
+                        <!-- #0rx: dh633+5+5 -->
+                     </msItem>
+                  </msItem>
+
+
+
+
+
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20170102/00000005|odh -->
+                        <!-- #0rr: 20170116/18:07:38-421667/1|odh -->
+                        <!-- #0rx: dh633+5 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221574570107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

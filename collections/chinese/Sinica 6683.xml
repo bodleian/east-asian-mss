@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17470">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6683</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">三怡堂叢書</title>
+                     <title source="#200|9">san yi tang cong shu</title>
+                     <note source="#290">(清)張鳳臺輯</note>
+                     <author source="#300"><persName>(清)張鳳臺</persName><persName type="9">zhang feng
+                           tai</persName></author>
+                     <note source="#409">清光緒民國間河南官書局刊本</note>
+                     <editor source="#440" role="pbl"><persName>河南官書局</persName><persName type="9" role="pbl">he nan guan shu ju</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_15387">Sinica 6683/1-2</ref><title>師竹堂集 ^三十卷^</title> / <persName>(明)王祖嫡</persName></item><item><ref target="volume_15388">Sinica 6683/3(1)</ref><title>孟有涯集 ^十七卷^</title> / <persName>(明)孟洋</persName></item><item><ref target="volume_15389">Sinica 6683/3(2)</ref><title>黃谷䜈談 ^四卷^</title> / <persName>(明)李蔉</persName></item><item><ref target="volume_15390">Sinica 6683/4(1)</ref><title>豫變紀略 ^八卷^</title> / <persName>(清)鄭廉</persName></item><item><ref target="volume_15391">Sinica 6683/4(2)-5(1)</ref><title>天根文鈔 ^四卷文法一卷續集一卷詩鈔二卷^</title> / <persName>(清)何家琪</persName></item><item><ref target="volume_15392">Sinica 6683/5(2)</ref><title>岳起齋詩存 ^二卷^</title> / <persName>(清)吳振周</persName></item><item><ref target="volume_15393">Sinica 6683/6(1)</ref><title>過菴遺稿 ^八卷^</title> / <persName>(明)陳卜</persName></item><item><ref target="volume_15394">Sinica 6683/6(2)</ref><title>李子田詩集 ^二卷^</title> / <persName>(明)李蓘</persName></item><item><ref target="volume_15395">Sinica 6683/6(3)</ref><title>玉楮集 ^八卷附錄一卷^</title> / <persName>(宋)岳珂</persName></item><item><ref target="volume_15396">Sinica 6683/7(1)</ref><title>汴宋竹枝詞 ^二卷^</title> / <persName>(清)李于潢</persName></item><item><ref target="volume_15397">Sinica 6683/7(2)</ref><title>如夢錄 ^一卷^</title> </item><item><ref target="volume_15398">Sinica 6683/7(3)</ref><title>東京夢華錄 ^十卷^</title> / <persName>(宋)孟元老</persName></item><item><ref target="volume_15399">Sinica 6683/7(4)</ref><title>石魚齋詩選 ^二卷^</title> / <persName>(清)李維世</persName></item><item><ref target="volume_15400">Sinica 6683/8</ref><title>汴京遺蹟志 ^二十四卷^</title> / <persName>(明)李濂</persName></item><item><ref target="volume_15401">Sinica 6683/9(1)</ref><title>輶軒博紀續編 ^四卷^</title> / <persName>(清)邵松年</persName></item><item><ref target="volume_15402">Sinica 6683/9(2)</ref><title>圭塘小藳 ^十三卷續集一卷續集附錄一卷別集二卷別集附錄一卷^</title> / <persName>(元)許有壬</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>9 volumes.<!--洋裝9冊(原線裝54冊) ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1906" notAfter="1929" type="g">1906
+                        - 1929</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180620/12:01:56|odh -->
+                        <!-- #0rr: 20180621/11:05:58-440341/11|omaster -->
+                        <!-- #0rx: dh720 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221433340107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="840.89">叢書 郡邑類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9100">9100</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

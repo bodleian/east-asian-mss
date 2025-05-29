@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17467">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection/>
+                  <idno type="shelfmark">Sinica 6680</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title source="#200">石林遺書</title>
+                     <title source="#200|9">shi lin yi shu</title>
+                     <note source="#290">(宋)葉夢得撰</note>
+                     <author source="#300"><persName>(宋)葉夢得</persName><persName type="9">ye meng
+                           de</persName></author>
+                     <note source="#409">清光緒宣統間長沙葉德輝觀古堂刊本</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_15344">Sinica 6680/1(1)</ref><title>避暑錄話 ^二卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15345">Sinica 6680/1(2)</ref><title>老子解 ^二卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15346">Sinica 6680/1(3)</ref><title>石林居士建康集 ^八卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15347">Sinica 6680/1(4)</ref><title>石林詩話 ^三卷拾遺一卷拾遺補一卷附錄一卷附錄補遺一卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15348">Sinica 6680/1(5)</ref><title>石林詞 ^一卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15349">Sinica 6680/2(1)</ref><title>玉澗襍書 ^一卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15350">Sinica 6680/2(2)</ref><title>巖下放言 ^三卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15351">Sinica 6680/2(3)</ref><title>石林家訓 ^一卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15352">Sinica 6680/2(4)</ref><title>石林治生家訓要略 ^一卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15353">Sinica 6680/2(5)</ref><title>禮記解 ^四卷^</title> / <persName>(宋)葉夢得</persName></item><item><ref target="volume_15354">Sinica 6680/2(6)</ref></item><item><ref target="volume_15355">Sinica 6680/2(7)</ref><title>石林燕語辨 ^十卷^</title> / <persName>(宋)葉夢得</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent>2 volumes.<!--洋裝2冊(原線裝14冊) ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p>traditional thread binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1904" notAfter="1911" type="g">1904
+                        - 1911</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source> </source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180619/11:34:14|odh -->
+                        <!-- #0rr: 20180621/11:05:58-440276/9|omaster -->
+                        <!-- #0rx: dh718 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221346300107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="880.77">叢書 獨撰類</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9115">9115</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
