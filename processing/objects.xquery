@@ -210,7 +210,7 @@ declare function local:objectTerms($terms as node()*, $solrfield as xs:string, $
                     { bod:trueIfExists($ms//tei:sourceDesc//tei:decoDesc/tei:decoNote[not(@type='none')], 'ms_deconote_b') }
                     { bod:digitized($ms//tei:sourceDesc//tei:surrogates//tei:bibl, 'ms_digitized_s') }
                     { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm') }
-                    { local:origin($ms//tei:sourceDesc//tei:origPlace/tei:country/@key, 'ms_origin_sm') }
+                    { bod:many2one($ms//tei:sourceDesc//tei:origin/tei:origPlace, 'ms_origin_sm','Not specified') }                   
                     { bod:centuries($ms//tei:origin//tei:origDate, 'ms_date_sm') }
                     { local:workSubjects($ms//tei:msItem/tei:title/@key, 'wk_subjects_sm') }
                     { local:objectTerms($ms//tei:profileDesc//tei:item/node(), 'ms_', '_sm') }
