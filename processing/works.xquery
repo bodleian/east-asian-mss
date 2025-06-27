@@ -9,7 +9,7 @@ declare variable $authorsinworksauthority := true();
 
 (: Read persons authority file to be able to link from works to 
    their authors (not necessary if the works authority has authors in it) :)
-declare variable $personauthority := doc("../authority/authority/persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
+declare variable $personauthority := doc("../authority/persons.xml")/tei:TEI/tei:text/tei:body/tei:listPerson/tei:person[@xml:id];
 
 (: Get a list of person keys in all the manuscript records, to check a link from work to person won't be broken :)
 declare variable $personkeys := distinct-values(collection('../collections?select=*.xml;recurse=yes')//tei:msDesc//(tei:persName|tei:author|tei:editor)/@key/data());
@@ -54,6 +54,7 @@ declare variable $allinstances :=
         </instance>;
 
 <add>
+
 {
     comment{concat(' Indexing started at ', current-dateTime(), ' using authority file at ', substring-after(base-uri($authorityentries[1]), 'file:'), ' ')}
 }
