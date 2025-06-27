@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19980602/16:20:23|odh --><!-- #0rr: 20160916/15:19:47-88888/30|omaster --><!-- #430: 1861 --><!-- #900: p --><!-- #905: For 「羅宅」 see note on S.2079. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221419200107026">SOLO</ref></p></availability>
                   </adminInfo>
                <surrogates>
  <listBibl>

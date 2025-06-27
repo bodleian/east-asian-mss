@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20050503/16:45:32|odh --><!-- #0rr: 20191002/12:55:31-140298/26|omaster --><!-- #900: o --><!-- #905: S.4613 is a more luxuriously presented copy than S.3836, which has been wrecked by western binding. Gold-flecked covers. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221446100107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20031129/10:14:44|odh --><!-- #0rr: 20151113/15:57:11-118422/5|omaster --><!-- #0cm: si --><!-- #405: 1:1, May 1875-[?] --><!-- #430: 1875-[?] --><!-- #900: p --><!-- #905: It says on the cover 「第九年第十一卷」. Also, J Murdoch's "Report on Christian literature in China" (1882) says the paper is "now in its seventh volume" (p.20). These evidences suggest a start date of 1876, but the first issue is clearly dated 1875. From 1:6 the English title-page bears the imprint "Canton: J.G. Kerr". Did Farnham's serial incorporate Kerr's, of the same name? --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221445290107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

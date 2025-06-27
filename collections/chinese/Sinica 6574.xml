@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19911119/19:30:19|odh --><!-- #0rr: 20190818/13:49:30-386613/136|omaster --><!-- #0cm: si --><!-- #430: 1884-1894 --><!-- #900: o --><!-- #905: Sinica 3998 is accompanied by a bundle of ms. notes on the contents (S.3998*), which were found between the pages of the copy in 1956. On one of the slips is the name "Rev. J. Stonehouse, London Mission, Shanghai". --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221372280107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

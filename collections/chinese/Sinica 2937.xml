@@ -72,9 +72,8 @@
                         <source>
                         </source>
                         <!--Unused allegro fields--><!-- #000: 19990223/13:02:11|odh --><!-- #0rr: 20130521/14:09:18|odh --><!-- #430: [c.1812?] --><!-- #900: p --><!-- #905: Sinica 3927 and 3928 were originally 8° U 162 Th. Of this collection, 159 and 160 have an 1820 imprint, and should have come from the Stationers' Company as a legal deposit; 163 (now C.P.Hind.1818 d.1) was a copy of "Common Prayer in Hindoostanee. 1818". A provenance of c.1820 therefore seems likely for the two Sinica items. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354390107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

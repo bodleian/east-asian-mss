@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19951216/09:28:52|odh --><!-- #0rr: 20130107/15:16:34|odh --><!-- #900: o --><!-- #905: After examining copies in Paris &amp; Rome, Yuming Sun (Nelson-Atkins Museum of Art, Kansas City, Missouri) said "Sinica 60 is the best (and most precious) of all extant copies". --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221305870107026">SOLO</ref></p></availability>
                   </adminInfo>
                <surrogates>
  <listBibl>

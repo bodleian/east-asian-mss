@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20040203/11:57:36|odh --><!-- #0rr: 20131106/12:55:44|odh --><!-- #430: 咸豐元年[1851] --><!-- #80R: ['Chinese 2.3|c26.4公分 - Lacks English title-page', 'Chinese 2.4|c26.4公分. - 書品劣, 有缺. - Lacks English title-page'] --><!-- #900: p --><!-- #905: Part of a projected complete O.T. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221306860107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20030506/15:16:53|odh --><!-- #0rr: 20130520/13:02:56|odh --><!-- #900: or --><!-- #905: B.313 is altogether more impressive. Has yellow covers and cases, and seems to be a slightly earlier printing. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443960107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

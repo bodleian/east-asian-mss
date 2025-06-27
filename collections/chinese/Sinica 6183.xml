@@ -54,7 +54,7 @@
                      
                      <supportDesc>
                         
-                     <extent><measure n="3" type="volume"></measure><!--折裝3冊 : 圖 ; 32公分--><dimensions unit="cm"><height>32</height></dimensions></extent></supportDesc>
+                     <extent><measure n="3" type="volume"/><!--折裝3冊 : 圖 ; 32公分--><dimensions unit="cm"><height>32</height></dimensions></extent></supportDesc>
                      
                   </objectDesc>
 
@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20010801/12:47:19|odh --><!-- #0rr: 20141118/11:15:22-49985/2|omaster --><!-- #0cm: i --><!-- #900: or --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221495700107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20050126/14:28:15|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: 1881 --><!-- #900: p --><!-- #905: IHE label is mostly missing. The copy seems to be IHE1.27, but if so the attribution to Medhurst is wrong. Possibly BS 165 (p.33) - imprint and size correspond, but pagination different; a mistake in BS catalogue? --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290850107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

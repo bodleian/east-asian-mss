@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20140923/15:57:39|odh --><!-- #0rr: 20160921/12:31:21-370586/131|omaster --><!-- #430: [1882?] --><!-- #900: p --><!-- #905: The IHE number pencilled on the item does not correspond with the printed catalogue. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221408550107026">SOLO</ref></p></availability>
                   </adminInfo>
                <surrogates>
  <listBibl>

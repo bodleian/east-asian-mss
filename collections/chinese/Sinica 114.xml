@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19950405/15:27:02|odh --><!-- #0rr: 20190208/18:16:24-112747/21|omaster --><!-- #900: o --><!-- #905: Date not in book, but other titles by 新賢堂 listed by 杜信孚 (明代版刻綜錄) all published in 嘉靖 period. Cover of S.114 inscribed in French. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221457240107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

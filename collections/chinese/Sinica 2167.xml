@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20030714/11:54:44|odh --><!-- #0rr: 20191203/10:48:04-131789/69|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: Date obtained from 譯書事略 (Sinica 2224), 8a. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221409050107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

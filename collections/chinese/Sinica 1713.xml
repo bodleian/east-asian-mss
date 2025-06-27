@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20040131/12:04:34|odh --><!-- #0rr: 20140721/15:13:02-132367/6|omaster --><!-- #430: 嘉慶丙子[1816] --><!-- #900: p --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486490107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

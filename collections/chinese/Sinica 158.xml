@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20050201/14:08:29|odh --><!-- #0rr: 20130523/16:01:37|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: The first edition is Qianlong (1755). Ding Fubao records two editions: 乾隆20[1755] and 嘉慶10[1805] (補遺 p.189a, no.1028). The 乾隆 edn. is reproduced by Zhou Xinhui (9, 182-183), the 嘉慶 edition in 中國歷代人物像傳, v.4 (Chin.d.12978). The Sinica copies have a 嘉慶 postface, but the blocks are different from those of both the above reproductions, so there were at least three editions, alike in size and format, and very closely related. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221407290107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

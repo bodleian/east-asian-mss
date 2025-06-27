@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20141114/14:45:50|odh --><!-- #0rr: 20191027/21:45:42-365896/447|omaster --><!-- #905: 木魚書目錄 080215. Sinica 5036 and Sinica 5056 are reproductions of the same orginal edition, but S.5036 uses a later printing in which the characters 「以文」 have been excised from the blocks in the text at the beginning of the table of contents and of each juan. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221345690107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

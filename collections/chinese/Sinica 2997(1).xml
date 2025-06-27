@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20030709/15:40:36|odh --><!-- #0rr: 20130521/14:09:28|odh --><!-- #430: 咸豐己未[1859] --><!-- #900: op --><!-- #905: This edition, though smaller, has the same sumptuous covers as Herschel's 談天 (Sinica 1885). They have been removed in binding in the Malan copy. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221497010107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

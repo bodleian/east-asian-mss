@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19980116/14:29:37|odh --><!-- #0rr: 20130521/14:09:11|odh --><!-- #400: 重刊 --><!-- #430: 1868 --><!-- #900: p --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221324930107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

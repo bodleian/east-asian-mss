@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20030711/13:59:52|odh --><!-- #0rr: 20191115/13:05:54-131788/55|omaster --><!-- #0cm: i --><!-- #900: or --><!-- #905: Date obtained from 譯書事略 (Sinica 2224), 7b. The authorities say that this work has a 《附錄》 in one juan, and consists of 6 ce. S.2161 corresponds with this description, the main text being contained in the first 5 ce, and the 《附錄》 in the 6th. But since both S.737 and S.1866 are without the 《附錄》 and consist of only 4 ce, it is reasonable to assume that they represent printings made before the production of the 《附錄》 rather than incomplete copies, especially as the printing is sharper. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486550107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

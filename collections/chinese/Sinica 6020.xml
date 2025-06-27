@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20070424/12:19:03|odh --><!-- #0rr: 20190930/22:17:23-116303/64|omaster --><!-- #0cm: i --><!-- #900: ors --><!-- #905: The frontispiece (Buddha preaching the law) and figure of Weituo 韋駝 at the end are of exceptional quality. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277700107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 19970512/13:30:41|odh --><!-- #0rr: 20191002/12:55:31-366433/82|omaster --><!-- #900: o --><!-- #905: The first printing still has traces of vermilion on the blocks. In the later printings, 「決定不移軒」has been excised from the lower 版心. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221383730107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

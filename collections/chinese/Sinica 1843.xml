@@ -78,9 +78,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20031202/11:56:18|odh --><!-- #0rr: 20171205/14:11:03-116103/1|odh --><!-- #430: 1815-1822 --><!-- #80R: ['Chinese 2.2|c線裝2冊 ; 27.2公分. 書品劣. - The first fasc. contains the Pentateuch, and was printed in 1815; the second contains the major and minor prophets (Isaiah-Malachi), and bears a printed label "The Prophetic Books... 1819"; printed on both sides of the paper except for Genesis and Exodus, which are printed on doubled leaves', 'Chinese 2.5|c洋裝1冊(原線裝2冊) ; 26.4公分. - Job-Malachi, Job-Song of Solomon printed 1818, Isaiah-Malachi printed 1819, both parts printed on both sides of the paper', 'Chinese 2.12|c線裝2冊 ; 27.3公分. - The first fasc. contains the major and minor prophets (Isaiah-Malachi), but lacks the printed label present in Chinese 2.2; the second contains the New Testament, and bears a printed label with the date "1815-22"; printed on both sides of the paper except for Romans-Hebrews (first 5 leaves), which are printed on doubled leaves', 'Chinese 2.11|c洋裝1冊(原線裝4冊) ; 26.3公分. - Bound in the wrong order: Joshua-Esther, Genesis-Deuteronomy; printed on both sides of the paper except for Genesis and Exodus, which are printed on doubled leaves', 'Chinese 2.10|c線裝1冊 ; 27.2公分. - New Testament, printed on both sides of the paper except for Romans-Hebrews (first 5 leaves), which are printed on doubled leaves', 'Chinese 2.8|c線裝1冊 ; 27.3公分. - Job-Song of Solomon, printed on both sides of the paper', 'Chinese 2.7|c洋裝(原線裝)1冊 ; 27.7公分. - Daniel-Malachi, printed on both sides of the paper'] --><!-- #900: pr --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390490107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>

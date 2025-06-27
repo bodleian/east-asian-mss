@@ -72,9 +72,8 @@
                         <source>
                         </source>
                      <!--Unused allegro fields--><!-- #000: 20190220/16:24:57|odh --><!-- #0rr: 20190930/22:17:23-448551/164|omaster --><!-- #905: S.486 is made up from surviving fragments. First fasc. contains juan 4, second juan 6, third juan 8 and juan 5; fourth fasc. contains juan 3 and is bigger and from a different copy. In B.372, the last leaf of 卷八 is wrongly pasted between leaves 1 and 2; the copy has a broken wooden slip case which is possibly original, shelved as B.372*. --><!-- #909: SerD --></recordHist>
-                     <availability>
-                        <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
-                     </availability>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221393080107026">SOLO</ref></p></availability>
                   </adminInfo>
                </additional>
             </msDesc>
