@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031129/12:09:00|odh --><!-- #0rr: 20191113/14:00:18-131274/23|omaster --><!-- #400: 續刻 --><!-- #430: 辛酉[1861] --><!-- #905: 「馬邦畢禮遮邑」 means "Belchertown, Massachusetts". 「續刻」 refers to the fact that this version completes the earlier editions (1838, 1846), which consist of 上卷 only. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221383770107026">SOLO</ref></p></availability>

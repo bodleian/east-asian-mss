@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030617/14:41:59|odh --><!-- #0rr: 20160916/15:19:47-135336/77|omaster --><!-- #430: 咸豐肆年[1854] --><!-- #900: p --><!-- #905: The first part of Matthew only. The second part was published later. Edition's history described fully in Wylie. 119. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221383240107026">SOLO</ref></p></availability>

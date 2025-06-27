@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070115/12:32:33|odh --><!-- #0rr: 20130523/16:02:08|odh --><!-- #900: o --><!-- #905: 霞漳 is a fancy name for 漳州 in 福建 province. 論語6 has 「霞漳文林堂梓行」 at beginning of chapter; 論語7-10 and 孟子1, 4-7 have just 「漳文林堂梓行」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221291450107026">SOLO</ref></p></availability>

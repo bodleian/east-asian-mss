@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010808/17:29:27|odh --><!-- #0rr: 20190614/16:36:01-89255/9|omaster --><!-- #900: o --><!-- #905: A prefatory page (printed in red) refers to an edict of 1867 ordering the reprinting of the classics and histories for use in local schools after the military destruction in Jiangsu and other provinces. This edition was presumably produced in response. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290300107026">SOLO</ref></p></availability>

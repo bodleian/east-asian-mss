@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20011211/14:29:30|odh --><!-- #0rr: 20140317/13:16:55|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Some papers about the artist, meaning of the work, and an outline of Chinese print history and technique are kept with the work, Sinica 3980*. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221306260107026">SOLO</ref></p></availability>

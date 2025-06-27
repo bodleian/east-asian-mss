@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090616/17:06:23|odh --><!-- #0rr: 20190614/16:36:01-111675/17|omaster --><!-- #900: o --><!-- #905: Mencius (2 vols) has been interleaved. Daxue, Zhongyong, and Lunyu vol. is slightly smaller. 「醉經樓」 appears in the 板心下 here and there throughout the book. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221416900107026">SOLO</ref></p></availability>

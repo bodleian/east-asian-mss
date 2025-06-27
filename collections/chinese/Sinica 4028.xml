@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030317/12:22:49|odh --><!-- #0rr: 20191028/10:19:32-404771/387|omaster --><!-- #905: The items in Sinica 4028-4491 were tied in 10 bundles, each held between pieces of cardboard bearing the number of the bundle and the title 「閩南歌冊」 followed by the name of the publisher or place of publication. The contents of the ten bundles were as follows. 1: 廈門及上海出版 (S.4028-4091); 2: also 廈門及上海出版 (S.4092-4146); 3: 台北市黃塗活版所 (S.4147-4179); 4: 臺中瑞成書局 (S.4180-4233); 5: 嘉義市玉珍書店 (S.4234-S.4259); 6: 嘉義市捷發漢書部 (S.4260-4302); 7: 臺北市周協隆書店 (S.4303-4334); 8: 臺灣 (S.4335-4362); 9: 新竹竹林書局 (S.4363-4446); 10: also 新竹竹林書局 (s.4447-4491). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221408690107026">SOLO</ref></p></availability>

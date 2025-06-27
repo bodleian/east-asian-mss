@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030408/11:44:42|odh --><!-- #0rr: 20130610/14:59:21|odh --><!-- #900: o --><!-- #905: In both copies, the last stroke of the character 「弘」has been excised from each block (with a few omissions), observing the taboo of Hongli 弘曆, the personal name of the Qianlong emperor. The copies are therefore later printings. An early, Kangxi printing without these excisions is reproduced in 續修四庫全書, and the 續弘簡錄 section of this reproduction has a title page with the words 「繼善堂藏板」. The 續弘簡錄 section of the Sinica copy has a preface by Zhu Yizun 朱彝尊 dated Kangxi 45 (1706) which is not present in either the reproduction or the Backhouse copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381410107026">SOLO</ref></p></availability>

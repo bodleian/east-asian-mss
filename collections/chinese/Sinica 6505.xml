@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151102/17:44:08|odh --><!-- #0rr: 20191105/17:44:12-31305/4|omaster --><!-- #0cm: s --><!-- #430: 1922-[?] --><!-- #900: p --><!-- #905: First issue is reproduced in S.6506/106. Not found elsewhere - unique surviving copy? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531240107026">SOLO</ref></p></availability>

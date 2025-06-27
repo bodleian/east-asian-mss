@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040110/12:12:39|odh --><!-- #0rr: 20130315/21:47:33|odh --><!-- #430: 1882 --><!-- #900: p --><!-- #905: Place taken from IHE catalogue. Cover is inscribed "Catechism of the True Doctrine by Miss A.C. Safford. Soochow dialect. China". The RLIN records and scanty evidence in Wylie (p.284) suggest that Blodget is the author. It's a guess that the inscription on the cover of S.2358 means that Miss Safford only translated it into Soochow dialect, but didn't actually write the text. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519560107026">SOLO</ref></p></availability>

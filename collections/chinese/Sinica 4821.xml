@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060901/18:02:04|odh --><!-- #0rr: 20150305/15:36:03-148497/37|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: There is a preface dated 己酉, which could be 1849. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444400107026">SOLO</ref></p></availability>

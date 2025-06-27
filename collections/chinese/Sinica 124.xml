@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940802/14:33:55|odh --><!-- #0rr: 20190208/18:04:48-114436/1|odh --><!-- #900: o --><!-- #905: 卷18-22 of this work are in the India Office Library. There is a 蓮牌子 at the end which reads 《龍飛甲子歲仲冬月 / 書林聚古堂重梓行》. 甲子 is 1684, as 5 books in the same bundle (Chin.D.22) range in date from 1672 to 1706. Two of them are calendars for 1706. One was published in 漳州 (near Amoy, where the British factory was located). (PvdL) --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290460107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151028/11:54:52|odh --><!-- #0rr: 20151113/15:57:11-389962/117|omaster --><!-- #430: 1899 --><!-- #900: p --><!-- #905: Sometimes attributed to Griffith John, but actually by Mesdames Gillison and Jones (See "The twenty-sixth annual report of the Central China Religious Tract Society ... 1901", 15. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221432930107026">SOLO</ref></p></availability>

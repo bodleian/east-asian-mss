@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031222/13:30:51|odh --><!-- #0rr: 20130502/16:29:56|odh --><!-- #0cm: s --><!-- #430: 1868-1874 --><!-- #900: opr --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486630107026">SOLO</ref></p></availability>

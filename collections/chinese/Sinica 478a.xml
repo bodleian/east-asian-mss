@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20160804/10:43:41|odh --><!-- #0rr: 20190316/21:31:50-390726/30|omaster --><!-- #900: o --><!-- #905: Drege. Plenty of copies found on the internet, but no information about it. S.478b is the finer of the two copies. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221446020107026">SOLO</ref></p></availability>

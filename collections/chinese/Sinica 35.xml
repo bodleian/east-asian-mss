@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950404/17:26:19|odh --><!-- #0rr: 20170327/16:04:10-12324/1|omaster --><!-- #0cm: i --><!-- #900: or --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>

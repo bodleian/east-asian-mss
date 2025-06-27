@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030106/14:14:35|odh --><!-- #0rr: 20190818/13:49:29-124063/59|omaster --><!-- #0cm: i --><!-- #900: or --><!-- #905: This is not the 「影松軒」 edition described in 胡文彬's 「金瓶梅書錄」 (Chin.e.10980). Title-page different, no. of ills different, and lacks 眉批. Printed on very poor paper, which is now brown and very brittle. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406630107026">SOLO</ref></p></availability>

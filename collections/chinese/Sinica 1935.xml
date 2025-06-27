@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040113/15:34:40|odh --><!-- #0rr: 20160921/11:59:06-160783/1|odh --><!-- #430: [1875?] --><!-- #900: p --><!-- #905: Text is the same as S.1900 and S.1927. Who is really the author? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326660107026">SOLO</ref></p></availability>

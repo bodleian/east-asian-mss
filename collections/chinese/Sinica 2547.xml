@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120503/17:16:29|odh --><!-- #0rr: 20130308/17:00:31|odh --><!-- #900: o --><!-- #905: Very difficult to identify. 昭慶慧空經房 is involved again (see scan). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221342820107026">SOLO</ref></p></availability>

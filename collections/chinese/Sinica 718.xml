@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020815/13:46:46|odh --><!-- #0rr: 20190930/22:17:23-96825/41|omaster --><!-- #900: or --><!-- #905: This edition has 「大來堂」 in the lower banxin, but is not the original 「天啟五年[1625]沈國元大來堂刊本」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540820107026">SOLO</ref></p></availability>

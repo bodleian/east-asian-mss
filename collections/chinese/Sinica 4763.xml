@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060329/11:50:03|odh --><!-- #0rr: 20130325/11:14:06|odh --><!-- #900: o --><!-- #905: Printed in 1914. There is no title-page or colophon (unlike S.4762). Nor is there a title-page in the 大通書局 reproduction (Chin.e.8427/2). But the various catalogues say that it was printed in 1914 (民國三年). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307340107026">SOLO</ref></p></availability>

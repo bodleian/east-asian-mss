@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060812/11:22:26|odh --><!-- #0rr: 20121112/12:07:10|odh --><!-- #900: o --><!-- #905: Van der Loon wrote "Rarissimus!" on the front cover and "No other copies are known" on the back cover, but there are copies in both Berkeley and Yale. The work is based on the late Ming rhyming dictionary of Fuchow dialect 「戚林八音」. Pronunciations are given in romanisation. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344690107026">SOLO</ref></p></availability>

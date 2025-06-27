@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150713/13:10:28|odh --><!-- #0rr: 20191028/10:19:31-25213/9|omaster --><!-- #905: 𬃖=十+冖+石+木 (=橐) --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221563870107026">SOLO</ref></p></availability>

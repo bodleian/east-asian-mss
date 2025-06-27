@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150120/15:35:42|odh --><!-- #0rr: 20150330/16:39:59-374759/7|omaster --><!-- #900: o --><!-- #905: From same blocks as two copies in Beida (scans reproduced in CALIS), the first dated 1801 (from title-page), the second described in as 「清乾嘉間[1736-1801]酉山堂」, with a note saying 「與館藏清嘉慶6年[1801]酉山堂刻本（X/910.5/6033.2）同版，而印在其前。」. The blocks of our copy are less degraded than those of the 1801 printing, so it is described in the same way as the earlier Beida copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221356440107026">SOLO</ref></p></availability>

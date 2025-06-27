@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040116/13:35:16|odh --><!-- #0rr: 20130315/11:20:59|odh --><!-- #430: 同治七年[1868] --><!-- #900: p --><!-- #905: Wylie (list) says that this is by Chalmers, but the text is identical with S.1239. It is not clear if there were two tracts of the same name by different authors, or if only one, by which of the two authors. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221278160107026">SOLO</ref></p></availability>

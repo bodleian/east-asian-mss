@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040109/11:49:17|odh --><!-- #0rr: 20130315/21:47:33|odh --><!-- #430: 1881 --><!-- #900: p --><!-- #905: The title-page actually says 「益智書彙[sic]藏板」. 「美國郭顯德譯」 appears at the beginning of the second juan, but not the first. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307140107026">SOLO</ref></p></availability>

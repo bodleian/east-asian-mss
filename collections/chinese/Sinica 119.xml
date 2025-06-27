@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060320/12:58:38|odh --><!-- #0rr: 20150303/17:02:04-128942/62|omaster --><!-- #80P: A 19.21-25, A 20.1 --><!-- #900: o --><!-- #905: These two copies appear to be unique. They also seem to be of the same provenance, as both have the words "Chinese story book" written on their front cover in the same hand. Both are printed on poor quality bamboo paper and are in a fragile condition, but the Wadham copy is slightly better preserved. The title-page of the Bodleian copy has lost some fragments. The imprint 「聖澤堂/文德堂」 is taken from the text beginning, and the words 「龍文堂梓行」 on the title-page have been taken to signify the printer, not the block-cutters. There is a paizi 牌子 with lotus motif bearing the words 「龍飛甲未歲仲冬月 / 書林□□□堂梓行」, presumably for later owners of the block to complete (甲未 is not a valid stem/branch combination; □ = space). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221408300107026">SOLO</ref></p></availability>

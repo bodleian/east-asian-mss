@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050429/11:25:47|odh --><!-- #0rr: 20130322/16:21:47|odh --><!-- #900: o --><!-- #905: What is the edition, I wonder? NLC has his son 繩孫's ms. (author of the preface), also 宣統元年[1909]鉛印本. NCL has 宣統元年[1909]日人田中 慶太郎北京德興堂排印本 and also 民國初年上海西泠印社排印本. Gest has 民國初年江安傅增湘排印本. Kyoto has just 排印本. There are no evidences at all on Piet's copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431620107026">SOLO</ref></p></availability>

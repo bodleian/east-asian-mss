@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151027/12:04:23|odh --><!-- #0rr: 20151113/15:57:11-389803/102|omaster --><!-- #0cm: i --><!-- #430: 光緒十八年[1892] --><!-- #900: p --><!-- #905: "The tenth annual report of the Central China Religious Tract Society" (Hankow, 1886) records: "Two new tracts have been added to the catalogue during the year; one entitled 營兵信主, which is a translation, by the Rev. David Hill, of a favorite English tract, for circulation amongst soldiers; and one entitled 福音韻語 by Mrs. Arnold Fostar, which is an account of the teachings of our Lord, and the leading incidents of His life, in four-character verse, intended chiefly for use in schools. !tis worthy of remark, respecting the latter, that it is the first tract prepared by a lady which has issued from this Society, and that it meets a felt want in elementary Christian literature." --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221392490107026">SOLO</ref></p></availability>

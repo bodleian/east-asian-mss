@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040216/14:54:31|odh --><!-- #0rr: 20130315/11:20:58|odh --><!-- #430: 1861 --><!-- #900: p --><!-- #905: The words 「倪維思著」 are on the title-page reverse. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221368990107026">SOLO</ref></p></availability>

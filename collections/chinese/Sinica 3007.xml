@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090629/16:05:36|odh --><!-- #0rr: 20130321/11:50:10|odh --><!-- #900: o --><!-- #905: Each characters of the 千字文 is followed by words that rhyme with it, all written in identical style. Could be classified with 千字文, or even with 法帖. 凡例 says that the work is designed for beginners. Taboo of 弘 avoided. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221565560107026">SOLO</ref></p></availability>

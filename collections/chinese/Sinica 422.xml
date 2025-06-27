@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111207/13:23:24|odh --><!-- #0rr: 20190617/11:09:10-111677/1|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Has a fine woodcut portrait of Confucius as a frontispiece. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443440107026">SOLO</ref></p></availability>

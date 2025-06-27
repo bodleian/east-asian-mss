@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130501/11:14:09|odh --><!-- #0rr: 20150115/13:38:47-119236/10|omaster --><!-- #0cm: s --><!-- #905: See 上海圖書館近現代中文期刊總目, 669. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344010107026">SOLO</ref></p></availability>

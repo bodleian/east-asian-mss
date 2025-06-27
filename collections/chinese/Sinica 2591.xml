@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130117/11:27:20|odh --><!-- #0rr: 20130123/12:39:02|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Disbound leaves of unknown provenance. The first edition of this work was cut in 1617; the first edition of this recension (ie, with the title 重訂...) was cut in 1785, so these leaves must have been printed at this time or later. See 中國中醫古籍總目 (薛清錄主編, 2007), 678. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221457300107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120208/17:27:59|odh --><!-- #0rr: 20190208/18:16:24-367028/70|omaster --><!-- #900: o --><!-- #905: Cover of S.107 inscribed in French. S.80 has two inscriptions in an unidentified western language. S.74 and S.107 &amp; 80 are obviously related (but note that 8th character of title and ascription are different). It isn't possible to tell which is earlier. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221520420107026">SOLO</ref></p></availability>

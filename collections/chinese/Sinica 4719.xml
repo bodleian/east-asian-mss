@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060206/15:06:42|odh --><!-- #0rr: 20150305/15:36:03-144927/15|omaster --><!-- #900: o --><!-- #905: Usually appears with Fan's 「循園金石文字跋尾 二卷」 (published in 1922) as a small congshu entitled 「范鼎卿先生所著書三種」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532380107026">SOLO</ref></p></availability>

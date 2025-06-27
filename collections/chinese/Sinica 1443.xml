@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040129/12:29:01|odh --><!-- #0rr: 20141124/12:49:57-153490/4|omaster --><!-- #430: 道光二十年[1840] --><!-- #900: p --><!-- #905: Text begins 「字部第二卷」. What happened to juan 1, I wonder? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221391410107026">SOLO</ref></p></availability>

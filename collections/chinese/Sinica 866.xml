@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050504/15:34:05|odh --><!-- #0rr: 20130703/10:53:35|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Exceptionally clear woodblock printing. Some authorities say 銅活字, but the cracks in some pages suggest otherwise (e.g. 上編 2:31, 2:33). There are problems of authorship and date. In the Sinica copy, the characters 欽若曆書 have all been obliterated with black ink. Why? This was done after the book had been bound up, as the ink has spread to the endpapers in some cases. The full title can be seen in the tail-edge inscription, but this could have been added later. Examined by 韓琦, May 2005. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221278400107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090708/13:27:39|odh --><!-- #0rr: 20131210/15:57:35|odh --><!-- #900: o --><!-- #905: S.1102/1 has a red cover, bears the official Taiping seal, but has not got the booklist; S.1102/2 has a yellow cover, bears the official Taiping seal, and has got the booklist; S.1102/3 bears the official Taiping seal and has got the booklist. --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>

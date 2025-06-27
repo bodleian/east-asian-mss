@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940131/18:03:30|odh --><!-- #0rr: 20190630/11:30:40-12753/4|omaster --><!-- #900: or --><!-- #905: 戚繼光, 1528-1587; authorship doubtful. 林文英, 進士 1688. See Van der Loon in Asia Major NS13(1967), 125-126 --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221389700107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20011211/13:42:59|odh --><!-- #0rr: 20130204/11:35:08|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: This is a problem, and in the absence of any other indication, the title has been invented on the basis of the contents. Hsiang Ta's title card had 「六經圖說(?) / 清鄭之僑(?)校集」, but the work is not apparently related to any of the usual 「六經圖」 editions. Hsiang Ta described the work as "a fragmentary copy", and it may be that it was once appended to a larger work. However, it is complete in itself - the pictures are preceded by a table of contents, and all are present. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354150107026">SOLO</ref></p></availability>

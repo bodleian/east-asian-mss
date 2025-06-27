@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040921/13:23:44|odh --><!-- #0rr: 20130315/11:20:59|odh --><!-- #430: [c.1865] --><!-- #900: p --><!-- #905: Wylie (list) says this is by Muirhead, but the text is completely different from S.1127 and S.1422. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519520107026">SOLO</ref></p></availability>

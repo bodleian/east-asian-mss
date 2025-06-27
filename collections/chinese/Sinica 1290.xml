@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20000517/17:55:04|odh --><!-- #0rr: 20130521/14:10:13|odh --><!-- #240: The peep of day --><!-- #430: 同治十三年[1874] --><!-- #900: p --><!-- #905: The label CE413 (S.1292) is wrong - both copies are of Hartwell's Foochow translation (CE939). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354790107026">SOLO</ref></p></availability>

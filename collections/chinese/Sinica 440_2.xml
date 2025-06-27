@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061220/13:30:35|odh --><!-- #0rr: 20160916/15:19:47-115952/45|omaster --><!-- #900: o --><!-- #905: No title on original. Title is a description of what it is. Must have been printed in Canton region as the characters 「兩二由」 and 「庄出局」 (for example) are used in place of 「兩二柔」 and 「贓出局」; the characters 由 and 柔, 庄 and 贓 are homophones in Cantonese, but not in Mandarin. Information from Wing-kin Puk 卜永堅, 19 Dec 2006. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221497150107026">SOLO</ref></p></availability>

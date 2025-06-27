@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151029/13:58:00|odh --><!-- #0rr: 20151113/15:57:11-390050/133|omaster --><!-- #430: 1884 --><!-- #900: p --><!-- #905: Preface says: "靈魂小引, 本是美國加老德作的書...". Who is 加老德, and what is the book? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221566540107026">SOLO</ref></p></availability>

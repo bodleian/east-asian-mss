@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030512/17:12:54|odh --><!-- #0rr: 20130114/14:44:25|odh --><!-- #0cm: i --><!-- #900: or --><!-- #905: Volume in honour of Li Hongzhang, compiled by his friends on the occaion of his 70th birthday. Very interesting lith. ills. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221564830107026">SOLO</ref></p></availability>

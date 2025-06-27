@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040129/17:33:58|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: 道光十六年[1836] --><!-- #900: p --><!-- #905: Part of complete NT? But not uniform with 1836 edn. of John. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417600107026">SOLO</ref></p></availability>

@@ -77,8 +77,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20041217/12:31:31|odh --><!-- #0rr: 20171205/14:11:42-135397/1|odh --><!-- #430: 1810 --><!-- #80R: ['Chinese 2.27|c線裝1冊 ; 23.7公分. - Mark only', 'Chinese 2.28|c線裝1冊 ; 23.7公分. - Mark only'] --><!-- #900: p --><!-- #905: ■ (tiao) = 口+挑; not encoded 20141229. Note the different formulations in the titles of the two gospels. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221370290107026">SOLO</ref></p></availability>

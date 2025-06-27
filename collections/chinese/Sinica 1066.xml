@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120529/13:21:07|odh --><!-- #0rr: 20190818/13:49:29-113844/39|omaster --><!-- #646: 嘉興方冊藏經|9jia xing fang ce zang jing --><!-- #900: o --><!-- #905: The colophon (from which the edition details are derived) seems to be let into the block, suggesting that this could be a re-impression of something earlier. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221564480107026">SOLO</ref></p></availability>

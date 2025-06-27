@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040223/15:33:23|odh --><!-- #0rr: 20130315/21:47:34|odh --><!-- #430: [s.a.] --><!-- #900: p --><!-- #905: Contains only the first part of the text, and appears to be an experimental edition. Does not correspond with the descriptions of this title in Milne's "Retrospect", Wylie's "Memorials", or other catalogues. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518600107026">SOLO</ref></p></availability>

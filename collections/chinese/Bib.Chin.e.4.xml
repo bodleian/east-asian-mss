@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050126/13:18:23|odh --><!-- #0rr: 20130521/14:10:19|odh --><!-- #430: 1859 --><!-- #900: op --><!-- #905: IHE catalogue erronously gives date of 1.10 as 1853, and lists 1.14 as Bridgman &amp; Culbertson's version with the date 1863! --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290980107026">SOLO</ref></p></availability>

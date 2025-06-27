@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940111/19:40:59|odh --><!-- #0rr: 20190930/22:17:23-139113/118|omaster --><!-- #900: ors --><!-- #905: This is an exceptionally elegant edition. The copy is taken from the same blocks as that reproduced by 文學古籍刊行社 in 1955 (Chin.e.1000). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221543490107026">SOLO</ref></p></availability>

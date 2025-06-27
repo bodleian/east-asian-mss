@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120928/16:17:34|odh --><!-- #0rr: 20190818/13:49:29-113851/40|omaster --><!-- #900: o --><!-- #905: Came from Bullock in 1915, but in the top left corner of the front cover is pencilled "J. Legge". --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221369590107026">SOLO</ref></p></availability>

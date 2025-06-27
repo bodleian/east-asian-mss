@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060802/09:23:26|odh --><!-- #0rr: 20121203/15:28:33|odh --><!-- #900: o --><!-- #905: A 「續編」 was printed three years later, in 1802, but is not present in this copy, which was presumably printed earlier. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444010107026">SOLO</ref></p></availability>

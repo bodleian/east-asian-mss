@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030617/16:16:25|odh --><!-- #0rr: 20130521/14:10:06|odh --><!-- #430: 乙卯年[1855] --><!-- #900: p --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950404/14:21:03|odh --><!-- #0rr: 20190930/22:17:23-105226/46|omaster --><!-- #900: or --><!-- #905: The binding was originally a 包背裝, of which slight traces remain. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221357180107026">SOLO</ref></p></availability>

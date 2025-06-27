@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980429/14:47:14|odh --><!-- #0rr: 20190703/21:01:43-73708/10|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: The words「乾隆壬寅[1782]仲春月金閶書業堂重鐫珍藏」appear at the end of the text of the 總目 (Cf. S.2694 &amp; 3059). However, this edition also appears to be a copy of the 書業堂 edition. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540550107026">SOLO</ref></p></availability>

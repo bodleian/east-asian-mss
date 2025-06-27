@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060111/10:55:21|odh --><!-- #0rr: 20130523/16:01:59|odh --><!-- #900: o --><!-- #905: There is a table of contents containg 12 works, of which this is the 11th, entitled 「叔寶所著書」. No reference to this collectaneous work has been found. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221456740107026">SOLO</ref></p></availability>

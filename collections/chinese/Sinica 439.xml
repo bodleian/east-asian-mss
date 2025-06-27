@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081007/11:07:42|odh --><!-- #0rr: 20130204/11:35:10|odh --><!-- #905: Format identical with S.199 (東觀閣 edition) but blocks different. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221391540107026">SOLO</ref></p></availability>

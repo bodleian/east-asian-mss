@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060111/12:24:23|odh --><!-- #0rr: 20130523/16:02:04|odh --><!-- #900: o --><!-- #905: There is a 「諸子今箋」 preface by 吳其昌 dated 1933, implying that more was intended. It seems that this work was later published as 「莊子新箋」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431850107026">SOLO</ref></p></availability>

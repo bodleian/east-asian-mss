@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040106/18:04:32|odh --><!-- #0rr: 20150305/15:36:03-134305/2|omaster --><!-- #900: o --><!-- #905: A collection of articles mostly on military themes reproduced from late 19th century periodicals. Who was 「憂時居士」? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221391690107026">SOLO</ref></p></availability>

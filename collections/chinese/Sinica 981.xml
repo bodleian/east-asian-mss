@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980119/14:21:24|odh --><!-- #0rr: 20150303/17:02:03-48710/22|omaster --><!-- #905: Looks to be Ming. Has two interesting ms. colophons, the latter dated 道光丙戌 [1826] --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221456870107026">SOLO</ref></p></availability>

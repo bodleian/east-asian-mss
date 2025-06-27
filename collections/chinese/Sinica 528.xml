@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120918/12:23:59|odh --><!-- #0rr: 20191113/14:00:18-119706/22|omaster --><!-- #900: o --><!-- #905: From the same blocks as several copies in CALIS described as 明末. Not from the 汲古閣 blocks (copy in 北大). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221357190107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081008/17:52:15|odh --><!-- #0rr: 20190818/13:49:29-357489/105|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: The blocks of the colophon and first page of the text correspond with those of the 1832 copy in Peking University in the CALIS old books database. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221382290107026">SOLO</ref></p></availability>

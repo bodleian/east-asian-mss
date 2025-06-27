@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19970417/12:44:33|odh --><!-- #0rr: 20130320/13:23:42|odh --><!-- #430: 同治乙丑[1865] --><!-- #900: p --><!-- #905: Not identical with S.1131, though blocks are extremely similar - which is recut? Label gives author as A Williamson, and Wylie says "translation of an American tract into Mandarin dialect" (p.283). Could the original have been by Williamson? But he was English... The full name of 「福音堂」, i.e. 「京都福音堂」, is usually given on its publications. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519000107026">SOLO</ref></p></availability>

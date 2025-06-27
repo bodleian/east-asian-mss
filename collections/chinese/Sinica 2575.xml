@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130114/16:54:32|odh --><!-- #0rr: 20130226/11:49:03|odh --><!-- #900: o --><!-- #905: S.2573, 2575, 2576 all have the same seal on the label of the first 冊. 王重民 (中國善本書提要, 227b) thinks this edition was made in 江西 in the 萬曆 period on the basis of the blockcutters' names (which are different from those in B.402). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390570107026">SOLO</ref></p></availability>

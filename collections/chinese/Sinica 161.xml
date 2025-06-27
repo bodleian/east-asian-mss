@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111209/16:54:13|odh --><!-- #0rr: 20130523/16:02:17|odh --><!-- #900: o --><!-- #905: The character 玄 (Kangxi taboo) is printed in full, but so is the character 曆 (Qianlong taboo), 明鑑 10:7a (S.161/39). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221495330107026">SOLO</ref></p></availability>

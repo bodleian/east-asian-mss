@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010809/16:38:32|odh --><!-- #0rr: 20130523/16:01:21|odh --><!-- #900: o --><!-- #905: Author's name is 字, 名 not known. Part of this work is reproduced by Nagasawa Kikuya (Chin.d.2703) - same format, but from different blocks. A Mandarin textbook - how should it be classified? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540840107026">SOLO</ref></p></availability>

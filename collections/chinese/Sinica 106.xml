@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120208/17:13:59|odh --><!-- #0rr: 20190208/18:16:24-362250/58|omaster --><!-- #900: o --><!-- #905: Cover inscribed in French. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221382650107026">SOLO</ref></p></availability>

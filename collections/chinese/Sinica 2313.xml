@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020712/18:22:11|odh --><!-- #0rr: 20160921/12:31:22-118411/33|omaster --><!-- #430: [1871](癸未[1883]刷印) --><!-- #900: p --><!-- #905: The central column of the two extra pages is not carved. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540980107026">SOLO</ref></p></availability>

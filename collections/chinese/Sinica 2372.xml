@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950626/13:06:54|odh --><!-- #0rr: 20140923/17:08:31-134662/5|omaster --><!-- #430: 1882 --><!-- #500: Chinese Religious Tract Society|n1 --><!-- #900: p --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221370110107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111209/17:35:32|odh --><!-- #0rr: 20190630/11:30:40-107251/21|omaster --><!-- #900: o --><!-- #905: Phrases in northern and southern Mandarin. National Library of Australia has a copy (which might be the same, but with the publisher changed), which they have digitised - from the London Missionary Society collection. They have catalogued it under its title-page title. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221416860107026">SOLO</ref></p></availability>

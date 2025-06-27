@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20121115/17:57:11|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: 1879 --><!-- #900: p --><!-- #905: This edn. not in BS catalogue (but cf. first edn., p.31). William Muirhead's usual Chinese name is 慕維廉. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532050107026">SOLO</ref></p></availability>

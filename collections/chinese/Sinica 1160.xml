@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19970417/14:53:38|odh --><!-- #0rr: 20130315/11:20:58|odh --><!-- #430: 1863 --><!-- #900: p --><!-- #905: Shuck (Wylie 92) or Cummings (Wylie 179)? Wylie's list gives no author, but text is identical with Wylie's list no.339 (S.1185), which is ascribed to Shuck. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390320107026">SOLO</ref></p></availability>

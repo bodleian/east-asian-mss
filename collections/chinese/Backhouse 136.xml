@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070122/17:55:42|odh --><!-- #0rr: 20190818/13:49:29-147227/85|omaster --><!-- #900: o --><!-- #905: Compared with Sinica 146, which is a better and almost certainly earlier edition, many sections are missing throughout, and the whole made 2 juan shorter. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307500107026">SOLO</ref></p></availability>

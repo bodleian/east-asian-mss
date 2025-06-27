@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151103/16:09:10|odh --><!-- #0rr: 20151113/15:57:11-389971/119|omaster --><!-- #430: [1890s?] --><!-- #900: p --><!-- #905: As in S.6533, 耶穌會堂 should presumably be 耶穌福音會堂 (like S.6510-6515, S.6517, S.6518, S.6532). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221279790107026">SOLO</ref></p></availability>

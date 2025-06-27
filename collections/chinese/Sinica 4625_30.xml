@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050513/12:17:42|odh --><!-- #0rr: 20130325/11:13:54|odh --><!-- #900: o --><!-- #905: Sinica 4625/1-40 and Sinica 4761/1-4 are all parts of a very early, high quality, and quite rare series of reproductions described in the colophons as 「玻璃版宣紙精印古刻」. Not all are in RLIN, and the presence or absence of colophons in the various copies does not always correspond. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381860107026">SOLO</ref></p></availability>

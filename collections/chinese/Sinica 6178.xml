@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010820/15:47:06|omc --><!-- #0rr: 20191113/14:00:18-362541/34|omaster --><!-- #900: r --><!-- #905: Same size and format as B.144 - clearly one is copied from the other, but from different blocks. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221446110107026">SOLO</ref></p></availability>

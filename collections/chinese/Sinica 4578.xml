@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050425/14:04:40|odh --><!-- #0rr: 20190611/10:08:20-139311/1|odh --><!-- #900: o --><!-- #905: Later included with Pi's other works in 《師伏堂叢書》. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431610107026">SOLO</ref></p></availability>

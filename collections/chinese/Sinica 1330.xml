@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040114/16:28:53|odh --><!-- #0rr: 20161207/13:00:11-162277/1|odh --><!-- #430: [1819] --><!-- #900: p --><!-- #905: Has 「卷五」 in lower banxin, but unlike the other offprints (S.1268, 1341) has the tract's title rather than 「察世俗」 in the upper banxin. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307300107026">SOLO</ref></p></availability>

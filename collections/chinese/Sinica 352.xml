@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20080409/18:15:23|odh --><!-- #0rr: 20160921/12:41:43-157458/1|odh --><!-- #900: o --><!-- #905: The table consists of reign periods set out to correlate to the sexagenary cycle, which is set out vertically down the centre of the sheet. The coverage extends from 周威烈王[元年](424 B.C.) to 清康熙四十四年(1705), which is presumably when the sheet was printed. The French inscription on the reverse of the sheet is intriguing, as this table was used as the basis of Jean-Francois Foucquet's "Tabula chronologica historiae sinicae connexa cum cyclo qui vulgo Kia Tse dicitur" of 1729. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221459690107026">SOLO</ref></p></availability>

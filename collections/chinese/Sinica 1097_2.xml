@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090706/15:13:05|odh --><!-- #0rr: 20121112/12:08:09|odh --><!-- #900: o --><!-- #905: Has a yellow cover, the official Taiping seal, and the booklist --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344320107026">SOLO</ref></p></availability>

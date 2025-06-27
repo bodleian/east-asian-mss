@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030408/11:36:32|odh --><!-- #0rr: 20121112/11:52:47|odh --><!-- #900: o --><!-- #905: Very rare note by Backhouse pasted to rear board (夾板). Says it is a Song edition, and that the ms. annotations are by Ronglu, from whom he bought it after the fall of the Qing. Chang Bide 昌彼得 saw this copy, 18-5-93. Said it was probably a Jiajing 嘉靖 edition. Ming, because title is in upper banxin 板心, whereas in Song it would have been in middle. Also, paper is Ming. Work is rare - only copy found is in Naikaku Bunko (catalogue, p.79上). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417940107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130115/11:39:02|odh --><!-- #0rr: 20130123/12:38:58|odh --><!-- #900: o --><!-- #905: S.2570, 2573, 2575, 2576 all have the same seal on the label of the first 冊. This edition not found elsewhere. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406240107026">SOLO</ref></p></availability>

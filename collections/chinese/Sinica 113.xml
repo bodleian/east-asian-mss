@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20080822/15:36:29|odh --><!-- #0rr: 20171123/13:58:47-157672/28|omaster --><!-- #0cg: aj --><!-- #900: o --><!-- #905: See Li Xiaocong's "Descriptive catalogue... ", 169-171, from which both title and date are taken; there is nothing on the map itself that could be taken as a title. The map was originally folded between boards, on to which a label was pasted that read: "A Chinese Map of the Empire of China, wch. with another mark'd B containing the Ichnography of Yedso the Capital of ye. Japonese Empire, wth. part of ye. countrey adjoining, was given to ye. Bodleian Library Aug. 1o. 1750 by Mr. Frederick Pigou." Pigou had been an East-India supercargo and director (Gentleman's Magazine, Nov. 1792, 1154). The map has been restored, and the label is preserved separately. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221445780107026">SOLO</ref></p></availability>

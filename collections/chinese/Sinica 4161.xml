@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150624/12:35:12|odh --><!-- #0rr: 20191028/10:19:31-364769/111|omaster --><!-- #905: Almost certainly 黃塗活版所, but part of colophon is missing. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221432760107026">SOLO</ref></p></availability>

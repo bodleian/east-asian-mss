@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060406/14:03:52|odh --><!-- #0rr: 20131213/17:00:45|odh --><!-- #900: o --><!-- #905: Several copies in CALIS are all from the same blocks. The Backhouse copy lacks the final two pages (a postface) at the end of which is an expicit colophon giving the publication details. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431540107026">SOLO</ref></p></availability>

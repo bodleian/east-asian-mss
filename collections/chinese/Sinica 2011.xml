@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031129/09:43:08|odh --><!-- #0rr: 20130521/14:09:35|odh --><!-- #0cm: si --><!-- #405: 第1號(1872年[8]月)～第36號(1875年8月) --><!-- #430: 1872-1875 --><!-- #900: p --><!-- #905: Fine ills., esp. medical drawings in nos. 14, 22, 29. Fascs of S.2011 are contained in 3 original tao, each with a printed label. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519330107026">SOLO</ref></p></availability>

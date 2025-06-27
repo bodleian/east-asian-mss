@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151026/11:38:43|odh --><!-- #0rr: 20151113/15:57:11-389627/85|omaster --><!-- #430: [民國十年(1921)?] --><!-- #900: p --><!-- #905: S.6526 and S.6527 were originally folded and were found between the pages of this item. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221392620107026">SOLO</ref></p></availability>

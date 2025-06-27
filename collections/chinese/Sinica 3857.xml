@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19970617/18:33:24|odh --><!-- #0rr: 20130321/15:52:43|odh --><!-- #0cm: i --><!-- #130: 790901 --><!-- #900: o --><!-- #905: Is in 彙刻傳劇 table of contents, and has 暖紅室 in lower 版心, but is not in congshu listings and bears no reference to 彙刻傳劇. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221416230107026">SOLO</ref></p></availability>

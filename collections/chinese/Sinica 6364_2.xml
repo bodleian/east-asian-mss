@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940224/17:47:45|odh --><!-- #0rr: 20150827/12:56:01-13850/3|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: Not found elsewhere - rare? Note that the 5th character in the title uses the rare variant 橅 (in 第一集 it is the usual 摹). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221308660107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19941124/19:12:11|odh --><!-- #0rr: 20130123/12:38:39|odh --><!-- #900: o --><!-- #905: A later printing than S.2587, and many blocks have been replaced. Printed on inferior bamboo paper. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221430870107026">SOLO</ref></p></availability>

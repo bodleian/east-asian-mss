@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130129/17:30:19|odh --><!-- #0rr: 20130315/11:21:00|odh --><!-- #430: 1877 --><!-- #900: p --><!-- #905: Check authorship - IHE catalogue and label say Milne. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354360107026">SOLO</ref></p></availability>

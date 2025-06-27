@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980602/16:25:05|odh --><!-- #0rr: 20160916/15:19:47-118266/49|omaster --><!-- #430: 同治十二年[1873] --><!-- #900: p --><!-- #905: Loose slip in Sinica 1167 (1874 edn.) has "... Four editions, in all 6,000 copies. 1871-74." --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518460107026">SOLO</ref></p></availability>

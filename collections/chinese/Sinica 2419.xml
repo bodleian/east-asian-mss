@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130129/14:01:50|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: 1881 --><!-- #900: p --><!-- #905: Accents have been disregarded. Cf. Spillet 125 (no.612). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381140107026">SOLO</ref></p></availability>

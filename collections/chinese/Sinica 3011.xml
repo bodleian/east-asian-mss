@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950624/12:04:14|odh --><!-- #0rr: 20160916/15:19:47-30830/10|omaster --><!-- #400: 重鐫 --><!-- #430: 道光十一年[1831] --><!-- #900: p --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221324620107026">SOLO</ref></p></availability>

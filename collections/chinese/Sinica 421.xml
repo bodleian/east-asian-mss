@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111207/13:10:39|odh --><!-- #0rr: 20130204/11:35:15|odh --><!-- #900: o --><!-- #905: This edition is in Berkeley, and is attributed to 韓鄂不. Check. There is also a copy in the Seikado Bunko (靜嘉堂文庫漢籍分類目錄, 847). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221368940107026">SOLO</ref></p></availability>

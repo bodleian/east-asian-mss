@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090527/14:44:32|odh --><!-- #0rr: 20130227/11:26:51|odh --><!-- #900: o --><!-- #905: Of a piece with 2942/1. But in this case, the only details of the printer are on the title-leaf. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326510107026">SOLO</ref></p></availability>

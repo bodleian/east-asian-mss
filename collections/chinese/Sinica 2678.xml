@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010702/12:50:23|odh --><!-- #0rr: 20190703/21:20:40-137690/60|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: Lacks 《書畫冊》, perhaps because the impression was made without it? 《竹譜》however is divided into 2 ce, perhaps to make 8 in total? Thomas Ebrey (University of Washington) confirms that the edition was made mostly from the original blocks, but is a very late printing, comparable with impressions in the Harvard-Yenching Library; Rietberg Museum, Zurich; University of Oregon Museum of Art; Ebrey collection (Yu Wei Du Zhai), Seattle. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431520107026">SOLO</ref></p></availability>

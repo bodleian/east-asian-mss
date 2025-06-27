@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20141212/14:42:41|odh --><!-- #0rr: 20191002/12:55:31-363599/69|omaster --><!-- #900: o --><!-- #905: First leaf of 卷2 is bound at the beginning of the 1st 冊. How strange! The edition is from the same blocks as the copy in Peking University Library described in CALIS as 清末[1822-1911]刻本(翻刻). Done in Canton, to judge by the stamp on the 封面 of our copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221292390107026">SOLO</ref></p></availability>

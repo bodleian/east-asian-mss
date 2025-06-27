@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040126/15:14:16|odh --><!-- #0rr: 20130319/16:59:55|odh --><!-- #430: 1873 --><!-- #900: p --><!-- #905: Hsiang Ta's card gave the author's name as 「許增美」, but the source of this information is not known. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406690107026">SOLO</ref></p></availability>

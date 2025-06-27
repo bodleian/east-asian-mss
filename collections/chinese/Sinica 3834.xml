@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060105/12:57:34|odh --><!-- #0rr: 20130523/16:02:02|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: S.4675 has a title-page dated 1834 (道光甲午), which has led Beitu and others to catalogue it as a different edition, but the blocks of the text are identical. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221325750107026">SOLO</ref></p></availability>

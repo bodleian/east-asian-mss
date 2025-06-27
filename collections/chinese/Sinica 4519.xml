@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050407/15:08:19|odh --><!-- #0rr: 20130322/16:21:30|odh --><!-- #900: o --><!-- #905: The block format of this edition suggests that it is related to those of 許宗魯 (明嘉靖四年[1525]許宗魯宜靜書堂刊本) and 金李 (明嘉靖七年[1528]金李澤遠堂刊本), which are the same as S.4519 except for their left and right frame lines, which are double, whereas S.4519 has a single line all round. It seems that this edition is unrecorded and presumably very rare. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221496610107026">SOLO</ref></p></availability>

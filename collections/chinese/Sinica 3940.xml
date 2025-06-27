@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19990807/10:19:21|odh --><!-- #0rr: 20190818/13:49:29-57720/17|omaster --><!-- #905: Seems to be the edition described in 「紅樓夢書錄」p.61, 上. 「鑄記書局」does not appear anywhere in the book, and the date is a guess. Sinica 3940 is contained in a book box with sliding front. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531500107026">SOLO</ref></p></availability>

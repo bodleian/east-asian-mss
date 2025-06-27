@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061006/17:32:17|odh --><!-- #0rr: 20130325/11:51:04|odh --><!-- #900: o --><!-- #905: This usually forms part of a small congshu of Mo Youzhi's works entitled 「影山草堂叢書」. The works were printed over a period of more than twenty years, the earliest dated 1852, the latest 1875. This work bears no date. See 中國叢書綜錄, 536. The chunky calligraphic style is very distinctive. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221278590107026">SOLO</ref></p></availability>

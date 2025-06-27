@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031219/17:36:55|odh --><!-- #0rr: 20191203/10:48:04-119037/54|omaster --><!-- #430: 光緒七年[1881] --><!-- #900: p --><!-- #905: The label has "Photography (illustrated)" by Fowler, but the work is not illustrated, nor has it been possible to trace the original. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532140107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070123/16:16:31|odh --><!-- #0rr: 20190930/22:17:23-129886/107|omaster --><!-- #900: os --><!-- #905: Unlike Sinica 147, does not observe either 康熙 or 乾隆 taboos. Blocks correspond with copy reproduced in 四庫全書存目叢書 (Chin.d.10950/730). Widely held in Chinese libraries (see 中國古籍善本總目, 1077上). Block description tallies. Also, character counts in 版心下. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221393180107026">SOLO</ref></p></availability>

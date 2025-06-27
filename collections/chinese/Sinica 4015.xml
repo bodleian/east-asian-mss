@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030707/13:20:10|odh --><!-- #0rr: 20130322/16:21:22|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Although both works described as appended have their own title-pages and come first, 「大悲懺儀合節」 is regarded as the principal title in this compilation on account of its bolder script, banxin title (the appendices lack one), and the fact that it seems a better-known text. The date is a guess. The appendices are copiously illustrated, the first with depictions of divinities, the second with the instruments which Guanyin holds. Before restoration, the work was bound in a single fascicle, as evidenced by the impression of the title-page of the second apppendix on the the final leaf of the first, which is the last leaf of the first fascicle as currently bound. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380970107026">SOLO</ref></p></availability>

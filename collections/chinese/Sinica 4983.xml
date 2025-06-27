@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20141111/12:29:20|odh --><!-- #0rr: 20191027/21:45:41-363303/182|omaster --><!-- #905: 木魚書目錄 050137 is a later printing from the same blocks, which have been doctored. The cataloguers are wrong to assume that the two excised characters in front of 「堂」 are 「以文」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221520270107026">SOLO</ref></p></availability>

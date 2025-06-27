@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031112/15:56:33|odh --><!-- #0rr: 20160921/12:31:22-118767/37|omaster --><!-- #0cm: s --><!-- #430: 1856-1858 --><!-- #900: p --><!-- #905: 「愛華堂」 is the name of Macgowan's house and hospital. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221520360107026">SOLO</ref></p></availability>

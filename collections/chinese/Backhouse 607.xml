@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030321/17:47:31|odh --><!-- #0rr: 20121112/11:52:39|odh --><!-- #900: o --><!-- #905: Probably the same as the 「小字本」 in Peking University Library. There are two more Wanli editions in larger format, one in 46 juan and the other in 47 juan. It is not clear which is the 「萬曆二年跋陸光宅刊本」 itself, as all bear this postface, and all are evidently of early Wanli date. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518810107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050420/12:17:29|odh --><!-- #0rr: 20121112/11:53:16|odh --><!-- #900: o --><!-- #905: The complicated character for 法 is used in the title. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486790107026">SOLO</ref></p></availability>

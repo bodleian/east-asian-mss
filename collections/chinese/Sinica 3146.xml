@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150402/15:30:14|odh --><!-- #0rr: 20200211/14:58:05-368762/1|osn --><!-- #900: o --><!-- #905: Wrapper from "French Bookstore Peiping (China)" with typewritten English explanation of the text and edition is kepy with the item as Sinica 3146*. Also published as part of 《望三益齋叢書》. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221292200107026">SOLO</ref></p></availability>

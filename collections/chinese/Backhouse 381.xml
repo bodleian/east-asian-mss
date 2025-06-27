@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19961017/17:35:07|odh --><!-- #0rr: 20140820/17:24:37-31193/2|omaster --><!-- #900: o --><!-- #905: May be parts of "other edition" of 《國史》 set described in 《叢書書目彙編》 355. 附錄 is not of a piece: colophon says 《都城琉璃廠半松居士排字本》, but it is clearly a 刊本. But both parts are printed and bound at same time. 附錄 are both catalogued as separate works in 《中央研究院歷史語言研究所普通本線裝書目》 598, and described as 《北平琉璃廠印本》. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221289880107026">SOLO</ref></p></availability>

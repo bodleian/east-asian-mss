@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050405/12:20:27|odh --><!-- #0rr: 20130311/15:59:30|odh --><!-- #900: o --><!-- #905: Several reprints of 張伯顏's edition were made during the Ming, of which this is the earliest. The 成化 preface is missing, but the copy corresponds with 昌's description in 明藩刻書考. There are several copies in the National Central Library, but the specimen pages in the online catalogue do not all appear to come from the same block. Strange. But at least one of them corresponds with the Backhouse copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519260107026">SOLO</ref></p></availability>

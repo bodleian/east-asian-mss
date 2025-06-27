@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130115/14:12:40|odh --><!-- #0rr: 20130123/12:39:00|odh --><!-- #900: o --><!-- #905: Bayerische Staatsbibliothek has digitised its copy! Has two title-pages; the words 「北宋本校刊」 and 「汲古閣藏板」 on the first (out-facing) one seem to be designed to sell the book. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221343820107026">SOLO</ref></p></availability>

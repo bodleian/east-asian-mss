@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081010/13:03:40|odh --><!-- #0rr: 20130306/15:32:26|odh --><!-- #900: o --><!-- #905: A fine edition, with blue silk covers. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431710107026">SOLO</ref></p></availability>

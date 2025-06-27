@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031209/11:54:19|odh --><!-- #0rr: 20130319/11:31:10|odh --><!-- #430: 光緒八年[1882] --><!-- #900: p --><!-- #905: The only source of authorship found to date is the IHE catalogue. On this basis, 「韋門道」 is presumably to be identified as "Mrs Williamson". --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307150107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19971216/16:39:25|odh --><!-- #0rr: 20130321/11:50:07|odh --><!-- #900: o --><!-- #905: Has some nice official seals. Seems to be rare - not found in any other catalogues. Probably from same copy as Sinica 3178 - has 「拾肆」and 「拾柒」on tail corner of each fasc., so set (including S.3178) was presumably complete in 20 fasc. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221324880107026">SOLO</ref></p></availability>

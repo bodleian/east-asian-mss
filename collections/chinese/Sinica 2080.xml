@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050131/11:43:55|odh --><!-- #0rr: 20130521/14:10:22|odh --><!-- #430: 1876 --><!-- #900: p --><!-- #905: Barchet's Chinese name was Bai 白; 「白宅」 therefore refers to his house, in the same way that 「羅宅」 refers to E C Lord's house in the same vicinity. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444250107026">SOLO</ref></p></availability>

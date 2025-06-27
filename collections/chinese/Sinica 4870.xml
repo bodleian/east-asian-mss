@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061021/09:32:52|odh --><!-- #0rr: 20180609/10:24:06-144427/1|odh --><!-- #900: o --><!-- #905: Later (?) became part of 《觀自得齋叢書》. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221565250107026">SOLO</ref></p></availability>

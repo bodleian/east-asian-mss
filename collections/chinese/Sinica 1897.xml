@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040112/11:40:30|odh --><!-- #0rr: 20160921/12:31:22-134543/59|omaster --><!-- #430: [1871] --><!-- #900: p --><!-- #905: Wylie (list) says that this is by "Houston". Who he? M H Houston is a guess. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221278860107026">SOLO</ref></p></availability>

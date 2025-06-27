@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19931004/16:42:15|odh --><!-- #0rr: 20130918/15:53:04|odh --><!-- #900: o --><!-- #905: A copy from the same blocks, formerly in the Australian National University Library, but now lost, had a label reading 老君八十一化圖說 above, with 瑪瑙/經房/印造/流通 below. There were two owners' seals at the opening of 御製道德經序. Last stroke of 玄 is omitted. I originally gave the edition as 「清中葉[1750?]杭州刊本」, but don't know why, so changed it. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277790107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20140721/14:35:25|odh --><!-- #0rr: 20191002/12:55:31-358679/47|omaster --><!-- #900: o --><!-- #905: I'm not entirely sure that this really is the original Jiguge edition. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221345530107026">SOLO</ref></p></availability>

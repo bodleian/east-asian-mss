@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061213/15:48:03|odh --><!-- #0rr: 20191203/10:48:04-132159/73|omaster --><!-- #430: 1867 --><!-- #80R: ['Chinese 2.23', 'Chinese 2.24', 'Chinese 2.25|c24.1公分. - Later printing on inferior paper'] --><!-- #900: p --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>

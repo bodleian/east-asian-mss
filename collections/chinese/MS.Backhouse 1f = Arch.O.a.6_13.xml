@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20000406/11:02:20|odh --><!-- #0rr: 20160916/15:19:47-115955/46|omaster --><!-- #0cg: d --><!-- #900: o --><!-- #905: This fasc. bears the wrong label, numbering the juan 20428. --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>

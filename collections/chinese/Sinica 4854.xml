@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061002/12:13:14|odh --><!-- #0rr: 20130325/11:51:03|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: 中國寶卷總目, 197 (no.1145). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532620107026">SOLO</ref></p></availability>

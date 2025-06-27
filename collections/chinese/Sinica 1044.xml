@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120611/16:47:52|odh --><!-- #0rr: 20190818/13:49:29-104435/28|omaster --><!-- #900: o --><!-- #905: One of the editions in the Vatican, Borgia Cinese 324(16), in supposed to be Ming (reproduced in Chin.e.4142/2), but the blocks are different. So this may be one of the two Qing editions recorded in Leuven's "Chinese Christian Texts Database": 1870 (Zikawei) and 1888 (Hong Kong). Furthermore, the title-page has 「前明國相徐光啟撰」, so this must be a Qing edition. Came from Wylie. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221495880107026">SOLO</ref></p></availability>

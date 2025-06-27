@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20061010/13:19:37|odh --><!-- #0rr: 20121112/12:07:16|odh --><!-- #900: o --><!-- #905: Has 抱經堂書局 seal on title-page, and also 3 typeset leaves of adverts at the end of the text. Details for this title are given as 「金石萃編補略二卷 王言撰 連史紙印 四本 三元」. No date of printing is given, but 抱經堂書局 in Hangzhou was active in the early Minguo period. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444600107026">SOLO</ref></p></availability>

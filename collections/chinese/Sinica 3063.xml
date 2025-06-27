@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150323/12:47:57|odh --><!-- #0rr: 20200210/15:15:28-363258/1|osn --><!-- #900: o --><!-- #905: Small, very fine rubbings from bronze vessels, mounted in blank text frames printed on very good quality paper. There is no text at all apart from the rubbings themselves, and the title is taken from the tail-edge inscription and the blue tao in which the book was supplied. As the date stamp is 7 June 1940 and the work in pristine condition, I assume it was put together in Peking in the 1930s. I wonder if it's somehow related to Lo Zhenyu? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221521390107026">SOLO</ref></p></availability>

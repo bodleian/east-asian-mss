@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081003/15:16:19|odh --><!-- #0rr: 20140625/13:35:41-158069/1|odh --><!-- #900: o --><!-- #905: Printed in Hangchow. A printed map of Zhejiang province taken from a different work, but of the same size, has been pasted between leaves 9 and 10 and bound in, so that 9b and 10a are now obscured. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221533010107026">SOLO</ref></p></availability>

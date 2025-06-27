@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070110/12:26:52|odh --><!-- #0rr: 20190208/18:16:24-147150/43|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: This is identical in format to Magd.Coll.Chin.1, but lacks the words 「酌雅齋」 at the chapter beginnings. Note also the different character (注 for 註) on the title-page, which in this edition is in seal-script. Cf. also Sinica 2569. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519500107026">SOLO</ref></p></availability>

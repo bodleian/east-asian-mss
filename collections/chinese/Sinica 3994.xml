@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020705/15:08:21|odh --><!-- #0rr: 20190818/13:49:29-96048/22|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: 中國寶卷總目, 160 (no.914) has 「錫山大有堂刊」. It is possible that 「有」 is a mistake for 「文」, or that this is a re-impression by 大文堂. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221564370107026">SOLO</ref></p></availability>

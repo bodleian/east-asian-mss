@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980522/14:36:12|odh --><!-- #0rr: 20190703/21:01:43-49628/8|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: This is a Japanese edition, and seems to be related to the Gosharo 五車樓 edition of 1812-1817 described by Ch'iu - whether an original, later impression, or completely new copy. The fourth section 四集 is actually made up of the first part of the third section 三集 of the Chinese editions, and is not to be confused with the spurious fourth section of the later Chinese editions - see Ch'iu. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380570107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19970116/18:35:54|odh --><!-- #0rr: 20121112/11:51:48|odh --><!-- #900: o --><!-- #905: Later than 四庫全書, as the the 提要 is reproduced, see also begining of 卷7 &amp;., which are supplied from the 四庫全書 text. The Kangxi taboos are observed (提要 1a, bottom of last column, 鉉), so are the Qianlong (宏 for 弘 in the reign period 宏道, 1.3b, bottom of first column, but not the Daoguang (寧 is not changed to 甯 in the reign period 乾寧, 2.6a, 8th column). I haven't been able to find the characters 顒 or 琰 to check for 嘉慶 taboos, but guess that the print is 道光 or later. DH. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221442950107026">SOLO</ref></p></availability>

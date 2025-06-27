@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950703/15:44:28|odh --><!-- #0rr: 20130320/15:51:46|odh --><!-- #0cm: i --><!-- #240: Pilgrim's progress --><!-- #430: [1862] --><!-- #900: p --><!-- #905: See Wylie, 175-176, 257. This copy is comprised of portions of the reprint, combined with portions that were simultaneously published in John MacGowan's 中外雜誌 ("Shanghai miscellany"); its integrity has not been fully examined. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541250107026">SOLO</ref></p></availability>

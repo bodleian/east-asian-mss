@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130129/10:57:26|odh --><!-- #0rr: 20191113/14:00:18-115174/20|omaster --><!-- #430: 1883 --><!-- #900: p --><!-- #905: Accents have been disregarded. First edition, 1857 (Wylie, 194); 1871 edn. S.1311. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221457220107026">SOLO</ref></p></availability>

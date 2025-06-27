@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20051206/16:35:46|odh --><!-- #0rr: 20121112/11:53:43|odh --><!-- #900: o --><!-- #905: The preface is actually dated 「漢熹平石經刊立後一千七百五十七年」. The stone classics were cut and erected in 熹平四年 (AD175), and 1757 years after that is 1931, which is the generally accepted date of the edition. By no means as rare as Sinica 4654. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221458100107026">SOLO</ref></p></availability>

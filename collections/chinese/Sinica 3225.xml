@@ -76,8 +76,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20000512/17:37:05|odh --><!-- #0rr: 20160707/14:22:06-119024/29|omaster --><!-- #430: [c.1850?] --><!-- #80R: Chinese 2.6|c26.0公分. Later impression, with the same title-page as Bodleian copy N.T.Chin.d.2 --><!-- #900: p --><!-- #905: Apparently not in Spillett. According to Wylie, there were 10 or more editions of this, but none of those described in Spillett corresponds with these three copies. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290570107026">SOLO</ref></p></availability>

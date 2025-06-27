@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050517/11:55:49|odh --><!-- #0rr: 20180131/21:15:50-139592/7|omaster --><!-- #900: o --><!-- #905: Prefaced 丁未 [1847] and first published in 別下齋叢書 (道光中海昌蔣光煦編刊). This edition has been frequently reproduced. The Van der Loon copy is from the only other blockprinted edition, which is in 式訓堂叢書 (光緒中會稽章壽康編刊). The text layout, is the same, but the frame and shukou are different. (The Van der Loon copy has been compared with the copy in SOAS, and is from the same blocks). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381790107026">SOLO</ref></p></availability>

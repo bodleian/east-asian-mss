@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081008/13:44:52|odh --><!-- #0rr: 20160916/15:19:47-159171/95|omaster --><!-- #0cg: aj --><!-- #900: o --><!-- #905: Cf. map in BL in Li Xiaocong's "Descriptive catalogue... ", 335-336. The same criteria for dating apply: the presence of 連山綏瑤廳 (created in 1816), the presence of the character 寧 which was replaced by 甯 in the Daoguang period to avoid taboo, and the absence of Hong Kong. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444370107026">SOLO</ref></p></availability>

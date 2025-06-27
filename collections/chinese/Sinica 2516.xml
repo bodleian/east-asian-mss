@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120530/15:42:20|odh --><!-- #0rr: 20150303/17:02:04-115324/51|omaster --><!-- #900: o --><!-- #905: Leaves bear the same number on both recto and verso. The 「小引」 is dated 1822. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390910107026">SOLO</ref></p></availability>

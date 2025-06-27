@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030829/18:04:07|odh --><!-- #0rr: 20191115/13:05:54-116041/10|omaster --><!-- #900: or --><!-- #905: Not in 譯書事略 (Sinica 2224), which was published 1880, so possibly published subsequently. No date given in International Health Exhibition catalogue (1884). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390610107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20140106/11:14:50|odh --><!-- #0rr: 20140107/10:54:06|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: A work on smallpox. Although the copy is defective, the chapter containing illustrations (4) is preserved in its entirety. I wonder why they're all smiling? They must have been in some discomfort, and the outlook can't have been too good. According to 中國中醫古籍總目 (pp.645-646), eleven editions were printed during the 乾隆, 嘉慶, and 道光 periods. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354700107026">SOLO</ref></p></availability>

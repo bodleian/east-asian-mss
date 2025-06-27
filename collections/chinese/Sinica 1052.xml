@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20160805/15:04:34|odh --><!-- #0rr: 20180729/11:30:31-395352/7|omaster --><!-- #430: 1863 --><!-- #905: The other names recorded on the title-page reverse are 隆源 (a Manchu?), 鐵鿝提乙 (Terentii), 伊望 (Ivan), 瑪鿠亞 (Maria), 尼鿙他 (Nikita), and 摩伊些乙 (Moisii). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221392700107026">SOLO</ref></p></availability>

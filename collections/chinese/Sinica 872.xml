@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20000323/18:40:33|odh --><!-- #0rr: 20130703/10:53:34|odh --><!-- #900: or --><!-- #905: This is edition is better known that S.66, and is probably the second edition. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406930107026">SOLO</ref></p></availability>

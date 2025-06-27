@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060930/10:04:06|odh --><!-- #0rr: 20130325/11:50:56|odh --><!-- #900: o --><!-- #905: 中國寶卷總目, 178 (no.1034). Cover has 「吞府(上海印務局)承印」; 吞府 is Thonburi, the ancient capital of Siam, now a suburb of Bangkok. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221407220107026">SOLO</ref></p></availability>

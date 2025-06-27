@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980618/16:17:38|odh --><!-- #0rr: 20150303/17:02:03-49221/23|omaster --><!-- #900: o --><!-- #905: Sinica 14, 15 and 73 are all from the same blocks, originally 黑口. S.14 is the earliest and clearest impression; S.73 is clearly later, and S.15 is later still, the 黑口 having been removed. Naikaku Bunko copy (catalogue p.48上, 漢13433) has exactly the same format and 牌子, but is from different blocks. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380540107026">SOLO</ref></p></availability>

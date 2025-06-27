@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20160811/13:25:51|odh --><!-- #0rr: 20190630/11:30:40-389945/96|omaster --><!-- #900: o --><!-- #905: This item is in a very advanced state of decay and can currently in no circumstances be consulted. 12 August 2016. DH. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221534050107026">SOLO</ref></p></availability>

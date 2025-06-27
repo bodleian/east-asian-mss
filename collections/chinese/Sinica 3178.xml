@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19971217/18:12:01|odh --><!-- #0rr: 20130321/11:50:08|odh --><!-- #900: o --><!-- #905: This edition is presumably of a piece with Sinica 3179 (see note on that item), which is dated. The four surviving fascicles are numbered 「貳」to 「伍」on the tail corners of the original fasc. It is not possible to guess how many 卷 the complete work consists of, and this edition has not been found in any other catalogue. Check SOAS copy, though. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221305960107026">SOLO</ref></p></availability>

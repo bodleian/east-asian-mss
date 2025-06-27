@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060728/16:51:00|odh --><!-- #0rr: 20121112/12:07:07|odh --><!-- #900: o --><!-- #905: Became part of Wang's 「陶廬叢刻」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221369040107026">SOLO</ref></p></availability>

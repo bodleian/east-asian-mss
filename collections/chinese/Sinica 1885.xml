@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030709/11:25:46|odh --><!-- #0rr: 20130521/14:09:26|odh --><!-- #0cm: i --><!-- #900: op --><!-- #905: A sumptuous edition, with yellow silk covers and a brocade tao; cf. De Morgan's Algebra (Sinica 1674), which is smaller, though. Printed typographically in an unidentified fount, posible made for the occasion. Has interesting combination of traditional woodcut and western photographic illustrations - cf. later editions. S.2913 is a cheaper version on inferior paper. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406130107026">SOLO</ref></p></availability>

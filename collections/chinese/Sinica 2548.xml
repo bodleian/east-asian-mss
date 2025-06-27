@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120503/15:43:52|odh --><!-- #0rr: 20130308/17:00:38|odh --><!-- #900: o --><!-- #905: No indication of publication details in text. Printed labels say 「昭慶慧空經房印造」. Two other items in the Library were printed by the same temple in 1872 and 1875 (S.2546, S.4854), so a 同治 date is possible for this one. It is definitely not the 金陵刻經處 edition of 1891 (copy in NLC) as the block details are different. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221306670107026">SOLO</ref></p></availability>

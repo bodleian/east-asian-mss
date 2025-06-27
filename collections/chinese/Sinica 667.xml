@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20130920/14:27:26|odh --><!-- #0rr: 20130920/15:03:29|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Nice. Has ill. of a modern western factory area. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431010107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031210/12:46:14|odh --><!-- #0rr: 20130315/11:20:59|odh --><!-- #0cm: i --><!-- #430: [1883] --><!-- #900: p --><!-- #905: Author, place and date are all taken from the IHE catalogue. Moreover, there is no title page - the title is taken from a postface on the last two pages. The illustrations are coloured and rather nice. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221457640107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950628/12:45:12|odh --><!-- #0rr: 20160921/12:31:21-118338/25|omaster --><!-- #430: 1868 --><!-- #900: p --><!-- #905: The 「耶穌降世傳」 section doesn't seem to be related to Muirhead's other editions with that name. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221327200107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940111/22:03:24|odh --><!-- #0rr: 20190930/22:17:23-155201/135|omaster --><!-- #900: ors --><!-- #905: 清康熙二十七年[1688]序. From a congshu? It's in quite a few! --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221497050107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040109/14:02:52|odh --><!-- #0rr: 20130521/14:09:49|odh --><!-- #430: [1826?] --><!-- #900: p --><!-- #905: Imprint a guess, inferred from Wylie's list. See note on S.1342. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417850107026">SOLO</ref></p></availability>

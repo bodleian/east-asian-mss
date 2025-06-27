@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150402/12:35:15|odh --><!-- #0rr: 20150402/17:21:56-378071/13|omaster --><!-- #900: o --><!-- #905: I'm sorry to say that Beida's cataloguing of their copy of this work is a disgrace. A leaflet exaplining the edition in Japanese with English abstract by the Library director Izui Hisanosuke 泉井久之助 is kept with the item as Sinica 3149*. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221308530107026">SOLO</ref></p></availability>

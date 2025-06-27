@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150120/16:22:33|odh --><!-- #0rr: 20150129/13:09:12-374765/52|omaster --><!-- #900: o --><!-- #905: 北大's entry in CALIS says 民國七年[1918]. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221308390107026">SOLO</ref></p></availability>

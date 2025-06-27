@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040120/12:00:54|odh --><!-- #0rr: 20130315/11:20:59|odh --><!-- #430: [c.1869] --><!-- #900: p --><!-- #905: Wylie's attribution of this and S.1360 to Muirhead in his list is probably wrong. Muirhead's work with the same title is much longer, and the text of this is identical with that of S.1722, which Wylie attributes to Hobson in both Memorials and list. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354850107026">SOLO</ref></p></availability>

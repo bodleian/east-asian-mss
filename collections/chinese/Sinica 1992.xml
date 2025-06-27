@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050118/11:26:29|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: 1879 --><!-- #900: p --><!-- #905: Not in BS catalogue. Is this an edition of the translation ascribed to M T Yates (BS catalogue, p.188)? Pagination is the same, but date different. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221496040107026">SOLO</ref></p></availability>

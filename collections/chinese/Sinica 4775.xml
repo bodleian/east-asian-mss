@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060731/16:18:12|odh --><!-- #0rr: 20130115/14:02:33|odh --><!-- #900: o --><!-- #905: An early printing, with traces of red on some leaves. Exceptionally rare - no other copy found. An internet search for the title turns up a listing of books in 瑞安市圖書館 (浙江), with this title marked as being in 溫州圖書館. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221291440107026">SOLO</ref></p></availability>

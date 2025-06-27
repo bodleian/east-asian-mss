@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20190204/14:20:15|odh --><!-- #0rr: 20190208/18:16:24-448420/127|omaster --><!-- #900: o --><!-- #905: Title as in ms. on cover. A collection of essays on the 易經, perhaps model answers, and possibly assembled from various editions. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221280260107026">SOLO</ref></p></availability>

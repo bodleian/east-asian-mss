@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120216/17:21:13|odh --><!-- #0rr: 20130320/15:51:34|odh --><!-- #240: First lessons in political economy for the use of schools and families --><!-- #430: 道光二十七年[1847] --><!-- #900: p --><!-- #905: Not strictly a Protestant missionary publication. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221343190107026">SOLO</ref></p></availability>

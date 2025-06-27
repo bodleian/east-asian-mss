@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20071211/16:52:10|odh --><!-- #0rr: 20190818/13:49:29-151793/87|omaster --><!-- #900: o --><!-- #905: There are two editions of 惜陰軒叢書, 1846/1858 and the recutting of 1896. This is from the recutting of 1896, and is reproduced in 四庫全書存目叢書 (Chin.d.10950/770). The same text from the earlier edition is reproduced in 續修四庫全書 (Chin.d.7988/1292). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221407370107026">SOLO</ref></p></availability>

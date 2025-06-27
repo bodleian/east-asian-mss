@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050430/12:03:18|odh --><!-- #0rr: 20121112/11:53:33|odh --><!-- #900: o --><!-- #905: This is part of Lu's congshu 雅雨堂藏書, whose date 中國叢書綜錄 gives as 1756. However, Lu's preface to this work is dated 乾隆戊寅[1758], and the title-page says 乾隆庚辰[1760]鐫. Perhaps 1756 is the date of the earliest work in the collection. There is no indication in this work that it was intended to be part of a congshu. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221565200107026">SOLO</ref></p></availability>

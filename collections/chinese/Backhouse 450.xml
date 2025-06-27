@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19950404/16:19:04|odh --><!-- #0rr: 20190930/22:17:23-366347/155|omaster --><!-- #900: ors --><!-- #905: The 包背裝 is almost intact, but threads have been added. Impressive seals. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221346430107026">SOLO</ref></p></availability>

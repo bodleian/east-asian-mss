@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010731/11:40:42|odh --><!-- #0rr: 20151019/14:05:58-116687/2|omaster --><!-- #0cm: i --><!-- #900: or --><!-- #905: The boards of these fascicles are covered in rich silk brocades, all different. A similary covered set is illustrated in 中國歷代絲綢紋樣 = China's silk patterns through the ages (1988), 171-172 (copy in Sackler). The provenance of this item is not known. The inscription "Pieter Ries" suggests a Dutch origin, and it is possibly part of the 17th century corpus. It is not known precisely when it entered the Library, but it was probably here before the inception of the unsized Chin. sequence. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221383140107026">SOLO</ref></p></availability>

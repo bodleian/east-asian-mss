@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940113/21:37:52|odh --><!-- #0rr: 20130306/15:32:12|odh --><!-- #900: or --><!-- #905: Edition in Durham is 《道光二十九年[1849]江右彭玉雯刊本》 (see also Kyoto catalogue p.1347上), i.e. the 原刊本. Backhouse copy is not identical, therefore must be 重刊 --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221355330107026">SOLO</ref></p></availability>

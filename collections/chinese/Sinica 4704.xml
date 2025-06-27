@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060112/16:03:08|odh --><!-- #0rr: 20150302/17:04:33-8440/1|odh --><!-- #900: o --><!-- #905: The first edition seems to be 1910. 中東石印局 was active in 天津 in the 清末民初 period. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380130107026">SOLO</ref></p></availability>

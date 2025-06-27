@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060804/18:23:29|odh --><!-- #0rr: 20121112/12:07:10|odh --><!-- #900: o --><!-- #905: Seems to be extremely rare. The only other copy found (by a Google search for the title) is in 蘭州大學圖書館. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431740107026">SOLO</ref></p></availability>

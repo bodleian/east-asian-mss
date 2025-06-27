@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030429/09:56:41|odh --><!-- #0rr: 20190930/22:17:23-140594/120|omaster --><!-- #900: or --><!-- #905: An excellent edition. Franke says it was prohibited. Has a red ms colophon dated 道光五年[1825] on front endpaper of first fasc. Provenance distinguished. Owned by early Qing statesman Cao Yin 曹寅 (號楝亭, 1658-1712) who had a fine library. Part of the collection later went to his nephew Changling (號堇齋), a jinshi of 1723. See ECCP, 742. "Mr Xie of Beiping" is presumably a later owner. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344630107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20121120/12:23:20|odh --><!-- #0rr: 20130319/11:31:38|odh --><!-- #430: 1881 --><!-- #900: p --><!-- #905: The author/translator is given as "Capp" on the IHE label, and "Copp" in the catalogue. Not found. Text divided into 6 卷 but pagination is continuous. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406330107026">SOLO</ref></p></availability>

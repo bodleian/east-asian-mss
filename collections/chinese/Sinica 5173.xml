@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150105/17:31:48|odh --><!-- #0rr: 20191027/21:45:41-363210/150|omaster --><!-- #905: Identical with S.6194(12) except for cover (which only has 香港). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221520250107026">SOLO</ref></p></availability>

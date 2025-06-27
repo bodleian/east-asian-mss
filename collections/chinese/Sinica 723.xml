@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020815/16:12:05|odh --><!-- #0rr: 20130829/12:05:04|odh --><!-- #900: or --><!-- #905: Very few pages only are repaired, in 順治16(1659), 康熙25(1686) and 康熙39(1700). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221430690107026">SOLO</ref></p></availability>

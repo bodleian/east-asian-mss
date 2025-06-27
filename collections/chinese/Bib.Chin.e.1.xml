@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19990520/10:45:33|odh --><!-- #0rr: 20131106/12:55:42|odh --><!-- #430: 1823 --><!-- #80R: Chinese 2.60|c1冊(第16本) --><!-- #900: opr --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221355590107026">SOLO</ref></p></availability>

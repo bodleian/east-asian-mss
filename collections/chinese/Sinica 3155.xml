@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150401/17:48:10|odh --><!-- #0rr: 20150402/17:21:56-378104/17|omaster --><!-- #900: o --><!-- #905: The blocks of all but one of the 循陔草堂 editions in CALIS are the same, and are different from those of S.3155. The one from different blocks is the same as S.3155, and is presumably a copy. Or could it be the other way round? It is in 人大, along with what is presumed to be the real 循陔草堂 edition; although clearly from different blocks, it has been described in the same way! --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221382850107026">SOLO</ref></p></availability>

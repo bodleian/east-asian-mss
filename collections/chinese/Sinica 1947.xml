@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040113/16:16:42|odh --><!-- #0rr: 20160921/12:31:22-150851/97|omaster --><!-- #400: [甲本] --><!-- #430: [1875?] --><!-- #900: p --><!-- #905: There is no title. The incipit is used. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221444920107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111123/11:37:19|odh --><!-- #0rr: 20191002/12:55:31-39407/5|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: The words「嘉慶庚申[1800]孟春芥子園煥記重鐫」appear at the end of the text of 二集, and on the title-page 「金陵芥子園重鐫」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531290107026">SOLO</ref></p></availability>

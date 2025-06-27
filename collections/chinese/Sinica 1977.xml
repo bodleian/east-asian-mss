@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050114/11:18:45|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #411: 滬邑[Shanghai]|9hu yi --><!-- #430: 1853-1863 --><!-- #900: p --><!-- #905: According to BS catalogue, Bridgman and Culbertson's OT appeared 1861/1863 (p.17, 21). In fact, this copy shows that the publication was initiated much earlier than either Spillet or Zetzsche suggest. It also explains why the second fasicle (1861) of what is generally thought to have been the first issue was published two years earlier than the first (1863): the first fascicle was clearly re-set after the whole work had been completed. The first fascicle of S.1977, which proves this hypothesis, seems to be very rare - it has not been found elsewhere. Furthermore, it was produced in Ningpo, whereas the rest were printed in Shanghai. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443380107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020809/16:17:48|odh --><!-- #0rr: 20190930/22:17:23-119124/78|omaster --><!-- #900: ors --><!-- #905: Liezhuan juan 58-74 (fasc. 24, 25) are from a different copy of the same edition - the leaves are smaller and have been bound in "jinxiangyu" format to bring them up to the same size as the main part of the copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531780107026">SOLO</ref></p></availability>

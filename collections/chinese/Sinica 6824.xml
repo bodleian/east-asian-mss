@@ -160,7 +160,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source> </source>
+                        <source>Record created from Allegro database.</source>
                         <!--Unused allegro fields-->
                         <!-- #000: 20191118/13:58:53|odh -->
                         <!-- #0rr: 20191203/10:48:04-456927/101|omaster -->

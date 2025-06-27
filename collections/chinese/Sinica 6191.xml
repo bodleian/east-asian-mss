@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150106/15:47:44|odh --><!-- #0rr: 20150113/15:46:10-374118/26|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: Identical with a copy described as 清光緒十七年[1891]上海書局 in CALIS. The text is 鉛印, the ills. are 石印. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221308330107026">SOLO</ref></p></availability>

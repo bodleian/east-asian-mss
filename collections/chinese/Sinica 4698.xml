@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060112/10:55:24|odh --><!-- #0rr: 20190614/16:36:01-141532/34|omaster --><!-- #900: o --><!-- #905: There are two editions of the 函海, the original 乾隆 edition (printed in the 嘉慶 and expanded and reprinted in the 道光), and a complete re-cutting in the 光緒. This is from the same blocks as Backhouse 223/14(3), which is the complete 道光 re-impression of the original edition. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519340107026">SOLO</ref></p></availability>

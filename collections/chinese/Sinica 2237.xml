@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040107/14:58:56|odh --><!-- #0rr: 20191203/10:48:04-131723/66|omaster --><!-- #430: 光緒六年[1880] --><!-- #900: p --><!-- #905: It isn't known who 「鷺江寄跡人」 might be. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381500107026">SOLO</ref></p></availability>

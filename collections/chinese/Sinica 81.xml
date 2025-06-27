@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090417/12:40:02|odh --><!-- #0rr: 20190208/18:16:24-114435/33|omaster --><!-- #900: o --><!-- #905: There are five copies of this juan, all bound in one ce; this appears to have been done a very long time ago, and certainly before the book came to the west. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518470107026">SOLO</ref></p></availability>

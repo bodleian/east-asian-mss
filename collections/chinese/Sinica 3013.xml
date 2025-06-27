@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090724/11:07:09|odh --><!-- #0rr: 20130321/11:50:13|odh --><!-- #900: o --><!-- #905: The British Library has three complete copies (19952.c.1-3). One of them (19952.c.3) is a later printing and the 「傳序」 preface is from different blocks, and has 「乾隆三十三年仲冬月」 on the last leaf (8b). Whether this refers to the date of the engraving or the printing is not clear. The full extent of the edition is 「御製翻譯詩經序」 (7f., undated), 「傳序」 (8f., dated as above), text (8卷); each copy has 4 冊. The incomplete Bodleian copy is the earliest printing. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417060107026">SOLO</ref></p></availability>

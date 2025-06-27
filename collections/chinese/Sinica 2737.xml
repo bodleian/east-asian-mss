@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20141013/13:45:34|odh --><!-- #0rr: 20141014/15:21:29-371220/13|omaster --><!-- #900: o --><!-- #905: Peking University Library dates this edition to the Jiajing period, but there doesn't seem to be any internal evidence for this. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221382640107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940131/17:13:43|odh --><!-- #0rr: 20190930/22:17:23-119123/77|omaster --><!-- #900: ors --><!-- #905: Has large square 國子監 seal in Chinese &amp; Manchu, and also a fine printer's colophon --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518730107026">SOLO</ref></p></availability>

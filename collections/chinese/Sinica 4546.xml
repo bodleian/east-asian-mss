@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050421/12:14:06|odh --><!-- #0rr: 20121112/11:52:56|odh --><!-- #900: o --><!-- #905: These are the first three works in 吳昌綬's 「松鄰叢書」甲編, and are printed in red. Perhaps the blocks were made and this impression taken before the rest of the congshu was put together and named - Wu's postface to the first work is dated 1914, and the first part of the congshu has the imprint 1916-1917. The fascicle is bound Japanese-style, and the seals confirm that it was once in Japanese possession. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344350107026">SOLO</ref></p></availability>

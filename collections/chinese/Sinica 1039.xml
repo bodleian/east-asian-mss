@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20140114/11:52:57|odh --><!-- #0rr: 20190930/22:17:23-120753/89|omaster --><!-- #900: o --><!-- #905: Identification confirmed by comparison with facsimile, Chin.d.3307/5-7. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406600107026">SOLO</ref></p></availability>

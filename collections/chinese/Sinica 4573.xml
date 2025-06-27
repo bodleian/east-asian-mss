@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050423/11:41:41|odh --><!-- #0rr: 20121112/11:53:02|odh --><!-- #900: o --><!-- #905: Became part of 「怡蘭堂叢書」. No catalogue seems to note the 札記, which is printed in a different format. The cover title has 「私立北泉圖書館叢書」 printed above it in small letters, apparently in modern typography. Perhaps a new impression was taken from the blocks in the 1940's (?), by which time the 札記 had been added. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221565120107026">SOLO</ref></p></availability>

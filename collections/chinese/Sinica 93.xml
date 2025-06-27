@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20010731/12:00:40|odh --><!-- #0rr: 20130107/15:16:35|odh --><!-- #0cm: i --><!-- #900: or --><!-- #905: There is a more or less complete copy of this edition in the Gest Library (catalogue (Qu Wanli, p.362). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221354090107026">SOLO</ref></p></availability>

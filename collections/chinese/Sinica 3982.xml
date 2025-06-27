@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20011215/10:57:28|odh --><!-- #0rr: 20130321/15:52:55|odh --><!-- #900: o --><!-- #905: Zhang Yu's 「續補遺」 is not present in the Library's copy of the earlier printing (S.2857). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221485730107026">SOLO</ref></p></availability>

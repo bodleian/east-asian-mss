@@ -77,7 +77,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source> </source>
+                        <source>Record created from Allegro database.</source>
                         <!--Unused allegro fields-->
                         <!-- #000: 20000922/11:54:41|osn -->
                         <!-- #0rr: 20180917/20:45:51-95449/1|odh -->

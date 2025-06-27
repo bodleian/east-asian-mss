@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050511/16:39:19|odh --><!-- #0rr: 20190703/21:20:40-145141/69|omaster --><!-- #900: o --><!-- #905: Part of the elusive 《廣倉學宭叢書乙類》 (also known as 《藝術叢編》). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417930107026">SOLO</ref></p></availability>

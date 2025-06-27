@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940131/17:24:46|odh --><!-- #0rr: 20170517/15:16:08-11718/2|omaster --><!-- #900: or --><!-- #905: 華綱's preface dated 乾隆21年[1756] --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531070107026">SOLO</ref></p></availability>

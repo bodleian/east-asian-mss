@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030116/11:48:43|odh --><!-- #0rr: 20190903/09:09:38-124201/1|osn --><!-- #900: o --><!-- #905: This is a memorial volume for the poet Xu Xishen 許禧身, written mostly by her husband Chen Kuilong 陳夔龍. The volume opens with his biography of her, which is dated 1916, and he was living at Shanghai at the time. The imprint is a guess based on this knowledge. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277890107026">SOLO</ref></p></availability>

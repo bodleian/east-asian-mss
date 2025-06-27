@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050427/14:53:24|odh --><!-- #0rr: 20150807/15:57:34-142039/3|omaster --><!-- #900: o --><!-- #905: In S.2622, 重訂徵刻... is at the end of the table of contents (end of fasc. 2), and 校誤記 is at the end of the entire work. In S.6351 they are both in what was originally fasc. 41, now bound at the end of v.6. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221459460107026">SOLO</ref></p></availability>

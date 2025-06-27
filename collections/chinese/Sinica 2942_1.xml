@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090527/14:41:15|odh --><!-- #0rr: 20130227/11:26:51|odh --><!-- #900: o --><!-- #905: Classified as a 法帖 rather than as an edition of 千字文. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221431960107026">SOLO</ref></p></availability>

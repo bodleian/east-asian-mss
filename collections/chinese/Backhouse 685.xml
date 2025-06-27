@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20170508/12:16:53|odh --><!-- #0rr: 20170517/15:16:08-428615/75|omaster --><!-- #430: 清宣統三年[1911]天津萬國改良會排印本 --><!-- #500: 改良會叢書|n第五冊|9gai liang hui cong shu --><!-- #900: op --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221280060107026">SOLO</ref></p></availability>

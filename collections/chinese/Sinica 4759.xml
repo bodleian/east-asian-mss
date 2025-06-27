@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060109/11:23:52|odh --><!-- #0rr: 20121112/11:53:45|odh --><!-- #900: oe --><!-- #905: A very fine, early printing. The copy has blue, gold-flecked covers, many interesting collectors' seals, and some manuscript notes tipped in. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221565210107026">SOLO</ref></p></availability>

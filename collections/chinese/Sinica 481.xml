@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19981223/15:59:34|odh --><!-- #0rr: 20121112/11:52:03|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Earlier edition than S.626? Juan 10 lacks last leaf, and possibly 「書後」section (if present in this edition). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443090107026">SOLO</ref></p></availability>

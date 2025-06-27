@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20000323/18:34:29|odh --><!-- #0rr: 20190208/18:16:24-113703/25|omaster --><!-- #900: or --><!-- #905: Contains the illustrations 《天球之圖》 and 《黃道之圖》. Probably the first edition of this work. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443470107026">SOLO</ref></p></availability>

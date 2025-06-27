@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20131217/12:26:36|odh --><!-- #0rr: 20200219/10:04:18-110904/1|osn --><!-- #900: r --><!-- #905: This is a combined printing of two separate editions, and seems to be unique. The first part (近思錄) has only been found in the National Central Library online catalogue (from which printing details are derived) and the specimen page there shows that the Sinica copy is from the same blocks. The second part has not been found in any catalogue, whether printed or online. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221409090107026">SOLO</ref></p></availability>

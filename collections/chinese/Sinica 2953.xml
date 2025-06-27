@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090602/16:40:54|odh --><!-- #0rr: 20190614/16:36:01-158585/40|omaster --><!-- #900: o --><!-- #905: 鄭應元(1755-1809), 字文川, 號建亭, 廣東香山人. 乾隆四十六年[1781]辛丑科進士. 由庶吉士授內閣中書, 充《通顛》, 《通志》, 《文獻通考》三通館纂修官兼總校官. 後引病歸里. 嘉慶十四年[1809]病故, 終年55歲. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307730107026">SOLO</ref></p></availability>

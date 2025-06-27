@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20031219/16:54:32|odh --><!-- #0rr: 20130319/11:31:24|odh --><!-- #430: [before 1861] --><!-- #900: p --><!-- #905: According to Wylie (p.213) the work was reprinted at Shanghai in 1861 in 135pp. and without the maps. This has the maps and is in 114pp, so is presumably earlier. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541300107026">SOLO</ref></p></availability>

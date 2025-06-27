@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19951009/15:26:33|odh --><!-- #0rr: 20180614/18:57:03-22947/1|omaster --><!-- #100: 7-80568-642-4 --><!-- #900: o --><!-- #905: Sinica 6646 is a good early impression. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221498350107026">SOLO</ref></p></availability>

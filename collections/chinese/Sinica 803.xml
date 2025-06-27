@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090715/15:36:27|odh --><!-- #0rr: 20130703/10:53:37|odh --><!-- #900: or --><!-- #905: Needs further investigation. Might be produced by 江南製造局. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221370660107026">SOLO</ref></p></availability>

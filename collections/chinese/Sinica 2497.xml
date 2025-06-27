@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070108/13:52:26|odh --><!-- #0rr: 20130319/14:02:42|odh --><!-- #900: or --><!-- #905: The copy contains absolutely no indication of imprint, but is Japanese and appears to be printed from bronze plates, presumably in the Meiji period. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532590107026">SOLO</ref></p></availability>

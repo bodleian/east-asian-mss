@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150623/16:13:13|odh --><!-- #0rr: 20191028/10:19:32-372401/199|omaster --><!-- #905: Lacks the colophon, but I guess it's the same as S.4156(1). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221432950107026">SOLO</ref></p></availability>

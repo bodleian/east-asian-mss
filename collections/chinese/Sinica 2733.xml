@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20020218/14:28:43|odh --><!-- #0rr: 20170821/17:45:57-50976/3|omaster --><!-- #0cg: aj --><!-- #900: o --><!-- #905: See Li Xiaocong's "Descriptive catalogue... ", 331-332, from which the date range is taken. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990220453540107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120126/16:48:04|odh --><!-- #0rr: 20190208/17:59:09-114418/1|odh --><!-- #900: o --><!-- #905: Cover inscribed in French. Has two 牌子 on last page, one of which says the edition is a reproduction of the 「官板」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221325340107026">SOLO</ref></p></availability>

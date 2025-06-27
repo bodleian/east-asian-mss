@@ -73,8 +73,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19990914/11:54:58|odh --><!-- #0rr: 20170128/11:46:16-90403/1|omaster --><!-- #900: o --><!-- #905: The title is taken from the incipit of the Latin text. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531650107026">SOLO</ref></p></availability>

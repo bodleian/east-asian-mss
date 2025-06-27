@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050202/11:32:23|odh --><!-- #0rr: 20190818/13:49:29-131266/64|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: Has many fine ills - excellent example of Buddhist portraiture. Text is continuously paginated, but there are two sections. At the end of the first is the colophon 「粵東學院前聚賢堂虔刊」, and at the end of the second 「嘉慶癸亥年[1803]春月吉旦別澗敬林熏沭謹錄」 --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221486520107026">SOLO</ref></p></availability>

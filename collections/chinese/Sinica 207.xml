@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111005/13:46:28|odh --><!-- #0rr: 20130201/13:10:40|odh --><!-- #0cm: i --><!-- #900: o --><!-- #905: Has ms. note in pencil on title-page "Hong Kong. Sept. 5th 1850". --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277580107026">SOLO</ref></p></availability>

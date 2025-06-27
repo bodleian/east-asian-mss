@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040129/16:22:03|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: [1836?] --><!-- #900: p --><!-- #905: Has 「卷之四」 in the block centre, so presumably part of complete NT, but not uniform with 1836 edn. of Matthew. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326080107026">SOLO</ref></p></availability>

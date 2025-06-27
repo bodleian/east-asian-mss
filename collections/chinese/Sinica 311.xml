@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040210/17:30:11|odh --><!-- #0rr: 20141114/16:57:43-139178/1|odh --><!-- #430: 1851 --><!-- #900: opr --><!-- #905: Large and impressive. A good example of this type of edition. Not in Wylie. Edkins catalogue attributes authorship to Russell, but on the front cover is the ms. note "Jas. Summers. From Rev. F.Gough". So could it not be by Frederick Foster Gough, who was also active in Ningpo at this time? --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326010107026">SOLO</ref></p></availability>

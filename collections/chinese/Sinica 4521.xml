@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050414/17:47:00|odh --><!-- #0rr: 20190703/21:20:40-139525/63|omaster --><!-- #900: o --><!-- #905: Seems to be rare. Only other copy found is of 2nd edn. (1919), in Columbia Univ. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344600107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050407/10:47:24|odh --><!-- #0rr: 20191002/12:55:31-163354/29|omaster --><!-- #900: o --><!-- #905: The red printing is so badly faded as to be almost illegible. The colophon on the title-page reverse is not present, but Piet van der Loon has pencilled it into the tao from the photolilthographic reprint made by 巴蜀書社 in 1985. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541510107026">SOLO</ref></p></availability>

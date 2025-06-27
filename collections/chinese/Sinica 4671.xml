@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20060103/15:11:56|odh --><!-- #0rr: 20200217/14:55:02-141691/1|osn --><!-- #900: o --><!-- #905: Seems to be exceptionally rare - not found elsewhere. The copy is bound in 金鑲玉 format, in which it seems to have been originally issued. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417800107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090804/13:36:04|odh --><!-- #0rr: 20190818/13:49:29-34930/11|omaster --><!-- #900: o --><!-- #905: Wang's name is probably a zi 字; ming 名 may be 偶, but not confirmed. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221353810107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050513/14:52:04|odh --><!-- #0rr: 20190703/21:20:40-139569/64|omaster --><!-- #900: o --><!-- #905: Seems to be extremely rare. Copy in Harvard and two in Beitu, one of which is incomplete. Perhaps no more of 天風閣金石叢書 was published. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221370320107026">SOLO</ref></p></availability>

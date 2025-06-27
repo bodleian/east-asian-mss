@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20111027/13:19:45|odh --><!-- #0rr: 20190818/13:49:29-115045/43|omaster --><!-- #900: o --><!-- #905: Bottom 5cm. of all leaves up to p.14 have been ripped off. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540920107026">SOLO</ref></p></availability>

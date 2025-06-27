@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120210/13:52:38|odh --><!-- #0rr: 20130306/15:32:27|odh --><!-- #900: o --><!-- #905: Cover inscribed in French. No other copy of this edition (or even the work) has been located yet. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221276820107026">SOLO</ref></p></availability>

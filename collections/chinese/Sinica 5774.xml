@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20161005/14:59:52|odh --><!-- #0rr: 20191113/14:00:18-401673/42|omaster --><!-- #900: o --><!-- #905: Found in various places on the internet: 《增廣賢文》 ... 中國古代兒童啟蒙書，又名《昔時賢文》、《古今賢文》。書名最早見之于明代萬曆年間的戲曲《牡丹亭》，據此可推知此書最遲寫成于萬曆年間，經過明、清兩代文人的不斷增補，才改成現在這個模樣，稱《增廣昔時賢文》，通稱《增廣賢文》。 --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221292570107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20081003/18:31:03|odh --><!-- #0rr: 20190703/21:20:40-149216/75|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: A complex work, with many sections, some printed in black, others in red and indigo. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221344810107026">SOLO</ref></p></availability>

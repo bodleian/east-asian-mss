@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151109/13:02:33|odh --><!-- #0rr: 20161114/16:38:54-390795/44|omaster --><!-- #430: [1880年代?] --><!-- #900: o --><!-- #905: Earlier (or later?) edition of S.6545. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221566800107026">SOLO</ref></p></availability>

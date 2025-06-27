@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20121207/13:35:50|odh --><!-- #0rr: 20190208/18:16:24-115674/34|omaster --><!-- #0cm: i --><!-- #900: o --><!-- #905: The Qianlong taboo of 玄 is observed (the final stroke of related characters being omitted). The blocks and format are quite different from the Ming edition reproduced in 四庫全書存目叢書 and the Kangxi edition reproduced in 續修四庫全書 that was probably copied from it. Identical in format with St.John's Coll.Chin.3, and possibly from the same copy of the same edition. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277660107026">SOLO</ref></p></availability>

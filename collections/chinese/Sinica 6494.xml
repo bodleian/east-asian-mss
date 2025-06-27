@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20151029/11:24:54|odh --><!-- #0rr: 20151113/15:57:11-390038/128|omaster --><!-- #430: 光緒廿六年[1900] --><!-- #900: p --><!-- #905: "Mr Foster's First steps to learning Chinese characters" is lightly pencilled on the front cover. The text is from the same blocks as S.6501. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221371480107026">SOLO</ref></p></availability>

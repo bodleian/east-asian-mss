@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20090416/16:49:06|odh --><!-- #0rr: 20130107/15:17:04|odh --><!-- #0cm: i --><!-- #900: or --><!-- #905: See note on Douce Chin.d.8 --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221564870107026">SOLO</ref></p></availability>

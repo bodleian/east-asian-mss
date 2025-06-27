@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050419/15:01:33|odh --><!-- #0rr: 20121112/11:53:18|odh --><!-- #900: o --><!-- #905: All details of this work except for the title are a guess - that the work is identical with that described in Kyoto, p.286. The printing is definitely wood block, of high quality, and fairly early. Rare. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221278440107026">SOLO</ref></p></availability>

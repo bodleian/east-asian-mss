@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030304/16:18:09|odh --><!-- #0rr: 20190930/22:17:23-124995/97|omaster --><!-- #900: ors --><!-- #905: Li Zhizhong saw this edition during his visit in the mid-80's and confirmed the identification. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221531910107026">SOLO</ref></p></availability>

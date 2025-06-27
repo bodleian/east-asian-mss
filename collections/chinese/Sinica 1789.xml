@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040218/15:17:37|odh --><!-- #0rr: 20130521/14:10:00|odh --><!-- #430: 1870 --><!-- #900: p --><!-- #905: IHE labels and catalogue entries describe IHE3.19 (S.2266) as "Work of Jesus" by Quarterman, and IHE3.20 (S.2272) as "Life of Christ" by Muirhead. However, both editions are the same, and identical with CE379 (S.1789) which Wylie (list) describes as "Life of Christ" by Muirhead. The text of this 1870 edition is identical with that of the small-format edition of 1867 (CE309, S.1133). The only edition to be found in Wylie's "Memorials" is Sinica 1533 (CE241), but apart from the prefatory remarks, the text is completely different. This mess needs sorting out. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221443370107026">SOLO</ref></p></availability>

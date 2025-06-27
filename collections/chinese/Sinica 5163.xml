@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20150105/12:57:46|odh --><!-- #0rr: 20191027/21:45:42-363845/291|omaster --><!-- #905: Has Italian inscription. Fourth character in title is actually 艹+隹+皿 (top to bottom), but is the same as 奮 according to 中華字海. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221445310107026">SOLO</ref></p></availability>

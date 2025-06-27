@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040114/17:41:11|odh --><!-- #0rr: 20130314/11:34:37|odh --><!-- #430: [1824?] --><!-- #900: p --><!-- #905: The relationship between this and S.1327 is far from clear. S.1327 is smaller, and its text forms only part of S.1342, but Wylie (list) implies that it was printed later. The 1824 edn. is described in the Memorials (p.28) as having 14 leaves, but this version has 17. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221325770107026">SOLO</ref></p></availability>

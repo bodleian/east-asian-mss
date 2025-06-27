@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040203/11:32:36|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: [s.a.] --><!-- #900: p --><!-- #905: Has no title-page. Possibly a section of a complete Bible or New Testament. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541320107026">SOLO</ref></p></availability>

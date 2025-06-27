@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940224/14:10:21|odh --><!-- #0rr: 20150827/12:56:01-13853/4|omaster --><!-- #900: o --><!-- #905: collection of biographies of painters --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540010107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040129/10:46:11|odh --><!-- #0rr: 20130314/11:34:38|odh --><!-- #430: [1850] --><!-- #900: p --><!-- #905: All details from IHE catalogue. Is this really by Medhurst? Not in Memorials, and no author given for copy in CE list (Sinica 1423), whose text is slightly different. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221532430107026">SOLO</ref></p></availability>

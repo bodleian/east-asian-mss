@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20070122/13:19:38|odh --><!-- #0rr: 20190208/18:16:24-147228/45|omaster --><!-- #900: o --><!-- #905: The character 弘 appears on 1.60b and elsewhere, suggesting a date before Qianlong. Unfortunately, this section is absent from Backhouse 136 (which is a Qianlong edition) and other examples of the character have not yet been found. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326330107026">SOLO</ref></p></availability>

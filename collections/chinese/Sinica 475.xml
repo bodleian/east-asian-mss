@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030827/16:51:06|odh --><!-- #0rr: 20190703/21:20:40-163952/87|omaster --><!-- #900: o --><!-- #905: In full, the label has 「毘陵石刻羅漢像」 followed by 「第一百一尊至第一百五十尊止」 in smaller writing, with an illegible seal at the bottom. An early impression (「初拓本」) of the complete set in Peking library is reproduced in full in 北京圖書館藏畫像拓本匯編 (1993), 7:82-9:130. Some specimen pages and a short explanation is given in 中國美術全集. 繪畫編. 19, 石刻線畫 (1988), 124-125, 圖版說明 42. There are two complete sets in the British Library. Drege. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221542010107026">SOLO</ref></p></availability>

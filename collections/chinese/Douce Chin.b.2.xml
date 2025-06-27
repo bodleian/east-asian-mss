@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19990129/16:25:08|odh --><!-- #0rr: 20121112/11:52:05|odh --><!-- #900: o --><!-- #905: The first plates reproduce almost exactly plates 1-5, 7-27, 30, 31, 53 of Andrea Pozzo's "Perspectiva pictorum et architectorum" (Rome, 1693, 1700), Vet. F3 b.4. The Douce copy is reproduced in its entirety (from microfilm) and compared with the Pozzo plates in "Chuugoku no youfuugaten : minmatsu kara shinjidai no kaiga hanga sashiebon" (Machida, 1995), JS.c.26. There is a stock microfilm of this item: cost approx. GBP45 (Apr 2006). --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380740107026">SOLO</ref></p></availability>

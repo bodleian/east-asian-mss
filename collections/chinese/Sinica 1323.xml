@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040114/10:52:09|odh --><!-- #0rr: 20130327/22:12:33|odh --><!-- #400: 重鐫 --><!-- #430: 道光二十八[1848] --><!-- #900: p --><!-- #905: The first 3 pages seem to be a continuation of Milne's 「天地宗旨論」 (S.1315), as like that edition, they have the running-title 「天地宗旨」, the pagination is continuous, and the text is presented just as the start of another section. However, unlike 「天地宗旨論」, which is in a hybrid classical/baihua style, this is entirely classical. The running-title changes from page 4 (so numbered) to 「論十條誡」. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221496280107026">SOLO</ref></p></availability>

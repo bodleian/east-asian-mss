@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20040120/12:05:34|odh --><!-- #0rr: 20151029/13:01:03-141928/1|odh --><!-- #430: 同治十年[1871] --><!-- #900: p --><!-- #905: Wylie's attribution of this and S.1449 to Muirhead in his list is probably wrong. Muirhead's work with the title 耶穌降世傳 is much longer, and the text of this is identical with that of S.1722, which Wylie attributes to Hobson in both Memorials and list. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417730107026">SOLO</ref></p></availability>

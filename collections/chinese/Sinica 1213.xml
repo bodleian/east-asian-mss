@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19970324/13:03:50|odh --><!-- #0rr: 20191203/10:48:04-400715/98|omaster --><!-- #0cm: i --><!-- #430: 同治九年[1870] --><!-- #900: p --><!-- #905: Two scans made of this item. The second is ce784da9-c34e-4d62-adeb-41f46640e2c5. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221328210107026">SOLO</ref></p></availability>

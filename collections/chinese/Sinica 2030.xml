@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050126/11:00:02|odh --><!-- #0rr: 20130327/22:12:34|odh --><!-- #430: [1871?] --><!-- #900: p --><!-- #905: Accents have been disregarded. Edition seems to be the same as BS catalogue p.124, but title-page is clearly different. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381440107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050428/17:32:31|odh --><!-- #0rr: 20180131/21:15:50-140167/8|omaster --><!-- #900: o --><!-- #905: Can't find any reference to 蘊石齋叢書. Did it ever materialise? Catalogue searches suggest that this text was the first and only part of it. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221519310107026">SOLO</ref></p></availability>

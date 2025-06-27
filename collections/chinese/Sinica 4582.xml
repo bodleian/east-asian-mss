@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20050428/15:37:13|odh --><!-- #0rr: 20190705/11:30:45-139434/1|odh --><!-- #900: o --><!-- #905: S.4582 and 4583 are not from the same copy of 讀畫齋叢書. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326170107026">SOLO</ref></p></availability>

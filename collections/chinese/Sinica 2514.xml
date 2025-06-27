@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20120530/15:26:29|odh --><!-- #0rr: 20190818/13:49:29-99782/25|omaster --><!-- #900: o --><!-- #905: Thread bound, but machine printed on both sides of the leaves, which are not doubled, and bear the same number on both recto and verso. Cf. S.2512. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221485860107026">SOLO</ref></p></availability>

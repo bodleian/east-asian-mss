@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19940109/14:52:22|odh --><!-- #0rr: 20190614/16:36:01-139462/32|omaster --><!-- #900: or --><!-- #905: Very rare indeed. According to 中國叢書廣錄 (上冊417), this (the second work) and 音論三卷 (the first) are probably the only two that were published. Examined by 韓琦, May 2005. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221381750107026">SOLO</ref></p></availability>

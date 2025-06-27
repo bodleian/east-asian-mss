@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 19980520/13:16:51|odh --><!-- #0rr: 20191203/10:48:04-116082/49|omaster --><!-- #240: 張遠兩友相論|9zhang yuan liang you xiang lun --><!-- #430: 同治六年[1867] --><!-- #900: p --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221406620107026">SOLO</ref></p></availability>

@@ -69,8 +69,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                        </source>
+                        <source>Record created from Allegro database.</source>
                      <!--Unused allegro fields--><!-- #000: 20030429/12:52:12|odh --><!-- #0rr: 20121112/12:07:04|odh --><!-- #0cm: i --><!-- #900: or --><!-- #905: Cf. Sinica 705. The title-page is from the same block, but the printing information is omitted. This later printing also lacks the 「附編」section of the Wylie copy. --><!-- #909: SerD --></recordHist>
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221518880107026">SOLO</ref></p></availability>
