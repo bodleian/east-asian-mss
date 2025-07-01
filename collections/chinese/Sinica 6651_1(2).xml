@@ -57,24 +57,7 @@
                      <note source="#600">嘉慶丁丑[1817]刊</note>
                   </msItem>
                </msContents>
-               <physDesc>
-
-                  <objectDesc>
-
-                     <supportDesc>
-                        <support/>
-                     </supportDesc>
-
-                  </objectDesc>
-
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="#Gregorian"/>
-                     <origPlace/>
-                  </origin>
-                  
-               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -55,24 +55,7 @@
                      <author source="#300" key="person_37"><persName xml:lang="chi">(□)謝□</persName><persName type="9">xie</persName></author>
                   </msItem>
                </msContents>
-               <physDesc>
-
-                  <objectDesc>
-
-                     <supportDesc>
-                        <support/>
-                     </supportDesc>
-
-                  </objectDesc>
-
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="#Gregorian"/>
-                     <origPlace/>
-                  </origin>
-                  
-               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -59,24 +59,7 @@
                      <author source="#300" key="person_7066"><persName xml:lang="chi">Verbiest, Ferdinand</persName></author>
                   </msItem>
                </msContents>
-               <physDesc>
-
-                  <objectDesc>
-
-                     <supportDesc>
-                        <support/>
-                     </supportDesc>
-
-                  </objectDesc>
-
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="#Gregorian"/>
-                     <origPlace/>
-                  </origin>
-                  
-               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>

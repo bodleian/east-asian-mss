@@ -59,24 +59,7 @@
                      <note source="#600">景刊小草齋鈔本</note>
                   </msItem>
                </msContents>
-               <physDesc>
-
-                  <objectDesc>
-
-                     <supportDesc>
-                        <support/>
-                     </supportDesc>
-
-                  </objectDesc>
-
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="#Gregorian"/>
-                     <origPlace/>
-                  </origin>
-                  
-               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>

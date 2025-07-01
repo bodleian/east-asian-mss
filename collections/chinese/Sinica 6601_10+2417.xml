@@ -56,24 +56,7 @@
                      <author source="#300" key="person_6759"><persName xml:lang="chi">Allen, Young John</persName></author>
                   </msItem>
                </msContents>
-               <physDesc>
-
-                  <objectDesc>
-
-                     <supportDesc>
-                        <support/>
-                     </supportDesc>
-
-                  </objectDesc>
-
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="#Gregorian"/>
-                     <origPlace/>
-                  </origin>
-                  
-               </history>
+               
                <additional>
                   <adminInfo>
                      <recordHist>
