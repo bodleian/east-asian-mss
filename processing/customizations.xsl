@@ -171,10 +171,6 @@
         </span>
         <xsl:text> cm (height)</xsl:text>
     </xsl:template>
-    <!-- Remove carets for display -->
-    <xsl:template match="title/text()">
-        <xsl:value-of select="translate(., '^', '')"/>
-    </xsl:template>
     
     <!-- Add a space between traditional and romanized text. -->
     <xsl:template match="persName">
@@ -209,8 +205,8 @@
             </span>
         </div></xsl:template>
     
-    <xsl:template match="item/ref[@target]">
-        <!-- This matches item/refs which are used to link collections with individual items, and makes them hyperlinks -->
+    <xsl:template match="item|head/ref[@target]">
+        <!-- This matches item or head/refs which are used to link collections with individual items, or individual items with their parents, and makes them hyperlinks -->
         <span>
             <xsl:attribute name="class">
                 <xsl:value-of select="string-join((name(), @role), ' ')"/>
@@ -231,5 +227,10 @@
                 </xsl:otherwise>
             </xsl:choose>
         </span></xsl:template>
-    
+    <!-- hide collection information -->
+    <xsl:template match="msIdentifier/collection"/>
+    <!-- hide 29X field if there's a author field-->
+    <xsl:template match="note[starts-with(@source, '#') and number(substring(@source, 2)) &gt;= 290 and number(substring(@source, 2)) &lt;= 299 and ../author]"/>
+    <!-- hide empty language fields - normally child records -->
+    <xsl:template match="textLang[not(child::* or text())]"/>
 </xsl:stylesheet>
