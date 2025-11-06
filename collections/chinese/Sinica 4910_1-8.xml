@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6365">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4910/1-8</idno>
+               </msIdentifier>
+               <head>書名: 貞松老人遺稿乙集 / (清)羅振玉撰<lb/>民國辛巳[1941]至癸未[1943]羅福頤排印本<lb/>線裝8冊 ; 21公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">貞松老人遺稿乙集</title>
+                     <title source="#200|9">zhen song lao ren yi gao yi ji</title>
+                     <note source="#290">(清)羅振玉撰</note>
+                     <author source="#300" key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                     <note source="#409">民國辛巳[1941]至癸未[1943]羅福頤排印本</note>
+                     <msItem n="1">
+                        <title>墓誌徵存目錄 四卷</title>
+                        <title source="9">mu zhi zheng cun mu lu</title>
+                        <author key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:25:21|odh -->
+                        <!-- #0rr: 20071219/12:26:09|odh -->
+                        <!-- #0rx: dh375+1 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>大雲書庫藏書題識 四卷</title>
+                        <title source="9">da yun shu ku cang shu ti zhi</title>
+                        <author key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:27:36|odh -->
+                        <!-- #0rx: dh375+2 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>漢熹平石經殘字集錄 二卷</title>
+                        <title source="9">han xi ping shi jing can zi ji lu</title>
+                        <author key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:28:58|odh -->
+                        <!-- #0rx: dh375+3 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>貞松老人外集 四卷補遺一卷</title>
+                        <title source="9">zhen song lao ren wai ji</title>
+                        <author key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:30:29|odh -->
+                        <!-- #0rx: dh375+4 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>魏書宗室傳注校補 一卷</title>
+                        <title source="9">wei shu zong shi zhuan zhu jiao bu</title>
+                        <author key="person_5327"><persName xml:lang="chi">(清)羅振玉</persName><persName type="9">luo zhen
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:31:52|odh -->
+                        <!-- #0rx: dh375+5 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="6=附">
+                        <title>傳世古尺錄 一卷</title>
+                        <title source="9">chuan shi gu chi lu</title>
+                        <note source="290">羅福頤撰</note>
+                        <author key="person_7169"><persName xml:lang="chi">羅福頤</persName><persName type="9">luo fu
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:35:26|odh -->
+                        <!-- #0rr: 20190306/11:10:39-151829/1|osn -->
+                        <!-- #0rx: dh375+6=附 -->
+                        <!-- #900: o -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="8">8冊</measure><!--線裝8冊 ; 21公分--><dimensions unit="cm"><height>21</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1941" notAfter="1943" type="g">1941
+                        - 1943</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20071218/16:23:58|odh -->
+                        <!-- #0rr: 20150303/17:02:03-39441/13|omaster -->
+                        <!-- #0rx: dh375 -->
+                        <!-- #900: o -->
+                        <!-- #905: This edition seems to be quite rare, and this copy seems to contain more works than others. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_880" source="880.90">叢書 <term>獨撰類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

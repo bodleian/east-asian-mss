@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6334">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3827</idno>
+               </msIdentifier>
+               <head>書名: 顧氏金石輿地叢書第一集 / (民國)顧燮光輯<lb/>民國十八年[1929]序會稽顧氏金佳石好樓排印石印本<lb/>洋裝1冊(原線裝8冊) ;
+                  21公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">顧氏金石輿地叢書第一集</title>
+                     <title source="#200|9">gu shi jin shi yu di cong shu di yi ji</title>
+                     <note source="#290">(民國)顧燮光輯</note>
+                     <author source="#300" key="person_3222"><persName xml:lang="chi">(民國)顧燮光</persName><persName type="9">gu xie
+                           guang</persName></author>
+                     <note source="#409">民國十八年[1929]序會稽顧氏金佳石好樓排印石印本</note>
+                     <msItem n="1">
+                        <title>天下金石志 十六卷</title>
+                        <title source="9">tian xia jin shi zhi</title>
+                        <note source="290">(明)于奕正撰</note>
+                        <author key="person_1989"><persName xml:lang="chi">(明)于奕正</persName><persName type="9">yu yi
+                           zheng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002285|ons -->
+                        <!-- #0rx: ns0643+01 -->
+                        <!-- #600: 民國十七年[1928]石印 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>中州金石攷 八卷</title>
+                        <title source="9">zhong zhou jin shi kao</title>
+                        <note source="290">(清)黃叔璥撰</note>
+                        <author key="person_6363"><persName xml:lang="chi">(清)黃叔璥</persName><persName type="9">huang shu
+                              jing</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002286|ons -->
+                        <!-- #0rx: ns0643+02 -->
+                        <!-- #600: 民國十六年[1927]排印 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>山右金石錄 一卷</title>
+                        <title source="9">shan you jin shi lu</title>
+                        <note source="290">(清)夏寶晉撰</note>
+                        <author key="person_3769"><persName xml:lang="chi">(清)夏寶晉</persName><persName type="9">xia bao
+                           jin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002287|ons -->
+                        <!-- #0rx: ns0643+03 -->
+                        <!-- #600: 民國十八年[1929]排印 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>山右訪碑記 一卷</title>
+                        <title source="9">shan you fang bei ji</title>
+                        <note source="290">(清)魯燮光撰</note>
+                        <author key="person_6335"><persName xml:lang="chi">(清)魯燮光</persName><persName type="9">lu xie
+                              guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002288|ons -->
+                        <!-- #0rx: ns0643+04 -->
+                        <!-- #600: 民國十八年[1929]排印 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>山左訪碑錄 十三卷</title>
+                        <title source="9">shan zuo fang bei lu</title>
+                        <note source="290">(清)法偉堂撰</note>
+                        <author key="person_4912"><persName xml:lang="chi">(清)法偉堂</persName><persName type="9">fa wei
+                           tang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002289|ons -->
+                        <!-- #0rx: ns0643+05 -->
+                        <!-- #600: 民國十七年[1928]石印 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>湘城訪古錄 一卷</title>
+                        <title source="9">xiang cheng fang gu lu</title>
+                        <note source="290">(清)陳運溶撰</note>
+                        <author key="person_6111"><persName xml:lang="chi">(清)陳運溶</persName><persName type="9">chen yun
+                              rong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002290|ons -->
+                        <!-- #0rx: ns0643+06 -->
+                        <!-- #600: 民國十七年[1928]排印 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>江西金石目 一卷</title>
+                        <title source="9">jiang xi jin shi mu</title>
+                        <note source="290">(清)繆荃孫撰</note>
+                        <author key="person_5321"><persName xml:lang="chi">(清)繆荃孫</persName><persName type="9">miao quan
+                              sun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002291|ons -->
+                        <!-- #0rx: ns0643+07 -->
+                        <!-- #600: 民國十七年[1928]排印 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>汧陽述古編金石篇 一卷</title>
+                        <title source="9">qian yang shu gu bian jin shi pian</title>
+                        <note source="290">(清)李嘉績撰</note>
+                        <author key="person_4471"><persName xml:lang="chi">(清)李嘉績</persName><persName type="9">li jia
+                           ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002292|ons -->
+                        <!-- #0rx: ns0643+08 -->
+                        <!-- #600: 民國十七年[1928]石印 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--洋裝1冊(原線裝8冊) ; 21公分--><dimensions unit="cm"><height>21</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1929" type="d">1929</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19970103/10:32:30|odh -->
+                        <!-- #0rr: 20130321/14:32:39|odh -->
+                        <!-- #0rx: ns0643 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221517880107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_460" source="460.90">史部 <term>金石類 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_11758">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17360</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6043/31(3)-32</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17360">Sinica 6043</ref><lb/>書名: 豐草菴詩集 十一卷文前集六卷後集二卷 / (明)董說撰</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">豐草菴詩集 十一卷文前集六卷後集二卷</title>
+                     <title source="#200|9">feng cao an shi ji</title>
+                     <title xml:lang="chi" source="#200">寶雲詩集 七卷</title>
+                     <title source="#200|9">bao yun shi ji</title>
+                     <title xml:lang="chi" source="#200">禪樂府 一卷</title>
+                     <title source="#200|9">chan yue fu</title>
+                     <title type="variant" source="#230">董若雨詩文集</title>
+                     <title source="#230|9" type="variant">dong ruo yu shi wen ji</title>
+                     <note source="#290">(明)董說撰</note>
+                     <author source="#300" key="person_2559"><persName xml:lang="chi">(明)董說</persName><persName type="9">dong
+                           yue</persName></author>
+                     <note source="#600">封面題名「董若雨詩文集二十七卷」</note>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130822/13:12:28|ojs -->
+                        <!-- #0rr: 20130822/13:13:17|ojs -->
+                        <!-- #0rx: js001+39 -->
+                        <!-- #900: o -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221357520107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5453">5453</term></item>
+                  <item><term key="5449">5449</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

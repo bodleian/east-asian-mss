@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6226">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Backhouse</collection>
+                  <idno type="shelfmark">Backhouse 229</idno>
+               </msIdentifier>
+               <head>書名: 五經四書讀本 殘四書<lb/>清雍正中北京國子監刊本<lb/>線裝5冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">五經四書讀本 殘四書</title>
+                     <title source="#200|9">wu jing si shu du ben</title>
+                     <note source="#409">清雍正中北京國子監刊本</note>
+                     <editor source="#440" role="pbl"><persName>國子監</persName><persName type="9" role="pbl">guo zi jian</persName></editor>
+                     <msItem n="1">
+                        <title>大學 一卷</title>
+                        <title source="9">da xue</title>
+                        <note source="290">(宋)朱熹章句</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150522/15:34:05|odh -->
+                        <!-- #0rx: dh582+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>中庸 一卷</title>
+                        <title source="9">zhong yong</title>
+                        <note source="290">(宋)朱熹章句</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150522/15:34:34|odh -->
+                        <!-- #0rx: dh582+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>論語 十卷</title>
+                        <title source="9">lun yu</title>
+                        <note source="290">(宋)朱熹集注</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150522/15:35:03|odh -->
+                        <!-- #0rx: dh582+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>孟子 七卷</title>
+                        <title source="9">meng zi</title>
+                        <note source="290">(宋)朱熹集注</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150522/15:35:19|odh -->
+                        <!-- #0rr: 20150522/15:37:38-380615/1|odh -->
+                        <!-- #0rx: dh582+4 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="5">5冊</measure><!--線裝5冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「閑情逸致」、「願學而未能」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1723" type="d">1723</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19941206/11:54:46|odh -->
+                        <!-- #0rr: 20190930/22:17:23-371049/159|omaster -->
+                        <!-- #0rx: dh582 -->
+                        <!-- #900: or -->
+                        <!-- #905: Two seals have been excised from the first page, probably those of the 國子監 that appear in Backhouse 5. The title on the 套 label is given as 《殿本四書》. The edition is of a piece with B.36, and both are part of the same edition, but not of the same copy. The edition is identical with that in the Bayerische Staatsbibliothek (4° L.sin. C 16), but theirs is a slightly later printing. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_200" source="200.78">經部 <term>四書類 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

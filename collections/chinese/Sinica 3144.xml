@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6315">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3144</idno>
+               </msIdentifier>
+               <head>書名: 紀載彙編 / (清)佚名輯<lb/>清刊本<lb/>線裝4冊 ; 25公分<lb/>封面有「都城琉璃廠排字本」字樣<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">紀載彙編</title>
+                     <title source="#200|9">ji zai hui bian</title>
+                     <note source="#290">(清)佚名輯</note>
+                     <note source="#409">清刊本</note>
+                     <note source="#600">封面有「都城琉璃廠排字本」字樣</note>
+                     <msItem n="1">
+                        <title>燕都日記 一卷</title>
+                        <title source="9">yan du ri ji</title>
+                        <note source="290">(明)馮夢龍原本</note>
+                        <note source="290">(明)莫釐山人增補</note>
+                        <author key="person_2786"><persName xml:lang="chi">(明)馮夢龍</persName><persName type="9">feng meng
+                              long</persName></author>
+                        <author key="person_2536"><persName xml:lang="chi">(明)莫釐山人</persName><persName type="9">mo li shan
+                              ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:07:13|odh -->
+                        <!-- #0rr: 20180110/14:54:54-378195/1|ojs -->
+                        <!-- #0rx: dh578+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>東塘日劄 一卷</title>
+                        <title source="9">dong tang ri zha</title>
+                        <note source="290">(清)朱子素撰</note>
+                        <author key="person_4389"><persName xml:lang="chi">(清)朱子素</persName><persName type="9">zhu zi
+                           su</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:11:42|odh -->
+                        <!-- #0rx: dh578+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>閩事紀畧 一卷</title>
+                        <title source="9">min shi ji lue</title>
+                        <note source="290">(明)華廷獻撰</note>
+                        <author key="person_2538"><persName xml:lang="chi">(明)華廷獻</persName><persName type="9">hua ting
+                              xian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:12:12|odh -->
+                        <!-- #0rr: 20150402/16:12:38-378197/1|odh -->
+                        <!-- #0rx: dh578+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>戴重事錄 一卷</title>
+                        <title source="9">dai zhong shi lu</title>
+                        <note source="290">(清)章學誠撰</note>
+                        <author key="person_5282"><persName xml:lang="chi">(清)章學誠</persName><persName type="9">zhang xue
+                              cheng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:13:40|odh -->
+                        <!-- #0rx: dh578+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>金壇獄案 一卷</title>
+                        <title source="9">jin tan yu an</title>
+                        <note source="290">(清)計六奇撰</note>
+                        <author key="person_5646"><persName xml:lang="chi">(清)計六奇</persName><persName type="9">ji liu
+                           qi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:14:55|odh -->
+                        <!-- #0rx: dh578+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>董心葵事記 一卷</title>
+                        <title source="9">dong xin kui shi ji</title>
+                        <note source="290">(明)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:16:48|odh -->
+                        <!-- #0rx: dh578+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>江上遺聞 一卷</title>
+                        <title source="9">jiang shang yi wen</title>
+                        <note source="290">(清)沈濤撰</note>
+                        <author key="person_4877"><persName xml:lang="chi">(清)沈濤</persName><persName type="9">shen
+                           tao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:17:26|odh -->
+                        <!-- #0rx: dh578+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>安龍紀事 一卷</title>
+                        <title source="9">an long ji shi</title>
+                        <note source="290">(明)江之春撰</note>
+                        <author key="person_2372"><persName xml:lang="chi">(明)江之春</persName><persName type="9">jiang zhi
+                              chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:18:42|odh -->
+                        <!-- #0rx: dh578+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>過墟志 二卷</title>
+                        <title source="9">guo xu zhi</title>
+                        <note source="290">(清)墅西逸叟撰</note>
+                        <author key="person_3765"><persName xml:lang="chi">(清)墅西逸叟</persName><persName type="9">shu xi yi
+                              sou</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:21:21|odh -->
+                        <!-- #0rx: dh578+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>辛丑紀聞 一卷</title>
+                        <title source="9">xin chou ji wen</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:22:30|odh -->
+                        <!-- #0rx: dh578+10 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="4">4冊</measure><!--線裝4冊 ; 25公分--><dimensions unit="cm"><height>25</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「王崇武藏書」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150402/16:01:18|odh -->
+                        <!-- #0rr: 20191002/12:55:31-368764/89|omaster -->
+                        <!-- #0rx: dh578 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_340" source="340.88">史部 <term>雜史類 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

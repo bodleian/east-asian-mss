@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9526">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17257</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3742/149-152</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17257">Sinica 3742</ref><lb/>書名: 弁山小隱吟稿 二卷 / (元)黃玠撰<lb/>董禮部集 六卷尺牘二卷 / (明)董嗣成撰<lb/>靜嘯齋遺文 四卷 / (明)董斯張撰</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">弁山小隱吟稿 二卷</title>
+                     <title source="#200|9">bian shan xiao yin yin gao</title>
+                     <note source="#290">(元)黃玠撰</note>
+                     <author source="#300" key="person_332"><persName xml:lang="chi">(元)黃玠</persName><persName type="9">huang
+                           jie</persName></author>
+                     <note source="#600">民國十二年[1923]﹑十七年[1928]﹑十三年[1924]刊</note>
+                  </msItem>
+                  <msItem n="2">
+                     <title xml:lang="chi" source="#201">董禮部集 六卷尺牘二卷</title>
+                     <title source="#201|9">dong li bu ji</title>
+                     <note source="#291">(明)董嗣成撰</note>
+                     <author source="#301" key="person_2556"><persName xml:lang="chi">(明)董嗣成</persName><persName type="9">dong si
+                           cheng</persName></author>
+                  </msItem>
+                  <msItem n="3">
+                     <title xml:lang="chi" source="#202">靜嘯齋遺文 四卷</title>
+                     <title source="#202|9">jing xiao zhai yi wen</title>
+                     <note source="#292">(明)董斯張撰</note>
+                     <author source="#302" key="person_2558"><persName xml:lang="chi">(明)董斯張</persName><persName type="9">dong si
+                           zhang</persName></author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="4">1函4冊</measure><!--1函4冊--></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+               </physDesc>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19930810/08:51:53|osn -->
+                        <!-- #0rr: 20130822/15:20:05|ojs -->
+                        <!-- #0rx: sn005+24 -->
+                        <!-- #100: 7-5010-0487-0 -->
+                        <!-- #900: o -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221508950107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5422">5422</term></item>
+                  <item><term key="5428.9">5428.9</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

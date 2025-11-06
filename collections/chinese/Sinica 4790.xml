@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17309">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4790</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">子彙</title>
+                     <title source="#200|9">zi hui</title>
+                     <note source="#290">(明)周子義等輯</note>
+                     <author source="#300" key="person_2079"><persName xml:lang="chi">(明)周子義</persName><persName type="9">zhou zi
+                           yi</persName></author>
+                     <note source="#409">民國二十六年[1937]上海商務印書館影印明萬曆中刊本</note>
+                     <editor source="#440" role="pbl"><persName>商務印書館</persName><persName type="9" role="pbl">shang wu yin shu guan</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_9953">Sinica 4790/1(1)|pV</ref><title>鬻子 一卷</title> / <persName>(周)鬻熊</persName></item><item><ref target="volume_9954">Sinica 4790/1(2)|pV</ref><title>晏子春秋內篇 二卷</title> / <persName>(周)晏嬰</persName></item><item><ref target="volume_9958">Sinica 4790/2|pV</ref><title>孔叢子 三卷</title> / <persName>(漢)孔鮒</persName></item><item><ref target="volume_9959">Sinica 4790/3|pV</ref><title>賈子新書 二卷</title> / <persName>(漢)賈誼</persName></item><item><ref target="volume_9960">Sinica 4790/4(1)|pV</ref><title>陸子 一卷</title> / <persName>(漢)陸賈</persName></item><item><ref target="volume_9961">Sinica 4790/4(2)|pV</ref><title>小荀子 一卷</title> / <persName>(漢)荀悅</persName></item><item><ref target="volume_9962">Sinica 4790/4(3)|pV</ref><title>鹿門子 一卷</title> / <persName>(唐)皮日休</persName></item><item><ref target="volume_9963">Sinica 4790/5|pV</ref><title>文子 二卷</title> / <persName>(周)辛銒</persName></item><item><ref target="volume_9964">Sinica 4790/6(1)|pV</ref><title>關尹子 一卷</title> / <persName>(周)尹喜</persName></item><item><ref target="volume_9965">Sinica 4790/6(2)|pV</ref><title>亢倉子 一卷</title> / <persName>(周)庚桑楚</persName></item><item><ref target="volume_9966">Sinica 4790/7|pV</ref><title>鶡冠子 一卷</title> / <persName>(宋)陸佃</persName></item><item><ref target="volume_9967">Sinica 4790/8(1)|pV</ref><title>黃石公素書 一卷</title> / <persName>(漢)黃石公</persName></item><item><ref target="volume_9968">Sinica 4790/8(2)|pV</ref><title>天隱子 一卷</title> / <persName>(唐)司馬承禎</persName></item><item><ref target="volume_9969">Sinica 4790/8(3)|pV</ref><title>玄真子外篇 一卷</title> / <persName>(唐)張志和</persName></item><item><ref target="volume_9970">Sinica 4790/8(4)|pV</ref><title>无能子 三卷</title> </item><item><ref target="volume_9971">Sinica 4790/8(5)|pV</ref><title>齊丘子 一卷</title> / <persName>(南唐)譚峭</persName></item><item><ref target="volume_9972">Sinica 4790/9(1)|pV</ref><title>鄧析子 一卷</title> / <persName>(周)鄧析</persName></item><item><ref target="volume_9973">Sinica 4790/9(2)|pV</ref><title>尹文子 一卷</title> / <persName>(周)尹文</persName></item><item><ref target="volume_9974">Sinica 4790/9(3)|pV</ref><title>公孫龍子 一卷</title> / <persName>(周)公孫龍</persName></item><item><ref target="volume_9975">Sinica 4790/9(4)|pV</ref><title>慎子 一卷</title> / <persName>(周)慎到</persName></item><item><ref target="volume_9976">Sinica 4790/9(5)|pV</ref><title>鬼谷子 一卷</title> </item><item><ref target="volume_9955">Sinica 4790/10|pV</ref><title>墨子 一卷</title> / <persName>(周)墨翟</persName></item><item><ref target="volume_9956">Sinica 4790/11|pV</ref><title>子華子 二卷</title> / <persName>(周)程本</persName></item><item><ref target="volume_9957">Sinica 4790/12|pV</ref><title>劉子 二卷</title> / <persName>(北齊)劉晝</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="12">12冊</measure><!--線裝12冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060807/10:53:11|odh -->
+                        <!-- #0rr: 20170706/12:37:55-147915/22|omaster -->
+                        <!-- #0rx: dh337 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221307450107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_500" source="500.84">子部 <term>彙編類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

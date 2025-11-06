@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6260">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 1223</idno>
+               </msIdentifier>
+               <head>書名: 信操三綱 / 培端氏著<lb/>上海 : 美華書館, 1866<lb/>線裝1冊 ; 16.5公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">信操三綱</title>
+                     <title source="#200|9">xin cao san gang</title>
+                     <note source="#290">培端氏著</note>
+                     <author source="#300" key="person_6958"><persName xml:lang="chi">McCartee, Divie Bethune</persName></author>
+                     <editor source="#420" role="pbl"><persName>美華書館</persName><persName type="9" role="pbl">mei hua shu guan</persName></editor>
+                     <msItem n="1">
+                        <title>信經註釋</title>
+                        <title source="9">xin jing zhu shi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000516/17:07:30|odh -->
+                        <!-- #0rr: 20131106/13:08:32|odh -->
+                        <!-- #0rx: ns0974+01 -->
+                        <!-- #470: 3頁 -->
+                        <!-- #900: p -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>主祈禱文句解</title>
+                        <title source="9">zhu qi dao wen ju jie</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00003509|ons -->
+                        <!-- #0rr: 20131106/13:09:29|odh -->
+                        <!-- #0rx: ns0974+02 -->
+                        <!-- #470: 2頁 -->
+                        <!-- #900: p -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>真神十誡釋義</title>
+                        <title source="9">zhen shen shi jie shi yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00003510|ons -->
+                        <!-- #0rr: 20131106/13:08:11|odh -->
+                        <!-- #0rx: ns0974+03 -->
+                        <!-- #470: 4頁 -->
+                        <!-- #900: p -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--線裝1冊 ; 16.5公分--><dimensions unit="cm"><height>16.5</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <typeDesc>
+                     <p>typography</p>
+                     <p>Beyerhaus</p>
+                     <p>Legrand</p>
+                     <p>Cole</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1866" type="d">1866</origDate>
+                     <origPlace>China</origPlace>
+                     <origPlace source="#410">上海(shang hai)</origPlace></origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19980521/11:28:24|odh -->
+                        <!-- #0rr: 20191203/10:48:04-72997/28|omaster -->
+                        <!-- #0rx: ns0974 -->
+                        <!-- #430: 1866 -->
+                        <!-- #900: p -->
+                        <!-- #905: The 3 components of this collection were also published separately, and within the collection, each has its own title-page with imprint. Cf. Sinica 1190, the first edition, and S.1866, a later reprint. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+                  <surrogates>
+                     <listBibl>
+                        <bibl subtype="full" type="digital-facsimile">
+                           <ref target="https://digital.bodleian.ox.ac.uk/objects/74569997-b8a9-4146-9b2f-56031a92464f">
+                              <title>Digital Bodleian</title>
+                           </ref>
+                           <note>(full digital facsimile)</note>
+                        </bibl>
+                     </listBibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_928" source="928.1866">西人著書 <term>耶穌教 論説</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17177">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2710</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">周氏醫學叢書</title>
+                     <title source="#200|9">zhou shi yi xue cong shu</title>
+                     <title type="variant" source="#230">周澂之校刻醫學叢書</title>
+                     <title source="#230|9" type="variant">zhou cheng zhi jiao ke yi xue cong
+                        shu</title>
+                     <note source="#290">(清)周學海編</note>
+                     <author source="#300" key="person_3683"><persName xml:lang="chi">(清)周學海</persName><persName type="9">zhou xue
+                           hai</persName></author>
+                     <note source="#409">清光緒宣統間池陽周氏刊1984年江蘇廣陵古籍刻印社重印本殘損版以影印配補</note>
+                     <editor source="#440" role="pbl"><persName>江蘇廣陵古籍刻印社</persName><persName type="9" role="pbl">jiang su guang ling gu ji ke yin
+                        she</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_8242">Sinica 2710/1-3</ref><title>本艸經 三卷</title> / <persName>(魏)吳普</persName></item><item><ref target="volume_8250">Sinica 2710/4-17</ref><title>本艸經疏 三十卷</title> / <persName>(明)繆希雍</persName></item><item><ref target="volume_8243">Sinica 2710/18-21</ref><title>脈經 十卷</title> / <persName>(晉)王叔和</persName></item><item><ref target="volume_8244">Sinica 2710/22-23</ref><title>脈訣刊誤集解 二卷附錄一卷</title> / <persName>(元)戴起宗</persName></item><item><ref target="volume_8245">Sinica 2710/24-25</ref><title>增輯難經本義 二卷</title> / <persName>(元)滑壽</persName></item><item><ref target="volume_8246">Sinica 2710/26-27(1)</ref><title>中藏經 三卷附方一卷</title> / <persName>(漢)華佗</persName></item><item><ref target="volume_8247">Sinica 2710/26-27(2)</ref><title>內照法 一卷</title> / <persName>(漢)華佗</persName></item><item><ref target="volume_8248">Sinica 2710/28-35</ref><title>巢氏諸病源候總論 五十卷</title> / <persName>(隋)巢元方</persName></item><item><ref target="volume_8249">Sinica 2710/36-39</ref><title>脈因證治 四卷</title> / <persName>(元)朱震亨</persName></item><item><ref target="volume_8251">Sinica 2710/40-41(1)</ref><title>小兒藥證直訣 三卷附方一卷</title> / <persName>(宋)錢乙</persName></item><item><ref target="volume_8253">Sinica 2710/41(2)</ref><title>閻氏小兒方論 一卷</title> / <persName>(宋)閻孝忠</persName></item><item><ref target="volume_8252">Sinica 2710/41(2)</ref><title>小兒斑疹備急方論 一卷</title> / <persName>(宋)董汲</persName></item><item><ref target="volume_8254">Sinica 2710/42-49</ref><title>脈學四種</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8255">Sinica 2710/50-58</ref><title>內經評文素問 二十四卷遺篇一卷靈樞十二卷</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8256">Sinica 2710/59-62</ref><title>讀醫隨筆 六卷</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8257">Sinica 2710/63-68</ref><title>周澂之評注醫書</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8258">Sinica 2710/69-70</ref><title>評註史載之方 二卷</title> / <persName>(宋)史堪</persName></item><item><ref target="volume_8259">Sinica 2710/71-72</ref><title>愼柔五書 五卷</title> / <persName>(明釋)住想</persName></item><item><ref target="volume_8260">Sinica 2710/73(1)</ref><title>韓氏醫通 二卷</title> / <persName>(明)韓𢘅</persName></item><item><ref target="volume_8261">Sinica 2710/73(2)</ref><title>傷寒補例 二卷</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8262">Sinica 2710/74-75</ref><title>形色外診簡摩 二卷</title> / <persName>(清)周學海</persName></item><item><ref target="volume_8263">Sinica 2710/76</ref><title>重訂診家直訣 二卷</title> / <persName>(清)周學海</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="76">76冊</measure><!--線裝76冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1891" notAfter="1910" type="g">1891
+                        - 1910</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140916/13:54:59|odh -->
+                        <!-- #0rr: 20190208/18:16:24-361572/55|omaster -->
+                        <!-- #0rx: dh802 -->
+                        <!-- #900: oa -->
+                        <!-- #905: Contents: 中國叢書綜錄, 1, 711-712. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221488460107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_550" source="550.89">子部 <term>醫家類 醫家</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

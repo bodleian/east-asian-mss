@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6231">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Backhouse</collection>
+                  <idno type="shelfmark">Backhouse 334</idno>
+               </msIdentifier>
+               <head>書名: 資治通鑑綱目全書 / (明)陳仁錫評<lb/>明末刊本<lb/>線裝123冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">資治通鑑綱目全書</title>
+                     <title source="#200|9">zi zhi tong jian gang mu quan shu</title>
+                     <note source="#290">(明)陳仁錫評</note>
+                     <author source="#300" key="person_2701"><persName xml:lang="chi">(明)陳仁錫</persName><persName type="9">chen ren
+                           xi</persName></author>
+                     <note source="#409">明末刊本</note>
+                     <msItem n="1">
+                        <title>資治通鑑綱目 五十九卷</title>
+                        <title source="9">zi zhi tong jian gang mu</title>
+                        <note source="290">(宋)朱熹撰</note>
+                        <note source="290">(宋)尹起莘發明</note>
+                        <note source="290">(元)劉友益書法</note>
+                        <note source="290">(元)汪克寬考異</note>
+                        <note source="290">(元)徐文昭考證</note>
+                        <note source="290">(元)王幼學集覽</note>
+                        <note source="290">(明)陳濟正誤</note>
+                        <note source="290">(明)馮智舒質實</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <author key="person_1126"><persName xml:lang="chi">(宋)尹起莘</persName><persName type="9">yin qi
+                           xin</persName></author>
+                        <author key="person_63"><persName xml:lang="chi">(元)劉友益</persName><persName type="9">liu you
+                           yi</persName></author>
+                        <author key="person_187"><persName xml:lang="chi">(元)汪克寬</persName><persName type="9">wang ke
+                              kuan</persName></author>
+                        <author key="person_125"><persName xml:lang="chi">(元)徐文昭</persName><persName type="9">xu wen
+                           zhao</persName></author>
+                        <author key="person_212"><persName xml:lang="chi">(元)王幼學</persName><persName type="9">wang you
+                              xue</persName></author>
+                        <author key="person_2719"><persName xml:lang="chi">(明)陳濟</persName><persName type="9">chen
+                           ji</persName></author>
+                        <author key="person_2791"><persName xml:lang="chi">(明)馮智舒</persName><persName type="9">feng zhi
+                              shu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030305/13:24:29|odh -->
+                        <!-- #0rr: 20130311/15:58:24|odh -->
+                        <!-- #0rx: dh252+1 -->
+                        <!-- #600: 缺卷二十一至二十九 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>資治通鑑綱目前編 二十五卷</title>
+                        <title source="9">zi zhi tong jian gang mu qian bian</title>
+                        <note source="290">(明)南軒撰</note>
+                        <author key="person_2045"><persName xml:lang="chi">(明)南軒</persName><persName type="9">nan
+                           xuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030305/13:26:00|odh -->
+                        <!-- #0rx: dh252+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>續資治通鑑綱目 二十七卷</title>
+                        <title source="9">xu zi zhi tong jian gang mu</title>
+                        <note source="290">(明)商輅等奉敕撰</note>
+                        <note source="290">(明)周禮發明</note>
+                        <note source="290">(明)張時泰廣義</note>
+                        <author key="person_2107"><persName xml:lang="chi">(明)商輅</persName><persName type="9">shang
+                           lu</persName></author>
+                        <author key="person_2096"><persName xml:lang="chi">(明)周禮</persName><persName type="9">zhou
+                           li</persName></author>
+                        <author key="person_2184"><persName xml:lang="chi">(明)張時泰</persName><persName type="9">zhang shi
+                              tai</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030305/13:27:31|odh -->
+                        <!-- #0rr: 20030305/13:28:20|odh -->
+                        <!-- #0rx: dh252+3 -->
+                        <!-- #900: o -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="123">123冊</measure><!--線裝123冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1640" type="d">1640</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20030305/13:22:22|odh -->
+                        <!-- #0rr: 20130313/16:15:15|odh -->
+                        <!-- #0rx: dh252 -->
+                        <!-- #900: or -->
+                        <!-- #905: General title has been supplied. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221457650107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_310" source="310.84">史部 <term>編年類 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

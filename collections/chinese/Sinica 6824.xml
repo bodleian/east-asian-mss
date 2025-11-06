@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6433">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6824</idno>
+               </msIdentifier>
+               <head>書名: 御批資治通鑑綱目全書 / (清)聖祖撰 ; (清)宋犖等奉敕編<lb/>清光緒丁亥[1887]上海同文書局石印本<lb/>線裝5函24冊 ;
+                  21公分<lb/>封面題名《御批通鑑綱目》<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">御批資治通鑑綱目全書</title>
+                     <title source="#200|9">yu zhi zi zhi tong jian gang mu quan shu</title>
+                     <note source="#290">(清)聖祖撰</note>
+                     <note source="#290">(清)宋犖等奉敕編</note>
+                     <author source="#300" key="person_5350"><persName xml:lang="chi">(清)聖祖</persName><persName type="9">sheng
+                           zu</persName></author>
+                     <author source="#300"><persName xml:lang="chi">(清)宋犖</persName><persName type="9">song
+                           luo</persName></author>
+                     <note source="#409">清光緒丁亥[1887]上海同文書局石印本</note>
+                     <editor source="#440" role="pbl"><persName>同文書局</persName><persName type="9" role="pbl">tong wen shu ju</persName></editor>
+                     <note source="#600">封面題名《御批通鑑綱目》</note>
+                     <msItem n="1">
+                        <title>御批資治通鑑綱目前編 十八卷舉要三卷</title>
+                        <title source="9">yu pi zi zhi tong jian gang mu qian bian</title>
+                        <note source="290">(宋)金履祥撰</note>
+                        <author key="person_1718"><persName xml:lang="chi">(宋)金履祥</persName><persName type="9">jin lu
+                              xiang</persName></author>
+                        <msItem n="2">
+                           <title>附 御批資治通鑑綱目前編外紀 一卷</title>
+                           <title type="9">yu pi zi zhi tong jian gang mu qian bian wai ji</title>
+                           <note source="#291">(明)陳桱撰</note>
+                           <author key="person_2713"><persName xml:lang="chi">(明)陳桱</persName><persName type="9">chen
+                              jing</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191118/14:01:47|odh -->
+                        <!-- #0rx: dh817+1 -->
+
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>御批資治通鑑綱目 五十九卷</title>
+                        <title source="9">yu pi zi zhi tong jian gang mu</title>
+                        <title type="variant">資治通鑑綱目</title>
+                        <title source="9" type="variant">zi zhi tong jian gang mu</title>
+                        <note source="290">(宋)朱熹撰</note>
+                        <note source="290">(宋)尹起莘發明</note>
+                        <note source="290">(元)劉友益書法</note>
+                        <note source="290">(元)汪克寬考異</note>
+                        <note source="290">(元)徐文昭考證</note>
+                        <note source="290">(元)王幼學集覽</note>
+                        <note source="290">(明)陳濟正誤</note>
+                        <note source="290">(明)馮智舒質實</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <author key="person_1126"><persName xml:lang="chi">(宋)尹起莘</persName><persName type="9">yin qi
+                           xin</persName></author>
+                        <author key="person_63"><persName xml:lang="chi">(元)劉友益</persName><persName type="9">liu you
+                           yi</persName></author>
+                        <author key="person_187"><persName xml:lang="chi">(元)汪克寬</persName><persName type="9">wang ke
+                              kuan</persName></author>
+                        <author key="person_125"><persName xml:lang="chi">(元)徐文昭</persName><persName type="9">xu wen
+                           zhao</persName></author>
+                        <author key="person_212"><persName xml:lang="chi">(元)王幼學</persName><persName type="9">wang you
+                              xue</persName></author>
+                        <author key="person_2719"><persName xml:lang="chi">(明)陳濟</persName><persName type="9">chen
+                           ji</persName></author>
+                        <author key="person_2791"><persName xml:lang="chi">(明)馮智舒</persName><persName type="9">feng zhi
+                              shu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191118/14:02:53|odh -->
+                        <!-- #0rr: 20191118/14:03:09-456930/1|odh -->
+                        <!-- #0rx: dh817+2 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>御批續資治通鑑綱目 二十七卷</title>
+                        <title source="9">yu pi xu zi zhi tong jian gang mu</title>
+                        <note source="290">(明)商輅等奉敕撰</note>
+                        <note source="290">(明)周禮發明</note>
+                        <note source="290">(明)張時泰廣義</note>
+                        <author key="person_2107"><persName xml:lang="chi">(明)商輅</persName><persName type="9">shang
+                           lu</persName></author>
+                        <author key="person_2096"><persName xml:lang="chi">(明)周禮</persName><persName type="9">zhou
+                           li</persName></author>
+                        <author key="person_2184"><persName xml:lang="chi">(明)張時泰</persName><persName type="9">zhang shi
+                              tai</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191118/14:04:33|odh -->
+                        <!-- #0rx: dh817+3 -->
+                        <!-- #900: o -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="24">5函 24冊</measure><!--線裝5函24冊 ; 21公分--><dimensions unit="cm"><height>21</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1887" type="d">1887</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191118/13:58:53|odh -->
+                        <!-- #0rr: 20191203/10:48:04-456927/101|omaster -->
+                        <!-- #0rx: dh817 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221309280107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

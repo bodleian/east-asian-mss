@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_16357">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17518</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6738/8(2)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17518">Sinica 6738</ref><lb/>書名: 金華唐氏遺書 一卷 / (宋)唐仲友撰</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">金華唐氏遺書 一卷</title>
+                     <title source="#200|9">jin hua tang shi yi shu</title>
+                     <note source="#290">(宋)唐仲友撰</note>
+                     <author source="#300" key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                           you</persName></author>
+                     <msItem n="1">
+                        <title>詩解鈔 一卷</title>
+                        <title source="9">shi jie chao</title>
+                        <author key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                              you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000030|odh -->
+                        <!-- #0rx: dh791+29+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>九經發題 一卷</title>
+                        <title source="9">jiu jing fa ti</title>
+                        <author key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                              you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000031|odh -->
+                        <!-- #0rx: dh791+29+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>魯軍制九問 一卷</title>
+                        <title source="9">lu jun zhi jiu wen</title>
+                        <author key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                              you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000032|odh -->
+                        <!-- #0rx: dh791+29+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>愚書 一卷</title>
+                        <title source="9">yu shu</title>
+                        <author key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                              you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000033|odh -->
+                        <!-- #0rx: dh791+29+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>悅齋文鈔 十卷</title>
+                        <title source="9">yue zhai wen chao</title>
+                        <author key="person_1074"><persName xml:lang="chi">(宋)唐仲友</persName><persName type="9">tang zhong
+                              you</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000034|odh -->
+                        <!-- #0rx: dh791+29+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180926/00000029|odh -->
+                        <!-- #0rx: dh791+29 -->
+                        <!-- #0rz: 集部 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221341690107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

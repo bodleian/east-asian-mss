@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_15572">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17479</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6691/8(1)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17479">Sinica 6691</ref><lb/>書名: 性理 / (清)李光地輯</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">性理</title>
+                     <title source="#200|9">xing li</title>
+                     <note source="#290">(清)李光地輯</note>
+                     <author source="#300" key="person_4458"><persName xml:lang="chi">(清)李光地</persName><persName type="9">li guang
+                           di</persName></author>
+                     <msItem n="1">
+                        <title>論定性書 一卷</title>
+                        <title source="9">lun ding xing shu</title>
+                        <note source="290">(宋)程顥撰</note>
+                        <author key="person_1492"><persName xml:lang="chi">(宋)程顥</persName><persName type="9">cheng
+                           hao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180629/00000046|odh -->
+                        <!-- #0rr: 20200211/14:43:24-441113/1|osn -->
+                        <!-- #0rx: dh729+26+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>太極圖解 一卷</title>
+                        <title source="9">tai ji tu jie</title>
+                        <note source="290">(宋)周敦頤撰</note>
+                        <author key="person_1064"><persName xml:lang="chi">(宋)周敦頤</persName><persName type="9">zhou dun
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180629/00000047|odh -->
+                        <!-- #0rx: dh729+26+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>顏子所好何學論 一卷</title>
+                        <title source="9">yan zi suo hao he xue lun</title>
+                        <note source="290">(宋)程顥撰</note>
+                        <author key="person_1492"><persName xml:lang="chi">(宋)程顥</persName><persName type="9">cheng
+                           hao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180629/00000048|odh -->
+                        <!-- #0rx: dh729+26+3 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180629/00000045|odh -->
+                        <!-- #0rr: 20180629/22:18:29-441112/1|odh -->
+                        <!-- #0rx: dh729+26 -->
+                        <!-- #0rz: 安溪先生著 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221440400107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

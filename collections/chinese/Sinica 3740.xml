@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6332">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3740</idno>
+               </msIdentifier>
+               <head>書名: 琴學叢書 / (民國)楊宗稷撰<lb/>民國楊氏刊1993年北京中國書店重印本<lb/>線裝14冊 ; 29公分<lb/>ISBN
+                  7-80568-552-5<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">琴學叢書</title>
+                     <title source="#200|9">qin xue cong shu</title>
+                     <note source="#290">(民國)楊宗稷撰</note>
+                     <author source="#300" key="person_3142"><persName xml:lang="chi">(民國)楊宗稷</persName><persName type="9">yang zong
+                           ji</persName></author>
+                     <note source="#409">民國楊氏刊1993年北京中國書店重印本</note>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <editor source="#440" role="pbl"><persName>楊宗稷</persName><persName type="9" role="pbl">yang zong ji</persName></editor>
+                     <msItem n="1">
+                        <title>琴粹 四卷</title>
+                        <title source="9">qin cui</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005012|ons -->
+                        <!-- #0rr: 19991231/20:24:20|odh -->
+                        <!-- #0rx: ns0105+1 -->
+                        <!-- #600: 民國三年[1914]刊 -->
+                        <msItem n="1">
+                           <title>琴操 二卷</title>
+                           <title source="9">qin cao</title>
+                           <author key="person_6588"><persName xml:lang="chi">(漢)蔡邕</persName><persName type="9">cai
+                              yong</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005013|ons -->
+                           <!-- #000: ns0105+1+1 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>古琴考 一卷</title>
+                           <title source="9">gu qin kao</title>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005015|ons -->
+                           <!-- #000: ns0105+1+3 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>碣石調幽蘭 一卷</title>
+                           <title source="9">jie shi diao you lan</title>
+                           <author key="person_6671"><persName xml:lang="chi">(陳)丘公明</persName><persName type="9">qiu gong
+                                 ming</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005014|ons -->
+                           <!-- #000: ns0105+1+2 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="2">
+                        <title>琴話 四卷</title>
+                        <title source="9">qin hua</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005016|ons -->
+                        <!-- #0rx: ns0105+2 -->
+                        <!-- #600: 民國二年[1913]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>琴譜 三卷</title>
+                        <title source="9">qin pu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005017|ons -->
+                        <!-- #0rr: 19991231/20:24:47|odh -->
+                        <!-- #0rx: ns0105+3 -->
+                        <!-- #600: 民國三年[1914]刊 -->
+                        <msItem n="1">
+                           <title>幽蘭減字譜 一卷</title>
+                           <title source="9">you lan jian zi pu</title>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005018|ons -->
+                           <!-- #000: ns0105+3+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>幽蘭雙行譜 一卷</title>
+                           <title source="9">you lan shuang xing pu</title>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005019|ons -->
+                           <!-- #000: ns0105+3+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>流水簡明譜 一卷</title>
+                           <title source="9">liu shui jian ming pu</title>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20000101/00005020|ons -->
+                           <!-- #000: ns0105+3+3 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="4">
+                        <title>琴學隨筆 二卷</title>
+                        <title source="9">qin xue sui bi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005021|ons -->
+                        <!-- #0rx: ns0105+4 -->
+                        <!-- #600: 民國八年[1919]刊 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>琴餘漫錄 二卷</title>
+                        <title source="9">qin yu man lu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005022|ons -->
+                        <!-- #0rx: ns0105+5 -->
+                        <!-- #600: 民國八年[1919]刊 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>琴鏡 九卷首一卷</title>
+                        <title source="9">qin jing</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00005023|ons -->
+                        <!-- #0rx: ns0105+6 -->
+                        <!-- #600: 民國七年[1918]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="14">14冊</measure><!--線裝14冊 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1913" type="d">1913</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19931019/13:12:49|odh -->
+                        <!-- #0rr: 20150729/12:41:13-18155/1|omaster -->
+                        <!-- #0rx: ns0105 -->
+                        <!-- #100: 7-80568-552-5 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221566470107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_588" source="588.90">子部 <term>藝術類 琴譜</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="6771">6771</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6431">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6802</idno>
+               </msIdentifier>
+               <head>書名: 元典章校補<lb/>1957年北京古籍出版社重印中國書店發行本<lb/>線裝25冊 ; 29公分<lb/>書名據書簽題<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">元典章校補</title>
+                     <title source="#200|9">yuan dian zhang jiao bu</title>
+                     <note source="#409">1957年北京古籍出版社重印中國書店發行本</note>
+                     <editor source="#440" role="pbl"><persName>古籍出版社</persName><persName type="9" role="pbl">gu ji chu ban she</persName></editor>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <note source="#600">書名據書簽題</note>
+                     <msItem n="1">
+                        <title>大元聖政國朝典章 六十卷</title>
+                        <title source="9">da yuan sheng zheng guo chao dian zhang</title>
+                        <title>附 大元聖政典章新集至治條例 不分卷</title>
+                        <title source="9">da yuan sheng zheng dian zhang xin ji zhi zhi tiao
+                           li</title>
+                        <note source="290">(元)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191104/13:19:57|odh -->
+                        <!-- #0rr: 20200120/12:08:38-456624/1|odh -->
+                        <!-- #0rx: dh814+1 -->
+                        <!-- #409: 清光緒戊申[1908]修訂法律館校刊 -->
+                        <!-- #440: 修訂法律館|d1908|9xiu ding fa lu guan -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure n="25" type="volume">25冊</measure><!--線裝25冊 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1957" type="d">1957</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20191104/13:12:19|odh -->
+                        <!-- #0rr: 20200210/15:19:17-456623/1|osn -->
+                        <!-- #0rx: dh814 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221280320107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6802/21-24</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>沈刻元典章校補 札記六卷闕文三卷表格一卷</title>
+                        <title source="9">shen ke yuan dian zhang jiao bu</title>
+                        <author key="person_7192"><persName xml:lang="chi">陳垣</persName><persName type="9">chen
+                           yuan</persName></author>
+                        <note source="409">民國二十年[1931]國立北京大學研究所刊</note>
+                        <editor><persName/><persName type="9">guo li bei jing da xue yan jiu
+                              suo</persName></editor>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20191104/13:29:14|odh -->
+                           <!-- #0rr: 20191104/13:29:56-456625/1|odh -->
+                           <!-- #0rx: dh814+2 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 6802/25</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>元典章校補釋例 六卷</title>
+                        <title source="9">yuan dian zhang jiao bu shi li</title>
+                        <author key="person_7192"><persName xml:lang="chi">陳垣</persName><persName type="9">chen
+                           yuan</persName></author>
+                        <note source="409">民國廿三年[1934]北平國立中央研究院歷史語言研究所刊</note>
+                        <editor><persName/><persName type="9">guo li zhong yang yan jiu yuan li shi
+                              yu yan yan jiu suo</persName></editor>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20191104/13:31:33|odh -->
+                           <!-- #0rx: dh814+3 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_438" source="438.83">史部 <term>政書類 邦計</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

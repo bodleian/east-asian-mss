@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6422">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6705</idno>
+               </msIdentifier>
+               <head>書名: 麗廔叢書 / (民國)葉德輝輯<lb/>清光緒中長沙葉氏刊本<lb/>洋裝1冊(原線裝7冊) ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">麗廔叢書</title>
+                     <title source="#200|9">li lou cong shu</title>
+                     <note source="#290">(民國)葉德輝輯</note>
+                     <author source="#300" key="person_3174"><persName xml:lang="chi">(民國)葉德輝</persName><persName type="9">ye de
+                           hui</persName></author>
+                     <note source="#409">清光緒中長沙葉氏刊本</note>
+                     <msItem n="1">
+                        <title>南嶽總勝集 三卷</title>
+                        <title source="9">nan yue zong sheng ji</title>
+                        <note source="290">(宋)陳田夫撰</note>
+                        <author key="person_1762"><persName xml:lang="chi">(宋)陳田夫</persName><persName type="9">chen tian
+                              fu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000065|odh -->
+                        <!-- #0rx: dh742+1 -->
+                        <!-- #600: 光緒丙午[1906]影刊宋本 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>古今書刻 二卷</title>
+                        <title source="9">gu jin shu ke</title>
+                        <note source="290">(明)周弘祖撰</note>
+                        <author key="person_2086"><persName xml:lang="chi">(明)周弘祖</persName><persName type="9">zhou hong
+                              zu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000066|odh -->
+                        <!-- #0rx: dh742+2 -->
+                        <!-- #600: 光緒丙午[1906]影刊明本 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>古局象棊圖 一卷</title>
+                        <title source="9">gu ju xiang qi tu</title>
+                        <note source="290">(宋)司馬光撰</note>
+                        <author><persName xml:lang="chi">(宋)司馬光</persName><persName type="9">si ma
+                           guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000067|odh -->
+                        <!-- #0rx: dh742+3 -->
+                        <!-- #600: 光緒丙午[1906]影刊明正德本 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>投壼新格 一卷</title>
+                        <title source="9">tao hu xin ge</title>
+                        <note source="290">(宋)司馬光撰</note>
+                        <author><persName xml:lang="chi">(宋)司馬光</persName><persName type="9">si ma
+                           guang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000068|odh -->
+                        <!-- #0rx: dh742+4 -->
+                        <!-- #600: 光緒丙午[1906]影刊《事文類聚》本 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>譜雙 五卷附錄一卷</title>
+                        <title source="9">pu shuang</title>
+                        <note source="290">(宋)洪遵撰</note>
+                        <author><persName xml:lang="chi">(宋)洪遵</persName><persName type="9">hong
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000069|odh -->
+                        <!-- #0rx: dh742+5 -->
+                        <!-- #600: 光緒丙午[1906]影刊明正德本 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>打馬圖 一卷</title>
+                        <title source="9">da ma tu</title>
+                        <note source="290">(宋)李清照撰</note>
+                        <author key="person_1287"><persName xml:lang="chi">(宋)李清照</persName><persName type="9">li qing
+                              zhao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000070|odh -->
+                        <!-- #0rx: dh742+6 -->
+                        <!-- #600: 光緒丙午[1906]影刊明正德本 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>除紅譜 一卷</title>
+                        <title source="9">chu hong pu</title>
+                        <note source="290">題(宋)朱河撰</note>
+                        <author key="person_1248"><persName xml:lang="chi">(宋)朱河</persName><persName type="9">zhu
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000071|odh -->
+                        <!-- #0rx: dh742+7 -->
+                        <!-- #600: 光緒丙午[1906]影刊明萬曆本 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>唐女郎魚玄機詩 一卷</title>
+                        <title source="9">tang nu lang yu xuan ji shi</title>
+                        <title type="variant">魚玄機詩</title>
+                        <title source="9" type="variant">yu xuan ji shi</title>
+                        <note source="290">(唐)魚玄機撰</note>
+                        <author key="person_888"><persName xml:lang="chi">(唐)魚玄機</persName><persName type="9">yu xuan
+                           ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180726/00000072|odh -->
+                        <!-- #0rx: dh742+8 -->
+                        <!-- #600: 光緒丁未[1907]影刊南宋書棚本 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--洋裝1冊(原線裝7冊) ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1906" notAfter="1907" type="g">1906
+                        - 1907</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180724/12:17:55|odh -->
+                        <!-- #0rr: 20180729/11:30:32-441959/29|omaster -->
+                        <!-- #0rx: dh742 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221327960107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.89">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9100">9100</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

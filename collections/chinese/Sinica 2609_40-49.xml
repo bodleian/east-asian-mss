@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_7963">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17158</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2609/40-49</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17158">Sinica 2609</ref><lb/>書名: 補注黃帝內經素問 二十四卷 / (唐)啟玄子注; (宋)林億等校正; (宋)孫兆重改誤<lb/>黃帝內經素問遺篇 一卷 / (宋)劉溫舒原本<lb/>黃帝內經靈樞 十二卷 / 佚名撰</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">補注黃帝內經素問 二十四卷</title>
+                     <title source="#200|9">bu zhu huang di nei jing su wen</title>
+                     <title type="variant" source="#230">黃帝內經素問</title>
+                     <title source="#230|9" type="variant">huang di nei jing su wen</title>
+                     <note source="#290">(唐)啟玄子注</note>
+                     <note source="#290">(宋)林億等校正</note>
+                     <note source="#290">(宋)孫兆重改誤</note>
+                     <author source="#300"><persName xml:lang="chi">(宋)林億</persName><persName type="9">lin
+                           yi</persName></author>
+                     <author source="#300" key="person_1100"><persName xml:lang="chi">(宋)孫兆重</persName><persName type="9">sun zhao
+                           chong</persName></author>
+                     <author source="#300" key="person_754"><persName xml:lang="chi">(唐)王冰</persName><persName type="9">wang
+                           bing</persName></author>
+                     <note source="#600">光緒三年[1877]刊</note>
+                  </msItem>
+                  <msItem n="2">
+                     <title xml:lang="chi" source="#201">黃帝內經素問遺篇 一卷</title>
+                     <title source="#201|9">huang di nei jing su wen yi pian</title>
+                     <note source="#291">(宋)劉溫舒原本</note>
+                     <author source="#301" key="person_984"><persName xml:lang="chi">(宋)劉溫舒</persName><persName type="9">liu wen
+                           shu</persName></author>
+                  </msItem>
+                  <msItem n="3">
+                     <title xml:lang="chi" source="#202">黃帝內經靈樞 十二卷</title>
+                     <title source="#202|9">huang di nei jing ling shu</title>
+                     <note source="#292">佚名撰</note>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140718/15:56:07|odh -->
+                        <!-- #0rx: dh534+11 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221284600107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

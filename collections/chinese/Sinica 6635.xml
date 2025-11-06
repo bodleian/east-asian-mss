@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6415">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6635</idno>
+               </msIdentifier>
+               <head>書名: 燕禧堂五種 / (清)任大椿撰<lb/>清乾隆中刊本<lb/>洋撰1冊(原線裝6冊) ； 25公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">燕禧堂五種</title>
+                     <title source="#200|9">yan xi tang wu zhong</title>
+                     <note source="#290">(清)任大椿撰</note>
+                     <author source="#300" key="person_3286"><persName xml:lang="chi">(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                     <note source="#409">清乾隆中刊本</note>
+                     <msItem n="1">
+                        <title>字林考逸 八卷</title>
+                        <title source="9">zi lin kao yi</title>
+                        <author key="person_3286"><persName xml:lang="chi">(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/21:02:22|odh -->
+                        <!-- #0rx: dh683+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>列子釋文 二卷</title>
+                        <title source="9">lie zi shi wen</title>
+                        <note source="290">(唐)殷敬順撰</note>
+                        <note source="290">(宋)陳景元補遺</note>
+                        <author key="person_742"><persName xml:lang="chi">(唐)殷敬順</persName><persName type="9">yin jing
+                              shun</persName></author>
+                        <author key="person_1756"><persName xml:lang="chi">(宋)陳景元</persName><persName type="9">chen jing
+                              yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/21:07:13|odh -->
+                        <!-- #0rx: dh683+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>列子釋文考異 一卷</title>
+                        <title source="9">lie zi shi wen kao yi</title>
+                        <author key="person_3286"><persName xml:lang="chi">(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/21:08:03|odh -->
+                        <!-- #0rr: 20180518/21:08:20-436786/1|odh -->
+                        <!-- #0rx: dh683+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>深衣釋例 三卷</title>
+                        <title source="9">shen yi shi li</title>
+                        <author key="person_3286"><persName xml:lang="chi">(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/21:04:01|odh -->
+                        <!-- #0rr: 20180518/21:05:33-436784/1|odh -->
+                        <!-- #0rx: dh683+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>釋繒 一卷</title>
+                        <title source="9">shi zeng</title>
+                        <author key="person_3286"><persName xml:lang="chi">(清)任大椿</persName><persName type="9">ren da
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/21:09:29|odh -->
+                        <!-- #0rx: dh683+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure> (原線裝6冊)<!--洋撰1冊(原線裝6冊) ； 25公分--><dimensions unit="cm"><height>25</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「[北京]經濟[專門]學校[藏書之印]」、「禱(?)氏書倉」、「墨澥樓珍藏書畫鈐印」等印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋撰</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1736" type="d">1736</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180518/12:33:28|odh -->
+                        <!-- #0rr: 20191009/21:04:53-436760/20|omaster -->
+                        <!-- #0rx: dh683 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_880" source="880.87">叢書 <term>獨撰類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9117">9117</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1045 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9892">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17295</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4663/2(2)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17295">Sinica 4663</ref><lb/>書名: 荊湖圖經三十六種 / (清)陳運溶輯</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">荊湖圖經三十六種</title>
+                     <title source="#200|9">jing hu tu jing san shi liu zhong</title>
+                     <note source="#290">(清)陳運溶輯</note>
+                     <author source="#300" key="person_6111"><persName xml:lang="chi">(清)陳運溶</persName><persName type="9">chen yun
+                           rong</persName></author>
+                     <note source="#600">光緒庚子[1900]刊</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051220/17:33:34|odh -->
+                        <!-- #0rr: 20051220/17:58:57|odh -->
+                        <!-- #0rx: dh318+06 -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>長沙圖經 一卷</title>
+                        <title source="9">chang sha tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:34:21|odh -->
+                           <!-- #0rx: dh318+06+01 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>衡州圖經 一卷</title>
+                        <title source="9">heng zhou tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:34:58|odh -->
+                           <!-- #0rx: dh318+06+02 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>衡山圖經 一卷</title>
+                        <title source="9">heng shan tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:35:18|odh -->
+                           <!-- #0rx: dh318+06+03 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>道州圖經 一卷</title>
+                        <title source="9">dao zhou tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:35:51|odh -->
+                           <!-- #0rx: dh318+06+04 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>朗州圖經 一卷</title>
+                        <title source="9">lang zhou tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:36:18|odh -->
+                           <!-- #0rx: dh318+06+05 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>澧州圖經 一卷</title>
+                        <title source="9">li zhou tu jing</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:36:38|odh -->
+                           <!-- #0rx: dh318+06+06 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>湖南風土記 一卷</title>
+                        <title source="9">hu nan feng tu ji</title>
+                        <note source="290">(唐)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:36:55|odh -->
+                           <!-- #0rx: dh318+06+07 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>紹熙長沙志 一卷</title>
+                        <title source="9">shao xi chang sha zhi</title>
+                        <note source="290">(宋)褚孝錫撰</note>
+                        <author key="person_1610"><persName xml:lang="chi">(宋)褚孝錫</persName><persName type="9">chu xiao
+                           xi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:37:22|odh -->
+                           <!-- #0rx: dh318+06+08 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>祥符茶陵圖經 一卷</title>
+                        <title source="9">xiang fu cha ling tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:37:57|odh -->
+                           <!-- #0rx: dh318+06+09 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>乾道茶陵圖經 一卷</title>
+                        <title source="9">qian dao cha ling tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:38:26|odh -->
+                           <!-- #0rx: dh318+06+10 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>祥符衡州圖經 一卷</title>
+                        <title source="9">xiang fu heng zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:40:09|odh -->
+                           <!-- #0rx: dh318+06+11 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>衡陽志 一卷</title>
+                        <title source="9">heng yang zhi</title>
+                        <note source="290">(宋)宋剛中撰</note>
+                        <author key="person_1113"><persName xml:lang="chi">(宋)宋剛中</persName><persName type="9">song gang
+                              zhong</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:39:16|odh -->
+                           <!-- #0rx: dh318+06+12 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>永州圖經 一卷</title>
+                        <title source="9">yong zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:41:19|odh -->
+                           <!-- #0rx: dh318+06+13 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>零陵總記 一卷</title>
+                        <title source="9">ling ling zong ji</title>
+                        <note source="290">(宋)陶岳撰</note>
+                        <author key="person_1779"><persName xml:lang="chi">(宋)陶岳</persName><persName type="9">tao
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:41:55|odh -->
+                           <!-- #0rx: dh318+06+14 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>零陵志 一卷</title>
+                        <title source="9">ling ling zhi</title>
+                        <note source="290">(宋)張埏撰</note>
+                        <author key="person_1149"><persName xml:lang="chi">(宋)張埏</persName><persName type="9">zhang
+                           yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:42:17|odh -->
+                           <!-- #0rx: dh318+06+15 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>永州風土記 一卷</title>
+                        <title source="9">yong zhou feng tu ji</title>
+                        <note source="290">(宋)柳拱辰撰</note>
+                        <author key="person_1321"><persName xml:lang="chi">(宋)柳拱辰</persName><persName type="9">liu gong
+                              chen</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:42:40|odh -->
+                           <!-- #0rx: dh318+06+16 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春陵舊圖經 一卷</title>
+                        <title source="9">chun ling jiu tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:43:07|odh -->
+                           <!-- #0rx: dh318+06+17 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春陵志 一卷</title>
+                        <title source="9">chun ling zhi</title>
+                        <note source="290">(宋)章穎撰</note>
+                        <author key="person_1498"><persName xml:lang="chi">(宋)章穎</persName><persName type="9">zhang
+                           ying</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:43:26|odh -->
+                           <!-- #0rx: dh318+06+18 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>道州風俗記 一卷</title>
+                        <title source="9">dao zhou feng su ji</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:43:49|odh -->
+                           <!-- #0rx: dh318+06+19 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>邵州圖經 一卷</title>
+                        <title source="9">shao zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:44:33|odh -->
+                           <!-- #0rx: dh318+06+20 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>邵陽志 一卷</title>
+                        <title source="9">shao yang zhi</title>
+                        <note source="290">(宋)李韋之撰</note>
+                        <author key="person_1301"><persName xml:lang="chi">(宋)李韋之</persName><persName type="9">li wei
+                           zhi</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:44:57|odh -->
+                           <!-- #0rx: dh318+06+21 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>都梁志 一卷</title>
+                        <title source="9">du liang zhi</title>
+                        <note source="290">(宋)鄭昉撰</note>
+                        <author key="person_1710"><persName xml:lang="chi">(宋)鄭昉</persName><persName type="9">zheng
+                           fang</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:45:22|odh -->
+                           <!-- #0rx: dh318+06+22 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>武岡志 一卷</title>
+                        <title source="9">wu gang zhi</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:45:44|odh -->
+                           <!-- #0rx: dh318+06+23 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>郴州圖經 一卷</title>
+                        <title source="9">chen zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:47:08|odh -->
+                           <!-- #0rx: dh318+06+24 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>郴江志 一卷</title>
+                        <title source="9">chen jiang zhi</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:49:57|odh -->
+                           <!-- #0rx: dh318+06+25 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>桂陽圖經 一卷</title>
+                        <title source="9">gui yang tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:50:16|odh -->
+                           <!-- #0rx: dh318+06+26 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>桂陽志 一卷</title>
+                        <title source="9">gui yang zhi</title>
+                        <note source="290">(宋)鄭伸撰</note>
+                        <author key="person_1702"><persName xml:lang="chi">(宋)鄭伸</persName><persName type="9">zheng
+                           shen</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:50:39|odh -->
+                           <!-- #0rx: dh318+06+27 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>岳州圖經 一卷</title>
+                        <title source="9">yue zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:51:02|odh -->
+                           <!-- #0rx: dh318+06+28 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>岳陽甲志 一卷</title>
+                        <title source="9">yue yang jia zhi</title>
+                        <note source="290">(宋)馬子嚴撰</note>
+                        <author key="person_1799"><persName xml:lang="chi">(宋)馬子嚴</persName><persName type="9">ma zi
+                           yan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:51:26|odh -->
+                           <!-- #0rx: dh318+06+29 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>岳陽乙志 一卷</title>
+                        <title source="9">yue yang yi zhi</title>
+                        <note source="290">(宋)張聲道撰</note>
+                        <author key="person_1176"><persName xml:lang="chi">(宋)張聲道</persName><persName type="9">zhang sheng
+                              dao</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:51:50|odh -->
+                           <!-- #0rx: dh318+06+30 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>常德圖經 一卷</title>
+                        <title source="9">chang de tu jing</title>
+                        <note source="290">(宋)胡介撰</note>
+                        <author key="person_1513"><persName xml:lang="chi">(宋)胡介</persName><persName type="9">hu
+                           jie</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:52:09|odh -->
+                           <!-- #0rx: dh318+06+31 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>澧州續圖經 一卷</title>
+                        <title source="9">li zhou xu tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:52:45|odh -->
+                           <!-- #0rx: dh318+06+32 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>辰州圖經 一卷</title>
+                        <title source="9">chen zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:53:36|odh -->
+                           <!-- #0rx: dh318+06+33 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>辰州風土記 一卷</title>
+                        <title source="9">chen zhou feng tu ji</title>
+                        <note source="290">(宋)田渭撰</note>
+                        <author key="person_1464"><persName xml:lang="chi">(宋)田渭</persName><persName type="9">tian
+                           wei</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:54:00|odh -->
+                           <!-- #0rx: dh318+06+34 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>沅州圖經 一卷</title>
+                        <title source="9">yuan zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:54:20|odh -->
+                           <!-- #0rx: dh318+06+35 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/2(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>靖州圖經 一卷</title>
+                        <title source="9">jing zhou tu jing</title>
+                        <note source="290">(宋)佚名撰</note>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/17:54:50|odh -->
+                           <!-- #0rx: dh318+06+36 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

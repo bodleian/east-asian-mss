@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6448">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 852</idno>
+               </msIdentifier>
+               <head>書名: 務民義齋算學 / (清)徐有壬撰<lb/>清刊本<lb/>線裝1冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">務民義齋算學</title>
+                     <title source="#200|9">wu min yi zhai suan xue</title>
+                     <note source="#290">(清)徐有壬撰</note>
+                     <author source="#300" key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                     <note source="#409">清刊本</note>
+                     <msItem n="1">
+                        <title>測圜密率 三卷</title>
+                        <title source="9">ce yuan mi lu</title>
+                        <author key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:43:49|odh -->
+                        <!-- #0rx: dh508+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>橢圜正術 一卷</title>
+                        <title source="9">tuo yuan zheng shu</title>
+                        <author key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:44:20|odh -->
+                        <!-- #0rr: 20160901/09:51:21-123197/1|osn -->
+                        <!-- #0rx: dh508+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>弧三角拾遺 一卷</title>
+                        <title source="9">hu san jiao shi yi</title>
+                        <author key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:44:44|odh -->
+                        <!-- #0rx: dh508+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>用表推日食三差 一卷</title>
+                        <title source="9">yong biao tui ri shi san cha</title>
+                        <author key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:45:10|odh -->
+                        <!-- #0rx: dh508+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>朔食九服里差 三卷</title>
+                        <title source="9">shuo shi jiu fu li cha</title>
+                        <author key="person_4199"><persName xml:lang="chi">(清)徐有壬</persName><persName type="9">xu you
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:45:39|odh -->
+                        <!-- #0rr: 20160901/09:57:46-123199/1|osn -->
+                        <!-- #0rx: dh508+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--線裝1冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1644" type="d">1644</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140130/14:42:47|odh -->
+                        <!-- #0rr: 20140204/16:05:42|odh -->
+                        <!-- #0rx: dh508 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221390840107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_567" source="567.88">子部 <term>天文算法類 算書 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

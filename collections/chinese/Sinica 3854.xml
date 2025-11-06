@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6338">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3854</idno>
+               </msIdentifier>
+               <head>書名: 暖紅室彙刻臨川四夢 /
+                  (民國)劉世珩輯<lb/>民國八年[1919]貴池劉氏暖紅室刊1981年揚州江蘇廣陵古籍刻印社重印《彙刻傳劇》本<lb/>線裝20冊 : 圖 ;
+                  29公分<lb/>統一書號 10100.(古)23<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">暖紅室彙刻臨川四夢</title>
+                     <title source="#200|9">nuan hong shi hui ke lin chuan si meng</title>
+                     <note source="#290">(民國)劉世珩輯</note>
+                     <author source="#300" key="person_3073"><persName xml:lang="chi">(民國)劉世珩</persName><persName type="9">liu shi
+                           heng</persName></author>
+                     <note source="#409">民國八年[1919]貴池劉氏暖紅室刊1981年揚州江蘇廣陵古籍刻印社重印《彙刻傳劇》本</note>
+                     <editor source="#440" role="pbl"><persName>暖紅室</persName><persName type="9" role="pbl">nuan hong shi</persName></editor>
+                     <editor source="#440" role="pbl"><persName>江蘇廣陵古籍刻印社</persName><persName type="9" role="pbl">jiang su guang ling gu ji ke yin
+                        she</persName></editor>
+                     <editor source="#446" role="pbl"><persName>彙刻傳劇</persName><persName type="9" role="pbl">hui ke chuan ju</persName></editor>
+                     <msItem n="1">
+                        <msItem n="1">
+                           <title>玉茗堂還魂記 二卷圖一卷</title>
+                           <title source="9">yu ming tang huan hun ji</title>
+                           <title type="variant">還魂記</title>
+                           <title source="9" type="variant">huan hun ji</title>
+                           <note source="290">(明)湯顯祖撰</note>
+                           <author key="person_2403"><persName xml:lang="chi">(明)湯顯祖</persName><persName type="9">tang xian
+                                 zu</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>附 格正還魂記詞調 二卷</title>
+                           <title type="9">ge zheng huan hun ji ci diao</title>
+                           <note source="#291">(清)鈕少雅撰</note>
+                           <author key="person_5904"><persName xml:lang="chi">(清)鈕少雅</persName><persName type="9">niu shao
+                                 ya</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002723|ons -->
+                        <!-- #0rx: ns0746+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>玉茗堂南柯記 二卷</title>
+                        <title source="9">yu ming tang nan ke ji</title>
+                        <title type="variant">南柯記</title>
+                        <title source="9" type="variant">nan ke ji</title>
+                        <note source="290">(明)湯顯祖撰</note>
+                        <author key="person_2403"><persName xml:lang="chi">(明)湯顯祖</persName><persName type="9">tang xian
+                              zu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002724|ons -->
+                        <!-- #0rx: ns0746+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>玉茗堂紫釵記 二卷</title>
+                        <title source="9">yu ming tang zi chai ji</title>
+                        <title type="variant">紫釵記</title>
+                        <title source="9" type="variant">zi chai ji</title>
+                        <note source="290">(明)湯顯祖撰</note>
+                        <author key="person_2403"><persName xml:lang="chi">(明)湯顯祖</persName><persName type="9">tang xian
+                              zu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002725|ons -->
+                        <!-- #0rx: ns0746+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>玉茗堂邯鄲記 二卷</title>
+                        <title source="9">yu ming tang han dan ji</title>
+                        <title type="variant">邯鄲記</title>
+                        <title source="9" type="variant">han dan ji</title>
+                        <note source="290">(明)湯顯祖撰</note>
+                        <author key="person_2403"><persName xml:lang="chi">(明)湯顯祖</persName><persName type="9">tang xian
+                              zu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002726|ons -->
+                        <!-- #0rx: ns0746+04 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="20">20冊</measure><!--線裝20冊 : 圖 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc><p>圖</p></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1919" type="d">1919</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19970617/15:30:33|odh -->
+                        <!-- #0rr: 20190208/18:16:24-26044/7|omaster -->
+                        <!-- #0rx: ns0746 -->
+                        <!-- #0cm: i -->
+                        <!-- #130: 10100.(古)23 -->
+                        <!-- #900: o -->
+                        <!-- #905: The last 2 of the 4 contained works do not appear in any of the 彙刻傳劇 listings. Cut by Guangling... ? -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221277000107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_765" source="765.84">集部 <term>詞曲類 南北曲 分刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

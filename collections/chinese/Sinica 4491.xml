@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6351">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4491</idno>
+               </msIdentifier>
+               <head>書名: 三伯英台歌集. 戊集<lb/>民國五十年[1961]臺北排印三版本竹林書局發行<lb/>毛裝1冊 ; 16公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">三伯英台歌集. 戊集</title>
+                     <title source="#200|9">san bo ying tai ge ji. wu ji</title>
+                     <note source="#409">民國五十年[1961]臺北排印三版本竹林書局發行</note>
+                     <editor source="#440" role="pbl"><persName>竹林書局</persName><persName type="9" role="pbl">zhu lin shu ju</persName></editor>
+                     <msItem n="1">
+                        <title>馬俊娶七娘歌</title>
+                        <title source="9">ma jun qu qi niang ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:06:16|odh -->
+                        <!-- #0rx: dh592+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>三伯祝家娶親歌</title>
+                        <title source="9">san bo zhu jia qu qin ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:07:03|odh -->
+                        <!-- #0rx: dh592+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>三伯英台洞房夜吟歌</title>
+                        <title source="9">san bo ying tai dong fang ye yin ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:08:41|odh -->
+                        <!-- #0rx: dh592+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>士久得妻歌</title>
+                        <title source="9">shi jiu de qi ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:10:18|odh -->
+                        <!-- #0rx: dh592+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>三伯別妻歌</title>
+                        <title source="9">san bo bie qi ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:10:49|odh -->
+                        <!-- #0rx: dh592+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>三伯奪魁歌</title>
+                        <title source="9">san bo duo kui ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:12:41|odh -->
+                        <!-- #0rx: dh592+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>三伯掛帥平匈奴歌</title>
+                        <title source="9">san bo guo shuai ping xiong nu ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:13:37|odh -->
+                        <!-- #0rx: dh592+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>三伯平蠻萬敵刀斬黑里虎歌</title>
+                        <title source="9">san bo ping man wan di dao zhan hei li hu ge</title>
+                        <title type="variant">萬敵刀斬黑里虎歌</title>
+                        <title source="9" type="variant">wan di dao zhan hei li hu ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:16:18|odh -->
+                        <!-- #0rr: 20150817/14:16:58-385675/1|odh -->
+                        <!-- #0rx: dh592+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>匈奴王御駕親征歌</title>
+                        <title source="9">xiong nu wang yu jia qin zheng ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:20:11|odh -->
+                        <!-- #0rx: dh592+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>英々宮主選駙馬歌</title>
+                        <title source="9">ying ying gong zhu xuan fu ma ge</title>
+                        <title type="variant">英英宮主選駙馬歌</title>
+                        <title source="9" type="variant">ying ying gong zhu xuan fu ma ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:27:36|odh -->
+                        <!-- #0rx: dh592+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>三伯班師回朝歌</title>
+                        <title source="9">san bo ban shi hui chao ge</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:29:02|odh -->
+                        <!-- #0rx: dh592+11 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--毛裝1冊 ; 16公分--><dimensions unit="cm"><height>16</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">毛裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1961" type="d">1961</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150817/14:04:31|odh -->
+                        <!-- #0rr: 20191028/10:19:32-416936/455|omaster -->
+                        <!-- #0rx: dh592 -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+                  <surrogates>
+                     <listBibl>
+                        <bibl subtype="full" type="digital-facsimile">
+                           <ref target="https://digital.bodleian.ox.ac.uk/objects/6cac2d28-6c1d-486c-967c-43d24a51c296">
+                              <title>Digital Bodleian</title>
+                           </ref>
+                           <note>(full digital facsimile)</note>
+                        </bibl>
+                     </listBibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_774" source="774.san|三">集部 <term>詞曲類 閩南歌曲</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

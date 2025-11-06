@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_14903">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17449</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6658/11(1)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17449">Sinica 6658</ref><lb/>書名: 諸經緯遺 一卷 / (清)劉學寵輯</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">諸經緯遺 一卷</title>
+                     <title source="#200|9">zhu jing wei yi</title>
+                     <note source="#290">(清)劉學寵輯</note>
+                     <author source="#300" key="person_3430"><persName xml:lang="chi">(清)劉學寵</persName><persName type="9">liu xue
+                           chong</persName></author>
+                     <msItem n="01">
+                        <title>易川靈圖</title>
+                        <title source="9">yi chuan ling tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000044|odh -->
+                        <!-- #0rx: dh701+05+01 -->
+                     </msItem>
+                     <msItem n="02">
+                        <title>易通卦騐</title>
+                        <title source="9">yi tong gua yan</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000045|odh -->
+                        <!-- #0rx: dh701+05+02 -->
+                     </msItem>
+                     <msItem n="03">
+                        <title>尚書旋璣鈐</title>
+                        <title source="9">shang shu xuan ji qian</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000046|odh -->
+                        <!-- #0rx: dh701+05+03 -->
+                     </msItem>
+                     <msItem n="04">
+                        <title>尚書帝命期</title>
+                        <title source="9">shang shu di ming qi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000047|odh -->
+                        <!-- #0rx: dh701+05+04 -->
+                     </msItem>
+                     <msItem n="05">
+                        <title>尚書考靈耀</title>
+                        <title source="9">shang shu kao ling yao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000048|odh -->
+                        <!-- #0rx: dh701+05+05 -->
+                     </msItem>
+                     <msItem n="06">
+                        <title>尚書中候</title>
+                        <title source="9">shang shu zhong hou</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000049|odh -->
+                        <!-- #0rx: dh701+05+06 -->
+                     </msItem>
+                     <msItem n="07">
+                        <title>詩含神霧</title>
+                        <title source="9">shi han shen wu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000050|odh -->
+                        <!-- #0rx: dh701+05+07 -->
+                     </msItem>
+                     <msItem n="08">
+                        <title>詩紀歷圖</title>
+                        <title source="9">shi ji li tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000051|odh -->
+                        <!-- #0rx: dh701+05+08 -->
+                     </msItem>
+                     <msItem n="09">
+                        <title>春秋元命苞</title>
+                        <title source="9">chun qiu yuan ming bao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000052|odh -->
+                        <!-- #0rx: dh701+05+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>春秋運斗樞</title>
+                        <title source="9">chun qiu yun dou shu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000053|odh -->
+                        <!-- #0rx: dh701+05+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>春秋文曜鉤</title>
+                        <title source="9">chun qiu wen yao gou</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000054|odh -->
+                        <!-- #0rx: dh701+05+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>春秋合誠圖</title>
+                        <title source="9">chun qiu he cheng tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000055|odh -->
+                        <!-- #0rx: dh701+05+12 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>春秋孔演圖</title>
+                        <title source="9">chun qiu kong yan tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000056|odh -->
+                        <!-- #0rx: dh701+05+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>春秋說題辭</title>
+                        <title source="9">chun qiu shuo ti ci</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000057|odh -->
+                        <!-- #0rx: dh701+05+14 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>春秋感精符</title>
+                        <title source="9">chun qiu gan jing fu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000058|odh -->
+                        <!-- #0rx: dh701+05+15 -->
+                     </msItem>
+                     <msItem n="16">
+                        <title>春秋潛潭巴</title>
+                        <title source="9">chun qiu qian tan ba</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000059|odh -->
+                        <!-- #0rx: dh701+05+16 -->
+                     </msItem>
+                     <msItem n="17">
+                        <title>春秋佐助期</title>
+                        <title source="9">chun qiu zuo zhu qi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000060|odh -->
+                        <!-- #0rx: dh701+05+17 -->
+                     </msItem>
+                     <msItem n="18">
+                        <title>春秋緯</title>
+                        <title source="9">chun qiu wei</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000061|odh -->
+                        <!-- #0rx: dh701+05+18 -->
+                     </msItem>
+                     <msItem n="19">
+                        <title>禮稽命徵</title>
+                        <title source="9">li ji ming zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000062|odh -->
+                        <!-- #0rx: dh701+05+19 -->
+                     </msItem>
+                     <msItem n="20">
+                        <title>禮含文嘉</title>
+                        <title source="9">li han wen jia</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000063|odh -->
+                        <!-- #0rx: dh701+05+20 -->
+                     </msItem>
+                     <msItem n="21">
+                        <title>禮斗威儀</title>
+                        <title source="9">li dou wei yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000064|odh -->
+                        <!-- #0rx: dh701+05+21 -->
+                     </msItem>
+                     <msItem n="22">
+                        <title>大戴禮逸</title>
+                        <title source="9">da dai li yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000065|odh -->
+                        <!-- #0rx: dh701+05+22 -->
+                     </msItem>
+                     <msItem n="23">
+                        <title>樂稽耀嘉</title>
+                        <title source="9">yue ji yao jia</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000066|odh -->
+                        <!-- #0rx: dh701+05+23 -->
+                     </msItem>
+                     <msItem n="24">
+                        <title>孝經援神契</title>
+                        <title source="9">xiao jing yuan shen qi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000067|odh -->
+                        <!-- #0rx: dh701+05+24 -->
+                     </msItem>
+                     <msItem n="25">
+                        <title>孝經鉤命決</title>
+                        <title source="9">xiao jing gou ming jue</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000068|odh -->
+                        <!-- #0rx: dh701+05+25 -->
+                     </msItem>
+                     <msItem n="26">
+                        <title>孝經左契</title>
+                        <title source="9">xiao jing zuo qi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000069|odh -->
+                        <!-- #0rx: dh701+05+26 -->
+                     </msItem>
+                     <msItem n="27">
+                        <title>孝經右契</title>
+                        <title source="9">xiao jing you qi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000070|odh -->
+                        <!-- #0rx: dh701+05+27 -->
+                     </msItem>
+                     <msItem n="28">
+                        <title>孝經內事</title>
+                        <title source="9">xiao jing nei shi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000071|odh -->
+                        <!-- #0rx: dh701+05+28 -->
+                     </msItem>
+                     <msItem n="29">
+                        <title>龍魚河圖</title>
+                        <title source="9">long yu he tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000072|odh -->
+                        <!-- #0rx: dh701+05+29 -->
+                     </msItem>
+                     <msItem n="30">
+                        <title>河圖括地象</title>
+                        <title source="9">he tu kuo di xiang</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000073|odh -->
+                        <!-- #0rx: dh701+05+30 -->
+                     </msItem>
+                     <msItem n="31">
+                        <title>河圖稽命徵</title>
+                        <title source="9">he tu ji ming zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000074|odh -->
+                        <!-- #0rx: dh701+05+31 -->
+                     </msItem>
+                     <msItem n="32">
+                        <title>河圖稽燿鉤</title>
+                        <title source="9">he tu ji yao gou</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000075|odh -->
+                        <!-- #0rx: dh701+05+32 -->
+                     </msItem>
+                     <msItem n="33">
+                        <title>河圖始開圖</title>
+                        <title source="9">he tu shi kai tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000076|odh -->
+                        <!-- #0rx: dh701+05+33 -->
+                     </msItem>
+                     <msItem n="34">
+                        <title>洛書甄燿度</title>
+                        <title source="9">luo shu zhen yao du</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000077|odh -->
+                        <!-- #0rx: dh701+05+34 -->
+                     </msItem>
+                     <msItem n="35">
+                        <title>遁甲開山圖</title>
+                        <title source="9">dun jia kai shan tu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000078|odh -->
+                        <!-- #0rx: dh701+05+35 -->
+                     </msItem>
+                     <msItem n="36">
+                        <title>易飛候</title>
+                        <title source="9">yi fei hou</title>
+                        <note source="290">(漢)京房撰</note>
+                        <author key="person_6476"><persName xml:lang="chi">(漢)京房</persName><persName type="9">jing
+                           fang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000079|odh -->
+                        <!-- #0rx: dh701+05+36 -->
+                     </msItem>
+                     <msItem n="37">
+                        <title>易洞林</title>
+                        <title source="9">yi dong lin</title>
+                        <note source="290">(晉)郭璞撰</note>
+                        <author key="person_2985"><persName xml:lang="chi">(晉)郭璞</persName><persName type="9">guo
+                           pu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000080|odh -->
+                        <!-- #0rx: dh701+05+37 -->
+                     </msItem>
+                     <msItem n="38">
+                        <title>春秋後語</title>
+                        <title source="9">chun qiu hou yu</title>
+                        <note source="290">(晉)孔衍撰</note>
+                        <author key="person_2874"><persName xml:lang="chi">(晉)孔衍</persName><persName type="9">kong
+                           yan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000081|odh -->
+                        <!-- #0rx: dh701+05+38 -->
+                     </msItem>
+                     <msItem n="39">
+                        <title>五經析疑</title>
+                        <title source="9">wu jing xi yi</title>
+                        <note source="290">(魏)邯鄲綽撰</note>
+                        <author key="person_6747"><persName xml:lang="chi">(魏)邯鄲綽</persName><persName type="9">han dan
+                              chuo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000082|odh -->
+                        <!-- #0rx: dh701+05+39 -->
+                     </msItem>
+                     <msItem n="40">
+                        <title>五經通義</title>
+                        <title source="9">wu jing tong yi</title>
+                        <note source="290">佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000083|odh -->
+                        <!-- #0rx: dh701+05+40 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180608/00000043|odh -->
+                        <!-- #0rx: dh701+05 -->
+                        <!-- #0rz: 次編 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221574810107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

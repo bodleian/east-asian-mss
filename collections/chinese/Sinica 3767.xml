@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6333">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3767</idno>
+               </msIdentifier>
+               <head>書名: 十一弦館琴譜 / (清)劉鶚編<lb/>清光緒中劉氏刊1994年北京中國書店重印本<lb/>線裝1冊 ;
+                  29公分<lb/>本書由劉氏取當時民間藝人琴工張瑞珊所彈奏之曲輯刊而成. 刊後印數不多, 1953年民族音樂研究所據原版印刷二百部. 原版保存完整,
+                  該店重新印刷<lb/>ISBN 7-80568-641-6<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">十一弦館琴譜</title>
+                     <title source="#200|9">shi yi xian guan qin pu</title>
+                     <note source="#290">(清)劉鶚編</note>
+                     <author source="#300" key="person_3490"><persName xml:lang="chi">(清)劉鶚</persName><persName type="9">liu
+                           e</persName></author>
+                     <note source="#409">清光緒中劉氏刊1994年北京中國書店重印本</note>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <note source="#600">本書由劉氏取當時民間藝人琴工張瑞珊所彈奏之曲輯刊而成. 刊後印數不多, 1953年民族音樂研究所據原版印刷二百部.
+                        原版保存完整, 該店重新印刷</note>
+                     <msItem n="1">
+                        <title>廣陵散 一卷新譜一卷</title>
+                        <title source="9">guang ling san</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002963|ons -->
+                        <!-- #0rx: ns0812+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>天籟 一卷</title>
+                        <title source="9">tian lai</title>
+                        <note source="290">(清)張瑞珊撰</note>
+                        <author key="person_4078"><persName xml:lang="chi">(清)張瑞珊</persName><persName type="9">zhang rui
+                              shan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002964|ons -->
+                        <!-- #0rx: ns0812+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>武陵春 一卷</title>
+                        <title source="9">wu ling chun</title>
+                        <note source="290">(清)張瑞珊撰</note>
+                        <author key="person_4078"><persName xml:lang="chi">(清)張瑞珊</persName><persName type="9">zhang rui
+                              shan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002965|ons -->
+                        <!-- #0rx: ns0812+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>鷓鵠天 一卷</title>
+                        <title source="9">zhe hu tian</title>
+                        <note source="290">(清)張瑞珊撰</note>
+                        <author key="person_4078"><persName xml:lang="chi">(清)張瑞珊</persName><persName type="9">zhang rui
+                              shan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002966|ons -->
+                        <!-- #0rx: ns0812+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>小譜庵咒 一卷</title>
+                        <title source="9">xiao pu an zhou</title>
+                        <note source="290">(清)張瑞珊撰</note>
+                        <author key="person_4078"><persName xml:lang="chi">(清)張瑞珊</persName><persName type="9">zhang rui
+                              shan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002967|ons -->
+                        <!-- #0rx: ns0812+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>莊周夢蝶 一卷</title>
+                        <title source="9">zhuang zhou meng die</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00002968|ons -->
+                        <!-- #0rr: 20190703/21:17:13-72722/1|odh -->
+                        <!-- #0rx: ns0812+06 -->
+                        <!-- #446: 五知齋琴譜|9wu zhi zhai qin pu -->
+                        <!-- #600: 即《五知齋琴譜》卷之七 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--線裝1冊 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1907" type="d">1907</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19951009/13:48:13|odh -->
+                        <!-- #0rr: 20190703/21:20:40-28921/6|omaster -->
+                        <!-- #0rx: ns0812 -->
+                        <!-- #100: 7-80568-641-6 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221380310107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_588" source="588.89">子部 <term>藝術類 琴譜</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

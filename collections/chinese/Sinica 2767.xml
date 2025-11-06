@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17186">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2767</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">觀象廬叢書</title>
+                     <title source="#200|9">guan xiang lu cong shu</title>
+                     <note source="#290">(清)呂調陽撰</note>
+                     <author source="#300" key="person_3664"><persName xml:lang="chi">(清)呂調陽</persName><persName type="9">lu tiao
+                           yang</persName></author>
+                     <note source="#409">清光緒戊子[1888]葉長高刊本彭門吳氏藏板</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_8297">Sinica 2767/1-6</ref><title>易一貫 六卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8313">Sinica 2767/7-15</ref><title>六書十二聲傳 十二卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8298">Sinica 2767/16-20</ref><title>商周彜器釋銘 六卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8299">Sinica 2767/21-24</ref><title>志學編八種</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8300">Sinica 2767/25-29</ref><title>釋地三種</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8301">Sinica 2767/30-33</ref><title>五藏山經傳 五卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8302">Sinica 2767/34-35(1)</ref><title>重訂越南圖說 六卷</title> / <persName>(清)盛慶紱</persName></item><item><ref target="volume_8303">Sinica 2767/35(2)</ref><title>穆天子傳釋 一卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8304">Sinica 2767/36-39</ref><title>漢地理志詳釋 四卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8305">Sinica 2767/40-46</ref><title>曰若編 七卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8306">Sinica 2767/47-48</ref><title>史表號名通釋 三卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8307">Sinica 2767/49-52</ref><title>輿地今古圖考 二十二卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8308">Sinica 2767/53-58</ref><title>詩序議 四卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8309">Sinica 2767/59(1)</ref><title>逸經釋 一卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8310">Sinica 2767/59(2)</ref><title>論孟疑義 一卷</title> / <persName>(清)呂調陽</persName></item><item><ref target="volume_8311">Sinica 2767/60</ref><title>勾股六術 一卷</title> / <persName>(清)項名達</persName></item><item><ref target="volume_8312">Sinica 2767/61-64</ref><title>齊民要術 十卷</title> / <persName>(後魏)賈思勰</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="64">64冊</measure><!--線裝64冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1888" type="d">1888</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20141028/16:01:33|odh -->
+                        <!-- #0rr: 20150824/17:42:19-371725/4|omaster -->
+                        <!-- #0rx: dh546 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221392080107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_880" source="880.88">叢書 <term>獨撰類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

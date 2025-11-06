@@ -1,0 +1,1357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_10757">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17326</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 5941/8-9</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17326">Sinica 5941</ref><lb/>書名: 曲園襍纂 五十卷</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">曲園襍纂 五十卷</title>
+                     <title source="#200|9">qu yuan za zuan</title>
+                     <author source="#300" key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180309/00000044|odh -->
+                        <!-- #0rx: dh662+04 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221528030107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>艮宧易說 一卷</title>
+                        <title source="9">gen yi yi shuo</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000045|odh -->
+                           <!-- #0rx: dh662+04+01 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>達齋書說 一卷</title>
+                        <title source="9">da zhai shu shuo</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000046|odh -->
+                           <!-- #0rx: dh662+04+02 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>達齋詩說 一卷</title>
+                        <title source="9">da zhai shi shuo</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000047|odh -->
+                           <!-- #0rx: dh662+04+03 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>達齋春秋論 一卷</title>
+                        <title source="9">da zhai chun qiu lun</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000048|odh -->
+                           <!-- #0rx: dh662+04+04 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>達齋叢說 一卷</title>
+                        <title source="9">da zhai cong shuo</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000049|odh -->
+                           <!-- #0rx: dh662+04+05 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>荀子詩說 一卷</title>
+                        <title source="9">xun zi shi shuo</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000050|odh -->
+                           <!-- #0rx: dh662+04+06 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(7)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>何劭公論語義 一卷</title>
+                        <title source="9">he shao gong lun yu yi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000051|odh -->
+                           <!-- #0rx: dh662+04+07 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(8)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>士昏禮對席圖 一卷</title>
+                        <title source="9">shi hun li dui xi tu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000052|odh -->
+                           <!-- #0rx: dh662+04+08 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(9)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>樂記異文考 一卷</title>
+                        <title source="9">yue ji yi wen kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000053|odh -->
+                           <!-- #0rx: dh662+04+09 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(10)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>生霸死霸考 一卷</title>
+                        <title source="9">sheng ba si ba kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000054|odh -->
+                           <!-- #0rx: dh662+04+10 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(11)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋歲星考 一卷</title>
+                        <title source="9">chun qiu sui xing kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000055|odh -->
+                           <!-- #0rx: dh662+04+11 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(12)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>卦氣直日考 一卷</title>
+                        <title source="9">gua qi zhi ri kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000056|odh -->
+                           <!-- #0rx: dh662+04+12 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(13)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>七十二候考 一卷</title>
+                        <title source="9">qi shi er hou kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000057|odh -->
+                           <!-- #0rx: dh662+04+13 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(14)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>左傳古本分年考 一卷</title>
+                        <title source="9">zuo zhuan gu ben fen nian kao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000058|odh -->
+                           <!-- #0rx: dh662+04+14 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(15)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>春秋人地名對 一卷</title>
+                        <title source="9">chun qiu ren di ming dui</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000059|odh -->
+                           <!-- #0rx: dh662+04+15 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(16)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>劭易補原 一卷</title>
+                        <title source="9">shao yi bu yuan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000060|odh -->
+                           <!-- #0rx: dh662+04+16 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(17)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀韓詩外傳 一卷</title>
+                        <title source="9">du han shi wai zhuan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000061|odh -->
+                           <!-- #0rx: dh662+04+17 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(18)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀吳越春秋 一卷</title>
+                        <title source="9">du wu yue chun qiu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000062|odh -->
+                           <!-- #0rx: dh662+04+18 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(19)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀越絕書 一卷</title>
+                        <title source="9">du yue jue shu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000063|odh -->
+                           <!-- #0rx: dh662+04+19 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(20)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀鶡冠子 一卷</title>
+                        <title source="9">du he guan zi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000064|odh -->
+                           <!-- #0rx: dh662+04+20 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(21)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀鹽鐵論 一卷</title>
+                        <title source="9">du yan tie lun</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000065|odh -->
+                           <!-- #0rx: dh662+04+21 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(22)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀潛夫論 一卷</title>
+                        <title source="9">du qian fu lun</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000066|odh -->
+                           <!-- #0rx: dh662+04+22 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(23)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀論衡 一卷</title>
+                        <title source="9">du lun heng</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000067|odh -->
+                           <!-- #0rx: dh662+04+23 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(24)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀中論 一卷</title>
+                        <title source="9">du zhong lun</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000068|odh -->
+                           <!-- #0rx: dh662+04+24 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/8(25)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀抱朴子 一卷</title>
+                        <title source="9">du bao pu zi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000069|odh -->
+                           <!-- #0rx: dh662+04+25 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀文中子 一卷</title>
+                        <title source="9">du wen zhong zi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000070|odh -->
+                           <!-- #0rx: dh662+04+26 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>改吳 一卷</title>
+                        <title source="9">gai wu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000071|odh -->
+                           <!-- #0rx: dh662+04+27 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>說項 一卷</title>
+                        <title source="9">shuo xiang</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000072|odh -->
+                           <!-- #0rx: dh662+04+28 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>正毛 一卷</title>
+                        <title source="9">zheng mao</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000073|odh -->
+                           <!-- #0rx: dh662+04+29 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>評袁 一卷</title>
+                        <title source="9">ping yuan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000074|odh -->
+                           <!-- #0rx: dh662+04+30 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(6)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>通李 一卷</title>
+                        <title source="9">tong li</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000075|odh -->
+                           <!-- #0rx: dh662+04+31 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(7)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>議郎 一卷</title>
+                        <title source="9">yi lang</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000076|odh -->
+                           <!-- #0rx: dh662+04+32 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(8)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>訂胡 一卷</title>
+                        <title source="9">ding hu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000077|odh -->
+                           <!-- #0rx: dh662+04+33 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(9)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>日知錄小箋 一卷</title>
+                        <title source="9">ri zhi lu xiao jian</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000078|odh -->
+                           <!-- #0rr: 20200211/14:03:16-430374/1|osn -->
+                           <!-- #0rx: dh662+04+34 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(10)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>苓子 一卷</title>
+                        <title source="9">ling zi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000079|odh -->
+                           <!-- #0rx: dh662+04+35 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(11)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>小繁露 一卷</title>
+                        <title source="9">xiao fan lu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000080|odh -->
+                           <!-- #0rx: dh662+04+36 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(12)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>韵雅 一卷</title>
+                        <title source="9">yun ya</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000081|odh -->
+                           <!-- #0rx: dh662+04+37 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(13)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>小浮梅閒話 一卷</title>
+                        <title source="9">xiao fu mei xian hua</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000082|odh -->
+                           <!-- #0rx: dh662+04+38 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(14)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>讀五九枝譚 一卷</title>
+                        <title source="9">du wu jiu zhi tan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000083|odh -->
+                           <!-- #0rx: dh662+04+39 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(15)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>閩行日記 一卷</title>
+                        <title source="9">min xing ri ji</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000084|odh -->
+                           <!-- #0rx: dh662+04+40 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(16)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>吳中唱和詩 一卷</title>
+                        <title source="9">wu zhong chang he shi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000085|odh -->
+                           <!-- #0rx: dh662+04+41 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(17)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>梵珠 一卷</title>
+                        <title source="9">fan zhu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000086|odh -->
+                           <!-- #0rx: dh662+04+42 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(18)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>百空曲 一卷</title>
+                        <title source="9">bai kong qu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000087|odh -->
+                           <!-- #0rx: dh662+04+43 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(19)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>十二月花神議 一卷</title>
+                        <title source="9">shi er yue hua shen yi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000088|odh -->
+                           <!-- #0rx: dh662+04+44 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(20)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>銀甁徵 一卷</title>
+                        <title source="9">yin ping zheng</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000089|odh -->
+                           <!-- #0rx: dh662+04+45 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(21)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>吳絳雪年譜 一卷</title>
+                        <title source="9">wu jiang xue nian pu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000090|odh -->
+                           <!-- #0rx: dh662+04+46 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(22)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>五行占 一卷</title>
+                        <title source="9">wu xing zhan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000091|odh -->
+                           <!-- #0rx: dh662+04+47 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(23)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>集千字文詩 一卷</title>
+                        <title source="9">ji qian zi wen shi</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000092|odh -->
+                           <!-- #0rx: dh662+04+48 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(24)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>隱書 一卷</title>
+                        <title source="9">yin shu</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000093|odh -->
+                           <!-- #0rx: dh662+04+49 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 5941/9(25)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>老圓 一卷</title>
+                        <title source="9">lao yuan</title>
+                        <author key="person_3353"><persName xml:lang="chi">(清)俞樾</persName><persName type="9">yu
+                           yue</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20180309/00000094|odh -->
+                           <!-- #0rx: dh662+04+50 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

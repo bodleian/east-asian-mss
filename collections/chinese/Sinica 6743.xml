@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6428">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6743</idno>
+               </msIdentifier>
+               <head>書名: 揚州叢刻 殘十三種 / (民國)陳恆和編<lb/>民國十九年[1930]至二十三年[1934]間揚州陳氏福州刊本<lb/>洋裝1冊(原線裝4冊 ;
+                  25公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">揚州叢刻 殘十三種</title>
+                     <title source="#200|9">yang zhou cong ke</title>
+                     <note source="#290">(民國)陳恆和編</note>
+                     <author source="#300" key="person_3209"><persName xml:lang="chi">(民國)陳恆和</persName><persName type="9">chen heng
+                           he</persName></author>
+                     <note source="#409">民國十九年[1930]至二十三年[1934]間揚州陳氏福州刊本</note>
+                     <msItem n="1">
+                        <title>揚州畫苑錄 四卷</title>
+                        <title source="9">yang zhou hua yuan lu</title>
+                        <note source="290">(清)汪鋆撰</note>
+                        <author key="person_4826"><persName xml:lang="chi">(清)汪鋆</persName><persName type="9">wang
+                           yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:01:18|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457629/2|omaster -->
+                        <!-- #0rx: dh820+01 -->
+                        <!-- #600: 民國二十年[1931]刊 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>揚州竹枝詞 一卷</title>
+                        <title source="9">yang zhou zhu zhi ci</title>
+                        <note source="290">(清)董偉業撰</note>
+                        <author key="person_5508"><persName xml:lang="chi">(清)董偉業</persName><persName type="9">dong wei
+                           ye</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:02:33|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457630/3|omaster -->
+                        <!-- #0rx: dh820+02 -->
+                        <!-- #600: 民國十九年[1930]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>望江南百調 一卷</title>
+                        <title source="9">wang jiang nan bai diao</title>
+                        <note source="290">(清)惺庵居士撰</note>
+                        <author key="person_6424"><persName xml:lang="chi">(清)黃鼎銘</persName><persName type="9">huang ding
+                              ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:04:00|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457631/4|omaster -->
+                        <!-- #0rx: dh820+03 -->
+                        <!-- #600: 民國二十一年[1932]刊 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>瓊花集 五卷</title>
+                        <title source="9">qiong hua ji</title>
+                        <note source="290">(明)曹璿輯</note>
+                        <author key="person_2261"><persName xml:lang="chi">(明)曹璿</persName><persName type="9">cao
+                           xuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:04:48|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457632/5|omaster -->
+                        <!-- #0rx: dh820+04 -->
+                        <!-- #600: 民國二十一年[1932]刊 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>揚州芍藥譜 一卷</title>
+                        <title source="9">yang zhou shao yao pu</title>
+                        <note source="290">(宋)王觀撰</note>
+                        <author key="person_1449"><persName xml:lang="chi">(宋)王觀</persName><persName type="9">wang
+                           guan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:05:38|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457633/6|omaster -->
+                        <!-- #0rx: dh820+05 -->
+                        <!-- #600: 民國二十年[1931]刊 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>廣陵小正 一卷</title>
+                        <title source="9">guang ling xiao zheng</title>
+                        <note source="290">佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:06:11|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457634/7|omaster -->
+                        <!-- #0rx: dh820+06 -->
+                        <!-- #600: 民國二十年[1931]刊 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>揚州萸灣勝覽 一卷</title>
+                        <title source="9">yang zhou yu wan sheng lan</title>
+                        <note source="290">(清釋)源印輯</note>
+                        <author key="person_6465"><persName xml:lang="chi">(清釋)源印</persName><persName type="9">yuan
+                           yin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:06:47|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457635/8|omaster -->
+                        <!-- #0rx: dh820+07 -->
+                        <!-- #600: 民國二十年[1931]刊 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>揚州水利論 一卷</title>
+                        <title source="9">yang zhou shui li lun</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:07:39|odh -->
+                        <!-- #0rr: 20200106/15:10:54-457636/9|omaster -->
+                        <!-- #0rx: dh820+08 -->
+                        <!-- #600: 民國十九年[1930]刊 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>治下河水論 一卷</title>
+                        <title source="9">zhi xia he shui lun</title>
+                        <note source="290">(清)張鵬翮撰</note>
+                        <author key="person_4131"><persName xml:lang="chi">(清)張鵬翮</persName><persName type="9">zhang peng
+                              he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:12:40|odh -->
+                        <!-- #0rx: dh820+09 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>洩湖水入江議 一卷</title>
+                        <title source="9">xie hu shui ru jiang yi</title>
+                        <note source="290">(清)葉機撰</note>
+                        <author key="person_5484"><persName xml:lang="chi">(清)葉機</persName><persName type="9">ye
+                           ji</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:13:04|odh -->
+                        <!-- #0rx: dh820+10 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>高家堰記 一卷</title>
+                        <title source="9">gao jia yan ji</title>
+                        <note source="290">(清)俞正燮撰</note>
+                        <author key="person_3354"><persName xml:lang="chi">(清)俞正燮</persName><persName type="9">yu zheng
+                              xie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:13:41|odh -->
+                        <!-- #0rx: dh820+11 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>運河水道編 一卷</title>
+                        <title source="9">yun he shui dao bian</title>
+                        <note source="290">(清)齊召南撰</note>
+                        <author key="person_6429"><persName xml:lang="chi">(清)齊召南</persName><persName type="9">qi zhao
+                           nan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:14:11|odh -->
+                        <!-- #0rx: dh820+12 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>揚州北湖續志 六卷</title>
+                        <title source="9">yang zhou bei ju xu zhi</title>
+                        <note source="290">(清)阮先撰</note>
+                        <author key="person_5989"><persName xml:lang="chi">(清)阮先</persName><persName type="9">ruan
+                           xian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/15:14:48|odh -->
+                        <!-- #0rx: dh820+13 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--洋裝1冊(原線裝4冊 ; 25公分--><dimensions unit="cm"><height>25</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1931" type="d">1931</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200106/14:58:52|odh -->
+                        <!-- #0rr: 20200204/22:08:48-457628/23|omaster -->
+                        <!-- #0rx: dh820 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221292830107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_840" source="840.90">叢書 <term>郡邑類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

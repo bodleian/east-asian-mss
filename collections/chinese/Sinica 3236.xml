@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6329">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3236</idno>
+               </msIdentifier>
+               <head>書名: 儒學警悟七集 四十卷 / (宋)俞鼎孫,
+                  (宋)俞經編<lb/>民國甲子[1924]武進陶湘校刊本一九九〇年北京中國書店重印殘損版以影印配補<lb/>線裝8冊 ; 29公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">儒學警悟七集 四十卷</title>
+                     <title source="#200|9">ru xue jing wu qi ji</title>
+                     <note source="#290">(宋)俞鼎孫, (宋)俞經編</note>
+                     <author source="#300" key="person_951"><persName xml:lang="chi">(宋)俞鼎孫</persName><persName type="9">yu ding
+                           sun</persName></author>
+                     <author source="#300" key="person_950"><persName xml:lang="chi">(宋)俞經</persName><persName type="9">yu
+                           jing</persName></author>
+                     <note source="#409">民國甲子[1924]武進陶湘校刊本一九九〇年北京中國書店重印殘損版以影印配補</note>
+                     <editor source="#440" role="pbl"><persName>中國書店</persName><persName type="9" role="pbl">zhong guo shu dian</persName></editor>
+                     <msItem n="1">
+                        <title>石林燕語辨 十卷</title>
+                        <title source="9">shi lin yan yu bian</title>
+                        <note source="290">(宋)葉夢得撰</note>
+                        <note source="290">(宋)汪應辰辨</note>
+                        <author key="person_1542"><persName xml:lang="chi">(宋)葉夢得</persName><persName type="9">ye meng
+                           de</persName></author>
+                        <author key="person_1367"><persName xml:lang="chi">(宋)汪應辰</persName><persName type="9">wang ying
+                              chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:52:25|odh -->
+                        <!-- #0rx: dh833+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>演繁露 六卷</title>
+                        <title source="9">yan fan lu</title>
+                        <note source="290">(宋)程大昌撰</note>
+                        <author key="person_1487"><persName xml:lang="chi">(宋)程大昌</persName><persName type="9">cheng da
+                              chang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:53:03|odh -->
+                        <!-- #0rx: dh833+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>嬾真子 五卷</title>
+                        <title source="9">lan zhen zi</title>
+                        <note source="290">(宋)馬永卿撰</note>
+                        <author key="person_1800"><persName xml:lang="chi">(宋)馬永卿</persName><persName type="9">ma yong
+                              qing</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:53:37|odh -->
+                        <!-- #0rx: dh833+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>攷古編 十卷</title>
+                        <title source="9">kao gu bian</title>
+                        <note source="290">(宋)程大昌撰</note>
+                        <author key="person_1487"><persName xml:lang="chi">(宋)程大昌</persName><persName type="9">cheng da
+                              chang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:54:13|odh -->
+                        <!-- #0rr: 20200206/12:07:54-458144/1|odh -->
+                        <!-- #0rx: dh833+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>捫蝨新話 上集四卷下集四卷</title>
+                        <title source="9">men shi xin hua</title>
+                        <note source="290">(宋)陳善撰</note>
+                        <author key="person_1739"><persName xml:lang="chi">(宋)陳善</persName><persName type="9">chen
+                           shan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:55:13|odh -->
+                        <!-- #0rr: 20200206/12:15:40-458145/1|odh -->
+                        <!-- #0rx: dh833+5 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>螢雪叢說 二卷</title>
+                        <title source="9">ying xue cong shuo</title>
+                        <note source="290">(宋)俞成撰</note>
+                        <author key="person_945"><persName xml:lang="chi">(宋)俞成</persName><persName type="9">yu
+                           cheng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/11:55:55|odh -->
+                        <!-- #0rr: 20200206/12:15:55-458146/1|odh -->
+                        <!-- #0rx: dh833+6 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="8">8冊</measure><!--線裝8冊 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1924" type="d">1924</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200206/12:07:16|odh -->
+                        <!-- #0rr: 20200227/11:07:56-458147/16|omaster -->
+                        <!-- #0rx: dh833 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221419540107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.78">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

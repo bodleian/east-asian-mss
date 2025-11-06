@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6312">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3066</idno>
+               </msIdentifier>
+               <head>書名: 二程全書 五十一卷 / (宋)程顥, (宋)程頤撰<lb/>清康熙二十五年[1686]程湛重刊本<lb/>線裝12冊 : 像 ;
+                  27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">二程全書 五十一卷</title>
+                     <title source="#200|9">er cheng quan shu</title>
+                     <note source="#290">(宋)程顥, (宋)程頤撰</note>
+                     <author source="#300" key="person_1492"><persName xml:lang="chi">(宋)程顥</persName><persName type="9">cheng
+                           hao</persName></author>
+                     <author source="#300" key="person_1491"><persName xml:lang="chi">(宋)程頤</persName><persName type="9">cheng
+                           yi</persName></author>
+                     <note source="#409">清康熙二十五年[1686]程湛重刊本</note>
+                     <msItem n="1">
+                        <title>程氏遺書 二十五卷</title>
+                        <title source="9">cheng shi yi shu</title>
+                        <note source="290">(宋)朱熹編</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150220/16:55:05|odh -->
+                        <!-- #0rx: dh568+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>程氏外書 十二卷</title>
+                        <title source="9">cheng shi wai shu</title>
+                        <note source="290">(宋)朱熹編</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150220/16:55:33|odh -->
+                        <!-- #0rx: dh568+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>明道文集 四卷附錄一卷</title>
+                        <title source="9">ming dao wen ji</title>
+                        <note source="290">(宋)程顥撰</note>
+                        <author key="person_1492"><persName xml:lang="chi">(宋)程顥</persName><persName type="9">cheng
+                           hao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150220/16:56:26|odh -->
+                        <!-- #0rx: dh568+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>伊川文集 七卷附錄一卷續附錄一卷</title>
+                        <title source="9">yi chuan wen ji</title>
+                        <note source="290">(宋)程頤撰</note>
+                        <author key="person_1491"><persName xml:lang="chi">(宋)程頤</persName><persName type="9">cheng
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150220/16:57:43|odh -->
+                        <!-- #0rx: dh568+4 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="12">12冊</measure><!--線裝12冊 : 像 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「闕疑殆齋」、「闕疑殆齋藏書」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc><p>像</p></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1686" type="d">1686</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150220/16:49:56|odh -->
+                        <!-- #0rr: 20191002/12:55:31-363562/68|omaster -->
+                        <!-- #0rx: dh568 -->
+                        <!-- #900: o -->
+                        <!-- #905: From same blocks as edition in Beida so identified in CALIS. Portraits are particularly fine. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_860" source="860.77">叢書 <term>氏族類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

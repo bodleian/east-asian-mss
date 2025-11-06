@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17342">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 5960</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">松鄰叢書</title>
+                     <title source="#200|9">song lin cong shu</title>
+                     <note source="#290">(民國)吳昌綬輯</note>
+                     <author source="#300" key="person_3080"><persName xml:lang="chi">(民國)吳昌綬</persName><persName type="9">wu chang
+                           shou</persName></author>
+                     <note source="#409">民國丁巳[1917]仁和吳氏雙照樓刊本</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_11324">Sinica 5960/1(1)</ref><title>元西湖書院重整書目 一卷</title> / <persName>(元)胡師安</persName></item><item><ref target="volume_11330">Sinica 5960/1(2)</ref><title>南廱志經籍考 二卷</title> / <persName>(明)梅鷟</persName></item><item><ref target="volume_11331">Sinica 5960/1(3)</ref><title>內板經書紀略 一卷</title> / <persName>(明)劉若愚</persName></item><item><ref target="volume_11333">Sinica 5960/1(5)</ref><title>四庫全書薈要目 一卷</title> </item><item><ref target="volume_11334">Sinica 5960/1(6)</ref><title>南薰殿尊藏圖像目 一卷</title> </item><item><ref target="volume_11335">Sinica 5960/1(7)</ref><title>茶庫藏貯圖像目 一卷</title> </item><item><ref target="volume_11336">Sinica 5960/1(8)</ref><title>道藏闕經目錄 二卷</title> </item><item><ref target="volume_11337">Sinica 5960/1(9)</ref><title>藏逸經書 一卷</title> / <persName>(明釋)道開</persName></item><item><ref target="volume_11325">Sinica 5960/1(10)</ref><title>儒藏說 一卷</title> / <persName>(清)周永年</persName></item><item><ref target="volume_11332">Sinica 5960/1(4)</ref><title>孝獻莊和至德宣仁温惠端敬皇后行狀 一卷附傳一卷</title> / <persName>(清)世祖</persName></item><item><ref target="volume_11326">Sinica 5960/1(11)</ref><title>大清孝定景皇后事略 一卷</title> / <persName>(清)紹英</persName></item><item><ref target="volume_11327">Sinica 5960/1(12)</ref><title>東朝崇養錄 四卷</title> / <persName>(清)徐松</persName></item><item><ref target="volume_11328">Sinica 5960/1(13)</ref><title>徑山有游草 一卷</title> / <persName>(清)吳焯</persName></item><item><ref target="volume_11329">Sinica 5960/1(14)</ref><title>雁影齋詩 一卷</title> / <persName>(清)李希聖</persName></item><item><ref target="volume_11338">Sinica 5960/2(1)</ref><title>繡谷亭薰習錄 經部一卷集部二卷</title> / <persName>(清)吳焯</persName></item><item><ref target="volume_11339">Sinica 5960/2(2)</ref><title>清吟閣書目 四卷</title> / <persName>(清)瞿世瑛</persName></item><item><ref target="volume_11340">Sinica 5960/2(3)</ref><title>寶書閣著錄 一卷</title> / <persName>(清)丁白</persName></item><item><ref target="volume_11341">Sinica 5960/2(4)</ref><title>一角編 二卷</title> / <persName>(清)周二學</persName></item><item><ref target="volume_11342">Sinica 5960/2(5)</ref><title>賞延素心錄 一卷</title> / <persName>(清)周二學</persName></item><item><ref target="volume_11343">Sinica 5960/2(6)</ref><title>玉雨堂書畫記 四卷</title> / <persName>(清)韓泰華</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="2">2冊</measure><!--洋裝2冊(原線裝16冊) ; 24公分--><dimensions unit="cm"><height>24</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「宜興任氏天春園所有圖書」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1917" type="d">1917</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180829/12:36:30|odh -->
+                        <!-- #0rr: 20191002/12:55:31-443414/105|omaster -->
+                        <!-- #0rx: dh775 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221328110107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.90">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9100">9100</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

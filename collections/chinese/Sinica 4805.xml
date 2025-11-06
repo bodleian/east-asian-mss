@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17310">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4805</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">小學類編</title>
+                     <title source="#200|9">xiao xue lei bian</title>
+                     <note source="#290">(清)李祖望編</note>
+                     <author source="#300" key="person_4526"><persName xml:lang="chi">(清)李祖望</persName><persName type="9">li zu
+                           wang</persName></author>
+                     <note source="#409">清咸豐中江都李氏半畝園刊光緒中彙印本</note>
+                     <editor source="#440" role="pbl"><persName>半畝園</persName><persName type="9" role="pbl">ban mu yuan</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_9977">Sinica 4805/1|pV</ref><title>惠氏讀說文記 十五卷</title> / <persName>(清)惠棟</persName></item><item><ref target="volume_9978">Sinica 4805/2-4|pV</ref><title>說文校議 三十卷</title> / <persName>(清)嚴可均</persName></item><item><ref target="volume_9979">Sinica 4805/5(1)|pV</ref><title>說文荅問 一卷</title> / <persName>(清)錢大昕</persName></item><item><ref target="volume_9980">Sinica 4805/5(2)|pV</ref><title>說文經字攷 一卷</title> / <persName>(清)陳壽祺</persName></item><item><ref target="volume_9981">Sinica 4805/5(3)|pV</ref><title>六書說 一卷</title> / <persName>(清)江聲</persName></item><item><ref target="volume_9982">Sinica 4805/5(4)|pV</ref><title>說文釋例 二卷</title> / <persName>(清)江沅</persName></item><item><ref target="volume_9983">Sinica 4805/5(5)|pV</ref><title>說文舊音 一卷</title> / <persName>(清)江沅</persName></item><item><ref target="volume_9984">Sinica 4805/6(1)|pV</ref><title>爾雅古注斠 三卷</title> / <persName>(清)葉蕙心</persName></item><item><ref target="volume_9985">Sinica 4805/6(2)|pV</ref><title>蘭如詩鈔 一卷</title> / <persName>(清)葉蕙心</persName></item><item><ref target="volume_9986">Sinica 4805/7-8|pV</ref></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="8">8冊</measure><!--線裝8冊 ; 24公分--><dimensions unit="cm"><height>24</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「西」、「廣州市立中山圖書館藏」、「廣東圖書館所藏書籍之印」、「宣統元年移置廣雅書局」、「廣雅書局藏書樓圖籍」、「曾藏袁文□家」、「廣雅書院經籍金石書畫之印」、「廣雅書院經籍金石書畫之印」、「龍氏收藏」印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1851" type="d">1851</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20060808/13:59:51|odh -->
+                        <!-- #0rr: 20191002/12:55:31-133003/25|omaster -->
+                        <!-- #0rx: dh339 -->
+                        <!-- #900: o -->
+                        <!-- #905: This copy contains a plethora of very impressive seals. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221460020107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_228" source="228.88">經部 <term>小學類 合刻</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

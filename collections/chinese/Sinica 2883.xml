@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6308">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2883</idno>
+               </msIdentifier>
+               <head>書名: 對樹書室叢刻 / (民國)趙詒琛編<lb/>民國崑山趙氏對樹書室刊1986年江蘇廣陵古籍刻印社重印本<lb/>線裝6冊 ; 27公分<lb/>統一書號
+                  17354.011<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">對樹書室叢刻</title>
+                     <title source="#200|9">dui shu shu shi cong ke</title>
+                     <note source="#290">(民國)趙詒琛編</note>
+                     <author source="#300" key="person_3189"><persName xml:lang="chi">(民國)趙詒琛</persName><persName type="9">zhao yi
+                           chen</persName></author>
+                     <note source="#409">民國崑山趙氏對樹書室刊1986年江蘇廣陵古籍刻印社重印本</note>
+                     <editor source="#440" role="pbl"><persName>對樹書室</persName><persName type="9" role="pbl">dui shu shu shi</persName></editor>
+                     <editor source="#440" role="pbl"><persName>江蘇廣陵古籍刻印社</persName><persName type="9" role="pbl">jiang su guang ling gu ji ke yin
+                        she</persName></editor>
+                     <msItem n="1">
+                        <title>元史弼違 二卷</title>
+                        <title source="9">yuan shi bi wei</title>
+                        <note source="290">(明)周復俊撰</note>
+                        <author key="person_2087"><persName xml:lang="chi">(明)周復俊</persName><persName type="9">zhou fu
+                           jun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000519|ons -->
+                        <!-- #0rx: ns0166+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>草莽私乘 一卷附刻一卷</title>
+                        <title source="9">cao mang si sheng</title>
+                        <note source="290">(元)陶宗儀輯</note>
+                        <author key="person_314"><persName xml:lang="chi">(元)陶宗儀</persName><persName type="9">tao zong
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000520|ons -->
+                        <!-- #0rr: 20030321/09:06:03|osn -->
+                        <!-- #0rx: ns0166+02 -->
+                        <!-- #600: 民國二十一年[1932]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>爨龍顏碑考釋 一卷</title>
+                        <title source="9">cuan long yan bei kao shi</title>
+                        <note source="290">(民國)趙詒琛輯</note>
+                        <author key="person_3189"><persName xml:lang="chi">(民國)趙詒琛</persName><persName type="9">zhao yi
+                              chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000521|ons -->
+                        <!-- #0rr: 20090220/15:19:33|osn -->
+                        <!-- #0rx: ns0166+03 -->
+                        <!-- #600: 民國二十五年[1936]刊 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>怡松軒金石偶記 一卷</title>
+                        <title source="9">yi song xuan jin shi ou ji</title>
+                        <note source="290">陳洙輯</note>
+                        <author key="person_7194"><persName xml:lang="chi">陳洙</persName><persName type="9">chen
+                           zhu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000522|ons -->
+                        <!-- #0rr: 20010518/09:08:06|osn -->
+                        <!-- #0rx: ns0166+04 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>顧千里先生年譜 二卷</title>
+                        <title source="9">gu qian li xian sheng nian pu</title>
+                        <note source="290">(民國)趙詒琛撰</note>
+                        <author key="person_3189"><persName xml:lang="chi">(民國)趙詒琛</persName><persName type="9">zhao yi
+                              chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000523|ons -->
+                        <!-- #0rr: 20010605/13:20:22|osn -->
+                        <!-- #0rx: ns0166+05 -->
+                        <!-- #600: 民國二十一年[1932]刊 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>龔安節公野古集 三卷</title>
+                        <title source="9">gong an jie gong ye gu ji</title>
+                        <note source="290">(明)龔詡撰</note>
+                        <author key="person_2838"><persName xml:lang="chi">(明)龔詡</persName><persName type="9">gong
+                           xu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20000101/00000524|ons -->
+                        <!-- #0rx: ns0166+06 -->
+                        <!-- #600: 民國二十三年[1934]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="6">6冊</measure><!--線裝6冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1932" type="d">1932</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19940111/11:11:35|obm -->
+                        <!-- #0rr: 20140910/15:48:57-159661/1|odh -->
+                        <!-- #0rx: ns0166 -->
+                        <!-- #130: 17354.011 -->
+                        <!-- #900: or -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221326460107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.90">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

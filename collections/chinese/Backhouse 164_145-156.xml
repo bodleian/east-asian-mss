@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6494">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17079</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Backhouse</collection>
+                  <idno type="shelfmark">Backhouse 164/145-156</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17079">Backhouse 164</ref><lb/>書名: 監本附釋音春秋公羊注疏 二十八卷 / (漢)何休撰; (唐)陸德明音義; (□)□□疏<lb/>春秋公羊傳注疏校勘記 二十八卷 / (清)阮元撰; (清)盧宣旬摘錄</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">監本附釋音春秋公羊注疏 二十八卷</title>
+                     <title source="#200|9">jian ben fu shi yin chun qiu gong yang zhu shu</title>
+                     <note source="#290">(漢)何休撰</note>
+                     <note source="#290">(唐)陸德明音義</note>
+                     <note source="#290">(□)□□疏</note>
+                     <author source="#300" key="person_6482"><persName xml:lang="chi">(漢)何休</persName><persName type="9">he
+                           xiu</persName></author>
+                     <author source="#300" key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                  </msItem>
+                  <msItem n="2">
+                     <title xml:lang="chi" source="#201">春秋公羊傳注疏校勘記 二十八卷</title>
+                     <title source="#201|9">chun qiu gong yang zhuan zhu shu jiao kan ji</title>
+                     <note source="#291">(清)阮元撰</note>
+                     <note source="#291">(清)盧宣旬摘錄</note>
+                     <author source="#301" key="person_5987"><persName xml:lang="chi">(清)阮元</persName><persName type="9">ruan
+                           yuan</persName></author>
+                     <author source="#301" key="person_5210"><persName xml:lang="chi">(清)盧宣旬</persName><persName type="9">lu xuan
+                           xun</persName></author>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19950926/17:35:14|odh -->
+                        <!-- #0rx: dh034+08 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221309630107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

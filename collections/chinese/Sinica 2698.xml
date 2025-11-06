@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6282">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2698</idno>
+               </msIdentifier>
+               <head>書名: 十三經讀本 / (民國)唐文治編<lb/>民國甲子[1924]吳江施肇曾醒園刊本<lb/>洋裝21冊(原線裝100冊) ;
+                  28公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">十三經讀本</title>
+                     <title source="#200|9">shi san jing du ben</title>
+                     <note source="#290">(民國)唐文治編</note>
+                     <author source="#300" key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                           zhi</persName></author>
+                     <note source="#409">民國甲子[1924]吳江施肇曾醒園刊本</note>
+                     <msItem n="1">
+                        <title>十三經提綱 十三卷</title>
+                        <title source="9">shi san jing ti gang</title>
+                        <note source="290">(民國)唐文治撰</note>
+                        <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                              zhi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/10:57:42|odh -->
+                        <!-- #0rr: 20140910/10:57:59-369419/1|odh -->
+                        <!-- #0rx: dh540+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>周易讀本 四卷</title>
+                        <title source="9">zhou yi du ben</title>
+                        <note source="290">(宋)朱熹本義</note>
+                        <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                           xi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/11:00:05|odh -->
+                        <!-- #0rx: dh540+02 -->
+                        <msItem n="1=附">
+                           <title>周易故訓訂 一卷</title>
+                           <title source="9">zhou yi gu xun ding</title>
+                           <author key="person_6353"><persName xml:lang="chi">(清)黃以周</persName><persName type="9">huang yi
+                                 zhou</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/11:01:19|odh -->
+                           <!-- #000: dh540+02+1=附 -->
+                        </msItem>
+
+                        <msItem n="2=附">
+                           <title>周易注疏賸本 一卷</title>
+                           <title source="9">zhou yi zhu shu sheng ben</title>
+                           <author key="person_6353"><persName xml:lang="chi">(清)黃以周</persName><persName type="9">huang yi
+                                 zhou</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/11:02:29|odh -->
+                           <!-- #000: dh540+02+2=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="3">
+                        <msItem n="1">
+                           <title>尚書讀本 十卷</title>
+                           <title source="9">shang shu du ben</title>
+                           <note source="290">(漢)馬融, (漢)鄭玄注</note>
+                           <note source="290">(宋)王應麟撰集</note>
+                           <note source="290">(清)孫星衍補集</note>
+                           <author key="person_6621"><persName xml:lang="chi">(漢)馬融</persName><persName type="9">ma
+                              rong</persName></author>
+                           <author key="person_6609"><persName xml:lang="chi">(漢)鄭玄</persName><persName type="9">zheng
+                                 xuan</persName></author>
+                           <author key="person_1423"><persName xml:lang="chi">(宋)王應麟</persName><persName type="9">wang ying
+                                 lin</persName></author>
+                           <author key="person_3855"><persName xml:lang="chi">(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>尚書逸文 二卷</title>
+                           <title source="9">shang shu yi wen</title>
+                           <note source="291">(清)江聲撰集</note>
+                           <note source="291">(清)孫星衍補訂</note>
+                           <author key="person_4772"><persName xml:lang="chi">(清)江聲</persName><persName type="9">jiang
+                                 sheng</persName></author>
+                           <author key="person_3855"><persName xml:lang="chi">(清)孫星衍</persName><persName type="9">sun xing
+                                 yan</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/11:09:54|odh -->
+                        <!-- #0rx: dh540+03 -->
+                        <msItem n="1=附">
+                           <title>尚書約注 四卷</title>
+                           <title source="9">shang shu yue zhu</title>
+                           <author key="person_3285"><persName xml:lang="chi">(清)任啟運</persName><persName type="9">ren qi
+                                 yun</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/11:20:16|odh -->
+                           <!-- #000: dh540+03+1=附 -->
+                        </msItem>
+
+                        <msItem n="2=附">
+                           <title>洪範大義 三卷</title>
+                           <title source="9">hong fan da yi</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/11:21:56|odh -->
+                           <!-- #000: dh540+03+2=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="4">
+                        <title>詩經讀本 二十卷</title>
+                        <title source="9">shi jing du ben</title>
+                        <note source="290">(漢)毛亨傳</note>
+                        <note source="290">(漢)鄭玄箋</note>
+                        <note source="290">(唐)陸德明音義</note>
+                        <author key="person_6557"><persName xml:lang="chi">(漢)毛亨</persName><persName type="9">mao
+                           heng</persName></author>
+                        <author key="person_6609"><persName xml:lang="chi">(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/11:25:01|odh -->
+                        <!-- #0rx: dh540+04 -->
+                        <msItem n="1=附">
+                           <title>陳東塾先生讀詩日錄 一卷</title>
+                           <title source="9">chen dong shu xiang sheng du shi ri lu</title>
+                           <author key="person_6075"><persName xml:lang="chi">(清)陳澧</persName><persName type="9">chen
+                              li</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/12:18:08|odh -->
+                           <!-- #000: dh540+04+1=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="5">
+                        <title>周禮讀本 六卷</title>
+                        <title source="9">zhou li du ben</title>
+                        <note source="290">(漢)鄭玄注</note>
+                        <note source="290">(唐)陸德明音義</note>
+                        <author key="person_6609"><persName xml:lang="chi">(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <author key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/12:22:27|odh -->
+                        <!-- #0rx: dh540+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <msItem n="1">
+                           <title>儀禮讀本 十七卷</title>
+                           <title source="9">yi li du ben</title>
+                           <note source="290">(漢)鄭玄注</note>
+                           <note source="290">(清)張爾岐句讀</note>
+                           <author key="person_6609"><persName xml:lang="chi">(漢)鄭玄</persName><persName type="9">zheng
+                                 xuan</persName></author>
+                           <author key="person_4070"><persName xml:lang="chi">(清)張爾岐</persName><persName type="9">zhang er
+                                 qi</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>附 儀禮監本正誤 一卷</title>
+                           <title type="9">yi li jian ben zheng wu</title>
+                           <title>儀禮石本誤字 一卷</title>
+                           <title type="9">yi li shi ben wu zi</title>
+                           <note source="#291">(清)張爾岐撰</note>
+                           <author key="person_4070"><persName xml:lang="chi">(清)張爾岐</persName><persName type="9">zhang er
+                                 qi</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/12:31:06|odh -->
+                        <!-- #0rx: dh540+06 -->
+
+                     </msItem>
+                     <msItem n="7">
+                        <title>禮記讀本 二十卷</title>
+                        <title source="9">li ji du ben</title>
+                        <note source="290">(漢)鄭玄注</note>
+                        <author key="person_6609"><persName xml:lang="chi">(漢)鄭玄</persName><persName type="9">zheng
+                           xuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/12:33:20|odh -->
+                        <!-- #0rx: dh540+07 -->
+                        <msItem n="1=附">
+                           <title>撫本禮記鄭注考異 二卷</title>
+                           <title source="9">fu ben li ji zheng zhu kao yi</title>
+                           <author key="person_4032"><persName xml:lang="chi">(清)張敦仁</persName><persName type="9">zhang dun
+                                 ren</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/12:34:44|odh -->
+                           <!-- #000: dh540+07+1=附 -->
+                        </msItem>
+
+                        <msItem n="2=附">
+                           <title>禮記經注校證 二卷</title>
+                           <title source="9">li ji jing zhu jiao zheng</title>
+                           <author key="person_3158"><persName xml:lang="chi">(民國)王祖畬</persName><persName type="9">wang zu
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:06:40|odh -->
+                           <!-- #000: dh540+07+2=附 -->
+                        </msItem>
+
+                        <msItem n="3=附">
+                           <title>大學 一卷</title>
+                           <title source="9">da xue</title>
+                           <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                              xi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:07:43|odh -->
+                           <!-- #000: dh540+07+3=附 -->
+                        </msItem>
+
+                        <msItem n="4=附">
+                           <title>中庸 一卷</title>
+                           <title source="9">zhong yong</title>
+                           <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                              xi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:08:22|odh -->
+                           <!-- #000: dh540+07+4=附 -->
+                        </msItem>
+
+                        <msItem n="5=附">
+                           <title>大學大義 一卷</title>
+                           <title source="9">da xue da yi</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:09:39|odh -->
+                           <!-- #000: dh540+07+5=附 -->
+                        </msItem>
+
+                        <msItem n="6=附">
+                           <title>中庸大義 一卷</title>
+                           <title source="9">zhong yong</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:10:07|odh -->
+                           <!-- #000: dh540+07+6=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="8">
+                        <title>春秋左傳讀本 三十卷</title>
+                        <title source="9">chun qiu zuo zhuan du ben</title>
+                        <note source="290">(清)英和等撰</note>
+                        <author key="person_5407"><persName xml:lang="chi">(清)英和</persName><persName type="9">ying
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/14:11:59|odh -->
+                        <!-- #0rx: dh540+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>春秋公羊傳讀本 十二卷</title>
+                        <title source="9">chun qiu gong yang zhuan du ben</title>
+                        <note source="290">(漢)何休解詁</note>
+                        <note source="290">(唐)陸德明音義</note>
+                        <author key="person_6482"><persName xml:lang="chi">(漢)何休</persName><persName type="9">he
+                           xiu</persName></author>
+                        <author key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/14:13:52|odh -->
+                        <!-- #0rx: dh540+09 -->
+                        <msItem n="1=附">
+                           <title>重刊宋紹熙公羊傳注附音本校記 一卷</title>
+                           <title source="9">chong kan song shao xi gong yang zhuan zhu fu yin ben
+                              jiao ji</title>
+                           <author key="person_6319"><persName xml:lang="chi">(清)魏彥</persName><persName type="9">wei
+                              yan</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:17:34|odh -->
+                           <!-- #000: dh540+09+1=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="10">
+                        <title>春秋穀梁傳讀本 十二卷</title>
+                        <title source="9">chun qiu gu liang zhuan du ben</title>
+                        <note source="290">(晉)范甯集解</note>
+                        <note source="290">(唐)陸德明音義</note>
+                        <author key="person_2954"><persName xml:lang="chi">(晉)范寧</persName><persName type="9">fan
+                           ning</persName></author>
+                        <author key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/14:24:34|odh -->
+                        <!-- #0rx: dh540+10 -->
+                        <msItem n="1=附">
+                           <title>余仁仲萬卷堂穀梁傳考異 一卷</title>
+                           <title source="9">yu ren zhong wan juan tang gu liang zhuan kao
+                              yi</title>
+                           <author key="person_4671"><persName xml:lang="chi">(清)楊守敬</persName><persName type="9">yang shou
+                                 jing</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/14:27:44|odh -->
+                           <!-- #000: dh540+10+1=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="11">
+                        <msItem n="1">
+                           <title>論語讀本 十卷</title>
+                           <title source="9">lun yu du ben</title>
+                           <note source="290">(宋)朱熹集注</note>
+                           <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                              xi</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>論語集注校語 一卷</title>
+                           <title type="9">lun yu ji zhu jiao yu</title>
+                           <note source="#291">(民國)王祖畬撰</note>
+                           <author key="person_3158"><persName xml:lang="chi">(民國)王祖畬</persName><persName type="9">wang zu
+                                 yu</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/14:30:24|odh -->
+                        <!-- #0rr: 20140910/15:02:38-370042/1|odh -->
+                        <!-- #0rx: dh540+11 -->
+                        <msItem n="1">
+                           <title>論語大義定本 二十卷</title>
+                           <title source="9">lun yu da yi ding ben</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/15:05:13|odh -->
+                           <!-- #000: dh540+11+1 -->
+                        </msItem>
+
+                        <msItem n="1=附">
+                           <title>論語大義定本 二十卷</title>
+                           <title source="9">lun yu da yi ding ben</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/15:05:24|odh -->
+                           <!-- #000: dh540+11+1=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="12">
+                        <title>孝經讀本 四卷</title>
+                        <title source="9">xiao jing xiao jing du ben</title>
+                        <note source="290">(明)黃道周撰</note>
+                        <author key="person_2827"><persName xml:lang="chi">(明)黃道周</persName><persName type="9">huang dao
+                              zhou</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/15:06:48|odh -->
+                        <!-- #0rx: dh540+12 -->
+                        <msItem n="1=附">
+                           <title>孝敬大義 一卷附錄一卷</title>
+                           <title source="9">xiao jing da yi</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/15:08:17|odh -->
+                           <!-- #000: dh540+12+1=附 -->
+                        </msItem>
+                     </msItem>
+                     <msItem n="13">
+                        <title>爾雅讀本 十一卷</title>
+                        <title source="9">er ya du ben</title>
+                        <note source="290">(晉)郭璞注</note>
+                        <note source="290">(宋)邢昺疏</note>
+                        <note source="290">(唐)陸德明音義</note>
+                        <author key="person_2985"><persName xml:lang="chi">(晉)郭璞</persName><persName type="9">guo
+                           pu</persName></author>
+                        <author key="person_1681"><persName xml:lang="chi">(宋)邢昺</persName><persName type="9">xing
+                           bing</persName></author>
+                        <author key="person_854"><persName xml:lang="chi">(唐)陸德明</persName><persName type="9">lu de
+                           ming</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/15:10:33|odh -->
+                        <!-- #0rx: dh540+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <msItem n="1">
+                           <title>孟子讀本 十四卷</title>
+                           <title source="9">meng zi du ben</title>
+                           <note source="290">(宋)朱熹集注</note>
+                           <author key="person_1250"><persName xml:lang="chi">(宋)朱熹</persName><persName type="9">zhu
+                              xi</persName></author>
+                        </msItem>
+                        <msItem n="2">
+                           <title>孟子集注校語 一卷</title>
+                           <title type="9">meng zi ji zhu jiao yu</title>
+                           <note source="#291">(民國)王祖畬撰</note>
+                           <author key="person_3158"><persName xml:lang="chi">(民國)王祖畬</persName><persName type="9">wang zu
+                                 yu</persName></author>
+                        </msItem>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/15:13:22|odh -->
+                        <!-- #0rx: dh540+14 -->
+                        <msItem n="1=附">
+                           <title>讀孟隨筆 二卷</title>
+                           <title source="9">du meng sui bi</title>
+                           <author key="person_3158"><persName xml:lang="chi">(民國)王祖畬</persName><persName type="9">wang zu
+                                 yu</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/15:14:32|odh -->
+                           <!-- #000: dh540+14+1=附 -->
+                        </msItem>
+
+                        <msItem n="2=附">
+                           <title>孟子大義 一卷</title>
+                           <title source="9">meng zi da yi</title>
+                           <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                                 zhi</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140910/15:16:19|odh -->
+                           <!-- #000: dh540+14+2=附 -->
+                        </msItem>
+
+                     </msItem>
+                     <msItem n="15">
+                        <title>十三經讀本評點劄記 四十五卷</title>
+                        <title source="9">shi san jing du ben ping dian zha ji</title>
+                        <note source="290">(民國)唐文治輯</note>
+                        <author key="person_3086"><persName xml:lang="chi">(民國)唐文治</persName><persName type="9">tang wen
+                              zhi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/15:18:27|odh -->
+                        <!-- #0rx: dh540+15 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="21">21冊</measure><!--洋裝21冊(原線裝100冊) ; 28公分--><dimensions unit="cm"><height>28</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1924" type="d">1924</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140910/10:55:52|odh -->
+                        <!-- #0rr: 20140910/17:16:19-370007/8|omaster -->
+                        <!-- #0rx: dh540 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221567390107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_280" source="280.90">經部 <term>總義類 群經</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="0110">0110</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

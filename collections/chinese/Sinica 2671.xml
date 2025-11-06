@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6281">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2671</idno>
+               </msIdentifier>
+               <head>書名: 貨園叢書 殘五種 / (清)周永年編<lb/>清乾隆中李文藻潮陽刊本<lb/>線裝10冊 ; 27公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">貨園叢書 殘五種</title>
+                     <title source="#200|9">huo yuan cong shu</title>
+                     <note source="#290">(清)周永年編</note>
+                     <author source="#300" key="person_3700"><persName xml:lang="chi">(清)周永年</persName><persName type="9">zhou yong
+                           nian</persName></author>
+                     <note source="#409">清乾隆中李文藻潮陽刊本</note>
+                     <msItem n="1">
+                        <title>古韻標準 四卷</title>
+                        <title source="9">gu yun biao zhun</title>
+                        <title>詩韻舉例 一卷</title>
+                        <title source="9">shi yun ju li</title>
+                        <note source="290">(清)江永編</note>
+                        <note source="290">(清)戴震參定</note>
+                        <author key="person_4766"><persName xml:lang="chi">(清)江永</persName><persName type="9">jiang
+                           yong</persName></author>
+                        <author key="person_4277"><persName xml:lang="chi">(清)戴震</persName><persName type="9">dai
+                           zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:07:13|odh -->
+                        <!-- #0rx: dh536+1 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>四聲切韻表 一卷</title>
+                        <title source="9">si sheng qie yun biao</title>
+                        <note source="290">(清)江永編</note>
+                        <author key="person_4766"><persName xml:lang="chi">(清)江永</persName><persName type="9">jiang
+                           yong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:08:57|odh -->
+                        <!-- #0rx: dh536+2 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>聲韻考 四卷</title>
+                        <title source="9">sheng yun kao</title>
+                        <note source="290">(清)戴震撰</note>
+                        <author key="person_4277"><persName xml:lang="chi">(清)戴震</persName><persName type="9">dai
+                           zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:10:55|odh -->
+                        <!-- #0rr: 20140814/16:17:01-367914/1|odh -->
+                        <!-- #0rx: dh536+3 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>石刻鋪敘 二卷</title>
+                        <title source="9">shi ke pu xu</title>
+                        <note source="290">(宋)曾宏父撰</note>
+                        <author key="person_1235"><persName xml:lang="chi">(宋)曾宏父</persName><persName type="9">zeng hong
+                              fu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:18:20|odh -->
+                        <!-- #0rx: dh536+4 -->
+                        <!-- #900: o -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>三事忠告 四卷</title>
+                        <title source="9">san shi zhong gao</title>
+                        <note source="290">(元)張養浩撰</note>
+                        <author key="person_123"><persName xml:lang="chi">(元)張養浩</persName><persName type="9">zhang yang
+                              hao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:19:29|odh -->
+                        <!-- #0rr: 20140814/16:19:38-367916/1|odh -->
+                        <!-- #0rx: dh536+5 -->
+                        <!-- #900: o -->
+                        <msItem n="1">
+                           <title>牧民忠告 二卷</title>
+                           <title source="9">mu min zhong gao</title>
+                           <author key="person_123"><persName xml:lang="chi">(元)張養浩</persName><persName type="9">zhang yang
+                                 hao</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140814/16:20:50|odh -->
+                           <!-- #000: dh536+5+1 -->
+                        </msItem>
+
+                        <msItem n="2">
+                           <title>風憲忠告 一卷</title>
+                           <title source="9">feng xian zhong gao</title>
+                           <author key="person_123"><persName xml:lang="chi">(元)張養浩</persName><persName type="9">zhang yang
+                                 hao</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140814/16:21:47|odh -->
+                           <!-- #000: dh536+5+2 -->
+                        </msItem>
+
+                        <msItem n="3">
+                           <title>廟堂忠告 一卷</title>
+                           <title source="9">miao tang zhong gao</title>
+                           <author key="person_123"><persName xml:lang="chi">(元)張養浩</persName><persName type="9">zhang yang
+                                 hao</persName></author>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20140814/16:22:20|odh -->
+                           <!-- #000: dh536+5+3 -->
+                        </msItem>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="10">10冊</measure><!--線裝10冊 ; 27公分--><dimensions unit="cm"><height>27</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1736" type="d">1736</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20140814/16:03:05|odh -->
+                        <!-- #0rr: 20140820/17:24:37-367911/9|omaster -->
+                        <!-- #0rx: dh536 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221418340107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.87">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

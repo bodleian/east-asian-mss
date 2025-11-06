@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6419">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6653</idno>
+               </msIdentifier>
+               <head>書名: 西泠五布衣遺箸 / (清)丁丙編<lb/>清同治光緒間錢唐丁氏當歸草堂刊後印本<lb/>線裝1冊(原線裝4冊) ; 25公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">西泠五布衣遺箸</title>
+                     <title source="#200|9">xi leng wu bu yi yi zhu</title>
+                     <note source="#290">(清)丁丙編</note>
+                     <author source="#300" key="person_3242"><persName xml:lang="chi">(清)丁丙</persName><persName type="9">ding
+                           bing</persName></author>
+                     <note source="#409">清同治光緒間錢唐丁氏當歸草堂刊後印本</note>
+                     <msItem n="1">
+                        <title>冬花庵燼餘稾 三卷</title>
+                        <title source="9">dong hua an jin yu gao</title>
+                        <note source="290">(淸)奚岡撰</note>
+                        <author key="person_3781"><persName xml:lang="chi">(清)奚岡</persName><persName type="9">xi
+                           gang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000011|odh -->
+                        <!-- #0rx: dh699+1 -->
+                        <!-- #600: 同治十一年[1872]刊 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>樊榭山房集外詩 三卷</title>
+                        <title source="9">fan xie shan fang ji wai shi</title>
+                        <note source="290">(清)厲鶚撰</note>
+                        <author><persName xml:lang="chi">(清)厲鶚</persName><persName type="9">li
+                           e</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000012|odh -->
+                        <!-- #0rx: dh699+2 -->
+                        <!-- #600: 同治甲戌[1874]刊 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>半巖廬遺詩 一卷</title>
+                        <title source="9">ban yan lu yi shi</title>
+                        <note source="290">(清)邵懿辰撰</note>
+                        <author key="person_5771"><persName xml:lang="chi">(清)邵懿辰</persName><persName type="9">shao yi
+                              chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000013|odh -->
+                        <!-- #0rx: dh699+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>臨江鄉人詩 四卷</title>
+                        <title source="9">lin jiang xiang ren shi</title>
+                        <note source="290">(淸)吳穎芳撰</note>
+                        <author key="person_3611"><persName xml:lang="chi">(清)吳穎芳</persName><persName type="9">wu ying
+                              fang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000014|odh -->
+                        <!-- #0rx: dh699+4 -->
+                        <!-- #600: 同治辛未[1871]刊 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>柳州遺稾 二卷</title>
+                        <title source="9">liu zhou yi gao</title>
+                        <note source="290">(淸)魏之琇撰</note>
+                        <author key="person_6315"><persName xml:lang="chi">(清)魏之琇</persName><persName type="9">wei zhi
+                           xiu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000015|odh -->
+                        <!-- #0rx: dh699+5 -->
+                        <!-- #600: 同治壬申[1872]刊 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>硯林詩集 四卷</title>
+                        <title source="9">yan lin shi ji</title>
+                        <note source="290">(清)丁敬撰</note>
+                        <author key="person_3252"><persName xml:lang="chi">(清)丁敬</persName><persName type="9">ding
+                           jing</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000016|odh -->
+                        <!-- #0rx: dh699+6 -->
+                        <!-- #600: 同治十年[1871]刊 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>冬心先生集 四卷續集一卷三體詩一卷自度曲一卷雜著六卷隨筆一卷</title>
+                        <title source="9">dong xin xian sheng ji</title>
+                        <note source="290">(清)金農撰</note>
+                        <author key="person_5897"><persName xml:lang="chi">(清)金農</persName><persName type="9">jin
+                           nong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180604/00000017|odh -->
+                        <!-- #0rr: 20180604/20:58:13-438168/1|odh -->
+                        <!-- #0rx: dh699+7 -->
+                        <!-- #600: 同治戊辰[1868]續集光緒癸未[1883]自度曲庚辰[1880]雜著隨筆戊寅[1878]刊 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--線裝1冊(原線裝4冊) ; 25公分--><dimensions unit="cm"><height>25</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1868" notAfter="1883" type="g">1868
+                        - 1883</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180601/17:54:32|odh -->
+                        <!-- #0rr: 20180614/18:57:03-438068/19|omaster -->
+                        <!-- #0rx: dh699 -->
+                        <!-- #900: o -->
+                        <!-- #905: Title page and preface are from the same blocks as Sinica 2827, and are bound before 硯林詩集. There is no table of contents, and the contents are fewer than in S.2826 and 2827, but there are two works not in those copies. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221392980107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_720" source="720.90">集部 <term>總集類 通代</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="9110">9110</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -16,7 +16,37 @@
          in msdesc2html.xsl in the consolidated-tei-schema repository, allowing customization of manuscript 
          display for each catalogue. -->
 
-
+    <xsl:template match="msDesc/msIdentifier/altIdentifier[child::idno[not(@subtype)]]">
+        <xsl:choose>
+            <xsl:when test="idno[not(@subtype)]/@type='SCN'">
+                <p>
+                    <xsl:text>Summary Catalogue no.: </xsl:text>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+            <xsl:when test="idno[not(@subtype)]/@type='CE'">
+                <p>
+                    <xsl:text>C.E. no.: </xsl:text>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+            <xsl:when test="idno[not(@subtype)]/@type='IHE'">
+                <p>
+                    <xsl:text>I.H.E. no.: </xsl:text>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="msDesc/msIdentifier/altIdentifier[@type='former' and child::idno[not(@subtype)]]">
+        <p>
+            <xsl:text>Former shelfmark: </xsl:text>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    
 
     <!-- Append the calendar if it does not appear to have been mentioned in the origDate text -->
     <xsl:template match="origDate[@calendar]">
@@ -132,5 +162,97 @@
             </xsl:choose>
         </div>
     </xsl:template>
-
+    
+    <!-- East-Asian customisations -->
+    <!-- Deal with only having heights, not widths. -->
+    <xsl:template match="height[not(parent::dimensions/width)]">
+        <span class="height">
+            <xsl:value-of select="."/>
+        </span>
+        <xsl:text> cm (height)</xsl:text>
+    </xsl:template>
+    
+    <!-- Add a space between traditional and romanized text. -->
+    <xsl:template match="persName">
+        <!-- If this is a <persName type="9"> and previous sibling is <persName> without @type -->
+        <xsl:if test="@type='9' and preceding-sibling::*[1][self::persName and not(@type)]">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:value-of select="."/>
+    </xsl:template>
+   
+   <!-- Add statement for cover title-->
+    <xsl:template match="note[@source='#600']">
+        <div class="tei-title">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Cover title:')"/>
+                <xsl:text> </xsl:text>
+            </span>
+            <span>
+                <xsl:copy-of select="bod:direction(.)"/>
+                <xsl:apply-templates/>
+            </span>
+        </div></xsl:template>
+    <xsl:template match="note[@source='#409']">
+        <div class="tei-title">
+            <span class="tei-label">
+                <xsl:copy-of select="bod:standardText('Edition statement:')"/>
+                <xsl:text> </xsl:text>
+            </span>
+            <span>
+                <xsl:copy-of select="bod:direction(.)"/>
+                <xsl:apply-templates/>
+            </span>
+        </div></xsl:template>
+    
+    <xsl:template match="item/ref[@target]">
+        <!-- This matches item/refs which are used to link collections with individual items, and makes them hyperlinks -->
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="string-join((name(), @role), ' ')"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="@target and not(@target='')">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="$website-url"/>
+                            <xsl:text>/catalog/</xsl:text>
+                            <xsl:value-of select="@target"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </span></xsl:template>
+    <xsl:template match="msDesc/head/ref[@target]">
+        <!-- This matches head/refs which are used to link individual items with their parents, and makes them hyperlinks -->
+        <span>
+            <xsl:attribute name="class">
+                <xsl:value-of select="string-join((name(), @role), ' ')"/>
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="@target and not(@target='')">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="$website-url"/>
+                            <xsl:text>/catalog/</xsl:text>
+                            <xsl:value-of select="@target"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </span></xsl:template>
+    <!-- hide collection information -->
+    <xsl:template match="msIdentifier/collection"/>
+    <!-- hide 29X field if there's a author field-->
+    <xsl:template match="note[starts-with(@source, '#') and number(substring(@source, 2)) &gt;= 290 and number(substring(@source, 2)) &lt;= 299 and ../author]"/>
+    <!-- hide empty language fields - normally child records -->
+    <xsl:template match="textLang[not(child::* or text())]"/>
 </xsl:stylesheet>

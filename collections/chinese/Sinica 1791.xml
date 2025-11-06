@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_1542">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 1791</idno>
+               </msIdentifier>
+               <head>書名: 華英和合通書<lb/>香港, 1843-1865<lb/>An almanac first published in 1843 with the title 「華英和合通書」; entitled 「華番和合通書」 1844-1853, 「和合通書」 1854-1860 and from 1864, 「唐番和合通書」 1861-1863; last issue 1865? Compiled by D. Ball 1843-1854 and 1859-1860, J.B. French 1855-1858, D. Vrooman from 1861. Published Hong Kong 1843-1854, Canton 1855-1856 and from 1861, Macao 1857-1858, Hong Kong (?) 1859-1860<lb/></head><msContents>
+                  <textLang mainLang="chi" otherLangs="eng">Chinese, English</textLang>
+                  <msItem n="1">
+                  <title xml:lang="chi" source="#200">華英和合通書</title><title source="#200|9">hua ying he he tong shu</title><title type="variant" source="#230">華番和合通書</title><title source="#230|9" type="variant">hua fan he he tong shu</title><title type="variant" source="#230">和合通書</title><title source="#230|9" type="variant">he he tong shu</title><title type="variant" source="#230">唐番和合通書</title><title source="#230|9" type="variant">tang fan he he tong shu</title><author source="#300" key="person_6767"><persName xml:lang="chi">Ball, Dyer</persName></author><author source="#300" key="person_6851"><persName xml:lang="chi">French, John Booth</persName></author><author source="#300" key="person_7067"><persName xml:lang="chi">Vrooman, Daniel</persName></author><note source="#600">An almanac first published in 1843 with the title 「華英和合通書」; entitled 「華番和合通書」 1844-1853, 「和合通書」 1854-1860 and from 1864, 「唐番和合通書」 1861-1863; last issue 1865? Compiled by D. Ball 1843-1854 and 1859-1860, J.B. French 1855-1858, D. Vrooman from 1861. Published Hong Kong 1843-1854, Canton 1855-1856 and from 1861, Macao 1857-1858, Hong Kong (?) 1859-1860</note></msItem>         
+               </msContents>
+               <physDesc><objectDesc>
+                     
+                     <supportDesc>
+                        <extent><measure type="volume" n="1">1冊 (25頁)</measure><dimensions unit="cm"><height>24.6</height></dimensions></extent>
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  <bindingDesc><p xml:lang="chi">線裝</p></bindingDesc>
+               <typeDesc><p>woodblock</p><p>typography</p></typeDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1843" notAfter="1865" type="b">1843 - 1865</origDate>
+                     <origPlace>Hong Kong</origPlace>
+                  <origPlace source="#410">香港(xiang gang)</origPlace></origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                     <!--Unused allegro fields--><!-- #000: 20031112/16:41:59|odh --><!-- #0rr: 20200219/09:58:10-116160/1|osn --><!-- #0cm: s --><!-- #430: 1843-1865 --><!-- #900: p --><!-- #909: SerD --></recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221325460107026">SOLO</ref></p></availability>
+                  </adminInfo>
+               <surrogates>
+ <listBibl>
+  <bibl subtype="full" type="digital-facsimile">
+   <ref target="https://digital.bodleian.ox.ac.uk/objects/23010915-468c-4fb3-9b95-3310e220104a">
+    <title>Digital Bodleian</title>
+   </ref>
+   <note>(full digital facsimile)</note>
+  </bibl>
+ </listBibl>
+</surrogates></additional>
+            </msDesc>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl>
+                  Siku classification
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl>
+                  Bodleian Chinese thesaurus
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl>
+                  Harvard-Yenching Classification System
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+               <item><term key="subject_978" source="978.1843">西人著書 <term>通書</term></term></item></list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list>
+               </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

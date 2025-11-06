@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_14614">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17428</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6631/8</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17428">Sinica 6631</ref><lb/>書名: 河圖緯 一卷</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">河圖緯 一卷</title>
+                     <title source="#200|9">he tu wei</title>
+                     <msItem n="01">
+                        <title>河圖祕徵</title>
+                        <title source="9">he tu mi zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000115|odh -->
+                        <!-- #0rx: dh680+103+01 -->
+                     </msItem>
+                     <msItem n="02">
+                        <title>河圖帝通紀</title>
+                        <title source="9">he tu di tong ji</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000116|odh -->
+                        <!-- #0rx: dh680+103+02 -->
+                     </msItem>
+                     <msItem n="03">
+                        <title>河圖著命</title>
+                        <title source="9">he tu zhu ming</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000117|odh -->
+                        <!-- #0rx: dh680+103+03 -->
+                     </msItem>
+                     <msItem n="04">
+                        <title>河圖說徵</title>
+                        <title source="9">he tu shuo zheng</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000118|odh -->
+                        <!-- #0rx: dh680+103+04 -->
+                     </msItem>
+                     <msItem n="05">
+                        <title>河圖考靈曜</title>
+                        <title source="9">he tu kao ling yao</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000119|odh -->
+                        <!-- #0rx: dh680+103+05 -->
+                     </msItem>
+                     <msItem n="06">
+                        <title>河圖眞鉤</title>
+                        <title source="9">he tu zhen gou</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000120|odh -->
+                        <!-- #0rx: dh680+103+06 -->
+                     </msItem>
+                     <msItem n="07">
+                        <title>河圖提劉</title>
+                        <title source="9">he tu ti liu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000121|odh -->
+                        <!-- #0rx: dh680+103+07 -->
+                     </msItem>
+                     <msItem n="08">
+                        <title>河圖會昌符</title>
+                        <title source="9">he tu hui chang fu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000122|odh -->
+                        <!-- #0rx: dh680+103+08 -->
+                     </msItem>
+                     <msItem n="09">
+                        <title>河圖天靈</title>
+                        <title source="9">he tu tian ling</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000123|odh -->
+                        <!-- #0rx: dh680+103+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>河圖要元</title>
+                        <title source="9">he tu yao yuan</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000124|odh -->
+                        <!-- #0rx: dh680+103+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>河圖叶光紀</title>
+                        <title source="9">he tu ye guang ji</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000125|odh -->
+                        <!-- #0rx: dh680+103+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>河圖絳象</title>
+                        <title source="9">he tu jiang xiang</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000126|odh -->
+                        <!-- #0rx: dh680+103+12 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>河圖皇參持</title>
+                        <title source="9">he tu huang can chi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000127|odh -->
+                        <!-- #0rx: dh680+103+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>河圖闓苞授</title>
+                        <title source="9">he tu kai bao shou</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000128|odh -->
+                        <!-- #0rx: dh680+103+14 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>河圖合古篇</title>
+                        <title source="9">he tu he gu pian</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000129|odh -->
+                        <!-- #0rx: dh680+103+15 -->
+                     </msItem>
+                     <msItem n="16">
+                        <title>河圖赤伏符</title>
+                        <title source="9">he tu chi fu fu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000130|odh -->
+                        <!-- #0rx: dh680+103+16 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20180516/00000114|odh -->
+                        <!-- #0rx: dh680+103 -->
+                        <!-- #0rz: 通緯 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221401990107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

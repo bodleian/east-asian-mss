@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6396">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6315</idno>
+               </msIdentifier>
+               <head>書名: 清詩話 / (民國)丁福保輯<lb/>民國五年[1916]上海文明書局排印本<lb/>洋裝3冊(原線裝20冊) ; 21公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">清詩話</title>
+                     <title source="#200|9">qing shi hua</title>
+                     <note source="#290">(民國)丁福保輯</note>
+                     <author source="#300" key="person_3070"><persName xml:lang="chi">(民國)丁福保</persName><persName type="9">ding fu
+                           bao</persName></author>
+                     <note source="#409">民國五年[1916]上海文明書局排印本</note>
+                     <editor source="#440" role="pbl"><persName>文明書局</persName></editor>
+                     <msItem n="1">
+                        <title>薑齋詩話 二卷</title>
+                        <title source="9">jiang zhai shi hua</title>
+                        <note source="290">(清)王夫之譔</note>
+                        <author key="person_5038"><persName xml:lang="chi">(清)王夫之</persName><persName type="9">wang fu
+                           zhi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:22:35|odh -->
+                        <!-- #0rr: 20150324/13:28:39-369671/1|odh -->
+                        <!-- #0rx: dh572+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>答萬季埜詩問 一卷</title>
+                        <title source="9">da wan ji ye shi wen</title>
+                        <note source="290">(清)吳喬著</note>
+                        <author key="person_3545"><persName xml:lang="chi">(清)吳喬</persName><persName type="9">wu
+                           qiao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:26:04|odh -->
+                        <!-- #0rr: 20150324/13:28:57-377398/1|odh -->
+                        <!-- #0rx: dh572+02 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>鈍吟雜錄 一卷</title>
+                        <title source="9">dun yin za lu</title>
+                        <note source="290">(清)馮定遠原本</note>
+                        <author><persName xml:lang="chi">(清)馮班</persName><persName type="9">feng
+                           ban</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:27:59|odh -->
+                        <!-- #0rr: 20150324/13:31:31-377399/1|odh -->
+                        <!-- #0rx: dh572+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>江西詩社宗派圖錄 一卷</title>
+                        <title source="9">jiang xi shi she zong pai tu lu</title>
+                        <note source="290">(清)張泰來述</note>
+                        <author key="person_4050"><persName xml:lang="chi">(清)張泰來</persName><persName type="9">zhang tai
+                              lai</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:30:17|odh -->
+                        <!-- #0rx: dh572+04 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>梅村詩話 一卷</title>
+                        <title source="9">mei cun shi hua</title>
+                        <note source="290">(清)吳偉業著</note>
+                        <author key="person_3532"><persName xml:lang="chi">(清)吳偉業</persName><persName type="9">wu wei
+                           ye</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:32:35|odh -->
+                        <!-- #0rx: dh572+05 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>寒廳詩話 一卷</title>
+                        <title source="9">han ting shi hua</title>
+                        <note source="290">(清)顧嗣立著</note>
+                        <author key="person_6212"><persName xml:lang="chi">(清)顧嗣立</persName><persName type="9">gu si
+                           li</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:33:26|odh -->
+                        <!-- #0rx: dh572+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>茗香詩論 一卷</title>
+                        <title source="9">ming xiang shi lun</title>
+                        <note source="290">(清)宋大樽著</note>
+                        <author key="person_3890"><persName xml:lang="chi">(清)宋大樽</persName><persName type="9">song da
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:34:05|odh -->
+                        <!-- #0rx: dh572+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>律詩定體 一卷</title>
+                        <title source="9">lu shi ding ti</title>
+                        <note source="290">(清)王士禛撰</note>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:34:51|odh -->
+                        <!-- #0rx: dh572+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>然鐙記聞 一卷</title>
+                        <title source="9">ran deng ji wen</title>
+                        <note source="290">(清)漁洋夫子口授</note>
+                        <note source="290">(清)何世璂述</note>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <author key="person_3296"><persName xml:lang="chi">(清)何世璂</persName><persName type="9">he shi
+                           qi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:35:48|odh -->
+                        <!-- #0rx: dh572+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>師友詩傳錄 一卷</title>
+                        <title source="9">shi you shi chuan lu</title>
+                        <note source="290">(清)郎廷槐問</note>
+                        <note source="290">(清)王士正, (清)張篤慶, (清)張實居答</note>
+                        <author key="person_5781"><persName xml:lang="chi">(清)郎廷槐</persName><persName type="9">lang ting
+                              huai</persName></author>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <author key="person_4087"><persName xml:lang="chi">(清)張篤慶</persName><persName type="9">zhang du
+                              qing</persName></author>
+                        <author key="person_4003"><persName xml:lang="chi">(清)張實居</persName><persName type="9">zhang shi
+                              ju</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:38:15|odh -->
+                        <!-- #0rx: dh572+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>師友詩傳續錄 一卷</title>
+                        <title source="9">shi you shi chuan xu lu</title>
+                        <note source="290">(清)劉大勤問</note>
+                        <note source="290">(清)王士正答</note>
+                        <author key="person_3428"><persName xml:lang="chi">(清)劉大勤</persName><persName type="9">liu da
+                           qin</persName></author>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:39:15|odh -->
+                        <!-- #0rx: dh572+11 -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>漁洋詩話 三卷</title>
+                        <title source="9">yu yang shi hua</title>
+                        <note source="290">(清)王貽上撰</note>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:41:08|odh -->
+                        <!-- #0rx: dh572+12 -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>王文簡古詩平仄論 一卷</title>
+                        <title source="9">wang wen jian gu shi ping ze lun</title>
+                        <note source="290">(清)王士禛撰</note>
+                        <author key="person_5032"><persName xml:lang="chi">(清)王士禛</persName><persName type="9">wang shi
+                              zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:42:13|odh -->
+                        <!-- #0rx: dh572+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>趙秋古所傳聲調譜 二卷</title>
+                        <title source="9">zhao qiu gu suo chuan sheng diao pu</title>
+                        <note source="290">(清)趙執信撰</note>
+                        <author key="person_5727"><persName xml:lang="chi">(清)趙執信</persName><persName type="9">zhao zhi
+                              xin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:43:28|odh -->
+                        <!-- #0rx: dh572+14 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>五言詩平仄舉隅 一卷</title>
+                        <title source="9">wu yan shi ping ze ju yu</title>
+                        <note source="290">(清)翁方綱撰</note>
+                        <author key="person_5340"><persName xml:lang="chi">(清)翁方綱</persName><persName type="9">weng fang
+                              gang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:44:26|odh -->
+                        <!-- #0rx: dh572+15 -->
+                     </msItem>
+                     <msItem n="16">
+                        <title>七言詩平仄舉隅 一卷</title>
+                        <title source="9">qi yan shi ping ze ju yu</title>
+                        <note source="290">(清)翁方綱撰</note>
+                        <author key="person_5340"><persName xml:lang="chi">(清)翁方綱</persName><persName type="9">weng fang
+                              gang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:45:00|odh -->
+                        <!-- #0rx: dh572+16 -->
+                     </msItem>
+                     <msItem n="17">
+                        <title>七言詩三昧舉隅 一卷</title>
+                        <title source="9">qi yan shi san mei ju yu</title>
+                        <note source="290">(清)翁方綱撰</note>
+                        <author key="person_5340"><persName xml:lang="chi">(清)翁方綱</persName><persName type="9">weng fang
+                              gang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:45:29|odh -->
+                        <!-- #0rx: dh572+17 -->
+                     </msItem>
+                     <msItem n="18">
+                        <title>談龍錄 一卷</title>
+                        <title source="9">tan long lu</title>
+                        <note source="290">(清)趙執信著</note>
+                        <author key="person_5727"><persName xml:lang="chi">(清)趙執信</persName><persName type="9">zhao zhi
+                              xin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:46:12|odh -->
+                        <!-- #0rx: dh572+18 -->
+                     </msItem>
+                     <msItem n="19">
+                        <title>聲調譜 一卷</title>
+                        <title source="9">sheng diao pu</title>
+                        <note source="290">(清)趙執信纂</note>
+                        <author key="person_5727"><persName xml:lang="chi">(清)趙執信</persName><persName type="9">zhao zhi
+                              xin</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:47:25|odh -->
+                        <!-- #0rr: 20150324/13:49:06-377421/1|odh -->
+                        <!-- #0rx: dh572+19 -->
+                     </msItem>
+                     <msItem n="20">
+                        <title>聲調譜拾遺 一卷</title>
+                        <title source="9">sheng diao pu shi yi</title>
+                        <note source="290">(清)翟翬編</note>
+                        <author key="person_5346"><persName xml:lang="chi">(清)翟翬</persName><persName type="9">zhai
+                           hui</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:48:47|odh -->
+                        <!-- #0rx: dh572+20 -->
+                     </msItem>
+                     <msItem n="21">
+                        <title>蠖齋詩話 一卷</title>
+                        <title source="9">huo zhai shi hua</title>
+                        <note source="290">(清)施閏章著</note>
+                        <author key="person_4331"><persName xml:lang="chi">(清)施閏章</persName><persName type="9">shi run
+                              zhang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:49:58|odh -->
+                        <!-- #0rx: dh572+21 -->
+                     </msItem>
+                     <msItem n="22">
+                        <title>漫堂說詩 一卷</title>
+                        <title source="9">man tang shuo shi</title>
+                        <note source="290">(清)宋犖著</note>
+                        <author><persName xml:lang="chi">(清)宋犖</persName><persName type="9">song
+                           luo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:51:03|odh -->
+                        <!-- #0rr: 20150324/13:51:09-377424/1|odh -->
+                        <!-- #0rx: dh572+22 -->
+                     </msItem>
+                     <msItem n="23">
+                        <title>而菴詩話 一卷</title>
+                        <title source="9">er an shi hua</title>
+                        <note source="290">(清)徐增著</note>
+                        <author><persName xml:lang="chi">(清)徐增</persName><persName type="9">xu
+                           zeng</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:51:53|odh -->
+                        <!-- #0rx: dh572+23 -->
+                     </msItem>
+                     <msItem n="24">
+                        <title>詩學纂聞 一卷</title>
+                        <title source="9">shi xue zuan wen</title>
+                        <note source="290">(清)汪師韓著</note>
+                        <author key="person_4796"><persName xml:lang="chi">(清)汪師韓</persName><persName type="9">wang shi
+                              han</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:52:46|odh -->
+                        <!-- #0rx: dh572+24 -->
+                     </msItem>
+                     <msItem n="25">
+                        <title>蓮坡詩話 一卷</title>
+                        <title source="9">lian po shi hua</title>
+                        <note source="290">(清)查為仁著</note>
+                        <author key="person_4607"><persName xml:lang="chi">(清)查為仁</persName><persName type="9">zha wei
+                           ren</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:53:28|odh -->
+                        <!-- #0rx: dh572+25 -->
+                     </msItem>
+                     <msItem n="26">
+                        <title>說詩晬語 一卷</title>
+                        <title source="9">shuo shi zui yu</title>
+                        <note source="290">(清)沈德潛著</note>
+                        <author key="person_4861"><persName xml:lang="chi">(清)沈德潛</persName><persName type="9">shen de
+                              qian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:54:12|odh -->
+                        <!-- #0rx: dh572+26 -->
+                     </msItem>
+                     <msItem n="27">
+                        <title>原詩 一卷</title>
+                        <title source="9">yuan shi</title>
+                        <note source="290">(清)葉燮著</note>
+                        <author key="person_5485"><persName xml:lang="chi">(清)葉燮</persName><persName type="9">ye
+                           xie</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:54:42|odh -->
+                        <!-- #0rx: dh572+27 -->
+                     </msItem>
+                     <msItem n="28">
+                        <title>全唐詩話續編 二卷</title>
+                        <title source="9">quan tang shi hua xu bian</title>
+                        <note source="290">(清)孫濤輯</note>
+                        <author key="person_3862"><persName xml:lang="chi">(清)孫濤</persName><persName type="9">sun
+                           tao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:55:29|odh -->
+                        <!-- #0rx: dh572+28 -->
+                     </msItem>
+                     <msItem n="29">
+                        <title>一瓢詩話 一卷</title>
+                        <title source="9">yi piao shi hua</title>
+                        <note source="290">(清)薛雪著</note>
+                        <author key="person_5596"><persName xml:lang="chi">(清)薛雪</persName><persName type="9">xue
+                           xue</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:56:05|odh -->
+                        <!-- #0rx: dh572+29 -->
+                     </msItem>
+                     <msItem n="30">
+                        <title>拜經樓詩話 四卷</title>
+                        <title source="9">bai jing lou shi hua</title>
+                        <note source="290">(清)吳騫輯</note>
+                        <author key="person_3648"><persName xml:lang="chi">(清)吳騫</persName><persName type="9">wu
+                           qian</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:56:45|odh -->
+                        <!-- #0rx: dh572+30 -->
+                     </msItem>
+                     <msItem n="31">
+                        <title>唐音審體 一卷</title>
+                        <title source="9">tang yin shen ti</title>
+                        <note source="290">(清)錢良擇著</note>
+                        <author key="person_5948"><persName xml:lang="chi">(清)錢良擇</persName><persName type="9">qian liang
+                              ze</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:57:26|odh -->
+                        <!-- #0rx: dh572+31 -->
+                     </msItem>
+                     <msItem n="32">
+                        <title>遼詩話 一卷</title>
+                        <title source="9">liao shi hua</title>
+                        <note source="290">(清)周春輯</note>
+                        <author key="person_3697"><persName xml:lang="chi">(清)周春</persName><persName type="9">zhou
+                           chun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:58:10|odh -->
+                        <!-- #0rx: dh572+32 -->
+                     </msItem>
+                     <msItem n="33">
+                        <title>秋窗隨筆 一卷</title>
+                        <title source="9">qiu chuang sui bi</title>
+                        <note source="290">(清)馬位著</note>
+                        <author key="person_6247"><persName xml:lang="chi">(清)馬位</persName><persName type="9">ma
+                           wei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:58:40|odh -->
+                        <!-- #0rx: dh572+33 -->
+                     </msItem>
+                     <msItem n="34">
+                        <title>野鴻詩的 一卷</title>
+                        <title source="9">ye hong shi di</title>
+                        <note source="290">(清)黃子雲著</note>
+                        <author key="person_6373"><persName xml:lang="chi">(清)黃子雲</persName><persName type="9">huang zi
+                              yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:59:20|odh -->
+                        <!-- #0rx: dh572+34 -->
+                     </msItem>
+                     <msItem n="35">
+                        <title>履園譚詩 一卷</title>
+                        <title source="9">lu yuan tan shi</title>
+                        <note source="290">(清)錢泳輯</note>
+                        <author key="person_5940"><persName xml:lang="chi">(清)錢泳</persName><persName type="9">qian
+                           yong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:59:43|odh -->
+                        <!-- #0rx: dh572+35 -->
+                     </msItem>
+                     <msItem n="36">
+                        <title>說詩管蒯 一卷</title>
+                        <title source="9">shuo shi guan kuai</title>
+                        <note source="290">(清)吳雷發著</note>
+                        <author key="person_3644"><persName xml:lang="chi">(清)吳雷發</persName><persName type="9">wu lei
+                           fa</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:00:17|odh -->
+                        <!-- #0rx: dh572+36 -->
+                     </msItem>
+                     <msItem n="37">
+                        <title>秋星閣詩話 一卷</title>
+                        <title source="9">qiu xing ge shi hua</title>
+                        <note source="290">(清)李沂著</note>
+                        <author key="person_4516"><persName xml:lang="chi">(清)李沂</persName><persName type="9">li
+                           yi</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:00:48|odh -->
+                        <!-- #0rx: dh572+37 -->
+                     </msItem>
+                     <msItem n="38">
+                        <title>貞一齋詩說 一卷</title>
+                        <title source="9">zhen yi zhai shi shuo</title>
+                        <note source="290">(清)李重華著</note>
+                        <author><persName xml:lang="chi">(清)李重華</persName><persName type="9">li zhong
+                              hua</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:01:27|odh -->
+                        <!-- #0rx: dh572+38 -->
+                     </msItem>
+                     <msItem n="39">
+                        <title>漢詩總說 一卷</title>
+                        <title source="9">han shi zong shuo</title>
+                        <note source="290">(清)費錫璜著</note>
+                        <author key="person_5708"><persName xml:lang="chi">(清)費錫璜</persName><persName type="9">fei xi
+                              huang</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:02:08|odh -->
+                        <!-- #0rx: dh572+39 -->
+                     </msItem>
+                     <msItem n="40">
+                        <title>山靜居詩話 一卷</title>
+                        <title source="9">shan jing ju shi hua</title>
+                        <note source="290">(清)方薰著</note>
+                        <author key="person_4318"><persName xml:lang="chi">(清)方薰</persName><persName type="9">fang
+                           xun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:02:48|odh -->
+                        <!-- #0rx: dh572+40 -->
+                     </msItem>
+                     <msItem n="41">
+                        <title>峴傭說詩 一卷</title>
+                        <title source="9">xian yong shuo shi</title>
+                        <note source="290">(清)施補華口授</note>
+                        <note source="290">(清)錢榘筆錄</note>
+                        <author key="person_4330"><persName xml:lang="chi">(清)施補華</persName><persName type="9">shi bu
+                           hua</persName></author>
+                        <author key="person_5937"><persName xml:lang="chi">(清)錢榘</persName><persName type="9">qian
+                           ju</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:03:30|odh -->
+                        <!-- #0rx: dh572+41 -->
+                     </msItem>
+                     <msItem n="42">
+                        <title>消寒詩話 一卷</title>
+                        <title source="9">xiao han shi hua</title>
+                        <note source="290">(清)秦朝釪著</note>
+                        <author key="person_5239"><persName xml:lang="chi">(清)秦朝釪</persName><persName type="9">qin chao
+                           yu</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:04:42|odh -->
+                        <!-- #0rx: dh572+42 -->
+                     </msItem>
+                     <msItem n="43">
+                        <title>續詩品 一卷</title>
+                        <title source="9">xu shi pin</title>
+                        <note source="290">(清)袁枚著</note>
+                        <author><persName xml:lang="chi">(清)袁枚</persName><persName type="9">yuan
+                           mei</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/14:05:15|odh -->
+                        <!-- #0rx: dh572+43 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="3">3冊</measure><!--洋裝3冊(原線裝20冊) ; 21公分--><dimensions unit="cm"><height>21</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">洋裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1916" type="d">1916</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20150324/13:19:24|odh -->
+                        <!-- #0rr: 20150330/16:39:59-377392/16|omaster -->
+                        <!-- #0rx: dh572 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221371560107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_750" source="750.90">集部 <term>詩文評類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list>
+                  <item><term key="5213">5213</term></item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

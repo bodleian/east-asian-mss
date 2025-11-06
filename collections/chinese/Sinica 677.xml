@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6430">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 677</idno>
+               </msIdentifier>
+               <head>書名: 改正音訓五經 / (日)後藤世鈞點<lb/>日本安政二年[1855]浪華炭屋五郎兵衛等刊本<lb/>線裝10冊 ; 26公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">改正音訓五經</title>
+                     <title source="#200|9">gai zheng yin xun wu jing</title>
+                     <note source="#290">(日)後藤世鈞點</note>
+                     <author source="#300" key="person_1932"><persName xml:lang="chi">(日)後藤世鈞</persName><persName type="9">gotou
+                           seikin_j</persName></author>
+                     <note source="#409">日本安政二年[1855]浪華炭屋五郎兵衛等刊本</note>
+                     <msItem n="1">
+                        <title>周易 存卷下</title>
+                        <title source="9">zhou yi</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:19:52|odh -->
+                        <!-- #0rx: dh482+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>尚書 二卷</title>
+                        <title source="9">shang shu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:20:15|odh -->
+                        <!-- #0rx: dh482+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>詩經 二卷</title>
+                        <title source="9">shi jing</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:20:36|odh -->
+                        <!-- #0rx: dh482+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>春秋 一卷</title>
+                        <title source="9">chun qiu</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:21:01|odh -->
+                        <!-- #0rx: dh482+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>禮記 四卷</title>
+                        <title source="9">li ji</title>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:21:23|odh -->
+                        <!-- #0rx: dh482+5 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="10">10冊</measure><!--線裝10冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1855" type="d">1855</origDate>
+                     <origPlace>Japan</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130827/15:19:18|odh -->
+                        <!-- #0rr: 20151211/13:45:45-120218/1|odh -->
+                        <!-- #0rx: dh482 -->
+                        <!-- #900: o -->
+                        <!-- #905: Date-stamped "P" 1974! Doubtless by Daphne Griffin, who also peppered the Backhouse Rolls with Library stamps, thus wrecking whatever artistic merit they might possess. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221343650107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_100" source="100.88">經部 <term>彙編類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list>
+                  <item><term key="editions -- Japanese">editions -- Japanese</term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

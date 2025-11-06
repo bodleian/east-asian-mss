@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_14838">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17446</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6654/1(8)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17446">Sinica 6654</ref><lb/>書名: 潛采堂書目四種 / (清)朱彝尊撰</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">潛采堂書目四種</title>
+                     <title source="#200|9">qian cai tang shu mu si zhong</title>
+                     <note source="#290">(清)朱彝尊撰</note>
+                     <author source="#300" key="person_4396"><persName xml:lang="chi">(清)朱彝尊</persName><persName type="9">zhu yi
+                           zun</persName></author>
+                     <msItem n="1">
+                        <title>全唐詩未備書目 一卷</title>
+                        <title source="9">quan tang shi wei bei shu mu</title>
+                        <author key="person_4396"><persName xml:lang="chi">(清)朱彝尊</persName><persName type="9">zhu yi
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20171103/00000009|odh -->
+                        <!-- #0rx: dh661+08+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>明詩綜采摭書目 一卷</title>
+                        <title source="9">ming shi zong cai zhi shu mu</title>
+                        <author key="person_4396"><persName xml:lang="chi">(清)朱彝尊</persName><persName type="9">zhu yi
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20171103/00000010|odh -->
+                        <!-- #0rx: dh661+08+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>兩淮鹽筴書引證書目 一卷</title>
+                        <title source="9">liang huai yan ce shu yin zheng shu mu</title>
+                        <author key="person_4396"><persName xml:lang="chi">(清)朱彝尊</persName><persName type="9">zhu yi
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20171103/00000011|odh -->
+                        <!-- #0rx: dh661+08+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>竹垞行笈書目 一卷</title>
+                        <title source="9">zhu cha xing ji shu mu</title>
+                        <author key="person_4396"><persName xml:lang="chi">(清)朱彝尊</persName><persName type="9">zhu yi
+                           zun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20171103/00000012|odh -->
+                        <!-- #0rx: dh661+08+4 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20171103/00000008|odh -->
+                        <!-- #0rx: dh661+08 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221511640107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

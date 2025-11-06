@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9896">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17295</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 4663/3(4)</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17295">Sinica 4663</ref><lb/>書名: 湘中名賢遺集五種 / (清)陳運溶輯</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">湘中名賢遺集五種</title>
+                     <title source="#200|9">xiang zhong ming xian yi ji wu zhong</title>
+                     <note source="#290">(清)陳運溶輯</note>
+                     <author source="#300" key="person_6111"><persName xml:lang="chi">(清)陳運溶</persName><persName type="9">chen yun
+                           rong</persName></author>
+                     <note source="#600">光緒庚子[1900]刊</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian"/>
+                     <origPlace/>
+                  </origin>
+                  
+                  <acquisition>Piet van der Loon</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20051220/18:04:35|odh -->
+                        <!-- #0rx: dh318+10 -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/3(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>蔣恭侯集 一卷</title>
+                        <title source="9">jiang gong hou ji</title>
+                        <note source="290">(蜀)蔣琬撰</note>
+                        <author key="person_6642"><persName xml:lang="chi">(蜀)蔣琬</persName><persName type="9">jiang
+                           wan</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/18:07:31|odh -->
+                           <!-- #0rx: dh318+10+1 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/3(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>劉令君集 一卷</title>
+                        <title source="9">liu ling jun ji</title>
+                        <note source="290">(蜀)劉巴撰</note>
+                        <author key="person_6640"><persName xml:lang="chi">(蜀)劉巴</persName><persName type="9">liu
+                           ba</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/18:08:44|odh -->
+                           <!-- #0rx: dh318+10+2 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/3(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>桓令君集 一卷</title>
+                        <title source="9">huan ling jun ji</title>
+                        <note source="290">(魏)桓階撰</note>
+                        <author key="person_6732"><persName xml:lang="chi">(魏)桓階</persName><persName type="9">huan
+                           jie</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/18:10:26|odh -->
+                           <!-- #0rx: dh318+10+3 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/3(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>車太常集 一卷</title>
+                        <title source="9">ju tai chang ji</title>
+                        <note source="290">(晉)車胤撰</note>
+                        <author key="person_2983"><persName xml:lang="chi">(晉)車胤</persName><persName type="9">ju
+                           yin</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/18:12:35|odh -->
+                           <!-- #0rx: dh318+10+4 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 4663/3(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>谷儉集 一卷</title>
+                        <title source="9">gu jian ji</title>
+                        <note source="290">(晉)谷儉撰</note>
+                        <author key="person_2981"><persName xml:lang="chi">(晉)谷儉</persName><persName type="9">gu
+                           jian</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20051220/18:15:21|odh -->
+                           <!-- #0rx: dh318+10+5 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+                  <acquisition>Piet van der Loon</acquisition>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

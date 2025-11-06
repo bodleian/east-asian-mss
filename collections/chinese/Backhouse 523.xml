@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17121">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Backhouse</collection>
+                  <idno type="shelfmark">Backhouse 523</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">歷代輿地圖</title>
+                     <title source="#200|9">li dai yu di tu</title>
+                     <note source="#290">(清)楊守敬撰</note>
+                     <author source="#300" key="person_4671"><persName xml:lang="chi">(清)楊守敬</persName><persName type="9">yang shou
+                           jing</persName></author>
+                     <note source="#409">清光緒宣統間宜都楊氏刊朱墨套印本</note>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_7752">Backhouse 523/2</ref><title>春秋列國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7763">Backhouse 523/3</ref><title>戰國疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7769">Backhouse 523/4</ref><title>秦郡縣圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7770">Backhouse 523/5</ref><title>前漢地理圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7771">Backhouse 523/6</ref><title>後漢郡國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7772">Backhouse 523/7</ref><title>三國疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7773">Backhouse 523/8</ref><title>晉地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7774">Backhouse 523/9</ref><title>東晉疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7731">Backhouse 523/10(1)</ref><title>前趙疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7732">Backhouse 523/10(2)</ref><title>後趙疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7733">Backhouse 523/11(1)</ref><title>前燕疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7734">Backhouse 523/11(2)</ref><title>後燕疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7735">Backhouse 523/11(3)</ref><title>南燕疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7736">Backhouse 523/11(4)</ref><title>北燕疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7737">Backhouse 523/12(1)</ref><title>前秦疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7738">Backhouse 523/12(2)</ref><title>後秦疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7739">Backhouse 523/12(3)</ref><title>西秦疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7740">Backhouse 523/13(1)</ref><title>前涼疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7741">Backhouse 523/13(2)</ref><title>後涼疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7742">Backhouse 523/13(3)</ref><title>南涼疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7743">Backhouse 523/13(4)</ref><title>北涼疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7744">Backhouse 523/13(5)</ref><title>西涼疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7745">Backhouse 523/14(1)</ref><title>後蜀疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7746">Backhouse 523/14(2)</ref><title>夏疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7747">Backhouse 523/15</ref><title>劉宋州郡圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7748">Backhouse 523/16</ref><title>南齊州郡圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7749">Backhouse 523/17</ref><title>梁疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7750">Backhouse 523/18</ref><title>陳疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7751">Backhouse 523/19</ref><title>北魏地形志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7753">Backhouse 523/20</ref><title>北齊疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7754">Backhouse 523/21</ref><title>西魏疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7755">Backhouse 523/22</ref><title>北周疆域圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7756">Backhouse 523/23</ref><title>隋地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7757">Backhouse 523/24</ref><title>唐地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7758">Backhouse 523/25</ref><title>後梁並十國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7759">Backhouse 523/26</ref><title>後唐並七國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7760">Backhouse 523/27</ref><title>後晉並七國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7761">Backhouse 523/28</ref><title>後漢並六國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7762">Backhouse 523/29</ref><title>後周並七國圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7764">Backhouse 523/30</ref><title>宋地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7765">Backhouse 523/31</ref><title>遼地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7766">Backhouse 523/32</ref><title>金地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7767">Backhouse 523/33</ref><title>元地理志圖</title> / <persName>(清)楊守敬</persName></item><item><ref target="volume_7768">Backhouse 523/34</ref><title>明地理志圖</title> / <persName>(清)楊守敬</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="34">34冊</measure><!--線裝34冊 ; 30公分--><dimensions unit="cm"><height>30</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1904" notAfter="1911" type="g">1904
+                        - 1911</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20070721/12:22:31|odh -->
+                        <!-- #0rr: 20121203/15:28:43|odh -->
+                        <!-- #0rx: dh373 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221541780107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_414" source="414.89">史部 <term>地理類 地圖</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

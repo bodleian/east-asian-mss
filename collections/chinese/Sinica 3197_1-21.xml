@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_9180">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         <idno type="parent_Vol">volume_17232</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 3197/1-21</idno>
+               </msIdentifier>
+               <head>收於: <ref target="volume_17232">Sinica 3197</ref><lb/>書名: 歷代刑法考 七十八卷</head><msContents>
+                  <textLang/>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">歷代刑法考 七十八卷</title>
+                     <title source="#200|9">li dai xing fa kao</title>
+                     <author source="#300" key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                           ben</persName></author>
+                  </msItem>
+               </msContents>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20200114/00000001|odh -->
+                        <!-- #0rx: dh822+1 -->
+                        <!-- #0rz: 甲編 -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221415610107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>刑制總考 四卷</title>
+                        <title source="9">xing zhi zong kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000002|odh -->
+                           <!-- #0rx: dh822+1+01 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/2-6</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>刑制分考 十七卷</title>
+                        <title source="9">xing zhi fen kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000003|odh -->
+                           <!-- #0rx: dh822+1+02 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/7-9</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>赦考 十二卷</title>
+                        <title source="9">she kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000004|odh -->
+                           <!-- #0rx: dh822+1+03 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/10-12</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>律令 九卷</title>
+                        <title source="9">lu ling</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000005|odh -->
+                           <!-- #0rx: dh822+1+04 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/13(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>獄考 一卷</title>
+                        <title source="9">yu kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000006|odh -->
+                           <!-- #0rx: dh822+1+05 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/13(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>刑具考 一卷</title>
+                        <title source="9">xing ju kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000007|odh -->
+                           <!-- #0rx: dh822+1+06 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/13(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>行刑之制考 一卷</title>
+                        <title source="9">xing xing zhi zhi kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000008|odh -->
+                           <!-- #0rx: dh822+1+07 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/13(4)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>死刑之數 一卷</title>
+                        <title source="9">si xing zhi shu</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000009|odh -->
+                           <!-- #0rx: dh822+1+08 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/13(5)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>唐死罪總類 一卷</title>
+                        <title source="9">tang si zui zong lei</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000010|odh -->
+                           <!-- #0rx: dh822+1+09 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/14(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>充軍考 一卷</title>
+                        <title source="9">chong jun kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000011|odh -->
+                           <!-- #0rx: dh822+1+10 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/14(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>鹽法私礬私茶同居酒禁丁年考 合一卷</title>
+                        <title source="9">yan fa si fan si cha tong ju jiu jin ding nian kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000012|odh -->
+                           <!-- #0rx: dh822+1+11 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/14(3)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>律目考 一卷</title>
+                        <title source="9">lu mu kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000013|odh -->
+                           <!-- #0rx: dh822+1+12 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/15-19</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>漢律摭遺 二十二卷</title>
+                        <title source="9">han lu zhi yi</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000014|odh -->
+                           <!-- #0rx: dh822+1+13 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/20</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>明律目箋 三卷</title>
+                        <title source="9">ming lu mu jian</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000015|odh -->
+                           <!-- #0rx: dh822+1+14 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/21(1)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>明大誥峻令考 一卷</title>
+                        <title source="9">ming da gao jun ling kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000016|odh -->
+                           <!-- #0rx: dh822+1+15 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="part">Sinica 3197/21(2)</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>歷代刑官考 二卷</title>
+                        <title source="9">li dai xing guan kao</title>
+                        <author key="person_4852"><persName xml:lang="chi">(清)沈家本</persName><persName type="9">shen jia
+                              ben</persName></author>
+                     </msItem>
+                  </msContents>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source/>
+                           <!--Unused allegro fields-->
+                           <!-- #000: 20200114/00000017|odh -->
+                           <!-- #0rx: dh822+1+16 -->
+                           <!-- #0rz: 甲編 -->
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msPart>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

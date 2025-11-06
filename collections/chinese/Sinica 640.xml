@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6406">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 640</idno>
+               </msIdentifier>
+               <head>書名: 龍威祕書 殘一集二種﹑九集五種 / (清)馬俊良編<lb/>清乾隆甲寅年[1794]石門馬氏大酉山房刊本<lb/>線裝6冊 ;
+                  18公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">龍威祕書 殘一集二種﹑九集五種</title>
+                     <title source="#200|9">long wei mi shu</title>
+                     <note source="#290">(清)馬俊良編</note>
+                     <author source="#300" key="person_6248"><persName xml:lang="chi">(清)馬俊良</persName><persName type="9">ma jun
+                           liang</persName></author>
+                     <note source="#409">清乾隆甲寅年[1794]石門馬氏大酉山房刊本</note>
+                     <editor source="#440" role="pbl"><persName>大酉山房</persName><persName type="9" role="pbl">da you shan fang</persName></editor>
+                     <msItem n="1">
+                        <title>八紘譯史 四卷</title>
+                        <title source="9">ba hong yi shi</title>
+                        <note source="290">(清)陸次雲撰</note>
+                        <author key="person_6159"><persName xml:lang="chi">(清)陸次雲</persName><persName type="9">lu ci
+                           yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:29:59|odh -->
+                        <!-- #0rx: dh496+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>八紘荒史 一卷</title>
+                        <title source="9">ba hong huang shi</title>
+                        <note source="290">(清)陸次雲撰</note>
+                        <author key="person_6159"><persName xml:lang="chi">(清)陸次雲</persName><persName type="9">lu ci
+                           yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:30:47|odh -->
+                        <!-- #0rx: dh496+2 -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>譯史紀餘 四卷</title>
+                        <title source="9">yi shi ji yu</title>
+                        <note source="290">(清)陸次雲撰</note>
+                        <author key="person_6159"><persName xml:lang="chi">(清)陸次雲</persName><persName type="9">lu ci
+                           yun</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:31:35|odh -->
+                        <!-- #0rx: dh496+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>外國竹枝詞 一卷</title>
+                        <title source="9">wai guo zhu zhi ci</title>
+                        <note source="290">(清)尤侗撰</note>
+                        <note source="290">(清)尤珍注</note>
+                        <author key="person_3925"><persName xml:lang="chi">(清)尤侗</persName><persName type="9">you
+                           tong</persName></author>
+                        <author key="person_3928"><persName xml:lang="chi">(清)尤珍</persName><persName type="9">you
+                           zhen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:32:35|odh -->
+                        <!-- #0rx: dh496+4 -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>西藏記 二卷</title>
+                        <title source="9">xi zang ji</title>
+                        <note source="290">(清)佚名撰</note>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:34:42|odh -->
+                        <!-- #0rr: 20131220/11:40:29|odh -->
+                        <!-- #0rx: dh496+5 -->
+                        <!-- #600: 缺卷下 -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>西京雜記 六卷</title>
+                        <title source="9">xi jing za ji</title>
+                        <note source="290">(晉)葛洪撰</note>
+                        <author key="person_2960"><persName xml:lang="chi">(晉)葛洪</persName><persName type="9">ge
+                           hong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:37:56|odh -->
+                        <!-- #0rx: dh496+6 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>海內十洲記 一卷</title>
+                        <title source="9">hai nei shi zhou ji</title>
+                        <note source="290">(漢)東方朔撰</note>
+                        <author><persName xml:lang="chi">(漢)東方朔</persName><persName type="9">dong fang
+                              shuo</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:38:50|odh -->
+                        <!-- #0rx: dh496+7 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="6">6冊</measure><!--線裝6冊 ; 18公分--><dimensions unit="cm"><height>18</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1794" type="d">1794</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20131220/11:27:01|odh -->
+                        <!-- #0rr: 20140114/15:26:18|odh -->
+                        <!-- #0rx: dh496 -->
+                        <!-- #900: o -->
+                        <!-- #905: The copy preserves only a very small part of this collectaneum. If was reproduced in its entirety in Taipei in 1970 (edition lacks publisher, place, and date). Our copy is from the same blocks. The date (as given in this record) is taken from the cover-page of the first ji 集 in the Taipei reproduction. -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.87">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

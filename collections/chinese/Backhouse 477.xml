@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6239">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Backhouse</collection>
+                  <idno type="shelfmark">Backhouse 477</idno>
+               </msIdentifier>
+               <head>書名: 唐人四集 / (明)毛晉編<lb/>明崇禎中虞山毛氏汲古閣刊本<lb/>線裝6冊 ; 30公分<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">唐人四集</title>
+                     <title source="#200|9">tang ren si ji</title>
+                     <note source="#290">(明)毛晉編</note>
+                     <author source="#300" key="person_2368"><persName xml:lang="chi">(明)毛晉</persName><persName type="9">mao
+                           jin</persName></author>
+                     <note source="#409">明崇禎中虞山毛氏汲古閣刊本</note>
+                     <editor source="#440" role="pbl"><persName>汲古閣</persName><persName type="9" role="pbl">ji gu ge</persName></editor>
+                     <msItem n="1">
+                        <title>歌詩編 四卷集外詩一卷</title>
+                        <title source="9">ge shi bian</title>
+                        <note source="290">(唐)李賀撰</note>
+                        <author key="person_707"><persName xml:lang="chi">(唐)李賀</persName><persName type="9">li
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:22:21|odh -->
+                        <!-- #0rx: dh478+1 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>唐英歌詩 三卷</title>
+                        <title source="9">tang ying ge shi</title>
+                        <note source="290">(唐)吳融撰</note>
+                        <author key="person_585"><persName xml:lang="chi">(唐)吳融</persName><persName type="9">wu
+                           rong</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:26:49|odh -->
+                        <!-- #0rr: 20130809/11:28:02|odh -->
+                        <!-- #0rx: dh478+2 -->
+                        <!-- #600: 清康熙四十一年[1702]洞庭席啟寓琴川書屋刊《唐詩百名家集》本 -->
+                        <!-- #646: 唐詩百名家集|9tang shi bai ming jia ji -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>唐風集 三卷</title>
+                        <title source="9">tang feng ji</title>
+                        <note source="290">(唐)杜荀鶴撰</note>
+                        <author key="person_721"><persName xml:lang="chi">(唐)杜荀鶴</persName><persName type="9">du xun
+                           he</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:28:41|odh -->
+                        <!-- #0rx: dh478+3 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>竇氏聯珠集 一卷</title>
+                        <title source="9">dou shi lian zhu ji</title>
+                        <note source="290">(唐)竇常, (唐)竇牟, (唐)竇群, (唐)竇庠, (唐)竇鞏撰</note>
+                        <note source="290">(唐)褚藏言輯</note>
+                        <author key="person_777"><persName xml:lang="chi">(唐)竇常</persName><persName type="9">dou
+                           chang</persName></author>
+                        <author key="person_779"><persName xml:lang="chi">(唐)竇牟</persName><persName type="9">dou
+                           mou</persName></author>
+                        <author key="person_780"><persName xml:lang="chi">(唐)竇群</persName><persName type="9">dou
+                           qun</persName></author>
+                        <author key="person_778"><persName xml:lang="chi">(唐)竇庠</persName><persName type="9">dou
+                           xiang</persName></author>
+                        <author key="person_783"><persName xml:lang="chi">(唐)竇鞏</persName><persName type="9">dou
+                           gong</persName></author>
+                        <author key="person_816"><persName xml:lang="chi">(唐)褚藏言</persName><persName type="9">chu cang
+                              yan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:29:29|odh -->
+                        <!-- #0rx: dh478+4 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="6">6冊</measure><!--線裝6冊 ; 30公分--><dimensions unit="cm"><height>30</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <sealDesc>
+                     <seal>
+                        <p>有「懷遠樓祕笈之印」、「子孫寶之」、「懷東」、「□□子美(?)」、「青谷猨 (?)」、「典肰(?)」等印記</p>
+                     </seal>
+                  </sealDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1628" type="d">1628</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20130809/11:21:25|odh -->
+                        <!-- #0rr: 20190930/22:17:23-116530/65|omaster -->
+                        <!-- #0rx: dh478 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_730" source="730.57">集部 <term>總集類 斷代</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

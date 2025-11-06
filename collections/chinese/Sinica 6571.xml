@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_17407">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 6571</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">適園叢書 殘二十一種</title>
+                     <title source="#200|9">shi yuan cong shu</title>
+                     <note source="#290">(清)張鈞衡輯</note>
+                     <author source="#300" key="person_4118"><persName xml:lang="chi">(清)張鈞衡</persName><persName type="9">zhang jun
+                           heng</persName></author>
+                     <note source="#409">民國烏程張氏刊1992年北京文物出版社重印殘損版以影印配補浙江圖書館藏版</note>
+                     <editor source="#440" role="pbl"><persName>文物出版社</persName><persName type="9" role="pbl">wen wu chu ban she</persName></editor>
+                     <editor source="#440" role="pbl"><persName>浙江圖書館</persName><persName type="9" role="pbl">zhe jiang tu shu guan</persName></editor>
+                     <note><list type="contained_items"><head>Contains: </head><item><ref target="volume_12626">Sinica 6571/1</ref><title>百宋一廛書錄 一卷</title> / <persName>(清)黃丕烈</persName></item><item><ref target="volume_12628">Sinica 6571/2</ref><title>魏書地形志校錄 三卷</title> / <persName>(清)溫曰鑑</persName></item><item><ref target="volume_12631">Sinica 6571/3</ref><title>漢石經攷異補正 二卷</title> / <persName>(清)瞿中溶</persName></item><item><ref target="volume_12635">Sinica 6571/4-15</ref><title>千頃堂書目 三十二卷</title> / <persName>(清)黃虞稷</persName></item><item><ref target="volume_12627">Sinica 6571/16-19</ref><title>內閣藏書目錄 八卷</title> / <persName>(明)孫能傳</persName></item><item><ref target="volume_12629">Sinica 6571/20-27</ref><title>汪氏珊瑚網名畫題跋 二十四卷</title> / <persName>(明)汪砢玉</persName></item><item><ref target="volume_12630">Sinica 6571/28-35</ref><title>汪氏珊瑚網法術題跋 二十四卷</title> / <persName>(明)汪砢玉</persName></item><item><ref target="volume_12632">Sinica 6571/36-37</ref><title>攻媿題跋 十卷</title> / <persName>(宋)樓鑰</persName></item><item><ref target="volume_12633">Sinica 6571/38</ref><title>月隱先生遺集 四卷外編二卷</title> / <persName>(元)祝淵</persName></item><item><ref target="volume_12634">Sinica 6571/39-41</ref><title>吹景集 十四卷</title> / <persName>(明)董斯張</persName></item><item><ref target="volume_12636">Sinica 6571/42-44(1)</ref><title>圍鑪詩話 六</title> / <persName>(清)吳喬</persName></item><item><ref target="volume_12637">Sinica 6571/44(2)</ref></item><item><ref target="volume_12638">Sinica 6571/45</ref><title>滄浪嚴先生詩吟卷 三卷</title> / <persName>(宋)嚴羽</persName></item><item><ref target="volume_12639">Sinica 6571/46-48</ref><title>左傳杜解集正 八卷</title> / <persName>(清)丁晏</persName></item><item><ref target="volume_12640">Sinica 6571/49</ref><title>藏一話腴 甲集二卷乙集二卷</title> / <persName>(宋)陳郁</persName></item><item><ref target="volume_12641">Sinica 6571/50-52</ref><title>山谷先生年譜 三十卷</title> / <persName>(宋)黃㽦</persName></item><item><ref target="volume_12642">Sinica 6571/53</ref><title>嶺海焚餘 三卷</title> / <persName>(明)金堡</persName></item><item><ref target="volume_12643">Sinica 6571/54-57</ref><title>三國藝文志 四卷</title> / <persName>(清)姚振宗</persName></item><item><ref target="volume_12644">Sinica 6571/58-63</ref><title>五代史記補考 二十四卷</title> / <persName>(清)徐炯</persName></item><item><ref target="volume_12645">Sinica 6571/64-65</ref><title>古泉山館金石文編殘稿 四卷</title> / <persName>(清)瞿中溶</persName></item><item><ref target="volume_12646">Sinica 6571/66-69</ref><title>西吳里語 四卷</title> / <persName>(明)宋雷</persName></item></list></note></msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        <support/>
+                        <extent><measure type="volume" n="69">69冊</measure><!--線裝69冊 ; 29公分--><dimensions unit="cm"><height>29</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" notBefore="1913" notAfter="1916" type="g">1913
+                        - 1916</origDate>
+                     <origPlace>China</origPlace>
+                  </origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 19930925/09:18:09|odh -->
+                        <!-- #0rr: 20151217/11:40:11-133962/5|omaster -->
+                        <!-- #0rx: dh595 -->
+                        <!-- #900: o -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221417480107026">SOLO</ref></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_800" source="800.90">叢書 <term>雜叢類</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

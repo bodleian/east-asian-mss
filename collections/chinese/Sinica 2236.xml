@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_6265">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName>[Name of cataloguer]</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">[Date when first made available]</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno/>
+            <idno type="msID"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Sinica</collection>
+                  <idno type="shelfmark">Sinica 2236</idno>
+               </msIdentifier>
+               <head>書名: 二約釋義叢書<lb/>[Edition A]<lb/>上海 : 倫敦聖書會[印] : 申報館[代刊], 1882<lb/>線裝1冊 : 地圖 ;
+                  26.9公分<lb/>Compiled by A Williamson<lb/>The five maps listed in the table of
+                  contents as 「地輿五圖」 are distributed throughout the volume<lb/></head>
+               <msContents>
+                  <textLang mainLang="chi">Chinese</textLang>
+                  <msItem n="1">
+                     <title xml:lang="chi" source="#200">二約釋義叢書</title>
+                     <title source="#200|9">er yue shi yi cong shu</title>
+                     <author source="#300" key="person_7083"><persName xml:lang="chi">Williamson, Alexander</persName></author>
+                     <editor source="#420" role="pbl"><persName>倫敦聖書會</persName><persName type="9" role="pbl">lun dun sheng shu hui</persName></editor>
+                     <editor source="#420" role="pbl"><persName>申報館</persName><persName type="9" role="pbl">shen bao guan</persName></editor>
+                     <note source="#600">Compiled by A Williamson</note>
+                     <note source="#600">The five maps listed in the table of contents as 「地輿五圖」 are
+                        distributed throughout the volume</note>
+                     <msItem n="1">
+                        <title>二約聖書溯源 三卷</title>
+                        <title source="9">er yue shi yi cong shu</title>
+                        <note source="290">(英)韋廉臣著</note>
+                        <note source="290">(清)于染塵筆</note>
+                        <author key="person_7083"><persName xml:lang="chi">Williamson, Alexander</persName></author>
+                        <author key="person_3279"><persName xml:lang="chi">(清)于染塵</persName><persName type="9">yu ran
+                           chen</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031205/12:40:15|odh -->
+                        <!-- #0rx: dh293+01 -->
+                     </msItem>
+                     <msItem n="2">
+                        <title>舊約全書小引</title>
+                        <title source="9">jiu yue quan shu xiao yin</title>
+                        <author key="person_7083"><persName xml:lang="chi">Williamson, Alexander</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031205/12:46:44|odh -->
+                        <!-- #0rr: 20031205/14:11:01|odh -->
+                        <!-- #0rx: dh293+02 -->
+                        <!-- #600: By A Williamson. Has five parts -->
+                     </msItem>
+                     <msItem n="3">
+                        <title>聖書翼 二卷</title>
+                        <title source="9">sheng shu yi</title>
+                        <note source="290">(英)理一視約翰輯</note>
+                        <note source="290">(清)張逢源述</note>
+                        <author key="person_6924"><persName xml:lang="chi">Lees, Jonathan</persName></author>
+                        <author key="person_4112"><persName xml:lang="chi">(清)張逢源</persName><persName type="9">zhang feng
+                              yuan</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031205/13:36:35|odh -->
+                        <!-- #0rx: dh293+03 -->
+                     </msItem>
+                     <msItem n="4">
+                        <title>新約聖書小引</title>
+                        <title source="9">xin yue sheng shu xiao yin</title>
+                        <note source="290">(英)文教治, 蜜徹母耳著</note>
+                        <author key="person_6988"><persName xml:lang="chi">Owen, George Sydney</persName></author>
+                        <author key="person_7175"><persName xml:lang="chi">蜜徹母耳</persName><persName type="9">mi che mu
+                           er</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031205/14:09:28|odh -->
+                        <!-- #0rr: 20031205/14:10:16|odh -->
+                        <!-- #0rx: dh293+04 -->
+                        <!-- #905: 「蜜徹母耳」 - who he? -->
+                     </msItem>
+                     <msItem n="5">
+                        <title>四福音目錄合編</title>
+                        <title source="9">si fu yin mu lu he bian</title>
+                        <note source="290">蜜徹母耳</note>
+                        <author key="person_7175"><persName xml:lang="chi">蜜徹母耳</persName><persName type="9">mi che mu
+                           er</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:15:05|odh -->
+                        <!-- #0rr: 20031208/10:16:13|odh -->
+                        <!-- #0rx: dh293+05 -->
+                        <!-- #905: 「蜜徹母耳」 - who he? -->
+                     </msItem>
+                     <msItem n="6">
+                        <title>聖經所載諸國見于漢書考</title>
+                        <title source="9">sheng jing suo zai zhu guo jian yu han shu kao</title>
+                        <note source="290">(英)艾約瑟著</note>
+                        <author key="person_6840"><persName xml:lang="chi">Edkins, Joseph</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:18:47|odh -->
+                        <!-- #0rx: dh293+06 -->
+                     </msItem>
+                     <msItem n="7">
+                        <title>聖經斤兩﹑斗斛﹑尺寸﹑道程﹑金銀錢幣考</title>
+                        <title source="9">sheng jing jin liang, dou hu, chi cun, dao cheng, jin yin
+                           qian bi kao</title>
+                        <note source="290">(英)艾約瑟著</note>
+                        <author key="person_6840"><persName xml:lang="chi">Edkins, Joseph</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:29:40|odh -->
+                        <!-- #0rx: dh293+07 -->
+                     </msItem>
+                     <msItem n="8">
+                        <title>猶太國曆</title>
+                        <title source="9">you tai guo li</title>
+                        <note source="290">(英)艾約瑟</note>
+                        <author key="person_6840"><persName xml:lang="chi">Edkins, Joseph</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:31:02|odh -->
+                        <!-- #0rx: dh293+08 -->
+                     </msItem>
+                     <msItem n="9">
+                        <title>舊約年代表</title>
+                        <title source="9">jiu yue nian dai biao</title>
+                        <title>新約年代表</title>
+                        <title source="9">xin yue nian dai biao</title>
+                        <note source="290">(英)艾約瑟</note>
+                        <author key="person_6840"><persName xml:lang="chi">Edkins, Joseph</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:32:51|odh -->
+                        <!-- #0rx: dh293+09 -->
+                     </msItem>
+                     <msItem n="10">
+                        <title>聖書動直物備考 二卷</title>
+                        <title source="9">sheng shu dong zhi wu bei kao</title>
+                        <note source="290">紀</note>
+                        <author key="person_6871"><persName xml:lang="chi">Graves, Rosewell Hobart</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/10:36:02|odh -->
+                        <!-- #0rr: 20040129/11:47:05|odh -->
+                        <!-- #0rx: dh293+10 -->
+                     </msItem>
+                     <msItem n="11">
+                        <title>古國憑經</title>
+                        <title source="9">gu guo ping jing</title>
+                        <note source="290">紹</note>
+                        <author key="person_7167"><persName xml:lang="chi">紹</persName><persName type="9">shao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/12:37:20|odh -->
+                        <!-- #0rx: dh293+11 -->
+                        <!-- #905: Who is 紹? -->
+                     </msItem>
+                     <msItem n="12">
+                        <title>選民交涉</title>
+                        <title source="9">xuan min jiao she</title>
+                        <note source="290">紹</note>
+                        <author key="person_7167"><persName xml:lang="chi">紹</persName><persName type="9">shao</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/12:39:17|odh -->
+                        <!-- #0rx: dh293+12 -->
+                        <!-- #905: Who is 紹? -->
+                     </msItem>
+                     <msItem n="13">
+                        <title>舊約希奇諸事</title>
+                        <title source="9">jiu yue xi qi zhu shi</title>
+                        <title>[附] 舊約比喻</title>
+                        <title source="9">jiu yue bi yu</title>
+                        <note source="290">(英)韋廉臣</note>
+                        <author key="person_7083"><persName xml:lang="chi">Williamson, Alexander</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/12:43:14|odh -->
+                        <!-- #0rr: 20031208/12:45:52|odh -->
+                        <!-- #0rx: dh293+13 -->
+                     </msItem>
+                     <msItem n="14">
+                        <title>耶穌所行希奇之事</title>
+                        <title source="9">ye su suo xin xi qi zhi shi</title>
+                        <title type="variant">新約希奇諸事</title>
+                        <title source="9" type="variant">xin yue xi qi zhu shi</title>
+                        <note source="290">(英)韋廉臣</note>
+                        <author key="person_7083"><persName xml:lang="chi">Williamson, Alexander</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/12:46:26|odh -->
+                        <!-- #0rr: 20031208/12:49:15|odh -->
+                        <!-- #0rx: dh293+14 -->
+                        <!-- #600: Table of contents and running title: 「新約希奇諸事」 -->
+                     </msItem>
+                     <msItem n="15">
+                        <title>聖書綱目 十二卷</title>
+                        <title source="9">sheng shu gang mu</title>
+                        <note source="290">(英)慕維廉</note>
+                        <author key="person_6976"><persName xml:lang="chi">Muirhead, William</persName></author>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031208/12:52:04|odh -->
+                        <!-- #0rx: dh293+15 -->
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <objectDesc>
+
+                     <supportDesc>
+                        
+                        <extent><measure type="volume" n="1">1冊</measure><!--線裝1冊 : 地圖 ; 26.9公分--><dimensions unit="cm"><height>26.9</height></dimensions></extent>
+                     </supportDesc>
+
+                  </objectDesc>
+
+                  <typeDesc>
+                     <p>typography</p>
+                     <p>Cole</p>
+                  </typeDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p xml:lang="chi">線裝</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc><p>地圖</p></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1882" type="d">1882</origDate>
+                     <origPlace>China</origPlace>
+                     <origPlace source="#410">上海(shang hai)</origPlace></origin>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Record created from Allegro database.</source>
+                        <!--Unused allegro fields-->
+                        <!-- #000: 20031205/12:36:03|odh -->
+                        <!-- #0rr: 20170327/16:04:11-141655/14|omaster -->
+                        <!-- #0rx: dh293 -->
+                        <!-- #400: [Edition A] -->
+                        <!-- #430: 1882 -->
+                        <!-- #900: p -->
+                        <!-- #909: SerD -->
+                     </recordHist>
+                     <availability>
+                        <p>This item may only be consulted by prior arrangement with a curator. To
+                           make an application, please click the request button above. When your
+                           request is received, you will be asked to contact the relevant
+                           person.</p>
+                     </availability>
+                  </adminInfo>
+                  <surrogates>
+ <listBibl>
+  <bibl subtype="full" type="digital-facsimile">
+   <ref target="https://digital.bodleian.ox.ac.uk/objects/5688bbf6-0649-4c7c-89b0-9a09e8c4a7f4">
+    <title>Digital Bodleian</title>
+   </ref>
+   <note>(full digital facsimile)</note>
+  </bibl>
+ </listBibl>
+</surrogates><surrogates>
+                     <listBibl>
+                        <bibl subtype="full" type="digital-facsimile">
+                           <ref target="https://digital.bodleian.ox.ac.uk/objects/af5cfa04-01b3-474a-abe4-48834acb29f2">
+                              <title>Digital Bodleian</title>
+                           </ref>
+                           <note>(full digital facsimile)</note>
+                        </bibl>
+                     </listBibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="siku">
+               <bibl> Siku classification </bibl>
+            </taxonomy>
+            <taxonomy xml:id="bodleian_chinese_thesaurus">
+               <bibl> Bodleian Chinese thesaurus </bibl>
+            </taxonomy>
+            <taxonomy xml:id="harvard-yenching">
+               <bibl> Harvard-Yenching Classification System </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#siku">
+               <list>
+                  <item><term key="subject_940" source="940.1882">西人著書 <term>耶穌教 聖教史</term></term></item>
+               </list>
+            </keywords>
+            <keywords scheme="#bodleian_chinese_thesaurus">
+               <list> </list>
+            </keywords>
+            <keywords scheme="#harvard-yenching">
+               <list> </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
