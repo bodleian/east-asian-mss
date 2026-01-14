@@ -57,17 +57,13 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <title type="desc">佚名仿陸師道神仙人物畫十二幅 冊</title>
-                            <title type="desc" xml:lang="en">LU SHIH_TAO: [Album of twelve paintings]<note>title supplied from the previous catalogue</note></title>
+                            <title type="desc" xml:lang="en">LU SHIH_TAO: [Album of twelve paintings]</title>
                             <author key="_unknown">unknown</author>
                             <incipit type="seal">陸氏子傳 </incipit>
                             <incipit type="seal">五湖漫郎</incipit>
                             <note><locus>[28]</locus><q>辛卯屯日三月二日寫 五湖漫郎陸師道 </q></note>
-                            <note type="seal"><q>鈐印:陸氏子傳</q></note>
-                                <note>could be fake 或爲贋品</note>
                            
-                            <note><locus>[33]</locus><q>s.c.29615L</q></note>
-                            <note><locus>[33]</locus><q>Bought in March 1885 for 80F from Tross of Paris (434 in his cat. no.III for 1885: binding descripbed as of 17th cent.)</q></note>
-                            
+                           
                             <filiation>An album of Chinese paintings, only surviving copy.
                                        中國畫畫冊，中外孤本</filiation>  
                         </msItem>
@@ -116,7 +112,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p><locus>[33]: </locus>s.c.29615L</p>
+                            <p><locus>[33]: </locus>Bought in March 1885 for 80F from Tross of Paris (434 in his cat. no.III for 1885: binding descripbed as of 17th cent.)</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>冊</p>
@@ -133,11 +132,14 @@
                                 </decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal> <p>鈐印:陸氏子傳</p>
+                            <p>could be fake 或爲贋品</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
                      -->
                         </accMat>
+                        
                     </physDesc>
                     <history>
                         <!-- see https://git.io/msdescdoc#history -->

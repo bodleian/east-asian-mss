@@ -69,13 +69,8 @@
                                 <date notAfter="1700" notBefore="1500" calendar="Gregorian">1555-1636</date>
                             </author>
                             <incipit type="釋文">东逾辽水北滹沱，星象风云喜共和。紫气关临天地阔，黄金台贮俊贤多。</incipit>
-                            <incipit type="seal">董其昌印</incipit>
-                            <incipit type="seal">宗伯之章</incipit>
-                            <incipit type="seal">百賞齋</incipit>
                             <explicit type="題簽">董其昌</explicit>
-                            <explicit type="題簽">Autography of Tung Chi’chang a.d. 1570. The senior scholar and painter. This scroll retail by Chinese at ￡150.
-                                Purchased from Prince Kung’s collection. 
-                            </explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -120,7 +115,9 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>題簽: </locus>Autography of Tung Chi’chang a.d. 1570. The senior scholar and painter. This scroll retail by Chinese at ￡150.
+                            Purchased from Prince Kung’s collection. 
+                        </p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -128,11 +125,17 @@
                                     Vertical scroll, mounted in the Xuānhe style. The 'Heaven' (天) and 'Earth' (地) sections are adorned with light blue silk fabric. The separating strips, borders, and floating ribbons (飄帶) should be made of white silk fabric. The brocade wrapper (錦包首) is crafted from light blue silk.</decoNote>
                             </binding>
                         </bindingDesc>
+                       <sealDesc>
+                           <seal><p>董其昌印</p></seal>
+                               <seal><p>宗伯之章</p></seal>
+                               <seal><p>百賞齋</p></seal>
+                       </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
                      -->
                         </accMat>
+                     
                     </physDesc>
                     <history>
                         <!-- see https://git.io/msdescdoc#history -->

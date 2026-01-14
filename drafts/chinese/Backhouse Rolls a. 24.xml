@@ -68,9 +68,7 @@
                             </author>
                             <incipit type="釋文">晴雲紅粉覆春煙，仿佛江南二月天。記得踏春回首処，一樓畔倚山崖前。</incipit>
                             <incipit type="款識">錫山鄒一桂</incipit>
-                            <incipit type="seal">鄒一桂</incipit>
-                            <incipit type="seal">水山</incipit>
-                           <explicit type="題簽">錫山 畫</explicit>
+                            
                             <filiation>書畫卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -115,7 +113,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>題簽: </locus>錫山 畫</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -123,6 +121,8 @@
                                            二色裱，天頭地脚是白色紙本，上下隔水是祥雲騰龍紋樣白色絲綢，有摺痕。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc> <p>鄒一桂</p>
+                            <p>水山</p></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

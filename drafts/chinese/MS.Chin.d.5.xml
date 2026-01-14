@@ -66,13 +66,7 @@
                             <incipit type="theme">鳥類 birds</incipit>
                             <incipit type="theme">船 ship</incipit>
                             <incipit type="theme">風景 landscape</incipit>
-                            <incipit><locus>cover of carton box</locus>Cundell. Coutts LTD.
-                                                                Violet RD. London E3 3QL.
-                                                                         01-515-6171
-                                                                            C6 1981</incipit>
-                            <incipit><locus>bottom of brocade box</locus>s.c.30122k</incipit>
-                            <incipit><locus>bottom of brocade box</locus>Ms.Chin.d.5 </incipit>
-                            <incipit><locus>bottom of brocade box</locus>12 pictures miscellaneous</incipit>
+                           
                             
                             <filiation>Chinese export paintings are usually produced in large quantity,
                                        therefore, there may be other existing copies.
@@ -125,7 +119,15 @@
                      -->
                         </decoDesc>
                         
-                        
+                        <additions>
+                            <p><locus>cover of carton box: </locus>Cundell. Coutts LTD.
+                                Violet RD. London E3 3QL.
+                                01-515-6171
+                                C6 1981</p>
+                            <p><locus>bottom of brocade box: </locus>s.c.30122k</p>
+                            <p><locus>bottom of brocade box: </locus>Ms.Chin.d.5 </p>
+                            <p><locus>bottom of brocade box: </locus>12 pictures miscellaneous</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>冊</p>
@@ -137,6 +139,7 @@
                                     made of glass.</decoNote>
                             </binding>
                         </bindingDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

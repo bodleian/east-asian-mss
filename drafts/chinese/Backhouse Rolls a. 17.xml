@@ -67,7 +67,7 @@
                                 <date notAfter="1900" notBefore="1700" calendar="Gregorian">1782-1850</date>
                             </author>
                             <incipit type="釋文">壽</incipit>
-                            <explicit type="題簽">壽</explicit> 
+                             
 
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -114,7 +114,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p>題簽: 壽</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>

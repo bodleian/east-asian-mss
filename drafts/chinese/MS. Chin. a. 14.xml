@@ -68,9 +68,9 @@
                             </author> 
                             <incipit type="釋文">周游西宇，十有七年。窮歷道邦，詢求正教。雙林八水，味道餐風。鹿苑鷲峯，瞻奇仰異，求至言於先聖，受真教於上賢。探赜妙門，精窮奧業。 即臨大唐三藏聖教序。</incipit>
                             <incipit type="款識">念兹先生大雅書 肅親王</incipit>
-                            <incipit type="seal">肅親王</incipit>
+                            
                             <note type="注">善耆（1866-1922），字艾堂，愛新覺羅氏，滿洲鑲白旗人，第十代肅親王，晚清皇族重臣，慶親王内閣成員，政學會會員。</note>
-                            <explicit type="錦包首">Ms. (R.) Chin.a.14</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -116,7 +116,9 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>錦包首: </locus> Ms. (R.) Chin.a.14</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -125,6 +127,9 @@
                                 </decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p >肅親王</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

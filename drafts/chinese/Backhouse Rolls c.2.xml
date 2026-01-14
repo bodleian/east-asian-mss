@@ -73,14 +73,7 @@
                                 山中泌，帶月桃聯毛，桌几上杯盤任狼藉。雲往雲來無古今，山間聚時散如常寂。炳炳若星，暗暗似漆，說与世閒人，世心應不識。</incipit>
                             <note type="注">從“何處著煙霞”至“驚起胡笳”這一部分為明代鈡世賢所作《浪淘沙·瀟湘八景·平沙落雁》</note>
                             <incipit type="款識">贈塘也上人歸隱 板橋鄭燮</incipit>
-                            <incipit type="seal">鄭燮</incipit>
-                            <incipit type="seal">板橋</incipit>
-                            <incipit type="seal">七品官耳</incipit>
-                            <incipit type="seal">丙辰進士</incipit>
-                            <incipit type="seal">橄欖軒</incipit>
-                            <explicit type="題簽">板橋居士法書真跡</explicit>
-                            <explicit type="題簽">F34</explicit>
-                            <explicit type="背面">B/349</explicit>
+                         
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -126,7 +119,11 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p> <locus>題簽: </locus> 板橋居士法書真跡 </p>
+                            <p> <locus>題簽: </locus> F34 </p>
+                            <p> <locus>背面: </locus> B/349 </p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -140,6 +137,14 @@
                                     隔水與副隔水為白色和淺黃色絲織物，邊為白色絲織物，引首和拖尾為米白色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal> <p>鄭燮</p> </seal>
+                            <seal> <p>板橋</p> </seal>
+                            <seal> <p>七品官耳</p> </seal>
+                            <seal> <p>丙辰進士</p> </seal>
+                            <seal> <p>橄欖軒</p> </seal>
+                        </sealDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

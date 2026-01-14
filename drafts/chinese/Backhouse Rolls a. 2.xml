@@ -69,9 +69,7 @@
                             </author> 
                             <incipit type="釋文">洞遲湖裏君山巔，笑籋游人履屐穿。欲見神仙無問處，秦松五樹碧黍天。</incipit>
                             <incipit type="款識">張照</incipit>
-                            <incipit type="seal">張照</incipit>
-                            <incipit type="seal">【？】【？】</incipit>
-                            <explicit type="題簽">autograph of Chang Chao，grand secretary of scholar in chanlung's reign，for：1750. a very valuable scroll.</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -116,7 +114,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><locus>題簽: </locus>autograph of Chang Chao，grand secretary of scholar in chanlung's reign，for：1750. a very valuable scroll.</additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -125,6 +123,11 @@
                                     宣和裝，天頭地脚為淺藍色有花紋絲織物，上下隔水和驚燕是米白色有花紋絲織物。畫心為汎黃紙本，有水印，有破損修復痕跡。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal>
+                                <p>張照</p></seal>
+                            <seal><p>【？】【？】</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

@@ -57,7 +57,7 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title type="desc">【魏劉根等造像碑拓片 軸】</title>
+                            <title key="desc">【魏劉根等造像碑拓片 軸】</title>
                             <author key="_unknown">unknown</author>
                             
                             <msItem>
@@ -69,7 +69,7 @@
                                     侍中車騎大將軍、儀同三司、左衛將軍、御史中尉領領左右武陽縣開國公【侯】【剛】；前將軍武衛將軍領細作令寧國伯乞伏寶；武衛將軍景明寺都將元衍；冠軍將軍中散大夫華林都將領右衛司馬孟永。
                                 </incipit>
                                 <incipit type="釋文">河南省振務會主席張鈁敬贈</incipit>
-                                <incipit type="seal">張鈁</incipit></msItem> 
+                                </msItem> 
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
@@ -121,6 +121,7 @@
                                    一色裱,天頭地脚為白色絲織物。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p>張鈁</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

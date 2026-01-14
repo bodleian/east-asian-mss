@@ -72,9 +72,7 @@
                             <incipit type="釋文">增殷保泰紹脩</incipit>
                             <incipit type="釋文">心法守經常</incipit>
                             <incipit type="釋文">己卯小春上濣錫宴即事成什御筆</incipit>
-                            <incipit type="seal">周甲延禧之寳</incipit>
-                            <incipit type="seal">執兩用中</incipit>
-                            <explicit type="題簽">Calligraph of emperor Chia Ching (1819) 御筆</explicit>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -103,7 +101,6 @@
                             </layoutDesc>
                             
                         </objectDesc>
-                        
                         <handDesc><!-- use the @hands attribute to record the number of scribes -->
                             <handNote>
                                 Text written in both Xing shu and Kai shu style (行楷書, xing kai shu) calligraphic style</handNote>
@@ -119,7 +116,8 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions> 
+                            <locus>題簽: </locus>Calligraph of emperor Chia Ching (1819) 御筆</additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -128,6 +126,8 @@
                                     立軸,一色裱。天頭地脚和邊是黃色絲織物，有祥雲和五爪龍花紋。題簽為黃色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc><seal><p>周甲延禧之寳</p></seal>
+                           <seal><p>執兩用中</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
@@ -171,7 +171,7 @@
                         </adminInfo>
                         <surrogates>
                             <bibl type="digital-facsimile" subtype="full">
-                                <ref target="">
+                                <ref target="https://digital.bodleian.ox.ac.uk/objects/cbe8dd44-c259-4589-b2f0-78fbc783a608/">
                                     <title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note>
                             </bibl>
                         </surrogates>

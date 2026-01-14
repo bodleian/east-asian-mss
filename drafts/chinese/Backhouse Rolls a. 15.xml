@@ -65,9 +65,6 @@
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1877-1956</date>
                             </author>  
                             <incipit type="釋文">甲辰花月土濣法新羅山人大意寫為念兹大兄法家大人雅正星穛鑑泉作</incipit>
-                            <incipit type="seal">盧鑑泉印</incipit>
-                            <incipit type="seal">星橋</incipit>
-                            <explicit type="題簽">盧星橋畫 B/308</explicit>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -112,7 +109,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>題簽: </locus>盧星橋畫 B/308</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -121,6 +118,11 @@
                                     一色裱，天頭地脚為淺藍色有花紋絲織物，保存狀況良好。</decoNote>
                             </binding>
                         </bindingDesc>
+                       <sealDesc>
+                           <seal><p>盧鑑泉印</p></seal>
+                           <seal><p>星橋</p></seal>
+                       </sealDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

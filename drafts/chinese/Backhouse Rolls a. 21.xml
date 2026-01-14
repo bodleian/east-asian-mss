@@ -69,7 +69,7 @@
                             <incipit type="釋文">御賜</incipit>
                             <incipit type="釋文">總管内務府大臣臣文豐</incipit>
                             <incipit type="釋文">咸豐八年十二月</incipit>
-                            <explicit type="題簽">御賜虎字 B/362</explicit>
+                            
 
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
@@ -117,7 +117,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p><locus>題簽: </locus>御賜虎字 B/362</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>

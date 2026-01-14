@@ -63,7 +63,6 @@
                             <title type="desc">清高一琦行書蘇軾詩六首 卷</title>
                             <author key="Chinese">高一琦</author>
                             <incipit type="題簽">??公草書墨寶 上海瞿氏<note>題簽破損</note></incipit>
-                            <incipit type="seal">春甫</incipit>
                             <incipit>上海慈云樓李氏藏書</incipit>
                             <incipit>秋後風光雨後山，滿城流水碧潺潺。
                                      煙雲好處無多子，及取昏鴉未到間。
@@ -83,7 +82,7 @@
                                 山人睡覺無人見，只有飛蚊遶鬢鳴。。
                                 <note>《佛日山榮長老方丈五絕·其五》蘇軾</note></incipit>
                             <explicit type="款識">高一琦</explicit>
-                            <explicit type="seal">高一琦</explicit>
+                            
                      
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -137,6 +136,9 @@
                                 <decoNote>經摺裝，一冊。封面和封底為木製,木製封面略有裂痕。封面上有紙質題簽，現已部分缺損。内頁為紙本,略有蟲蛀痕跡。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>春甫</p></seal>
+                            <seal><p>高一琦</p></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
@@ -156,14 +158,14 @@
                             <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清晚期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue 
+                        <provenance><!-- record in previous catalogue 
                             language:	Chinese
                             shelfmark:	MS.Chin.e.11
                             content:	T'ou lien hsi ts'ao [questions in arithmetic or algebra]
                             phys. descr:	21 ff.
                             acquired:	1882.
                             Past shelfmarks:	Chin.364
-                            List number:	S.C.30869r
+                            List number:	S.C.30869r --> <!-- presumably the wrong catalogue entry -->
                         </provenance>
                         
                         

@@ -65,9 +65,7 @@
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1831-1861</date>
                             </author> 
                             <incipit type="釋文">正中莊齋</incipit>
-                            <incipit type="seal">咸豐御筆之寳</incipit>
-                            <explicit type="背面">顯皇帝碟福 Rubbings of emperor Hsien Feng’s caligraph B/304</explicit>
-                            <explicit type="背面">Impression taken from a rubbing of four Changchun by the Emperor Hsien Feng / uncle of zeiprang sovereign / presented by him to the then head of the Imperial Household (Kuang Shui)</explicit>
+                            
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -114,7 +112,8 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><p> <locus>背面: </locus>顯皇帝碟福 Rubbings of emperor Hsien Feng’s caligraph B/304</p>
+                            <p> <locus>背面: </locus>Impression taken from a rubbing of four Changchun by the Emperor Hsien Feng / uncle of zeiprang sovereign / presented by him to the then head of the Imperial Household (Kuang Shui)</p></additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>橫披</p>
@@ -123,6 +122,11 @@
                                     卷軸，裝裱方式為一色裱，拓印裝裱在淺藍色絲織物上。</decoNote>
                             </binding>
                         </bindingDesc>
+                       <sealDesc>
+                           <seal><p>咸豐御筆之寳</p></seal>
+                           
+                       </sealDesc>
+                        
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

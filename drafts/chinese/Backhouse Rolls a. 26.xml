@@ -65,16 +65,6 @@
                                 <persName type="title">慶親王</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1838-1917</date>
                             </author>
-                            <msItem>
-                            <incipit type="款識">戊辰夏日畫於溪為齋奕劻</incipit>
-                            <incipit type="seal">輔廷</incipit>
-                            <incipit type="seal">詩書之頂</incipit></msItem>
-                           
-                            <msItem>
-                            <incipit type="款識">同治丙寅夏日寫與怡齋輔廷劻</incipit>
-                            <incipit type="seal">奕劻</incipit>
-                            <explicit type="錦包首">慶邸小拙</explicit>
-                            <explicit type="錦包首">341 to catalogue. painting by prince Ch'ing/prince minister face the Revolution.</explicit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -183,8 +173,29 @@
                             
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart>
+                        <msIdentifier><altIdentifier type="part"><idno>Backhouse Rolls a.26/1</idno></altIdentifier></msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note type="款識">戊辰夏日畫於溪為齋奕劻</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <sealDesc><seal><p>輔廷</p></seal>
+                            <seal><p>詩書之頂</p></seal></sealDesc>
+                    </physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier type="part"><idno>Backhouse Rolls a.26/2</idno></altIdentifier></msIdentifier>
+                    <msContents>
+                    <msItem>
+                        <note type="款識">同治丙寅夏日寫與怡齋輔廷劻</note>
+                        <note type="錦包首">慶邸小拙</note>
+                        <note type="錦包首">341 to catalogue. painting by prince Ch'ing/prince minister face the Revolution.</note></msItem>
+                    </msContents>
+                        <physDesc>
+                            <sealDesc><seal><p>奕劻</p></seal></sealDesc>
+                        </physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

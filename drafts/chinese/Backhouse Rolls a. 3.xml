@@ -68,11 +68,8 @@
                                 <date notAfter="1800" notBefore="1600" calendar="Gregorian">1660-1734</date>
                             </author> 
                             <incipit type="款識">戍子蒼朝前一日 鐵嶺高其佩指腹畫法</incipit>
-                            <incipit type="seal">高其佩</incipit>
-                            <incipit type="seal">指頭畫</incipit>
-                            <explicit type="題簽">高其佩 山水</explicit>
-                            <explicit type="背面">F.2</explicit>
-                            <explicit type="背面">M. 358</explicit>
+                            
+                            
                             <filiation>書畫卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -118,7 +115,11 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p><locus>題簽: </locus>高其佩 山水</p>
+                            <p><locus>背面: </locus>F.2</p>
+                            <p><locus>背面: </locus>M. 358</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -127,6 +128,10 @@
                                     立軸,一色裱。天頭地脚和邊是白色有花紋絲織物。畫心為白色紙本。背面題簽為紅色紙本。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>高其佩</p></seal>
+                            <seal><p>指頭畫</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

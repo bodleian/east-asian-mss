@@ -57,8 +57,8 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title type="desc">明仇英繪清明上河圖 卷</title>
-                            <title type="desc" xml:lang="en">A scroll of Chinese painting attributed to Qiu Ying</title>
+                            <title key="desc">明仇英繪清明上河圖 卷</title>
+                            <title key="desc" xml:lang="en">A scroll of Chinese painting attributed to Qiu Ying</title>
                             <author key="Q769372">   
                                 <persName>仇英</persName>
                                 <persName type="字">實父</persName>
@@ -66,7 +66,7 @@
                                 <date notAfter="1600" notBefore="1400" calendar="Gregorian">1494-1552</date>
                             </author>  
                             <incipit type="款識">仇英實父製</incipit>
-                            <incipit type="seal">十州</incipit>
+                            
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -124,6 +124,9 @@
                                 </decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>十州</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

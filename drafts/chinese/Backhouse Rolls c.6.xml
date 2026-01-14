@@ -69,11 +69,6 @@
                                      應知近水花先發，疑是經春雪未消。
                                      翠樓春洒蝦蟆陵，長安少年皆共景。
                                      紛紛半醉綠槐道，躞蹀花驄驕不勝。</incipit>
-                            <incipit type="seal">康熙宸翰</incipit>
-                            <incipit type="seal">剑泉鑑藏</incipit>
-                            <note type="注">剑泉鑑藏為景其濬之鈐印。景其濬，字劍泉，進士出身，晚清政治人物</note>
-                            <explicit type="題簽">Emperor Kanghsi’s autograph poem</explicit>
-                            <explicit type="題簽">圖書館</explicit>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -121,7 +116,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p><locus>題簽: </locus>Emperor Kanghsi’s autograph poem</p>
+                            <p><locus>題簽: </locus>圖書館</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -134,6 +132,10 @@
                                     引首為黃色紙本，撞邊為黃色，拖尾為白色紙本。書法寫與黃色紙上。</decoNote>
                             </binding>
                         </bindingDesc>
+                       <sealDesc>
+                        <seal><p>康熙宸翰</p></seal>
+                        <seal><p>剑泉鑑藏</p>
+                        <decoNote type="注">剑泉鑑藏為景其濬之鈐印。景其濬，字劍泉，進士出身，晚清政治人物</decoNote></seal></sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

@@ -73,10 +73,7 @@
                                   工画，山水、人物、花卉俱臻其妙。山水师法王原祁，上溯倪瓒；花鸟学蒋廷锡，人物取法宋李公麟白描，笔法秀俊。
                                   幼学其舅指头画法，并曾为高其佩代笔指画。（故宮博物院，詳見：https://www.dpm.org.cn/lemmas/244937）</note>
                             <incipit type="款識">臣李世倬恭繪</incipit>
-                            <incipit type="seal">世</incipit>
-                            <incipit type="seal">倬</incipit>
-                            <explicit type="題簽">李世倬</explicit>
-                            <explicit type="背面">B/343</explicit>
+                           
                             <filiation>手繪卷軸，中外孤本。</filiation>
                             
                         </msItem>
@@ -122,7 +119,10 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            <p><locus>題簽: </locus>李世倬</p>
+                            <p><locus>背面: </locus>B/343</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1700"><!-- use dating attributes to record the date -->
                                 <p>卷軸</p>
@@ -138,6 +138,11 @@
                                     拖尾為白色紙本，略有污跡。撞邊為淺棕色。錦包首為褐色絲織物伴有棕黃色花紋，題簽為淺棕色紙本，上書"李世倬"。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>世</p></seal>
+                            <seal><p>倬</p></seal>
+                            
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

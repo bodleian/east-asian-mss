@@ -66,10 +66,7 @@
                             </author>
                             <incipit type="釋文">山寒夕飈急，木蕩洞庭波。幾叠雲屏好，一生秋夢処。</incipit>
                             <incipit type="釋文">朱子詩</incipit>
-                            <incipit type="seal">康熙宸翰</incipit>
-                            <incipit type="seal">敕幾清晏</incipit>
-                            <incipit type="seal">淵鑑齋</incipit>
-                            <explicit type="題簽">朱子詩 emperor Kang hsi's autograph</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -114,7 +111,11 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions>
+                            
+                            
+                            <p> <locus>題簽 :</locus> 朱子詩 emperor Kang hsi's autograph</p>
+                        </additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>立軸</p>
@@ -123,6 +124,11 @@
                                     立軸,一色裱。天頭地脚和邊是棕黃色祥雲龍紋絲織物，畫心上方的絲織物上有五爪團龍紋樣。書法寫與淺棕色灑金紙本上。</decoNote>
                             </binding>
                         </bindingDesc>
+                        <sealDesc>
+                            <seal><p>康熙宸翰</p></seal>
+                            <seal><p>敕幾清晏</p></seal>
+                            <seal><p>淵鑑齋</p></seal>
+                        </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          

@@ -63,14 +63,7 @@
                             <author key="Chinese">unknown</author>
                             <incipit type="釋文">弓矢承家法，勤脩考訓遺。黃考《習射詩》有“家法勤脩志莫移”之句。和平百體順，審固一心知，時習所無逸，成圖念在兹，文皇喻國政，端本契思深。</incipit>
                             <incipit type="款識">咸豐癸丑嘉平下澣御題</incipit>
-                            <incipit type="seal">三希堂</incipit>
-                            <incipit type="seal">昭陽</incipit>
-                            <incipit type="seal">洪鐘大呂</incipit>
-                            <incipit type="seal">拙誠呈敬</incipit>
-                            <incipit type="seal">咸豐寳翰</incipit>
-                            <incipit type="seal">養心殿鑒藏寳</incipit>
-                            <explicit type="題簽">和 Harmonious 平 balance 審 stact 固 【sraoz？】 </explicit>
-                            <explicit type="題簽">picture of a model archer 1853</explicit>
+                            
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -125,6 +118,14 @@
                                 </decoNote>
                             </binding>
                         </bindingDesc>
+                       <sealDesc>
+                           <seal><p>三希堂</p></seal>
+                           <seal><p>昭陽</p></seal>
+                           <seal><p>洪鐘大呂</p></seal>
+                           <seal><p>拙誠呈敬</p></seal>
+                           <seal><p>咸豐寳翰</p></seal>
+                           <seal><p>養心殿鑒藏寳</p></seal>
+                       </sealDesc>
                         <accMat>
                             <!-- insert if relevant, otherwise delete 
                      https://git.io/msdescdoc#accMat          
