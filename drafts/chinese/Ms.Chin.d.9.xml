@@ -120,7 +120,7 @@
                         
                         <bindingDesc>
                             <binding when="1700"><!-- use dating attributes to record the date -->
-                                <p> a bardback book in European style.</p>
+                                <p> a hardback book in European style.</p>
                                 <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
                             </binding>
                         </bindingDesc>
