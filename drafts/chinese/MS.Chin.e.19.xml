@@ -137,14 +137,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.e.19
-                            content:	TRIGAULT (NIC.): Kuangyi [an abridged transltaion of Aesop's fables]. Told by Trigault and written down by Zhang Keng.
-                            phys. descr:	35 ff.
-                            acquired:	1882.
-                            Past shelfmarks:	Chin.594l
-                            List number:	S.C.29246o
+                        <provenance>
                         </provenance>
                         
                         
@@ -157,6 +150,14 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!-- record in previous catalogue：
+                            language:	Chinese
+                            shelfmark:	MS.Chin.e.19
+                            content:	TRIGAULT (NIC.): Kuangyi [an abridged transltaion of Aesop's fables]. Told by Trigault and written down by Zhang Keng.
+                            phys. descr:	35 ff.
+                            acquired:	1882.
+                            Past shelfmarks:	Chin.594l
+                            List number:	S.C.29246o-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

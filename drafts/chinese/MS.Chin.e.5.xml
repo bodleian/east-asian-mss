@@ -134,15 +134,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">1850</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>record in previous catalogue：
-                            language:	Chinese
-                            shelfmark:	MS.Chin.e.5
-                            content:	Programme of a taoist service at Shanghai, 1850
-                            date:	1850.
-                            phys. descr:	12 ff.
-                            acquired:	1855 or later.
-                            Past shelfmarks:	Chin.363
-                            List number:	S.C.30869q
+                        <provenance>
                         </provenance>
                         
                         
@@ -155,6 +147,15 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--record in previous catalogue：
+                            language:	Chinese
+                            shelfmark:	MS.Chin.e.5
+                            content:	Programme of a taoist service at Shanghai, 1850
+                            date:	1850.
+                            phys. descr:	12 ff.
+                            acquired:	1855 or later.
+                            Past shelfmarks:	Chin.363
+                            List number:	S.C.30869q -->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

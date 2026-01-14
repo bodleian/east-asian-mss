@@ -133,11 +133,7 @@
                             <origDate notAfter="1900" notBefore="1800" calendar="Gregorian">晚清</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows:
-                                    language:	Chinese
-                                    shelfmark:	MS.Chin.b.14(R)
-                                    content:	Calligraphic scroll: birthday greetings to the "Guardian of the Heir Apparent" (order conferred posthumously on Sir Robert Hart)
-                                    notes:	From the papers of Sir Robert Hart, purchased 9-ii-72 from Mr George Greer
+                        <provenance>
                         </provenance>
                         
                         
@@ -151,6 +147,12 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    
+                                    <!-- The record of this scroll in the Bodleian Oriental Manuscript Catalogue is as follows:
+                                    language:	Chinese
+                                    shelfmark:	MS.Chin.b.14(R)
+                                    content:	Calligraphic scroll: birthday greetings to the "Guardian of the Heir Apparent" (order conferred posthumously on Sir Robert Hart)
+                                    notes:	From the papers of Sir Robert Hart, purchased 9-ii-72 from Mr George Greer-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

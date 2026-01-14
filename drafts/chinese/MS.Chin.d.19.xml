@@ -158,14 +158,7 @@
                             <origDate notAfter="1800" notBefore="1700" calendar="Gregorian">清晚期</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance><!-- record in previous catalogue 
-                            language:	Chinese
-                            shelfmark:	MS.Chin.e.11
-                            content:	T'ou lien hsi ts'ao [questions in arithmetic or algebra]
-                            phys. descr:	21 ff.
-                            acquired:	1882.
-                            Past shelfmarks:	Chin.364
-                            List number:	S.C.30869r --> <!-- presumably the wrong catalogue entry -->
+                        <provenance>
                         </provenance>
                         
                         
@@ -178,6 +171,14 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!-- record in previous catalogue 
+                            language:	Chinese
+                            shelfmark:	MS.Chin.e.11
+                            content:	T'ou lien hsi ts'ao [questions in arithmetic or algebra]
+                            phys. descr:	21 ff.
+                            acquired:	1882.
+                            Past shelfmarks:	Chin.364
+                            List number:	S.C.30869r --> <!-- presumably the wrong catalogue entry -->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->

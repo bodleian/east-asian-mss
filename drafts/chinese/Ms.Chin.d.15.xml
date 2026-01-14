@@ -153,11 +153,7 @@
                             <origDate notAfter="1700" notBefore="1500" calendar="Gregorian">1851-1853</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>language:	Chinese
-                                    shelfmark:	MS.Chin.d.15
-                                    content:	Religious books of the Taiping rebels. 2 pen
-                                    phys. descr:	13 ff.
-                                    acquired:	1855. <note>record retrieved from previous catalogue</note>
+                        <provenance>
                         </provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
@@ -168,6 +164,11 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
+                                    <!--language:	Chinese
+                                    shelfmark:	MS.Chin.d.15
+                                    content:	Religious books of the Taiping rebels. 2 pen
+                                    phys. descr:	13 ff.
+                                    acquired:	1855. <note>record retrieved from previous catalogue</note>-->
                                     <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
                                     <bibl><!-- insert if necesary, otherwise delete --></bibl>
                                     <!-- links to digitized catalogues may also be provide here, e.g.: -->
