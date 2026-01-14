@@ -57,26 +57,9 @@
                         <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
                             <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
                             <locus><!-- insert --></locus>
-                            <title type="desc">【萬安橋記拓片 軸】</title>
+                            <title key="desc">【萬安橋記拓片 軸】</title>
                             <author key="_unknown">unknown</author>
-                            
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.15(1)</title>
-                                <incipit type="釋文">泉州萬安渡石橋。始造於皇祐五年四月庚寅。以嘉祐四年十二月辛未訖功。絫趾于淵。釃水為四十</incipit>
-                            </msItem>
-                            
-                            <msItem>   
-                                <title key="shelfmark">MS.Chin.a.15(2)</title>
-                                <incipit type="釋文">七道。梁空以行。其長三千六百尺。廣丈有五尺。翼以扶欄。如其長之數而兩之。靡金錢一千四百萬。求</incipit> </msItem> 
-                            
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.15(3)</title>
-                                <incipit type="釋文">諸施者。渡實支海。去舟而徒。易危而安。民莫不利。職其事盧錫。王寔。許忠浮。圖義波。宗善等十有五人。</incipit>
-                            </msItem>
-                            <msItem>
-                                <title key="shelfmark">MS.Chin.a.15(4)</title>
-                                <incipit type="釋文">既成。太守莆陽蔡襄為之合樂讌飲而落之。明年秋。蒙召還京。道繇是出。因紀所作。勒于岸左。</incipit>
-                            </msItem>
+                           
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
                         
@@ -181,6 +164,24 @@
                         </listBibl>
                     </additional>
                     
+                    
+                    <msPart><msIdentifier><altIdentifier>
+                        <idno>MS.Chin.a.15(1)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">泉州萬安渡石橋。始造於皇祐五年四月庚寅。以嘉祐四年十二月辛未訖功。絫趾于淵。釃水為四十</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier>   
+                        <idno>MS.Chin.a.15(2)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">七道。梁空以行。其長三千六百尺。廣丈有五尺。翼以扶欄。如其長之數而兩之。靡金錢一千四百萬。求</incipit> </msItem></msContents></msPart> 
+                    
+                    <msPart><msIdentifier><altIdentifier>
+                        <idno>MS.Chin.a.15(3)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">諸施者。渡實支海。去舟而徒。易危而安。民莫不利。職其事盧錫。王寔。許忠浮。圖義波。宗善等十有五人。</incipit>
+                    </msItem></msContents></msPart>
+                    <msPart><msIdentifier><altIdentifier>
+                        <idno>MS.Chin.a.15(4)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">既成。太守莆陽蔡襄為之合樂讌飲而落之。明年秋。蒙召還京。道繇是出。因紀所作。勒于岸左。</incipit>
+                    </msItem></msContents></msPart>
                     
                 </msDesc>
             </sourceDesc>

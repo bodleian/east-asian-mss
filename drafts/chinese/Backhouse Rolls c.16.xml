@@ -66,20 +66,6 @@
                                 <persName type="title">乾隆皇帝</persName>
                                 <date notAfter="1800" notBefore="1700" calendar="Gregorian">1711-1799</date>
                             </author> 
-                           
-                            <msItem><title type="上聯">上聯</title>
-                            <incipit>自覺雲林延靜賞</incipit>
-                            <incipit type="seal">奉三無私</incipit>
-                            <explicit type="背面">Pair of scrolls</explicit>
-                            <explicit type="背面">Autograph of Emperor Chianlung</explicit>
-                            <explicit type="背面">乾隆御筆</explicit></msItem>
-                            
-                           <msItem><title type="下聯">下聯</title>
-                            <incipit>喜從香界覓新題</incipit>    
-                            <incipit type="seal">乾隆宸翰</incipit>
-                            <incipit type="seal">惟精惟一</incipit>
-                            <explicit type="背面">Backhouse Rolls c.16(2)</explicit>
-                            <explicit type="背面">乾隆御筆</explicit></msItem> 
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -188,7 +174,31 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.16/1</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem><title type="上聯">上聯</title>
+                        <incipit>自覺雲林延靜賞</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Pair of scrolls </p>
+                        <p> <locus>背面: </locus> Autograph of Emperor Chianlung </p>
+                        <p> <locus>背面: </locus> 乾隆御筆 </p>
+                    </additions><sealDesc>
+                        <seal> <p>奉三無私</p> </seal>
+                    </sealDesc>
+                    </physDesc>
+                    </msPart>
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.16/2</idno></altIdentifier></msIdentifier>
+                        <msContents>
+                    <msItem><title type="下聯">下聯</title>
+                        <incipit>喜從香界覓新題</incipit>    
+                    </msItem> </msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Backhouse Rolls c.16(2) </p>
+                        <p> <locus>背面: </locus> 乾隆御筆 </p>
+                    </additions><sealDesc>
+                        <seal> <p>乾隆宸翰</p> </seal>
+                        <seal> <p>惟精惟一</p> </seal>
+                    </sealDesc></physDesc>
                     
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

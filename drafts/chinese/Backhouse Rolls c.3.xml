@@ -67,17 +67,7 @@
                                 <persName type="號">季良</persName>
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1814-?</date>
                             </author>
-                            
-                            <msItem><title type="上聯">上聯</title>
-                            <incipit>竹因風定平安久</incipit>
-                            <explicit type="背面">Backhouse Rolls c. 3(1)</explicit>
-                            <explicit type="背面">楊能格</explicit></msItem>
-                            
-                            <msItem><title type="下聯">下聯</title>
-                            <incipit>花為春深富貴長</incipit>
-                            <incipit type="款識">簡侯楊能格</incipit>
-                            <explicit type="背面">潘祖蔭</explicit>
-                            <explicit type="背面">Scrolls of Yang Neng Ko, the great scholar</explicit></msItem>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -186,6 +176,20 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c. 3/1</idno></altIdentifier></msIdentifier>
+                  <msContents>  <msItem><title type="上聯">上聯</title>
+                        <incipit>竹因風定平安久</incipit>
+                  </msItem></msContents><physDesc><additions><p> <locus>背面: </locus> Backhouse Rolls c. 3(1) </p>
+                      <p> <locus>背面: </locus> 楊能格 </p>
+                      </additions></physDesc></msPart>
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c. 3/2</idno></altIdentifier></msIdentifier>
+                   <msContents> <msItem><title type="下聯">下聯</title>
+                        <incipit>花為春深富貴長</incipit>
+                        <incipit type="款識">簡侯楊能格</incipit>
+                   </msItem></msContents><physDesc><additions>
+                       <p> <locus>背面: </locus> 潘祖蔭 </p>
+                       <p> <locus>背面: </locus> Scrolls of Yang Neng Ko, the great scholar </p>
+                   </additions></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

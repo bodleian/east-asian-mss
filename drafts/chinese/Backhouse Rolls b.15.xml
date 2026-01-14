@@ -73,22 +73,7 @@
                             <persName type="號">日觀峰道人</persName>
                             <date notAfter="1900" notBefore="1700" calendar="Gregorian">1719-1805</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>水能性淡為吾友</incipit>
-                            <incipit type="seal">御賜仙舫</incipit>
-                            <explicit type="背面">Backhouse Rolls b. 15(1)</explicit>
-                            <explicit type="背面">劉墉 對</explicit>
-                            <explicit type="背面">Autograph of Liu Yong the poet calligrapher</explicit></msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>竹解心虛是我師</incipit>
-                            <incipit type="款識">劉墉</incipit>
-                            <incipit type="seal">石盦</incipit>
-                            <incipit type="seal">劉墉之印</incipit>
-                            <explicit type="背面">Backhouse Rolls b. 15(1)</explicit>
-                            <explicit type="背面">劉墉 對</explicit></msItem>
+                           
                             <filiation>書法卷軸，中外孤本。</filiation>   
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -199,7 +184,29 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b. 15/1</idno></altIdentifier></msIdentifier>
+<msContents>                    <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>水能性淡為吾友</incipit>
+</msItem></msContents><physDesc><additions>
+    <p> <locus>背面: </locus> Backhouse Rolls b. 15(1) </p>
+    <p> <locus>背面: </locus> 劉墉 對 </p>
+    <p> <locus>背面: </locus> Autograph of Liu Yong the poet calligrapher </p>
+</additions><sealDesc>
+    <seal> <p>御賜仙舫</p> </seal>
+</sealDesc></physDesc></msPart>
                     
+                        <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b. 15/2</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>竹解心虛是我師</incipit>
+                        <incipit type="款識">劉墉</incipit>
+                        </msItem></msContents><physDesc><additions>
+                            <p> <locus>背面: </locus> Backhouse Rolls b. 15(1) </p>
+                            <p> <locus>背面: </locus> 劉墉 對 </p>
+                        </additions><sealDesc>
+                            <seal> <p>石盦</p> </seal>
+                            <seal> <p>劉墉之印</p> </seal>
+                        </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

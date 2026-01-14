@@ -68,17 +68,6 @@
                                 <persName type="號">龜盦</persName>
                                 <persName type="號">龍威洞天主</persName>
                                 <date notAfter="1900" notBefore="1800" calendar="Gregorian">1830-1890</date></author>
-                           
-                    <msItem>
-                        <title type="上聯">上聯</title>
-                            <incipit>珠林墨妙三唐字</incipit>
-                            <incipit type="seal">賜</incipit></msItem>
-                            
-                            <msItem>
-                                <title type="下聯">下聯</title>    
-                            <incipit>金簡文高二漢風</incipit>
-                            <incipit type="seal">潘祖蔭印</incipit>
-                            <incipit type="seal">日東</incipit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -189,8 +178,22 @@
                             
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS.Chin.b.11(R)/1</idno></altIdentifier></msIdentifier>
+                   <msContents>                    <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>珠林墨妙三唐字</incipit>
+                       </msItem></msContents>
+                        <physDesc><sealDesc><seal><p>賜</p></seal></sealDesc></physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>MS.Chin.b.11(R)/2</idno></altIdentifier></msIdentifier>
+                        <msContents>                    
+                    <msItem>
+                        <title type="下聯">下聯</title>    
+                        <incipit>金簡文高二漢風</incipit>
+                    </msItem></msContents><physDesc><sealDesc><seal><p>潘祖蔭印</p>
+                    </seal><seal><p>日東</p></seal></sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

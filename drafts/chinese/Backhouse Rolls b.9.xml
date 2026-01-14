@@ -66,18 +66,6 @@
                                 <persName>慈禧太后</persName>
                                 <date notAfter="2000" notBefore="1800" calendar="Gregorian">1835-1908</date>
                             </author> 
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>玉昭三采寳所貴</incipit>
-                            <incipit type="seal">慈禧皇太后御筆之寳</incipit>
-                            <explicit type="背面">顯皇后御筆 Backhouse Rolls b.9(1) Empress dowager's autograph</explicit></msItem>
-                            
-                            <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>鳳翔千仞極其游</incipit>
-                            <incipit type="seal">海涵春育</incipit>
-                            <incipit type="seal">萬古長青？</incipit>
-                            <explicit type="背面">顯皇后字</explicit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -190,6 +178,26 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.9/1</idno></altIdentifier></msIdentifier><msContents>
+                    <msItem>
+                        <title type="上聯">上聯</title>
+                        <incipit>玉昭三采寳所貴</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 顯皇后御筆 Backhouse Rolls b.9(1) Empress dowager's autograph </p>
+                    </additions><sealDesc>
+                        <seal> <p>慈禧皇太后御筆之寳</p> </seal>
+                    </sealDesc></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls b.9/2</idno></altIdentifier></msIdentifier><msContents>
+                    <msItem>
+                        <title type="下聯">下聯</title>
+                        <incipit>鳳翔千仞極其游</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> 顯皇后字 </p>
+                    </additions><sealDesc>
+                        <seal> <p>海涵春育</p> </seal>
+                        <seal> <p>萬古長青？</p> </seal>
+                    </sealDesc></physDesc></msPart>
                     
                 </msDesc>
             </sourceDesc>

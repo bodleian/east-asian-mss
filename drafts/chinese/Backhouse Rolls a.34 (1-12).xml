@@ -76,66 +76,7 @@
                                 The authentic calligraphy of ‘Dong Ting Chun Se Fu’ written by Su Shi is held by the Jilin Museum of China.
                                 
                                 衣若芬 (2018)。遞藏·題跋·複製：蘇軾《洞庭春色賦》、《中山松醪賦》書跡。《嶺南學報》，復刊 第九輯，頁143-161。檢自 https://commons.ln.edu.hk/ljcs_new/vol9/iss1/8 </note> 
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (1)</title>
-                                <incipit type="釋文">覺天拄杖遨峰之賦遠離騷也見親家晨光是飄門</incipit>
-                           </msItem>
-                           
-                           <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (2)</title>
-                               <incipit type="款識">寄時歸息馬眉山蘇軾書</incipit>
                             
-                            <incipit type="seal">眉山某蘇軾印</incipit></msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (3)</title>
-                                <incipit type="釋文">賢王之達觀逸想於人寰焰兮春風天庭之白浪漲北</incipit>
-                           </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (4)</title> 
-                                <incipit type="釋文">泡幻藏千里於一斑舉勺罌青綸隨屬車鴟夷木門</incipit>
-                            </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (5)</title>
-                                <incipit type="題目">洞庭春色賦</incipit>
-                                <incipit type="釋文">吾聞橘中之樂不減商山</incipit></msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (6)</title>
-                                <incipit type="釋文">記求淺散星宿皋香歲之妙質毛區爛曾和束蒿驚</incipit>
-                               </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (7)</title>
-                                <incipit type="釋文">渚蒼灣佳往游勤鬢鬟命黃千奴震還米之禾三而旌</incipit>
-                            </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (8)</title>
-                                <incipit type="釋文">珠涕沸聲味甘餘之苦姿之高知壞笑非紋樽蟄目</incipit>
-                          </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (9)</title>
-                                <incipit type="釋文">镮兮帝之觴書散江吸神夢始如髦蠻玻色山林屋</incipit>
-                            </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (10)</title>
-                                <incipit type="釋文">醉以授鳥山為我刪松始予濟于衡漳泩而夜燧明</incipit>
-                            </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (11)</title>
-                                <incipit type="釋文">豈霜餘之不食而四老人者游戲於其間悟此世之</incipit>
-                            </msItem>
-                            
-                            <msItem>
-                            <title type="shelfmark">Backhouse Rolls a. 34 (12)</title>
-                                <incipit type="釋文">其已遠石之軎收用榆製之山松磔通盤出救何艱葉</incipit>
-                            </msItem>
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
@@ -246,6 +187,66 @@
                         </listBibl>
                     </additional>
                     
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (1)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">覺天拄杖遨峰之賦遠離騷也見親家晨光是飄門</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (2)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="款識">寄時歸息馬眉山蘇軾書</incipit>
+                        
+                        </msItem></msContents><physDesc><sealDesc><seal><p>眉山某蘇軾印</p></seal></sealDesc></physDesc></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (3)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">賢王之達觀逸想於人寰焰兮春風天庭之白浪漲北</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (4)</idno></altIdentifier></msIdentifier><msContents><msItem> 
+                        <incipit type="釋文">泡幻藏千里於一斑舉勺罌青綸隨屬車鴟夷木門</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (5)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="題目">洞庭春色賦</incipit>
+                        <incipit type="釋文">吾聞橘中之樂不減商山</incipit></msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (6)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">記求淺散星宿皋香歲之妙質毛區爛曾和束蒿驚</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (7)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">渚蒼灣佳往游勤鬢鬟命黃千奴震還米之禾三而旌</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (8)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">珠涕沸聲味甘餘之苦姿之高知壞笑非紋樽蟄目</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (9)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">镮兮帝之觴書散江吸神夢始如髦蠻玻色山林屋</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (10)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">醉以授鳥山為我刪松始予濟于衡漳泩而夜燧明</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (11)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">豈霜餘之不食而四老人者游戲於其間悟此世之</incipit>
+                    </msItem></msContents></msPart>
+                    
+                    <msPart><msIdentifier><altIdentifier><idno>
+                        Backhouse Rolls a. 34 (12)</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <incipit type="釋文">其已遠石之軎收用榆製之山松磔通盤出救何艱葉</incipit>
+                    </msItem></msContents></msPart>
                     
                 </msDesc>
             </sourceDesc>

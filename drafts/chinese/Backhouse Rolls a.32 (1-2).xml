@@ -68,23 +68,7 @@
                                 <persName type="title">成親王</persName>
                                 <date notAfter="1900" notBefore="1700" calendar="Gregorian">1752-1823</date>
                             </author>
-                            <msItem>
-                            <title type="上聯">上聯</title>
-                            <incipit>雲生紫殿幡花濕</incipit>
-                            <explicit type="背面">皇十一子字</explicit>
-                            <explicit type="背面">Backhouse Rolls a.32</explicit></msItem>
-                           
-                           <msItem>
-                            <title type="下聯">下聯</title>
-                            <incipit>月暎珠光貝闕寒</incipit>
-                               <incipit type="款識">皇十一子書</incipit>
-                            <incipit type="seal">皇考書印</incipit>
-                            <incipit type="seal">敬慎</incipit>
-                            <explicit type="背面">pair of scrolls by cheng ching [?wang] Prince [Cheng] who was the 11 son of Emperor Ch'ian Lung and is considered as one of the four great calligrapher of the present dynasty.</explicit>
-                            <explicit type="背面">[? of] Jing, Weng Fang Rong, Pu Chang Chao.</explicit>
-                               <explicit type="背面">Autograph of Prince Ch'eng, Ch'ian Lung's son, statesman and scholar.</explicit>   
-                            <explicit type="背面">Backhouse Rolls a. 32(2)</explicit>
-                            <explicit type="背面">皇十一子字</explicit></msItem>
+                            
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -197,8 +181,35 @@
                             
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>Backhouse Rolls a. 32(1)</idno></altIdentifier></msIdentifier>
+                      <msContents>  <msItem>
+                            <title type="上聯">上聯</title>
+                            <incipit>雲生紫殿幡花濕</incipit></msItem>
+                        </msContents>
+                        <physDesc><additions><p><locus>背面: </locus>皇十一子字</p></additions></physDesc>
+                       
+                    </msPart>
+                    <msPart>
+                        <msIdentifier><altIdentifier><idno>Backhouse Rolls a. 32(2)</idno></altIdentifier></msIdentifier>
+                        <msContents>
+                        <msItem>
+                            <title type="下聯">下聯</title>
+                            <incipit>月暎珠光貝闕寒</incipit>
+                            <incipit type="款識">皇十一子書</incipit>
+                           
+                           </msItem>
+                        </msContents><physDesc>
+                            <additions>
+                                <p><locus>背面: </locus>pair of scrolls by cheng ching [?wang] Prince [Cheng] who was the 11 son of Emperor Ch'ian Lung and is considered as one of the four great calligrapher of the present dynasty.</p>
+                                <p><locus>背面: </locus>[? of] Jing, Weng Fang Rong, Pu Chang Chao.</p>
+                                <p><locus>背面: </locus>Autograph of Prince Ch'eng, Ch'ian Lung's son, statesman and scholar.</p>   
+                                <p><locus>背面: </locus>皇十一子字</p>
+                            </additions>
+                            <sealDesc> <seal><p>皇考書印</p></seal>
+                            <seal><p>敬慎</p></seal></sealDesc></physDesc>
+                        
+                    </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

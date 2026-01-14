@@ -71,19 +71,7 @@
                                 <date notAfter="1900" notBefore="1733" calendar="Gregorian">1733-1818</date>
                             </author>
                             <note type="注">翁方綱 (1771-1840),字忠叙，一字正三,號覃谿,晚號蘇齋,順天府大興縣人,清代書法家，文學家，金石學家。</note>
-                            <msItem><title type="上聯">上聯</title>
-                            <incipit>客來翠竹茶煙外</incipit>
-                            <explicit type="背面">Backhouse Rolls c.15(1)</explicit>
-                            <explicit type="背面">翁方綱 B/309</explicit></msItem>
                             
-                            <msItem><title type="下聯">下聯</title>
-                            <incipit>詩在幽蘭雪意閒</incipit>
-                            <incipit type="款識">翁方綱</incipit>
-                            <incipit type="seal">翁方綱印</incipit>
-                            <incipit type="seal">覃谿</incipit>
-                            <explicit type="背面">Backhouse Rolls b. 11(2)</explicit>
-                            <explicit type="背面">Rolls of scholar ? Weng Fang Gang. one of the four famous calligraphers of Qing dynasty.</explicit>
-                            <explicit type="背面">翁方綱</explicit></msItem>
                             
                             <filiation>書法卷軸，中外孤本。</filiation>  
                         </msItem>
@@ -191,8 +179,29 @@
                             
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.15/1</idno></altIdentifier></msIdentifier>
+                    <msContents><msItem><title type="上聯">上聯</title>
+                        <incipit>客來翠竹茶煙外</incipit>
+                    </msItem></msContents><physDesc><additions>
+                        <p> <locus>背面: </locus> Backhouse Rolls c.15(1) </p>
+                        <p> <locus>背面: </locus> 翁方綱 B/309 </p>
+                    </additions></physDesc>
+                    </msPart>
+                     
+                    <msPart><msIdentifier><altIdentifier><idno>Backhouse Rolls c.15/2</idno></altIdentifier></msIdentifier>
+                    <msContents>        
+                    <msItem><title type="下聯">下聯</title>
+                        <incipit>詩在幽蘭雪意閒</incipit>
+                        <incipit type="款識">翁方綱</incipit>
+                        </msItem></msContents>
+                        <physDesc><additions>
+                            <p> <locus>背面: </locus> Backhouse Rolls b. 11(2) </p>
+                            <p> <locus>背面: </locus> Rolls of scholar ? Weng Fang Gang. one of the four famous calligraphers of Qing dynasty. </p>
+                            <p> <locus>背面: </locus> 翁方綱 </p>
+                        </additions><sealDesc>
+                        <seal> <p>翁方綱印</p> </seal>
+                        <seal> <p>覃谿</p> </seal>
+                    </sealDesc></physDesc></msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -64,30 +64,6 @@
                                 Classic of Peotry in both Chinese and Manchu Languages</title>
                             <author key="Chinese">unknown</author>
                
-                            <msItem>
-                                <title key="分卷"><locus>vol.1</locus>詩經</title>
-                                <title type="preface"><locus>ff.1-4</locus>御制繙譯詩經序<date>1768</date></title>
-                                <title type="preface"><locus>ff.5-9</locus>詩經傳序</title>
-                                <title><locus>f.10</locus>關雎</title>
-                                <note>本卷内容為《國風》</note>
-                            </msItem>      
-                            
-                            <msItem>
-                                <title key="分卷"><locus>vol.2</locus>詩經</title>
-                                <note>本卷内容為《國風》、《小雅》。</note> 
-                            </msItem>  
-                            
-                            <msItem>    
-                                <title key="分卷"><locus>vol.3</locus>詩經</title>
-                                <note>本卷内容為《小雅》、《大雅》。</note>
-                            </msItem>    
-                            
-                            <msItem>   
-                                <title key="分卷"><locus>vol.4</locus>詩經</title>
-                                <note><note>本卷内容為《大雅》、《周頌》、《魯頌》、《商頌》。</note></note> 
-                            </msItem> 
-
-                            
                         </msItem>
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
@@ -197,6 +173,58 @@
                             
                         </listBibl>
                     </additional>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>Ms.Backhouse 12/1</idno></altIdentifier>
+                        </msIdentifier>
+                    <msContents>
+                        
+                    
+                    <msItem>
+                        <title>詩經</title>
+                        <msItem><locus>ff.1-4</locus>
+                        <title>御制繙譯詩經序<date>1768</date></title></msItem>
+                        <msItem><locus>ff.5-9</locus>
+                        <title>詩經傳序</title></msItem>
+                        <msItem><locus>f.10</locus><title>關雎</title>
+                        <note>本卷内容為《國風》</note></msItem>
+                    </msItem>      
+                    </msContents> 
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>Ms.Backhouse 12/2</idno></altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                    
+                    <msItem>
+                        <title>詩經</title>
+                        <note>本卷内容為《國風》、《小雅》。</note> 
+                    </msItem>  
+                        </msContents></msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>Ms.Backhouse 12/3</idno></altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                    <msItem>    
+                        <title>詩經</title>
+                        <note>本卷内容為《小雅》、《大雅》。</note>
+                    </msItem>
+                        </msContents></msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>Ms.Backhouse 12/4</idno></altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                    <msItem>   
+                        <title>詩經</title>
+                       <note>本卷内容為《大雅》、《周頌》、《魯頌》、《商頌》。</note>
+                    </msItem> 
+                        </msContents></msPart>
                     
                     
                 </msDesc>

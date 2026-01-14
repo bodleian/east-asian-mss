@@ -52,29 +52,7 @@
                         <summary>Three unidentified envelops, with one envelop containing an official document concerning Arthur Bonsey.</summary>
                         <textLang mainLang="zh">Chinese</textLang><!-- change text and attribute if necessary -->
                         
-                        <msItem><!-- optionally provide xml:id and n attributes, n=1, n=2 etc. -->
-                            <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
-                            <locus><!-- insert --></locus>
-                            <title key="" type="desc">envelop Ms.Chin.d.77/1</title>
-                            <author>葉崇善</author>
-                            <rubric>潘師母</rubric>
-                            <rubric>大夾街福音會堂</rubric>
-                            <incipit>具請翌日下午三點鐘喜酌</incipit>
-                            <explicit>教末<persName>葉崇善</persName>拜</explicit>
-                           
-                            <title key="" type="desc">envelop Ms.Chin.d.77/2</title>
-                            <author>陳本鮑</author>
-                            <rubric>潘奶奶</rubric>
-                            <incipit>謹擬於本月十八日午刻潔治喜扈奉迓</incipit>
-                            <explicit>教妹<persName>陳本鮑</persName>斂衽端肅</explicit>
-                            
-                            <title key="" type="desc">envelop containing one official document Ms.Chin.d.77/3</title>
-                            <rubric>潘大牧師</rubric>
-                            <incipit>具稟沔陽州民人郭壽堂年二十八嵗住北鄉熊嶺河</incipit>
-                            <explicit>潘老牧師台前鑒憐做主信賜州主狂瀾可挽教戒歐陽貪心可斂庶教規正而教風開謹稟</explicit>
-                            <colophon>光緒二十八年三月</colophon>
-                                  
-                        </msItem>
+                        
                         <!-- insert further msItem elements as appropriate -->
                     </msContents>
                     <physDesc>
@@ -170,8 +148,27 @@
                             
                         </listBibl>
                     </additional>
-                    
-                    
+                    <msPart><msIdentifier><altIdentifier><idno>MS.Chin.d.77/1</idno></altIdentifier></msIdentifier><msContents>
+                    <msItem>
+                        <author>葉崇善</author>
+                        <rubric>潘師母</rubric>
+                        <rubric>大夾街福音會堂</rubric>
+                        <incipit>具請翌日下午三點鐘喜酌</incipit>
+                        <explicit>教末<persName>葉崇善</persName>拜</explicit></msItem>
+                    </msContents></msPart>
+                        
+                        <msPart><msIdentifier><altIdentifier><idno>MS.Chin.d.77/2</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <author>陳本鮑</author>
+                        <rubric>潘奶奶</rubric>
+                        <incipit>謹擬於本月十八日午刻潔治喜扈奉迓</incipit>
+                        <explicit>教妹<persName>陳本鮑</persName>斂衽端肅</explicit></msItem></msContents></msPart>
+                        
+                            <msPart><msIdentifier><altIdentifier><idno>MS.Chin.d.77/3</idno></altIdentifier></msIdentifier><msContents><msItem>
+                        <rubric>潘大牧師</rubric>
+                        <incipit>具稟沔陽州民人郭壽堂年二十八嵗住北鄉熊嶺河</incipit>
+                        <explicit>潘老牧師台前鑒憐做主信賜州主狂瀾可挽教戒歐陽貪心可斂庶教規正而教風開謹稟</explicit>
+                        <colophon>光緒二十八年三月</colophon></msItem></msContents></msPart>
+                   
                 </msDesc>
             </sourceDesc>
         </fileDesc>
