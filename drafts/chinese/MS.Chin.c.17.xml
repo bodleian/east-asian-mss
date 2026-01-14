@@ -45,6 +45,7 @@
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository><!-- change if necessary -->
                         <idno type="shelfmark">MS.Chin.c.17</idno>
+                        <altIdentifier type="internal"><idno type="SCN">33022</idno></altIdentifier>
                         
                         
                     </msIdentifier>
@@ -117,7 +118,7 @@
                      https://git.io/msdescdoc#decodesc
                      -->
                         </decoDesc>
-                        
+                        <additions><locus>inside upper cover: </locus>33022</additions>
                         <bindingDesc>
                             <binding when="1800"><!-- use dating attributes to record the date -->
                                 <p>冊</p>
@@ -145,8 +146,7 @@
                             <origDate notAfter="1900" notBefore="1700" calendar="Gregorian">清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance>On the inside of upper cover, a seal in red colour is found, showing Chowkwa Painter and Copier of Charts, indicating the painter.
-                            Previous shelfmark: S.C.33022 (as indicated on the inside upper cover)</provenance>
+                        <provenance>On the inside of upper cover, a seal in red colour is found, showing Chowkwa Painter and Copier of Charts, indicating the painter.</provenance>
                         
                         
                         <!-- use additional provenance elements if necessary -->

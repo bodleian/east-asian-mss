@@ -47,7 +47,8 @@
                         <settlement><!-- insert --></settlement>
                         <repository>Bodleian Library</repository>
                         <!-- change if necessary -->
-                        <idno type="shelfmark">Ms.Chin.c.14/a-c</idno>
+                        <idno type="shelfmark">Ms.Chin.c.14</idno>
+                        <altIdentifier type="internal"><idno type="SCN">30871i, 30871j</idno></altIdentifier>
 
                     </msIdentifier>
 
@@ -138,8 +139,7 @@
                                 >清代</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
-                        <provenance> shelfmarks in the previous catalogue are s.c.30871i
-                            (Ms.Chin.c.14/a), s.c.30871j (Ms.Chin.c.14/b). </provenance>
+                        <provenance></provenance>
                         <!-- use additional provenance elements if necessary -->
                         <acquisition>
                             <!-- insert -->
