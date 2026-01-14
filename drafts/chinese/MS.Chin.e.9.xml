@@ -64,7 +64,7 @@
                             <title type="desc" xml:lang="en">Imperial edicts and memorials about the case of Ho Shen.</title> 
                             <title type="desc">清嘉慶年間部分聖旨奏摺抄錄集</title>
                             <author key="Chinese">unknown</author>
-                            <incipit><locus>fol.1</locus>嘉慶四年正月二十七日准</incipit>
+                            <incipit><locus>fol.1: </locus>嘉慶四年正月二十七日准</incipit>
                             <filiation>手抄本，中外孤本。Manuscript, only surviving copy of its kind.</filiation>  
                         </msItem>
                         <!-- insert further msItem elements as appropriate --> 
