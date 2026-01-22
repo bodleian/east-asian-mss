@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.b.3(R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+                <funder>The Nissan Institute of Japanese Studies</funder>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_b_4_R</idno><!-- Add structured form of shelfmark without spaces. I normally use this as the filename, too -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.b.4(R)</idno> <!-- Shelfmark, in normal case -->
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.36814</idno> <!-- Add the Summary Catalogue number, if available. -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Two painted hand scrolls<!--  --></summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            
+                            <supportDesc material="paper">
+                                <p>housed in a replacement wooden box</p>
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <!-- use the @type attribute to record nature of decoration -->
+                                <!-- insert if relevant, otherwise delete --></decoNote>
+                            <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                        </decoDesc>
+                        <additions>
+                            <p><!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#additions
+                     --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <!-- use dating attributes to record the date -->
+                                <p>
+                                    <!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#bindingdesc
+                        --></p>
+                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate notBefore="" notAfter="" calendar="Gregorian"><!-- Add the date here. If you know the actual date, change "notBefore" and "notAfter" to "when" --></origDate>
+                        </origin>
+                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                    </history>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>
+                                Roll 1 <!-- Partial shelfmark -->
+                            </idno></altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja">
+                                    長恨歌
+                                </title>
+                                <title xml:lang="ja-Latn-x-lc">Chōgonka</title> <!-- add transliterated title, if wanted -->
+                                <note></note> <!-- add if necessary -->
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="roll">
+                                <supportDesc material="paper">
+                                    <support> <!-- Add prose --> </support>
+                                    <extent><dimensions unit="mm"><height>335</height><width>12000</width></dimensions></extent>
+                                </supportDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>
+                                 5 paintings</decoNote>
+                                <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                            </decoDesc>
+                            
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate notBefore="1650" notAfter="1750" calendar="Gregorian">Late 17th to 18th century</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="part"><idno>
+                                Roll 2 <!-- Partial shelfmark -->
+                            </idno></altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja">
+                                    長恨歌
+                                </title>
+                                <title xml:lang="ja-Latn-x-lc">Chōgonka</title> <!-- add transliterated title, if wanted -->
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="roll">
+                                <supportDesc material="paper">
+                                    <support><!-- insert prose details --></support>
+                                    <extent><dimensions unit="mm"><height>334</height><width>10210</width></dimensions></extent>
+                                </supportDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    7 paintings</decoNote>
+                                <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                            </decoDesc>
+                            <additions>
+                                <p><!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#additions
+                     --></p>
+                            </additions>
+                            <bindingDesc>
+                                <binding>
+                                    <!-- use dating attributes to record the date -->
+                                    <p>
+                                        <!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#bindingdesc
+                        --></p>
+                                    <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                                </binding>
+                            </bindingDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate notBefore="1650" notAfter="1750" calendar="Gregorian">Late 17th to 18th century</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
