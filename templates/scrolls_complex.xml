@@ -14,7 +14,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>TEI P5</edition>
-                <funder>The Nissan Institute of Japanese Studies</funder>
+                <funder>The Nissan Institute of Japanese Studies</funder> <!-- Add funding info here -->
             </editionStmt>
             <publicationStmt>
                 <publisher>Special Collections, Bodleian Libraries</publisher>
