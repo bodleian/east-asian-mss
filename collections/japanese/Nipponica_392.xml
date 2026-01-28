@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18216">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nipponica 392</title>
+            
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>TEI P5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <idno type="msID">Nipponica_392</idno>
+            <idno type="collection">Nipponica</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">Nipponica 392</idno>
+               </msIdentifier>
+               <head/>
+               <msContents>
+                  <textLang mainLang="ja">Japanese</textLang>
+                  
+                  <msItem>
+                     <title xml:lang="ja">[大谷派関係文書達書類](配紙仮題)</title>
+                     <title xml:lang="ja-Latn-x-lc">Ōtani-ha kankei bunsho</title>
+                  <note xml:lang="ja" source="#409">明治9 -13 年</note><note xml:lang="ja-Latn-x-lc" source="#409">Meiji 9-13 (1976-1980)</note></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" notAfter="1980" notBefore="1976">1976-1980</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990211440620107026">SOLO</ref></p></availability>
+                  </adminInfo>
+                 
+               </additional>
+              
+       
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+           
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

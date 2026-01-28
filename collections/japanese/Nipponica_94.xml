@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_17964">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nipponica 94</title>
+            
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>TEI P5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <idno type="msID">Nipponica_94</idno>
+            <idno type="collection">Nipponica</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">Nipponica 94</idno>
+               </msIdentifier>
+               <head/>
+               <msContents>
+                  <textLang mainLang="ja">Japanese</textLang>
+                  
+                  <msItem>
+                     <title xml:lang="ja">(明治再刻)女大学詑文庫　</title>
+                     <title xml:lang="ja-Latn-x-lc">Onna daigaku takara bunko</title>
+                  <note xml:lang="ja" source="#409"> 明治14刊　</note><note xml:lang="ja-Latn-x-lc" source="#409">Meiji 14 (1881)</note></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <extent>1冊<dimensions unit="cm" type="leaf"><height>25.5</height>
+                           <width>17.7</width></dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="1881">1881</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990211438100107026">SOLO</ref></p></availability>
+                  </adminInfo>
+                 
+               </additional>
+              
+       
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+           
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
