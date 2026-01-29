@@ -30,7 +30,7 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <idno type="msID">Nipponica_1</idno>
-            <idno type="collection"/>
+            <idno type="collection">Nipponica</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
