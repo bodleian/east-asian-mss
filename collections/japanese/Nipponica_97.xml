@@ -36,7 +36,7 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <settlement>Oxford</settlement>
-                  <repository>Bodleian Library</repository>
+                  <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 97</idno>
                </msIdentifier>
                <head/>
