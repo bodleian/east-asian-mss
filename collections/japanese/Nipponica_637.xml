@@ -49,7 +49,7 @@
                   <note xml:lang="ja" source="#409">[享保頃]刊</note><note xml:lang="ja-Latn-x-lc" source="#409">[Between 1716 and 1736]</note></msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="sheet">
                      <supportDesc material="chart">
                         <extent>図1舗　<dimensions unit="cm" type="leaf"><height/>
                            <width/></dimensions>

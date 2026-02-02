@@ -49,7 +49,7 @@
                   <note xml:lang="ja" source="#409">〔慶長年間〕刊</note><note xml:lang="ja-Latn-x-lc" source="#409">[between 1596 and 1614]</note></msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="roll">
                      <supportDesc material="chart">
                         <extent>1軸<dimensions unit="cm" type="leaf"><height>21.4</height>
                            <width>118.3</width></dimensions>

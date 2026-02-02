@@ -49,7 +49,7 @@
                   <note xml:lang="ja" source="#409">万延1刊　</note><note xml:lang="ja-Latn-x-lc" source="#409">Man'en 1(1860)</note></msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="sheet">
                      <supportDesc material="chart">
                         <extent>図3舗　<dimensions unit="cm" type="leaf"><height>23.5</height>
                            <width>15.0</width></dimensions>

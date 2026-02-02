@@ -49,7 +49,7 @@
                   <note xml:lang="ja" source="#409"></note><note xml:lang="ja-Latn-x-lc" source="#409">[date of publication not identified]</note></msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="other">
                      <supportDesc material="chart">
                         <extent>2帖<dimensions unit="cm" type="leaf"><height>22.7</height>
                            <width>9.8</width></dimensions>
