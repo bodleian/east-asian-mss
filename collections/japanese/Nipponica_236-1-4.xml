@@ -39,14 +39,14 @@
                   <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 236/1-4</idno>
                </msIdentifier>
-               <head/>
+               <head>浮説歌線會山 ; 重井菱染別小紋 ; 里見軍記 ; 加藤清正一代記<lb/>Kudokibushi itoni aoyama ; Shigenoi bishi somewake komon ; Satomi gunki ; Katō Kiyomasa ichidaiki</head>
                <msContents>
                   <textLang mainLang="ja">Japanese</textLang>
                   
                   <msItem>
                      <title xml:lang="ja">浮説歌線會山 ; 重井菱染別小紋 ; 里見軍記 ; 加藤清正一代記</title>
                      <title xml:lang="ja-Latn-x-lc">Kudokibushi itoni aoyama ; Shigenoi bishi somewake komon ; Satomi gunki ; Katō Kiyomasa ichidaiki</title>
-                  <note xml:lang="ja" source="#409"></note><note xml:lang="ja-Latn-x-lc" source="#409">[between 1840 and 1860]</note></msItem>
+                  <note xml:lang="ja" source="#409"/><note xml:lang="ja-Latn-x-lc" source="#409">[between 1840 and 1860]</note></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">

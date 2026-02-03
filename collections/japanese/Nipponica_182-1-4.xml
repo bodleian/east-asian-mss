@@ -39,14 +39,14 @@
                   <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 182/1-4</idno>
                </msIdentifier>
-               <head/>
+               <head>泰西名醫彙講<lb/>Taisei meii ikō</head>
                <msContents>
                   <textLang mainLang="ja">Japanese</textLang>
                   
                   <msItem>
                      <title xml:lang="ja">泰西名醫彙講</title>
                      <title xml:lang="ja-Latn-x-lc">Taisei meii ikō</title>
-                  <note xml:lang="ja" source="#409"></note><note xml:lang="ja-Latn-x-lc" source="#409">[date of publication not identified]</note></msItem>
+                  <note xml:lang="ja" source="#409"/><note xml:lang="ja-Latn-x-lc" source="#409">[date of publication not identified]</note></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">

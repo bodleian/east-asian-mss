@@ -39,14 +39,14 @@
                   <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 631</idno>
                </msIdentifier>
-               <head/>
+               <head>大工雛形<lb/>Daiku hinagata</head>
                <msContents>
                   <textLang mainLang="ja">Japanese</textLang>
                   
                   <msItem>
                      <title xml:lang="ja">大工雛形</title>
                      <title xml:lang="ja-Latn-x-lc">Daiku hinagata</title>
-                  <note xml:lang="ja" source="#409"></note><note xml:lang="ja-Latn-x-lc" source="#409">[date of publication not identified]</note></msItem>
+                  <note xml:lang="ja" source="#409"/><note xml:lang="ja-Latn-x-lc" source="#409">[date of publication not identified]</note></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">

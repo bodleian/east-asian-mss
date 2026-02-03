@@ -39,14 +39,14 @@
                   <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 33</idno>
                </msIdentifier>
-               <head/>
+               <head>千手觀音修習瑜伽玄秘略<lb/>Senju Kannon shujū yuga genpiryakuShōtoku 2 (1712)</head>
                <msContents>
                   <textLang mainLang="ja">Japanese</textLang>
                   
                   <msItem>
                      <title xml:lang="ja">千手觀音修習瑜伽玄秘略</title>
                      <title xml:lang="ja-Latn-x-lc">Senju Kannon shujū yuga genpiryakuShōtoku 2 (1712)</title>
-                  <note xml:lang="ja" source="#409">正徳2刊　</note><note xml:lang="ja-Latn-x-lc" source="#409"></note></msItem>
+                  <note xml:lang="ja" source="#409">正徳2刊　</note><note xml:lang="ja-Latn-x-lc" source="#409"/></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">

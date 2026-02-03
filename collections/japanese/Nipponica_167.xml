@@ -39,14 +39,14 @@
                   <repository>Bodleian Library</repository><collection>Nipponica</collection>
                   <idno type="shelfmark">Nipponica 167</idno>
                </msIdentifier>
-               <head/>
+               <head>経典余師(易経) ; 経典余師(書経) ; 経典余師(詩経) ; 商人夜話<lb/>Keiten yoshi (Ekikyō ; Shokyō ; Shikyō) ; Shōnin yawa</head>
                <msContents>
                   <textLang mainLang="ja">Japanese</textLang>
                   
                   <msItem>
                      <title xml:lang="ja">経典余師(易経) ; 経典余師(書経) ; 経典余師(詩経) ; 商人夜話</title>
                      <title xml:lang="ja-Latn-x-lc">Keiten yoshi (Ekikyō ; Shokyō ; Shikyō) ; Shōnin yawa</title>
-                  <note xml:lang="ja" source="#409"></note><note xml:lang="ja-Latn-x-lc" source="#409">Kansei 5-Ansei 5 (1793-1858)</note></msItem>
+                  <note xml:lang="ja" source="#409"/><note xml:lang="ja-Latn-x-lc" source="#409">Kansei 5-Ansei 5 (1793-1858)</note></msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
