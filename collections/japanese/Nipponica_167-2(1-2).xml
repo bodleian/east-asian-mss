@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18025">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nipponica 167/2(1-2)</title>
+            
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>TEI P5</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <idno type="msID">Nipponica_167-2(1-2)</idno>
+            <idno type="collection">Nipponica</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository><collection>Nipponica</collection>
+                  <idno type="shelfmark">Nipponica 167/2(1-2)</idno>
+               </msIdentifier>
+               <head>経典余師(書経)(見返) ; 商人夜話 — 1858<lb/>Keiten yoshi (Shokyō) ; Shōnin yawa</head>
+               <msContents>
+                  <textLang mainLang="ja">Japanese</textLang>
+                  
+                  <msItem>
+                     <title xml:lang="ja">経典余師(書経)(見返) ; 商人夜話</title>
+                     <title xml:lang="ja-Latn-x-lc">Keiten yoshi (Shokyō) ; Shōnin yawa</title>
+                  <note xml:lang="ja" source="#409">安政5再刻</note><note xml:lang="ja-Latn-x-lc" source="#409">Ansei 5 (1858)</note></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <extent>洋1冊(6,3巻)　<dimensions unit="cm" type="leaf"><height>23.0</height>
+                           <width>16.7　</width></dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="1858">1858</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="printcat">
+                        <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990211438730107026">SOLO</ref></p></availability>
+                  </adminInfo>
+                 
+               </additional>
+              
+       
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+           
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
