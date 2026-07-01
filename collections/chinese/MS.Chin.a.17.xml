@@ -42,7 +42,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>MS.Chin.a.</collection>
                   <idno type="shelfmark">MS.Chin.a.17</idno>
-               <altIdentifier type="internal"><idno>Arch.O.a.6/1</idno></altIdentifier></msIdentifier>
+               <idno type="ieArk">ark:29072/x0x920fx641h</idno><idno type="crArk">ark:29072/x0x633f180qj</idno><altIdentifier type="internal"><idno>Arch.O.a.6/1</idno></altIdentifier></msIdentifier>
                <head>書名: 永樂大典 殘二卷(807-808) / (明)永樂中解縉等奉敕編<lb/>明嘉靖隆慶間內府重寫本<lb/>包背裝1冊 ; 51公分<lb/></head><msContents>
                   <textLang mainLang="chi">Chinese</textLang>
                   <msItem n="1">

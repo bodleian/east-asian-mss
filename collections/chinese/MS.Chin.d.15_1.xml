@@ -42,7 +42,7 @@
                   <repository>Bodleian Library</repository>
                   <collection>MS.Chin.d.</collection>
                   <idno type="shelfmark">MS.Chin.d.15/1</idno>
-               </msIdentifier>
+               <idno type="ieArk">ark:29072/x00p096953kh</idno><idno type="crArk">ark:29072/x00k225d708r</idno></msIdentifier>
                <head>書名: 三字經 一卷<lb/>清抄太平天國三年[1853]刊本<lb/>毛裝1冊 ; 25公分<lb/></head><msContents>
                   <textLang mainLang="chi">Chinese</textLang>
                   <msItem n="1">
