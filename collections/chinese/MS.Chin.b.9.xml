@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_645">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="volume_592">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,13 +40,13 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>MS.Laud Or.</collection>
-                  <idno type="shelfmark">MS.Laud Or.145 = Arch.O.d.41</idno>
-               </msIdentifier>
-               <head>書名: 順風相送 不分卷 / (明)佚名撰<lb/>明抄本<lb/>洋裝(原線裝)1冊 ; 26公分<lb/>英文題名《The Laud rutter》<lb/></head><msContents>
+                  <collection>MS.Chin.b.</collection>
+                  <idno type="shelfmark">MS.Chin.b.9</idno>
+               <altIdentifier type="internal"><idno>Arch.O.a.6/20</idno></altIdentifier></msIdentifier>
+               <head>書名: 永樂大典 殘三卷(14607-14609) / (明)永樂中解縉等奉敕編<lb/>明嘉靖隆慶間內府重寫本<lb/>洋裝(原包背裝)1冊 ; 51公分<lb/></head><msContents>
                   <textLang mainLang="chi">Chinese</textLang>
                   <msItem n="1">
-                  <title xml:lang="chi" source="#200">順風相送 不分卷</title><title source="#200|9">shun feng xiang song</title><title type="variant" source="#230">The Laud rutter</title><note source="#290">(明)佚名撰</note><note source="#409">明抄本</note><note source="#600">英文題名《The Laud rutter》</note></msItem>         
+                  <title xml:lang="chi" source="#200">永樂大典 殘三卷(14607-14609)</title><title source="#200|9">yong le da dian</title><note source="#290">(明)永樂中解縉等奉敕編</note><author source="#300" key="person_2600"><persName xml:lang="chi">(明)解縉</persName><persName type="9">xie jin</persName></author><note source="#409">明嘉靖隆慶間內府重寫本</note></msItem>         
                </msContents>
                <physDesc>
                   
@@ -54,14 +54,14 @@
                      
                      <supportDesc>
                         
-                     <extent><measure type="volume" n="1">1冊</measure><!--洋裝(原線裝)1冊 ; 26公分--><dimensions unit="cm"><height>26</height></dimensions></extent></supportDesc>
+                     <extent><measure type="volume" n="1">1冊</measure><!--洋裝(原包背裝)1冊 ; 51公分--><dimensions unit="cm"><height>51</height></dimensions></extent></supportDesc>
                      
                   </objectDesc>
 
-               <bindingDesc><binding><p xml:lang="chi">洋裝(原線裝)</p></binding></bindingDesc></physDesc>
+               <bindingDesc><binding><p xml:lang="chi">洋裝(原包背裝)</p></binding></bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#Gregorian" when="1368" type="d">1368</origDate>
+                     <origDate calendar="#Gregorian" when="1567" type="d">1567</origDate>
                      <origPlace>China</origPlace>
                   </origin>
                   
@@ -70,7 +70,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>Record created from Allegro database.</source>
-                     <!--Unused allegro fields--><!-- #000: 20010613/12:23:54|odh --><!-- #0rr: 20190630/11:30:40-102857/20|omaster --><!-- #0cg: d --><!-- #900: o --><!-- #909: SerD --></recordHist>
+                     <!--Unused allegro fields--><!-- #000: 19991213/15:03:25|odh --><!-- #0rr: 20160916/15:19:47-91906/32|omaster --><!-- #0cg: d --><!-- #900: o --><!-- #905: Has note relating to provenance, also a letter (tipped in) from donor, Thomas Biggins (1907). Another letter from Lt.Col. J.G.Birch (Cologne, 1922) advertises the sale (by a German officer) of 3 further fascs and is accompanied by photographs (all tipped in) showing the beginning of juan 920, 5343, and 13450. Original boards have been removed, but binding of text-block looks original. Last few leaves slightly decayed by damp. --><!-- #909: SerD --></recordHist>
                      <availability>
                         <p>This item may only be consulted by prior arrangement with a curator. To make an application, please click the request button above. When your request is received, you will be asked to contact the relevant person.</p>
                      </availability>
@@ -78,7 +78,7 @@
                <surrogates>
  <listBibl>
   <bibl subtype="full" type="digital-facsimile">
-   <ref target="https://digital.bodleian.ox.ac.uk/objects/40aeb385-ef63-4f69-b11f-cccc2dc4f723">
+   <ref target="https://digital.bodleian.ox.ac.uk/objects/69ce919c-3bdc-42af-847f-dc4e27033059">
     <title>Digital Bodleian</title>
    </ref>
    <note>(full digital facsimile)</note>
@@ -112,7 +112,7 @@
          <textClass>
             <keywords scheme="#siku">
                <list>
-               <item><term key="subject_412" source="412.84">史部 <term>地理類 外記</term></term></item></list>
+               <item><term key="subject_630" source="630.84|01-14">子部 <term>類書類</term></term></item></list>
             </keywords>
             <keywords scheme="#bodleian_chinese_thesaurus">
                <list>
