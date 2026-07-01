@@ -74,7 +74,7 @@
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221540930107026">SOLO</ref></p></availability>
                   </adminInfo>
-               </additional>
+               <surrogates><listBibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/36344e40-d176-43c8-b15b-0a7b2b135043"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 300/1)</note></bibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/7e4f8ae6-48c2-43fe-9a25-2876ec09285d"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 300/2)</note></bibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/db0e4ac5-2b59-4602-b979-90861a6cb5c6"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 300/3)</note></bibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/9d294b53-0554-4f36-80ad-2e5bae1ba723"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 300/4)</note></bibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/600477db-7450-4fc0-aeab-564df6af2504"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 300/5)</note></bibl></listBibl></surrogates></additional>
             </msDesc>
             
          </sourceDesc>

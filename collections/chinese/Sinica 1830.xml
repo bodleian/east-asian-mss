@@ -74,7 +74,7 @@
                      <availability status="printcat">
                         <p>Orderable through <ref target="https://solo.bodleian.ox.ac.uk/permalink/44OXF_INST/35n82s/alma990221290930107026">SOLO</ref></p></availability>
                   </adminInfo>
-               </additional>
+               <surrogates><listBibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/34c24fdd-2c72-4b34-869e-79f57f7c4e78"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 1830/1)</note></bibl><bibl subtype="full" type="digital-facsimile"><ref target="https://digital.bodleian.ox.ac.uk/objects/b2d21f16-9260-464f-86da-1f4acd3880ad"><title>Digital Bodleian</title></ref><note>(full digital facsimile of Sinica 1830/2)</note></bibl></listBibl></surrogates></additional>
             </msDesc>
             
          </sourceDesc>
