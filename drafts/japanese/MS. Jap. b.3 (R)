@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.b.3(R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+                <funder>Project: Scroll digitisaition project, funded by The Nissan Institute of
+                    Japanese Studies, University of Oxford</funder>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_b_3_R</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.b.3(R)</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.36813</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>An illustrated otogizōshi handscroll. Although bearing the title
+                            Hinazuru (ひな鶴), its contents correspond to the tale conventionally
+                            known as Sazareishi, a celebratory narrative in which Princess
+                            Sazareishi, daughter of Emperor Seimu, attains longevity and prosperity
+                            through her devotion to Yakushi Nyorai.</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                        <msItem>
+                            <author key="">Unknown</author>
+                            <title key="">ひな鶴</title>
+                            <title key="">Hinazuru</title>
+                            <note>Handscroll</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="paper">
+                                <support>Fine torinoko paper, decorated with scattered grasses and
+                                    flowers painted in gold.</support>
+                                <extent>Upper scroll only; lower scroll not extant<dimensions
+                                        unit="cm" type="roll">
+                                        <height>33.5</height>
+                                        <width>888</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>contains five paintings</decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p> Dark blue silk with gold embroidery</p>
+                                <decoNote>Silk cover with a takara-zukushi pattern, gold-painted
+                                    front endpaper, ivory roller ends.</decoNote>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate notBefore="1603" notAfter="1780" calendar="Gregorian"/>
+                        </origin>
+                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
