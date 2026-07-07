@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.d.30</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_b_30</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.b.30</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.36827</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
+                                <title>Aoba Monogatari</title>, consisting of narrative text with
+                            illustrations depicting key episodes of the tale.</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                        <msItem>
+                            <author key="">Unknown</author>
+                            <title key="">あをは物語</title>
+                            <title key="">Aoba Monogatari</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>Ink, pigment and gold on paper</support>
+                                <extent>Two volumes<dimensions unit="mm" type="codex">
+                                        <height>169</height>
+                                        <width>246</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> Landscape format (<term xml:lang="ja">横本</term>)</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Written in a Japanese cursive hand, using mixed kanji and
+                                hiragana in <term xml:lang="ja">kuzushiji</term> script (<term
+                                    xml:lang="ja">漢字平仮名交じり、崩し字</term>)</handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>Five paintings</decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Indigo-dyed paper covers with Japanese thread sewn binding.</p>
+                                <decoNote>Cover: illustrations painted in gold. Title labels:
+                                    patterns painted in gold over a vermillion background.
+                                    Doublures: silver foil, blind-printed with floral
+                                    patterns.</decoNote>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1550" notAfter="1699">
+                                Possibly seventeenth century </origDate>
+                        </origin>
+                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> Consolidation treatment for this volume was
+                                sponsored by the Sumitomo Foundation (2016–2017). </note>
+                        </adminInfo>
+                        <surrogates>
+                            <ref
+                                target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"
+                                > Digital Bodleian </ref>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

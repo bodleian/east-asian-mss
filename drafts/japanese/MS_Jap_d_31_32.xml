@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.b.3(R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_d_31_32</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.d.31-32</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.36828</idno>
+                            <idno type="SCN">S.C.36829</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
+                                <title>Ibuki</title>, consisting of narrative text with
+                            illustrations depicting key episodes of the tale.</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <p>Ink, pigment and gold on paper. Two volumes. Dimensions: 169 ×
+                                    246mm.</p>
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout>Landscape format (<term xml:lang="ja">横本</term>)</layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote>Japanese cursive hand (<term xml:lang="ja"
+                                >漢字平仮名交じり、崩し字</term>)</handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote>Five paintings</decoNote>
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Covers decorated with gold-painted illustrations. Title labels
+                                    with gold-painted patterns on a vermilion background. Doublures
+                                    of silver foil blind-printed with floral patterns.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1550" notAfter="1699">
+                                Possibly seventeenth century </origDate>
+                        </origin>
+                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> Consolidation treatment for this volume was
+                                sponsored by the Sumitomo Foundation (2016–2017). </note>
+                        </adminInfo>
+                        <surrogates>
+                            <ref
+                                target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"
+                                > Digital Bodleian </ref>
+                        </surrogates>
+                    </additional>
+
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Jap.d.31</idno>
+                            <altIdentifier type="formerShelfmark">
+                                <idno>S.C.36828</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 伊ふき 上</title>
+                                <title xml:lang="ja-Latn-x-lc">Ibuki, upper volume</title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support>Ink, pigment and gold on paper</support>
+                                    <extent>One volume<dimensions unit="mm" type="codex">
+                                            <height>169</height>
+                                            <width>246</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout> Landscape format (<term xml:lang="ja"
+                                        >横本</term>)</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>Six paintings</decoNote>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate notBefore="1650" notAfter="1750" calendar="Gregorian">Late
+                                    17th to 18th century</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Jap.d.32</idno>
+                            <altIdentifier type="formerShelfmark">
+                                <idno>S.C.36829</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 伊ふき 下 </title>
+                                <title xml:lang="ja-Latn-x-lc">Ibuki, lower volume</title>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support>Ink, pigment and gold on paper</support>
+                                    <extent>One volume<dimensions unit="mm" type="codex">
+                                            <height>169</height>
+                                            <width>246</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>Five paintings</decoNote>
+                            </decoDesc>
+
+                            <bindingDesc>
+                                <binding>
+                                    <!-- use dating attributes to record the date -->
+                                    <p>
+                                        <!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#bindingdesc
+                        --></p>
+                                    <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                                </binding>
+                            </bindingDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate calendar="Gregorian" notBefore="1550" notAfter="1699">
+                                    Possibly seventeenth century </origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

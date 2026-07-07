@@ -14,8 +14,6 @@
             </titleStmt>
             <editionStmt>
                 <edition>TEI P5</edition>
-                <funder>Project: Scroll digitisaition project, funded by The Nissan Institute of
-                    Japanese Studies, University of Oxford</funder>
             </editionStmt>
             <publicationStmt>
                 <publisher>Special Collections, Bodleian Libraries</publisher>
@@ -46,10 +44,10 @@
                     <head/>
                     <msContents>
                         <summary>An illustrated otogizōshi handscroll. Although bearing the title
-                            Hinazuru (ひな鶴), its contents correspond to the tale conventionally
-                            known as Sazareishi, a celebratory narrative in which Princess
-                            Sazareishi, daughter of Emperor Seimu, attains longevity and prosperity
-                            through her devotion to Yakushi Nyorai.</summary>
+                            Hinazuru (ひな鶴), its contents correspond to the tale conventionally known
+                            as Sazareishi, a celebratory narrative in which Princess Sazareishi,
+                            daughter of Emperor Seimu, attains longevity and prosperity through her
+                            devotion to Yakushi Nyorai.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
                             <author key="">Unknown</author>
@@ -63,7 +61,7 @@
                             <supportDesc material="paper">
                                 <support>Fine torinoko paper, decorated with scattered grasses and
                                     flowers painted in gold.</support>
-                                <extent>Upper scroll only; lower scroll not extant<dimensions
+                                <extent>Upper scroll only; lower scroll is not extant<dimensions
                                         unit="cm" type="roll">
                                         <height>33.5</height>
                                         <width>888</width>
@@ -72,7 +70,7 @@
                             </supportDesc>
                         </objectDesc>
                         <decoDesc>
-                            <decoNote>contains five paintings</decoNote>
+                            <decoNote>Contains five paintings</decoNote>
                         </decoDesc>
                         <bindingDesc>
                             <binding>
@@ -86,10 +84,17 @@
                         <origin>
                             <origPlace>
                                 <country>Japan</country></origPlace>
-                            <origDate notBefore="1603" notAfter="1780" calendar="Gregorian"/>
+                            <origDate calendar="Gregorian" notBefore="1603" notAfter="1780">17-18
+                                century </origDate>
                         </origin>
                         <acquisition>Donated by H.N. Moseley in 1914</acquisition>
                     </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> Digitisation of this scroll was
+                                supported by the Nissan Institute of Japanese Studies (2025–2026). </note>
+                        </adminInfo>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
