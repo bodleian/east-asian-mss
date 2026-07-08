@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Jap.d.31-32</title>
+                <title>MS.Jap.d.41-42</title>
                 <respStmt>
                     <resp>Cataloguer</resp>
                     <persName>Anna Sharko</persName>
@@ -29,24 +29,24 @@
                 <distributor>
                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Jap_d_31_32</idno>
+                <idno type="msID">MS_Jap_d_41_42</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS.Jap.d.31-32</idno>
+                        <idno type="shelfmark">MS.Jap.d.41-42</idno>
                     </msIdentifier>
                     <msContents>
                         <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Ibuki</title>, consisting of narrative text with
+                                <title>Tamamizu</title>, consisting of narrative text with
                             illustrations depicting key episodes of the tale.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
                             <author key="">Unknown</author>
-                            <title key="">伊ふき</title>
-                            <title key="">Ibuki</title>
+                            <title key="">玉みつ</title>
+                            <title key="">Tamamizu</title>
                         </msItem>
                     </msContents>
 
@@ -97,15 +97,15 @@
 
                     <msPart>
                         <msIdentifier>
-                            <idno>MS.Jap.d.31</idno>
+                            <idno>MS.Jap.d.41</idno>
                             <altIdentifier type="former">
-                                <idno>S.C.36828</idno>
+                                <idno>S.C.36838</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
-                                <title xml:lang="ja"> 伊ふき 上</title>
-                                <title xml:lang="ja-Latn-x-lc">Ibuki, <foreign xml:lang="en">upper
+                                <title xml:lang="ja"> 玉みつ 上</title>
+                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en">upper
                                         volume</foreign></title>
                                 <note/>
                             </msItem>
@@ -114,7 +114,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
                                     <support>Ink, pigment and gold on paper</support>
-                                    <extent>ff. 17<dimensions unit="mm" type="codex">
+                                    <extent>ff. 22<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
                                         </dimensions>
@@ -126,21 +126,21 @@
                                 </layoutDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Six paintings</decoNote>
+                                <decoNote>Five paintings</decoNote>
                             </decoDesc>
                         </physDesc>
                     </msPart>
                     <msPart>
                         <msIdentifier>
-                            <idno>MS.Jap.d.32</idno>
+                            <idno>MS.Jap.d.42</idno>
                             <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36829</idno>
+                                <idno>S.C.36839</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
-                                <title xml:lang="ja"> 伊ふき 下 </title>
-                                <title xml:lang="ja-Latn-x-lc">Ibuki, <foreign xml:lang="en">lower
+                                <title xml:lang="ja"> 玉みつ 下 </title>
+                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en">lower
                                         volume</foreign></title>
                             </msItem>
                         </msContents>
@@ -148,7 +148,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
                                     <support>Ink, pigment and gold on paper</support>
-                                    <extent>ff. 12<dimensions unit="mm" type="codex">
+                                    <extent>ff. 21<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
                                         </dimensions>
@@ -156,7 +156,7 @@
                                 </supportDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Five paintings</decoNote>
+                                <decoNote>Six paintings</decoNote>
                             </decoDesc>
                         </physDesc>
 

@@ -29,14 +29,14 @@
                 <distributor>
                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Jap_b_30</idno>
+                <idno type="msID">MS_Jap_d_30</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS.Jap.b.30</idno>
+                        <idno type="shelfmark">MS.Jap.d.30</idno>
                         <altIdentifier type="former">
                             <idno type="SCN">S.C.36827</idno>
                         </altIdentifier>
@@ -57,7 +57,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="paper">
                                 <support>Ink, pigment and gold on paper</support>
-                                <extent>Two volumes<dimensions unit="mm" type="codex">
+                                <extent>One volume, ff. 10<dimensions unit="mm" type="codex">
                                         <height>169</height>
                                         <width>246</width>
                                         <depth>4</depth>
@@ -91,7 +91,7 @@
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
-                            <origDate calendar="Gregorian" notBefore="1550" notAfter="1699">
+                            <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">
                                 Possibly seventeenth century </origDate>
                         </origin>
                         <acquisition>Donated by H.N. Moseley in 1914</acquisition>

@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS.Jap.d.31-32</title>
+                <title>MS.Jap.d.43-45</title>
                 <respStmt>
                     <resp>Cataloguer</resp>
                     <persName>Anna Sharko</persName>
@@ -29,31 +29,30 @@
                 <distributor>
                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Jap_d_31_32</idno>
+                <idno type="msID">MS_Jap_d_43_45</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS.Jap.d.31-32</idno>
+                        <idno type="shelfmark">MS.Jap.d.43-45</idno>
                     </msIdentifier>
                     <msContents>
                         <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Ibuki</title>, consisting of narrative text with
+                                <title>Hachikazuki Monogatari</title>, consisting of narrative text with
                             illustrations depicting key episodes of the tale.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
                             <author key="">Unknown</author>
-                            <title key="">伊ふき</title>
-                            <title key="">Ibuki</title>
+                            <title key="">はちかつき</title>
+                            <title key="">Hachikazuki</title>
                         </msItem>
                     </msContents>
-
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <p>Two volumes</p>
+                                <p>Three volumes</p>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>Landscape format (<term xml:lang="ja">横本</term>)</layout>
@@ -97,17 +96,51 @@
 
                     <msPart>
                         <msIdentifier>
-                            <idno>MS.Jap.d.31</idno>
+                            <idno>MS.Jap.d.43</idno>
                             <altIdentifier type="former">
-                                <idno>S.C.36828</idno>
+                                <idno>S.C.36840</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
-                                <title xml:lang="ja"> 伊ふき 上</title>
-                                <title xml:lang="ja-Latn-x-lc">Ibuki, <foreign xml:lang="en">upper
-                                        volume</foreign></title>
+                                <title xml:lang="ja"> はちかつき 上</title>
+                                <title xml:lang="ja-Latn-x-lc">Hachikazuki, <foreign xml:lang="en"
+                                        >upper volume</foreign></title>
                                 <note/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support>Ink, pigment and gold on paper</support>
+                                    <extent>ff. 22<dimensions unit="mm" type="codex">
+                                            <height>169</height>
+                                            <width>246</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout> Landscape format (<term xml:lang="ja"
+                                        >横本</term>)</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <decoDesc>
+                                <decoNote>Five paintings</decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Jap.d.44</idno>
+                            <altIdentifier type="formerShelfmark">
+                                <idno>S.C.36841</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> はちかつき 中 </title>
+                                <title xml:lang="ja-Latn-x-lc">Hachikazuki, <foreign xml:lang="en"
+                                        >middle volume</foreign></title>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -120,38 +153,35 @@
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
-                                <layoutDesc>
-                                    <layout> Landscape format (<term xml:lang="ja"
-                                        >横本</term>)</layout>
-                                </layoutDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Six paintings</decoNote>
+                                <decoNote>Four paintings</decoNote>
                             </decoDesc>
                         </physDesc>
                     </msPart>
+                    
                     <msPart>
                         <msIdentifier>
-                            <idno>MS.Jap.d.32</idno>
+                            <idno>MS.Jap.d.45</idno>
                             <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36829</idno>
+                                <idno>S.C.36842</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
-                                <title xml:lang="ja"> 伊ふき 下 </title>
-                                <title xml:lang="ja-Latn-x-lc">Ibuki, <foreign xml:lang="en">lower
-                                        volume</foreign></title>
+                                <title xml:lang="ja"> はちかつき 下 </title>
+                                <title xml:lang="ja-Latn-x-lc">Hachikazuki, <foreign xml:lang="en"
+                                    >lower volume</foreign></title>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
                                     <support>Ink, pigment and gold on paper</support>
-                                    <extent>ff. 12<dimensions unit="mm" type="codex">
-                                            <height>169</height>
-                                            <width>246</width>
-                                        </dimensions>
+                                    <extent>ff. 19<dimensions unit="mm" type="codex">
+                                        <height>169</height>
+                                        <width>246</width>
+                                    </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
@@ -159,7 +189,7 @@
                                 <decoNote>Five paintings</decoNote>
                             </decoDesc>
                         </physDesc>
-
+                        
                     </msPart>
                 </msDesc>
             </sourceDesc>
