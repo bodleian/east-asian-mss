@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.b.4(R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_b_4_R</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.b.4(R)</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.36814</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>Painted handscroll narrating the Tale of Yang Guifei (楊貴妃物語) by
+                            Asai Ryōi (1612-1691), an adaptation of an epic poem by Tang dynasty
+                            Chinese poet Bai Juyi (772-846), The Song of Everlasting Sorrow
+                            (長恨歌).</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                        <msItem>
+
+                            <title key="">長恨歌</title>
+                            <title key="">Chōgonka</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="paper">
+                                <support>Torinoko paper with gold underdrowings</support>
+                                <extent>Two scrolls - upper and middle scrolls only; lower scroll is
+                                    not extant </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Olive-green covers decorated with gold patterns; ivory roller
+                                    ends</p>
+
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">Possibly
+                                seventeenth century </origDate>
+                        </origin>
+                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                    </history>
+
+
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Jap.b.4(R)</idno>
+
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 長恨歌 上</title>
+                                <title xml:lang="ja-Latn-x-lc">Chōgonka, <foreign xml:lang="en"
+                                        >upper volume</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="roll">
+                                <supportDesc material="paper">
+                                    <extent>18 text panels and 7 paintings<dimensions unit="cm"
+                                            type="codex">
+                                            <height>33.5</height>
+                                            <width>1199</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Jap.b.4(R)</idno>
+
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 長恨歌 中</title>
+                                <title xml:lang="ja-Latn-x-lc">Chōgonka, <foreign xml:lang="en"
+                                        >middle volume</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="roll">
+                                <supportDesc material="paper">
+                                    <extent>16 text panels and 5 paintings<dimensions unit="cm"
+                                            type="codex">
+                                            <height>33.5</height>
+                                            <width>1021</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+
+                            </objectDesc>
+
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

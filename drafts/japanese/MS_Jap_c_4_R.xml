@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.c.4(R)</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_c_4_R</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.c.4(R)</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.33030</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>Painted handscroll narrating the tale of Urashima Tarō, a fisherman
+                            transported to an underwater palace as the guest of Princess Otohime. On
+                            his return he finds that many years have passed in his home village.
+                            Opening a magic box given to him by Otohime, he ages and dies.</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                        <msItem>
+
+                            <title key="">浦しま</title>
+                            <title key="">Urashima</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="paper">
+                                <support>Fine torinoko paper, alternating segments of script and
+                                    painting</support>
+                                <extent>One scroll<dimensions unit="cm" type="roll">
+                                        <height>35.7</height>
+                                        <width>982.5</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>Contains ten paintings; includes text written within the
+                                painted scenes (画中詞)</decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Rebound in brocade; rebacked with paper in 1996-97</p>
+
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate calendar="Gregorian" notBefore="1580" notAfter="1700">late
+                                16-17 century </origDate>
+                        </origin>
+                        <acquisition>Purchased in 1901</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> This scroll underwent conservation treatment,
+                                funded by the Sumitomo Foundation (1996-97). </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

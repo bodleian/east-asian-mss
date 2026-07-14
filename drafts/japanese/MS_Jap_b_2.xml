@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Jap.b.2</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Jap_b_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Jap.b.2</idno>
+                        <altIdentifier type="former">
+                            <idno type="SCN">S.C.2984</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>Japanese document, with the original vermillion-seal of Shogun
+                            Tokugawa Ieyasu, granting trade privileges in Japan to the English East
+                            India Company in 1613.</summary>
+                        <textLang mainLang="ja">Japanese</textLang>
+                        <msItem>
+                            <title key="">朱印状</title>
+                            <title key="">Shuinjō</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+
+                        <supportDesc material="paper">
+                            <support>ōtaka danshi paper (大高檀紙)</support>
+                            <extent>Formed of one and a half sheets joined together<dimensions
+                                    unit="mm" type="leaf">
+                                    <height>464</height>
+                                    <width>940</width>
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                        <decoDesc>
+                            <decoNote>Bears the original vermilion seal (<term xml:lang="ja">shuin</term>) reading <q>源家康忠恕</q></decoNote>
+                        </decoDesc>
+
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate calendar="Gregorian" when="1613"> 慶長十八年 (1613) </origDate>
+                        </origin>
+                        
+                        <acquisition>Acquired before 1680</acquisition>
+                    </history>
+                    <additional> </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
