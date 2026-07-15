@@ -40,11 +40,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Kowatagitsune</title>, consisting of narrative text with
+                            <title>Kowatagitsune</title>, consisting of narrative text with
                             illustrations depicting key episodes of the tale.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <author key="">Unknown</author>
                             <title key="">小わたきつね</title>
                             <title key="">Kowatagitsune</title>
                         </msItem>

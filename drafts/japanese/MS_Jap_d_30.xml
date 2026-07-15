@@ -43,21 +43,20 @@
                     </msIdentifier>
                     <head/>
                     <msContents>
-                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Aoba Monogatari</title>, consisting of narrative text with
+                        <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of
+                                <title>Aoba Monogatari</title>, with narrative text and
                             illustrations depicting key episodes of the tale.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <author key="">Unknown</author>
-                            <title key="">あをは物語</title>
-                            <title key="">Aoba Monogatari</title>
+                            <title xml:lang="ja">あをは物語</title>
+                            <title xml:lang="ja-Latn">Aoba Monogatari</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <support>Ink, pigment and gold on paper</support>
-                                <extent>One volume, ff. 10<dimensions unit="mm" type="codex">
+                                <support>Ink, pigment and gold on paper.</support>
+                                <extent>One volume, ff. 10.<dimensions unit="mm" type="codex">
                                         <height>169</height>
                                         <width>246</width>
                                         <depth>4</depth>
@@ -65,23 +64,23 @@
                                 </extent>
                             </supportDesc>
                             <layoutDesc>
-                                <layout> Landscape format (<term xml:lang="ja">横本</term>)</layout>
+                                <layout> Landscape format (<term xml:lang="ja">横本</term>).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote> Written in a Japanese cursive hand, using mixed kanji and
                                 hiragana in <term xml:lang="ja">kuzushiji</term> script (<term
-                                    xml:lang="ja">漢字平仮名交じり、崩し字</term>)</handNote>
+                                    xml:lang="ja">漢字平仮名交じり文、崩し字</term>). </handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote>Five paintings</decoNote>
+                            <decoNote>Contains five paintings.</decoNote>
                         </decoDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Indigo-dyed paper covers with Japanese thread sewn binding.</p>
-                                <decoNote>Cover: illustrations painted in gold. Title labels:
-                                    patterns painted in gold over a vermillion background.
-                                    Doublures: silver foil, blind-printed with floral
+                                <p>Indigo-dyed paper covers (<term xml:lang="ja">紺紙表紙</term>) with Japanese thread sewn binding (<term xml:lang="ja">四つ目綴</term>).</p>
+                                <decoNote>Covers decorated with gold-painted illustrations. Title
+                                    labels with gold-painted patterns on a vermilion background.
+                                    Doublures of silver foil blind-printed with floral
                                     patterns.</decoNote>
                             </binding>
                         </bindingDesc>
@@ -92,9 +91,9 @@
                                 <country>Japan</country>
                             </origPlace>
                             <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">
-                                Possibly seventeenth century </origDate>
+                                possibly seventeenth century </origDate>
                         </origin>
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>

@@ -56,8 +56,8 @@
                     <physDesc>
 
                         <supportDesc material="paper">
-                            <support>ōtaka danshi paper (大高檀紙)</support>
-                            <extent>Formed of one and a half sheets joined together<dimensions
+                            <support>Ōtaka danshi paper (大高檀紙).</support>
+                            <extent>Formed of one and a half sheets joined together.<dimensions
                                     unit="mm" type="leaf">
                                     <height>464</height>
                                     <width>940</width>
@@ -65,7 +65,7 @@
                             </extent>
                         </supportDesc>
                         <decoDesc>
-                            <decoNote>Bears the original vermilion seal (<term xml:lang="ja">shuin</term>) reading <q>源家康忠恕</q></decoNote>
+                            <decoNote>Bears the original vermilion seal (<term xml:lang="ja">shuin</term>) reading <q>源家康忠恕</q>.</decoNote>
                         </decoDesc>
 
                     </physDesc>
@@ -76,7 +76,7 @@
                             <origDate calendar="Gregorian" when="1613"> 慶長十八年 (1613) </origDate>
                         </origin>
                         
-                        <acquisition>Acquired before 1680</acquisition>
+                        <acquisition>Acquired before 1680.</acquisition>
                     </history>
                     <additional> </additional>
                 </msDesc>

@@ -58,8 +58,8 @@
                     <physDesc>
                         <objectDesc form="roll">
                             <supportDesc material="paper">
-                                <support>Fine torinoko paper, alternating segments of script and
-                                    painting</support>
+                                <support>Torinoko paper; alternating segments of script and
+                                    painting.</support>
                                 <extent>One scroll<dimensions unit="cm" type="roll">
                                         <height>35.7</height>
                                         <width>982.5</width>
@@ -69,11 +69,11 @@
                         </objectDesc>
                         <decoDesc>
                             <decoNote>Contains ten paintings; includes text written within the
-                                painted scenes (画中詞)</decoNote>
+                                painted scenes (画中詞). </decoNote>
                         </decoDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Rebound in brocade; rebacked with paper in 1996-97</p>
+                                <p>Rebound in brocade; rebacked with paper in 1996-97.</p>
 
                             </binding>
                         </bindingDesc>
@@ -82,7 +82,7 @@
                         <origin>
                             <origPlace>
                                 <country>Japan</country></origPlace>
-                            <origDate calendar="Gregorian" notBefore="1580" notAfter="1700">late
+                            <origDate calendar="Gregorian" notBefore="1580" notAfter="1700">Late
                                 16-17 century </origDate>
                         </origin>
                         <acquisition>Purchased in 1901</acquisition>

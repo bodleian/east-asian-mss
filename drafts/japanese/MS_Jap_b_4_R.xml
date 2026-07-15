@@ -44,9 +44,8 @@
                     <head/>
                     <msContents>
                         <summary>Painted handscroll narrating the Tale of Yang Guifei (楊貴妃物語) by
-                            Asai Ryōi (1612-1691), an adaptation of an epic poem by Tang dynasty
-                            Chinese poet Bai Juyi (772-846), The Song of Everlasting Sorrow
-                            (長恨歌).</summary>
+                            Asai Ryōi (1612-1691), a Japanese adaptation of Bai Juyi's (772-846)
+                            Tang dynasty poem, Song of Everlasting Sorrow (長恨歌).</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
 
@@ -58,16 +57,16 @@
                     <physDesc>
                         <objectDesc form="roll">
                             <supportDesc material="paper">
-                                <support>Torinoko paper with gold underdrowings</support>
-                                <extent>Two scrolls - upper and middle scrolls only; lower scroll is
-                                    not extant </extent>
+                                <support>Torinoko paper with gold underdrowings.</support>
+                                <extent>Two scrolls; upper and middle scrolls only; lower scroll is
+                                    not extant. </extent>
                             </supportDesc>
                         </objectDesc>
 
                         <bindingDesc>
                             <binding>
                                 <p>Olive-green covers decorated with gold patterns; ivory roller
-                                    ends</p>
+                                    ends.</p>
 
                             </binding>
                         </bindingDesc>
@@ -76,10 +75,10 @@
                         <origin>
                             <origPlace>
                                 <country>Japan</country></origPlace>
-                            <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">Possibly
+                            <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">possibly
                                 seventeenth century </origDate>
                         </origin>
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
 
 
@@ -99,7 +98,7 @@
                         <physDesc>
                             <objectDesc form="roll">
                                 <supportDesc material="paper">
-                                    <extent>18 text panels and 7 paintings<dimensions unit="cm"
+                                    <extent>18 text panels and 7 paintings.<dimensions unit="cm"
                                             type="codex">
                                             <height>33.5</height>
                                             <width>1199</width>
@@ -125,7 +124,7 @@
                         <physDesc>
                             <objectDesc form="roll">
                                 <supportDesc material="paper">
-                                    <extent>16 text panels and 5 paintings<dimensions unit="cm"
+                                    <extent>16 text panels and 5 paintings.<dimensions unit="cm"
                                             type="codex">
                                             <height>33.5</height>
                                             <width>1021</width>

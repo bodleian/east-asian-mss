@@ -50,18 +50,16 @@
                             devotion to Yakushi Nyorai.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <author key="">Unknown</author>
                             <title key="">ひな鶴</title>
                             <title key="">Hinazuru</title>
-                            <note>Handscroll</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="roll">
                             <supportDesc material="paper">
-                                <support>Fine torinoko paper, decorated with scattered grasses and
+                                <support>Torinoko paper, decorated with scattered grasses and
                                     flowers painted in gold.</support>
-                                <extent>Upper scroll only; lower scroll is not extant<dimensions
+                                <extent>Upper scroll only, lower scroll is not extant.<dimensions
                                         unit="cm" type="roll">
                                         <height>33.5</height>
                                         <width>888</width>
@@ -70,13 +68,13 @@
                             </supportDesc>
                         </objectDesc>
                         <decoDesc>
-                            <decoNote>Contains five paintings</decoNote>
+                            <decoNote>Contains five paintings.</decoNote>
                         </decoDesc>
                         <bindingDesc>
                             <binding>
-                                <p> Dark blue silk with gold embroidery</p>
-                                <decoNote>Silk cover with a takara-zukushi pattern, gold-painted
-                                    front endpaper, ivory roller ends.</decoNote>
+                                <p> Dark blue silk with gold embroidery, gold-painted front
+                                    endpaper, ivory roller ends.</p>
+
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -87,12 +85,12 @@
                             <origDate calendar="Gregorian" notBefore="1603" notAfter="1780">17-18
                                 century </origDate>
                         </origin>
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
-                            <note type="conservation"> Digitisation of this scroll was
-                                supported by the Nissan Institute of Japanese Studies (2025–2026). </note>
+                            <note type="conservation"> Digitisation of this scroll was supported by
+                                the Nissan Institute of Japanese Studies (2024–2025). </note>
                         </adminInfo>
                     </additional>
                 </msDesc>
