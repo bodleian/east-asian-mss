@@ -39,12 +39,12 @@
                         <idno type="shelfmark">MS.Jap.d.38-40</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Taketori Monogatari</title>, consisting of narrative text with
-                            illustrations depicting key episodes of the tale.</summary>
+                        <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of
+                                <title>Taketori Monogatari (The Tale of the Bamboo catter)</title>,
+                            comprising narrative text and illustrations depicting key episodes of
+                            the tale. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <author key="">Unknown</author>
                             <title key="">たけとり物語</title>
                             <title key="">Taketori Monogatari</title>
                         </msItem>
@@ -52,22 +52,24 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <p>Three volumes</p>
+                                <p>Three volumes.</p>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Landscape format (<term xml:lang="ja">横本</term>)</layout>
+                                <layout>Landscape format (<term xml:lang="ja">横本</term>).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>Japanese cursive hand (<term xml:lang="ja"
-                                >漢字平仮名交じり、崩し字</term>)</handNote>
+                                >漢字仮名交じり文、崩し字</term>).</handNote>
                         </handDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Indigo-dyed paper covers with Japanese thread sewn binding.</p>
-                                <decoNote>Covers decorated with gold-painted illustrations. Title
-                                    labels with gold-painted patterns on a vermilion background.
-                                    Doublures of silver foil blind-printed with floral
+                                <p>Indigo-dyed paper covers (<term xml:lang="ja">紺紙表紙</term>) with
+                                    Japanese thread sewn binding (<term xml:lang="ja"
+                                    >四つ目綴</term>).</p>
+                                <decoNote>Covers decorated with gold-painted illustrations; title
+                                    labels with gold-painted patterns on a vermilion background;
+                                    doublures of silver foil blind-printed with floral
                                     patterns.</decoNote>
                             </binding>
                         </bindingDesc>
@@ -78,9 +80,9 @@
                                 <country>Japan</country>
                             </origPlace>
                             <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">
-                                Possibly seventeenth century </origDate>
+                                possibly seventeenth century </origDate>
                         </origin>
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -104,28 +106,25 @@
                         <msContents>
                             <msItem>
                                 <title xml:lang="ja"> たけとり物語 上</title>
-                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign xml:lang="en"
-                                        >upper volume</foreign></title>
+                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign
+                                        xml:lang="en">upper volume</foreign></title>
                                 <note/>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
-                                    <support>Ink, pigment and gold on paper</support>
+                                    <support>Ink, pigment and gold on paper.</support>
                                     <extent>ff. 21<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
-                                <layoutDesc>
-                                    <layout> Landscape format (<term xml:lang="ja"
-                                        >横本</term>)</layout>
-                                </layoutDesc>
+
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Seven paintings</decoNote>
+                                <decoNote>Contains seven paintings.</decoNote>
                             </decoDesc>
                         </physDesc>
                     </msPart>
@@ -139,14 +138,14 @@
                         <msContents>
                             <msItem>
                                 <title xml:lang="ja"> たけとり物語 中 </title>
-                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign xml:lang="en"
-                                        >middle volume</foreign></title>
+                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign
+                                        xml:lang="en">middle volume</foreign></title>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
-                                    <support>Ink, pigment and gold on paper</support>
+                                    <support>Ink, pigment and gold on paper.</support>
                                     <extent>ff. 24<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
@@ -155,11 +154,11 @@
                                 </supportDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Six paintings</decoNote>
+                                <decoNote>Contains six paintings.</decoNote>
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    
+
                     <msPart>
                         <msIdentifier>
                             <idno>MS.Jap.d.40</idno>
@@ -170,26 +169,26 @@
                         <msContents>
                             <msItem>
                                 <title xml:lang="ja"> たけとり物語 下 </title>
-                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign xml:lang="en"
-                                    >lower volume</foreign></title>
+                                <title xml:lang="ja-Latn-x-lc">Taketori Monogatari, <foreign
+                                        xml:lang="en">lower volume</foreign></title>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
-                                    <support>Ink, pigment and gold on paper</support>
+                                    <support>Ink, pigment and gold on paper.</support>
                                     <extent>ff. 25<dimensions unit="mm" type="codex">
-                                        <height>169</height>
-                                        <width>246</width>
-                                    </dimensions>
+                                            <height>169</height>
+                                            <width>246</width>
+                                        </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Six paintings</decoNote>
+                                <decoNote>Contains six paintings.</decoNote>
                             </decoDesc>
                         </physDesc>
-                        
+
                     </msPart>
                 </msDesc>
             </sourceDesc>

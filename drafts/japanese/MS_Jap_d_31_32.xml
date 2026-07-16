@@ -39,13 +39,14 @@
                         <idno type="shelfmark">MS.Jap.d.31-32</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>Ibuki</title>, consisting of narrative text with
-                            illustrations depicting key episodes of the tale.</summary>
+                        <summary> Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of the
+                                <term xml:lang="ja-Latn">Kōwakamai</term> (<term xml:lang="ja"
+                                >幸若舞</term>) text <title>Ibuki</title>, comprising narrative text
+                            and paintings depicting key episodes of the story. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <title key="">伊ふき</title>
-                            <title key="">Ibuki</title>
+                            <title xml:lang="ja">伊ふき</title>
+                            <title xml:lang="ja-Latn">Ibuki</title>
                         </msItem>
                     </msContents>
 
@@ -61,16 +62,16 @@
                         <handDesc>
                             <handNote> Written in a Japanese cursive hand, using mixed kanji and
                                 hiragana in <term xml:lang="ja">kuzushiji</term> script (<term
-                                    xml:lang="ja">漢字平仮名交じり文、崩し字</term>). </handNote>
+                                    xml:lang="ja">漢字仮名交じり文、崩し字</term>). </handNote>
                         </handDesc>
                         <bindingDesc>
                             <binding>
                                 <p>Indigo-dyed paper covers (<term xml:lang="ja">紺紙表紙</term>) with
                                     Japanese thread sewn binding (<term xml:lang="ja"
                                     >四つ目綴</term>).</p>
-                                <decoNote>Covers decorated with gold-painted illustrations. Title
-                                    labels with gold-painted patterns on a vermilion background.
-                                    Doublures of silver foil blind-printed with floral
+                                <decoNote>Covers decorated with gold-painted illustrations; title
+                                    labels with gold-painted patterns on a vermilion background;
+                                    doublures of silver foil blind-printed with floral
                                     patterns.</decoNote>
                             </binding>
                         </bindingDesc>

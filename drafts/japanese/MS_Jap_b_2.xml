@@ -48,8 +48,8 @@
                             India Company in 1613.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <title key="">朱印状</title>
-                            <title key="">Shuinjō</title>
+                            <title xml:lang="ja">朱印状</title>
+                            <title xml:lang="ja-Latn">Shuinjō</title>
 
                         </msItem>
                     </msContents>
@@ -65,7 +65,8 @@
                             </extent>
                         </supportDesc>
                         <decoDesc>
-                            <decoNote>Bears the original vermilion seal (<term xml:lang="ja">shuin</term>) reading <q>源家康忠恕</q>.</decoNote>
+                            <decoNote>Bears the original vermilion seal (<term xml:lang="ja"
+                                    >shuin</term>) reading <q>源家康忠恕</q>.</decoNote>
                         </decoDesc>
 
                     </physDesc>
@@ -75,7 +76,7 @@
                                 <country>Japan</country></origPlace>
                             <origDate calendar="Gregorian" when="1613"> 慶長十八年 (1613) </origDate>
                         </origin>
-                        
+
                         <acquisition>Acquired before 1680.</acquisition>
                     </history>
                     <additional> </additional>

@@ -43,15 +43,16 @@
                     </msIdentifier>
                     <head/>
                     <msContents>
-                        <summary>Painted handscroll narrating the tale of Urashima Tarō, a fisherman
-                            transported to an underwater palace as the guest of Princess Otohime. On
-                            his return he finds that many years have passed in his home village.
-                            Opening a magic box given to him by Otohime, he ages and dies.</summary>
+                        <summary>Painted handscroll narrating <title>The Tale of Urashima
+                                Tarō</title>, a fisherman transported to an underwater palace as the
+                            guest of Princess Otohime. On his return he finds that many years have
+                            passed in his home village. Opening a magic box given to him by Otohime,
+                            he ages and dies.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
 
-                            <title key="">浦しま</title>
-                            <title key="">Urashima</title>
+                            <title xml:lang="ja">浦しま</title>
+                            <title xml:lang="ja-Latn">Urashima</title>
 
                         </msItem>
                     </msContents>

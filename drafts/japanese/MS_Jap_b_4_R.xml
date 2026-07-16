@@ -49,8 +49,8 @@
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
 
-                            <title key="">長恨歌</title>
-                            <title key="">Chōgonka</title>
+                            <title xml:lang="ja">長恨歌</title>
+                            <title xml:lang="ja-Latn">Chōgonka</title>
 
                         </msItem>
                     </msContents>

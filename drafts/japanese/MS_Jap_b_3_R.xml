@@ -43,11 +43,10 @@
                     </msIdentifier>
                     <head/>
                     <msContents>
-                        <summary>An illustrated otogizōshi handscroll. Although bearing the title
-                            Hinazuru (ひな鶴), its contents correspond to the tale conventionally known
-                            as Sazareishi, a celebratory narrative in which Princess Sazareishi,
-                            daughter of Emperor Seimu, attains longevity and prosperity through her
-                            devotion to Yakushi Nyorai.</summary>
+                        <summary> Painted handscroll bearing the title <title>Hinazuru</title>
+                                (<term xml:lang="ja">ひな鶴</term>); its narrative closely corresponds
+                            to that of the <term xml:lang="ja-Latn">otogizōshi</term> (<term
+                                xml:lang="ja">御伽草子</term>) tale <title>Sazareishi</title>. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
                             <title key="">ひな鶴</title>

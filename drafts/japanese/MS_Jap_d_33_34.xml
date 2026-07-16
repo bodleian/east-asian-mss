@@ -39,34 +39,36 @@
                         <idno type="shelfmark">MS.Jap.d.33-34</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                            <title>Kowatagitsune</title>, consisting of narrative text with
-                            illustrations depicting key episodes of the tale.</summary>
+                        <summary> Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of <title
+                                xml:lang="ja-Latn">Kowatagitsune</title>, comprising narrative text
+                            and illustrations depicting key episodes of the tale. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <title key="">小わたきつね</title>
-                            <title key="">Kowatagitsune</title>
+                            <title xml:lang="ja">小わたきつね</title>
+                            <title xml:lang="ja-Latn">Kowatagitsune</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <p>Two volumes</p>
+                                <p>Two volumes.</p>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Landscape format (<term xml:lang="ja">横本</term>)</layout>
+                                <layout>Landscape format (<term xml:lang="ja">横本</term>).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>Japanese cursive hand (<term xml:lang="ja"
-                                >漢字平仮名交じり、崩し字</term>)</handNote>
+                                >漢字仮名交じり文、崩し字</term>)</handNote>
                         </handDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Indigo-dyed paper covers with Japanese thread sewn binding.</p>
-                                <decoNote>Covers decorated with gold-painted illustrations. Title
-                                    labels with gold-painted patterns on a vermilion background.
-                                    Doublures of silver foil blind-printed with floral
+                                <p>Indigo-dyed paper covers (<term xml:lang="ja">紺紙表紙</term>) with
+                                    Japanese thread sewn binding (<term xml:lang="ja"
+                                    >四つ目綴</term>).</p>
+                                <decoNote>Covers decorated with gold-painted illustrations; title
+                                    labels with gold-painted patterns on a vermilion background;
+                                    doublures of silver foil blind-printed with floral
                                     patterns.</decoNote>
                             </binding>
                         </bindingDesc>
@@ -77,9 +79,9 @@
                                 <country>Japan</country>
                             </origPlace>
                             <origDate calendar="Gregorian" notBefore="1600" notAfter="1699">
-                                Possibly seventeenth century </origDate>
+                                possibly seventeenth century </origDate>
                         </origin>
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -111,20 +113,17 @@
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
-                                    <support>Ink, pigment and gold on paper</support>
+                                    <support>Ink, pigment and gold on paper.</support>
                                     <extent>ff. 15<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
-                                <layoutDesc>
-                                    <layout> Landscape format (<term xml:lang="ja"
-                                        >横本</term>)</layout>
-                                </layoutDesc>
+
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Seven paintings</decoNote>
+                                <decoNote>Contains seven paintings.</decoNote>
                             </decoDesc>
                         </physDesc>
                     </msPart>
@@ -145,7 +144,7 @@
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
-                                    <support>Ink, pigment and gold on paper</support>
+                                    <support>Ink, pigment and gold on paper.</support>
                                     <extent>ff. 12<dimensions unit="mm" type="codex">
                                             <height>169</height>
                                             <width>246</width>
@@ -154,7 +153,7 @@
                                 </supportDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>Six paintings</decoNote>
+                                <decoNote>Contains six paintings.</decoNote>
                             </decoDesc>
                         </physDesc>
 
