@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Ind.Inst.Misc.27/1-8</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Ind_Inst_Misc_27_1_8</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Ind.Inst.Misc.27/1-8</idno>
+
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>Set of eight handscrolls of the <title>Lotus Sutra</title> (<term
+                                xml:lang="ja">妙法蓮華經</term>).</summary>
+                        <textLang mainLang="ja">Chinese</textLang>
+                        <msItem>
+
+                            <title xml:lang="ja">妙法蓮華經</title>
+                            <title xml:lang="ja-Latn">Myōhō Rengekyō</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="paper">
+                                <support> Indigo-dyed paper with text written in gold ink (<term
+                                        xml:lang="ja">紺紙金字経</term>). </support>
+                                <extent>Eight handscrolls. <dimensions unit="cm" type="roll">
+                                        <height>28</height>
+                                        <width>1050</width>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <p> Covers of dark blue paper decorated in gold and silver pigment. </p>
+                                <decoNote>Gold-painted front endpaper (<term xml:lang="ja"
+                                        >見返し</term>) depicting Shakyamuni Buddha.</decoNote>
+                                <decoNote> Crystal roller ends with openwork gilt fittings. </decoNote>
+
+                            </binding>
+
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1899"> 18-19th
+                                century </origDate>
+                        </origin>
+                        <acquisition>Donated by Sir Edwin Arnold.</acquisition>
+                    </history>
+
+
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/1</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第一</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                        xml:lang="en">scroll one</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/2</idno>
+
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第二</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                        xml:lang="en">scroll two</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/3</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第三</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll three</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/4</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第四</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll four</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/5</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第五</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll five</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/6</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第六</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll six</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/7</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第七</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll seven</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <idno>MS.Ind.Inst.Misc.27/8</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title xml:lang="ja"> 妙法蓮華經巻第八</title>
+                                <title xml:lang="ja-Latn-x-lc">Myōhō Rengekyō, <foreign
+                                    xml:lang="en">scroll eight</foreign></title>
+                                <note/>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
