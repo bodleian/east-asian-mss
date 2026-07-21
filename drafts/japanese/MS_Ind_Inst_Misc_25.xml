@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:id="manuscript_00000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS.Ind.Inst.Misc.25</title>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <persName>Anna Sharko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI P5</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Special Collections, Bodleian Libraries</publisher>
+                <address>
+                    <orgName type="department">Special Collections</orgName>
+                    <orgName type="unit">Bodleian Libraries</orgName>
+                    <orgName type="institution">University of Oxford</orgName>
+                    <street>Weston Library, Broad Street</street>
+                    <settlement>Oxford</settlement>
+                    <postCode>OX1 3BG</postCode>
+                    <country>United Kingdom</country>
+                </address>
+                <distributor>
+                    <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Ind_Inst_Misc_25</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">MS.Ind.Inst.Misc.25</idno>
+
+                    </msIdentifier>
+                    <head/>
+                    <msContents>
+                        <summary>Scroll containing <title>the Sutra of Infinite Meanings</title>
+                                (<term xml:lang="ja">無量義經</term>).</summary>
+                        <textLang mainLang="zh">Chinese</textLang>
+                        <msItem>
+
+                            <title xml:lang="ja">無量義經</title>
+                            <title xml:lang="ja-Latn">Muryōgikyō</title>
+
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="paper">
+                                <support> Indigo-dyed paper with text written in gold ink (<term
+                                        xml:lang="ja">紺紙金字経</term>). </support>
+                                <extent>One scroll. </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <p> Cover of dark blue paper decorated in gold and silver pigment. </p>
+                                <decoNote>Gold-painted front endpaper.</decoNote>
+                                <decoNote> Crystal roller ends with openwork gilt fittings. </decoNote>
+
+                                <p> Housed in two lacquered boxes together with MS.Ind.Inst.misc.26,
+                                    MS.Ind.Inst.misc.27/1–8, MS.Ind.Inst.misc.28,
+                                    MS.Ind.Inst.misc.29, MS.Ind.Inst.misc.30/1–8,
+                                    MS.Ind.Inst.misc.31/1–8. </p>
+
+                            </binding>
+
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Japan</country></origPlace>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1899"> 18-19th
+                                century </origDate>
+                        </origin>
+                        <acquisition>Donated by Sir Edwin Arnold.</acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> Digitisation of this scroll was supported by
+                                the Nissan Institute of Japanese Studies (2024–2025). </note>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl> Related manuscripts: one more scroll of the Sutra of Infinite
+                                Meanings is preserved under the shelfmark MS.Ind.Inst.misc.28.
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
