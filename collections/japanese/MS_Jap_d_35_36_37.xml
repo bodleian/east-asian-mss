@@ -86,7 +86,7 @@
                                 sponsored by the Sumitomo Foundation (2016–2017). </note>
                         </adminInfo>
                         <surrogates>
-                            <ref target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"> Digital Bodleian </ref>
+                            <bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/1d112017-0410-49fd-ac13-f002c7ce8fc3/"><title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note></bibl>
                         </surrogates>
                     </additional>
 

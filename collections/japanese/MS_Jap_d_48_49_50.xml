@@ -38,9 +38,7 @@
                         <idno type="shelfmark">MS.Jap.d.48-50</idno>
                     <idno type="ieArk">ark:29072/x0v692t71625</idno><idno type="crArk">ark:29072/x0v405sb32rc</idno></msIdentifier>
                     <msContents>
-                        <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
-                                <title>The Tale of Bunshō</title>, consisting of narrative text with
-                            illustrations depicting key episodes of the tale.</summary>
+                        <summary>Illustrated manuscript (奈良絵本) of The Tale of Bunshō, comprising narrative text and illustrations depicting key episodes of the tale.</summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
 
@@ -87,7 +85,7 @@
                                 sponsored by the Sumitomo Foundation (2016–2017). </note>
                         </adminInfo>
                         <surrogates>
-                            <ref target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"> Digital Bodleian </ref>
+                            <bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/95963413-97b9-4dc6-a5dc-84695bbe2b68/"><title>Digital Bodleian</title></ref> <note>(full digital facsimile)</note></bibl>
                         </surrogates>
                     </additional>
 
