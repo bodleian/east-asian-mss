@@ -192,5 +192,4 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
-</TEI>
+    </teiHeader> <text>         <body>             <p><!--Body paragraph provided for validation--></p>         </body>     </text></TEI>
