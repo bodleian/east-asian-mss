@@ -39,7 +39,7 @@
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.b.4(R)</idno> <!-- Shelfmark, in normal case -->
                         <altIdentifier type="former">
-                            <idno type="SCN">S.C.36814</idno> <!-- Add the Summary Catalogue number, if available. -->
+                            <idno type="SCN">36814</idno> <!-- Add the Summary Catalogue number, if available. -->
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>

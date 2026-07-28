@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xml:id="manuscript_00000">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18391">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,15 +37,14 @@
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.b.3(R)</idno>
                         <altIdentifier type="former">
-                            <idno type="SCN">S.C.36813</idno>
+                            <idno type="SCN">36813</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head/>
                     <msContents>
                         <summary> Painted handscroll bearing the title <title>Hinazuru</title>
                                 (<term xml:lang="ja">ひな鶴</term>); its narrative closely corresponds
-                            to that of the <term xml:lang="ja-Latn">otogizōshi</term> (<term
-                                xml:lang="ja">御伽草子</term>) tale <title>Sazareishi</title>. </summary>
+                            to that of the <term xml:lang="ja-Latn">otogizōshi</term> (<term xml:lang="ja">御伽草子</term>) tale <title>Sazareishi</title>. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
                             <title key="">ひな鶴</title>
@@ -58,8 +56,7 @@
                             <supportDesc material="paper">
                                 <support>Torinoko paper, decorated with scattered grasses and
                                     flowers painted in gold.</support>
-                                <extent>Upper scroll only, lower scroll is not extant.<dimensions
-                                        unit="cm" type="roll">
+                                <extent>Upper scroll only, lower scroll is not extant.<dimensions unit="cm" type="roll">
                                         <height>33.5</height>
                                         <width>888</width>
                                     </dimensions>

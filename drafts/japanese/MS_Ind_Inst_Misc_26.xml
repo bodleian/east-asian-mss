@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xml:id="manuscript_00000">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18384">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,8 +53,7 @@
                     <physDesc>
                         <objectDesc form="roll">
                             <supportDesc material="paper">
-                                <support> Indigo-dyed paper with text written in gold ink (<term
-                                        xml:lang="ja">紺紙金字経</term>). </support>
+                                <support> Indigo-dyed paper with text written in gold ink (<term xml:lang="ja">紺紙金字経</term>). </support>
                                 <extent>One scroll. </extent>
                             </supportDesc>
                         </objectDesc>

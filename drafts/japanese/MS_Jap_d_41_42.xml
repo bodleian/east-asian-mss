@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xml:id="manuscript_00000">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18399">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -59,14 +58,12 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Japanese cursive hand (<term xml:lang="ja"
-                                >漢字仮名交じり文、崩し字</term>).</handNote>
+                            <handNote>Japanese cursive hand (<term xml:lang="ja">漢字仮名交じり文、崩し字</term>).</handNote>
                         </handDesc>
                         <bindingDesc>
                             <binding>
                                 <p>Indigo-dyed paper covers (<term xml:lang="ja">紺紙表紙</term>) with
-                                    Japanese thread sewn binding (<term xml:lang="ja"
-                                    >四つ目綴</term>).</p>
+                                    Japanese thread sewn binding (<term xml:lang="ja">四つ目綴</term>).</p>
                                 <decoNote>Covers decorated with gold-painted illustrations; title
                                     labels with gold-painted patterns on a vermilion background;
                                     doublures of silver foil blind-printed with floral
@@ -90,9 +87,7 @@
                                 sponsored by the Sumitomo Foundation (2016–2017). </note>
                         </adminInfo>
                         <surrogates>
-                            <ref
-                                target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"
-                                > Digital Bodleian </ref>
+                            <ref target="https://digital.bodleian.ox.ac.uk/objects/6264903a-1429-4478-b9a9-d1726d5d027d/"> Digital Bodleian </ref>
                         </surrogates>
                     </additional>
 
@@ -106,8 +101,7 @@
                         <msContents>
                             <msItem>
                                 <title xml:lang="ja"> 玉みつ 上</title>
-                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en"
-                                        >upper volume</foreign></title>
+                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en">upper volume</foreign></title>
                                 <note/>
                             </msItem>
                         </msContents>
@@ -138,8 +132,7 @@
                         <msContents>
                             <msItem>
                                 <title xml:lang="ja"> 玉みつ 下 </title>
-                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en"
-                                        >lower volume</foreign></title>
+                                <title xml:lang="ja-Latn-x-lc">Tamamizu, <foreign xml:lang="en">lower volume</foreign></title>
                             </msItem>
                         </msContents>
                         <physDesc>
