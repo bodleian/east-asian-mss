@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xml:id="manuscript_00000">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="volume_18391">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +13,6 @@
             </titleStmt>
             <editionStmt>
                 <edition>TEI P5</edition>
-                <funder>The Nissan Institute of Japanese Studies</funder>
             </editionStmt>
             <publicationStmt>
                 <publisher>Special Collections, Bodleian Libraries</publisher>
@@ -30,61 +28,49 @@
                 <distributor>
                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Jap_b_3_R</idno><!-- Add structured form of shelfmark without spaces. I normally use this as the filename, too -->
+                <idno type="msID">MS_Jap_b_3_R</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <msIdentifier>
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
-                        <idno type="shelfmark">MS.Jap.b.3(R)</idno> <!-- Shelfmark, in normal case -->
-                        <altIdentifier type="former">
-                            <idno type="SCN">S.C.36813</idno> <!-- Add the Summary Catalogue number, if available. -->
+                        <idno type="shelfmark">MS.Jap.b.3(R)</idno>
+                        <idno type="ieArk">ark:29072/x0s1784m837d</idno><idno type="crArk">ark:29072/x0rx913q99xb</idno><altIdentifier type="former">
+                            <idno type="SCN">36813</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head/>
                     <msContents>
-                        <summary><!--  --></summary>
+                        <summary> Painted handscroll bearing the title <title>Hinazuru</title>
+                                (<term xml:lang="ja">ひな鶴</term>); its narrative closely corresponds
+                            to that of the <term xml:lang="ja-Latn">otogizōshi</term> (<term xml:lang="ja">御伽草子</term>) tale <title>Sazareishi</title>. </summary>
                         <textLang mainLang="ja">Japanese</textLang>
                         <msItem>
-                            <author key="">Unknown</author>
                             <title key="">ひな鶴</title>
-                            <title key="">Hinatsuru</title>
-                            <note>vol. 1 only</note>
+                            <title key="">Hinazuru</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="roll">
                             <supportDesc material="paper">
-                                <support><!-- insert prose details --></support>
-                                <extent> one painted roll <dimensions unit="cm" type="roll">
+                                <support>Torinoko paper, decorated with scattered grasses and
+                                    flowers painted in gold.</support>
+                                <extent>Upper scroll only, lower scroll is not extant.<dimensions unit="cm" type="roll">
                                         <height>33.5</height>
-                                        <width>894</width>
+                                        <width>888</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                         <decoDesc>
-                            <decoNote>
-                                <!-- use the @type attribute to record nature of decoration -->
-                                <!-- insert if relevant, otherwise delete --></decoNote>
-                            <!-- use additional decoNote elements if necessary 
-                     https://git.io/msdescdoc#decodesc
-                     -->
+                            <decoNote>Contains five paintings.</decoNote>
                         </decoDesc>
-                        <additions>
-                            <p><!-- insert if relevant, otherwise delete 
-                     https://git.io/msdescdoc#additions
-                     --></p>
-                        </additions>
                         <bindingDesc>
                             <binding>
-                                <!-- use dating attributes to record the date -->
-                                <p>
-                                    <!-- insert relevant information, otherwise delete
-                        https://git.io/msdescdoc#bindingdesc
-                        --></p>
-                                <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                                <p> Dark blue silk with gold embroidery, gold-painted front
+                                    endpaper, ivory roller ends.</p>
+
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -92,13 +78,18 @@
                         <origin>
                             <origPlace>
                                 <country>Japan</country></origPlace>
-                            <origDate notBefore="" notAfter="" calendar="Gregorian"><!-- Add the date here. If you know the actual date, change "notBefore" and "notAfter" to "when" --></origDate>
+                            <origDate calendar="Gregorian" notBefore="1603" notAfter="1780">17-18
+                                century </origDate>
                         </origin>
-                        <provenance></provenance><!-- former owners -->
-                        <acquisition>Donated by H.N. Moseley in 1914</acquisition>
+                        <acquisition>Donated by H.N. Moseley in 1914.</acquisition>
                     </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="conservation"> Digitisation of this scroll was supported by
+                                the Nissan Institute of Japanese Studies (2024–2025). </note>
+                        </adminInfo>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
-</TEI>
+    </teiHeader> <text>         <body>             <p><!--Body paragraph provided for validation--></p>         </body>     </text></TEI>
