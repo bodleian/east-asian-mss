@@ -91,9 +91,9 @@
                     </additional>
 
                     <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.43</idno></altIdentifier>
-                            <altIdentifier type="former">
+                           <!-- <altIdentifier type="former">
                                 <idno type="SCN">36840</idno>
-                            </altIdentifier>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>
