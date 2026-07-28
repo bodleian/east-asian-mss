@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.30</idno>
-                        <altIdentifier type="former">
+                        <idno type="ieArk">ark:29072/x0sn009z833g</idno><idno type="crArk">ark:29072/x0sj139299sn</idno><altIdentifier type="former">
                             <idno type="SCN">36827</idno>
                         </altIdentifier>
                     </msIdentifier>

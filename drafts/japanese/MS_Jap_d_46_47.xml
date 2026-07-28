@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.46-47</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0v118rf49fn</idno><idno type="crArk">ark:29072/x0tx31qj664s</idno></msIdentifier>
                     <msContents>
                         <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of the
                                 <term xml:lang="ja-Latn">Kōwakamai</term> (<term xml:lang="ja">幸若舞</term>) text <title>Fushimi Tokiwa</title>, comprising
@@ -93,11 +93,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.46</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.46</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36843</idno>
+                                <idno type="SCN">36843</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -124,12 +122,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.47</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36844</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.47</idno></altIdentifier>
+                            <!--<altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36844</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>

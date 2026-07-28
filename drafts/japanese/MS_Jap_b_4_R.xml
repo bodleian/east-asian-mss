@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.b.4(R)</idno>
-                        <altIdentifier type="former">
+                        <idno type="ieArk">ark:29072/x0s7526d49v4</idno><idno type="crArk">ark:29072/x0s4655h66j8</idno><altIdentifier type="former">
                             <idno type="SCN">36814</idno>
                         </altIdentifier>
                     </msIdentifier>
@@ -81,9 +81,7 @@
                     </history>
 
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.b.4(R)</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.b.4(R)</idno></altIdentifier>
 
                         </msIdentifier>
                         <msContents>
@@ -105,9 +103,7 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.b.4(R)</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.b.4(R)</idno></altIdentifier>
 
                         </msIdentifier>
                         <msContents>

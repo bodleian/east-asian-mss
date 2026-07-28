@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.48-50</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0v692t71625</idno><idno type="crArk">ark:29072/x0v405sb32rc</idno></msIdentifier>
                     <msContents>
                         <summary>An illustrated <term xml:lang="ja">Nara ehon</term> manuscript of
                                 <title>The Tale of Bunshō</title>, consisting of narrative text with
@@ -91,11 +91,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.48</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.48</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36845</idno>
+                                <idno type="SCN">36845</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -123,12 +121,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.49</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36846</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.49</idno></altIdentifier>
+                            <!--<altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36846</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -153,12 +149,10 @@
                         </physDesc>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.50</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36847</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.50</idno></altIdentifier>
+                           <!-- <altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36847</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>

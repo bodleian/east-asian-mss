@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.31-32</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0st74cr49qp</idno><idno type="crArk">ark:29072/x0sq87bv66dt</idno></msIdentifier>
                     <msContents>
                         <summary> Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of the
                                 <term xml:lang="ja-Latn">Kōwakamai</term> (<term xml:lang="ja">幸若舞</term>) text <title>Ibuki</title>, comprising narrative text
@@ -92,11 +92,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.31</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.31</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36828</idno>
+                                <idno type="SCN">36828</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -124,12 +122,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.32</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36829</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.32</idno></altIdentifier>
+                           <!-- <altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36829</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>

@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.38-40</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0td96k349kk</idno><idno type="crArk">ark:29072/x0tb09j66684</idno></msIdentifier>
                     <msContents>
                         <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of
                                 <title>Taketori Monogatari (The Tale of the Bamboo catter)</title>,
@@ -91,11 +91,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.38</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.38</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36835</idno>
+                                <idno type="SCN">36835</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -122,12 +120,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.39</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36536</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.39</idno></altIdentifier>
+                           <!-- <altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36536</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -152,12 +148,10 @@
                         </physDesc>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.40</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36637</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.40</idno></altIdentifier>
+                            <!--<altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36637</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>

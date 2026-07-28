@@ -37,7 +37,7 @@
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Ind.Inst.Misc.30/1-8</idno>
 
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0rf55z883cj</idno><idno type="crArk">ark:29072/x0rb68xd002v</idno></msIdentifier>
                     <head/>
                     <msContents>
                         <summary>Complete set of eight scrolls containing the <title>Lotus
@@ -98,9 +98,7 @@
                         </listBibl>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/1</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/1</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -111,9 +109,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/2</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/2</idno></altIdentifier>
 
                         </msIdentifier>
                         <msContents>
@@ -125,9 +121,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/3</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/3</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -138,9 +132,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/4</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/4</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -151,9 +143,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/5</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/5</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -164,9 +154,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/6</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/6</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -177,9 +165,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/7</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/7</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -190,9 +176,7 @@
                         </msContents>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Ind.Inst.Misc.30/8</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Ind.Inst.Misc.30/8</idno></altIdentifier>
                         </msIdentifier>
                         <msContents>
                             <msItem>

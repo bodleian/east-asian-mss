@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.41-42</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0tm70mw1668</idno><idno type="crArk">ark:29072/x0th83m032w9</idno></msIdentifier>
                     <msContents>
                         <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of
                                 <title>The Tale of Tamamizu</title>, comprising narrative text and
@@ -91,11 +91,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.41</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.41</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36838</idno>
+                                <idno type="SCN">36838</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -122,12 +120,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.42</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36839</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.42</idno></altIdentifier>
+                            <!--<altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36839</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>

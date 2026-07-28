@@ -37,7 +37,7 @@
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Ind.Inst.Misc.25</idno>
 
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0qf85nc508h</idno><idno type="crArk">ark:29072/x0qb98mg66zf</idno></msIdentifier>
                     <head/>
                     <msContents>
                         <summary>Scroll containing <title>the Sutra of Infinite Meanings</title>

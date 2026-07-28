@@ -36,7 +36,7 @@
                         <settlement>Oxford</settlement>
                         <repository>Bodleian Library</repository>
                         <idno type="shelfmark">MS.Jap.d.43-45</idno>
-                    </msIdentifier>
+                    <idno type="ieArk">ark:29072/x0tt44pn82tk</idno><idno type="crArk">ark:29072/x0tq57nr99hv</idno></msIdentifier>
                     <msContents>
                         <summary>Illustrated manuscript (<term xml:lang="ja">奈良絵本</term>) of
                                 <title>Hachikazuki Monogatari</title>, comprising narrative text and
@@ -90,11 +90,9 @@
                         </surrogates>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.43</idno>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.43</idno></altIdentifier>
                             <altIdentifier type="former">
-                                <idno>S.C.36840</idno>
+                                <idno type="SCN">36840</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
@@ -121,12 +119,10 @@
                             </decoDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.44</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36841</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.44</idno></altIdentifier>
+                           <!-- <altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36841</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>
@@ -151,12 +147,10 @@
                         </physDesc>
                     </msPart>
 
-                    <msPart>
-                        <msIdentifier>
-                            <idno>MS.Jap.d.45</idno>
-                            <altIdentifier type="formerShelfmark">
-                                <idno>S.C.36842</idno>
-                            </altIdentifier>
+                    <msPart><msIdentifier><altIdentifier><idno type="part">MS.Jap.d.45</idno></altIdentifier>
+                            <!--<altIdentifier type="formerShelfmark">
+                                <idno type="SCN">36842</idno>
+                            </altIdentifier>-->
                         </msIdentifier>
                         <msContents>
                             <msItem>
